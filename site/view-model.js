@@ -9,10 +9,10 @@
     a=String(a||'');b=String(b||'');let p=0,z=0;
     while(p<Math.min(a.length,b.length)&&a[p]===b[p])p++;
     while(z<Math.min(a.length,b.length)-p&&a[a.length-z-1]===b[b.length-z-1])z++;
-    const side=t=>({prefix:(p>45?'…':'')+t.slice(Math.max(0,p-45),p),changed:t.slice(p,t.length-z),suffix:t.slice(t.length-z,t.length-z+45)+(z>45?'…':'')});
+    const side=t=>({prefix:(p>45?'…':'')+t.slice(Math.max(0,p-45),p),changed:t.slice(p,Math.min(t.length-z,p+300))+(t.length-z-p>300?'…':''),truncated:t.length-z-p>300,suffix:t.slice(t.length-z,t.length-z+45)+(z>45?'…':'')});
     return [{before:side(a),after:side(b)}];
   }
-  function changeView(c,e){return {...c,document_id:e.id,document_title:e.title,source_url:e.url,meaning:{label:c.article?.startsWith('표 ')?'기준표 변경':'조문 변경',description:(c.article||'본문')+'의 변경 전·후 공식 원문을 대조했습니다.',focus:focus(c.before,c.after)}};}
+  function changeView(c,e){return {...c,document_id:e.id,document_title:e.title,source_url:e.url,meaning:{label:c.article?.startsWith('표 ')?'기준표 변경':'조문 변경',description:(c.article||'본문')+'의 변경 전·후 공식 원문을 대조했습니다.',focus:c.focus?.length?c.focus:focus(c.before,c.after),diff_window_count:c.diff_window_count||0}};}
   function eventView(raw){
     const changes=(raw.changes||[]).map(c=>changeView(c,raw)),analysis=raw.policy_analysis?.verified?raw.policy_analysis:null;
     return {...raw,raw,loaded:Array.isArray(raw.changes),topic:raw.category,

@@ -20,6 +20,7 @@ import time
 from urllib.parse import urlencode, quote, urlparse
 from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
+from .textdiff import substantive_text, difference_windows
 
 API = "https://www.law.go.kr/DRF/"
 FIELDS = {
@@ -213,6 +214,7 @@ def compare_bodies(before: dict, after: dict, *, annual=False) -> dict:
         b = {**b, **tb}
     changes = []
     unresolved = []
+    presentation_only = 0
     for clause in sorted(set(a) | set(b)):
         old, new = a.get(clause), b.get(clause)
         if old is None or new is None:
@@ -223,7 +225,12 @@ def compare_bodies(before: dict, after: dict, *, annual=False) -> dict:
             else:
                 unresolved.append({"clause": clause, "reason": "counterpart_not_verified"})
         elif old != new:
+            if substantive_text(old)==substantive_text(new):
+                presentation_only += 1
+                continue
+            focus, count=difference_windows(old,new)
             changes.append({"clause": clause, "before": old, "after": new,
+                            "focus": focus, "diff_window_count": count,
                             "before_hash": hash256(old), "after_hash": hash256(new)})
     if before.get("status") != "complete" or after.get("status") != "complete":
         unresolved.append({"reason": "incomplete_original_or_attachment"})
@@ -232,7 +239,7 @@ def compare_bodies(before: dict, after: dict, *, annual=False) -> dict:
                    "changed" if changes else "no_text_change"),
         "relationship": "annual_successor" if annual else "same_official_id_revision",
         "changes": changes, "unresolved": unresolved,
-        "counts": {"changed": len(changes), "unresolved": len(unresolved)},
+        "counts": {"changed": len(changes), "unresolved": len(unresolved), "presentation_only": presentation_only},
     }
 
 

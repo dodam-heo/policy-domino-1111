@@ -162,6 +162,7 @@
       append(wrapper,pair);
       return wrapper;
     }
+    if(meaning.diff_window_count>focus.length)append(wrapper,create("p","section-help","변경 위치 "+meaning.diff_window_count+"곳 중 "+focus.length+"곳 표시 · 나머지는 전체 원문에서 확인하세요."));
     for(const [index,part] of focus.entries()){
       const pair=create("div","highlight-comparison");
       if(focus.length>1)
@@ -180,6 +181,7 @@
         else append(p,create("span","diff-absent",
           side==="before"?"[추가된 부분]":"[삭제된 부분]"));
         if(snippet.suffix)append(p,create("span","diff-context",snippet.suffix));
+        if(snippet.truncated)append(block,create("p","section-help","긴 변경 구간은 일부만 표시했습니다. 전체 원문을 펼쳐 확인하세요."));
         append(block,p);
         append(pair,block);
       }
@@ -551,7 +553,7 @@
     $("stat-events").textContent=num(raw.total_source_versions_saved||stats.events);
     $("stat-agencies").textContent=num(stats.institutions);
     $("stat-actions").textContent=num(stats.actions);
-    $("analysis-coverage").textContent="공식 판본 "+num(raw.total_source_versions_saved)+"건 · 신구 변경 확인 "+num(raw.summary?.with_verified_changes)+"건 · 수집·분석 현황 펼치기";
+    $("analysis-coverage").textContent="공식 판본 "+num(raw.total_source_versions_saved)+"건 · 신구 문구 차이 "+num(raw.summary?.with_text_differences??raw.summary?.with_verified_changes)+"건 · 수집·분석 현황 펼치기";
     $("ai-review-progress").textContent="Gemini 정책 요약 "+num(raw.analysis?.policy_ai_summaries)+"건 · 남은 요약 "+num(raw.analysis?.policy_summaries_pending)+"건";
     const c=raw.coverage||{};
     $("institution-link-progress").textContent="알리오플러스 공공기관 명부 "+num(c.alio_public_institutions)+"곳 / 공식 명부 "+num(c.alio_reported)+"곳 · 정부24 보관 사업 "+num(c.gov24_programs)+"건 / 운영기관 "+num(c.gov24_agencies)+"곳. 기관 명부 수집과 정책별 영향 확인은 별도이며, 정부24 최신 전체 갱신은 아직 확인되지 않았습니다.";

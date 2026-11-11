@@ -62,6 +62,7 @@ def assemble(root: Path, limit: int | None = None) -> dict:
         before_after = [{
             "article": c.get("clause", ""), "before": c.get("before", "")[:15000],
             "after": c.get("after", "")[:15000],
+            "focus": c.get("focus", []), "diff_window_count": c.get("diff_window_count", 0),
         } for c in changes[:80]]
         candidates = impacts.get(key, [])
         events.append({
@@ -91,7 +92,8 @@ def assemble(root: Path, limit: int | None = None) -> dict:
         "events": events,
         "summary": {
             "displayed_events": len(events),
-            "with_verified_changes": sum(bool(e["changes"]) for e in events),
+            "with_verified_changes": sum(bool(e["changes"]) and e["comparison_status"] == "changed" for e in events),
+            "with_text_differences": sum(bool(e["changes"]) for e in events),
             "with_institutional_actions": sum(bool(e["institutions"]) for e in events),
             "agency_action_count": sum(len(e["institutions"]) for e in events),
             "by_category": dict(Counter(e["category"] for e in events)),

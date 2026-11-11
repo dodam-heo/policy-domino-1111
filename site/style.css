@@ -314,3 +314,5 @@ a{color:var(--blue);text-underline-offset:3px}
 
 /* Home banners are native links with keyboard access and a full state reset. */
 +.brand{color:inherit;text-decoration:none}.home-banner{display:block;color:inherit;text-decoration:none}.home-banner:hover h1{color:#176381}.intro-copy>p:last-child{max-width:900px}.top-inner{padding:12px 16px}.summary{border-radius:14px}.coverage-expanded{gap:5px}.registry-open{width:100%;padding:9px 12px}.coverage-status-inner{padding:12px 16px}.intro h1{margin-bottom:6px}.home-banner:focus-visible{border-radius:8px}@media(max-width:850px){.intro{padding:12px 15px 16px}.intro-copy>p:last-child{line-height:1.7}.brand-sub{font-size:10px}}
+
+.diff-preview-text{max-height:250px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere}.full-clause-text{max-height:360px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere}.highlight-comparison{align-items:start}.diff-context{color:#69808b}.source-diff-preview .diff-changed{padding:1px 2px}
