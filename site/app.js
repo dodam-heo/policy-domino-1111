@@ -276,7 +276,8 @@
         append(highlights,create("p","section-help",
           "그 밖의 "+num(event.changes.length-shown.length)+
           "개 변경 조문은 아래 '공식 변경 전·후와 출처'에서 확인할 수 있습니다."));
-      const more=create("details","highlight-detail");append(more,create("summary","","변경 조문·기준표 상세 "+event.changes.length+"개"),highlights);append(section,more);
+      // Important real changes must be visible before optional source details.
+      append(section,highlights);
     }
     const stats=create("div","impact-numbers");
     append(stats,create("span","","검토 기관 "+num(event.institution_count)+"곳"),
@@ -336,6 +337,7 @@
   function renderInstitutions(event) {
     const section=heading("기관별 변경·사업 검토사항",
       "공식 사업의 운영기준과 변경 조문을 대조해 검토할 업무를 정리했습니다.");
+    let relatedRules=null;
     if(event.dependent_rules?.length){
       const rules=create("details","proof");
       append(rules,create("summary","","변경 조문을 인용하는 규정 "+num(event.dependent_rules.length)+"건"),create("p","","공식 원문의 인용 관계입니다. 규정 개정 필요 여부와 실제 업무 적용 여부는 각 근거를 대조해 확인하세요."));
@@ -344,12 +346,13 @@
         append(item,create("p","review-task",edge.title+" · "+edge.article),create("p","",event.title+" "+edge.changed_article+" 인용"),create("p","",edge.reference_quote),link(edge.url,"관련 규정 원문"));
         append(rules,item);
       }
-      append(section,rules);
+      relatedRules=rules;
     }
     const groups=view.impactGroups(event);
     if (!groups.length) {
       append(section,create("p","no-impacts",
         "이 변경 조문과 연결되는 기관·공공사업의 공식 근거가 아직 확인되지 않았습니다. 원천자료 수집·인용 대조가 더 필요합니다."));
+      if(relatedRules)append(section,relatedRules);
       return section;
     }
     // Names come solely from this event's verified institutional reviews.
@@ -460,6 +463,7 @@
     compactSelect.onchange=()=>choose(compactSelect.value);
     drawFilterButtons();
     drawResults();
+    if(relatedRules)append(section,relatedRules);
     return section;
   }
   function renderEvidence(event) {
@@ -567,7 +571,7 @@
     $("stat-agencies").textContent=num(stats.institutions);
     $("stat-actions").textContent=num(stats.actions);
     $("analysis-coverage").textContent="공식 판본 "+num(raw.total_source_versions_saved)+"건 · 신구 문구 차이 "+num(raw.summary?.with_text_differences??raw.summary?.with_verified_changes)+"건 · 수집·분석 현황 펼치기";
-    $("ai-review-progress").textContent="Gemini 정책 요약 "+num(raw.analysis?.policy_ai_summaries)+"건 · 남은 요약 "+num(raw.analysis?.policy_summaries_pending)+"건";
+    $("ai-review-progress").textContent="AI 정책 변경 설명 "+num(raw.analysis?.policy_ai_summaries)+"건 · 추가 분석 대상 "+num(raw.analysis?.policy_summaries_pending)+"건";
     const c=raw.coverage||{};
     $("institution-link-progress").textContent="알리오플러스 공공기관 명부 "+num(c.alio_public_institutions)+"곳 / 공식 명부 "+num(c.alio_reported)+"곳 · 정부24 보관 사업 "+num(c.gov24_programs)+"건 / 운영기관 "+num(c.gov24_agencies)+"곳. 기관 명부 수집과 정책별 영향 확인은 별도이며, 정부24 최신 전체 갱신은 아직 확인되지 않았습니다.";
     $("updated").textContent=raw.generated_at?" · 자료 갱신 "+new Date(raw.generated_at).toLocaleString("ko-KR",{timeZone:"Asia/Seoul"})+" KST":"";
