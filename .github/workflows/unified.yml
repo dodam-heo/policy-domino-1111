@@ -83,6 +83,27 @@ jobs:
         env:
           GOV24_SERVICE_KEY: ${{ secrets.GOV24_SERVICE_KEY || secrets.ODCLOUD_API_KEY || vars.GOV24_SERVICE_KEY || vars.ODCLOUD_API_KEY }}
         run: python -m unified.gov24 --root data --list-pages 12 --detail-pages 60
+      # One-time pinned, READ-ONLY import. This checkout never pushes to NEXT,
+      # and the imported sources never override 1111's official archived XML.
+      - name: Check out immutable NEXT source snapshot (read-only)
+        if: github.event_name == 'push' && contains(github.event.head_commit.message, '[import-next-snapshot]')
+        uses: actions/checkout@v4
+        with:
+          repository: dodam-heo/policy-domino-next
+          ref: d0f380147a9524f11c1a997fb69e503b22850ef4
+          path: .next-source-readonly
+          persist-credentials: false
+          sparse-checkout: |
+            policy_domino
+            data/state
+          sparse-checkout-cone-mode: true
+      - name: Reuse NEXT exact official clauses and comparison evidence
+        if: github.event_name == 'push' && contains(github.event.head_commit.message, '[import-next-snapshot]')
+        run: |
+          python -m unified.import_next \
+            --next .next-source-readonly --root data \
+            --expected-ref d0f380147a9524f11c1a997fb69e503b22850ef4 \
+            --max-versions 1800 --max-comparisons 900
       - name: Identify verified public-agency program impacts
         if: github.event_name != 'pull_request'
         env:
