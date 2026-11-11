@@ -98,6 +98,22 @@ class IncrementalLedgerTest(unittest.TestCase):
             self.assertEqual(compared.get("relationship"), "annual_successor")
             self.assertEqual(compared["prior_record"]["stable_id"], "old-id")
 
+    def test_reuse_same_day_annual_search_and_count_actual_pending(self):
+        """Archived annual result must not consume fresh pagination every hour."""
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            api = OfficialStub()
+            today = dt.date(2026, 11, 11)
+            first = run(root, api, limit_streams=1, detail_budget=0, today=today)
+            annual_queries = [x for x in api.queries if x[3] == "2027"]
+            self.assertTrue(annual_queries)
+            self.assertEqual(first["indexed_unique_versions"], 1)
+            self.assertEqual(first["pending_index_versions"], 1)
+            second = run(root, api, limit_streams=1, detail_budget=0, today=today)
+            self.assertEqual(len([x for x in api.queries if x[3] == "2027"]),
+                             len(annual_queries))
+            self.assertEqual(second["pending_index_versions"], 1)
+
     def test_discovered_versions_survive_zero_detail_budget(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

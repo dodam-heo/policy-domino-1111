@@ -489,6 +489,12 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
         key = "|".join((source, edition, kind, start, end, stage))
         cached = state["coverage"].get(key, {})
         historical = stage == "historical" or stage.startswith("split_")
+        # Long annual searches are used for historical recall. A complete
+        # same-day search is reusable; hourly recent-date streams still refresh.
+        if (stage in ("annual_body_forward", "annual_forward")
+                and cached.get("complete") is True
+                and cached.get("checked_at", "").startswith(today.isoformat())):
+            return True
         # A page-limited historical window is a resumable tree, not a request
         # to re-download its first 2,000 rows on every run. Completed children
         # are immutable evidence; revisit only missing/incomplete children.
@@ -718,11 +724,31 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
             state["errors"][ident(rec)] = type(exc).__name__ + ": " + str(exc)[:150]
     state["stream_offset"] = (offset + len(schedule)) % len(states)
     state["last_run"] = today.isoformat()
+    # Do not mislabel EVERY indexed edition as pending. Existing originals
+    # and comparisons are cumulative across all prior collection runs.
+    saved_count = complete_originals = missing_originals = 0
+    without_comparison = 0
+    for record in records:
+        original = load(root / relative_path(record))
+        if original:
+            saved_count += 1
+            if (original.get("official_xml_base64")
+                    and original.get("body", {}).get("status") == "complete"):
+                complete_originals += 1
+        else:
+            missing_originals += 1
+        comparison_path = root / "comparisons" / (
+            hash256(ident(record))[:24] + ".json.gz")
+        without_comparison += not comparison_path.exists()
     state["last_run_stats"] = {
         "detail_attempted": attempted, "complete_originals_added": complete,
         "compared_pairs_processed": compared,
         "failed_windows": failed, "streams_checked": len(schedule),
-        "pending_index_versions": len(records),
+        "indexed_unique_versions": len(records),
+        "saved_indexed_originals": saved_count,
+        "verified_complete_originals": complete_originals,
+        "pending_index_versions": missing_originals,
+        "indexed_versions_without_comparison": without_comparison,
         "year_search_year": today.year+1,
     }
     save_json(state_file, state)
