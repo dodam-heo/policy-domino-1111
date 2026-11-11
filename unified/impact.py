@@ -327,10 +327,10 @@ def impact_for(doc: dict, comparison: dict, programs: list[dict]) -> list[dict]:
     # separate paths. Do not treat a standard-name match as legal proof.
     standards = [plain(x) for x in named_standards(doc.get("title", ""))]
     programs = [p for p in programs if (
-        any(title and title in plain(" ".join(p["basis"].values()))
+        any(title and title in p.get("_basis_search", plain(" ".join(p["basis"].values())))
             for title in reference_titles)
         or (doc.get("source") == "admrul" and standards and
-            any(term in plain(" ".join(p["criteria"].values()))
+            any(term in p.get("_criteria_search", plain(" ".join(p["criteria"].values())))
                 for term in standards)))]
     for change in comparison["changes"]:
         for p in programs:
@@ -386,6 +386,12 @@ def run(root: Path, limit_events: int = 300) -> dict:
     dependency_index = build_index(root)
     dependency_count = 0
     programs = list(read_programs(root))
+    # Each policy previously normalized all 9k+ lengthy official program
+    # records anew. Cache only in-memory search strings; never modify the
+    # archived official source records.
+    for program in programs:
+        program["_basis_search"] = plain(" ".join(program["basis"].values()))
+        program["_criteria_search"] = plain(" ".join(program["criteria"].values()))
     generated = []
     policy_ai_count = 0
     statuses = Counter()
