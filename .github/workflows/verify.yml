@@ -30,3 +30,32 @@ jobs:
           node --check site/view-model.js
           node --check site/presentation.js
           node tests/test_ui_identity.cjs
+
+  gov24-auth:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify both official Gov24 endpoints with the configured secret
+        env:
+          GOV24_SERVICE_KEY: ${{ secrets.GOV24_SERVICE_KEY }}
+        run: |
+          python - <<'PY'
+          import os, sys
+          from unified.gov24 import Gov24Client
+          key = os.getenv("GOV24_SERVICE_KEY", "").strip()
+          if not key:
+              print("GOV24_AUTH_FAILURE: GOV24_SERVICE_KEY secret is not configured")
+              sys.exit(1)
+          client = Gov24Client(key)
+          for endpoint in ("serviceList", "serviceDetail"):
+              try:
+                  response = client.request(endpoint, page=1, per_page=1)
+              except Exception as exc:
+                  print(f"GOV24_AUTH_FAILURE: {endpoint}: {type(exc).__name__} (credential is never logged)")
+                  sys.exit(1)
+              print(f"GOV24_AUTH_OK: {endpoint}; official totalCount={response['totalCount']}")
+          PY
