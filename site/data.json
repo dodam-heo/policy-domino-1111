@@ -1,6 +1,6 @@
 {
   "schema": "policy-domino-unified-ui-v1",
-  "generated_at": "2026-11-11T18:13:34.472306+00:00",
+  "generated_at": "2026-11-11T19:13:22.853114+00:00",
   "scope": "source-backed version catalog; institutional actions only for exact citation evidence",
   "total_source_versions_saved": 2235,
   "events": [
@@ -1129,20 +1129,27 @@
           }
         },
         "featured_change_indices": [
-          5,
           6,
-          7
+          7,
+          8
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
-      "policy_analysis": null,
+      "policy_analysis": {
+        "explanation": "의약품 등의 안전에 관한 규칙 개정에 따라 행정처분의 기준(별표 8) 개정일자가 2026년 3월 5일에서 2026년 11월 10일로 변경되었으며, 동시에 둘 이상의 위반사항이 있을 때의 처분 기준 조문 표기가 일부 정비되었습니다.",
+        "old_quote": "별표 0008 (행정처분의 기준(제95조 관련)): ■ 의약품 등의 안전에 관한 규칙 [별표 8] <개정 2026. 3. 5.> 행정처분의 기준(제95조 관련) Ⅰ. 일반기준 1. 동시에 둘 이상의 위반사항이 있는 경우에는 다음 각 목에 따라 처분한다. 가. 위반사항이 둘 이상인 경우로서 그에 해당하는 각각의 처분기 준이 다른 경우에는 그 중 무거운 행정처분의 기준에 따르되, 그 행정처분의 기준이 업무정지인 경우에는 무거운 처분의 업무 정지기간에 나머지 각각 처분의 업무정지기간별로 2분의 1까지 합산ㆍ가중하여 행정처분을 한다. 이 경우 그 최대기간은 12개 월로 한다. 다만, 위반내용이 인과관계에 있어 같은 사안인 경우",
+        "new_quote": "별표 0008 (행정처분의 기준(제95조 관련)): ■ 의약품 등의 안전에 관한 규칙 [별표 8] <개정 2026. 11. 10.> 행정처분의 기준(제95조 관련) Ⅰ. 일반기준 1. 동시에 둘 이상의 위반사항이 있는 경우에는 다음 각 목에 따라 처분한다. 가. 위반사항이 둘 이상인 경우로서 그에 해당하는 각각의 처분기 준이 다른 경우에는 그 중 무거운 행정처분의 기준에 따르되, 그 행정처분의 기준이 업무정지인 경우에는 무거운 처분의 업무 정지기간에 나머지 각각 처분의 업무정지기간별로 2분의 1까지 합산ㆍ가중하여 행정처분을 한다. 이 경우 그 최대기간은 12개 월로 한다. 다만, 위반내용이 인과관계에 있어 같은 사안인 ",
+        "program_quote": "별표 0008 (행정처분의 기준(제95조 관련)): ■ 의약품 등의 안전에 관한 규칙 [별표 8] <개정 2026. 11. 10.> 행정처분의 기준(제95조 관련) Ⅰ. 일반기준 1. 동시에 둘 이상의 위반사항이 있는 경우에는 다음 각 목에 따라 처분한다. 가. 위반사항이 둘 이상인 경우로서 그에 해당하는 각각의 처분기 준이 다른 경우에는 그 중 무거운 행정처분의 기준에 따르되, 그 행정처분의 기준이 업무정지인 경우에는 무거운 처분의 업무 정지기간에 나머지 각각 처분의 업무정지기간별로 2분의 1까지 합산ㆍ가중하여 행정처분을 한다. 이 경우 그 최대기간은 12개 월로 한다. 다만, 위반내용이 인과관계에 있어 같은 사안인 ",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      },
       "impact_level": "pending",
       "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%9D%98%EC%95%BD%ED%92%88%20%EB%93%B1%EC%9D%98%20%EC%95%88%EC%A0%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%B9%99",
       "detail_url": "events/6bc285e9a1adb8e1d02e7f5e.json",
-      "change_count": 12,
+      "change_count": 13,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -190033,16 +190040,16 @@
     }
   },
   "collection": {
-    "detail_attempted": 60,
-    "complete_originals_added": 38,
-    "compared_pairs_processed": 50,
-    "failed_windows": 7,
+    "detail_attempted": 3,
+    "complete_originals_added": 0,
+    "compared_pairs_processed": 1,
+    "failed_windows": 12,
     "streams_checked": 6,
-    "indexed_unique_versions": 28862,
-    "saved_indexed_originals": 2201,
-    "verified_complete_originals": 480,
-    "pending_index_versions": 26661,
-    "indexed_versions_without_comparison": 28107,
+    "indexed_unique_versions": 28899,
+    "saved_indexed_originals": 2235,
+    "verified_complete_originals": 497,
+    "pending_index_versions": 26664,
+    "indexed_versions_without_comparison": 28144,
     "year_search_year": 2027
   },
   "analysis": {
@@ -190065,15 +190072,15 @@
     "ai_failure_reasons": {
       "AI_HTTP_503:provider_rejected_request": 1
     },
-    "policy_ai_summaries": 252,
+    "policy_ai_summaries": 253,
     "ai_configured": true,
-    "policy_summaries_pending": 354
+    "policy_summaries_pending": 353
   },
   "coverage": {
     "alio_public_institutions": 355,
     "alio_reported": 355,
     "alio_source_url": "https://www.alioplus.go.kr/organization/organByTypeList.do?schApbaGb=APBA&pageNo=1",
-    "alio_updated_at": "2026-11-11T17:59:02.430353+00:00",
+    "alio_updated_at": "2026-11-11T19:01:41.936717+00:00",
     "gov24_programs": 10942,
     "gov24_agencies": 686,
     "gov24_agency_types": {
@@ -190095,11 +190102,11 @@
     "directory_is_impact_evidence": false
   },
   "reconciliation": {
-    "indexed_unique_versions": 28597,
+    "indexed_unique_versions": 28600,
     "saved_versions": 2235,
-    "indexed_without_saved_original": 26661,
+    "indexed_without_saved_original": 26664,
     "official_complete_originals": 497,
-    "legacy_extracted_versions_requiring_source_revalidation": 1217,
+    "legacy_extracted_versions_requiring_source_revalidation": 1215,
     "comparisons": 755,
     "comparisons_by_status": {
       "changed": 207,
