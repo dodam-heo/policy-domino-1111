@@ -327,12 +327,25 @@
       link(review.source_url,"변경 조문"),
       link(review.related_rule_url,"관련 공식 규정"),
       link(review.program_url,"공식 사업자료"));
+    for(const edge of review.dependency_path||[]) {
+      append(proof,create("p","",edge.title+" "+edge.article+" → "+edge.reference_quote),link(edge.url,"중간 규정 원문"));
+    }
     append(card,proof);
     return card;
   }
   function renderInstitutions(event) {
     const section=heading("기관별 변경·사업 검토사항",
       "공식 사업의 운영기준과 변경 조문을 대조해 검토할 업무를 정리했습니다.");
+    if(event.dependent_rules?.length){
+      const rules=create("details","proof");
+      append(rules,create("summary","","변경 조문을 인용하는 규정 "+num(event.dependent_rules.length)+"건"),create("p","","공식 원문의 인용 관계입니다. 규정 개정 필요 여부와 실제 업무 적용 여부는 각 근거를 대조해 확인하세요."));
+      for(const edge of event.dependent_rules){
+        const item=create("div","review-card");
+        append(item,create("p","review-task",edge.title+" · "+edge.article),create("p","",event.title+" "+edge.changed_article+" 인용"),create("p","",edge.reference_quote),link(edge.url,"관련 규정 원문"));
+        append(rules,item);
+      }
+      append(section,rules);
+    }
     const groups=view.impactGroups(event);
     if (!groups.length) {
       append(section,create("p","no-impacts",

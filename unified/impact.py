@@ -314,6 +314,9 @@ def impact_for(doc: dict, comparison: dict, programs: list[dict]) -> list[dict]:
 def run(root: Path, limit_events: int = 300) -> dict:
     from .engine import refresh_cached
     refresh_cached(root)
+    from .dependencies import build_index, dependencies_for, program_actions
+    dependency_index = build_index(root)
+    dependency_count = 0
     programs = list(read_programs(root))
     generated = []
     policy_ai_count = 0
@@ -339,7 +342,12 @@ def run(root: Path, limit_events: int = 300) -> dict:
                 original = load(root / relative_path(record), {})
                 if original.get("official_xml_base64"):
                     context_doc[field] = " ".join(original.get("body", {}).get("clauses", {}).values())
+        dependencies = dependencies_for(context_doc, comparison, dependency_index)
+        dependency_count += len(dependencies)
         impacted = impact_for(context_doc, comparison, programs)
+        direct_services = {a["service_id"] for a in impacted}
+        impacted.extend(a for a in program_actions(context_doc, comparison, dependencies, programs)
+                        if a["service_id"] not in direct_services)
         # AI is an optional explanatory layer AFTER deterministic official
         # linkage; model text cannot create a new agency or evidence edge.
         if key_available and model_available:
@@ -392,7 +400,7 @@ def run(root: Path, limit_events: int = 300) -> dict:
                 policy_ai_count += 1
         payload = {"doc": doc, "comparison_status": comparison.get("status"),
                    "changes_count": len(comparison.get("changes", [])),
-                   "institutional_actions": impacted, "policy_analysis": policy_analysis}
+                   "institutional_actions": impacted, "dependent_rules": dependencies, "policy_analysis": policy_analysis}
         target = root / "impacts" / (hash256("|".join((
             doc.get("source", ""), doc.get("stable_id", ""),
             doc.get("serial", ""))))[:24] + ".json.gz")
@@ -401,6 +409,7 @@ def run(root: Path, limit_events: int = 300) -> dict:
         generated.extend(impacted)
     stats = {"official_programs": len(programs), "comparisons_considered": sum(statuses.values()),
              "verified_institutional_tasks": len(generated),
+             "official_rule_dependencies": dependency_count,
              "comparison_statuses": dict(statuses),
              "ai_explanation_attempts": ai_attempts,
              "ai_verified_explanations": ai_verified,
