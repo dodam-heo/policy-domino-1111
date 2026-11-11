@@ -32,7 +32,7 @@ def classify(doc, changes) -> str:
 
 
 
-AMOUNT_OR_PERIOD = re.compile(r"(?<![\\d가-힣])\\d[\\d,]*(?:\\.\\d+)?\\s*(?:만원|개월|원|%|일|명|가구|년)?")
+AMOUNT_OR_PERIOD = re.compile(r"(?<![\d가-힣])\d[\d,]*(?:\.\d+)?\s*(?:만원|개월|원|%|일|명|가구|년)?")
 IMPACT_CRITERIA = (
     ("급여·지원금·소득 기준 변경", re.compile(r"급여|지원금|중위소득|소득기준|소득인정액|생계비|주거비|장학금|보조금|지원액")),
     ("지원대상·자격·선정 기준 변경", re.compile(r"선정기준|지원대상|입주자격|수급자격|자격기준|심사기준|지원요건")),
@@ -83,8 +83,8 @@ def primary_change_summary(changes: list[dict]) -> str:
         prior = (first.get("before") or {}).get("changed", "").strip()
         new = (first.get("after") or {}).get("changed", "").strip()
         if prior or new:
-            prior = re.sub(r"\\s+", " ", prior)[:76] or "신설"
-            new = re.sub(r"\\s+", " ", new)[:76] or "삭제"
+            prior = re.sub(r"\s+", " ", prior)[:76] or "신설"
+            new = re.sub(r"\s+", " ", new)[:76] or "삭제"
             return str(change.get("clause") or "본문") + " · " + prior + " → " + new
     return ""
 
