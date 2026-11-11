@@ -327,10 +327,10 @@ def impact_for(doc: dict, comparison: dict, programs: list[dict]) -> list[dict]:
     # separate paths. Do not treat a standard-name match as legal proof.
     standards = [plain(x) for x in named_standards(doc.get("title", ""))]
     programs = [p for p in programs if (
-        any(title and title in p.get("_basis_search", plain(" ".join(p["basis"].values())))
+        any(title and title in (p.get("_basis_search") or plain(" ".join(p["basis"].values())))
             for title in reference_titles)
         or (doc.get("source") == "admrul" and standards and
-            any(term in p.get("_criteria_search", plain(" ".join(p["criteria"].values())))
+            any(term in (p.get("_criteria_search") or plain(" ".join(p["criteria"].values())))
                 for term in standards)))]
     for change in comparison["changes"]:
         for p in programs:
