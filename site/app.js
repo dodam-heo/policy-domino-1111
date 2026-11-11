@@ -5,7 +5,7 @@
   const model = window.PolicyDominoModel;
   let requestId=0;
   const state = {
-    data: null, events: [], selected: null, mode: "impact", category:"",source:"",sort:"published",
+    data: null, events: [], selected: null, mode: "all", category:"",source:"",sort:"impact",
     query: "", visible: 60, institutionFilter: "all", verification:""
   };
   const mobile = () => window.matchMedia("(max-width:850px)").matches;
@@ -128,8 +128,13 @@
           pill(categories[0]):null,
         create("span","item-date",event.published_at||"날짜 미확인"));
       const tags=create("div","item-tags");
-      if (event.impact_level==="high"&&event.priority_reasons?.length)
-        append(tags,pill("우선 검토 · "+compact(event.priority_reasons[0],32),"priority"));
+      const impact=event.impact_assessment;
+      if (impact) {
+        const status=impact.classification==="high"?"영향도 큼":
+          impact.classification==="pending"?"평가 중":"일반";
+        const points=impact.score_min+(impact.score_complete?"점":"점 이상");
+        append(tags,pill(status+" · "+points,impact.classification==="high"?"priority":"impact-score"));
+      }
       if (event.source_count>1) append(tags,pill("동시 개정 "+num(event.source_count)+"건"));
       if (event.institution_count) append(tags,pill("검토 기관 "+num(event.institution_count)+"곳","impact"));
       if (event.review_count) append(tags,pill("업무 검토 "+num(event.review_count)+"건"));
@@ -219,24 +224,20 @@
     section.className="detail-section core";
     const summary=create("div","core-summary");
     append(summary,create("strong","",compact(event.headline,220)));
-    if (event.priority_reasons?.length) {
-      const reasons=create("div","priority-reasons");
-      append(reasons,create("span","priority-caption","우선 검토 선정 이유"));
-      for(const reason of event.priority_reasons)append(reasons,pill(reason,"priority"));
-      append(summary,reasons);
-    }
+    // Per-axis score and source trail are shown once above this section.
     if(event.comparison_status!=="changed")
       append(summary,create("p","core-caution","신구 비교의 일부 근거가 아직 확인 중입니다. 미확인 항목은 확정된 변경으로 취급하지 않습니다."));
     if(event.headline.length>170){const more=create("details","highlight-detail");append(more,create("summary","","정책 요약 전체 보기"),create("p","",event.headline));append(summary,more);}
     append(section,summary);
     if (event.changes?.length) {
-      const verifiedAi=new Map((event.ai_summaries||[])
-        .map(row=>[row.document_id+"|"+row.article,row]));
       const highlights=create("div","highlights");
-      const featured=(event.highlights||[]).map(key=>
-        (event.changes||[]).find(ch=>ch.document_id===key.document_id &&
-          ch.article===key.article)).filter(Boolean);
-      const shown=featured.length?featured:event.changes.slice(0,3);
+      // Highlight only source-verified, substantive edits. Historical renaming,
+      // citation formatting and revision-date changes remain in the full diff.
+      const indices=event.impact_assessment?.featured_change_indices||[];
+      const shown=indices.map(i=>event.changes[i]).filter(Boolean).slice(0,3);
+      if(!shown.length)
+        append(highlights,create("p","no-impacts",
+          "현재 확보된 신구대비에서 핵심 지급액·자격·절차·기관 기능의 실질 변경을 특정하지 못했습니다. 단순 표현·인용 정비를 포함한 전체 변경은 아래 신구대비에서 확인할 수 있습니다."));
       for (const change of shown) {
         const meaning=change.meaning||{};
         const row=create("div","highlight");
@@ -247,34 +248,21 @@
           create("span","highlight-doc",
             change.document_title+" · "+change.article));
         append(row,lead);
-        const ai=verifiedAi.get(change.document_id+"|"+change.article);
-        if(ai?.summary && !meaning.source_check_required) {
-          append(row,create("strong","highlight-description",compact(ai.summary,160)),
-            create("p","highlight-source-label",
-              "AI 보조 요약 · 원문 인용 검증 완료"));
-          if(ai.summary.length>160){
-            const more=create("details","highlight-detail");
-            append(more,create("summary","","핵심 요약 전체 보기"),
-              create("p","",ai.summary));
-            append(row,more);
-          }
-        } else {
-          const focus=meaning.focus?.[0]||{};
-          const oldText=compact(focus.before?.changed||"",70);
-          const newText=compact(focus.after?.changed||"",70);
-          const factual=oldText||newText?"변경 전 ‘"+(oldText||"없음")+"’ → 변경 후 ‘"+(newText||"없음")+"’":"";
-          const description=change.brief||factual||meaning.description||"원문 내용 확인 필요";
-          append(row,create("strong","highlight-description",compact(description,160)));
-          if(description.length>160){
-            const more=create("details","highlight-detail");
-            append(more,create("summary","","변경 설명 전체 보기"),
-              create("p","",description));
-            append(row,more);
-          }
-          if(meaning.source_check_required) {
-            append(row,create("p","highlight-warning",
-              "수집된 종전·현행 본문만으로는 실제 개정 내용을 단정할 수 없어 이 조문은 재확인 대상입니다."));
-          }
+        const focus=meaning.focus?.[0]||{};
+        const oldText=compact(focus.before?.changed||"",70);
+        const newText=compact(focus.after?.changed||"",70);
+        const factual=oldText||newText?"변경 전 ‘"+(oldText||"없음")+"’ → 변경 후 ‘"+(newText||"없음")+"’":"";
+        const description=change.brief||factual||meaning.description||"원문 내용 확인 필요";
+        append(row,create("strong","highlight-description",compact(description,160)));
+        if(description.length>160){
+          const more=create("details","highlight-detail");
+          append(more,create("summary","","변경 설명 전체 보기"),
+            create("p","",description));
+          append(row,more);
+        }
+        if(meaning.source_check_required) {
+          append(row,create("p","highlight-warning",
+            "종전·현행 본문과 첨부자료의 추가 대조가 필요한 변경입니다."));
         }
         if(change.before || change.after || meaning.focus?.length) {
           const first=shown.indexOf(change)===0;
@@ -291,7 +279,7 @@
       if (event.changes.length>shown.length)
         append(highlights,create("p","section-help",
           "그 밖의 "+num(event.changes.length-shown.length)+
-          "개 변경 조문은 아래 '공식 변경 전·후와 출처'에서 확인할 수 있습니다."));
+          "개 변경·표현 정비는 아래 '공식 신구대비와 근거 원문'에서 확인할 수 있습니다."));
       // Important real changes must be visible before optional source details.
       append(section,highlights);
     }
@@ -562,6 +550,49 @@
     append(section,drawer);
     return section;
   }
+  function renderImpactScore(event) {
+    const impact=event.impact_assessment;
+    if(!impact)return null;
+    const section=create("section","impact-score-section");
+    const title=create("div","impact-score-title");
+    const classification={
+      high:"영향도 큼",pending:"평가 중",normal:"일반"
+    }[impact.classification]||"평가 중";
+    const points=impact.score_min+(impact.score_complete?"점":"점 이상");
+    append(title,create("strong","",classification+" · 영향도 "+points+" / 100"),
+      create("span","",impact.score_complete?"세 영역 평가 완료":
+        "확인된 점수만 합산 · 미확인 요소 제외"));
+    append(section,title);
+    const breakdown=create("div","impact-score-breakdown");
+    for(const [key,label,max]of [
+      ["substance","변경의 실질성",40],
+      ["scope","적용 범위",35],
+      ["ripple","파급 경로",25]
+    ]){
+      const axis=impact.axes?.[key]||{};
+      const item=create("div","impact-score-axis");
+      append(item,create("span","impact-axis-label",label),
+        create("strong","impact-axis-value",
+          axis.score===null||axis.score===undefined?"분석 중":num(axis.score)+" / "+max+"점"));
+      const proof=axis.evidence?.[0];
+      if(proof?.reason)append(item,create("p","impact-axis-why",proof.reason));
+      if(proof?.article)append(item,create("span","impact-axis-article",proof.article));
+      if(proof?.before && proof?.after && axis.score!==null){
+        const detail=create("details","impact-axis-detail");
+        append(detail,create("summary","","판정에 사용한 신구 변경 문구"),
+          create("p","",compact(proof.before,150)+" → "+compact(proof.after,150)));
+        append(item,detail);
+      }
+      if(proof?.source_url)append(item,link(proof.source_url,"공식 판본 확인"));
+      append(breakdown,item);
+    }
+    append(section,breakdown);
+    if(!impact.score_complete)
+      append(section,create("p","impact-score-note",
+        "파급 경로 등 확인되지 않은 항목은 0점으로 확정하지 않았습니다. 표시된 점수는 현재 근거로 인정한 최소 점수입니다."));
+    return section;
+  }
+
   function renderDetail() {
     const root=$("detail");root.replaceChildren();
     const event=state.events.find(e=>e.id===state.selected);
@@ -580,10 +611,8 @@
         create("p","effective","시행일 "+event.effective_date):null);
     append(root,head);
     if(!event.loaded){append(root,create("p","loading-detail","정책 상세와 기관별 근거를 불러오는 중입니다."));return;}
-    if(event.priority_reasons?.length)
-      append(head,create("p","priority-explanation",
-        "‘영향도 큼’ 선정 근거: "+event.priority_reasons.join(" · ")+
-        " · 이는 우선 검토 분류로 실제 파급 규모를 확정한 점수가 아닙니다."));
+    // Do not duplicate axis scores in plain text. A source-linked score panel
+    // immediately follows the header and shows what is unknown.
     const nav=create("nav","detail-nav");
     for(const [text,id]of [["변경 핵심","policy-core"],["기관별 후속조치","policy-institutions"],["신구대비·근거","policy-evidence"]]){
       const b=create("button","",text);b.type="button";b.onclick=()=>$(id)?.scrollIntoView({behavior:"smooth",block:"start"});append(nav,b);
@@ -594,12 +623,12 @@
     const short=(event.changes||[]).filter(model.isShort);
     // Keep detailed comparisons in the evidence section, rather than
     // duplicating wide before/after tables above the main policy impact.
-    append(root,core,institutions,evidence,renderAI(event));
+    append(root,renderImpactScore(event),core,institutions,evidence,renderAI(event));
   }
   function show(data) {
     if(data.schema!=="policy-domino-unified-ui-v1"||!Array.isArray(data.events))throw Error("정책 데이터 규격이 일치하지 않습니다.");
     const raw=data;
-    state.data=data;state.events=data.events.map(model.eventView);state.mode="impact";state.institutionFilter="all";
+    state.data=data;state.events=data.events.map(model.eventView);state.mode="all";state.sort="impact";state.institutionFilter="all";
     const stats=view.overview(state.events);
     $("stat-events").textContent=num(raw.total_source_versions_saved||stats.events);
     $("stat-agencies").textContent=num(stats.institutions);
@@ -633,17 +662,17 @@
     }
   }
   for(const id of ["category","source","sort","verification"])$(id).onchange=()=>{state[id]=$(id).value;refresh();};
-  $("reset").onclick=()=>{state.mode="all";state.query="";state.category="";state.source="";state.sort="published";state.verification="";$("search").value="";$("category").value="";$("source").value="";$("sort").value="published";$("verification").value="";refresh();};
+  $("reset").onclick=()=>{state.mode="all";state.query="";state.category="";state.source="";state.sort="impact";state.verification="";$("search").value="";$("category").value="";$("source").value="";$("sort").value="impact";$("verification").value="";refresh();};
   function goHome(event){
     if(event)event.preventDefault();
     // Cancel in-flight detail responses so a previous policy cannot reopen.
     requestId++;
-    Object.assign(state,{mode:"impact",query:"",category:"",source:"",
-      sort:"published",visible:60,institutionFilter:"all",selected:null,verification:""});
+    Object.assign(state,{mode:"all",query:"",category:"",source:"",
+      sort:"impact",visible:60,institutionFilter:"all",selected:null,verification:""});
     $("search").value="";
     $("category").value="";
     $("source").value="";
-    $("sort").value="published";
+    $("sort").value="impact";
     $("verification").value="";
     if($("registry-dialog").open)$("registry-dialog").close();
     document.querySelector(".coverage-status-inner").open=false;
