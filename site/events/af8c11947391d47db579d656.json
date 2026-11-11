@@ -70,10 +70,10 @@
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
   "comparison_status": "partial_unverified",
-  "relationship": "reused_official_version_comparison",
+  "relationship": "same_official_id_revision",
   "changes": [
     {
-      "article": "별표 0000의00",
+      "article": "별표 0000 (인체급성유해성물질·인체만성유해성물질·생태유해성물질 (제3조 관련))",
       "before": "[별표] 인체급성유해성물질ㆍ인체만성유해성물질ㆍ생태유해성물질의 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오.",
       "after": "[별표] 인체급성유해성물질·인체만성유해성물질·생태유해성물질 (제3조 관련) ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파일명 참조 [별표] 인체등유해성물질 목록(전체).xlsx",
       "focus": [
@@ -126,10 +126,31 @@
   ],
   "unresolved": [
     {
-      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+      "clause": "첨부 1",
+      "reason": "counterpart_not_verified"
     },
     {
-      "reason": "original_source_not_reverified"
+      "clause": "첨부 2",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "첨부 3",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "첨부 4",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "첨부 5",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "첨부 6",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
     }
   ],
   "institutions": [],

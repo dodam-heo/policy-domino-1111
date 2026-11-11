@@ -1,0 +1,163 @@
+{
+  "id": "ordin|2148581|2169775",
+  "title": "경상북도 참전유공자 예우 및 지원에 관한 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "경상북도",
+  "published_at": "2026-09-21",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90%20%EC%98%88%EC%9A%B0%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+  "category": "기타 제·개정",
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "priority_reasons": [
+    "제한적인 본문·명칭·인용 정비",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 50,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 10,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "제한적인 본문·명칭·인용 정비",
+            "article": "제6조",
+            "before": "… ① 도지사는 다음 각 호에 해당하는 도내 참전유공자 등의 명예를 기리기 위하여 참전명예수당을 지급할 수 있다. 다만, 전몰군경 유가족이 2명 이상일 경우 「국가…",
+            "after": "… ① 도지사는 다음 각 호에 해당하는 도내 참전유공자 등의 명예를 기리기 위하여 예산의 범위에서 참전명예수당을 지급할 수 있다. 다만, 전몰군경 유가족이 2명 이상일 경우 「국…",
+            "source_title": "경상북도 참전유공자 예우 및 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90%20%EC%98%88%EC%9A%B0%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "경상북도 참전유공자 예우 및 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90%20%EC%98%88%EC%9A%B0%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "경상북도 참전유공자 예우 및 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90%20%EC%98%88%EC%9A%B0%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제6조",
+      "before": "제6조(참전명예수당) ① 도지사는 다음 각 호에 해당하는 도내 참전유공자 등의 명예를 기리기 위하여 참전명예수당을 지급할 수 있다. 다만, 전몰군경 유가족이 2명 이상일 경우 「국가유공자 등 예우 및 지원에 관한 법률」 제13조에 따라 보상금을 받는 선순위자 1명을 대상으로 한다. 1. 참전유공자 2. 전몰군경 유가족 3. 6ㆍ25참전 재일학도의용군인 ② 제1항의 참전명예수당 지급 기간은 법 제6조제2항의 규정을 준용한다. ③ 참전명예수당의 지급금액ㆍ지급 범위ㆍ지급 방법 등 그 밖의 지급에 관하여 필요한 사항은 도지사가 규칙으로 정한다.",
+      "after": "제6조(참전명예수당) ① 도지사는 다음 각 호에 해당하는 도내 참전유공자 등의 명예를 기리기 위하여 예산의 범위에서 참전명예수당을 지급할 수 있다. 다만, 전몰군경 유가족이 2명 이상일 경우 「국가유공자 등 예우 및 지원에 관한 법률」 제13조에 따라 보상금을 받는 선순위자 1명을 대상으로 한다. <개정 2026. 9. 21.> 1. 참전유공자 2. 전몰군경 유가족 3. 6ㆍ25참전 재일학도의용군인 ② 제1항의 참전명예수당 지급 기간은 법 제6조제2항의 규정을 준용한다. ③ 참전명예수당의 지급금액은 월 12만원으로 한다. <개정 2026. 9. 21.> ④ 참전명예수당의 지급범위, 지급방법 등 그 밖의 지급에 관하여 필요한 사항은 도지사가 따로 정한다. <신설 2026. 9. 21.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "… ① 도지사는 다음 각 호에 해당하는 도내 참전유공자 등의 명예를 기리기 위하여 ",
+            "changed": "",
+            "suffix": "참전명예수당을 지급할 수 있다. 다만, 전몰군경 유가족이 2명 이상일 경우 「국가…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… ① 도지사는 다음 각 호에 해당하는 도내 참전유공자 등의 명예를 기리기 위하여 ",
+            "changed": "예산의 범위에서",
+            "suffix": " 참전명예수당을 지급할 수 있다. 다만, 전몰군경 유가족이 2명 이상일 경우 「국…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…원에 관한 법률」 제13조에 따라 보상금을 받는 선순위자 1명을 대상으로 한다. ",
+            "changed": "",
+            "suffix": "1. 참전유공자 2. 전몰군경 유가족 3. 6ㆍ25참전 재일학도의용군인 ② 제1항…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…원에 관한 법률」 제13조에 따라 보상금을 받는 선순위자 1명을 대상으로 한다. ",
+            "changed": "<개정 2026. 9. 21.>",
+            "suffix": " 1. 참전유공자 2. 전몰군경 유가족 3. 6ㆍ25참전 재일학도의용군인 ② 제1…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 참전명예수당 지급 기간은 법 제6조제2항의 규정을 준용한다. ③ 참전명예수당의 ",
+            "changed": "지급금액ㆍ지급 범위ㆍ지급 방법",
+            "suffix": " 등 그 밖의 지급에 관하여 필요한 사항은 도지사가 규칙으로 정한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 참전명예수당 지급 기간은 법 제6조제2항의 규정을 준용한다. ③ 참전명예수당의 ",
+            "changed": "지급금액은 월 12만원으로 한다. <개정 2026. 9. 21.> ④ 참전명예수당의 지급범위, 지급방법",
+            "suffix": " 등 그 밖의 지급에 관하여 필요한 사항은 도지사가 따로 정한다. <신설 2026…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…지급금액ㆍ지급 범위ㆍ지급 방법 등 그 밖의 지급에 관하여 필요한 사항은 도지사가 ",
+            "changed": "규칙으로",
+            "suffix": " 정한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…명예수당의 지급범위, 지급방법 등 그 밖의 지급에 관하여 필요한 사항은 도지사가 ",
+            "changed": "따로",
+            "suffix": " 정한다. <신설 2026. 9. 21.>",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…위ㆍ지급 방법 등 그 밖의 지급에 관하여 필요한 사항은 도지사가 규칙으로 정한다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…범위, 지급방법 등 그 밖의 지급에 관하여 필요한 사항은 도지사가 따로 정한다. ",
+            "changed": "<신설 2026. 9. 21.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 5,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1955163"
+}

@@ -9,29 +9,30 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%82%AC%ED%9A%8C%EC%84%9C%EB%B9%84%EC%8A%A4%EC%88%98%EC%9A%94%C2%B7%EA%B3%B5%EA%B8%89%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29",
   "category": "급여·지원기준",
-  "primary_change_summary": "첨부 전문 · ◎ 국가데이터처 고시 제 2025 – 109호 통계법 제18조제4항 및 같은 법 시행령 제26조제6항의 규정에 의하여 다음과 같이 통계작 → 삭제",
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
   "priority_reasons": [
+    "제한적인 본문·명칭·인용 정비",
     "중앙행정규칙이 관할하는 전국 특정 분야"
   ],
   "impact_assessment": {
-    "classification": "pending",
-    "score": 25,
-    "score_min": 25,
-    "score_max": 90,
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
-    "possible_high": true,
+    "possible_high": false,
     "axes": {
       "substance": {
-        "score": null,
-        "status": "pending",
+        "score": 10,
+        "status": "confirmed",
         "evidence": [
           {
-            "reason": "부분 대조의 근거 추가 확인 필요",
-            "article": "",
-            "before": "",
-            "after": "",
+            "reason": "제한적인 본문·명칭·인용 정비",
+            "article": "표 1 · 결과표 · 변경 전",
+            "before": "[신설]",
+            "after": "• 수요조사 항목 : 99개",
             "source_title": "통계작성의 변경승인(협의) 고시(사회서비스수요·공급실태조사)",
             "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%82%AC%ED%9A%8C%EC%84%9C%EB%B9%84%EC%8A%A4%EC%88%98%EC%9A%94%C2%B7%EA%B3%B5%EA%B8%89%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
           }
@@ -66,148 +67,73 @@
         ]
       }
     },
-    "featured_change_indices": [
-      0
-    ],
+    "featured_change_indices": [],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
-  "comparison_status": "partial_unverified",
-  "relationship": "reused_official_version_comparison",
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
   "changes": [
     {
-      "article": "첨부 전문",
-      "before": "◎ 국가데이터처 고시 제 2025 – 109호 통계법 제18조제4항 및 같은 법 시행령 제26조제6항의 규정에 의하여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. 2025 년 12 월 4일 국 가 데 이 터 처 장 1. 통계의 명칭 : 사회서비스수요·공급실태조사 2. 통계작성기관의 명칭 : 보건복지부 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제117078호 [2009.06.25.] 4. 통계작성의 변경 연월일 : 2025.12.31. 5. 통계작성의 변경 내용과 사유 : ※ 「사회서비스수요.공급실태조사」 중 짝수년도에 실시되는 공급조사 부분의 변경사항에 한함 구분 변경 전 변경 후 변경 사유 결과표 결과표 총 140개 (’24.9월 기준) 결과표 총 143개 * 추가 5 삭제 2 변경 48 분석 결과의 정확성 및 이해도를 높이기 위해 일부 표 추가, 병합, 분할 분석 결과 활용도가 낮은 일부 표 삭제 등",
-      "after": "1. 통계의 명칭 : 사회서비스수요·공급실태조사 2. 통계작성기관의 명칭 : 보건복지부 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제117078호 [2009.06.25.] 4. 통계작성의 변경 연월일 : 2026.11.30. 5. 통계작성의 변경 내용과 사유 : ※ 「사회서비스수요.공급실태조사」 중 홀수년도에 실시되는 수요조사 부분의 변경사항에 한함 구분 변경 전 변경 후 변경 사유 결과표 • 수요조사 항목 : 99개 • 수요조사 항목 : 100개 * 추가 2, 삭제 1, 수정 11 이해도 제고를 위한 문구수정 활용도 고려한 표 삭제 및 추가 ◎ 국가데이터처 고시 제 2026 - 663호 통계법 제18조제4항 및 같은 법 시행령 제26조제6항의 규정에 의하여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. 2026 년 09 월 18일 국 가 데 이 터 처 장",
+      "article": "본문",
+      "before": "1. 통계의 명칭 : 사회서비스수요ㆍ공급실태조사 2. 통계작성기관의 명칭 : 보건복지부 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제117078호 [2009.06.25.] 4. 통계작성의 변경 연월일 : 2025.12.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "after": "1. 통계의 명칭 : 사회서비스수요ㆍ공급실태조사 2. 통계작성기관의 명칭 : 보건복지부 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제117078호 [2009.06.25.] 4. 통계작성의 변경 연월일 : 2026.11.30. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
       "focus": [
-        {
-          "before": {
-            "prefix": "",
-            "changed": "◎ 국가데이터처 고시 제 2025 – 109호 통계법 제18조제4항 및 같은 법 시행령 제26조제6항의 규정에 의하여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. 2025 년 12 월 4일 국 가 데 이 터 처 장",
-            "suffix": " 1. 통계의 명칭 : 사회서비스수요·공급실태조사 2. 통계작성기관의 명칭 : 보…",
-            "truncated": false
-          },
-          "after": {
-            "prefix": "",
-            "changed": "",
-            "suffix": "1. 통계의 명칭 : 사회서비스수요·공급실태조사 2. 통계작성기관의 명칭 : 보건…",
-            "truncated": false
-          }
-        },
         {
           "before": {
             "prefix": "…] : 제117078호 [2009.06.25.] 4. 통계작성의 변경 연월일 : ",
             "changed": "2025.12.31.",
-            "suffix": " 5. 통계작성의 변경 내용과 사유 : ※ 「사회서비스수요.공급실태조사」 중 짝수…",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
             "truncated": false
           },
           "after": {
             "prefix": "…] : 제117078호 [2009.06.25.] 4. 통계작성의 변경 연월일 : ",
             "changed": "2026.11.30.",
-            "suffix": " 5. 통계작성의 변경 내용과 사유 : ※ 「사회서비스수요.공급실태조사」 중 홀수…",
-            "truncated": false
-          }
-        },
-        {
-          "before": {
-            "prefix": "…1. 5. 통계작성의 변경 내용과 사유 : ※ 「사회서비스수요.공급실태조사」 중 ",
-            "changed": "짝수년도에",
-            "suffix": " 실시되는 공급조사 부분의 변경사항에 한함 구분 변경 전 변경 후 변경 사유 결과…",
-            "truncated": false
-          },
-          "after": {
-            "prefix": "…0. 5. 통계작성의 변경 내용과 사유 : ※ 「사회서비스수요.공급실태조사」 중 ",
-            "changed": "홀수년도에",
-            "suffix": " 실시되는 수요조사 부분의 변경사항에 한함 구분 변경 전 변경 후 변경 사유 결과…",
-            "truncated": false
-          }
-        },
-        {
-          "before": {
-            "prefix": "… 변경 내용과 사유 : ※ 「사회서비스수요.공급실태조사」 중 짝수년도에 실시되는 ",
-            "changed": "공급조사",
-            "suffix": " 부분의 변경사항에 한함 구분 변경 전 변경 후 변경 사유 결과표 결과표 총 14…",
-            "truncated": false
-          },
-          "after": {
-            "prefix": "… 변경 내용과 사유 : ※ 「사회서비스수요.공급실태조사」 중 홀수년도에 실시되는 ",
-            "changed": "수요조사",
-            "suffix": " 부분의 변경사항에 한함 구분 변경 전 변경 후 변경 사유 결과표 • 수요조사 항…",
-            "truncated": false
-          }
-        },
-        {
-          "before": {
-            "prefix": "…시되는 공급조사 부분의 변경사항에 한함 구분 변경 전 변경 후 변경 사유 결과표 ",
-            "changed": "결과표 총 140",
-            "suffix": "개 (’24.9월 기준) 결과표 총 143개 * 추가 5 삭제 2 변경 48 분석…",
-            "truncated": false
-          },
-          "after": {
-            "prefix": "…시되는 수요조사 부분의 변경사항에 한함 구분 변경 전 변경 후 변경 사유 결과표 ",
-            "changed": "• 수요조사 항목 : 99",
-            "suffix": "개 • 수요조사 항목 : 100개 * 추가 2, 삭제 1, 수정 11 이해도 제고…",
-            "truncated": false
-          }
-        },
-        {
-          "before": {
-            "prefix": "…의 변경사항에 한함 구분 변경 전 변경 후 변경 사유 결과표 결과표 총 140개 ",
-            "changed": "(’24.9월 기준) 결과표 총 143",
-            "suffix": "개 * 추가 5 삭제 2 변경 48 분석 결과의 정확성 및 이해도를 높이기 위해 …",
-            "truncated": false
-          },
-          "after": {
-            "prefix": "…항에 한함 구분 변경 전 변경 후 변경 사유 결과표 • 수요조사 항목 : 99개 ",
-            "changed": "• 수요조사 항목 : 100",
-            "suffix": "개 * 추가 2, 삭제 1, 수정 11 이해도 제고를 위한 문구수정 활용도 고려한…",
-            "truncated": false
-          }
-        },
-        {
-          "before": {
-            "prefix": "…유 결과표 결과표 총 140개 (’24.9월 기준) 결과표 총 143개 * 추가 ",
-            "changed": "5",
-            "suffix": " 삭제 2 변경 48 분석 결과의 정확성 및 이해도를 높이기 위해 일부 표 추가,…",
-            "truncated": false
-          },
-          "after": {
-            "prefix": "…사유 결과표 • 수요조사 항목 : 99개 • 수요조사 항목 : 100개 * 추가 ",
-            "changed": "2,",
-            "suffix": " 삭제 1, 수정 11 이해도 제고를 위한 문구수정 활용도 고려한 표 삭제 및 추…",
-            "truncated": false
-          }
-        },
-        {
-          "before": {
-            "prefix": "… 결과표 총 140개 (’24.9월 기준) 결과표 총 143개 * 추가 5 삭제 ",
-            "changed": "2 변경 48 분석 결과의 정확성 및 이해도를 높이기 위해 일부 표 추가, 병합, 분할 분석 결과 활용도가 낮은 일부",
-            "suffix": " 표 삭제 등",
-            "truncated": false
-          },
-          "after": {
-            "prefix": "… • 수요조사 항목 : 99개 • 수요조사 항목 : 100개 * 추가 2, 삭제 ",
-            "changed": "1, 수정 11 이해도 제고를 위한 문구수정 활용도 고려한",
-            "suffix": " 표 삭제 및 추가 ◎ 국가데이터처 고시 제 2026 - 663호 통계법 제18조…",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
             "truncated": false
           }
         }
       ],
-      "diff_window_count": 9,
-      "substance_score": 30
-    }
-  ],
-  "unresolved": [
-    {
-      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+      "diff_window_count": 1,
+      "substance_score": 0
     },
     {
-      "reason": "original_source_not_reverified"
+      "article": "표 1 · 결과표 · 변경 전",
+      "before": "[신설]",
+      "after": "• 수요조사 항목 : 99개",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 1 · 결과표 · 변경 후",
+      "before": "[신설]",
+      "after": "• 수요조사 항목 : 100개 * 추가 2, 삭제 1, 수정 11",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 결과표 · 변경 전",
+      "before": "결과표 총 140개 (’24.9월 기준)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 결과표 · 변경 후",
+      "before": "결과표 총 143개 * 추가 5 삭제 2 변경 48",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
     }
   ],
+  "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
   "direct_actor_leads": [],
   "policy_analysis": null,
-  "impact_level": "pending",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%82%AC%ED%9A%8C%EC%84%9C%EB%B9%84%EC%8A%A4%EC%88%98%EC%9A%94%C2%B7%EA%B3%B5%EA%B8%89%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
 }

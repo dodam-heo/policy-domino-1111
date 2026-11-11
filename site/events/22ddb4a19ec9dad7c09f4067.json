@@ -1,0 +1,138 @@
+{
+  "id": "ordin|2090554|2170357",
+  "title": "여수시 도시공원 및 녹지 등에 관한 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "전남광주통합특별시 여수시",
+  "published_at": "2026-09-23",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%97%AC%EC%88%98%EC%8B%9C%20%EB%8F%84%EC%8B%9C%EA%B3%B5%EC%9B%90%20%EB%B0%8F%20%EB%85%B9%EC%A7%80%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+  "category": "기타 제·개정",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 15,
+    "score_min": 15,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "여수시 도시공원 및 녹지 등에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%97%AC%EC%88%98%EC%8B%9C%20%EB%8F%84%EC%8B%9C%EA%B3%B5%EC%9B%90%20%EB%B0%8F%20%EB%85%B9%EC%A7%80%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "여수시 도시공원 및 녹지 등에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%97%AC%EC%88%98%EC%8B%9C%20%EB%8F%84%EC%8B%9C%EA%B3%B5%EC%9B%90%20%EB%B0%8F%20%EB%85%B9%EC%A7%80%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "여수시 도시공원 및 녹지 등에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%97%AC%EC%88%98%EC%8B%9C%20%EB%8F%84%EC%8B%9C%EA%B3%B5%EC%9B%90%20%EB%B0%8F%20%EB%85%B9%EC%A7%80%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제41조의2",
+      "before": "제41조의2(금지행위) 누구든지 도시공원 내에서 법 제49조제2항 각 호의 행위를 하여서는 아니 된다.[본조 신설 2015. 10. 2.]",
+      "after": "제41조의2(금지행위) ① 누구든지 도시공원 내에서 법 제49조제2항 각 호의 행위를 하여서는 아니 된다.[본조 신설 2015. 10. 2., 개정 2026. 9. 23.] ② 시장은 제1항에도 불구하고 국가, 지방자치단체 또는 「공공기관의 운영에 관한 법률」에 따른 공공기관이 주최ㆍ주관하는 행사에 부대하여 이루어지는 상행위로서 도시공원의 관리에 현저한 지장을 주지 아니하고 공공의 이익에 부합하는 경우에는 법 제49조제2항제1호에 따른 상행위를 허용할 수 있다. <신설 2026. 9. 23.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제41조의2(금지행위) ",
+            "changed": "",
+            "suffix": "누구든지 도시공원 내에서 법 제49조제2항 각 호의 행위를 하여서는 아니 된다.[…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제41조의2(금지행위) ",
+            "changed": "①",
+            "suffix": " 누구든지 도시공원 내에서 법 제49조제2항 각 호의 행위를 하여서는 아니 된다.…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…제49조제2항 각 호의 행위를 하여서는 아니 된다.[본조 신설 2015. 10. ",
+            "changed": "2.",
+            "suffix": "]",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…제49조제2항 각 호의 행위를 하여서는 아니 된다.[본조 신설 2015. 10. ",
+            "changed": "2., 개정 2026. 9. 23.",
+            "suffix": "] ② 시장은 제1항에도 불구하고 국가, 지방자치단체 또는 「공공기관의 운영에 관…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…조제2항 각 호의 행위를 하여서는 아니 된다.[본조 신설 2015. 10. 2.]",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 아니 된다.[본조 신설 2015. 10. 2., 개정 2026. 9. 23.] ",
+            "changed": "② 시장은 제1항에도 불구하고 국가, 지방자치단체 또는 「공공기관의 운영에 관한 법률」에 따른 공공기관이 주최ㆍ주관하는 행사에 부대하여 이루어지는 상행위로서 도시공원의 관리에 현저한 지장을 주지 아니하고 공공의 이익에 부합하는 경우에는 법 제49조제2항제1호에 따른 상행위를 허용할 수 있다. <신설 2026. 9. 23.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 3,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1977949"
+}

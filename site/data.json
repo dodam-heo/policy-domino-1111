@@ -1,8 +1,8 @@
 {
   "schema": "policy-domino-unified-ui-v1",
-  "generated_at": "2026-11-11T16:11:45.565742+00:00",
+  "generated_at": "2026-11-11T17:16:19.714386+00:00",
   "scope": "source-backed version catalog; institutional actions only for exact citation evidence",
-  "total_source_versions_saved": 2129,
+  "total_source_versions_saved": 2159,
   "events": [
     {
       "id": "law|014805|291907",
@@ -96199,6 +96199,429 @@
       "dependency_count": 0
     },
     {
+      "id": "ordin|2193748|2170901",
+      "title": "부산광역시교육청 조례 입법평가 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "부산광역시교육청",
+      "published_at": "2026-09-23",
+      "effective_date": "2027-09-24",
+      "revision": "타법폐지",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%EA%B5%90%EC%9C%A1%EC%B2%AD%20%EC%A1%B0%EB%A1%80%20%EC%9E%85%EB%B2%95%ED%8F%89%EA%B0%80%20%EC%A1%B0%EB%A1%80",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": 40,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제15조",
+                "before": "제15조(평가결과 반영) 교육감은 위원회의 심의 결과 입법평가에 따른 개선사항이 있는 경우에는 이를 적극 반영하도록 노력하여야 한다.",
+                "after": "[삭제]",
+                "source_title": "부산광역시교육청 조례 입법평가 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%EA%B5%90%EC%9C%A1%EC%B2%AD%20%EC%A1%B0%EB%A1%80%20%EC%9E%85%EB%B2%95%ED%8F%89%EA%B0%80%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시교육청 조례 입법평가 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%EA%B5%90%EC%9C%A1%EC%B2%AD%20%EC%A1%B0%EB%A1%80%20%EC%9E%85%EB%B2%95%ED%8F%89%EA%B0%80%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시교육청 조례 입법평가 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%EA%B5%90%EC%9C%A1%EC%B2%AD%20%EC%A1%B0%EB%A1%80%20%EC%9E%85%EB%B2%95%ED%8F%89%EA%B0%80%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [
+          6,
+          7,
+          10
+        ],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1442119",
+      "detail_url": "events/dc4450f34a6698d9f0e40a96.json",
+      "change_count": 17,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2065956|2170701",
+      "title": "부산광역시 조례 입법평가 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "부산광역시",
+      "published_at": "2026-09-23",
+      "effective_date": "2027-09-24",
+      "revision": "폐지",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%A1%B0%EB%A1%80%20%EC%9E%85%EB%B2%95%ED%8F%89%EA%B0%80%20%EC%A1%B0%EB%A1%80",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시 조례 입법평가 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%A1%B0%EB%A1%80%20%EC%9E%85%EB%B2%95%ED%8F%89%EA%B0%80%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시 조례 입법평가 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%A1%B0%EB%A1%80%20%EC%9E%85%EB%B2%95%ED%8F%89%EA%B0%80%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시 조례 입법평가 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%A1%B0%EB%A1%80%20%EC%9E%85%EB%B2%95%ED%8F%89%EA%B0%80%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/35d4ac4f134985f198e0f2ea.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2267641|2170699",
+      "title": "부산광역시의회 조례 입법평가 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "부산광역시",
+      "published_at": "2026-09-23",
+      "effective_date": "2027-09-24",
+      "revision": "제정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%EC%9D%98%ED%9A%8C%20%EC%A1%B0%EB%A1%80%20%EC%9E%85%EB%B2%95%ED%8F%89%EA%B0%80%20%EC%A1%B0%EB%A1%80",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시의회 조례 입법평가 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%EC%9D%98%ED%9A%8C%20%EC%A1%B0%EB%A1%80%20%EC%9E%85%EB%B2%95%ED%8F%89%EA%B0%80%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시의회 조례 입법평가 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%EC%9D%98%ED%9A%8C%20%EC%A1%B0%EB%A1%80%20%EC%9E%85%EB%B2%95%ED%8F%89%EA%B0%80%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시의회 조례 입법평가 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%EC%9D%98%ED%9A%8C%20%EC%A1%B0%EB%A1%80%20%EC%9E%85%EB%B2%95%ED%8F%89%EA%B0%80%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/06969b1e05370ac7ff153df0.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2090554|2170357",
+      "title": "여수시 도시공원 및 녹지 등에 관한 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "전남광주통합특별시 여수시",
+      "published_at": "2026-09-23",
+      "effective_date": "2027-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%97%AC%EC%88%98%EC%8B%9C%20%EB%8F%84%EC%8B%9C%EA%B3%B5%EC%9B%90%20%EB%B0%8F%20%EB%85%B9%EC%A7%80%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "부분 대조의 근거 추가 확인 필요",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "여수시 도시공원 및 녹지 등에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%97%AC%EC%88%98%EC%8B%9C%20%EB%8F%84%EC%8B%9C%EA%B3%B5%EC%9B%90%20%EB%B0%8F%20%EB%85%B9%EC%A7%80%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "여수시 도시공원 및 녹지 등에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%97%AC%EC%88%98%EC%8B%9C%20%EB%8F%84%EC%8B%9C%EA%B3%B5%EC%9B%90%20%EB%B0%8F%20%EB%85%B9%EC%A7%80%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "여수시 도시공원 및 녹지 등에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%97%AC%EC%88%98%EC%8B%9C%20%EB%8F%84%EC%8B%9C%EA%B3%B5%EC%9B%90%20%EB%B0%8F%20%EB%85%B9%EC%A7%80%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "partial_unverified",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1977949",
+      "detail_url": "events/22ddb4a19ec9dad7c09f4067.json",
+      "change_count": 1,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2171113|2170311",
+      "title": "청주시 선택예방접종 지원 및 위탁에 관한 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "충청북도 청주시",
+      "published_at": "2026-09-23",
+      "effective_date": "2027-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%84%A0%ED%83%9D%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85%20%EC%A7%80%EC%9B%90%20%EB%B0%8F%20%EC%9C%84%ED%83%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+      "category": "급여·지원기준",
+      "primary_change_summary": "제4조 · 19. → 19., 개정 2026. 9. 23.",
+      "priority_reasons": [
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": 40,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제4조",
+                "before": "…루엔자: 매년 1회 2. 대상포진: 생백신 1회 또는 사백신 2회 3. 백일해: 임산부는 임신 시마다 1회, 배우자 1회 [제3조에서 이동, 종전 제4조는 제5조로 이동…",
+                "after": "…루엔자: 매년 1회 2. 대상포진: 생백신 1회 또는 사백신 2회 3. 백일해: 지원대상자별 1회(단, 임산부의 경우”로, “1회, 배우자 1회”를 “1회) 임신 시마다 1회, 배우자 1회 [제3조에서 이동, 종전 제4조는 제5조로 이동…",
+                "source_title": "청주시 선택예방접종 지원 및 위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%84%A0%ED%83%9D%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85%20%EC%A7%80%EC%9B%90%20%EB%B0%8F%20%EC%9C%84%ED%83%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "청주시 선택예방접종 지원 및 위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%84%A0%ED%83%9D%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85%20%EC%A7%80%EC%9B%90%20%EB%B0%8F%20%EC%9C%84%ED%83%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "청주시 선택예방접종 지원 및 위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%84%A0%ED%83%9D%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85%20%EC%A7%80%EC%9B%90%20%EB%B0%8F%20%EC%9C%84%ED%83%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [
+          0
+        ],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2094887",
+      "detail_url": "events/aeb875dd9f3968b37c06bf07.json",
+      "change_count": 2,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "ordin|2127368|2170297",
       "title": "청주시 주차장 조례",
       "source": "ordin",
@@ -96282,6 +96705,262 @@
       "dependency_count": 0
     },
     {
+      "id": "ordin|2070508|2170263",
+      "title": "산청군 이장의 임무와 실비 보상등 지원에 관한 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "경상남도 산청군",
+      "published_at": "2026-09-23",
+      "effective_date": "2027-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%82%B0%EC%B2%AD%EA%B5%B0%20%EC%9D%B4%EC%9E%A5%EC%9D%98%20%EC%9E%84%EB%AC%B4%EC%99%80%20%EC%8B%A4%EB%B9%84%20%EB%B3%B4%EC%83%81%EB%93%B1%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+      "category": "공공재정·요율",
+      "primary_change_summary": "제2조 · 신설 → 각종 사실 확인, 조사 및 서류 송달 협조 <신설 2026.9.23.> 5. 행정시책 홍보 및 지역주민 여론 동향 보고 <신설 2026.",
+      "priority_reasons": [
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": 40,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제2조",
+                "before": "…주적, 자율적 업무처리 3. 지역주민간 화합단결과 이해의 조정에 관한 사항 4. 그 밖에 지역주민의 편의증진과 봉사",
+                "after": "…주적, 자율적 업무처리 3. 지역주민간 화합단결과 이해의 조정에 관한 사항 4. 각종 사실 확인, 조사 및 서류 송달 협조 5. 행정시책 홍보 및 지역주민 여론 동향 보고 6. 각종 사건ㆍ사고의 보고와 재난ㆍ재해 예방활동 및 조사ㆍ복구작업 지원 7. 복지대상자 발굴 및 지역사회 복지사업 추진 지원 8.",
+                "source_title": "산청군 이장의 임무와 실비 보상등 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%82%B0%EC%B2%AD%EA%B5%B0%20%EC%9D%B4%EC%9E%A5%EC%9D%98%20%EC%9E%84%EB%AC%B4%EC%99%80%20%EC%8B%A4%EB%B9%84%20%EB%B3%B4%EC%83%81%EB%93%B1%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "산청군 이장의 임무와 실비 보상등 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%82%B0%EC%B2%AD%EA%B5%B0%20%EC%9D%B4%EC%9E%A5%EC%9D%98%20%EC%9E%84%EB%AC%B4%EC%99%80%20%EC%8B%A4%EB%B9%84%20%EB%B3%B4%EC%83%81%EB%93%B1%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "산청군 이장의 임무와 실비 보상등 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%82%B0%EC%B2%AD%EA%B5%B0%20%EC%9D%B4%EC%9E%A5%EC%9D%98%20%EC%9E%84%EB%AC%B4%EC%99%80%20%EC%8B%A4%EB%B9%84%20%EB%B3%B4%EC%83%81%EB%93%B1%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [
+          0
+        ],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1982877",
+      "detail_url": "events/fa67b6e9a85ce14fc8fe4ede.json",
+      "change_count": 2,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2127026|2170245",
+      "title": "청주시 사무의 민간위탁에 관한 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "충청북도 청주시",
+      "published_at": "2026-09-23",
+      "effective_date": "2027-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%82%AC%EB%AC%B4%EC%9D%98%20%EB%AF%BC%EA%B0%84%EC%9C%84%ED%83%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+      "category": "기타 제·개정",
+      "primary_change_summary": "제27조 · 필요할 경우 위탁사무 전반에 → 위탁사무의 처리 결과에",
+      "priority_reasons": [
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": 40,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제27조",
+                "before": "제27조(처리상황의 감사) ① 시장은 필요할 경우 위탁사무 전반에 대하여 수탁기관을 감사하여야 한다. ② 제1항에 따른 감사결과 위탁사무의 처리가…",
+                "after": "제27조(처리상황의 감사) ① 시장은 위탁사무의 처리 결과에 대하여 매년 1회 이상 감사하여야 한다. ② 제…",
+                "source_title": "청주시 사무의 민간위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%82%AC%EB%AC%B4%EC%9D%98%20%EB%AF%BC%EA%B0%84%EC%9C%84%ED%83%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "청주시 사무의 민간위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%82%AC%EB%AC%B4%EC%9D%98%20%EB%AF%BC%EA%B0%84%EC%9C%84%ED%83%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "청주시 사무의 민간위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%82%AC%EB%AC%B4%EC%9D%98%20%EB%AF%BC%EA%B0%84%EC%9C%84%ED%83%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [
+          0
+        ],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2110983",
+      "detail_url": "events/8612b19e03ac129b5240bd2e.json",
+      "change_count": 1,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2248499|2170171",
+      "title": "포항시 민원실 설치 및 운영에 관한 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "경상북도 포항시",
+      "published_at": "2026-09-23",
+      "effective_date": "2027-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%8F%AC%ED%95%AD%EC%8B%9C%20%EB%AF%BC%EC%9B%90%EC%8B%A4%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+      "category": "급여·지원기준",
+      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+      "priority_reasons": [
+        "제한적인 본문·명칭·인용 정비",
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "normal",
+        "score": 25,
+        "score_min": 25,
+        "score_max": 50,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": false,
+        "axes": {
+          "substance": {
+            "score": 10,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "제한적인 본문·명칭·인용 정비",
+                "article": "제1조",
+                "before": "…처리에 관한 법률 시행령」 제8조의3에서 위임된 사항과 그 시행에 필요한 사항을 규정함을 목적으로 한다.",
+                "after": "…처리에 관한 법률 시행령」 제8조의3에서 위임된 사항과 그 시행에 필요한 사항을 규정함으로써 신속하고 편리한 민원 처리 환경을 조성하고 민원인의 편의 증진에 이바지함을 목적으로 한다.",
+                "source_title": "포항시 민원실 설치 및 운영에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%8F%AC%ED%95%AD%EC%8B%9C%20%EB%AF%BC%EC%9B%90%EC%8B%A4%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "포항시 민원실 설치 및 운영에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%8F%AC%ED%95%AD%EC%8B%9C%20%EB%AF%BC%EC%9B%90%EC%8B%A4%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "포항시 민원실 설치 및 운영에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%8F%AC%ED%95%AD%EC%8B%9C%20%EB%AF%BC%EC%9B%90%EC%8B%A4%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "normal",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1991089",
+      "detail_url": "events/e9bae2adbf6310a6802c809f.json",
+      "change_count": 3,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "ordin|2099665|2170147",
       "title": "완주군 행정기구설치 조례 시행규칙",
       "source": "ordin",
@@ -96355,13 +97034,103 @@
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
-      "policy_analysis": null,
+      "policy_analysis": {
+        "explanation": "완주군 행정기구설치 조례 시행규칙 개정에 따라 경제산업국장이 경제환경국장으로 명칭이 변경되고, 농업기술센터 소장의 직급에 지방서기관과 지방과학기술서기관이 추가되었으며, 하부조직으로 농업정책과, 농식품활력과, 축산지원과가 신설되고 관련 과장들의 직급 기준이 정비되었습니다.",
+        "old_quote": "제4조: 제4조(국장의 직급) 행정자치국장ㆍ문화관광복지국장ㆍ경제산업국장ㆍ건설안전국장은 지방서기관ㆍ지방과학기술서기관으로 보한다.<개정 2025.6.30,2025.9.30>\n제8조: 제8조(소장의 직급) 농업기술센터에 두는 소장은 지방농촌지도관으로 보한다.\n제9조: 제9조(하부조직) ① 농업기술센터의 소장을 보좌하고, 소관사무를 효율적으로 처리하기 위하여 농촌지원과와 기술보급과를 둔다. ② 농촌지원과장과 기술보급과장은 지방농촌지도관으로 보한다.",
+        "new_quote": "제4조: 제4조(국장의 직급) 행정자치국장ㆍ문화관광복지국장ㆍ경제환경국장ㆍ건설안전국장은 지방서기관ㆍ지방과학기술서기관으로 보한다.<개정 2025.6.30,2025.9.30, 2026.9.23>\n제8조: 제8조(소장의 직급) 농업기술센터에 두는 소장은 지방서기관ㆍ지방과학기술서기관ㆍ지방농촌지도관으로 보한다.<개정 2026.9.23>\n제9조: 제9조(하부조직) ① 농업기술센터의 소장을 보좌하고, 소관사무를 효율적으로 처리하기 위하여 농업정책과, 농촌지원과, 농식품활력과,기술보급과, 축산지원과를 둔다.<개정 2026.9.23> ② 농업정책과장은 지방행정사무관ㆍ지방농업사무관ㆍ지방시설사무관ㆍ지방농촌지도관으로 보하고 농촌지원과장과 농식",
+        "program_quote": "제4조: 제4조(국장의 직급) 행정자치국장ㆍ문화관광복지국장ㆍ경제환경국장ㆍ건설안전국장은 지방서기관ㆍ지방과학기술서기관으로 보한다.<개정 2025.6.30,2025.9.30, 2026.9.23>\n제8조: 제8조(소장의 직급) 농업기술센터에 두는 소장은 지방서기관ㆍ지방과학기술서기관ㆍ지방농촌지도관으로 보한다.<개정 2026.9.23>\n제9조: 제9조(하부조직) ① 농업기술센터의 소장을 보좌하고, 소관사무를 효율적으로 처리하기 위하여 농업정책과, 농촌지원과, 농식품활력과,기술보급과, 축산지원과를 둔다.<개정 2026.9.23> ② 농업정책과장은 지방행정사무관ㆍ지방농업사무관ㆍ지방시설사무관ㆍ지방농촌지도관으로 보하고 농촌지원과장과 농식",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      },
       "impact_level": "pending",
       "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%99%84%EC%A3%BC%EA%B5%B0%20%ED%96%89%EC%A0%95%EA%B8%B0%EA%B5%AC%EC%84%A4%EC%B9%98%20%EC%A1%B0%EB%A1%80%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
       "detail_url": "events/e456afe275ad822f8c15c73a.json",
       "change_count": 3,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2099336|2170123",
+      "title": "완주군 임신ㆍ출산에 관한 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "전북특별자치도 완주군",
+      "published_at": "2026-09-23",
+      "effective_date": "2027-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%99%84%EC%A3%BC%EA%B5%B0%20%EC%9E%84%EC%8B%A0%E3%86%8D%EC%B6%9C%EC%82%B0%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "완주군 임신ㆍ출산에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%99%84%EC%A3%BC%EA%B5%B0%20%EC%9E%84%EC%8B%A0%E3%86%8D%EC%B6%9C%EC%82%B0%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "완주군 임신ㆍ출산에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%99%84%EC%A3%BC%EA%B5%B0%20%EC%9E%84%EC%8B%A0%E3%86%8D%EC%B6%9C%EC%82%B0%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "완주군 임신ㆍ출산에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%99%84%EC%A3%BC%EA%B5%B0%20%EC%9E%84%EC%8B%A0%E3%86%8D%EC%B6%9C%EC%82%B0%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "partial_unverified",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%99%84%EC%A3%BC%EA%B5%B0%20%EC%9E%84%EC%8B%A0%E3%86%8D%EC%B6%9C%EC%82%B0%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+      "detail_url": "events/d6208a9551bdfeba477bd2a6.json",
+      "change_count": 0,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -96442,9 +97211,16 @@
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
-      "policy_analysis": null,
+      "policy_analysis": {
+        "explanation": "완주군 행정기구설치 조례 개정을 통해 보건소장 등의 지휘ㆍ감독 조문 내 띄어쓰기 등 문구가 정비되고, 농업기술센터 소장의 소관 업무 범위가 농업정책 수립ㆍ지원, 친환경농업 육성 및 지도, 농지관리 운영 등에 관한 사항을 포함하도록 개편되었습니다.",
+        "old_quote": "제10조: 제10조(소장 등) ① 보건소와 보건지소에 각각 소장 및 지소장을 두고, 건강생활지원센터는 센터장을 두고, 보건진료소에 보건진료 전담공무원을 둔다. ② 소장은 완주군수(이하 \"군수\"라 한다)의 명을 받고 보건지소장, 건강생활지원센터장, 보건진료 전담공무원은 소장의 명을 받아 소관 사무를 총괄하고 소속직원을 지휘ㆍ감독한다.\n제14조: 제14조(소관업무) 농업기술센터 소장은 다음 사무를 관장한다. 1. 농촌지도사업 종합계획 수립ㆍ조정 2. 농업인 학습단체 및 농업인 연구모임 지도 3. 농업인 교육훈련에 관한 사항 4. 농업경영개선 지도 5. 식품산업에 관한 사항 6. 외국인 계절근로자 등 농촌인력 지원에 관한 사",
+        "new_quote": "제10조: 제10조(소장 등) ① 보건소와 보건지소에 각각 소장 및 지소장을 두고, 건강생활지원센터에 센터장을 두고, 보건진료소에 보건진료 전담공무원을 둔다. ② 소장은 완주군수(이하“군수”라 한다)의 명을 받고 보건지소장, 건강생활지원센터장, 보건진료 전담공무원은 소장의 명을 받아 소관 사무를 총괄하고 소속직원을 지휘ㆍ감독한다.\n제14조: 제14조(소관업무) 농업기술센터 소장은 다음 사무를 관장한다. 1. 농업정책 수립ㆍ지원에 관한 사항 2. 친환경농업 육성 및 지도에 관한 사항 3. 농지관리 운영에 관한 사항 4. 외국인 계절근로자 등 농촌인력 지원에 관한 사항 5. 농촌지도사업 종합계획 수립ㆍ조정 6. 농업인 학습",
+        "program_quote": "제10조: 제10조(소장 등) ① 보건소와 보건지소에 각각 소장 및 지소장을 두고, 건강생활지원센터에 센터장을 두고, 보건진료소에 보건진료 전담공무원을 둔다. ② 소장은 완주군수(이하“군수”라 한다)의 명을 받고 보건지소장, 건강생활지원센터장, 보건진료 전담공무원은 소장의 명을 받아 소관 사무를 총괄하고 소속직원을 지휘ㆍ감독한다.\n제14조: 제14조(소관업무) 농업기술센터 소장은 다음 사무를 관장한다. 1. 농업정책 수립ㆍ지원에 관한 사항 2. 친환경농업 육성 및 지도에 관한 사항 3. 농지관리 운영에 관한 사항 4. 외국인 계절근로자 등 농촌인력 지원에 관한 사항 5. 농촌지도사업 종합계획 수립ㆍ조정 6. 농업인 학습",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      },
       "impact_level": "pending",
       "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%99%84%EC%A3%BC%EA%B5%B0%20%ED%96%89%EC%A0%95%EA%B8%B0%EA%B5%AC%EC%84%A4%EC%B9%98%20%EC%A1%B0%EB%A1%80",
       "detail_url": "events/512809b20bac572da205cf2f.json",
@@ -96483,7 +97259,7 @@
             "status": "pending",
             "evidence": [
               {
-                "reason": "부분 대조의 근거 추가 확인 필요",
+                "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
                 "article": "",
                 "before": "",
                 "after": "",
@@ -96525,7 +97301,7 @@
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
@@ -96607,14 +97383,267 @@
         "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
+      "comparison_status": "partial_unverified",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%99%84%EC%A3%BC%EA%B5%B0%20%EC%A7%80%EB%B0%A9%EA%B3%B5%EB%AC%B4%EC%9B%90%EC%A0%95%EC%9B%90%20%EA%B7%9C%EC%B9%99",
+      "detail_url": "events/f1418a13613d19a19667e22a.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2267614|2170093",
+      "title": "제천시 아동의료비 본인부담 100만원 상한제 지원 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "충청북도 제천시",
+      "published_at": "2026-09-23",
+      "effective_date": "2027-01-01",
+      "revision": "제정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A0%9C%EC%B2%9C%EC%8B%9C%20%EC%95%84%EB%8F%99%EC%9D%98%EB%A3%8C%EB%B9%84%20%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%20100%EB%A7%8C%EC%9B%90%20%EC%83%81%ED%95%9C%EC%A0%9C%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "제천시 아동의료비 본인부담 100만원 상한제 지원 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A0%9C%EC%B2%9C%EC%8B%9C%20%EC%95%84%EB%8F%99%EC%9D%98%EB%A3%8C%EB%B9%84%20%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%20100%EB%A7%8C%EC%9B%90%20%EC%83%81%ED%95%9C%EC%A0%9C%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "제천시 아동의료비 본인부담 100만원 상한제 지원 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A0%9C%EC%B2%9C%EC%8B%9C%20%EC%95%84%EB%8F%99%EC%9D%98%EB%A3%8C%EB%B9%84%20%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%20100%EB%A7%8C%EC%9B%90%20%EC%83%81%ED%95%9C%EC%A0%9C%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "제천시 아동의료비 본인부담 100만원 상한제 지원 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A0%9C%EC%B2%9C%EC%8B%9C%20%EC%95%84%EB%8F%99%EC%9D%98%EB%A3%8C%EB%B9%84%20%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%20100%EB%A7%8C%EC%9B%90%20%EC%83%81%ED%95%9C%EC%A0%9C%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
       "comparison_status": "original_saved_comparison_pending",
       "relationship": "",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
       "prior_url": "",
-      "detail_url": "events/f1418a13613d19a19667e22a.json",
+      "detail_url": "events/124aadbca3f2d6ae19926c4b.json",
       "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2228899|2170009",
+      "title": "부산광역시 동구의회 모범공무원 포상 운영규칙",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "부산광역시 동구",
+      "published_at": "2026-09-23",
+      "effective_date": "2027-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EA%B5%AC%EC%9D%98%ED%9A%8C%20%EB%AA%A8%EB%B2%94%EA%B3%B5%EB%AC%B4%EC%9B%90%20%ED%8F%AC%EC%83%81%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%B9%99",
+      "category": "공공재정·요율",
+      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "normal",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 40,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": false,
+        "axes": {
+          "substance": {
+            "score": 0,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "실질 기준 변경 근거 미확인 · 문구 정비",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시 동구의회 모범공무원 포상 운영규칙",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EA%B5%AC%EC%9D%98%ED%9A%8C%20%EB%AA%A8%EB%B2%94%EA%B3%B5%EB%AC%B4%EC%9B%90%20%ED%8F%AC%EC%83%81%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%B9%99"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시 동구의회 모범공무원 포상 운영규칙",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EA%B5%AC%EC%9D%98%ED%9A%8C%20%EB%AA%A8%EB%B2%94%EA%B3%B5%EB%AC%B4%EC%9B%90%20%ED%8F%AC%EC%83%81%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%B9%99"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시 동구의회 모범공무원 포상 운영규칙",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EA%B5%AC%EC%9D%98%ED%9A%8C%20%EB%AA%A8%EB%B2%94%EA%B3%B5%EB%AC%B4%EC%9B%90%20%ED%8F%AC%EC%83%81%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%B9%99"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "normal",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1804039",
+      "detail_url": "events/f8e804f1ffb0ea36edf3601d.json",
+      "change_count": 1,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2074556|2170003",
+      "title": "서울특별시 구로구 행정사무의 민간위탁에 관한 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "서울특별시 구로구",
+      "published_at": "2026-09-23",
+      "effective_date": "2027-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B5%AC%EB%A1%9C%EA%B5%AC%20%ED%96%89%EC%A0%95%EC%82%AC%EB%AC%B4%EC%9D%98%20%EB%AF%BC%EA%B0%84%EC%9C%84%ED%83%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+      "category": "공공재정·요율",
+      "primary_change_summary": "제4조의2 · 신설 → ①",
+      "priority_reasons": [
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": 40,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제4조의2",
+                "before": "… 등에 대해 서울특별시 구로구의회(이하 “의회”라 한다)의 동의를 받아야 한다. [본조신설 2024.3.14.]",
+                "after": "… 등에 대해 서울특별시 구로구의회(이하 “의회”라 한다)의 동의를 받아야 한다. ② 구청장은 제1항에 따른 의회 동의를 받고자 하는 경우에는 다음 각 호의 사항을 포함한 자료를 의회에 제출하여야 한다. 1. 민간위탁의 목적 및 추진 필요성 2. 위탁사무의 내용 및 범위 3. 민간위탁 추진 근거 4. 위",
+                "source_title": "서울특별시 구로구 행정사무의 민간위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B5%AC%EB%A1%9C%EA%B5%AC%20%ED%96%89%EC%A0%95%EC%82%AC%EB%AC%B4%EC%9D%98%20%EB%AF%BC%EA%B0%84%EC%9C%84%ED%83%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "서울특별시 구로구 행정사무의 민간위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B5%AC%EB%A1%9C%EA%B5%AC%20%ED%96%89%EC%A0%95%EC%82%AC%EB%AC%B4%EC%9D%98%20%EB%AF%BC%EA%B0%84%EC%9C%84%ED%83%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "서울특별시 구로구 행정사무의 민간위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B5%AC%EB%A1%9C%EA%B5%AC%20%ED%96%89%EC%A0%95%EC%82%AC%EB%AC%B4%EC%9D%98%20%EB%AF%BC%EA%B0%84%EC%9C%84%ED%83%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [
+          1,
+          2
+        ],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2128023",
+      "detail_url": "events/0576d5aa9b6d366956c302f8.json",
+      "change_count": 3,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -96623,12 +97652,12 @@
       "id": "admrul|91076|2100000285464",
       "title": "통계작성의 변경승인(협의) 고시(서울특별시청년통계)",
       "source": "admrul",
-      "kind": "고시",
+      "kind": "행정규칙",
       "ministry": "국가데이터처",
       "published_at": "2026-09-23",
       "effective_date": "2027-12-31",
       "revision": "일부개정",
-      "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29",
+      "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29",
       "category": "행정절차·인허가",
       "primary_change_summary": "",
       "priority_reasons": [
@@ -96654,7 +97683,7 @@
                 "before": "",
                 "after": "",
                 "source_title": "통계작성의 변경승인(협의) 고시(서울특별시청년통계)",
-                "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29"
               }
             ]
           },
@@ -96668,7 +97697,7 @@
                 "before": "",
                 "after": "",
                 "source_title": "통계작성의 변경승인(협의) 고시(서울특별시청년통계)",
-                "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29"
               }
             ]
           },
@@ -96682,7 +97711,7 @@
                 "before": "",
                 "after": "",
                 "source_title": "통계작성의 변경승인(협의) 고시(서울특별시청년통계)",
-                "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29"
               }
             ]
           }
@@ -96695,14 +97724,14 @@
       "direct_actor_leads": [],
       "policy_analysis": {
         "explanation": "서울특별시청년통계의 통계작성 변경 연월일이 2026년 12월 31일에서 2027년 12월 31일로 연장되었습니다.",
-        "old_quote": "본문: 1. 통계의 명칭 : 서울특별시청년통계 2. 통계작성기관의 명칭 : 서울특별시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제201019호 [2024.11.26.] 4. 통계작성의 변경 연월일 : 2026.12.31. 5. 통계작성의 변경 내용과 사유 :",
-        "new_quote": "본문: 1. 통계의 명칭 : 서울특별시청년통계 2. 통계작성기관의 명칭 : 서울특별시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제201019호 [2024.11.26.] 4. 통계작성의 변경 연월일 : 2027.12.31. 5. 통계작성의 변경 내용과 사유 :",
-        "program_quote": "본문: 1. 통계의 명칭 : 서울특별시청년통계 2. 통계작성기관의 명칭 : 서울특별시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제201019호 [2024.11.26.] 4. 통계작성의 변경 연월일 : 2027.12.31. 5. 통계작성의 변경 내용과 사유 :",
+        "old_quote": "본문: 1. 통계의 명칭 : 서울특별시청년통계 2. 통계작성기관의 명칭 : 서울특별시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제201019호 [2024.11.26.] 4. 통계작성의 변경 연월일 : 2026.12.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+        "new_quote": "본문: 1. 통계의 명칭 : 서울특별시청년통계 2. 통계작성기관의 명칭 : 서울특별시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제201019호 [2024.11.26.] 4. 통계작성의 변경 연월일 : 2027.12.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+        "program_quote": "본문: 1. 통계의 명칭 : 서울특별시청년통계 2. 통계작성기관의 명칭 : 서울특별시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제201019호 [2024.11.26.] 4. 통계작성의 변경 연월일 : 2027.12.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
       "impact_level": "pending",
-      "prior_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29",
+      "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29",
       "detail_url": "events/d1dd13ca6e58f9251da07edb.json",
       "change_count": 1,
       "agency_names": [],
@@ -96718,33 +97747,34 @@
       "published_at": "2026-09-23",
       "effective_date": "2026-12-31",
       "revision": "일부개정",
-      "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29",
+      "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29",
       "category": "행정절차·인허가",
-      "primary_change_summary": "",
+      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
+        "제한적인 본문·명칭·인용 정비",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
-        "classification": "pending",
-        "score": 25,
-        "score_min": 25,
-        "score_max": 90,
+        "classification": "normal",
+        "score": 35,
+        "score_min": 35,
+        "score_max": 60,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": true,
+        "possible_high": false,
         "axes": {
           "substance": {
-            "score": null,
-            "status": "pending",
+            "score": 10,
+            "status": "confirmed",
             "evidence": [
               {
-                "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
-                "article": "",
-                "before": "",
-                "after": "",
+                "reason": "제한적인 본문·명칭·인용 정비",
+                "article": "표 1 · 결과표 · 변경 전",
+                "before": "[신설]",
+                "after": "• 결과표 : 63개",
                 "source_title": "통계작성의 변경승인(협의) 고시(국민노후보장패널조사)",
-                "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
               }
             ]
           },
@@ -96758,7 +97788,7 @@
                 "before": "",
                 "after": "",
                 "source_title": "통계작성의 변경승인(협의) 고시(국민노후보장패널조사)",
-                "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
               }
             ]
           },
@@ -96772,7 +97802,7 @@
                 "before": "",
                 "after": "",
                 "source_title": "통계작성의 변경승인(협의) 고시(국민노후보장패널조사)",
-                "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
               }
             ]
           }
@@ -96780,21 +97810,14 @@
         "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "partial_unverified",
+      "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
-      "policy_analysis": {
-        "explanation": "국민노후보장패널조사 통계작성의 변경 연월일이 2026년 5월 25일에서 2026년 12월 31일로 변경되었습니다.",
-        "old_quote": "본문: 1. 통계의 명칭 : 국민노후보장패널조사 2. 통계작성기관의 명칭 : 국민연금공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제322001호 [2005.08.30.] 4. 통계작성의 변경 연월일 : 2026.05.25. 5. 통계작성의 변경 내용과 사유 :",
-        "new_quote": "본문: 1. 통계의 명칭 : 국민노후보장패널조사 2. 통계작성기관의 명칭 : 국민연금공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제322001호 [2005.08.30.] 4. 통계작성의 변경 연월일 : 2026.12.31. 5. 통계작성의 변경 내용과 사유 :",
-        "program_quote": "본문: 1. 통계의 명칭 : 국민노후보장패널조사 2. 통계작성기관의 명칭 : 국민연금공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제322001호 [2005.08.30.] 4. 통계작성의 변경 연월일 : 2026.12.31. 5. 통계작성의 변경 내용과 사유 :",
-        "verified": true,
-        "model": "gemini-3.5-flash-lite"
-      },
-      "impact_level": "pending",
-      "prior_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29",
+      "policy_analysis": null,
+      "impact_level": "normal",
+      "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29",
       "detail_url": "events/c935032d2537c285b2882950.json",
-      "change_count": 1,
+      "change_count": 7,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -96810,29 +97833,30 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%B5%9C%EC%A0%80%EC%9E%84%EA%B8%88%EC%A0%81%EC%9A%A9%ED%9A%A8%EA%B3%BC%EC%97%90%EA%B4%80%ED%95%9C%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29",
       "category": "행정절차·인허가",
-      "primary_change_summary": "첨부 전문 · ◎ 국가데이터처 고시 제 2025 - 46호 통계법 제18조제4항 및 같은 법 시행령 제26조제6항의 규정에 의하여 다음과 같이 통계작성 → 삭제",
+      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
+        "제한적인 본문·명칭·인용 정비",
         "전국 공통 법정 급여·보장·보험 기준"
       ],
       "impact_assessment": {
-        "classification": "pending",
-        "score": 35,
-        "score_min": 35,
-        "score_max": 100,
+        "classification": "normal",
+        "score": 45,
+        "score_min": 45,
+        "score_max": 70,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": true,
+        "possible_high": false,
         "axes": {
           "substance": {
-            "score": null,
-            "status": "pending",
+            "score": 10,
+            "status": "confirmed",
             "evidence": [
               {
-                "reason": "부분 대조의 근거 추가 확인 필요",
-                "article": "",
-                "before": "",
-                "after": "",
+                "reason": "제한적인 본문·명칭·인용 정비",
+                "article": "표 1 · 조사항목 (조사표) · 변경 전",
+                "before": "[신설]",
+                "after": "ㅇ 조사항목: 총 59개 문항 - 사업주(35) - 근로자(24)",
                 "source_title": "통계작성의 변경승인(협의) 고시(최저임금적용효과에관한실태조사)",
                 "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%B5%9C%EC%A0%80%EC%9E%84%EA%B8%88%EC%A0%81%EC%9A%A9%ED%9A%A8%EA%B3%BC%EC%97%90%EA%B4%80%ED%95%9C%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
               }
@@ -96867,19 +97891,17 @@
             ]
           }
         },
-        "featured_change_indices": [
-          0
-        ],
+        "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
-      "impact_level": "pending",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%B5%9C%EC%A0%80%EC%9E%84%EA%B8%88%EC%A0%81%EC%9A%A9%ED%9A%A8%EA%B3%BC%EC%97%90%EA%B4%80%ED%95%9C%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29",
       "detail_url": "events/7b5c3b7736b1e531c297f636.json",
-      "change_count": 1,
+      "change_count": 9,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -97051,25 +98073,278 @@
       "dependency_count": 0
     },
     {
-      "id": "admrul|50034|2100000285274",
-      "title": "통계작성의 변경승인(협의) 고시(사회서비스수요·공급실태조사)",
-      "source": "admrul",
-      "kind": "고시",
-      "ministry": "국가데이터처",
-      "published_at": "2026-09-18",
-      "effective_date": "2026-11-30",
+      "id": "ordin|2148581|2169775",
+      "title": "경상북도 참전유공자 예우 및 지원에 관한 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "경상북도",
+      "published_at": "2026-09-21",
+      "effective_date": "2027-01-01",
       "revision": "일부개정",
-      "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%82%AC%ED%9A%8C%EC%84%9C%EB%B9%84%EC%8A%A4%EC%88%98%EC%9A%94%C2%B7%EA%B3%B5%EA%B8%89%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29",
-      "category": "급여·지원기준",
-      "primary_change_summary": "첨부 전문 · ◎ 국가데이터처 고시 제 2025 – 109호 통계법 제18조제4항 및 같은 법 시행령 제26조제6항의 규정에 의하여 다음과 같이 통계작 → 삭제",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90%20%EC%98%88%EC%9A%B0%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+      "category": "기타 제·개정",
+      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "중앙행정규칙이 관할하는 전국 특정 분야"
+        "제한적인 본문·명칭·인용 정비",
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "normal",
+        "score": 25,
+        "score_min": 25,
+        "score_max": 50,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": false,
+        "axes": {
+          "substance": {
+            "score": 10,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "제한적인 본문·명칭·인용 정비",
+                "article": "제6조",
+                "before": "… ① 도지사는 다음 각 호에 해당하는 도내 참전유공자 등의 명예를 기리기 위하여 참전명예수당을 지급할 수 있다. 다만, 전몰군경 유가족이 2명 이상일 경우 「국가…",
+                "after": "… ① 도지사는 다음 각 호에 해당하는 도내 참전유공자 등의 명예를 기리기 위하여 예산의 범위에서 참전명예수당을 지급할 수 있다. 다만, 전몰군경 유가족이 2명 이상일 경우 「국…",
+                "source_title": "경상북도 참전유공자 예우 및 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90%20%EC%98%88%EC%9A%B0%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "경상북도 참전유공자 예우 및 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90%20%EC%98%88%EC%9A%B0%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "경상북도 참전유공자 예우 및 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90%20%EC%98%88%EC%9A%B0%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "normal",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1955163",
+      "detail_url": "events/353c2b7e98342d5ebd9c579b.json",
+      "change_count": 1,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2267585|2169547",
+      "title": "양주시 의료기관 간 응급환자 이송 지원에 관한 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "경기도 양주시",
+      "published_at": "2026-09-21",
+      "effective_date": "2027-01-01",
+      "revision": "제정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%96%91%EC%A3%BC%EC%8B%9C%20%EC%9D%98%EB%A3%8C%EA%B8%B0%EA%B4%80%20%EA%B0%84%20%EC%9D%91%EA%B8%89%ED%99%98%EC%9E%90%20%EC%9D%B4%EC%86%A1%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
         "classification": "pending",
-        "score": 25,
-        "score_min": 25,
-        "score_max": 90,
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "양주시 의료기관 간 응급환자 이송 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%96%91%EC%A3%BC%EC%8B%9C%20%EC%9D%98%EB%A3%8C%EA%B8%B0%EA%B4%80%20%EA%B0%84%20%EC%9D%91%EA%B8%89%ED%99%98%EC%9E%90%20%EC%9D%B4%EC%86%A1%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "양주시 의료기관 간 응급환자 이송 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%96%91%EC%A3%BC%EC%8B%9C%20%EC%9D%98%EB%A3%8C%EA%B8%B0%EA%B4%80%20%EA%B0%84%20%EC%9D%91%EA%B8%89%ED%99%98%EC%9E%90%20%EC%9D%B4%EC%86%A1%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "양주시 의료기관 간 응급환자 이송 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%96%91%EC%A3%BC%EC%8B%9C%20%EC%9D%98%EB%A3%8C%EA%B8%B0%EA%B4%80%20%EA%B0%84%20%EC%9D%91%EA%B8%89%ED%99%98%EC%9E%90%20%EC%9D%B4%EC%86%A1%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/c8e484312c7123e888daa2e1.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2138710|2169453",
+      "title": "화천군 새마을운동 조직육성 및 지원에 관한 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "강원특별자치도 화천군",
+      "published_at": "2026-09-21",
+      "effective_date": "2027-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%99%94%EC%B2%9C%EA%B5%B0%20%EC%83%88%EB%A7%88%EC%9D%84%EC%9A%B4%EB%8F%99%20%EC%A1%B0%EC%A7%81%EC%9C%A1%EC%84%B1%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+      "category": "공공재정·요율",
+      "primary_change_summary": "제4조 · 새마을운동조직의 운영, → 새마을운동조직 육성과",
+      "priority_reasons": [
+        "기관 기능·권한·업무분장 변경",
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "normal",
+        "score": 35,
+        "score_min": 35,
+        "score_max": 60,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": false,
+        "axes": {
+          "substance": {
+            "score": 20,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "기관 기능·권한·업무분장 변경",
+                "article": "제4조",
+                "before": "제4조(예산지원) 군수는 새마을운동조직의 운영, 새마을사업 추진, 새마을운동조직 구성원의 능력배양을 위한 국내외 교육 및 연수,…",
+                "after": "제4조(예산지원) 군수는 새마을운동조직 육성과 새마을사업 활성화를 위하여 각 호의 사항을 예산의 범위에서 지원할 수 있다. <…",
+                "source_title": "화천군 새마을운동 조직육성 및 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%99%94%EC%B2%9C%EA%B5%B0%20%EC%83%88%EB%A7%88%EC%9D%84%EC%9A%B4%EB%8F%99%20%EC%A1%B0%EC%A7%81%EC%9C%A1%EC%84%B1%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "화천군 새마을운동 조직육성 및 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%99%94%EC%B2%9C%EA%B5%B0%20%EC%83%88%EB%A7%88%EC%9D%84%EC%9A%B4%EB%8F%99%20%EC%A1%B0%EC%A7%81%EC%9C%A1%EC%84%B1%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "화천군 새마을운동 조직육성 및 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%99%94%EC%B2%9C%EA%B5%B0%20%EC%83%88%EB%A7%88%EC%9D%84%EC%9A%B4%EB%8F%99%20%EC%A1%B0%EC%A7%81%EC%9C%A1%EC%84%B1%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [
+          0
+        ],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "normal",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1026013",
+      "detail_url": "events/92a4927a20331c9b591d75ef.json",
+      "change_count": 1,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2138902|2169451",
+      "title": "화천군 참전유공자 지원에 관한 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "강원특별자치도 화천군",
+      "published_at": "2026-09-21",
+      "effective_date": "2027-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%99%94%EC%B2%9C%EA%B5%B0%20%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+      "category": "급여·지원기준",
+      "primary_change_summary": "제5조 · 신설 → (다만, 다른 지방자치단체에서 수당을 지급 받은 달까지는 지급 제외) <개정 2026.9.21.>",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
@@ -97084,6 +98359,180 @@
                 "article": "",
                 "before": "",
                 "after": "",
+                "source_title": "화천군 참전유공자 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%99%94%EC%B2%9C%EA%B5%B0%20%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "화천군 참전유공자 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%99%94%EC%B2%9C%EA%B5%B0%20%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "화천군 참전유공자 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%99%94%EC%B2%9C%EA%B5%B0%20%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [
+          2
+        ],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "partial_unverified",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2068739",
+      "detail_url": "events/9e4c0f923aff5edfc7f3adca.json",
+      "change_count": 3,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2201168|2168885",
+      "title": "진천군 통합재정안정화기금 설치 및 운용 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "충청북도 진천군",
+      "published_at": "2026-09-18",
+      "effective_date": "2027-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A7%84%EC%B2%9C%EA%B5%B0%20%ED%86%B5%ED%95%A9%EC%9E%AC%EC%A0%95%EC%95%88%EC%A0%95%ED%99%94%EA%B8%B0%EA%B8%88%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%9A%A9%20%EC%A1%B0%EB%A1%80",
+      "category": "공공재정·요율",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": 40,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제14조",
+                "before": "[신설]",
+                "after": "제14조(회계공무원의 지정 등) ① 군수는 통합기금의 관리ㆍ운용을 위해 다음 각 호와 같이 회계공무원을 지정한다. 1. 기금운용관: 통합기금 담당부서장 2. 기금출납원: 통합기금 담당주사 ② 기금운용관과 기금출납원은 통합기금을 적정하게 관리하기 위하여 필요한 대장을 비치하고, 통합기금에 관한 증빙서류를 ",
+                "source_title": "진천군 통합재정안정화기금 설치 및 운용 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A7%84%EC%B2%9C%EA%B5%B0%20%ED%86%B5%ED%95%A9%EC%9E%AC%EC%A0%95%EC%95%88%EC%A0%95%ED%99%94%EA%B8%B0%EA%B8%88%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%9A%A9%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "진천군 통합재정안정화기금 설치 및 운용 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A7%84%EC%B2%9C%EA%B5%B0%20%ED%86%B5%ED%95%A9%EC%9E%AC%EC%A0%95%EC%95%88%EC%A0%95%ED%99%94%EA%B8%B0%EA%B8%88%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%9A%A9%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "진천군 통합재정안정화기금 설치 및 운용 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A7%84%EC%B2%9C%EA%B5%B0%20%ED%86%B5%ED%95%A9%EC%9E%AC%EC%A0%95%EC%95%88%EC%A0%95%ED%99%94%EA%B8%B0%EA%B8%88%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%9A%A9%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [
+          4,
+          7,
+          9
+        ],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1940477",
+      "detail_url": "events/0a7762a876e73e38ae237fd7.json",
+      "change_count": 11,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "admrul|50034|2100000285274",
+      "title": "통계작성의 변경승인(협의) 고시(사회서비스수요·공급실태조사)",
+      "source": "admrul",
+      "kind": "고시",
+      "ministry": "국가데이터처",
+      "published_at": "2026-09-18",
+      "effective_date": "2026-11-30",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%82%AC%ED%9A%8C%EC%84%9C%EB%B9%84%EC%8A%A4%EC%88%98%EC%9A%94%C2%B7%EA%B3%B5%EA%B8%89%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29",
+      "category": "급여·지원기준",
+      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+      "priority_reasons": [
+        "제한적인 본문·명칭·인용 정비",
+        "중앙행정규칙이 관할하는 전국 특정 분야"
+      ],
+      "impact_assessment": {
+        "classification": "normal",
+        "score": 35,
+        "score_min": 35,
+        "score_max": 60,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": false,
+        "axes": {
+          "substance": {
+            "score": 10,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "제한적인 본문·명칭·인용 정비",
+                "article": "표 1 · 결과표 · 변경 전",
+                "before": "[신설]",
+                "after": "• 수요조사 항목 : 99개",
                 "source_title": "통계작성의 변경승인(협의) 고시(사회서비스수요·공급실태조사)",
                 "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%82%AC%ED%9A%8C%EC%84%9C%EB%B9%84%EC%8A%A4%EC%88%98%EC%9A%94%C2%B7%EA%B3%B5%EA%B8%89%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
               }
@@ -97118,19 +98567,17 @@
             ]
           }
         },
-        "featured_change_indices": [
-          0
-        ],
+        "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
-      "impact_level": "pending",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%82%AC%ED%9A%8C%EC%84%9C%EB%B9%84%EC%8A%A4%EC%88%98%EC%9A%94%C2%B7%EA%B3%B5%EA%B8%89%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29",
       "detail_url": "events/e9f07caecf790f30fc0b00b4.json",
-      "change_count": 1,
+      "change_count": 5,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -97229,29 +98676,30 @@
       "revision": "전부개정",
       "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EB%A9%B4%EC%A0%9C%E3%86%8D%EC%98%88%EC%99%B8%20%EC%9D%B8%EC%A0%95%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A0%95%EC%B1%85%EC%A7%80%EC%B9%A8",
       "category": "기타 제·개정",
-      "primary_change_summary": "",
+      "primary_change_summary": "첨부 1 · [별표] 위험평가 절차 → 국토교통부훈령 제1990호 면제ㆍ예외 인정에 관한 정책지침 제1장 총칙 제1조",
       "priority_reasons": [
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
-        "classification": "pending",
-        "score": 25,
-        "score_min": 25,
+        "classification": "high",
+        "score": 65,
+        "score_min": 65,
         "score_max": 90,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": true,
+        "possible_high": false,
         "axes": {
           "substance": {
-            "score": null,
-            "status": "pending",
+            "score": 40,
+            "status": "confirmed",
             "evidence": [
               {
-                "reason": "종전·현행 원문 비교 대기",
-                "article": "",
-                "before": "",
-                "after": "",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "첨부 1",
+                "before": "[별표] 위험평가 절차(제5조제3항 관련) 1. 위험평가 매트릭스를 활용하여 위험(Risk)의 발생가능성과 심각도를 조합하여…",
+                "after": "…정하는 바에 따른다. 제2장 면제ㆍ예외의 검토 제5조(신청내용의 적합성 검토) ① 소관부서의 장은 면제ㆍ예외의 인정 신청을 접수한 경우 다음 각 호의 사항을 검토해야 한다. 1. 제출자료의 구비 및 내용의 적정성 2. 관계 법령에서 정한 인정요건 또…",
                 "source_title": "면제ㆍ예외 인정에 관한 정책지침",
                 "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EB%A9%B4%EC%A0%9C%E3%86%8D%EC%98%88%EC%99%B8%20%EC%9D%B8%EC%A0%95%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A0%95%EC%B1%85%EC%A7%80%EC%B9%A8"
               }
@@ -97286,17 +98734,20 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          2,
+          3
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "original_saved_comparison_pending",
-      "relationship": "",
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
-      "impact_level": "pending",
-      "prior_url": "",
+      "impact_level": "high",
+      "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EB%A9%B4%EC%A0%9C/%EC%98%88%EC%99%B8%20%EC%9D%B8%EC%A0%95%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A0%95%EC%B1%85%EC%A7%80%EC%B9%A8",
       "detail_url": "events/c994005050d54e085ffd1e5d.json",
-      "change_count": 0,
+      "change_count": 8,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -97490,7 +98941,7 @@
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
@@ -103360,6 +104811,89 @@
       "dependency_count": 0
     },
     {
+      "id": "ordin|2099336|2158987",
+      "title": "완주군 임신ㆍ출산에 관한 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "전북특별자치도 완주군",
+      "published_at": "2026-08-10",
+      "effective_date": "2026-08-10",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%99%84%EC%A3%BC%EA%B5%B0%20%EC%9E%84%EC%8B%A0%E3%86%8D%EC%B6%9C%EC%82%B0%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "완주군 임신ㆍ출산에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%99%84%EC%A3%BC%EA%B5%B0%20%EC%9E%84%EC%8B%A0%E3%86%8D%EC%B6%9C%EC%82%B0%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "완주군 임신ㆍ출산에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%99%84%EC%A3%BC%EA%B5%B0%20%EC%9E%84%EC%8B%A0%E3%86%8D%EC%B6%9C%EC%82%B0%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "완주군 임신ㆍ출산에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%99%84%EC%A3%BC%EA%B5%B0%20%EC%9E%84%EC%8B%A0%E3%86%8D%EC%B6%9C%EC%82%B0%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/a02ec6d50c5039b8bdb8e548.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "admrul|97096|2100000283784",
       "title": "자율기구 소방인공지능융합담당관 설치 및 운영에 관한 규정",
       "source": "admrul",
@@ -103617,7 +105151,7 @@
       "published_at": "2026-08-06",
       "effective_date": "2026-12-31",
       "revision": "일부개정",
-      "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29",
+      "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29",
       "category": "행정절차·인허가",
       "primary_change_summary": "",
       "priority_reasons": [
@@ -103643,7 +105177,7 @@
                 "before": "",
                 "after": "",
                 "source_title": "통계작성의 변경승인(협의) 고시(서울특별시청년통계)",
-                "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29"
               }
             ]
           },
@@ -103657,7 +105191,7 @@
                 "before": "",
                 "after": "",
                 "source_title": "통계작성의 변경승인(협의) 고시(서울특별시청년통계)",
-                "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29"
               }
             ]
           },
@@ -103671,7 +105205,7 @@
                 "before": "",
                 "after": "",
                 "source_title": "통계작성의 변경승인(협의) 고시(서울특별시청년통계)",
-                "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29"
               }
             ]
           }
@@ -124382,7 +125916,7 @@
       "published_at": "2026-05-28",
       "effective_date": "2026-05-25",
       "revision": "일부개정",
-      "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29",
+      "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29",
       "category": "행정절차·인허가",
       "primary_change_summary": "",
       "priority_reasons": [
@@ -124408,7 +125942,7 @@
                 "before": "",
                 "after": "",
                 "source_title": "통계작성의 변경승인(협의) 고시(국민노후보장패널조사)",
-                "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
               }
             ]
           },
@@ -124422,7 +125956,7 @@
                 "before": "",
                 "after": "",
                 "source_title": "통계작성의 변경승인(협의) 고시(국민노후보장패널조사)",
-                "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
               }
             ]
           },
@@ -124436,7 +125970,7 @@
                 "before": "",
                 "after": "",
                 "source_title": "통계작성의 변경승인(협의) 고시(국민노후보장패널조사)",
-                "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
               }
             ]
           }
@@ -125364,6 +126898,89 @@
       "impact_level": "pending",
       "prior_url": "",
       "detail_url": "events/507734ab55d0cc8e18e685b2.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2074556|2128023",
+      "title": "서울특별시 구로구 행정사무의 민간위탁에 관한 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "서울특별시 구로구",
+      "published_at": "2026-05-07",
+      "effective_date": "2026-05-07",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2128023",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "서울특별시 구로구 행정사무의 민간위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2128023"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "서울특별시 구로구 행정사무의 민간위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2128023"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "서울특별시 구로구 행정사무의 민간위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2128023"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/a48c3e023b1bd73b8d922add.json",
       "change_count": 0,
       "agency_names": [],
       "action_count": 0,
@@ -131182,6 +132799,89 @@
       "impact_level": "pending",
       "prior_url": "",
       "detail_url": "events/093f05f108a222f9d501b8f9.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2127026|2110983",
+      "title": "청주시 사무의 민간위탁에 관한 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "충청북도 청주시",
+      "published_at": "2026-02-20",
+      "effective_date": "2026-02-20",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2110983",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "청주시 사무의 민간위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2110983"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "청주시 사무의 민간위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2110983"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "청주시 사무의 민간위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2110983"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/576573a4a48f77903b227ae4.json",
       "change_count": 0,
       "agency_names": [],
       "action_count": 0,
@@ -137421,6 +139121,89 @@
       "dependency_count": 0
     },
     {
+      "id": "ordin|2171113|2094887",
+      "title": "청주시 선택예방접종 지원 및 위탁에 관한 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "충청북도 청주시",
+      "published_at": "2025-12-19",
+      "effective_date": "2026-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2094887",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "청주시 선택예방접종 지원 및 위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2094887"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "청주시 선택예방접종 지원 및 위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2094887"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "청주시 선택예방접종 지원 및 위탁에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2094887"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/f2112ba11ce2cc49c15a1862.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "ordin|2202405|2094745",
       "title": "정읍시 선택예방접종 지원에 관한 조례",
       "source": "ordin",
@@ -143399,6 +145182,89 @@
       "impact_level": "pending",
       "prior_url": "",
       "detail_url": "events/bb68c772f804248ec007d369.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2138902|2068739",
+      "title": "화천군 참전유공자 지원에 관한 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "강원특별자치도 화천군",
+      "published_at": "2025-09-22",
+      "effective_date": "2025-09-22",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2068739",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "화천군 참전유공자 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2068739"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "화천군 참전유공자 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2068739"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "화천군 참전유공자 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2068739"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/b3f1be65e72d687c369d493c.json",
       "change_count": 0,
       "agency_names": [],
       "action_count": 0,
@@ -153531,6 +155397,89 @@
       "dependency_count": 0
     },
     {
+      "id": "ordin|2248499|1991089",
+      "title": "포항시 민원실 설치 및 운영에 관한 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "경상북도 포항시",
+      "published_at": "2024-12-11",
+      "effective_date": "2025-07-01",
+      "revision": "제정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1991089",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "포항시 민원실 설치 및 운영에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1991089"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "포항시 민원실 설치 및 운영에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1991089"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "포항시 민원실 설치 및 운영에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1991089"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/d7edc070c9f17b7ea423b1dd.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "ordin|2073564|1990853",
       "title": "서울특별시 강서구 금고의 지정 및 운영에 관한 규칙",
       "source": "ordin",
@@ -154195,6 +156144,89 @@
       "dependency_count": 0
     },
     {
+      "id": "ordin|2070508|1982877",
+      "title": "산청군 이장의 임무와 실비 보상등 지원에 관한 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "경상남도 산청군",
+      "published_at": "2024-11-07",
+      "effective_date": "2024-11-07",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1982877",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "산청군 이장의 임무와 실비 보상등 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1982877"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "산청군 이장의 임무와 실비 보상등 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1982877"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "산청군 이장의 임무와 실비 보상등 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1982877"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/555b0e53e4027f950c1819bc.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "ordin|2142265|1982555",
       "title": "서울특별시 동작구 국가보훈대상자 예우 및 지원에 관한 조례",
       "source": "ordin",
@@ -154604,6 +156636,89 @@
       "impact_level": "pending",
       "prior_url": "",
       "detail_url": "events/dead0bed26d783cd138dc1a0.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2090554|1977949",
+      "title": "여수시 도시공원 및 녹지 등에 관한 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "전남광주통합특별시 여수시",
+      "published_at": "2024-10-18",
+      "effective_date": "2024-10-18",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1977949",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "여수시 도시공원 및 녹지 등에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1977949"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "여수시 도시공원 및 녹지 등에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1977949"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "여수시 도시공원 및 녹지 등에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1977949"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/4555f61b31d8f4b0738b4f01.json",
       "change_count": 0,
       "agency_names": [],
       "action_count": 0,
@@ -156851,6 +158966,89 @@
       "dependency_count": 0
     },
     {
+      "id": "ordin|2148581|1955163",
+      "title": "경상북도 참전유공자 예우 및 지원에 관한 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "경상북도",
+      "published_at": "2024-07-11",
+      "effective_date": "2024-07-11",
+      "revision": "전부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1955163",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "경상북도 참전유공자 예우 및 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1955163"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "경상북도 참전유공자 예우 및 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1955163"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "경상북도 참전유공자 예우 및 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1955163"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/20593e22fbbab2fbe458f358.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "ordin|2144333|1953077",
       "title": "안양시 양성평등 기본 조례",
       "source": "ordin",
@@ -157509,6 +159707,89 @@
       "impact_level": "pending",
       "prior_url": "",
       "detail_url": "events/79b4e30e1fccdae97014e385.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2201168|1940477",
+      "title": "진천군 통합재정안정화기금 설치 및 운용 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "충청북도 진천군",
+      "published_at": "2024-06-25",
+      "effective_date": "2024-06-25",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1940477",
+      "category": "공공재정·요율",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "진천군 통합재정안정화기금 설치 및 운용 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1940477"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "진천군 통합재정안정화기금 설치 및 운용 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1940477"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "진천군 통합재정안정화기금 설치 및 운용 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1940477"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/c9a315b1ce7a5aa15f158953.json",
       "change_count": 0,
       "agency_names": [],
       "action_count": 0,
@@ -169308,6 +171589,89 @@
       "dependency_count": 0
     },
     {
+      "id": "ordin|2228899|1804039",
+      "title": "부산광역시 동구의회 모범공무원 포상 운영규칙",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "부산광역시 동구",
+      "published_at": "2023-04-25",
+      "effective_date": "2023-04-25",
+      "revision": "제정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1804039",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시 동구의회 모범공무원 포상 운영규칙",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1804039"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시 동구의회 모범공무원 포상 운영규칙",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1804039"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시 동구의회 모범공무원 포상 운영규칙",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1804039"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/d279a1113a3710820ab90000.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "ordin|2024819|1799931",
       "title": "경기도 주택조례",
       "source": "ordin",
@@ -177774,6 +180138,89 @@
       "dependency_count": 0
     },
     {
+      "id": "ordin|2193748|1442119",
+      "title": "부산광역시교육청 조례 입법평가 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "부산광역시교육청",
+      "published_at": "2020-01-08",
+      "effective_date": "2020-07-09",
+      "revision": "제정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1442119",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시교육청 조례 입법평가 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1442119"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시교육청 조례 입법평가 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1442119"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시교육청 조례 입법평가 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1442119"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/8c269dd218277099bf6d38e7.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "ordin|2144865|1440857",
       "title": "고양시 전통상업보존구역 지정 및 대규모ㆍ준대규모 점포의 등록제한 등에 관한 조례",
       "source": "ordin",
@@ -180513,6 +182960,89 @@
       "dependency_count": 0
     },
     {
+      "id": "ordin|2138710|1026013",
+      "title": "화천군 새마을운동 조직육성 및 지원에 관한 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "강원특별자치도 화천군",
+      "published_at": "2015-02-23",
+      "effective_date": "2015-02-23",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1026013",
+      "category": "조직·인력",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "화천군 새마을운동 조직육성 및 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1026013"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "화천군 새마을운동 조직육성 및 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1026013"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "화천군 새마을운동 조직육성 및 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1026013"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/a9ca70cf10c4a501ea00ca6a.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "ordin|2090810|987056",
       "title": "여수시 자율적 내부통제 운영에 관한 규칙",
       "source": "ordin",
@@ -181095,35 +183625,35 @@
     }
   ],
   "summary": {
-    "displayed_events": 2129,
-    "with_verified_changes": 164,
-    "with_text_differences": 557,
+    "displayed_events": 2159,
+    "with_verified_changes": 178,
+    "with_text_differences": 570,
     "with_institutional_actions": 10,
     "agency_action_count": 690,
     "by_category": {
       "행정절차·인허가": 294,
-      "기타 제·개정": 1420,
-      "조직·인력": 189,
-      "급여·지원기준": 169,
-      "공공재정·요율": 57
+      "기타 제·개정": 1440,
+      "조직·인력": 190,
+      "급여·지원기준": 172,
+      "공공재정·요율": 63
     }
   },
   "collection": {
-    "detail_attempted": 32,
-    "complete_originals_added": 14,
-    "compared_pairs_processed": 28,
-    "failed_windows": 0,
+    "detail_attempted": 27,
+    "complete_originals_added": 16,
+    "compared_pairs_processed": 23,
+    "failed_windows": 2,
     "streams_checked": 6,
-    "indexed_unique_versions": 23581,
-    "saved_indexed_originals": 2107,
-    "verified_complete_originals": 391,
-    "pending_index_versions": 21474,
-    "indexed_versions_without_comparison": 22879,
+    "indexed_unique_versions": 25033,
+    "saved_indexed_originals": 2147,
+    "verified_complete_originals": 419,
+    "pending_index_versions": 22886,
+    "indexed_versions_without_comparison": 24316,
     "year_search_year": 2027
   },
   "analysis": {
     "official_programs": 10942,
-    "comparisons_considered": 702,
+    "comparisons_considered": 717,
     "verified_institutional_tasks": 27,
     "named_standard_review_candidates": 663,
     "direct_statutory_actor_leads": 108,
@@ -181131,25 +183661,25 @@
     "legacy_citation_candidates": 16,
     "legacy_program_review_candidates": 0,
     "comparison_statuses": {
-      "partial_unverified": 534,
-      "changed": 164,
+      "partial_unverified": 535,
+      "changed": 178,
       "no_text_change": 4
     },
-    "ai_explanation_attempts": 1,
+    "ai_explanation_attempts": 4,
     "ai_verified_explanations": 0,
     "ai_failures": 1,
     "ai_failure_reasons": {
       "AI_HTTP_503:provider_rejected_request": 1
     },
-    "policy_ai_summaries": 250,
+    "policy_ai_summaries": 251,
     "ai_configured": true,
-    "policy_summaries_pending": 307
+    "policy_summaries_pending": 319
   },
   "coverage": {
     "alio_public_institutions": 355,
     "alio_reported": 355,
     "alio_source_url": "https://www.alioplus.go.kr/organization/organByTypeList.do?schApbaGb=APBA&pageNo=1",
-    "alio_updated_at": "2026-11-11T15:57:18.252082+00:00",
+    "alio_updated_at": "2026-11-11T17:00:47.007504+00:00",
     "gov24_programs": 10942,
     "gov24_agencies": 686,
     "gov24_agency_types": {
@@ -181171,15 +183701,15 @@
     "directory_is_impact_evidence": false
   },
   "reconciliation": {
-    "indexed_unique_versions": 23348,
-    "saved_versions": 2129,
-    "indexed_without_saved_original": 21474,
-    "official_complete_originals": 398,
-    "legacy_extracted_versions_requiring_source_revalidation": 1270,
-    "comparisons": 702,
+    "indexed_unique_versions": 24778,
+    "saved_versions": 2159,
+    "indexed_without_saved_original": 22886,
+    "official_complete_originals": 429,
+    "legacy_extracted_versions_requiring_source_revalidation": 1250,
+    "comparisons": 717,
     "comparisons_by_status": {
-      "changed": 164,
-      "partial_unverified": 534,
+      "changed": 178,
+      "partial_unverified": 535,
       "no_text_change": 4
     },
     "comparisons_without_impact_assessment": 0,

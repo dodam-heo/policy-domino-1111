@@ -1,0 +1,151 @@
+{
+  "id": "ordin|2138710|2169453",
+  "title": "화천군 새마을운동 조직육성 및 지원에 관한 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "강원특별자치도 화천군",
+  "published_at": "2026-09-21",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%99%94%EC%B2%9C%EA%B5%B0%20%EC%83%88%EB%A7%88%EC%9D%84%EC%9A%B4%EB%8F%99%20%EC%A1%B0%EC%A7%81%EC%9C%A1%EC%84%B1%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+  "category": "공공재정·요율",
+  "primary_change_summary": "제4조 · 새마을운동조직의 운영, → 새마을운동조직 육성과",
+  "priority_reasons": [
+    "기관 기능·권한·업무분장 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 20,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "기관 기능·권한·업무분장 변경",
+            "article": "제4조",
+            "before": "제4조(예산지원) 군수는 새마을운동조직의 운영, 새마을사업 추진, 새마을운동조직 구성원의 능력배양을 위한 국내외 교육 및 연수,…",
+            "after": "제4조(예산지원) 군수는 새마을운동조직 육성과 새마을사업 활성화를 위하여 각 호의 사항을 예산의 범위에서 지원할 수 있다. <…",
+            "source_title": "화천군 새마을운동 조직육성 및 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%99%94%EC%B2%9C%EA%B5%B0%20%EC%83%88%EB%A7%88%EC%9D%84%EC%9A%B4%EB%8F%99%20%EC%A1%B0%EC%A7%81%EC%9C%A1%EC%84%B1%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "화천군 새마을운동 조직육성 및 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%99%94%EC%B2%9C%EA%B5%B0%20%EC%83%88%EB%A7%88%EC%9D%84%EC%9A%B4%EB%8F%99%20%EC%A1%B0%EC%A7%81%EC%9C%A1%EC%84%B1%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "화천군 새마을운동 조직육성 및 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%99%94%EC%B2%9C%EA%B5%B0%20%EC%83%88%EB%A7%88%EC%9D%84%EC%9A%B4%EB%8F%99%20%EC%A1%B0%EC%A7%81%EC%9C%A1%EC%84%B1%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제4조",
+      "before": "제4조(예산지원) 군수는 새마을운동조직의 운영, 새마을사업 추진, 새마을운동조직 구성원의 능력배양을 위한 국내외 교육 및 연수, 새마을운동조직 구성원에게 향토지 보급, 그 밖에 새마을운동 조직 육성과 활성화 사업 및 행사 등에 소요되는 경비를 예산의 범위에서 지원할 수 있다.<개정 2015.2.23 조례 제2179호>",
+      "after": "제4조(예산지원) 군수는 새마을운동조직 육성과 새마을사업 활성화를 위하여 각 호의 사항을 예산의 범위에서 지원할 수 있다. <개정 2015.2.23 조례 제2179호, 2026.9.21.> 1. 새마을운동조직의 운영 2. 새마을사업 추진 3. 새마을운동조직 구성원의 능력배양을 위한 국내외 교육 및 연수 4. 새마을운동조직 구성원에게 향토지 보급 5. 새마을사업 추진과 관련된 회의 참석 수당 6. 그 밖에 새마을운동 조직 육성과 활성화 사업 및 행사 등에 소요되는 경비",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제4조(예산지원) 군수는 ",
+            "changed": "새마을운동조직의 운영,",
+            "suffix": " 새마을사업 추진, 새마을운동조직 구성원의 능력배양을 위한 국내외 교육 및 연수,…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제4조(예산지원) 군수는 ",
+            "changed": "새마을운동조직 육성과",
+            "suffix": " 새마을사업 활성화를 위하여 각 호의 사항을 예산의 범위에서 지원할 수 있다. <…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제4조(예산지원) 군수는 새마을운동조직의 운영, 새마을사업 ",
+            "changed": "추진, 새마을운동조직 구성원의 능력배양을 위한 국내외 교육 및 연수, 새마을운동조직 구성원에게 향토지 보급, 그 밖에 새마을운동 조직 육성과 활성화 사업 및 행사 등에 소요되는 경비를",
+            "suffix": " 예산의 범위에서 지원할 수 있다.<개정 2015.2.23 조례 제2179호>",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제4조(예산지원) 군수는 새마을운동조직 육성과 새마을사업 ",
+            "changed": "활성화를 위하여 각 호의 사항을",
+            "suffix": " 예산의 범위에서 지원할 수 있다. <개정 2015.2.23 조례 제2179호, …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…경비를 예산의 범위에서 지원할 수 있다.<개정 2015.2.23 조례 제2179호",
+            "changed": "",
+            "suffix": ">",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…항을 예산의 범위에서 지원할 수 있다. <개정 2015.2.23 조례 제2179호",
+            "changed": ", 2026.9.21.",
+            "suffix": "> 1. 새마을운동조직의 운영 2. 새마을사업 추진 3. 새마을운동조직 구성원의 …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…비를 예산의 범위에서 지원할 수 있다.<개정 2015.2.23 조례 제2179호>",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…할 수 있다. <개정 2015.2.23 조례 제2179호, 2026.9.21.> ",
+            "changed": "1. 새마을운동조직의 운영 2. 새마을사업 추진 3. 새마을운동조직 구성원의 능력배양을 위한 국내외 교육 및 연수 4. 새마을운동조직 구성원에게 향토지 보급 5. 새마을사업 추진과 관련된 회의 참석 수당 6. 그 밖에 새마을운동 조직 육성과 활성화 사업 및 행사 등에 소요되는 경비",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 4,
+      "substance_score": 20
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1026013"
+}

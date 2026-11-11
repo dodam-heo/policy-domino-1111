@@ -1,0 +1,137 @@
+{
+  "id": "ordin|2127026|2170245",
+  "title": "청주시 사무의 민간위탁에 관한 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "충청북도 청주시",
+  "published_at": "2026-09-23",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%82%AC%EB%AC%B4%EC%9D%98%20%EB%AF%BC%EA%B0%84%EC%9C%84%ED%83%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+  "category": "기타 제·개정",
+  "primary_change_summary": "제27조 · 필요할 경우 위탁사무 전반에 → 위탁사무의 처리 결과에",
+  "priority_reasons": [
+    "지원 자격·법정 권리·의무의 실질 문구 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 40,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+            "article": "제27조",
+            "before": "제27조(처리상황의 감사) ① 시장은 필요할 경우 위탁사무 전반에 대하여 수탁기관을 감사하여야 한다. ② 제1항에 따른 감사결과 위탁사무의 처리가…",
+            "after": "제27조(처리상황의 감사) ① 시장은 위탁사무의 처리 결과에 대하여 매년 1회 이상 감사하여야 한다. ② 제…",
+            "source_title": "청주시 사무의 민간위탁에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%82%AC%EB%AC%B4%EC%9D%98%20%EB%AF%BC%EA%B0%84%EC%9C%84%ED%83%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "청주시 사무의 민간위탁에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%82%AC%EB%AC%B4%EC%9D%98%20%EB%AF%BC%EA%B0%84%EC%9C%84%ED%83%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "청주시 사무의 민간위탁에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%82%AC%EB%AC%B4%EC%9D%98%20%EB%AF%BC%EA%B0%84%EC%9C%84%ED%83%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제27조",
+      "before": "제27조(처리상황의 감사) ① 시장은 필요할 경우 위탁사무 전반에 대하여 수탁기관을 감사하여야 한다. ② 제1항에 따른 감사결과 위탁사무의 처리가 위법 또는 부당하다고 인정될 때에는 수탁기관에 적절한 시정조치를 할 수 있고, 관계 임원과 직원에 대한 문책을 요구할 수 있다.",
+      "after": "제27조(처리상황의 감사) ① 시장은 위탁사무의 처리 결과에 대하여 매년 1회 이상 감사하여야 한다. <개정 2026. 9. 23.> ② 제1항에 따른 감사결과 위탁사무의 처리가 위법 또는 부당하다고 인정될 때에는 수탁기관에 적절한 시정조치를 할 수 있고, 관계 임원과 직원에 대한 문책을 요구할 수 있다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제27조(처리상황의 감사) ① 시장은 ",
+            "changed": "필요할 경우 위탁사무 전반에",
+            "suffix": " 대하여 수탁기관을 감사하여야 한다. ② 제1항에 따른 감사결과 위탁사무의 처리가…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제27조(처리상황의 감사) ① 시장은 ",
+            "changed": "위탁사무의 처리 결과에",
+            "suffix": " 대하여 매년 1회 이상 감사하여야 한다. <개정 2026. 9. 23.> ② 제…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제27조(처리상황의 감사) ① 시장은 필요할 경우 위탁사무 전반에 대하여 ",
+            "changed": "수탁기관을",
+            "suffix": " 감사하여야 한다. ② 제1항에 따른 감사결과 위탁사무의 처리가 위법 또는 부당하…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제27조(처리상황의 감사) ① 시장은 위탁사무의 처리 결과에 대하여 ",
+            "changed": "매년 1회 이상",
+            "suffix": " 감사하여야 한다. <개정 2026. 9. 23.> ② 제1항에 따른 감사결과 위…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…사) ① 시장은 필요할 경우 위탁사무 전반에 대하여 수탁기관을 감사하여야 한다. ",
+            "changed": "",
+            "suffix": "② 제1항에 따른 감사결과 위탁사무의 처리가 위법 또는 부당하다고 인정될 때에는 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…사) ① 시장은 위탁사무의 처리 결과에 대하여 매년 1회 이상 감사하여야 한다. ",
+            "changed": "<개정 2026. 9. 23.>",
+            "suffix": " ② 제1항에 따른 감사결과 위탁사무의 처리가 위법 또는 부당하다고 인정될 때에는…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 3,
+      "substance_score": 40
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2110983"
+}

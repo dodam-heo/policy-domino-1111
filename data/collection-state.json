@@ -8,12 +8,12 @@
     "admrul|1|4": "2025-09-28",
     "admrul|1|5": "2025-09-28",
     "admrul|1|6": "2025-09-28",
-    "admrul|2|1": "2026-03-27",
-    "admrul|2|5": "2025-09-28",
-    "admrul|2|6": "2025-09-28",
-    "admrul|2|2": "2026-03-27",
+    "admrul|2|1": "2025-12-27",
+    "admrul|2|5": "2025-06-30",
+    "admrul|2|6": "2025-06-30",
+    "admrul|2|2": "2025-12-27",
     "ordin|1|": "2026-07-09",
-    "admrul|2|4": "2026-03-27",
+    "admrul|2|4": "2025-12-27",
     "ordin|2|": "2026-10-21"
   },
   "coverage": {
@@ -238,7 +238,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T13:16:57.421820+00:00"
+      "checked_at": "2026-11-11T17:01:03.209573+00:00"
     },
     "admrul|2|1|2026-10-22|2026-11-04|historical": {
       "reported": 69,
@@ -267,7 +267,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T13:17:16.021238+00:00"
+      "checked_at": "2026-11-11T17:02:06.928433+00:00"
     },
     "admrul|2|2|2026-10-22|2026-11-04|historical": {
       "reported": 39,
@@ -296,7 +296,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T13:17:21.028516+00:00"
+      "checked_at": "2026-11-11T17:02:20.471964+00:00"
     },
     "admrul|2|4|2026-10-22|2026-11-04|historical": {
       "reported": 0,
@@ -385,7 +385,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T14:58:08.116137+00:00"
+      "checked_at": "2026-11-11T17:02:32.470894+00:00"
     },
     "admrul|2|5|2026-10-22|2026-11-04|historical": {
       "reported": 0,
@@ -414,7 +414,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T14:58:15.268288+00:00"
+      "checked_at": "2026-11-11T17:02:35.135621+00:00"
     },
     "admrul|2|6|2026-10-22|2026-11-04|historical": {
       "reported": 0,
@@ -528,7 +528,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T14:58:47.735668+00:00"
+      "checked_at": "2026-11-11T17:03:03.317060+00:00"
     },
     "ordin|1||2026-10-22|2026-11-04|historical": {
       "reported": 997,
@@ -1768,6 +1768,110 @@
       "query_year": "",
       "search_scope": 1,
       "checked_at": "2026-11-11T15:59:14.034035+00:00"
+    },
+    "admrul|2|1|2025-12-28|2026-03-27|historical": {
+      "reported": 1140,
+      "collected": 1140,
+      "pages": 12,
+      "complete": true,
+      "source": "admrul",
+      "edition": "2",
+      "kind": "1",
+      "first": "2025-12-28",
+      "last": "2026-03-27",
+      "stage": "historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T17:02:00.853004+00:00"
+    },
+    "admrul|2|2|2025-12-28|2026-03-27|historical": {
+      "reported": 345,
+      "collected": 345,
+      "pages": 4,
+      "complete": true,
+      "source": "admrul",
+      "edition": "2",
+      "kind": "2",
+      "first": "2025-12-28",
+      "last": "2026-03-27",
+      "stage": "historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T17:02:14.764915+00:00"
+    },
+    "admrul|2|4|2025-12-28|2026-03-27|historical": {
+      "reported": 41,
+      "collected": 41,
+      "pages": 1,
+      "complete": true,
+      "source": "admrul",
+      "edition": "2",
+      "kind": "4",
+      "first": "2025-12-28",
+      "last": "2026-03-27",
+      "stage": "historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T17:02:26.729867+00:00"
+    },
+    "admrul|2|5|2025-07-01|2025-09-28|historical": {
+      "reported": 15,
+      "collected": 15,
+      "pages": 1,
+      "complete": true,
+      "source": "admrul",
+      "edition": "2",
+      "kind": "5",
+      "first": "2025-07-01",
+      "last": "2025-09-28",
+      "stage": "historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T17:02:34.000956+00:00"
+    },
+    "admrul|2|6|2025-07-01|2025-09-28|historical": {
+      "reported": 0,
+      "collected": 0,
+      "pages": 1,
+      "complete": true,
+      "source": "admrul",
+      "edition": "2",
+      "kind": "6",
+      "first": "2025-07-01",
+      "last": "2025-09-28",
+      "stage": "historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T17:02:36.356436+00:00"
+    },
+    "ordin|1||2026-06-10|2026-07-09|historical": {
+      "reported": 6880,
+      "collected": 2000,
+      "pages": 20,
+      "complete": false,
+      "error": "pagination_limit",
+      "source": "ordin",
+      "edition": "1",
+      "kind": "",
+      "first": "2026-06-10",
+      "last": "2026-07-09",
+      "stage": "historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T17:04:24.185907+00:00"
+    },
+    "ordin|1||2026-06-10|2026-06-24|split_historical": {
+      "source": "ordin",
+      "edition": "1",
+      "kind": "",
+      "first": "2026-06-10",
+      "last": "2026-06-24",
+      "stage": "split_historical",
+      "query_year": "",
+      "search_scope": 1,
+      "complete": false,
+      "checked_at": "2026-11-11T17:04:47.200117+00:00",
+      "error": "TimeoutError: collection_budget_reached"
     }
   },
   "attempts": {
@@ -2203,7 +2307,34 @@
     "admrul|57709|2100000285526": 1,
     "admrul|90938|2100000285524": 1,
     "admrul|2087782|2100000285522": 1,
-    "admrul|64776|2100000285476": 1
+    "admrul|64776|2100000285476": 1,
+    "ordin|2193748|2170901": 1,
+    "ordin|2065956|2170701": 1,
+    "ordin|2267641|2170699": 2,
+    "ordin|2090554|2170357": 1,
+    "ordin|2171113|2170311": 1,
+    "ordin|2070508|2170263": 1,
+    "ordin|2127026|2170245": 1,
+    "ordin|2248499|2170171": 1,
+    "ordin|2099665|2170147": 1,
+    "ordin|2099336|2170123": 1,
+    "ordin|2099664|2170111": 1,
+    "ordin|2099588|2170109": 1,
+    "ordin|2099587|2170105": 1,
+    "ordin|2267614|2170093": 2,
+    "ordin|2228899|2170009": 1,
+    "ordin|2074556|2170003": 1,
+    "admrul|91076|2100000285464": 1,
+    "admrul|2087745|2100000285432": 1,
+    "admrul|50372|2100000285410": 1,
+    "ordin|2148581|2169775": 1,
+    "ordin|2267585|2169547": 2,
+    "ordin|2138710|2169453": 1,
+    "ordin|2138902|2169451": 1,
+    "ordin|2201168|2168885": 1,
+    "admrul|50034|2100000285274": 1,
+    "admrul|31621|2100000285244": 1,
+    "admrul|62419|2100000285142": 1
   },
   "errors": {
     "admrul|40796|2100000287994": "RuntimeError: official_api_network_error: URLError",
@@ -2278,23 +2409,27 @@
     "ordin|2267775|2173121": "predecessor_not_found",
     "ordin|2267721|2172499": "predecessor_not_found",
     "ordin|2227051|2172031": "official_body_not_parsed",
-    "ordin|2267679|2171453": "predecessor_not_found"
+    "ordin|2267679|2171453": "predecessor_not_found",
+    "ordin|2065956|2170701": "official_body_not_parsed",
+    "ordin|2267641|2170699": "predecessor_not_found",
+    "ordin|2267614|2170093": "predecessor_not_found",
+    "ordin|2267585|2169547": "predecessor_not_found"
   },
-  "stream_offset": 8,
+  "stream_offset": 14,
   "last_run": "2026-11-11",
   "last_run_stats": {
-    "detail_attempted": 32,
-    "complete_originals_added": 14,
-    "compared_pairs_processed": 28,
-    "failed_windows": 0,
+    "detail_attempted": 27,
+    "complete_originals_added": 16,
+    "compared_pairs_processed": 23,
+    "failed_windows": 2,
     "streams_checked": 6,
-    "indexed_unique_versions": 23581,
-    "saved_indexed_originals": 2107,
-    "verified_complete_originals": 391,
-    "pending_index_versions": 21474,
-    "indexed_versions_without_comparison": 22879,
+    "indexed_unique_versions": 25033,
+    "saved_indexed_originals": 2147,
+    "verified_complete_originals": 419,
+    "pending_index_versions": 22886,
+    "indexed_versions_without_comparison": 24316,
     "year_search_year": 2027
   },
-  "annual_kind_offset": 0,
+  "annual_kind_offset": 2,
   "failed_retry_offset": 0
 }

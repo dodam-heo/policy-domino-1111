@@ -1,0 +1,120 @@
+{
+  "id": "ordin|2228899|2170009",
+  "title": "부산광역시 동구의회 모범공무원 포상 운영규칙",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "부산광역시 동구",
+  "published_at": "2026-09-23",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EA%B5%AC%EC%9D%98%ED%9A%8C%20%EB%AA%A8%EB%B2%94%EA%B3%B5%EB%AC%B4%EC%9B%90%20%ED%8F%AC%EC%83%81%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%B9%99",
+  "category": "공공재정·요율",
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "priority_reasons": [
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 15,
+    "score_min": 15,
+    "score_max": 40,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 0,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "실질 기준 변경 근거 미확인 · 문구 정비",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 동구의회 모범공무원 포상 운영규칙",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EA%B5%AC%EC%9D%98%ED%9A%8C%20%EB%AA%A8%EB%B2%94%EA%B3%B5%EB%AC%B4%EC%9B%90%20%ED%8F%AC%EC%83%81%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%B9%99"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 동구의회 모범공무원 포상 운영규칙",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EA%B5%AC%EC%9D%98%ED%9A%8C%20%EB%AA%A8%EB%B2%94%EA%B3%B5%EB%AC%B4%EC%9B%90%20%ED%8F%AC%EC%83%81%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%B9%99"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 동구의회 모범공무원 포상 운영규칙",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EA%B5%AC%EC%9D%98%ED%9A%8C%20%EB%AA%A8%EB%B2%94%EA%B3%B5%EB%AC%B4%EC%9B%90%20%ED%8F%AC%EC%83%81%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%B9%99"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제4조",
+      "before": "제4조(모범공무원 수당) ① 모범공무원에게 예산의 범위에서 매월 5만원의 수당을 지급하며, 지급기간은 모범공무원으로 선발된 날이 속하는 달의 다음 달부터 1년간으로 한다. ② 모범공무원 수당은 매월 보수지급일에 지급한다.",
+      "after": "제4조(모범공무원 수당) ① 모범공무원에게 예산의 범위에서 매월 7만원의 수당을 지급하며, 지급기간은 모범공무원으로 선발된 날이 속하는 달의 다음 달부터 1년간으로 한다. <개정 2026. 9. 23.> ② 모범공무원 수당은 매월 보수지급일에 지급한다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제4조(모범공무원 수당) ① 모범공무원에게 예산의 범위에서 매월 ",
+            "changed": "5",
+            "suffix": "만원의 수당을 지급하며, 지급기간은 모범공무원으로 선발된 날이 속하는 달의 다음 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제4조(모범공무원 수당) ① 모범공무원에게 예산의 범위에서 매월 ",
+            "changed": "7",
+            "suffix": "만원의 수당을 지급하며, 지급기간은 모범공무원으로 선발된 날이 속하는 달의 다음 …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…지급기간은 모범공무원으로 선발된 날이 속하는 달의 다음 달부터 1년간으로 한다. ",
+            "changed": "",
+            "suffix": "② 모범공무원 수당은 매월 보수지급일에 지급한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…지급기간은 모범공무원으로 선발된 날이 속하는 달의 다음 달부터 1년간으로 한다. ",
+            "changed": "<개정 2026. 9. 23.>",
+            "suffix": " ② 모범공무원 수당은 매월 보수지급일에 지급한다.",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 0
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1804039"
+}

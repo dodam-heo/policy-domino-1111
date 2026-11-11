@@ -7,33 +7,34 @@
   "published_at": "2026-09-23",
   "effective_date": "2026-12-31",
   "revision": "일부개정",
-  "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29",
+  "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29",
   "category": "행정절차·인허가",
-  "primary_change_summary": "",
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
   "priority_reasons": [
+    "제한적인 본문·명칭·인용 정비",
     "중앙행정규칙이 관할하는 전국 특정 분야"
   ],
   "impact_assessment": {
-    "classification": "pending",
-    "score": 25,
-    "score_min": 25,
-    "score_max": 90,
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
-    "possible_high": true,
+    "possible_high": false,
     "axes": {
       "substance": {
-        "score": null,
-        "status": "pending",
+        "score": 10,
+        "status": "confirmed",
         "evidence": [
           {
-            "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
-            "article": "",
-            "before": "",
-            "after": "",
+            "reason": "제한적인 본문·명칭·인용 정비",
+            "article": "표 1 · 결과표 · 변경 전",
+            "before": "[신설]",
+            "after": "• 결과표 : 63개",
             "source_title": "통계작성의 변경승인(협의) 고시(국민노후보장패널조사)",
-            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
           }
         ]
       },
@@ -47,7 +48,7 @@
             "before": "",
             "after": "",
             "source_title": "통계작성의 변경승인(협의) 고시(국민노후보장패널조사)",
-            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
           }
         ]
       },
@@ -61,7 +62,7 @@
             "before": "",
             "after": "",
             "source_title": "통계작성의 변경승인(협의) 고시(국민노후보장패널조사)",
-            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
           }
         ]
       }
@@ -69,52 +70,86 @@
     "featured_change_indices": [],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
-  "comparison_status": "partial_unverified",
+  "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
     {
       "article": "본문",
-      "before": "1. 통계의 명칭 : 국민노후보장패널조사 2. 통계작성기관의 명칭 : 국민연금공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제322001호 [2005.08.30.] 4. 통계작성의 변경 연월일 : 2026.05.25. 5. 통계작성의 변경 내용과 사유 :",
-      "after": "1. 통계의 명칭 : 국민노후보장패널조사 2. 통계작성기관의 명칭 : 국민연금공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제322001호 [2005.08.30.] 4. 통계작성의 변경 연월일 : 2026.12.31. 5. 통계작성의 변경 내용과 사유 :",
+      "before": "1. 통계의 명칭 : 국민노후보장패널조사 2. 통계작성기관의 명칭 : 국민연금공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제322001호 [2005.08.30.] 4. 통계작성의 변경 연월일 : 2026.05.25. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "after": "1. 통계의 명칭 : 국민노후보장패널조사 2. 통계작성기관의 명칭 : 국민연금공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제322001호 [2005.08.30.] 4. 통계작성의 변경 연월일 : 2026.12.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
       "focus": [
         {
           "before": {
             "prefix": "…] : 제322001호 [2005.08.30.] 4. 통계작성의 변경 연월일 : ",
             "changed": "2026.05.25.",
-            "suffix": " 5. 통계작성의 변경 내용과 사유 :",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
             "truncated": false
           },
           "after": {
             "prefix": "…] : 제322001호 [2005.08.30.] 4. 통계작성의 변경 연월일 : ",
             "changed": "2026.12.31.",
-            "suffix": " 5. 통계작성의 변경 내용과 사유 :",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
             "truncated": false
           }
         }
       ],
       "diff_window_count": 1,
       "substance_score": 0
-    }
-  ],
-  "unresolved": [
-    {
-      "reason": "incomplete_original_or_attachment"
     },
     {
-      "reason": "original_source_not_reverified"
+      "article": "표 1 · 결과표 · 변경 전",
+      "before": "[신설]",
+      "after": "• 결과표 : 63개",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 1 · 결과표 · 변경 후",
+      "before": "[신설]",
+      "after": "• 결과표 : 63개 수정 12",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 결과표 · 변경 전",
+      "before": "• 결과표 : 59개",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 결과표 · 변경 후",
+      "before": "• 결과표 : 63개 추가 49건, 삭제 45건",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 조사표 · 변경 전",
+      "before": "• 가구용(141문항) • 개인용(47문항)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 조사표 · 변경 후",
+      "before": "• 가구용(143문항) 추가: 2건, 수정: 4건 • 개인용(63문항) 삭제: 31건, 추가: 47건",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
     }
   ],
+  "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
   "direct_actor_leads": [],
-  "policy_analysis": {
-    "explanation": "국민노후보장패널조사 통계작성의 변경 연월일이 2026년 5월 25일에서 2026년 12월 31일로 변경되었습니다.",
-    "old_quote": "본문: 1. 통계의 명칭 : 국민노후보장패널조사 2. 통계작성기관의 명칭 : 국민연금공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제322001호 [2005.08.30.] 4. 통계작성의 변경 연월일 : 2026.05.25. 5. 통계작성의 변경 내용과 사유 :",
-    "new_quote": "본문: 1. 통계의 명칭 : 국민노후보장패널조사 2. 통계작성기관의 명칭 : 국민연금공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제322001호 [2005.08.30.] 4. 통계작성의 변경 연월일 : 2026.12.31. 5. 통계작성의 변경 내용과 사유 :",
-    "program_quote": "본문: 1. 통계의 명칭 : 국민노후보장패널조사 2. 통계작성기관의 명칭 : 국민연금공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제322001호 [2005.08.30.] 4. 통계작성의 변경 연월일 : 2026.12.31. 5. 통계작성의 변경 내용과 사유 :",
-    "verified": true,
-    "model": "gemini-3.5-flash-lite"
-  },
-  "impact_level": "pending",
-  "prior_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B5%AD%EB%AF%BC%EB%85%B8%ED%9B%84%EB%B3%B4%EC%9E%A5%ED%8C%A8%EB%84%90%EC%A1%B0%EC%82%AC%29"
 }
