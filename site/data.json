@@ -1,6 +1,6 @@
 {
   "schema": "policy-domino-unified-ui-v1",
-  "generated_at": "2026-11-11T11:24:23.218700+00:00",
+  "generated_at": "2026-11-11T11:31:29.143282+00:00",
   "scope": "source-backed version catalog; institutional actions only for exact citation evidence",
   "total_source_versions_saved": 1372,
   "events": [
@@ -1172,9 +1172,7 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183799",
       "category": "급여·지원기준",
       "primary_change_summary": "제10조 · 등 → 삭제",
-      "priority_reasons": [
-        "법정 의무·제재 기준 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": {
@@ -1185,7 +1183,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1578325",
       "detail_url": "events/11d15f3be5d68f5fe106a1af.json",
       "change_count": 16,
@@ -9385,7 +9383,6 @@
       "category": "급여·지원기준",
       "primary_change_summary": "제4조 · 26. → 26., 2026. 11 .6.",
       "priority_reasons": [
-        "급여·지원금·소득 기준 변경",
         "지원대상·자격·선정 기준 변경"
       ],
       "comparison_status": "changed",
@@ -10519,7 +10516,6 @@
       "primary_change_summary": "제10조 · 주민안전과 → 민원여권과",
       "priority_reasons": [
         "요율·수수료·부담금 변경",
-        "법정 의무·제재 기준 변경",
         "급여·지원금·소득 기준 변경"
       ],
       "comparison_status": "changed",
@@ -10634,7 +10630,14 @@
       "priority_reasons": [],
       "comparison_status": "partial_unverified",
       "relationship": "same_official_id_revision",
-      "policy_analysis": null,
+      "policy_analysis": {
+        "explanation": "이해충돌방지담당관을 지정하는 부서의 명칭이 민원감사담당관에서 감사담당관으로 변경되었습니다.",
+        "old_quote": "제2조: 제2조(정의) 이 규칙에서 사용하는 용어의 뜻은 다음과 같다. 1. “공직자”란 「공직자의 이해충돌 방지법」(이하 “법”이라 한다) 제2조제2호가목에 따른 서울특별시 금천구(이하 “구”라 한다) 소속 직원을 말한다. 2. “고위공직자”란 법 제2조제3호나목에 따른 지방자치단체의 장을 말한다. 3. “이해충돌방지담당관”이란 법 제25조 및 영 제31조에 따라 지정되어 구의 이해충돌 방지제도의 운영 업무를 총괄하는 민원감사담당관을 말한다.",
+        "new_quote": "제2조: 제2조(정의) 이 규칙에서 사용하는 용어의 뜻은 다음과 같다. <개정 2026.11.5.> 1. “공직자”란 「공직자의 이해충돌 방지법」(이하 “법”이라 한다) 제2조제2호가목에 따른 서울특별시 금천구(이하 “구”라 한다) 소속 직원을 말한다. 2. “고위공직자”란 법 제2조제3호나목에 따른 지방자치단체의 장을 말한다. 3. “이해충돌방지담당관”이란 법 제25조 및 영 제31조에 따라 지정되어 구의 이해충돌 방지제도의 운영 업무를 총괄하는 감사담당관을 말한다.",
+        "program_quote": "제2조: 제2조(정의) 이 규칙에서 사용하는 용어의 뜻은 다음과 같다. <개정 2026.11.5.> 1. “공직자”란 「공직자의 이해충돌 방지법」(이하 “법”이라 한다) 제2조제2호가목에 따른 서울특별시 금천구(이하 “구”라 한다) 소속 직원을 말한다. 2. “고위공직자”란 법 제2조제3호나목에 따른 지방자치단체의 장을 말한다. 3. “이해충돌방지담당관”이란 법 제25조 및 영 제31조에 따라 지정되어 구의 이해충돌 방지제도의 운영 업무를 총괄하는 감사담당관을 말한다.",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      },
       "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2027033",
       "detail_url": "events/99cf94561ee95ad71fc26711.json",
@@ -10985,9 +10988,7 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182241",
       "category": "공공재정·요율",
       "primary_change_summary": "제3조 · 교통건설국장으로 → 안전교통국장으로",
-      "priority_reasons": [
-        "요율·수수료·부담금 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": {
@@ -10998,7 +10999,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1440023",
       "detail_url": "events/acea475ded0f02b3869eadc7.json",
       "change_count": 1,
@@ -11128,10 +11129,7 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180885",
       "category": "행정절차·인허가",
       "primary_change_summary": "별표 0000 (소송수임료 등 지급기준(제18조제1항 관련)) · 신설 → ■ 서울특별시교육청 소송 사무처리 규칙",
-      "priority_reasons": [
-        "급여·지원금·소득 기준 변경",
-        "지원대상·자격·선정 기준 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": {
@@ -11142,7 +11140,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1782979",
       "detail_url": "events/f7b3e96ce247baa430965853.json",
       "change_count": 35,
@@ -12618,9 +12616,9 @@
       "category": "급여·지원기준",
       "primary_change_summary": "제1조 · 고령과 → 고령ㆍ",
       "priority_reasons": [
-        "지원대상·자격·선정 기준 변경",
+        "급여·지원금·소득 기준 변경",
         "요율·수수료·부담금 변경",
-        "급여·지원금·소득 기준 변경"
+        "지원대상·자격·선정 기준 변경"
       ],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
@@ -13071,13 +13069,11 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181413",
       "category": "급여·지원기준",
       "primary_change_summary": "제10조 · 지역균형발전에 → 균형성장에",
-      "priority_reasons": [
-        "급여·지원금·소득 기준 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": null,
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2117797",
       "detail_url": "events/4e6fe6f2cc50a3ff1bd6bef5.json",
       "change_count": 9,
@@ -13579,8 +13575,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "제001500조 · 대구학생문화센터 → 대구광역시교육청문화예술원 [제목개정 2026.10.30.]",
       "priority_reasons": [
-        "급여·지원금·소득 기준 변경",
-        "법정 의무·제재 기준 변경"
+        "급여·지원금·소득 기준 변경"
       ],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
@@ -13605,13 +13600,11 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180625",
       "category": "급여·지원기준",
       "primary_change_summary": "제6조 · 사립의 초등학교ㆍ중학교에 대한 다음 각 목에 관한 사항 가. 「학교시설사업 촉진법」 제5조의2제1항에 따른 해당 학교시설사업의 건축등(제 → 삭제 <2026.12.30.>",
-      "priority_reasons": [
-        "급여·지원금·소득 기준 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": null,
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1810907",
       "detail_url": "events/7f83d8a0baac007af740519b.json",
       "change_count": 1,
@@ -13680,9 +13673,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "제10조 · 이용자로부터 징수한 → 이용자가 납부한",
       "priority_reasons": [
-        "법정 의무·제재 기준 변경",
-        "요율·수수료·부담금 변경",
-        "지원대상·자격·선정 기준 변경"
+        "요율·수수료·부담금 변경"
       ],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
@@ -19962,9 +19953,7 @@
       "url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EB%B0%94%EC%9D%B4%EC%98%A4%EA%B0%80%EC%8A%A4%20%EB%AF%BC%EA%B0%84%EC%9D%98%EB%AC%B4%EC%83%9D%EC%82%B0%EC%9E%90%20%EA%B3%A0%EC%8B%9C",
       "category": "기타 제·개정",
       "primary_change_summary": "",
-      "priority_reasons": [
-        "법정 의무·제재 기준 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": {
@@ -19975,7 +19964,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/2026%EB%85%84%20%EB%B0%94%EC%9D%B4%EC%98%A4%EA%B0%80%EC%8A%A4%20%EB%AF%BC%EA%B0%84%EC%9D%98%EB%AC%B4%EC%83%9D%EC%82%B0%EC%9E%90%20%EA%B3%A0%EC%8B%9C",
       "detail_url": "events/ff044fdfe5fbc5fc97a37400.json",
       "change_count": 10,
@@ -22484,8 +22473,7 @@
       "priority_reasons": [
         "공식 사업·기관 업무의 변경 조문 인용 확인",
         "급여·지원금·소득 기준 변경",
-        "지원대상·자격·선정 기준 변경",
-        "법정 의무·제재 기준 변경"
+        "지원대상·자격·선정 기준 변경"
       ],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
@@ -25056,9 +25044,7 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000280632",
       "category": "급여·지원기준",
       "primary_change_summary": "첨부 1 · - 1 - → 삭제",
-      "priority_reasons": [
-        "지원대상·자격·선정 기준 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": {
@@ -25069,7 +25055,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000260044",
       "detail_url": "events/892ac0e6bdf98b1b3b81a5ab.json",
       "change_count": 3,
@@ -26008,9 +25994,7 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000271630",
       "category": "급여·지원기준",
       "primary_change_summary": "첨부 1 · - 1 - → 삭제",
-      "priority_reasons": [
-        "법정 의무·제재 기준 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": {
@@ -26021,7 +26005,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000260042",
       "detail_url": "events/347a7d5480dbb6661e1b078d.json",
       "change_count": 3,
@@ -27289,9 +27273,7 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000266578",
       "category": "기타 제·개정",
       "primary_change_summary": "본문 · 장기 재활용목표율 → 장기재활용목표율",
-      "priority_reasons": [
-        "법정 의무·제재 기준 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": {
@@ -27302,7 +27284,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000234894",
       "detail_url": "events/549d2e52911e4e6d77bf7fe1.json",
       "change_count": 5,
@@ -34625,21 +34607,21 @@
       "partial_unverified": 303,
       "changed": 128
     },
-    "ai_explanation_attempts": 19,
+    "ai_explanation_attempts": 2,
     "ai_verified_explanations": 0,
     "ai_failures": 1,
     "ai_failure_reasons": {
-      "UnverifiedAnalysis:Explanation contains unsupported numerical claim": 1
+      "AI_HTTP_503:provider_rejected_request": 1
     },
-    "policy_ai_summaries": 226,
+    "policy_ai_summaries": 227,
     "ai_configured": true,
-    "policy_summaries_pending": 69
+    "policy_summaries_pending": 68
   },
   "coverage": {
     "alio_public_institutions": 355,
     "alio_reported": 355,
     "alio_source_url": "https://www.alioplus.go.kr/organization/organByTypeList.do?schApbaGb=APBA&pageNo=1",
-    "alio_updated_at": "2026-11-11T11:21:03.154235+00:00",
+    "alio_updated_at": "2026-11-11T11:29:51.697460+00:00",
     "gov24_programs": 10942,
     "gov24_agencies": 686,
     "gov24_agency_types": {

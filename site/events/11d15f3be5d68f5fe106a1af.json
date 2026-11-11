@@ -10,9 +10,7 @@
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183799",
   "category": "급여·지원기준",
   "primary_change_summary": "제10조 · 등 → 삭제",
-  "priority_reasons": [
-    "법정 의무·제재 기준 변경"
-  ],
+  "priority_reasons": [],
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -980,6 +978,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1578325"
 }

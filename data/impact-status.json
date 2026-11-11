@@ -10,13 +10,13 @@
     "partial_unverified": 303,
     "changed": 128
   },
-  "ai_explanation_attempts": 19,
+  "ai_explanation_attempts": 2,
   "ai_verified_explanations": 0,
   "ai_failures": 1,
   "ai_failure_reasons": {
-    "UnverifiedAnalysis:Explanation contains unsupported numerical claim": 1
+    "AI_HTTP_503:provider_rejected_request": 1
   },
-  "policy_ai_summaries": 226,
+  "policy_ai_summaries": 227,
   "ai_configured": true,
-  "policy_summaries_pending": 69
+  "policy_summaries_pending": 68
 }

@@ -13,8 +13,7 @@
   "priority_reasons": [
     "공식 사업·기관 업무의 변경 조문 인용 확인",
     "급여·지원금·소득 기준 변경",
-    "지원대상·자격·선정 기준 변경",
-    "법정 의무·제재 기준 변경"
+    "지원대상·자격·선정 기준 변경"
   ],
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
