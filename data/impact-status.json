@@ -10,7 +10,7 @@
   "ai_verified_explanations": 0,
   "ai_failures": 59,
   "ai_failure_reasons": {
-    "AI_HTTP_401:invalid_api_key": 59
+    "AI_HTTP_404:provider_rejected_request": 59
   },
   "policy_ai_summaries": 0,
   "ai_configured": true,

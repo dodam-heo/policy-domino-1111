@@ -1,6 +1,6 @@
 {
   "schema": "policy-domino-unified-ui-v1",
-  "generated_at": "2026-11-11T06:08:14.588495+00:00",
+  "generated_at": "2026-11-11T06:11:59.188666+00:00",
   "scope": "source-backed version catalog; institutional actions only for exact citation evidence",
   "total_source_versions_saved": 943,
   "events": [
@@ -19848,7 +19848,7 @@
     "ai_verified_explanations": 0,
     "ai_failures": 59,
     "ai_failure_reasons": {
-      "AI_HTTP_401:invalid_api_key": 59
+      "AI_HTTP_404:provider_rejected_request": 59
     },
     "policy_ai_summaries": 0,
     "ai_configured": true,
