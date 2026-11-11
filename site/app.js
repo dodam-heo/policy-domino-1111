@@ -6,7 +6,7 @@
   let requestId=0;
   const state = {
     data: null, events: [], selected: null, mode: "impact", category:"",source:"",sort:"published",
-    query: "", visible: 60, institutionFilter: "all"
+    query: "", visible: 60, institutionFilter: "all", verification:""
   };
   const mobile = () => window.matchMedia("(max-width:850px)").matches;
   const num = n => Number(n || 0).toLocaleString("ko-KR");
@@ -110,9 +110,8 @@
     renderFilters();
     const events=filtered();
     const root=$("items");root.replaceChildren();
-    $("list-count").textContent=
-      "전체 "+num(state.events.length)+"건 · 조건 일치 "+num(events.length)+"건 · 표시 "+
-      num(Math.min(events.length,state.visible))+"건";
+    $("list-count").textContent="조건 일치 "+num(events.length)+"건 / 전체 "+num(state.events.length)+"건"
+      +(events.length>state.visible?" · "+num(state.visible)+"건 먼저 표시":"");
     if (!events.length) {
       append(root,create("p","empty",
         "조건에 맞는 자료가 없습니다. 필터 초기화로 수집된 전체 정책을 확인하세요."));
@@ -129,19 +128,22 @@
           pill(categories[0]):null,
         create("span","item-date",event.published_at||"날짜 미확인"));
       const tags=create("div","item-tags");
+      if (event.impact_level==="high"&&event.priority_reasons?.length)
+        append(tags,pill("우선 검토 · "+compact(event.priority_reasons[0],32),"priority"));
       if (event.source_count>1) append(tags,pill("동시 개정 "+num(event.source_count)+"건"));
       if (event.institution_count) append(tags,pill("검토 기관 "+num(event.institution_count)+"곳","impact"));
-      if (event.review_count) append(tags,pill("업무 "+num(event.review_count)+"건"));
+      if (event.review_count) append(tags,pill("업무 검토 "+num(event.review_count)+"건"));
       if (event.public_service_lead_count)
         append(tags,pill("공공서비스 기준 "+num(event.public_service_lead_count)+"건"));
-      if(event.comparison_status!=="changed")append(tags,pill(model.stageLabel(event.comparison_status),"partial"));
+      if(event.comparison_status==="changed")append(tags,pill("신구 변경 확인","verified"));
+      else append(tags,pill(model.stageLabel(event.comparison_status),"partial"));
       if (event.ai_count) append(tags,pill("AI 보조검토","ai"));
       const highlighted=(event.highlights||[])[0];
       const important=highlighted && (event.changes||[]).find(ch=>
         ch.document_id===highlighted.document_id && ch.article===highlighted.article);
       const brief=important?.brief||event.changes?.[0]?.brief;
       append(item,header,create("h3","",event.title),
-        create("p","item-brief",compact(brief||event.headline,130)),tags);
+        create("p","item-brief",compact(brief||event.headline,170)),tags);
       item.onclick=()=>select(event.id);
       append(root,item);
     }
@@ -156,9 +158,9 @@
       const pair=create("div","highlight-comparison");
       const a=create("div","highlight-old"),b=create("div","highlight-new");
       append(a,create("small","",beforeLabel),
-        create("p","",meaning.before||"확인된 변경 부분 없음"));
+        create("p","",compact(change.before||"종전 원문 미확보",300)));
       append(b,create("small","",afterLabel),
-        create("p","",meaning.after||"확인된 변경 부분 없음"));
+        create("p","",compact(change.after||"현행 원문 미확보",300)));
       append(pair,a,b);
       append(wrapper,pair);
       return wrapper;
@@ -601,20 +603,21 @@
       else if(!shown.some(e=>e.id===state.selected))select(shown[0].id,false);
     }
   }
-  for(const id of ["category","source","sort"])$(id).onchange=()=>{state[id]=$(id).value;refresh();};
-  $("reset").onclick=()=>{state.mode="all";state.query="";state.category="";state.source="";state.sort="published";$("search").value="";$("category").value="";$("source").value="";$("sort").value="published";refresh();};
+  for(const id of ["category","source","sort","verification"])$(id).onchange=()=>{state[id]=$(id).value;refresh();};
+  $("reset").onclick=()=>{state.mode="all";state.query="";state.category="";state.source="";state.sort="published";state.verification="";$("search").value="";$("category").value="";$("source").value="";$("sort").value="published";$("verification").value="";refresh();};
   function goHome(event){
     if(event)event.preventDefault();
     // Cancel in-flight detail responses so a previous policy cannot reopen.
     requestId++;
     Object.assign(state,{mode:"impact",query:"",category:"",source:"",
-      sort:"published",visible:60,institutionFilter:"all",selected:null});
+      sort:"published",visible:60,institutionFilter:"all",selected:null,verification:""});
     $("search").value="";
     $("category").value="";
     $("source").value="";
     $("sort").value="published";
+    $("verification").value="";
     if($("registry-dialog").open)$("registry-dialog").close();
-    document.querySelector(".coverage-status-inner").open=true;
+    document.querySelector(".coverage-status-inner").open=false;
     try{history.replaceState(null,"",location.pathname+location.search);}catch{}
     back(false);
     renderList();
