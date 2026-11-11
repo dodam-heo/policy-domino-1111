@@ -14,7 +14,7 @@
   function highImpactScope(event) {
     return event.impact_level==="high";
   }
-  function filterEvents(events,{mode="all",query="",category:topic="",source="",sort="published",verification=""}={}) {
+  function filterEvents(events,{mode="all",query="",category:topic="",source="",sort="impact",verification=""}={}) {
     if(!MODES.includes(mode))throw Error("Unsupported event filter");
     const term=String(query).trim().toLocaleLowerCase("ko-KR");
     return [...events].filter(event=>{
@@ -42,10 +42,19 @@
         ])
       ].join(" ").toLocaleLowerCase("ko-KR");
       return searchable.includes(term);
-    }).sort((a,b)=>
-      (sort==="impact"? (b.review_count||0)-(a.review_count||0):String(b[sort==="effective"?"effective_date":"published_at"]||"").localeCompare(String(a[sort==="effective"?"effective_date":"published_at"]||"")))||
-      (b.institution_count||0)-(a.institution_count||0)||
-      String(a.id||"").localeCompare(String(b.id||"")));
+    }).sort((a,b)=>{
+      const byDate=String(b.published_at||"").localeCompare(String(a.published_at||""));
+      if(sort==="impact"){
+        const tier=event=>({high:0,pending:1,normal:2})[event.impact_assessment?.classification||event.impact_level]??1;
+        return tier(a)-tier(b)||
+          (tier(a)===1 ? Number(b.impact_assessment?.possible_high||false)-Number(a.impact_assessment?.possible_high||false) : 0)||
+          (Number(b.impact_assessment?.score_min??0)-Number(a.impact_assessment?.score_min??0))||
+          byDate||String(a.id||"").localeCompare(String(b.id||""));
+      }
+      return String(b[sort==="effective"?"effective_date":"published_at"]||"").localeCompare(
+        String(a[sort==="effective"?"effective_date":"published_at"]||""))||
+        byDate||String(a.id||"").localeCompare(String(b.id||""));
+    });
   }
   function impactGroups(event) {
     // A single institution selector for independently verified changed-clause
