@@ -59,3 +59,57 @@ jobs:
                   sys.exit(1)
               print(f"GOV24_AUTH_OK: {endpoint}; official totalCount={response['totalCount']}")
           PY
+
+  evidence-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Diagnose official Gov24 fields and policy-to-program evidence
+        env:
+          GOV24_SERVICE_KEY: ${{ secrets.GOV24_SERVICE_KEY }}
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from collections import Counter
+          from unified.engine import load
+          from unified.impact import read_programs, plain
+          from unified.gov24 import Gov24Client
+          root = Path("data")
+          programs = list(read_programs(root))
+          fields = Counter()
+          agency_types = Counter()
+          for p in programs:
+              agency_types[p.get("agency_type","")] += 1
+              for name, value in p.get("basis",{}).items():
+                  if value: fields["basis:"+name] += 1
+              for name, value in p.get("criteria",{}).items():
+                  if value: fields["criteria:"+name] += 1
+              if any(p.get("basis",{}).values()) and any(p.get("criteria",{}).values()):
+                  fields["basis_and_criteria_present"] += 1
+          comparisons = [load(f,{}) for f in (root/"comparisons").glob("*.json.gz")]
+          report = Counter()
+          for comparison in comparisons:
+              doc = comparison.get("changed_record") or {}
+              if not comparison.get("changes"): continue
+              title = plain(doc.get("title",""))
+              if not title: continue
+              basis_title = sum(title in plain(" ".join(p.get("basis",{}).values()))
+                                for p in programs)
+              report["comparisons_with_title_in_any_program_basis"] += bool(basis_title)
+              report["total_title_program_pairs"] += basis_title
+              report["comparisons_with_no_title_in_program_basis"] += not bool(basis_title)
+          print("EVIDENCE_AUDIT programs",len(programs),"fields",dict(fields))
+          print("EVIDENCE_AUDIT program_agency_types",dict(agency_types))
+          print("EVIDENCE_AUDIT comparisons",len(comparisons),"basis_title",dict(report))
+          key = __import__("os").getenv("GOV24_SERVICE_KEY","").strip()
+          if key:
+              client = Gov24Client(key)
+              for endpoint in ("serviceList","serviceDetail"):
+                  response = client.request(endpoint, 1, 2)
+                  print("LIVE_GOV24_FIELDS",endpoint,
+                        [sorted(row.keys()) for row in response["data"][:2]])
+          PY
