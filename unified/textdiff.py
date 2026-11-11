@@ -1,4 +1,7 @@
-"""Source-preserving differences; layout noise is never a policy change."""
+"""Source-preserving differences; layout noise is never a policy change.
+
+Comparison revision 2: retain raw originals and split independent edits.
+"""
 import re
 import unicodedata
 from difflib import SequenceMatcher
