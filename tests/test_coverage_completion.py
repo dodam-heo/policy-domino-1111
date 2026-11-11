@@ -37,6 +37,43 @@ class CoverageCompletionTests(unittest.TestCase):
             self.assertEqual(parent[0]["reported"], parent[0]["collected"])
             self.assertEqual(ledger["backfill"]["admrul|1|3"], "2026-08-06")
 
+    def test_interrupted_overflow_resumes_without_refetching_complete_pages(self):
+        """A failed child shard must resume, not repeat the 20-page parent."""
+        class InterruptOnce(OverflowSource):
+            def __init__(self):
+                self.parent_calls = 0
+                self.left_calls = 0
+                self.failed = False
+
+            def search(self, source, start, end, edition, kind, query="",
+                       search_scope=1):
+                if not query and start == "2026-08-07" and end == "2026-11-04":
+                    self.parent_calls += 1
+                if not query and start == "2026-08-07" and end == "2026-09-20":
+                    self.left_calls += 1
+                if not query and start == "2026-09-21" and end == "2026-11-04" and not self.failed:
+                    self.failed = True
+                    raise TimeoutError("one transient shard outage")
+                return super().search(source, start, end, edition, kind,
+                                      query=query, search_scope=search_scope)
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            api = InterruptOnce()
+            run(root, api, limit_streams=1, detail_budget=0,
+                today=dt.date(2026, 11, 11))
+            first = load(root / "collection-state.json")
+            self.assertFalse(first["coverage"][
+                "admrul|1|3|2026-08-07|2026-11-04|historical"]["complete"])
+            run(root, api, limit_streams=1, detail_budget=0,
+                today=dt.date(2026, 11, 11))
+            after = load(root / "collection-state.json")
+            self.assertTrue(after["coverage"][
+                "admrul|1|3|2026-08-07|2026-11-04|historical"]["split_verified"])
+            self.assertEqual(api.parent_calls, 1)
+            self.assertEqual(api.left_calls, 1)
+            self.assertEqual(after["backfill"]["admrul|1|3"], "2026-08-06")
+
     def test_annual_named_standard_is_candidate_not_verified_citation(self):
         doc = {"source": "admrul",
                "title": "2027년도 생활지원 최저보장수준 및 생활급여 선정기준",

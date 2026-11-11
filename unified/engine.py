@@ -487,6 +487,44 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
                 or source in getattr(api, "unavailable_sources", set())):
             return False
         key = "|".join((source, edition, kind, start, end, stage))
+        cached = state["coverage"].get(key, {})
+        historical = stage == "historical" or stage.startswith("split_")
+        # A page-limited historical window is a resumable tree, not a request
+        # to re-download its first 2,000 rows on every run. Completed children
+        # are immutable evidence; revisit only missing/incomplete children.
+        if historical and cached.get("complete") is True:
+            return True
+        if (historical and cached.get("error") == "pagination_limit"
+                and start < end and time.monotonic() < index_deadline):
+            first_day = dt.date.fromisoformat(start)
+            last_day = dt.date.fromisoformat(end)
+            midpoint = first_day + (last_day - first_day) // 2
+            children = ((start, midpoint.isoformat()),
+                        ((midpoint + dt.timedelta(days=1)).isoformat(), end))
+            child_status = []
+            for child_start, child_end in children:
+                child_stage = "split_" + stage
+                ok = collect_window(source, edition, kind, child_start,
+                                    child_end, child_stage, query, search_scope)
+                child_key = "|".join((source, edition, kind, child_start,
+                                      child_end, child_stage))
+                child_status.append((ok, state["coverage"].get(child_key, {})))
+                if not ok:
+                    break
+            if (len(child_status) == 2 and all(ok for ok, _ in child_status)
+                    and sum(part.get("reported", 0)
+                            for _, part in child_status) == cached.get("reported")):
+                state["coverage"][key].update({
+                    "complete": True, "split_verified": True,
+                    "collected": cached["reported"],
+                    "checked_at": dt.datetime.now(dt.timezone.utc).isoformat()})
+                if stage == "historical":
+                    state["backfill"]["|".join((source, edition, kind))] = (
+                        dt.date.fromisoformat(start) -
+                        dt.timedelta(days=1)).isoformat()
+                return True
+            failed += 1
+            return False
         try:
             if search_scope == 2:
                 records, info = api.search(source, start, end, edition, kind,
