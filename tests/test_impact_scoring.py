@@ -107,6 +107,37 @@ class ImpactScoreTests(unittest.TestCase):
         self.assertEqual(result["axes"]["ripple"]["score"], 8)
         self.assertEqual(result["axes"]["substance"]["score"], 30)
 
+    def test_registry_business_name_is_not_an_eligibility_change(self):
+        doc={"source":"admrul","title":"2027년 바이오가스 민간의무생산자 고시"}
+        change={"clause":"표 1 · 1 · 사업장명",
+                "before":"타임스퀘어 00021호","after":"[삭제]",
+                "focus":[{"before":{"changed":"타임스퀘어 00021호"},
+                          "after":{"changed":"[삭제]"}}]}
+        result=evaluate(doc,{"status":"changed","changes":[change]},[],[])
+        self.assertNotEqual(result["classification"],"high")
+        self.assertNotEqual(result["axes"]["substance"]["score"],40)
+
+    def test_policy_proposal_is_pending_until_final_legal_basis(self):
+        doc={"source":"admrul","title":"2027년 적용 최저임금안 고시"}
+        change={"clause":"첨부 1",
+                "before":"최저임금액 10,000원","after":"최저임금액 10,030원",
+                "focus":[{"before":{"changed":"10,000원"},
+                          "after":{"changed":"10,030원"}}]}
+        result=evaluate(doc,{"status":"changed","changes":[change]},[],[])
+        self.assertEqual(result["classification"],"pending")
+        self.assertIsNone(result["axes"]["substance"]["score"])
+
+    def test_final_policy_compared_only_to_draft_needs_previous_final(self):
+        doc={"source":"admrul","title":"2027년 적용 최저임금 고시"}
+        change={"clause":"첨부 1","before":"시급 10,000원",
+                "after":"시급 10,030원",
+                "focus":[{"before":{"changed":"10,000원"},
+                          "after":{"changed":"10,030원"}}]}
+        result=evaluate(doc,{"status":"changed","changes":[change],
+                             "prior_record":{"title":"2027년 적용 최저임금안 고시"}},[],[])
+        self.assertIsNone(result["axes"]["substance"]["score"])
+        self.assertEqual(result["classification"],"pending")
+
     def test_missing_raw_comparison_is_pending_not_zero(self):
         result = evaluate({"source": "admrul", "title": "2027년 교육급여 선정기준 및 최저보장수준"},
                           {}, [], [])
