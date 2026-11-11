@@ -508,6 +508,19 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
                            win.get("query_year", ""), int(win.get("search_scope", 1)))
         state["failed_retry_offset"] = (retry_offset + 2) % len(prior_failures)
 
+    # Perform the two all-kind future-year body searches before broad
+    # historical backfill. Otherwise long daily indexes can exhaust the
+    # time budget before non-year-titled notices are discovered.
+    # Official admrul search defaults to name-only. An annually effective
+    # notice can have NO year in its title; search=2 also scans the body.
+    # One supplementary cross-kind query per edition is substantially cheaper
+    # than a separate full-history search for every policy name.
+    for edition in ("1", "2"):
+        collect_window("admrul", edition, "",
+                       (today - dt.timedelta(days=540)).isoformat(),
+                       today.isoformat(), "annual_body_forward",
+                       str(today.year+1), search_scope=2)
+
     # One uniform index for all official source/date/kind streams.
     for source, edition, kind in schedule:
         for start, end, stage in _windows(root, state, source, edition, kind, today):
@@ -525,15 +538,6 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
                            today.isoformat(), "annual_forward",
                            str(today.year+1))
     state["annual_kind_offset"] = (shift+2) % len(annual_types)
-    # Official admrul search defaults to name-only. An annually effective
-    # notice can have NO year in its title; search=2 also scans the body.
-    # One supplementary cross-kind query per edition is substantially cheaper
-    # than a separate full-history search for every policy name.
-    for edition in ("1", "2"):
-        collect_window("admrul", edition, "",
-                       (today - dt.timedelta(days=540)).isoformat(),
-                       today.isoformat(), "annual_body_forward",
-                       str(today.year+1), search_scope=2)
 
     api.deadline = deadline
     # Reuse metadata saved by EVERY prior run, not only the latest window.
