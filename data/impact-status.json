@@ -2,17 +2,18 @@
   "official_programs": 9683,
   "comparisons_considered": 275,
   "verified_institutional_tasks": 7,
+  "named_standard_review_candidates": 84,
   "official_rule_dependencies": 0,
   "comparison_statuses": {
     "partial_unverified": 220,
     "changed": 55
   },
-  "ai_explanation_attempts": 53,
-  "ai_verified_explanations": 7,
-  "ai_failures": 5,
+  "ai_explanation_attempts": 4,
+  "ai_verified_explanations": 5,
+  "ai_failures": 2,
   "ai_failure_reasons": {
-    "AI_HTTP_503:provider_rejected_request": 4,
-    "UnverifiedAnalysis:Explanation contains unsupported numerical claim": 1
+    "UnverifiedAnalysis:Explanation contains unsupported numerical claim": 1,
+    "AI_HTTP_503:provider_rejected_request": 1
   },
   "policy_ai_summaries": 144,
   "ai_configured": true,

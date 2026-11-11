@@ -1,6 +1,6 @@
 {
   "schema": "policy-domino-unified-ui-v1",
-  "generated_at": "2026-11-11T08:30:59.449099+00:00",
+  "generated_at": "2026-11-11T08:37:52.105780+00:00",
   "scope": "source-backed version catalog; institutional actions only for exact citation evidence",
   "total_source_versions_saved": 1051,
   "events": [
@@ -16454,9 +16454,11 @@
       "change_count": 11,
       "agency_names": [
         "경기도 수원시",
-        "교육부"
+        "경기도 포천시",
+        "교육부",
+        "보건복지부"
       ],
-      "action_count": 3,
+      "action_count": 25,
       "dependency_count": 0
     },
     {
@@ -16595,10 +16597,12 @@
       "detail_url": "events/8c844d5bd8212681809a14d7.json",
       "change_count": 31,
       "agency_names": [
+        "경기도 포천시",
         "국토교통부",
+        "보건복지부",
         "서울특별시 동대문구"
       ],
-      "action_count": 3,
+      "action_count": 65,
       "dependency_count": 0
     },
     {
@@ -24148,7 +24152,7 @@
     "with_verified_changes": 55,
     "with_text_differences": 149,
     "with_institutional_actions": 3,
-    "agency_action_count": 7,
+    "agency_action_count": 91,
     "by_category": {
       "행정절차·인허가": 86,
       "기타 제·개정": 792,
@@ -24158,29 +24162,30 @@
     }
   },
   "collection": {
-    "detail_attempted": 60,
-    "complete_originals_added": 30,
-    "compared_pairs_processed": 48,
-    "failed_windows": 0,
+    "detail_attempted": 1,
+    "complete_originals_added": 0,
+    "compared_pairs_processed": 0,
+    "failed_windows": 1,
     "streams_checked": 6,
-    "pending_index_versions": 5406,
+    "pending_index_versions": 5448,
     "year_search_year": 2027
   },
   "analysis": {
     "official_programs": 9683,
     "comparisons_considered": 275,
     "verified_institutional_tasks": 7,
+    "named_standard_review_candidates": 84,
     "official_rule_dependencies": 0,
     "comparison_statuses": {
       "partial_unverified": 220,
       "changed": 55
     },
-    "ai_explanation_attempts": 53,
-    "ai_verified_explanations": 7,
-    "ai_failures": 5,
+    "ai_explanation_attempts": 4,
+    "ai_verified_explanations": 5,
+    "ai_failures": 2,
     "ai_failure_reasons": {
-      "AI_HTTP_503:provider_rejected_request": 4,
-      "UnverifiedAnalysis:Explanation contains unsupported numerical claim": 1
+      "UnverifiedAnalysis:Explanation contains unsupported numerical claim": 1,
+      "AI_HTTP_503:provider_rejected_request": 1
     },
     "policy_ai_summaries": 144,
     "ai_configured": true,
@@ -24190,7 +24195,7 @@
     "alio_public_institutions": 355,
     "alio_reported": 355,
     "alio_source_url": "https://www.alioplus.go.kr/organization/organByTypeList.do?schApbaGb=APBA&pageNo=1",
-    "alio_updated_at": "2026-11-11T08:15:17.670557+00:00",
+    "alio_updated_at": "2026-11-11T08:32:02.694639+00:00",
     "gov24_programs": 9683,
     "gov24_agencies": 532,
     "gov24_agency_types": {

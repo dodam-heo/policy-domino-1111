@@ -698,6 +698,45 @@
   "unresolved": [],
   "institutions": [
     {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 1 · 금액 (원/월) · 1인 가구",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "1,230,834",
+      "after": "1,313,300",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 1 · 금액 (원/월) · 1인 가구",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 1 · 금액 (원/월) · 1인 가구",
+          "before": "1,230,834",
+          "after": "1,313,300"
+        }
+      ],
+      "ai_analysis": {
+        "explanation": "보건복지부의 생계급여 프로그램에서 2027년 주거급여 선정기준 및 최저보장수준 변경에 따른 지급액 산정 기준을 검토하여야 합니다.",
+        "old_quote": "1,230,834",
+        "new_quote": "1,313,300",
+        "program_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      }
+    },
+    {
       "agency": "서울특별시 동대문구",
       "agency_type": "시군구",
       "service": "저소득층 주거급여 지원",
@@ -888,6 +927,231 @@
       }
     },
     {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 1 · 금액 (원/월) · 1인 가구",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "1,230,834",
+      "after": "1,313,300",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 1 · 금액 (원/월) · 1인 가구",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 1 · 금액 (원/월) · 1인 가구",
+          "before": "1,230,834",
+          "after": "1,313,300"
+        }
+      ],
+      "ai_analysis": {
+        "explanation": "경기도 포천시는 입원명령 대상 환자지원 사업과 관련하여 2027년 주거급여 선정기준 및 최저보장수준 변경에 따른 지급 기준과 금액의 적정성을 검토해야 합니다.",
+        "old_quote": "1,230,834",
+        "new_quote": "1,313,300",
+        "program_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저)",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      }
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 1 · 금액 (원/월) · 2인 가구",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "2,015,660",
+      "after": "2,150,710",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 1 · 금액 (원/월) · 2인 가구",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 1 · 금액 (원/월) · 2인 가구",
+          "before": "2,015,660",
+          "after": "2,150,710"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 1 · 금액 (원/월) · 2인 가구",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "2,015,660",
+      "after": "2,150,710",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 1 · 금액 (원/월) · 2인 가구",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 1 · 금액 (원/월) · 2인 가구",
+          "before": "2,015,660",
+          "after": "2,150,710"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 1 · 금액 (원/월) · 3인 가구",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "2,572,337",
+      "after": "2,744,684",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 1 · 금액 (원/월) · 3인 가구",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 1 · 금액 (원/월) · 3인 가구",
+          "before": "2,572,337",
+          "after": "2,744,684"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 1 · 금액 (원/월) · 3인 가구",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "2,572,337",
+      "after": "2,744,684",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 1 · 금액 (원/월) · 3인 가구",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 1 · 금액 (원/월) · 3인 가구",
+          "before": "2,572,337",
+          "after": "2,744,684"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 1 · 금액 (원/월) · 4인 가구",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "3,117,474",
+      "after": "3,326,345",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 1 · 금액 (원/월) · 4인 가구",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 1 · 금액 (원/월) · 4인 가구",
+          "before": "3,117,474",
+          "after": "3,326,345"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 1 · 금액 (원/월) · 4인 가구",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "3,117,474",
+      "after": "3,326,345",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 1 · 금액 (원/월) · 4인 가구",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 1 · 금액 (원/월) · 4인 가구",
+          "before": "3,117,474",
+          "after": "3,326,345"
+        }
+      ]
+    },
+    {
       "agency": "국토교통부",
       "agency_type": "중앙행정기관",
       "service": "주거급여 (맞춤형 급여)",
@@ -928,6 +1192,1122 @@
       }
     },
     {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 1 · 금액 (원/월) · 5인 가구",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "3,627,225",
+      "after": "3,870,249",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 1 · 금액 (원/월) · 5인 가구",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 1 · 금액 (원/월) · 5인 가구",
+          "before": "3,627,225",
+          "after": "3,870,249"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 1 · 금액 (원/월) · 5인 가구",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "3,627,225",
+      "after": "3,870,249",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 1 · 금액 (원/월) · 5인 가구",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 1 · 금액 (원/월) · 5인 가구",
+          "before": "3,627,225",
+          "after": "3,870,249"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 1 · 금액 (원/월) · 6인 가구",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "4,106,857",
+      "after": "4,382,016",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 1 · 금액 (원/월) · 6인 가구",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 1 · 금액 (원/월) · 6인 가구",
+          "before": "4,106,857",
+          "after": "4,382,016"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 1 · 금액 (원/월) · 6인 가구",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "4,106,857",
+      "after": "4,382,016",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 1 · 금액 (원/월) · 6인 가구",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 1 · 금액 (원/월) · 6인 가구",
+          "before": "4,106,857",
+          "after": "4,382,016"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 1 · 금액 (원/월) · 7인 가구",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "4,567,272",
+      "after": "4,873,279",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 1 · 금액 (원/월) · 7인 가구",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 1 · 금액 (원/월) · 7인 가구",
+          "before": "4,567,272",
+          "after": "4,873,279"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 1 · 금액 (원/월) · 7인 가구",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "4,567,272",
+      "after": "4,873,279",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 1 · 금액 (원/월) · 7인 가구",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 1 · 금액 (원/월) · 7인 가구",
+          "before": "4,567,272",
+          "after": "4,873,279"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 1인 · 1급지 (서울)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "369,000",
+      "after": "381,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 1인 · 1급지 (서울)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 1인 · 1급지 (서울)",
+          "before": "369,000",
+          "after": "381,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 1인 · 1급지 (서울)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "369,000",
+      "after": "381,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 1인 · 1급지 (서울)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 1인 · 1급지 (서울)",
+          "before": "369,000",
+          "after": "381,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 1인 · 2급지 (경기·인천)",
+      "required_change": "지원내용에 기재된 종전 300,000을 새 공식 기준 313,000과 대조하고, 관련 안내·심사 산식을 변경된 기준에 맞게 검토",
+      "before": "300,000",
+      "after": "313,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 1인 · 2급지 (경기·인천)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "300,000",
+        "new_value": "313,000",
+        "numeric_value_in_operating_criteria": true
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 1인 · 2급지 (경기·인천)",
+          "before": "300,000",
+          "after": "313,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 1인 · 2급지 (경기·인천)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "300,000",
+      "after": "313,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 1인 · 2급지 (경기·인천)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 1인 · 2급지 (경기·인천)",
+          "before": "300,000",
+          "after": "313,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 1인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "247,000",
+      "after": "259,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 1인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 1인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+          "before": "247,000",
+          "after": "259,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 1인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "247,000",
+      "after": "259,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 1인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 1인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+          "before": "247,000",
+          "after": "259,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 1인 · 4급지 (그외 지역)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "212,000",
+      "after": "234,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 1인 · 4급지 (그외 지역)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 1인 · 4급지 (그외 지역)",
+          "before": "212,000",
+          "after": "234,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 1인 · 4급지 (그외 지역)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "212,000",
+      "after": "234,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 1인 · 4급지 (그외 지역)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 1인 · 4급지 (그외 지역)",
+          "before": "212,000",
+          "after": "234,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 2인 · 1급지 (서울)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "414,000",
+      "after": "431,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 2인 · 1급지 (서울)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 2인 · 1급지 (서울)",
+          "before": "414,000",
+          "after": "431,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 2인 · 1급지 (서울)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "414,000",
+      "after": "431,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 2인 · 1급지 (서울)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 2인 · 1급지 (서울)",
+          "before": "414,000",
+          "after": "431,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 2인 · 2급지 (경기·인천)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "335,000",
+      "after": "352,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 2인 · 2급지 (경기·인천)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 2인 · 2급지 (경기·인천)",
+          "before": "335,000",
+          "after": "352,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 2인 · 2급지 (경기·인천)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "335,000",
+      "after": "352,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 2인 · 2급지 (경기·인천)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 2인 · 2급지 (경기·인천)",
+          "before": "335,000",
+          "after": "352,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 2인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "275,000",
+      "after": "291,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 2인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 2인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+          "before": "275,000",
+          "after": "291,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 2인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "275,000",
+      "after": "291,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 2인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 2인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+          "before": "275,000",
+          "after": "291,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 2인 · 4급지 (그외 지역)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "238,000",
+      "after": "265,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 2인 · 4급지 (그외 지역)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 2인 · 4급지 (그외 지역)",
+          "before": "238,000",
+          "after": "265,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 2인 · 4급지 (그외 지역)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "238,000",
+      "after": "265,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 2인 · 4급지 (그외 지역)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 2인 · 4급지 (그외 지역)",
+          "before": "238,000",
+          "after": "265,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 3인 · 1급지 (서울)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "492,000",
+      "after": "514,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 3인 · 1급지 (서울)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 3인 · 1급지 (서울)",
+          "before": "492,000",
+          "after": "514,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 3인 · 1급지 (서울)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "492,000",
+      "after": "514,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 3인 · 1급지 (서울)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 3인 · 1급지 (서울)",
+          "before": "492,000",
+          "after": "514,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 3인 · 2급지 (경기·인천)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "401,000",
+      "after": "422,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 3인 · 2급지 (경기·인천)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 3인 · 2급지 (경기·인천)",
+          "before": "401,000",
+          "after": "422,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 3인 · 2급지 (경기·인천)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "401,000",
+      "after": "422,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 3인 · 2급지 (경기·인천)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 3인 · 2급지 (경기·인천)",
+          "before": "401,000",
+          "after": "422,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 3인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "327,000",
+      "after": "347,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 3인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 3인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+          "before": "327,000",
+          "after": "347,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 3인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "327,000",
+      "after": "347,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 3인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 3인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+          "before": "327,000",
+          "after": "347,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 3인 · 4급지 (그외 지역)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "283,000",
+      "after": "318,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 3인 · 4급지 (그외 지역)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 3인 · 4급지 (그외 지역)",
+          "before": "283,000",
+          "after": "318,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 3인 · 4급지 (그외 지역)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "283,000",
+      "after": "318,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 3인 · 4급지 (그외 지역)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 3인 · 4급지 (그외 지역)",
+          "before": "283,000",
+          "after": "318,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 4인 · 1급지 (서울)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "571,000",
+      "after": "596,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 4인 · 1급지 (서울)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 4인 · 1급지 (서울)",
+          "before": "571,000",
+          "after": "596,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 4인 · 1급지 (서울)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "571,000",
+      "after": "596,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 4인 · 1급지 (서울)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 4인 · 1급지 (서울)",
+          "before": "571,000",
+          "after": "596,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 4인 · 2급지 (경기·인천)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "463,000",
+      "after": "488,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 4인 · 2급지 (경기·인천)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 4인 · 2급지 (경기·인천)",
+          "before": "463,000",
+          "after": "488,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 4인 · 2급지 (경기·인천)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "463,000",
+      "after": "488,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 4인 · 2급지 (경기·인천)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 4인 · 2급지 (경기·인천)",
+          "before": "463,000",
+          "after": "488,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 4인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "381,000",
+      "after": "403,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 4인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 4인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+          "before": "381,000",
+          "after": "403,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 4인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "381,000",
+      "after": "403,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 4인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 4인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+          "before": "381,000",
+          "after": "403,000"
+        }
+      ]
+    },
+    {
       "agency": "국토교통부",
       "agency_type": "중앙행정기관",
       "service": "주거급여 (맞춤형 급여)",
@@ -966,6 +2346,564 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       }
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 4인 · 4급지 (그외 지역)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "329,000",
+      "after": "369,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 4인 · 4급지 (그외 지역)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 4인 · 4급지 (그외 지역)",
+          "before": "329,000",
+          "after": "369,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 4인 · 4급지 (그외 지역)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "329,000",
+      "after": "369,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 4인 · 4급지 (그외 지역)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 4인 · 4급지 (그외 지역)",
+          "before": "329,000",
+          "after": "369,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 5인 · 1급지 (서울)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "591,000",
+      "after": "618,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 5인 · 1급지 (서울)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 5인 · 1급지 (서울)",
+          "before": "591,000",
+          "after": "618,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 5인 · 1급지 (서울)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "591,000",
+      "after": "618,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 5인 · 1급지 (서울)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 5인 · 1급지 (서울)",
+          "before": "591,000",
+          "after": "618,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 5인 · 2급지 (경기·인천)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "479,000",
+      "after": "505,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 5인 · 2급지 (경기·인천)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 5인 · 2급지 (경기·인천)",
+          "before": "479,000",
+          "after": "505,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 5인 · 2급지 (경기·인천)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "479,000",
+      "after": "505,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 5인 · 2급지 (경기·인천)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 5인 · 2급지 (경기·인천)",
+          "before": "479,000",
+          "after": "505,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 5인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "394,000",
+      "after": "418,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 5인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 5인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+          "before": "394,000",
+          "after": "418,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 5인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "394,000",
+      "after": "418,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 5인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 5인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+          "before": "394,000",
+          "after": "418,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 5인 · 4급지 (그외 지역)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "340,000",
+      "after": "382,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 5인 · 4급지 (그외 지역)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 5인 · 4급지 (그외 지역)",
+          "before": "340,000",
+          "after": "382,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 5인 · 4급지 (그외 지역)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "340,000",
+      "after": "382,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 5인 · 4급지 (그외 지역)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 5인 · 4급지 (그외 지역)",
+          "before": "340,000",
+          "after": "382,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 6인 · 1급지 (서울)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "699,000",
+      "after": "731,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 6인 · 1급지 (서울)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 6인 · 1급지 (서울)",
+          "before": "699,000",
+          "after": "731,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 6인 · 1급지 (서울)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "699,000",
+      "after": "731,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 6인 · 1급지 (서울)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 6인 · 1급지 (서울)",
+          "before": "699,000",
+          "after": "731,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 6인 · 2급지 (경기·인천)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "568,000",
+      "after": "599,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 6인 · 2급지 (경기·인천)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 6인 · 2급지 (경기·인천)",
+          "before": "568,000",
+          "after": "599,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 6인 · 2급지 (경기·인천)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "568,000",
+      "after": "599,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 6인 · 2급지 (경기·인천)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 6인 · 2급지 (경기·인천)",
+          "before": "568,000",
+          "after": "599,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 6인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "463,000",
+      "after": "492,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 6인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 6인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+          "before": "463,000",
+          "after": "492,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 6인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "463,000",
+      "after": "492,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 6인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 6인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
+          "before": "463,000",
+          "after": "492,000"
+        }
+      ]
+    },
+    {
+      "agency": "보건복지부",
+      "agency_type": "중앙행정기관",
+      "service": "생계급여",
+      "service_id": "WII000001410",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 6인 · 4급지 (그외 지역)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "402,000",
+      "after": "452,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 6인 · 4급지 (그외 지역)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,000원인 1인 가구의 생계급여액 = 1인 가구 생계급여 지급기준 820,556원 – 소득 인정액 300,000원 = 520,556원 ○ 시설 수급자 : 시설 규모에 따라 지급기준이 다름",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 6인 · 4급지 (그외 지역)",
+          "before": "402,000",
+          "after": "452,000"
+        }
+      ]
+    },
+    {
+      "agency": "경기도 포천시",
+      "agency_type": "시군구",
+      "service": "입원명령 대상 환자지원",
+      "service_id": "560000000124",
+      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "policy_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
+      "policy": "2027년 주거급여 선정기준 및 최저보장수준",
+      "changed_clause": "표 2 · 6인 · 4급지 (그외 지역)",
+      "required_change": "지원내용에서 명시적으로 사용 중인 '최저보장수준'을 2027년 주거급여 선정기준 및 최저보장수준의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토",
+      "before": "402,000",
+      "after": "452,000",
+      "evidence": {
+        "proof_type": "explicit_named_standard_in_official_criteria",
+        "reference_quote": "2027년 주거급여 선정기준 및 최저보장수준 · 표 2 · 6인 · 4급지 (그외 지역)",
+        "standard_quote": "최저보장수준",
+        "service_field": "지원내용",
+        "service_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저) ○ 결핵환자 및 부양가족생활보호비 - 2025년 가구별 생계급여 최저보장 수준으로 지원 - 지원대상자가 가구 내 주소득자인지 여부를 확인 ㆍ가구 내 주소득자인 경우 : 환자가구원 수 기준으로 지원 ㆍ가구 내 주소득자가 아닌 경우 : 환자 1인 가구 기준으로 지원",
+        "old_value": "",
+        "new_value": "",
+        "numeric_value_in_operating_criteria": false
+      },
+      "status": "review_of_named_standard",
+      "linked_changes": [
+        {
+          "article": "표 2 · 6인 · 4급지 (그외 지역)",
+          "before": "402,000",
+          "after": "452,000"
+        }
+      ]
     }
   ],
   "dependent_rules": [],
