@@ -4,17 +4,19 @@
   "verified_institutional_tasks": 7,
   "named_standard_review_candidates": 84,
   "official_rule_dependencies": 2,
+  "legacy_citation_candidates": 7,
+  "legacy_program_review_candidates": 0,
   "comparison_statuses": {
-    "changed": 128,
-    "partial_unverified": 303
+    "partial_unverified": 303,
+    "changed": 128
   },
-  "ai_explanation_attempts": 6,
+  "ai_explanation_attempts": 5,
   "ai_verified_explanations": 0,
   "ai_failures": 1,
   "ai_failure_reasons": {
     "AI_HTTP_503:provider_rejected_request": 1
   },
-  "policy_ai_summaries": 204,
+  "policy_ai_summaries": 208,
   "ai_configured": true,
-  "policy_summaries_pending": 91
+  "policy_summaries_pending": 87
 }

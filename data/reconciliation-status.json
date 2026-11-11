@@ -1,0 +1,16 @@
+{
+  "indexed_unique_versions": 13687,
+  "saved_versions": 1372,
+  "indexed_without_saved_original": 12845,
+  "official_complete_originals": 297,
+  "legacy_extracted_versions_requiring_source_revalidation": 722,
+  "comparisons": 431,
+  "comparisons_by_status": {
+    "changed": 128,
+    "partial_unverified": 303
+  },
+  "comparisons_without_impact_assessment": 0,
+  "verified_institutional_review_tasks": 6,
+  "review_leads_not_fully_verified": 85,
+  "source": "incremental_cumulative_official_evidence"
+}
