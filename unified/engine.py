@@ -289,7 +289,7 @@ class OfficialAPI:
         return root, raw
 
     def search(self, source, start, end, edition="1", kind="", max_pages=20,
-               query=""):
+               query="", search_scope=1):
         if source not in FIELDS:
             raise ValueError("Unsupported source")
         params = {FIELDS[source][4]: start.replace("-", "") +
@@ -299,7 +299,10 @@ class OfficialAPI:
         if kind and source == "admrul":
             params["knd"] = kind
         if query:
+            if search_scope not in (1, 2):
+                raise ValueError("Unsupported search scope")
             params["query"] = query
+            params["search"] = search_scope
         found, reported, seen_pages = {}, None, 0
         for page in range(1, max_pages+1):
             root, _ = self.request("lawSearch.do", source, page=page, **params)
@@ -451,19 +454,23 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
     schedule = (states[offset:] + states[:offset])[:min(len(states), limit_streams)]
     failed = 0
 
-    def collect_window(source, edition, kind, start, end, stage, query=""):
+    def collect_window(source, edition, kind, start, end, stage, query="", search_scope=1):
         nonlocal failed
         if time.monotonic() >= index_deadline or getattr(api, "network_unavailable", False):
             return False
         key = "|".join((source, edition, kind, start, end, stage))
         try:
-            records, info = api.search(source, start, end, edition, kind,
-                                       query=query)
+            if search_scope == 2:
+                records, info = api.search(source, start, end, edition, kind,
+                                           query=query, search_scope=2)
+            else:
+                records, info = api.search(source, start, end, edition, kind,
+                                           query=query)
             saved = {
                 **info, "source": source, "edition": edition, "kind": kind,
                 "first": start, "last": end, "stage": stage,
-                "query_year": query, "checked_at": dt.datetime.now(
-                    dt.timezone.utc).isoformat()}
+                "query_year": query, "search_scope": search_scope,
+                "checked_at": dt.datetime.now(dt.timezone.utc).isoformat()}
             state["coverage"][key] = saved
             store(_index_path(root, source, edition, kind, start, end, stage),
                   {"coverage": saved, "records": records})
@@ -478,7 +485,8 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
             state["coverage"][key] = {
                 "source": source, "edition": edition, "kind": kind,
                 "first": start, "last": end, "stage": stage,
-                "query_year": query, "complete": False,
+                "query_year": query, "search_scope": search_scope,
+                "complete": False,
                 "checked_at": dt.datetime.now(dt.timezone.utc).isoformat(),
                 "error": type(exc).__name__ + ": " + str(exc)[:150]}
             return False
@@ -497,7 +505,7 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
         for win in retry_queue[:2]:
             collect_window(win["source"], win["edition"], win.get("kind", ""),
                            win["first"], win["last"], win.get("stage", "retry"),
-                           win.get("query_year", ""))
+                           win.get("query_year", ""), int(win.get("search_scope", 1)))
         state["failed_retry_offset"] = (retry_offset + 2) % len(prior_failures)
 
     # One uniform index for all official source/date/kind streams.
@@ -517,6 +525,15 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
                            today.isoformat(), "annual_forward",
                            str(today.year+1))
     state["annual_kind_offset"] = (shift+2) % len(annual_types)
+    # Official admrul search defaults to name-only. An annually effective
+    # notice can have NO year in its title; search=2 also scans the body.
+    # One supplementary cross-kind query per edition is substantially cheaper
+    # than a separate full-history search for every policy name.
+    for edition in ("1", "2"):
+        collect_window("admrul", edition, "",
+                       (today - dt.timedelta(days=540)).isoformat(),
+                       today.isoformat(), "annual_body_forward",
+                       str(today.year+1), search_scope=2)
 
     api.deadline = deadline
     # Reuse metadata saved by EVERY prior run, not only the latest window.
