@@ -24,6 +24,17 @@ const scopedAgencyCounts=actions=>new Map(actions.map(a=>[a.agency,1]));
   assert.ok(!filterHtml.includes('id="mode-amended"'));
   assert.ok(filterHtml.includes('>영향도 큼</button>'));
   assert.ok(!filterHtml.includes('영향도 큼만 보기'));
+  // The detail page is a reader-oriented view, not a scoring or debug console.
+  const detailSource=fs.readFileSync('site/app.js','utf8');
+  assert.ok(!detailSource.includes('renderImpactScore('));
+  assert.ok(!detailSource.includes('이 정책의 변경 조문과 특정 기관의 사업을 연결하는 공식 근거가 아직 확보되지 않았습니다'));
+  assert.ok(!detailSource.includes('기관별 사업과 변경 규정의 연결 근거를 확인하세요.'));
+  assert.ok(detailSource.includes('const moreChanges=shown.length>1?create("details","core-more"):null'));
+  assert.ok(detailSource.includes('const section=create("details","detail-section evidence-panel evidence-section")'));
+  assert.ok(!detailSource.includes('wrapper.open=true'));
+  assert.ok(detailSource.includes('append(root,core,institutions,ai,evidence)'));
+  assert.ok(detailSource.includes('if(target.tagName==="DETAILS")target.open=true'));
+
   assert.equal(view.filterEvents([education,housing],{mode:'all',verification:'changed'}).length,0);
   assert.equal(view.filterEvents([education,housing],{mode:'all',verification:'partial'}).length,0);
   const change=eventView({id:'annual',title:'지원기준 고시',category:'급여·지원기준',

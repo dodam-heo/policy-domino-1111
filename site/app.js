@@ -224,9 +224,6 @@
     section.className="detail-section core";
     const summary=create("div","core-summary");
     append(summary,create("strong","",compact(event.headline,220)));
-    // Per-axis score and source trail are shown once above this section.
-    if(event.comparison_status!=="changed")
-      append(summary,create("p","core-caution","신구 비교의 일부 근거가 아직 확인 중입니다. 미확인 항목은 확정된 변경으로 취급하지 않습니다."));
     if(event.headline.length>170){const more=create("details","highlight-detail");append(more,create("summary","","정책 요약 전체 보기"),create("p","",event.headline));append(summary,more);}
     append(section,summary);
     if (event.changes?.length) {
@@ -235,9 +232,9 @@
       // citation formatting and revision-date changes remain in the full diff.
       const indices=event.impact_assessment?.featured_change_indices||[];
       const shown=indices.map(i=>event.changes[i]).filter(Boolean).slice(0,3);
-      if(!shown.length)
-        append(highlights,create("p","no-impacts",
-          "현재 확보된 신구대비에서 핵심 지급액·자격·절차·기관 기능의 실질 변경을 특정하지 못했습니다. 단순 표현·인용 정비를 포함한 전체 변경은 아래 신구대비에서 확인할 수 있습니다."));
+      const moreChanges=shown.length>1?create("details","core-more"):null;
+      if(moreChanges)
+        append(moreChanges,create("summary","","추가 주요 조문 "+num(shown.length-1)+"건 펼쳐보기"));
       for (const change of shown) {
         const meaning=change.meaning||{};
         const row=create("div","highlight");
@@ -260,10 +257,6 @@
             create("p","",description));
           append(row,more);
         }
-        if(meaning.source_check_required) {
-          append(row,create("p","highlight-warning",
-            "종전·현행 본문과 첨부자료의 추가 대조가 필요한 변경입니다."));
-        }
         if(change.before || change.after || meaning.focus?.length) {
           const first=shown.indexOf(change)===0;
           if(first)append(row,sourceDiffPreview(change,"변경 전","변경 후"));
@@ -274,24 +267,22 @@
             append(row,toggle);
           }
         }
-        append(highlights,row);
+        append(shown.indexOf(change)===0?highlights:moreChanges,row);
       }
-      if (event.changes.length>shown.length)
-        append(highlights,create("p","section-help",
-          "그 밖의 "+num(event.changes.length-shown.length)+
-          "개 변경·표현 정비는 아래 '공식 신구대비와 근거 원문'에서 확인할 수 있습니다."));
-      // Important real changes must be visible before optional source details.
-      append(section,highlights);
+      if(moreChanges)append(highlights,moreChanges);
+      if(shown.length)append(section,highlights);
     }
     const stats=create("div","impact-numbers");
-    append(stats,create("span","","연결된 기관 "+num(event.institution_count)+"곳"),
-      create("span","","업무 검토항목 "+num(event.review_count)+"건"));
+    if(event.institution_count>0)
+      append(stats,create("span","","관련 기관 "+num(event.institution_count)+"곳"));
+    if(event.review_count>0)
+      append(stats,create("span","","후속조치 "+num(event.review_count)+"건"));
     if (event.public_service_lead_count)
       append(stats,create("span","","공공서비스 검토 후보 "+
         num(event.public_service_lead_count)+"건"));
     if (event.dependent_rules?.length)
       append(stats,create("span","","연관 규정 "+num(event.dependent_rules.length)+"건"));
-    append(section,stats);
+    if(stats.children.length)append(section,stats);
     const agencies=[...new Set((event.institutional_reviews||[]).map(x=>x.institution))];
     if(agencies.length)append(section,create("p","core-agencies","영향 검토 기관 · "+agencies.join(" · ")));
     return section;
@@ -348,12 +339,11 @@
     return card;
   }
   function renderInstitutions(event) {
-    const section=heading("기관·사업별 후속조치",
-      "기관별 사업과 변경 규정의 연결 근거를 확인하세요. 직접 근거가 확인된 항목과 재확인 후보는 구분됩니다.");
+    const section=heading("기관·사업별 후속조치");
     let relatedRules=null;
     if(event.dependent_rules?.length){
       const rules=create("details","proof");
-      append(rules,create("summary","","변경 조문을 인용하는 규정 "+num(event.dependent_rules.length)+"건"),create("p","","공식 원문의 인용 관계입니다. 규정 개정 필요 여부와 실제 업무 적용 여부는 각 근거를 대조해 확인하세요."));
+      append(rules,create("summary","","관련 규정 "+num(event.dependent_rules.length)+"건"));
       for(const edge of event.dependent_rules){
         const item=create("div","review-card");
         append(item,create("p","review-task",edge.title+" · "+edge.article),create("p","",event.title+" "+edge.changed_article+" 인용"),create("p","",edge.reference_quote),link(edge.url,"관련 규정 원문"));
@@ -363,10 +353,8 @@
     }
     const groups=view.impactGroups(event);
     if (!groups.length) {
-      append(section,create("p","no-impacts",
-        "이 정책의 변경 조문과 특정 기관의 사업을 연결하는 공식 근거가 아직 확보되지 않았습니다. 정책 내용과 원문 신구대비는 아래에서 확인할 수 있습니다."));
       if(relatedRules)append(section,relatedRules);
-      return section;
+      return relatedRules?section:null;
     }
     // Names come solely from this event's verified institutional reviews.
     // Switching policy events resets the selection in select(), never carrying
@@ -482,11 +470,13 @@
     return section;
   }
   function renderEvidence(event) {
-    const section=heading("공식 신구대비와 근거 원문");
-    const wrapper=create("details","evidence-panel");
-    append(wrapper,create("summary","",
-      "변경 전·후 조문 "+num(event.changes?.length||0)+"건 · 상세 보기"));
-    if(event.changes?.length)wrapper.open=true;
+    // The entire evidence section, including official source links, begins
+    // collapsed. Expanding it reveals the first five excerpts and a separate
+    // disclosure for additional excerpts; all original text stays accessible.
+    const section=create("details","detail-section evidence-panel evidence-section");
+    append(section,create("summary","section-heading","공식 신구대비와 근거 원문"));
+    const body=create("div","evidence-content");
+    append(body,link(event.url,"현행 공식 판본"),link(event.prior_url,"종전 공식 판본"));
     for (const [i,ch] of (event.changes||[]).entries()) {
       if (i===5) {
         const more=create("details","more-clauses");
@@ -494,50 +484,43 @@
           "추가 변경 조문 "+num(event.changes.length-5)+"건"));
         for (const other of event.changes.slice(5))
           append(more,sourcePair(other));
-        append(wrapper,more);
+        append(body,more);
         break;
       }
-      append(wrapper,sourcePair(ch,i));
+      append(body,sourcePair(ch));
     }
-    if (!event.changes?.length)
-      append(wrapper,create("p","section-help",model.stageLabel(event.comparison_status)));
-    if(event.unresolved?.length)append(wrapper,create("p","section-help","별표·첨부 또는 대응본 미확보: "+event.unresolved.length+"개 항목"));
-    append(section,link(event.url,"현행 공식 판본"),link(event.prior_url,"종전 공식 판본"));
-    append(section,wrapper);
-    if (event.source_count>1) {
-      const documents=create("details","evidence-panel");
-      append(documents,create("summary","",
-        "동시 개정된 법령 "+num(event.source_count)+"건 확인"));
+    if(event.source_count>1) {
+      const documents=create("details","more-clauses");
+      append(documents,create("summary","","함께 개정된 법령 "+num(event.source_count)+"건"));
       for (const member of event.members||[]) {
         const row=create("div","member-row");
         append(row,create("span","",member.title),
           link(member.url,"공식 원문"));
         append(documents,row);
       }
-      append(section,documents);
+      append(body,documents);
     }
-    if (event.dependent_rules?.length) {
-      const refs=create("details","evidence-panel");
-      append(refs,create("summary","",
-        "변경 조문을 인용하는 관련 규정 "+num(event.dependent_rules.length)+"건"));
-      for (const ref of event.dependent_rules) {
+    if(event.dependent_rules?.length) {
+      const refs=create("details","more-clauses");
+      append(refs,create("summary","","관련 규정 "+num(event.dependent_rules.length)+"건"));
+      for(const ref of event.dependent_rules) {
         const row=create("div","member-row");
         append(row,create("span","",ref.title+" · "+ref.article),
           link(ref.url,"규정 원문"));
         append(refs,row);
       }
-      append(section,refs);
+      append(body,refs);
     }
+    append(section,body);
     return section;
   }
   function renderAI(event) {
     if (!event.ai_summaries?.length) return null;
-    const section=heading("AI 정책 변경 분석",
-      "공식 원문에서 검증된 인용 문구를 바탕으로 작성한 보조 설명입니다.");
+    const section=heading("AI 분석 근거");
     const drawer=create("details","evidence-panel");
     append(drawer,create("summary","",
       "AI 분석 근거 "+num(event.ai_summaries.length)+"건 펼치기"));
-    for (const item of event.ai_summaries.slice(0,12)) {
+    for (const item of event.ai_summaries) {
       const card=create("div","ai-review");
       append(card,create("strong","",item.summary),
         item.question?create("p","",item.question):null,
@@ -545,67 +528,9 @@
           item.before_quote+" → "+item.after_quote));
       append(drawer,card);
     }
-    if (event.ai_summaries.length>12)
-      append(drawer,create("p","section-help","나머지 AI 검토는 공식 조문 상세에 반영됩니다."));
     append(section,drawer);
     return section;
   }
-  function renderImpactScore(event) {
-    const impact=event.impact_assessment;
-    if(!impact)return null;
-    const section=create("section","impact-score-section");
-    const title=create("div","impact-score-title");
-    const classification={
-      high:"영향도 큼",pending:"평가 중",normal:"일반"
-    }[impact.classification]||"평가 중";
-    const points=impact.score_min+(impact.score_complete?"점":"점 이상");
-    append(title,create("strong","",classification+" · 영향도 "+points+" / 100"),
-      create("span","",impact.score_complete?"세 영역 평가 완료":
-        "확인된 점수만 합산 · 미확인 요소 제외"));
-    append(section,title);
-    const breakdown=create("div","impact-score-breakdown");
-    for(const [key,label,max]of [
-      ["substance","변경의 실질성",40],
-      ["scope","적용 범위",35],
-      ["ripple","파급 경로",25]
-    ]){
-      const axis=impact.axes?.[key]||{};
-      const item=create("div","impact-score-axis");
-      append(item,create("span","impact-axis-label",label),
-        create("strong","impact-axis-value",
-          axis.score===null||axis.score===undefined?"분석 중":num(axis.score)+" / "+max+"점"));
-      const proof=axis.evidence?.[0];
-      if(proof?.reason)append(item,create("p","impact-axis-why",proof.reason));
-      if(proof?.article)append(item,create("span","impact-axis-article",proof.article));
-      if(proof?.before && proof?.after && axis.score!==null){
-        const detail=create("details","impact-axis-detail");
-        append(detail,create("summary","","판정에 사용한 신구 변경 문구"),
-          create("p","",compact(proof.before,150)+" → "+compact(proof.after,150)));
-        append(item,detail);
-      }
-      if(proof?.source_url)append(item,link(proof.source_url,"공식 판본 확인"));
-      if (key==="ripple" && axis.evidence?.length>1) {
-        const sources=create("details","impact-axis-detail");
-        append(sources,create("summary","","실제 연결된 공식 규정·사업 "+num(axis.evidence.length-1)+"건"));
-        for(const edge of axis.evidence.slice(1)){
-          const entry=create("div","impact-path-evidence");
-          append(entry,create("strong","",edge.reason||edge.source_title||"연결 근거"));
-          if(edge.article)append(entry,create("span","",edge.article));
-          if(edge.before)append(entry,create("p","",compact(edge.before,155)));
-          append(entry,link(edge.source_url,"공식 사업·규정 근거"));
-          append(sources,entry);
-        }
-        append(item,sources);
-      }
-      append(breakdown,item);
-    }
-    append(section,breakdown);
-    if(!impact.score_complete)
-      append(section,create("p","impact-score-note",
-        "파급 경로 등 확인되지 않은 항목은 0점으로 확정하지 않았습니다. 표시된 점수는 현재 근거로 인정한 최소 점수입니다."));
-    return section;
-  }
-
   function renderDetail() {
     const root=$("detail");root.replaceChildren();
     const event=state.events.find(e=>e.id===state.selected);
@@ -623,20 +548,40 @@
       event.effective_date ?
         create("p","effective","시행일 "+event.effective_date):null);
     append(root,head);
-    if(!event.loaded){append(root,create("p","loading-detail","정책 상세와 기관별 근거를 불러오는 중입니다."));return;}
-    // Do not duplicate axis scores in plain text. A source-linked score panel
-    // immediately follows the header and shows what is unknown.
+    if(!event.loaded){
+      append(root,create("p","loading-detail","정책 상세를 불러오는 중입니다."));
+      return;
+    }
+    const core=renderCore(event);
+    const institutions=renderInstitutions(event);
+    const ai=renderAI(event);
+    const evidence=renderEvidence(event);
+    core.id="policy-core";
+    if(institutions)institutions.id="policy-institutions";
+    if(ai)ai.id="policy-ai";
+    evidence.id="policy-evidence";
+    const links=[
+      ["변경 핵심","policy-core"],
+      ...(institutions?[["기관별 후속조치","policy-institutions"]]:[]),
+      ...(ai?[["AI 분석 근거","policy-ai"]]:[]),
+      ["신구대비·근거","policy-evidence"]
+    ];
     const nav=create("nav","detail-nav");
-    for(const [text,id]of [["변경 핵심","policy-core"],["기관별 후속조치","policy-institutions"],["신구대비·근거","policy-evidence"]]){
-      const b=create("button","",text);b.type="button";b.onclick=()=>$(id)?.scrollIntoView({behavior:"smooth",block:"start"});append(nav,b);
+    for(const [text,id] of links) {
+      const button=create("button","",text);
+      button.type="button";
+      button.onclick=()=>{
+        const target=$(id);
+        if(!target)return;
+        if(target.tagName==="DETAILS")target.open=true;
+        target.scrollIntoView({behavior:"smooth",block:"start"});
+      };
+      append(nav,button);
     }
     append(head,link(event.url,"공식 정책 원문"),nav);
-    const core=renderCore(event),institutions=renderInstitutions(event),evidence=renderEvidence(event);
-    core.id="policy-core";institutions.id="policy-institutions";evidence.id="policy-evidence";
-    const short=(event.changes||[]).filter(model.isShort);
-    // Keep detailed comparisons in the evidence section, rather than
-    // duplicating wide before/after tables above the main policy impact.
-    append(root,renderImpactScore(event),core,institutions,evidence,renderAI(event));
+    // Sections follow the reader's actual work: what changed, what to do,
+    // AI explanation, then optional source archive. No score/debug panels.
+    append(root,core,institutions,ai,evidence);
   }
   function show(data) {
     if(data.schema!=="policy-domino-unified-ui-v1"||!Array.isArray(data.events))throw Error("정책 데이터 규격이 일치하지 않습니다.");
