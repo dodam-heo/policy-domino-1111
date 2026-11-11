@@ -318,6 +318,7 @@ def run(root: Path, limit_events: int = 300) -> dict:
     generated = []
     policy_ai_count = 0
     statuses = Counter()
+    ai_failure_reasons = Counter()
     ai_attempts, ai_verified, ai_errors = 0, 0, 0
     key_available = bool(os.getenv("PD_LLM_API_KEY") or os.getenv("OPENAI_API_KEY"))
     model_available = True
@@ -353,8 +354,9 @@ def run(root: Path, limit_events: int = 300) -> dict:
                         verified = analyze(action)
                         if verified:
                             store(output, verified)
-                    except Exception:
+                    except Exception as exc:
                         ai_errors += 1
+                        ai_failure_reasons[str(exc) if str(exc).startswith("AI_HTTP_") else type(exc).__name__] += 1
                 if verified and verified.get("verified"):
                     action["ai_analysis"] = verified
                     ai_verified += 1
@@ -376,8 +378,9 @@ def run(root: Path, limit_events: int = 300) -> dict:
                     policy_analysis = analyze(policy_context)
                     if policy_analysis:
                         store(output, policy_analysis)
-                except Exception:
+                except Exception as exc:
                     ai_errors += 1
+                    ai_failure_reasons[str(exc) if str(exc).startswith("AI_HTTP_") else type(exc).__name__] += 1
             if policy_analysis and policy_analysis.get("verified"):
                 policy_ai_count += 1
         payload = {"doc": doc, "comparison_status": comparison.get("status"),
@@ -394,7 +397,7 @@ def run(root: Path, limit_events: int = 300) -> dict:
              "comparison_statuses": dict(statuses),
              "ai_explanation_attempts": ai_attempts,
              "ai_verified_explanations": ai_verified,
-             "ai_failures": ai_errors, "policy_ai_summaries": policy_ai_count,
+             "ai_failures": ai_errors, "ai_failure_reasons": dict(ai_failure_reasons), "policy_ai_summaries": policy_ai_count,
              "ai_configured": key_available,
              "policy_summaries_pending": max(0, sum(1 for p in files if load(p, {}).get("changes")) - policy_ai_count)}
     save_json(root / "impact-status.json", stats)

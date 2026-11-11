@@ -18,11 +18,31 @@ permissions:
   contents: write
   pages: write
   id-token: write
-concurrency:
-  group: policy-domino-unified-single-writer
-  cancel-in-progress: false
 jobs:
+  ui:
+    if: github.event_name == 'push' && contains(github.event.head_commit.message, '[ui-only]')
+    runs-on: ubuntu-latest
+    concurrency:
+      group: policy-domino-ui-deploy
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Verify frontend syntax and current data
+        run: |
+          node --check site/app.js
+          python -c "import json; d=json.load(open('site/data.json')); assert d['events']"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
   build:
+    if: github.event_name != 'push' || !contains(github.event.head_commit.message, '[ui-only]')
+    concurrency:
+      group: policy-domino-unified-single-writer
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 55
     steps:
@@ -30,6 +50,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: true
+          ref: ${{ github.event_name == 'pull_request' && github.ref || 'main' }}
       - name: Use Python 3.12
         uses: actions/setup-python@v5
         with:
@@ -43,6 +64,7 @@ jobs:
         env:
           LAW_OC: ${{ vars.LAW_OC || 'dori' }}
           PD_FETCH_OFFICIAL_ATTACHMENTS: 'true'
+          PD_COLLECTION_SECONDS: '600'
         run: python -m unified.engine --root data --streams 6 --details 60
       - name: Incrementally refresh official Gov24 program criteria if configured
         if: github.event_name != 'pull_request' && !contains(github.event.head_commit.message, '[deploy-existing]')
@@ -89,13 +111,26 @@ jobs:
           if ! git diff --cached --quiet; then
             base_sha=$(git rev-parse HEAD)
             git fetch origin main
-            if [ "$(git rev-parse FETCH_HEAD)" != "$base_sha" ]; then
-              echo "::error::main advanced while collecting; do not rebase generated evidence."
-              exit 1
+            remote_sha=$(git rev-parse FETCH_HEAD)
+            if [ "$remote_sha" != "$base_sha" ]; then
+              if git diff --name-only "$base_sha" "$remote_sha" -- data/ site/data.json site/events/ | read -r changed; then
+                echo "::error::Official evidence changed upstream; retained in recovery artifact."
+                exit 1
+              fi
             fi
             git commit -m 'data: refresh independent official evidence and public impact [skip ci]'
+            if [ "$remote_sha" != "$base_sha" ]; then
+              git rebase "$remote_sha"
+            fi
             git push origin HEAD:main
           fi
+      - name: Preserve collected evidence for recovery
+        if: failure() && github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: collected-evidence-${{ github.run_id }}
+          path: data/
+          retention-days: 7
       - name: Configure Pages after repository owner has enabled it
         if: github.event_name != 'pull_request'
         id: pages

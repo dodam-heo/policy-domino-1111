@@ -240,6 +240,9 @@ class OfficialAPI:
         self.oc, self.transport = oc, transport
 
     def request(self, endpoint, source, **params):
+        deadline = getattr(self, "deadline", None)
+        if deadline is not None and time.monotonic() >= deadline:
+            raise TimeoutError("collection_budget_reached")
         url = API + endpoint + "?" + urlencode(
             {"OC": self.oc, "target": source, "type": "XML", **params})
         if self.transport:
@@ -249,7 +252,7 @@ class OfficialAPI:
             for n in range(3):
                 try:
                     with urlopen(Request(url, headers={
-                            "User-Agent": "PolicyDominoUnified/1.0"}), timeout=25) as r:
+                            "User-Agent": "PolicyDominoUnified/1.0"}), timeout=max(1, min(25, (deadline-time.monotonic()) if deadline else 25))) as r:
                         raw = r.read(MAX_RESPONSE + 1)
                     break
                 except OSError as exc:
@@ -414,6 +417,8 @@ def _pending_index_records(root: Path, max_files=15000) -> list[dict]:
 def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
         today: dt.date | None = None) -> dict:
     today = today or dt.date.today()
+    deadline = time.monotonic() + max(30, int(os.getenv("PD_COLLECTION_SECONDS", "600")))
+    api.deadline = deadline
     state_file = root / "collection-state.json"
     state = load(state_file, {}) or {}
     for key in ("backfill", "coverage", "attempts", "errors"):
@@ -425,6 +430,8 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
 
     def collect_window(source, edition, kind, start, end, stage, query=""):
         nonlocal failed
+        if time.monotonic() >= deadline:
+            return False
         key = "|".join((source, edition, kind, start, end, stage))
         try:
             records, info = api.search(source, start, end, edition, kind,
@@ -496,7 +503,7 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
                                 _priority(r, today)), reverse=True)
     attempted, complete, compared = 0, 0, 0
     for rec in records:
-        if attempted >= detail_budget:
+        if attempted >= detail_budget or time.monotonic() >= deadline:
             break
         stored = load(root / relative_path(rec))
         comparison_path = root / "comparisons" / (hash256(ident(rec))[:24] + ".json.gz")

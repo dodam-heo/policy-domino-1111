@@ -40,7 +40,7 @@ function filtered(){
   shown.sort((a,b)=>sort==='impact'?actionCount(b)-actionCount(a):String(sort==='effective'?b.effective_date:b.published_at).localeCompare(String(sort==='effective'?a.effective_date:a.published_at)));
   $('count').textContent=shown.length.toLocaleString()+'건';
   if(!active||!shown.some(e=>e.id===active.id))active=shown[0]||null;
-  renderList(); renderDetail();
+  renderList(); if(document.body.classList.contains('mode-detail'))renderDetail();
 }
 function renderAgencies(){
   const root=$('agencies');root.replaceChildren();
@@ -59,8 +59,9 @@ function renderList(){
     const b=node('button','event'+(e.id===active?.id?' active':''));b.type='button';
     add(b,chip(e.category),changeCount(e)?chip('변경 '+changeCount(e)+'개','blue'):chip(stage[e.comparison_status]||'대조 대기','orange'));
     if(actionCount(e))b.appendChild(chip('기관·사업 '+actionCount(e),'blue'));
-    add(b,node('h3','',e.title),node('div','meta',(e.published_at||'발령일 미확인')+' · '+(e.ministry||names[e.source])));
-    b.addEventListener('click',()=>{active=e;agencyFilter='';renderList();renderDetail();});
+    add(b,node('h3','',e.title),node('div','meta',(e.ministry||names[e.source])+' · '+(e.published_at||'발령일 미확인')));
+    const foot=node('div','event-foot');add(foot,node('span','',e.effective_date?'시행 '+e.effective_date:'시행일 확인 중'),node('span','event-arrow','영향 확인 ↗'));b.appendChild(foot);
+    b.addEventListener('click',()=>{active=e;agencyFilter='';document.body.className='mode-detail';renderList();renderDetail();window.scrollTo({top:0,behavior:'smooth'});});
     list.appendChild(b);
   });
   $('more').hidden=shown.length<=pageSize;
@@ -128,10 +129,11 @@ async function renderDetail(){
   if(!active){add(root,node('div','empty','검색 조건에 맞는 정책이 없습니다.'));return;}
   const e=detailCache.get(active.id)||active;
   history.replaceState(null,"","#"+encodeURIComponent(e.id));
-  add(root,chip(e.category,'blue'),node('h2','',e.title));
+  add(root,node('p','eyebrow','POLICY IMPACT REPORT'),chip(e.category,'blue'),node('h2','',e.title));
   add(root,node('div','sub',[e.ministry,e.published_at&&('발령 '+e.published_at),e.effective_date&&('시행 '+e.effective_date)].filter(Boolean).join(' · ')));
   add(root,external('국가법령정보센터 공식 문서 보기',e.url));
-  const overview=node('section','section');
+  const nav=node('nav','detail-tabs');[['변경 핵심','policy-overview'],['기관·사업 영향','policy-agencies'],['신구 비교·근거','policy-comparison']].forEach(([label,id])=>{const a=node('a','',label);a.href='#'+id;a.onclick=ev=>{ev.preventDefault();document.getElementById(id)?.scrollIntoView({behavior:'smooth'});};nav.appendChild(a);});root.appendChild(nav);
+  const overview=node('section','section');overview.id='policy-overview';
   add(overview,node('h3','','정책 변경 핵심'));
   const note=e.changes?.length
     ? '공식 종전·개정 판본에서 '+e.changes.length+'개 항목의 문구 차이를 확인했습니다.'
@@ -142,13 +144,13 @@ async function renderDetail(){
   const tableChanges=shortChanges(e.changes||[]);
   if(tableChanges.length)overview.appendChild(deltaTable(tableChanges,4));
   (e.changes||[]).filter(c=>!shortChanges([c]).length&&!/[─━┼│┬┴┌┐└┘]/.test(c.before+c.after)).slice(0,1).forEach(c=>{
-    const card=node('div','key-change');add(card,node('b','',c.article||'본문 변경'));
+    const card=node('details','key-change');add(card,node('summary','',c.article||'본문 변경'));
     const [before,after]=compactDiff(c.before,c.after);
     add(card,node('p','','이전 · '+before),node('p','','변경 · '+after));overview.appendChild(card);
   });
   add(overview,node('div','secondary','검증 상태 · '+(stage[e.comparison_status]||e.comparison_status)));
   root.appendChild(overview);
-  const agency=node('section','section');
+  const agency=node('section','section');agency.id='policy-agencies';
   const actions=e.institutions||[];
   const head=node('div','section-head');
   add(head,node('h3','','영향받는 공공기관·사업'),chip(actions.length+'건','blue'));agency.appendChild(head);
@@ -187,7 +189,7 @@ async function renderDetail(){
     });
   }
   root.appendChild(agency);
-  const compare=node('section','section');
+  const compare=node('section','section');compare.id='policy-comparison';
   const title=node('div','section-head');
   add(title,node('h3','','실제 변경사항 · 신구 비교'),chip((e.changes||[]).length+'개','blue'));
   compare.appendChild(title);
@@ -214,7 +216,8 @@ async function main(){
     renderSummary(data);active=dataset[0]||null;
     for(const id of ['search','category','source','high','sort'])$(id).addEventListener(id==='search'?'input':'change',filtered);
     const wanted=decodeURIComponent(location.hash.slice(1));active=dataset.find(e=>e.id===wanted)||active;
-    if(wanted)$('high').checked=false;
+    if(wanted){$('high').checked=false;document.body.className='mode-detail';}
+    $('back').onclick=()=>{document.body.className='mode-list';history.replaceState(null,'',location.pathname);window.scrollTo({top:0});};
     $('more').onclick=()=>{pageSize+=60;renderList();};
     $('reset').onclick=()=>{$('search').value='';$('category').value='';$('source').value='';$('high').checked=false;globalAgency='';renderAgencies();filtered();};
     $('freshness').textContent='자료 생성 '+new Date(data.generated_at).toLocaleString('ko-KR')+' · 공식 판본 '+data.total_source_versions_saved.toLocaleString()+'건';

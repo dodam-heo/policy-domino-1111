@@ -7,6 +7,7 @@ import json
 import os
 import re
 import urllib.request
+import urllib.error
 
 
 class UnverifiedAnalysis(ValueError):
@@ -79,8 +80,17 @@ def analyze(impact: dict, api_key: str | None = None, transport=None) -> dict | 
     else:
         req = urllib.request.Request(endpoint, data=request_body, headers={
             "Authorization": "Bearer "+key, "Content-Type": "application/json"})
-        with urllib.request.urlopen(req, timeout=35) as response:
-            raw = response.read(100000)
+        try:
+            with urllib.request.urlopen(req, timeout=35) as response:
+                raw = response.read(100000)
+        except urllib.error.HTTPError as exc:
+            try:
+                error = json.loads(exc.read(10000)).get("error", {})
+                code = error.get("code") or error.get("type") or "provider_rejected_request"
+                code = re.sub(r"[^a-zA-Z0-9_.-]", "", str(code))[:80]
+            except Exception:
+                code = "provider_rejected_request"
+            raise RuntimeError(f"AI_HTTP_{exc.code}:{code}") from None
     obj = json.loads(raw)
     content = obj["choices"][0]["message"]["content"]
     return verify(json.loads(content), impact)
