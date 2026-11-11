@@ -61,6 +61,43 @@ class IncrementalLedgerTest(unittest.TestCase):
             self.assertEqual(comparison["changes"][0]["before"], "지원기준 100원")
             self.assertEqual(comparison["changes"][0]["after"], "지원기준 120원")
 
+    def test_yearless_annual_notice_uses_exact_issuer_and_effective_year(self):
+        """New IDs are comparable only with a unique official annual predecessor."""
+        from unified.engine import hash256, ident
+        earlier = {"source": "admrul", "stable_id": "old-id", "serial": "301",
+                   "title": "생활지원금 기준표", "kind": "고시",
+                   "ministry": "공식 부처", "published_at": "2025-10-10",
+                   "effective_date": "2026-01-01"}
+        later = {"source": "admrul", "stable_id": "new-id", "serial": "302",
+                 "title": "생활지원금 기준표", "kind": "고시",
+                 "ministry": "공식 부처", "published_at": "2026-10-10",
+                 "effective_date": "2027-01-01"}
+
+        class AnnualStub(OfficialStub):
+            def search(self, source, start, end, edition, kind, query="",
+                       search_scope=1):
+                return [earlier, later], {"reported": 2, "collected": 2,
+                                         "pages": 1, "complete": True}
+
+            def detail(self, rec):
+                amt = "120원" if rec["stable_id"] == "new-id" else "100원"
+                return (("<법령><조문단위><조문번호>1</조문번호>"
+                         "<조문내용>선정 기준 " + amt +
+                         "</조문내용></조문단위></법령>").encode())
+
+            def predecessor(self, rec):
+                raise AssertionError("Already indexed annual history must be used")
+
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            run(root, AnnualStub(), limit_streams=1, detail_budget=1,
+                today=dt.date(2026, 11, 11))
+            compared = load(root / "comparisons" /
+                            (hash256(ident(later))[:24] + ".json.gz"), {})
+            self.assertEqual(compared.get("status"), "changed")
+            self.assertEqual(compared.get("relationship"), "annual_successor")
+            self.assertEqual(compared["prior_record"]["stable_id"], "old-id")
+
     def test_discovered_versions_survive_zero_detail_budget(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
