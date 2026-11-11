@@ -113,3 +113,17 @@ jobs:
                   print("LIVE_GOV24_FIELDS",endpoint,
                         [sorted(row.keys()) for row in response["data"][:2]])
           PY
+      - name: Dry-run upgraded official-plus-legacy impact resolution
+        env:
+          PD_LLM_MAX_REQUESTS: '0'
+        run: |
+          python -m unified.impact --root data
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report=json.loads(Path("data/impact-status.json").read_text("utf8"))
+          for key in ("comparisons_considered","verified_institutional_tasks",
+                      "named_standard_review_candidates","official_rule_dependencies",
+                      "legacy_citation_candidates","legacy_program_review_candidates"):
+              print("IMPACT_DRY_RUN",key,report.get(key))
+          PY
