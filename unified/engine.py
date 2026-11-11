@@ -428,6 +428,19 @@ def _priority(rec: dict, today: dt.date) -> tuple:
             rec.get("published_at", ""), rec.get("serial", ""))
 
 
+def _annual_identity(rec: dict) -> tuple | None:
+    """Exact official subject and issuer across successive yearly notices."""
+    if rec.get("source") != "admrul" or not rec.get("ministry"):
+        return None
+    annual_title = YEAR.sub("{year}", clean(rec.get("title", "")))
+    # The year is anchored in the title or the official effective date.
+    match = YEAR.search(rec.get("title", ""))
+    year = int(match.group()[:4]) if match else int((rec.get("effective_date") or "0")[:4])
+    if year < 1900:
+        return None
+    return (rec["source"], rec["ministry"], rec.get("kind", ""), annual_title, year)
+
+
 def _pending_index_records(root: Path, max_files=15000) -> list[dict]:
     """Never lose official list results when per-run detail budget is exhausted."""
     pending = {}
@@ -586,6 +599,14 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
         history.setdefault((row.get("source"), row.get("stable_id")), []).append(row)
     for editions in history.values():
         editions.sort(key=lambda row: (row.get("published_at", ""), row.get("serial", "")))
+    # Also index annual successors assigned new official IDs. Both issuer
+    # and complete policy title (except the year) must agree, and only a
+    # unique immediately preceding year is eligible for comparison.
+    annual_history = {}
+    for row in records:
+        key = _annual_identity(row)
+        if key:
+            annual_history.setdefault(key, {})[ident(row)] = row
     # Rotate failures behind unattempted records so one inaccessible annex
     # cannot permanently consume the entire processing budget.
     records.sort(key=lambda r: (-int(state["attempts"].get(ident(r), 0)),
@@ -616,7 +637,17 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
             if earlier:
                 prev, annual = earlier[-1], False
             else:
-                prev, annual = api.predecessor(rec)
+                year_key = _annual_identity(rec)
+                predecessors = (list(annual_history.get(
+                    (*year_key[:-1], year_key[-1]-1), {}).values())
+                    if year_key else [])
+                predecessors = [p for p in predecessors
+                                if (p.get("published_at", ""), p.get("serial", ""))
+                                < (rec.get("published_at", ""), rec.get("serial", ""))]
+                if len(predecessors) == 1:
+                    prev, annual = predecessors[0], True
+                else:
+                    prev, annual = api.predecessor(rec)
             if not prev:
                 state["attempts"][ident(rec)] = int(state["attempts"].get(ident(rec), 0)) + 1
                 state["errors"][ident(rec)] = "predecessor_not_found"
