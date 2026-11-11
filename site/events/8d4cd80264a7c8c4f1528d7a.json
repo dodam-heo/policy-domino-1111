@@ -2,38 +2,39 @@
   "id": "admrul|2087782|2100000285522",
   "title": "통계작성의 변경 승인(협의) 고시(강서구사회조사)",
   "source": "admrul",
-  "kind": "고시",
+  "kind": "행정규칙",
   "ministry": "국가데이터처",
   "published_at": "2026-09-24",
   "effective_date": "2028-09-01",
   "revision": "일부개정",
-  "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B0%95%EC%84%9C%EA%B5%AC%EC%82%AC%ED%9A%8C%EC%A1%B0%EC%82%AC%29",
+  "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B0%95%EC%84%9C%EA%B5%AC%EC%82%AC%ED%9A%8C%EC%A1%B0%EC%82%AC%29",
   "category": "행정절차·인허가",
-  "primary_change_summary": "",
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
   "priority_reasons": [
+    "제한적인 본문·명칭·인용 정비",
     "중앙행정규칙이 관할하는 전국 특정 분야"
   ],
   "impact_assessment": {
-    "classification": "pending",
-    "score": 25,
-    "score_min": 25,
-    "score_max": 90,
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
-    "possible_high": true,
+    "possible_high": false,
     "axes": {
       "substance": {
-        "score": null,
-        "status": "pending",
+        "score": 10,
+        "status": "confirmed",
         "evidence": [
           {
-            "reason": "종전·현행 원문 비교 대기",
-            "article": "",
-            "before": "",
-            "after": "",
+            "reason": "제한적인 본문·명칭·인용 정비",
+            "article": "표 1 · 작성주기 및 공표주기 · 변경 전",
+            "before": "[신설]",
+            "after": "6년",
             "source_title": "통계작성의 변경 승인(협의) 고시(강서구사회조사)",
-            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B0%95%EC%84%9C%EA%B5%AC%EC%82%AC%ED%9A%8C%EC%A1%B0%EC%82%AC%29"
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B0%95%EC%84%9C%EA%B5%AC%EC%82%AC%ED%9A%8C%EC%A1%B0%EC%82%AC%29"
           }
         ]
       },
@@ -47,7 +48,7 @@
             "before": "",
             "after": "",
             "source_title": "통계작성의 변경 승인(협의) 고시(강서구사회조사)",
-            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B0%95%EC%84%9C%EA%B5%AC%EC%82%AC%ED%9A%8C%EC%A1%B0%EC%82%AC%29"
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B0%95%EC%84%9C%EA%B5%AC%EC%82%AC%ED%9A%8C%EC%A1%B0%EC%82%AC%29"
           }
         ]
       },
@@ -61,7 +62,7 @@
             "before": "",
             "after": "",
             "source_title": "통계작성의 변경 승인(협의) 고시(강서구사회조사)",
-            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B0%95%EC%84%9C%EA%B5%AC%EC%82%AC%ED%9A%8C%EC%A1%B0%EC%82%AC%29"
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B0%95%EC%84%9C%EA%B5%AC%EC%82%AC%ED%9A%8C%EC%A1%B0%EC%82%AC%29"
           }
         ]
       }
@@ -69,14 +70,70 @@
     "featured_change_indices": [],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "본문",
+      "before": "1. 통계의 명칭 : 강서구사회조사 2. 통계작성기관의 명칭 : 서울특별시 강서구 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제516002호 [2013.09.06.] 4. 통계작성의 변경 연월일 : 2027.09.01. 5. 통계작성의 변경 내용과 사유 [표: 공식 첨부 참조]",
+      "after": "1. 통계의 명칭 : 강서구사회조사 2. 통계작성기관의 명칭 : 서울특별시 강서구 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제516002호 [2013.09.06.] 4. 통계작성의 변경 연월일 : 2028.09.01. 5. 통계작성의 변경 내용과 사유 [표: 공식 첨부 참조]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…] : 제516002호 [2013.09.06.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2027.09.01.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 [표: 공식 첨부 참조]",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…] : 제516002호 [2013.09.06.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2028.09.01.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 [표: 공식 첨부 참조]",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 0
+    },
+    {
+      "article": "표 1 · 작성주기 및 공표주기 · 변경 전",
+      "before": "[신설]",
+      "after": "6년",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 1 · 작성주기 및 공표주기 · 변경 후",
+      "before": "[신설]",
+      "after": "7년",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 작성주기 및 공표주기 · 변경 전",
+      "before": "5년",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 작성주기 및 공표주기 · 변경 후",
+      "before": "6년",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    }
+  ],
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
   "direct_actor_leads": [],
   "policy_analysis": null,
-  "impact_level": "pending",
-  "prior_url": ""
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000275544"
 }

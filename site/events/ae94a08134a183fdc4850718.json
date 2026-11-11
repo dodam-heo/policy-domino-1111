@@ -1,0 +1,161 @@
+{
+  "id": "ordin|2172841|2172875",
+  "title": "하동군 위생업소 지원에 관한 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "경상남도 하동군",
+  "published_at": "2026-09-30",
+  "effective_date": "2028-07-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%95%98%EB%8F%99%EA%B5%B0%20%EC%9C%84%EC%83%9D%EC%97%85%EC%86%8C%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+  "category": "급여·지원기준",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 15,
+    "score_min": 15,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "하동군 위생업소 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%95%98%EB%8F%99%EA%B5%B0%20%EC%9C%84%EC%83%9D%EC%97%85%EC%86%8C%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "하동군 위생업소 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%95%98%EB%8F%99%EA%B5%B0%20%EC%9C%84%EC%83%9D%EC%97%85%EC%86%8C%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "하동군 위생업소 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%ED%95%98%EB%8F%99%EA%B5%B0%20%EC%9C%84%EC%83%9D%EC%97%85%EC%86%8C%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제2조",
+      "before": "제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음 각 호와 같다. 1. “위생업소”란 「식품위생법 시행령」 제21조 및 「공중위생관리법」 제2조에 따른 업소를 말한다. <개정 2025.7.8.> 2. “모범업소”란 「식품위생법」 제47조제1항에 따라 모범업소로 지정된 업소를 말한다. <개정 2025.7.8.> 3. “우수업소”란 「식품위생법」 제47조의2제1항에 따라 위생등급이 “좋음”이상으로 지정된 식품접객업소 또는 「공중위생관리법」 제13조에 따라 위생관리등급이 “녹색등급”인 업소를 말한다. <개정 2025.7.8.> 4. \"관련 단체\"란 중앙 또는 경상남도의 위생업소 협회(법인)에 소속되어 있거나 동종 업종의 회원으로 구성되어 있는 자생단체를 말한다.",
+      "after": "제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음 각 호와 같다. 1. “위생업소”란 「식품위생법 시행령」 제21조 및 「공중위생관리법」 제2조에 따른 업소를 말한다. <개정 2025.7.8.> 2. 삭제 <2026. 9. 30.> 3. “우수업소”란 「식품위생법」 제47조의2제1항에 따라 위생등급이 “좋음”이상으로 지정된 식품접객업소 또는 「공중위생관리법」 제13조에 따라 위생관리등급이 “녹색등급”인 업소를 말한다. <개정 2025.7.8.> 4. \"관련 단체\"란 중앙 또는 경상남도의 위생업소 협회(법인)에 소속되어 있거나 동종 업종의 회원으로 구성되어 있는 자생단체를 말한다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…「공중위생관리법」 제2조에 따른 업소를 말한다. <개정 2025.7.8.> 2. ",
+            "changed": "“모범업소”란 「식품위생법」 제47조제1항에 따라 모범업소로 지정된 업소를 말한다.",
+            "suffix": " <개정 2025.7.8.> 3. “우수업소”란 「식품위생법」 제47조의2제1항에…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…「공중위생관리법」 제2조에 따른 업소를 말한다. <개정 2025.7.8.> 2. ",
+            "changed": "삭제",
+            "suffix": " <2026. 9. 30.> 3. “우수업소”란 「식품위생법」 제47조의2제1항에…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…업소”란 「식품위생법」 제47조제1항에 따라 모범업소로 지정된 업소를 말한다. <",
+            "changed": "개정 2025.7.8.",
+            "suffix": "> 3. “우수업소”란 「식품위생법」 제47조의2제1항에 따라 위생등급이 “좋음”…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…생관리법」 제2조에 따른 업소를 말한다. <개정 2025.7.8.> 2. 삭제 <",
+            "changed": "2026. 9. 30.",
+            "suffix": "> 3. “우수업소”란 「식품위생법」 제47조의2제1항에 따라 위생등급이 “좋음”…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 10
+    },
+    {
+      "article": "제3조",
+      "before": "제3조(지원대상) 하동군(이하 \"군\"이라 한다)에 소재한 다음 각 호의 어느 하나에 해당하는 위생업소 또는 관련 단체로 한다. <개정 2025.7.8.> 1. 휴게음식점 및 일반음식점으로 신고하여 영업을 하고 있는 업소 2. 숙박업ㆍ이용업ㆍ미용업ㆍ목욕장업으로 신고하여 영업을 하고 있는 업소 3. 모범업소, 우수업소 4. 그 밖에 군의 관광 및 지역경제 활성화와 안전한 위생관리를 위하여 하동군수(이하 \"군수\"라 한다)가 필요하다고 인정하는 위생업소",
+      "after": "제3조(지원대상) 하동군(이하 \"군\"이라 한다)에 소재한 다음 각 호의 어느 하나에 해당하는 위생업소 또는 관련 단체로 한다. <개정 2025.7.8.> 1. 휴게음식점 및 일반음식점으로 신고하여 영업을 하고 있는 업소 2. 숙박업ㆍ이용업ㆍ미용업ㆍ목욕장업으로 신고하여 영업을 하고 있는 업소 3. 우수업소 <개정 2026. 9. 30.> 4. 그 밖에 군의 관광 및 지역경제 활성화와 안전한 위생관리를 위하여 하동군수(이하 \"군수\"라 한다)가 필요하다고 인정하는 위생업소",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…소 2. 숙박업ㆍ이용업ㆍ미용업ㆍ목욕장업으로 신고하여 영업을 하고 있는 업소 3. ",
+            "changed": "모범업소,",
+            "suffix": " 우수업소 4. 그 밖에 군의 관광 및 지역경제 활성화와 안전한 위생관리를 위하여…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…소 2. 숙박업ㆍ이용업ㆍ미용업ㆍ목욕장업으로 신고하여 영업을 하고 있는 업소 3. ",
+            "changed": "",
+            "suffix": "우수업소 <개정 2026. 9. 30.> 4. 그 밖에 군의 관광 및 지역경제 활…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…업ㆍ미용업ㆍ목욕장업으로 신고하여 영업을 하고 있는 업소 3. 모범업소, 우수업소 ",
+            "changed": "",
+            "suffix": "4. 그 밖에 군의 관광 및 지역경제 활성화와 안전한 위생관리를 위하여 하동군수(…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…숙박업ㆍ이용업ㆍ미용업ㆍ목욕장업으로 신고하여 영업을 하고 있는 업소 3. 우수업소 ",
+            "changed": "<개정 2026. 9. 30.>",
+            "suffix": " 4. 그 밖에 군의 관광 및 지역경제 활성화와 안전한 위생관리를 위하여 하동군수…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2125807"
+}

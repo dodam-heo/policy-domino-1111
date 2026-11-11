@@ -7,33 +7,34 @@
   "published_at": "2026-09-24",
   "effective_date": "2026-12-31",
   "revision": "일부개정",
-  "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%97%B0%EC%B2%9C%EA%B5%B0%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%29",
+  "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%97%B0%EC%B2%9C%EA%B5%B0%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%29",
   "category": "행정절차·인허가",
-  "primary_change_summary": "",
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
   "priority_reasons": [
+    "제한적인 본문·명칭·인용 정비",
     "중앙행정규칙이 관할하는 전국 특정 분야"
   ],
   "impact_assessment": {
-    "classification": "pending",
-    "score": 25,
-    "score_min": 25,
-    "score_max": 90,
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
-    "possible_high": true,
+    "possible_high": false,
     "axes": {
       "substance": {
-        "score": null,
-        "status": "pending",
+        "score": 10,
+        "status": "confirmed",
         "evidence": [
           {
-            "reason": "종전·현행 원문 비교 대기",
-            "article": "",
-            "before": "",
-            "after": "",
+            "reason": "제한적인 본문·명칭·인용 정비",
+            "article": "표 1 · 작성 기간 · 변경 전",
+            "before": "작성기준: 2023.12.31. (단, 교육부문 2024. 4. 1.) 대상기간: 2023. 1.1.~12.31.",
+            "after": "[삭제]",
             "source_title": "통계작성의 변경 승인(협의) 고시(경기도연천군기본통계)",
-            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%97%B0%EC%B2%9C%EA%B5%B0%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%29"
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%97%B0%EC%B2%9C%EA%B5%B0%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%29"
           }
         ]
       },
@@ -47,7 +48,7 @@
             "before": "",
             "after": "",
             "source_title": "통계작성의 변경 승인(협의) 고시(경기도연천군기본통계)",
-            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%97%B0%EC%B2%9C%EA%B5%B0%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%29"
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%97%B0%EC%B2%9C%EA%B5%B0%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%29"
           }
         ]
       },
@@ -61,7 +62,7 @@
             "before": "",
             "after": "",
             "source_title": "통계작성의 변경 승인(협의) 고시(경기도연천군기본통계)",
-            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%97%B0%EC%B2%9C%EA%B5%B0%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%29"
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%97%B0%EC%B2%9C%EA%B5%B0%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%29"
           }
         ]
       }
@@ -69,21 +70,152 @@
     "featured_change_indices": [],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
-  "comparison_status": "partial_unverified",
+  "comparison_status": "changed",
   "relationship": "same_official_id_revision",
-  "changes": [],
-  "unresolved": [
+  "changes": [
     {
-      "reason": "incomplete_original_or_attachment"
+      "article": "표 1 · 작성 기간 · 변경 전",
+      "before": "작성기준: 2023.12.31. (단, 교육부문 2024. 4. 1.) 대상기간: 2023. 1.1.~12.31.",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
-      "reason": "original_source_not_reverified"
+      "article": "표 1 · 작성 기간 · 변경 후",
+      "before": "작성기준: 2024.12.31. (단, 교육부문 2025. 4. 1.) 대상기간: 2024. 1.1.~12.31.",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 1 · 작성 항목 · 변경 사유",
+      "before": "ㅇ 45개 항목 수정 - 표준서식 및 경기도 작성 서식 준용 통계표 구성 변경(4) ․ Ⅶ-2. 사업체 규모별(중분류별) 광업 및 제조업 ․ Ⅶ-3. 제조업 중분류별 사업체수 및 종사자수 ․ Ⅶ-4. 석유류 소비량 ․ Ⅷ-3. 제조업종별 전력사용량 - 표준서식 준용 하위항목 수정(3) ․ Ⅻ-9. 주요 법정전염병 발생 및 사망 ․ -6. 적령아동 취학(입학상황) ․ -7. 사설학원 - 출처 수정(26) - 주석 수정(5) 등",
+      "after": "ㅇ 36개 항목 수정 - 한국표준산업분류 중분류 누락 수정(1) ․ Ⅶ-2. 사업체 규모별(중분류별) 광업 및 제조업 (중분류 [30. 자동차 및 트레일러 제조업] 추가) - 출처 수정(1) - 단순 오탈자 등 편집 오류 수정(34)",
+      "focus": [
+        {
+          "before": {
+            "prefix": "ㅇ ",
+            "changed": "45",
+            "suffix": "개 항목 수정 - 표준서식 및 경기도 작성 서식 준용 통계표 구성 변경(4) ․ …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "ㅇ ",
+            "changed": "36",
+            "suffix": "개 항목 수정 - 한국표준산업분류 중분류 누락 수정(1) ․ Ⅶ-2. 사업체 규모…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "ㅇ 45개 항목 수정 - ",
+            "changed": "표준서식 및 경기도 작성 서식 준용 통계표 구성 변경",
+            "suffix": "(4) ․ Ⅶ-2. 사업체 규모별(중분류별) 광업 및 제조업 ․ Ⅶ-3. 제조업 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "ㅇ 36개 항목 수정 - ",
+            "changed": "한국표준산업분류 중분류 누락 수정",
+            "suffix": "(1) ․ Ⅶ-2. 사업체 규모별(중분류별) 광업 및 제조업 (중분류 [30. 자…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "ㅇ 45개 항목 수정 - 표준서식 및 경기도 작성 서식 준용 통계표 구성 변경(",
+            "changed": "4",
+            "suffix": ") ․ Ⅶ-2. 사업체 규모별(중분류별) 광업 및 제조업 ․ Ⅶ-3. 제조업 중분…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "ㅇ 36개 항목 수정 - 한국표준산업분류 중분류 누락 수정(",
+            "changed": "1",
+            "suffix": ") ․ Ⅶ-2. 사업체 규모별(중분류별) 광업 및 제조업 (중분류 [30. 자동차…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…용 통계표 구성 변경(4) ․ Ⅶ-2. 사업체 규모별(중분류별) 광업 및 제조업 ",
+            "changed": "․ Ⅶ-3.",
+            "suffix": " 제조업 중분류별 사업체수 및 종사자수 ․ Ⅶ-4. 석유류 소비량 ․ Ⅷ-3. 제…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…류 중분류 누락 수정(1) ․ Ⅶ-2. 사업체 규모별(중분류별) 광업 및 제조업 ",
+            "changed": "(중분류 [30. 자동차 및 트레일러",
+            "suffix": " 제조업] 추가) - 출처 수정(1) - 단순 오탈자 등 편집 오류 수정(34)",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…(4) ․ Ⅶ-2. 사업체 규모별(중분류별) 광업 및 제조업 ․ Ⅶ-3. 제조업 ",
+            "changed": "중분류별 사업체수 및 종사자수 ․ Ⅶ-4. 석유류 소비량 ․ Ⅷ-3. 제조업종별 전력사용량 - 표준서식 준용 하위항목 수정(3",
+            "suffix": ") ․ Ⅻ-9. 주요 법정전염병 발생 및 사망 ․ -6. 적령아동 취학(입학상황)…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…체 규모별(중분류별) 광업 및 제조업 (중분류 [30. 자동차 및 트레일러 제조업",
+            "changed": "] 추가",
+            "suffix": ") - 출처 수정(1) - 단순 오탈자 등 편집 오류 수정(34)",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 소비량 ․ Ⅷ-3. 제조업종별 전력사용량 - 표준서식 준용 하위항목 수정(3) ",
+            "changed": "․ Ⅻ-9. 주요 법정전염병 발생 및 사망 ․ -6. 적령아동 취학(입학상황) ․ -7. 사설학원",
+            "suffix": " - 출처 수정(26) - 주석 수정(5) 등",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…중분류별) 광업 및 제조업 (중분류 [30. 자동차 및 트레일러 제조업] 추가) ",
+            "changed": "",
+            "suffix": "- 출처 수정(1) - 단순 오탈자 등 편집 오류 수정(34)",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 및 사망 ․ -6. 적령아동 취학(입학상황) ․ -7. 사설학원 - 출처 수정(",
+            "changed": "26",
+            "suffix": ") - 주석 수정(5) 등",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 및 제조업 (중분류 [30. 자동차 및 트레일러 제조업] 추가) - 출처 수정(",
+            "changed": "1",
+            "suffix": ") - 단순 오탈자 등 편집 오류 수정(34)",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…․ -6. 적령아동 취학(입학상황) ․ -7. 사설학원 - 출처 수정(26) - ",
+            "changed": "주석",
+            "suffix": " 수정(5) 등",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…업 (중분류 [30. 자동차 및 트레일러 제조업] 추가) - 출처 수정(1) - ",
+            "changed": "단순 오탈자 등 편집 오류",
+            "suffix": " 수정(34)",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 10,
+      "substance_score": 10
     }
   ],
+  "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
   "direct_actor_leads": [],
   "policy_analysis": null,
-  "impact_level": "pending",
-  "prior_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%97%B0%EC%B2%9C%EA%B5%B0%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%29"
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%97%B0%EC%B2%9C%EA%B5%B0%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%29"
 }
