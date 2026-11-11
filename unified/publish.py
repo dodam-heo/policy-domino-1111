@@ -60,10 +60,10 @@ def assemble(root: Path, limit: int | None = None) -> dict:
         comp = comparisons.get(key, {})
         changes = comp.get("changes", [])
         before_after = [{
-            "article": c.get("clause", ""), "before": c.get("before", "")[:15000],
-            "after": c.get("after", "")[:15000],
+            "article": c.get("clause", ""), "before": c.get("before", ""),
+            "after": c.get("after", ""),
             "focus": c.get("focus", []), "diff_window_count": c.get("diff_window_count", 0),
-        } for c in changes[:80]]
+        } for c in changes]
         candidates = impacts.get(key, [])
         events.append({
             "id": key, "title": doc.get("title", ""),
@@ -75,7 +75,7 @@ def assemble(root: Path, limit: int | None = None) -> dict:
             "comparison_status": comp.get("status", "original_saved_comparison_pending"),
             "relationship": comp.get("relationship", ""),
             "changes": before_after,
-            "unresolved": comp.get("unresolved", [])[:20],
+            "unresolved": comp.get("unresolved", []),
             "institutions": candidates,
             "policy_analysis": analyses.get(key),
             "impact_level": "high" if candidates or any(

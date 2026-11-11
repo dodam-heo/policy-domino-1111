@@ -39,3 +39,21 @@ class ImportedComparisonTests(unittest.TestCase):
             self.assertEqual(result['status'],'partial_unverified')
             self.assertEqual(result['changes'],[])
             self.assertTrue(any(x['reason']=='original_source_not_reverified' for x in result['unresolved']))
+
+class PublicationSourceTests(unittest.TestCase):
+    def test_change_after_long_identical_prefix_survives_publication(self):
+        import tempfile
+        from pathlib import Path
+        from unified.engine import store,relative_path
+        from unified.publish import assemble
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            doc={'source':'law','stable_id':'1','serial':'2','title':'시험 규정'}
+            store(root/relative_path(doc),{'record':doc})
+            before='동일 본문 '*4000+'종전 기준'
+            after='동일 본문 '*4000+'개정 기준'
+            store(root/'comparisons'/'case.json.gz',{'changed_record':doc,'status':'changed','changes':[{'clause':'별표','before':before,'after':after}]})
+            change=assemble(root)['events'][0]['changes'][0]
+            self.assertEqual(change['before'],before)
+            self.assertEqual(change['after'],after)
+            self.assertNotEqual(change['before'],change['after'])
