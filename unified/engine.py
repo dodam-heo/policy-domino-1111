@@ -545,6 +545,14 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
         if all(record.get(k) for k in ("source", "stable_id", "serial")):
             records_by_id.setdefault(ident(record), record)
     records = list(records_by_id.values())
+    # Previously indexed editions are official source records, not inferred
+    # name matches. Prefer their immutable common ID before calling the
+    # title-restricted remote historical endpoint.
+    history = {}
+    for row in records:
+        history.setdefault((row.get("source"), row.get("stable_id")), []).append(row)
+    for editions in history.values():
+        editions.sort(key=lambda row: (row.get("published_at", ""), row.get("serial", "")))
     # Rotate failures behind unattempted records so one inaccessible annex
     # cannot permanently consume the entire processing budget.
     records.sort(key=lambda r: (-int(state["attempts"].get(ident(r), 0)),
@@ -568,7 +576,14 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
             if not after["body"]["clauses"]:
                 state["errors"][ident(rec)] = "official_body_not_parsed"
                 continue
-            prev, annual = api.predecessor(rec)
+            revisions = history.get((rec.get("source"), rec.get("stable_id")), [])
+            earlier = [r for r in revisions if
+                       (r.get("published_at", ""), r.get("serial", "")) <
+                       (rec.get("published_at", ""), rec.get("serial", ""))]
+            if earlier:
+                prev, annual = earlier[-1], False
+            else:
+                prev, annual = api.predecessor(rec)
             if not prev:
                 state["attempts"][ident(rec)] = int(state["attempts"].get(ident(rec), 0)) + 1
                 state["errors"][ident(rec)] = "predecessor_not_found"
