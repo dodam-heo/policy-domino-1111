@@ -22,6 +22,7 @@
     }
   ],
   "institutions": [],
+  "dependent_rules": [],
   "policy_analysis": null,
   "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=law&type=HTML&MST=281163"

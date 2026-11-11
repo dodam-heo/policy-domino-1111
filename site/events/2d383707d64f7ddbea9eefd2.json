@@ -2,34 +2,78 @@
   "id": "ordin|2093459|2183527",
   "title": "영덕군 공직자윤리위원회 조례",
   "source": "ordin",
-  "kind": "자치법규",
+  "kind": "",
   "ministry": "경상북도 영덕군",
   "published_at": "2026-11-09",
   "effective_date": "2027-01-01",
   "revision": "일부개정",
-  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%98%81%EB%8D%95%EA%B5%B0%20%EA%B3%B5%EC%A7%81%EC%9E%90%EC%9C%A4%EB%A6%AC%EC%9C%84%EC%9B%90%ED%9A%8C%20%EC%A1%B0%EB%A1%80",
-  "category": "기타 제·개정",
-  "comparison_status": "partial_unverified",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183527",
+  "category": "공공재정·요율",
+  "comparison_status": "changed",
   "relationship": "same_official_id_revision",
-  "changes": [],
-  "unresolved": [
+  "changes": [
     {
-      "clause": "부칙 2336 20231229",
-      "reason": "counterpart_not_verified"
-    },
-    {
-      "clause": "부칙 2472 20261109",
-      "reason": "counterpart_not_verified"
-    },
-    {
-      "reason": "incomplete_original_or_attachment"
-    },
-    {
-      "reason": "original_source_not_reverified"
+      "article": "제000600조",
+      "before": "제6조(위원회의 간사 등) ① 위원회의 사무를 처리하고 사실 조사 등을 행하게 하기 위하여 간사와 사무직원을 둔다. ② 간사는 기획예산실장으로하며, 사무직원은 감사법무팀장으로 한다. <개정 1996. 8. 16., 2004. 1. 13., 2022. 9. 2., 2023. 12. 29.>",
+      "after": "제6조(위원회의 간사 등) ① 위원회의 사무를 처리하고 사실 조사 등을 행하게 하기 위하여 간사와 사무직원을 둔다. ② 간사는 기획조정실장으로하며, 사무직원은 법무민원대응팀장으로 한다. <개정 1996. 8. 16., 2004. 1. 13., 2022. 9. 2., 2023. 12. 29., 2026.11.9.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…처리하고 사실 조사 등을 행하게 하기 위하여 간사와 사무직원을 둔다. ② 간사는 ",
+            "changed": "기획예산실장으로하며",
+            "suffix": ", 사무직원은 감사법무팀장으로 한다. <개정 1996. 8. 16., 2004. …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…처리하고 사실 조사 등을 행하게 하기 위하여 간사와 사무직원을 둔다. ② 간사는 ",
+            "changed": "기획조정실장으로하며",
+            "suffix": ", 사무직원은 법무민원대응팀장으로 한다. <개정 1996. 8. 16., 2004…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…하기 위하여 간사와 사무직원을 둔다. ② 간사는 기획예산실장으로하며, 사무직원은 ",
+            "changed": "감사법무팀장으로",
+            "suffix": " 한다. <개정 1996. 8. 16., 2004. 1. 13., 2022. 9.…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…하기 위하여 간사와 사무직원을 둔다. ② 간사는 기획조정실장으로하며, 사무직원은 ",
+            "changed": "법무민원대응팀장으로",
+            "suffix": " 한다. <개정 1996. 8. 16., 2004. 1. 13., 2022. 9.…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…8. 16., 2004. 1. 13., 2022. 9. 2., 2023. 12. ",
+            "changed": "29.",
+            "suffix": ">",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…8. 16., 2004. 1. 13., 2022. 9. 2., 2023. 12. ",
+            "changed": "29., 2026.11.9.",
+            "suffix": ">",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 3
     }
   ],
+  "unresolved": [],
   "institutions": [],
-  "policy_analysis": null,
+  "dependent_rules": [],
+  "policy_analysis": {
+    "explanation": "영덕군 공직자윤리위원회 조례 개정에 따라 위원회의 간사가 기존 기획예산실장에서 기획조정실장으로 변경되었고 사무직원도 기존 감사법무팀장에서 법무민원대응팀장으로 변경되었습니다.",
+    "old_quote": "제000600조: 제6조(위원회의 간사 등) ① 위원회의 사무를 처리하고 사실 조사 등을 행하게 하기 위하여 간사와 사무직원을 둔다. ② 간사는 기획예산실장으로하며, 사무직원은 감사법무팀장으로 한다. <개정 1996. 8. 16., 2004. 1. 13., 2022. 9. 2., 2023. 12. 29.>",
+    "new_quote": "제000600조: 제6조(위원회의 간사 등) ① 위원회의 사무를 처리하고 사실 조사 등을 행하게 하기 위하여 간사와 사무직원을 둔다. ② 간사는 기획조정실장으로하며, 사무직원은 법무민원대응팀장으로 한다. <개정 1996. 8. 16., 2004. 1. 13., 2022. 9. 2., 2023. 12. 29., 2026.11.9.>",
+    "program_quote": "제000600조: 제6조(위원회의 간사 등) ① 위원회의 사무를 처리하고 사실 조사 등을 행하게 하기 위하여 간사와 사무직원을 둔다. ② 간사는 기획조정실장으로하며, 사무직원은 법무민원대응팀장으로 한다. <개정 1996. 8. 16., 2004. 1. 13., 2022. 9. 2., 2023. 12. 29., 2026.11.9.>",
+    "verified": true,
+    "model": "gemini-3.5-flash-lite"
+  },
   "impact_level": "normal",
-  "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%98%81%EB%8D%95%EA%B5%B0%20%EA%B3%B5%EC%A7%81%EC%9E%90%EC%9C%A4%EB%A6%AC%EC%9C%84%EC%9B%90%ED%9A%8C%20%EC%A1%B0%EB%A1%80"
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1896203"
 }

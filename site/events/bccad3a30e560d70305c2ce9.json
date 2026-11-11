@@ -11,25 +11,52 @@
   "category": "급여·지원기준",
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
-  "changes": [],
+  "changes": [
+    {
+      "article": "제000400조",
+      "before": "제4조(심의위원회) ①제3항의 규정에 의한 신청의 적정여부를 심사하기 위하여 군수 소속하에 융자 추천 심사위원회(이하 \"위원회\"라 한다)를 둔다. ②위원회의 위원장은 군수가 되고 위원위 수는 10인 이내로 소속 직원중에서 군수가 임명한다. ③위원회는 재적위원 3분의 2이상 출석과 출석위원 과반수 찬성으로 의결한다. ④위원회의 사무를 처리하기 위하여 간사를 두고 간사는 기업지원팀장이 된다.<개정 2020.1.1.>",
+      "after": "제4조(심의위원회) ① 제3항의 규정에 의한 신청의 적정여부를 심사하기 위하여 군수 소속하에 융자 추천 심사위원회(이하 \"위원회\"라 한다)를 둔다. ② 위원회의 위원장은 군수가 되고 위원위 수는 10인 이내로 소속 직원중에서 군수가 임명한다. ③ 위원회는 재적위원 3분의 2이상 출석과 출석위원 과반수 찬성으로 의결한다. ④ 위원회의 사무를 처리하기 위하여 간사를 두고 간사는 기업소상공인팀장이 된다.<개정 2020.1.1., 2026.11.9.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…과반수 찬성으로 의결한다. ④위원회의 사무를 처리하기 위하여 간사를 두고 간사는 ",
+            "changed": "기업지원팀장이",
+            "suffix": " 된다.<개정 2020.1.1.>",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…반수 찬성으로 의결한다. ④ 위원회의 사무를 처리하기 위하여 간사를 두고 간사는 ",
+            "changed": "기업소상공인팀장이",
+            "suffix": " 된다.<개정 2020.1.1., 2026.11.9.>",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…④위원회의 사무를 처리하기 위하여 간사를 두고 간사는 기업지원팀장이 된다.<개정 ",
+            "changed": "2020.1.1.",
+            "suffix": ">",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…원회의 사무를 처리하기 위하여 간사를 두고 간사는 기업소상공인팀장이 된다.<개정 ",
+            "changed": "2020.1.1., 2026.11.9.",
+            "suffix": ">",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    }
+  ],
   "unresolved": [
     {
-      "clause": "부칙 1960 20161018",
-      "reason": "counterpart_not_verified"
-    },
-    {
-      "clause": "부칙 2472 20261109",
-      "reason": "counterpart_not_verified"
-    },
-    {
       "reason": "incomplete_original_or_attachment"
-    },
-    {
-      "reason": "original_source_not_reverified"
     }
   ],
   "institutions": [],
+  "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "normal",
-  "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%98%81%EB%8D%95%EA%B5%B0%EC%A4%91%EC%86%8C%EA%B8%B0%EC%97%85%EC%9C%A1%EC%84%B1%EC%9D%84%EC%9C%84%ED%95%9C%EC%9C%B5%EC%9E%90%EA%B8%88%EC%9D%B4%EC%9E%90%EB%B3%B4%EC%A1%B0%EA%B8%88%EC%A7%80%EA%B8%89%EC%A1%B0%EB%A1%80"
+  "impact_level": "high",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1260499"
 }

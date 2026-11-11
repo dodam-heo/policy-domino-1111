@@ -11,25 +11,52 @@
   "category": "기타 제·개정",
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
-  "changes": [],
+  "changes": [
+    {
+      "article": "제000500조",
+      "before": "제5조(회계관계공무원의 지정) 이 회계의 회계사무를 처리하기 위하여 재무과장을 자금출납원, 세정운영팀장을 수입금 출납원, 경리팀장을 지출원으로 지정한다. <개정1990.3.27 2020.1.1.>",
+      "after": "제5조(회계관계공무원의 지정) 이 회계의 회계사무를 처리하기 위하여 세무회계과장을 자금출납원, 세정운영팀장을 수입금 출납원, 경리팀장을 지출원으로 지정한다. <개정1990.3.27 2020.1.1., 2026.11.9.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제5조(회계관계공무원의 지정) 이 회계의 회계사무를 처리하기 위하여 ",
+            "changed": "재무과장을",
+            "suffix": " 자금출납원, 세정운영팀장을 수입금 출납원, 경리팀장을 지출원으로 지정한다. <개…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제5조(회계관계공무원의 지정) 이 회계의 회계사무를 처리하기 위하여 ",
+            "changed": "세무회계과장을",
+            "suffix": " 자금출납원, 세정운영팀장을 수입금 출납원, 경리팀장을 지출원으로 지정한다. <개…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…영팀장을 수입금 출납원, 경리팀장을 지출원으로 지정한다. <개정1990.3.27 ",
+            "changed": "2020.1.1.",
+            "suffix": ">",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…영팀장을 수입금 출납원, 경리팀장을 지출원으로 지정한다. <개정1990.3.27 ",
+            "changed": "2020.1.1., 2026.11.9.",
+            "suffix": ">",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    }
+  ],
   "unresolved": [
     {
-      "clause": "부칙 2325 20231227",
-      "reason": "counterpart_not_verified"
-    },
-    {
-      "clause": "부칙 2472 20261109",
-      "reason": "counterpart_not_verified"
-    },
-    {
       "reason": "incomplete_original_or_attachment"
-    },
-    {
-      "reason": "original_source_not_reverified"
     }
   ],
   "institutions": [],
+  "dependent_rules": [],
   "policy_analysis": null,
   "impact_level": "normal",
-  "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%98%81%EB%8D%95%EA%B5%B0%EB%86%8D%EA%B3%B5%EC%A7%80%EA%B5%AC%EC%A1%B0%EC%84%B1%EC%82%AC%EC%97%85%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84%EC%84%A4%EC%B9%98%EC%9A%B4%EC%98%81%EC%A1%B0%EB%A1%80"
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1889935"
 }
