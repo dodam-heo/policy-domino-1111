@@ -15,7 +15,6 @@ const scopedAgencyCounts=actions=>new Map(actions.map(a=>[a.agency,1]));
   assert.equal(view.filterEvents([education,housing],{mode:'impact'}).length,1);
   assert.equal(view.filterEvents([education,housing],{category:'급여·지원기준',source:'admrul',query:'수원시'}).length,1);
   assert.equal(view.filterEvents([education,housing],{mode:'all'}).length,2);
-  assert.equal(view.filterEvents([education,housing],{mode:'linked'}).length,2);
   assert.equal(view.filterEvents([education,housing],{mode:'all',verification:'changed'}).length,0);
   assert.equal(view.filterEvents([education,housing],{mode:'all',verification:'partial'}).length,0);
   const change=eventView({id:'annual',title:'지원기준 고시',category:'급여·지원기준',
@@ -31,7 +30,7 @@ const scopedAgencyCounts=actions=>new Map(actions.map(a=>[a.agency,1]));
   assert.ok(change.institutional_reviews[0].ai.work_impact.includes('120원'));
   assert.equal(view.filterEvents([education,housing,change],{mode:'impact'}).length,2);
   assert.equal(view.filterEvents([education,housing,change],{mode:'all',verification:'changed'}).length,1);
-  assert.equal(view.filterEvents([education,housing,change],{mode:'linked',verification:'changed'}).length,1);
+  assert.throws(()=>view.filterEvents([education,housing,change],{mode:'linked'}),/Unsupported event filter/);
   assert.deepEqual(Array.from(scopedAgencyCounts([{agency:'교육부'},{agency:'경기도 수원시'}]).keys()),['교육부','경기도 수원시']);
   const pending={};
   const fetcher=url=>new Promise(resolve=>pending[url]=resolve);

@@ -1,7 +1,7 @@
-/* One policy list, five evidence-based navigation choices. */
+/* Policy list navigation by priority, status, and legal source. */
 (function (global) {
   "use strict";
-  const MODES=Object.freeze(["impact","all","linked","new","amended","repealed"]);
+  const MODES=Object.freeze(["impact","all","new","amended","repealed"]);
   function category(event) {
     if(event.kind==="new")return "신규 제정";
     if(event.kind==="repealed")return "폐지";
@@ -21,12 +21,11 @@
       if(topic&&event.topic!==topic)return false;
       if(source&&event.source!==source)return false;
       if(mode==="impact"&&!highImpactScope(event))return false;
-      if(mode==="linked"&&!(event.review_count>0))return false;
       if(verification==="changed"&&event.comparison_status!=="changed")return false;
       if(verification==="partial"&&event.comparison_status!=="partial_unverified")return false;
       if(verification==="pending"&&
          !["original_saved_comparison_pending","no_text_change"].includes(event.comparison_status))return false;
-      if(!["all","impact","linked"].includes(mode)&&event.kind!==mode)return false;
+      if(!["all","impact"].includes(mode)&&event.kind!==mode)return false;
       const searchable=[
         event.title,event.headline,event.ministry,event.topic,
         ...(event.priority_reasons||[]),...(event.agency_names||[]),
