@@ -12,6 +12,7 @@ import json
 import os
 from pathlib import Path
 import re
+import time
 
 from .engine import hash256, clean, load, store, save_json, relative_path, YEAR
 
@@ -393,6 +394,7 @@ def run(root: Path, limit_events: int = 300) -> dict:
     key_available = bool(os.getenv("PD_LLM_API_KEY") or os.getenv("OPENAI_API_KEY") or os.getenv("GEMINI_API_KEY"))
     model_available = True
     ai_budget = max(0, int(os.getenv("PD_LLM_MAX_REQUESTS", "12")))
+    ai_deadline = time.monotonic() + max(0, int(os.getenv("PD_LLM_TOTAL_SECONDS", "240")))
     files = sorted((root / "comparisons").glob("*.json.gz"),
                    key=lambda p: p.stat().st_mtime, reverse=True)
     for source in files:
@@ -423,7 +425,8 @@ def run(root: Path, limit_events: int = 300) -> dict:
                 fingerprint = hash256(json.dumps(action, ensure_ascii=False, sort_keys=True))
                 output = root / "ai" / (fingerprint[:24] + ".json.gz")
                 verified = load(output)
-                if not verified and ai_attempts < ai_budget:
+                if (not verified and model_available and ai_attempts < ai_budget
+                        and time.monotonic() < ai_deadline):
                     ai_attempts += 1
                     try:
                         verified = analyze(action)
@@ -431,7 +434,14 @@ def run(root: Path, limit_events: int = 300) -> dict:
                             store(output, verified)
                     except Exception as exc:
                         ai_errors += 1
-                        ai_failure_reasons[str(exc) if str(exc).startswith("AI_HTTP_") else (type(exc).__name__+":"+str(exc) if type(exc).__name__ == "UnverifiedAnalysis" else type(exc).__name__)] += 1
+                        reason = str(exc) if str(exc).startswith("AI_HTTP_") else (
+                            type(exc).__name__+":"+str(exc)
+                            if type(exc).__name__ == "UnverifiedAnalysis"
+                            else type(exc).__name__)
+                        ai_failure_reasons[reason] += 1
+                        if reason.startswith(("AI_HTTP_429:", "AI_HTTP_502:",
+                                              "AI_HTTP_503:", "AI_HTTP_504:")):
+                            model_available = False
                 if verified and verified.get("verified"):
                     action["ai_analysis"] = verified
                     ai_verified += 1
@@ -453,7 +463,8 @@ def run(root: Path, limit_events: int = 300) -> dict:
             fingerprint = hash256(json.dumps(policy_context, ensure_ascii=False, sort_keys=True))
             output = root / "ai" / ("policy-" + fingerprint[:24]+".json.gz")
             policy_analysis = load(output)
-            if not policy_analysis and key_available and ai_attempts < ai_budget:
+            if (not policy_analysis and key_available and model_available
+                    and ai_attempts < ai_budget and time.monotonic() < ai_deadline):
                 from .ai import analyze
                 ai_attempts += 1
                 try:
@@ -462,7 +473,14 @@ def run(root: Path, limit_events: int = 300) -> dict:
                         store(output, policy_analysis)
                 except Exception as exc:
                     ai_errors += 1
-                    ai_failure_reasons[str(exc) if str(exc).startswith("AI_HTTP_") else (type(exc).__name__+":"+str(exc) if type(exc).__name__ == "UnverifiedAnalysis" else type(exc).__name__)] += 1
+                    reason = str(exc) if str(exc).startswith("AI_HTTP_") else (
+                        type(exc).__name__+":"+str(exc)
+                        if type(exc).__name__ == "UnverifiedAnalysis"
+                        else type(exc).__name__)
+                    ai_failure_reasons[reason] += 1
+                    if reason.startswith(("AI_HTTP_429:", "AI_HTTP_502:",
+                                          "AI_HTTP_503:", "AI_HTTP_504:")):
+                        model_available = False
             if policy_analysis and policy_analysis.get("verified"):
                 policy_ai_count += 1
         payload = {"doc": doc, "comparison_status": comparison.get("status"),
