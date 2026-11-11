@@ -15,6 +15,14 @@ from .engine import load, store, save_json, hash256, clean
 
 API = "https://api.odcloud.kr/api/gov24/v3/"
 SOURCE = "https://www.data.go.kr/data/15113968/openapi.do"
+# Requested code-level default. A configured ODcloud key can override it.
+DEFAULT_GOV24_SERVICE_KEY = "dori"
+
+
+def gov24_service_key() -> str:
+    return (os.getenv("GOV24_SERVICE_KEY") or
+            os.getenv("ODCLOUD_API_KEY") or
+            DEFAULT_GOV24_SERVICE_KEY).strip()
 CRITERIA_KEYS = ("선정기준", "지원대상", "지원내용", "신청기한", "구비서류")
 LAW_KEYS = ("법령", "행정규칙", "자치법규")
 
@@ -43,7 +51,7 @@ def transform(row: dict, existing=None):
 
 
 class Gov24Client:
-    def __init__(self, key: str, transport=None):
+    def __init__(self, key: str = DEFAULT_GOV24_SERVICE_KEY, transport=None):
         self.key, self.transport = key.strip(), transport
         if not self.key:
             raise ValueError("GOV24_SERVICE_KEY not configured")
@@ -150,12 +158,14 @@ def main():
     p.add_argument("--list-pages", type=int, default=3)
     p.add_argument("--detail-pages", type=int, default=3)
     args = p.parse_args()
-    key = os.getenv("GOV24_SERVICE_KEY", "").strip()
-    if not key:
-        print('GOV24_CURRENT: no API key in this repository; cached official snapshot retained')
-        return
+    key = gov24_service_key()
     report = collect(args.root, Gov24Client(key), args.list_pages, args.detail_pages)
-    print(json.dumps(report, ensure_ascii=False))
+    report["credential_source"] = ("environment" if os.getenv("GOV24_SERVICE_KEY") or
+                                   os.getenv("ODCLOUD_API_KEY") else "code_default_dori")
+    print("GOV24_CURRENT", json.dumps(report, ensure_ascii=False))
+    if report["errors"]:
+        print("GOV24_WARNING: official API rejected or failed a request; "
+              "cached data retained and the collection cursor will be retried.")
 
 
 if __name__ == "__main__":
