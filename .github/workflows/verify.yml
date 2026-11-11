@@ -1,0 +1,32 @@
+name: Policy Domino - Fast Regression Gate
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'unified/**'
+      - 'tests/**'
+      - 'site/*.js'
+      - 'site/index.html'
+      - '.github/workflows/verify.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install official attachment text dependencies
+        run: python -m pip install --disable-pip-version-check 'pypdf>=5,<7'
+      - name: Test collectors, source lineage and institutional evidence
+        run: python -m unittest discover -s tests -v
+      - name: Verify static web UI scripts
+        run: |
+          node --check site/app.js
+          node --check site/view-model.js
+          node --check site/presentation.js
+          node tests/test_ui_identity.cjs
