@@ -1,263 +1,721 @@
-const $ = (id) => document.getElementById(id);
-let dataset = [], shown = [], active = null;
-let agencyFilter = '', revisionFilter = 'all', pageSize = 60, requestId = 0, detailActions = [];
-let listScroll = 0;
-const detailCache = new Map();
-const changeCount = e => e.change_count ?? e.changes?.length ?? 0;
-const actionCount = e => e.action_count ?? e.institutions?.length ?? 0;
-const names = {law:'법령',admrul:'행정규칙',ordin:'자치법규'};
-const stage = {
-  changed:'신구 변경 확인',no_text_change:'본문 변경 없음',
-  partial_unverified:'원문·첨부 추가 확인 필요',
-  original_saved_comparison_pending:'신구 대조 대기'
-};
-function node(tag, className, text) {
-  const el = document.createElement(tag);
-  if (className) el.className = className;
-  if (text !== undefined) el.textContent = String(text);
-  return el;
-}
-function add(parent,...children){children.forEach(child=>parent.appendChild(child));return parent;}
-function external(text,url){
-  if (!url || !url.startsWith('https://')) return node('span','secondary','공식 원문 링크 확인 필요');
-  const a=node('a','source-link',text);a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a;
-}
-function chip(text,css=''){return node('span','chip '+css,text);}
-function stat(label,value){const el=node('div','stat');add(el,node('b','',value),node('span','',label));return el;}
-function renderSummary(raw){
-  $('summary').replaceChildren(
-    stat('확보된 공식 판본',raw.total_source_versions_saved.toLocaleString()+'건'),
-    stat('확인된 신구 변경',raw.summary.with_verified_changes.toLocaleString()+'건'),
-    stat('연결된 기관',new Set(raw.events.flatMap(e=>e.agency_names||[])).size.toLocaleString()+'곳'),
-    stat('기관별 검토항목',raw.summary.agency_action_count.toLocaleString()+'건')
-  );
-}
-function renderCoverage(data){
-  const c=data.coverage||{};
-  $('coverage-summary').textContent='수집 범위 · 공공기관 명부 '+(c.alio_public_institutions||0)+'곳 · 정부24 사업 '+(c.gov24_programs||0).toLocaleString()+'건';
-  $('coverage-details').replaceChildren(node('p','','알리오플러스 기관 명부 '+(c.alio_public_institutions||0)+'곳 / 공식 명부 '+(c.alio_reported||'미확인')+'곳'),node('p','','정부24 보관 사업 '+(c.gov24_programs||0).toLocaleString()+'건 · 운영기관 '+(c.gov24_agencies||0)+'곳'),node('p','secondary','기관 명부의 수집과 정책별 영향 확인은 별도입니다. 정부24의 최신 전체 갱신 여부는 아직 확인되지 않았습니다.'),node('p','secondary','AI 정책 요약 '+(data.analysis?.policy_ai_summaries||0)+'건 · 남은 요약 '+(data.analysis?.policy_summaries_pending||0)+'건'));
-  let records=[];
-  const draw=()=>{const q=$('registry-search').value.trim().toLowerCase();const rows=records.filter(x=>x.name.toLowerCase().includes(q));$('registry-caption').textContent='알리오플러스 공식 기관 명부 · '+records.length+'곳 중 '+rows.length+'곳 표시';$('registry-results').replaceChildren(...rows.map(x=>{const row=node('div','registry-row');add(row,node('span','',x.name),external('공식 기관정보 ↗',x.url));return row;}));};
-  $('registry-open').onclick=async()=>{if(!records.length){try{const r=await fetch('institutions.json');if(!r.ok)throw new Error('명부 로딩 실패');records=(await r.json()).records||[];}catch(e){$('registry-caption').textContent=e.message;}}draw();$('registry-dialog').showModal();};
-  $('registry-close').onclick=()=>$('registry-dialog').close();$('registry-search').oninput=draw;
-}
-
-function filtered(){
-  const q=$('search').value.trim().toLowerCase(), cat=$('category').value, src=$('source').value;
-  shown=dataset.filter(e=>(!q||[e.title,e.ministry,...(e.agency_names||[])].join(' ').toLowerCase().includes(q))
-    &&(!cat||e.category===cat)&&(!src||e.source===src)&&(!$('high').checked||e.impact_level==='high')
-    &&(revisionFilter==='all'||(revisionFilter==='new'&&/제정|신규|신설/.test(e.revision||''))||(revisionFilter==='amended'&&/개정/.test(e.revision||''))||(revisionFilter==='repealed'&&/폐지/.test(e.revision||''))));
-  const sort=$('sort').value;
-  shown.sort((a,b)=>sort==='impact'?actionCount(b)-actionCount(a):String(sort==='effective'?b.effective_date:b.published_at).localeCompare(String(sort==='effective'?a.effective_date:a.published_at)));
-  $('count').textContent=shown.length.toLocaleString()+'건';
-  if(!active||!shown.some(e=>e.id===active.id))active=shown[0]||null;
-  renderList(); if(document.body.classList.contains('mode-detail'))renderDetail();
-}
-function scopedAgencyCounts(actions){
-  const counts=new Map();
-  actions.forEach(a=>counts.set(a.agency,(counts.get(a.agency)||0)+1));
-  return counts;
-}
-async function loadEventDetail(event, fetcher=fetch){
-  if(detailCache.has(event.id))return detailCache.get(event.id);
-  const response=await fetcher(event.detail_url);
-  if(!response.ok)throw new Error('HTTP '+response.status);
-  const payload=await response.json();
-  if(payload.id!==event.id)throw new Error('선택한 정책과 상세 자료가 일치하지 않습니다.');
-  detailCache.set(event.id,payload);
-  return payload;
-}
-
-function renderAgencies(actions=detailActions){
-  const root=$('agencies');root.replaceChildren();
-  const counts=scopedAgencyCounts(actions), types=new Map(actions.map(a=>[a.agency,a.agency_type||'']));
-  if(agencyFilter&&!counts.has(agencyFilter))agencyFilter='';
-  const button=(name,count)=>{const b=node('button',agencyFilter===name?'selected':'',name?name+' · '+count:'전체 기관 · '+counts.size);b.type='button';b.setAttribute('aria-pressed',String(agencyFilter===name));b.onclick=()=>{agencyFilter=name;renderDetail();};return b;};
-  root.appendChild(button('',counts.size));
-  const term=$('agency-search').value.trim().toLocaleLowerCase('ko-KR');
-  const groups={'중앙부처·공공기관':[],'지방자치단체':[],'교육청':[]};
-  [...counts].sort((a,b)=>a[0].localeCompare(b[0],'ko')).forEach(([n,c])=>{
-    if(term&&!n.toLocaleLowerCase('ko-KR').includes(term))return;
-    const t=types.get(n);const group=/교육청|교육지원청/.test(n)?'교육청':/시군구|광역|지방자치/.test(t)||/특별시|광역시|특별자치|도 |시청|군청|구청|시 |군 |구$/.test(n)?'지방자치단체':'중앙부처·공공기관';groups[group].push([n,c]);
+(() => {
+  "use strict";
+  const $ = name => document.getElementById(name);
+  const view = window.PolicyDominoView;
+  const model = window.PolicyDominoModel;
+  let requestId=0;
+  const state = {
+    data: null, events: [], selected: null, mode: "impact", category:"",source:"",sort:"published",
+    query: "", visible: 60, institutionFilter: "all"
+  };
+  const mobile = () => window.matchMedia("(max-width:850px)").matches;
+  const num = n => Number(n || 0).toLocaleString("ko-KR");
+  const compact = (value, limit = 130) => {
+    const str = String(value || "").replace(/\s+/g, " ").trim();
+    return str.length > limit ? str.slice(0, limit) + "…" : str;
+  };
+  const create = (tag, className = "", value) => {
+    const el = document.createElement(tag);
+    if (className) el.className = className;
+    if (value !== undefined) el.textContent = String(value);
+    return el;
+  };
+  const append = (parent,...children) => children.forEach(c => {
+    if (c) parent.appendChild(c);
   });
-  Object.entries(groups).forEach(([group,items])=>{if(!items.length)return;const d=node('details');d.open=group==='중앙부처·공공기관'||items.some(([n])=>n===agencyFilter);add(d,node('summary','',group+' '+items.length));items.forEach(([n,c])=>d.appendChild(button(n,c)));root.appendChild(d);});
-  if(!counts.size)root.appendChild(node('p','secondary','이 정책과 근거가 연결된 기관이 아직 없습니다.'));
-  else if(!Object.values(groups).some(rows=>rows.length))root.appendChild(node('p','secondary','검색된 기관이 없습니다.'));
-}
-function selectPolicy(e, push=true){
-  if(!e)return;
-  if(document.body.classList.contains('mode-list'))listScroll=window.scrollY;
-  active=e;agencyFilter='';$('agency-search').value='';
-  document.body.classList.replace('mode-list','mode-detail');
-  if(push)history.pushState({view:'detail'},'', '#'+encodeURIComponent(e.id));
-  renderList();renderDetail();window.scrollTo({top:0,behavior:'smooth'});
-}
-function renderPolicySwitcher(){
-  const pool=shown.length?shown:dataset;
-  $('policy-switcher').replaceChildren(...pool.map(e=>{const o=node('option','',e.title);o.value=e.id;o.selected=e.id===active?.id;return o;}));
-  const index=pool.findIndex(e=>e.id===active?.id);
-  $('previous-policy').disabled=index<=0;
-  $('next-policy').disabled=index<0||index===pool.length-1;
-  $('previous-policy').onclick=()=>selectPolicy(pool[index-1]);
-  $('next-policy').onclick=()=>selectPolicy(pool[index+1]);
-}
-
-function renderList(){
-  const list=$('events');list.replaceChildren();
-  if(!shown.length){add(list,node('div','empty',$('high').checked?'현재 영향도 큼 조건에 해당하는 자료가 없습니다. 필터 초기화로 수집된 전체 정책을 확인하세요.':'해당 조건에 맞는 공식 자료가 없습니다.'));return;}
-  shown.slice(0,pageSize).forEach(e=>{
-    const b=node('button','event'+(e.id===active?.id?' active':''));b.type='button';
-    add(b,chip(e.category),changeCount(e)?chip('변경 '+changeCount(e)+'개','blue'):chip(stage[e.comparison_status]||'대조 대기','orange'));
-    if(actionCount(e))b.appendChild(chip('기관·사업 '+actionCount(e),'blue'));
-    add(b,node('h3','',e.title),node('div','meta',(e.ministry||names[e.source])+' · '+(e.published_at||'발령일 미확인')));
-    if(e.policy_analysis?.verified)b.appendChild(node('p','event-summary',e.policy_analysis.explanation));
-    const foot=node('div','event-foot');add(foot,node('span','',e.effective_date?'시행 '+e.effective_date:'시행일 확인 중'),node('span','event-arrow','영향 확인 ↗'));b.appendChild(foot);
-    b.addEventListener('click',()=>selectPolicy(e));
-    list.appendChild(b);
-  });
-  $('more').hidden=shown.length<=pageSize;
-}
-function diffFragments(a,b){
-  // Highlight changed text without interpreting any source HTML.
-  a=String(a||'');b=String(b||'');
-  let prefix=0;while(prefix<Math.min(a.length,b.length)&&a[prefix]===b[prefix])prefix++;
-  let suffix=0;while(suffix<Math.min(a.length,b.length)-prefix&&a[a.length-1-suffix]===b[b.length-1-suffix])suffix++;
-  const left=node('div','text'),right=node('div','text');
-  const mark=(parent,part)=>{if(part)parent.appendChild(node('mark','',part));};
-  add(left,document.createTextNode(a.slice(0,prefix)));mark(left,a.slice(prefix,a.length-suffix));left.appendChild(document.createTextNode(suffix?a.slice(a.length-suffix):''));
-  add(right,document.createTextNode(b.slice(0,prefix)));mark(right,b.slice(prefix,b.length-suffix));right.appendChild(document.createTextNode(suffix?b.slice(b.length-suffix):''));
-  return [left,right];
-}
-function compactDiff(a,b){
-  a=String(a||'');b=String(b||'');let p=0,z=0;
-  while(p<Math.min(a.length,b.length)&&a[p]===b[p])p++;
-  while(z<Math.min(a.length,b.length)-p&&a[a.length-z-1]===b[b.length-z-1])z++;
-  const excerpt=t=>(p>45?'…':'')+t.slice(Math.max(0,p-45),Math.min(t.length-z+45,p+320))+(t.length-z+45<t.length?'…':'');
-  return [excerpt(a),excerpt(b)];
-}
-function changeCard(c){
-  const wrapper=node('div',''),heading=node('h3','',c.article||'개정 조문');
-  const grid=node('div','two'),before=node('div','comparison'),after=node('div','comparison after');
-  const [oldText,newText]=diffFragments(c.before,c.after);
-  add(before,node('div','head','개정 전'),oldText);
-  add(after,node('div','head','개정 후'),newText);
-  add(grid,before,after);add(wrapper,heading,grid);
-  return wrapper;
-}
-function deltaTable(changes, limit=12){
-  const wrap=node('div','delta-wrap'),table=node('table','delta-table');
-  const head=node('tr');['변경 항목','이전','변경'].forEach(t=>head.appendChild(node('th','',t)));
-  const thead=node('thead');thead.appendChild(head);table.appendChild(thead);
-  const body=node('tbody');
-  changes.slice(0,limit).forEach(c=>{const row=node('tr');
-    add(row,node('td','',c.article||c.clause||'본문'),node('td','',c.before),node('td','',c.after));body.appendChild(row);});
-  table.appendChild(body);wrap.appendChild(table);return wrap;
-}
-function shortChanges(changes){return changes.filter(c=>String(c.before).length<100&&String(c.after).length<100);}
-
-async function renderDetail(){
-  const ticket=++requestId;
-  const selected=active;
-  if(selected?.detail_url && !detailCache.has(selected.id)){
-    detailActions=[];renderAgencies();
-    $('detail').replaceChildren(node('div','empty','정책 상세를 불러오는 중입니다.'));
-    try{await loadEventDetail(selected);}
-    catch(error){if(ticket===requestId)$('detail').replaceChildren(node('div','warning','상세 로딩 실패: '+error.message));return;}
+  function link(url, label) {
+    try {
+      const valid = new URL(url);
+      if (valid.protocol !== "https:" ||
+          !["law.go.kr","www.law.go.kr","www.alioplus.go.kr",
+            "alioplus.go.kr","gov.kr","www.gov.kr",
+            "data.go.kr","www.data.go.kr"].includes(valid.hostname)) return null;
+      const a = create("a","official-link",label);
+      a.href = valid.href;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      return a;
+    } catch { return null; }
   }
-  if(ticket!==requestId||active?.id!==selected?.id)return;
-  const root=$('detail');root.replaceChildren();
-  if(!active){add(root,node('div','empty','검색 조건에 맞는 정책이 없습니다.'));return;}
-  const e=detailCache.get(active.id)||active;
-  detailActions=e.institutions||[];renderAgencies();renderPolicySwitcher();
-  history.replaceState(null,"","#"+encodeURIComponent(e.id));
-  add(root,node('p','eyebrow','POLICY IMPACT REPORT'),chip(e.category,'blue'),node('h2','',e.title));
-  add(root,node('div','sub',[e.ministry,e.published_at&&('발령 '+e.published_at),e.effective_date&&('시행 '+e.effective_date)].filter(Boolean).join(' · ')));
-  add(root,external('국가법령정보센터 공식 문서 보기',e.url));
-  const nav=node('nav','detail-tabs');[['변경 핵심','policy-overview'],['기관·사업 영향','policy-agencies'],['신구 비교·근거','policy-comparison']].forEach(([label,id])=>{const a=node('a','',label);a.href='#'+id;a.onclick=ev=>{ev.preventDefault();document.getElementById(id)?.scrollIntoView({behavior:'smooth'});};nav.appendChild(a);});root.appendChild(nav);
-  const overview=node('section','section');overview.id='policy-overview';
-  add(overview,node('h3','','정책 변경 핵심'));
-  const note=e.changes?.length
-    ? '공식 종전·개정 판본에서 '+e.changes.length+'개 항목의 문구 차이를 확인했습니다.'
-    : e.comparison_status==='no_text_change'
-      ? '확보한 판본의 조문 텍스트에서는 변경을 확인하지 못했습니다.'
-      : '공식 문서 판본은 확보됐지만 종전·개정 원문 대조가 완료되지 않았습니다.';
-  add(overview,node('p','lead',e.policy_analysis?.verified?e.policy_analysis.explanation:note));
-  const tableChanges=shortChanges(e.changes||[]);
-  if(tableChanges.length)overview.appendChild(deltaTable(tableChanges,4));
-  (e.changes||[]).filter(c=>!shortChanges([c]).length&&!/[─━┼│┬┴┌┐└┘]/.test(c.before+c.after)).slice(0,1).forEach(c=>{
-    const card=node('details','key-change');add(card,node('summary','',c.article||'본문 변경'));
-    const [before,after]=compactDiff(c.before,c.after);
-    add(card,node('p','','이전 · '+before),node('p','','변경 · '+after));overview.appendChild(card);
-  });
-  add(overview,node('div','secondary','검증 상태 · '+(stage[e.comparison_status]||e.comparison_status)));
-  root.appendChild(overview);
-  const agency=node('section','section');agency.id='policy-agencies';
-  const actions=e.institutions||[];
-  const head=node('div','section-head');
-  add(head,node('h3','','영향받는 공공기관·사업'),chip(new Set(actions.map(x=>x.agency)).size+'곳 · '+actions.length+'개 검토항목','blue'));agency.appendChild(head);
-  if(!actions.length){
-    add(agency,node('p','warning','현재 확보한 공식 운영근거에서 이 변경과 연결된 기관·사업을 확인하지 못했습니다.'));
-  }else{
-    const unique=[...new Set(actions.map(x=>x.agency))].sort();
-    actions.filter(x=>!agencyFilter||x.agency===agencyFilter).forEach(x=>{
-      const item=node('article','agency-item');
-      add(item,node('strong','',x.agency),node('div','secondary','공공서비스 · '+x.service));
-      add(item,node('p','action-text',x.ai_analysis?.verified?x.ai_analysis.explanation:x.required_change));
-      if(e.effective_date)add(item,chip('적용 시점 '+e.effective_date,'blue'));
-      const linked=x.linked_changes||[{article:x.changed_clause,before:x.before,after:x.after}];
-      const compact=shortChanges(linked);
-      if(compact.length)item.appendChild(deltaTable(compact,6));
-      const delta=node('details');add(delta,node('summary','','연결된 변경 근거 '+linked.length+'개 펼치기'));
-      linked.forEach(c=>delta.appendChild(changeCard(c)));item.appendChild(delta);
-      add(item,node('div','proof','적용 항목 · '+x.evidence.service_field));
-      const more=node('details','');
-      add(more,node('summary','','공식 운영기준·연결 근거'),node('p','proof',x.evidence.service_quote),node('p','proof',x.evidence.reference_quote+(x.evidence.delegation_quote?'\n상위법 위임 근거 · '+x.evidence.delegation_quote:'')));
-      add(item,more,external('사업 근거 자료',x.service_url));
-      agency.appendChild(item);
+  const pill = (text, modifier = "") =>
+    create("span","pill "+modifier,text);
+  function heading(text, description = "") {
+    const s = create("section","detail-section");
+    append(s,create("h3","section-heading",text));
+    if (description) append(s,create("p","section-help",description));
+    return s;
+  }
+  function eventHash() {
+    const match = location.hash.match(/^#(?:event=)?(.+)$/);
+    if (!match) return null;
+    try { return decodeURIComponent(match[1]); }
+    catch { return null; }
+  }
+  function scrollTop() {
+    try { window.scrollTo({top:0,behavior:"instant"}); }
+    catch { window.scrollTo(0,0); }
+  }
+  function back(updateUrl=true) {
+    $("layout").classList.remove("detail-open");
+    document.body.classList.remove("detail-active");
+    if (updateUrl) {
+      try { history.replaceState(null,"",location.pathname+location.search); }
+      catch {}
+    }
+    if (mobile()) scrollTop();
+  }
+  async function select(id, updateUrl=true) {
+    if (!state.events.some(e => e.id === id)) return;
+    if (state.selected !== id) state.institutionFilter = "all";
+    state.selected = id;
+    renderList();
+    renderDetail();
+    if (updateUrl) {
+      try { history.pushState({policyEvent:id},"","#event="+encodeURIComponent(id)); }
+      catch {}
+    }
+    if (mobile()) {
+      $("layout").classList.add("detail-open");
+      document.body.classList.add("detail-active");
+      scrollTop();
+    }
+    const ticket=++requestId;
+    const event=state.events.find(e=>e.id===id);
+    if(!event.loaded){
+      try {
+        const payload=await model.loadEventDetail(event);
+        const index=state.events.findIndex(e=>e.id===id);
+        state.events[index]=model.eventView({...event.raw,...payload});
+        if(ticket===requestId&&state.selected===id){renderList();renderDetail();}
+      }catch(error){
+        if(ticket===requestId&&state.selected===id)
+          $("detail").replaceChildren(create("p","no-impacts","상세 로딩 실패: "+error.message));
+      }
+    }
+  }
+  function renderFilters() {
+    for (const mode of view.MODES) {
+      const button=$("mode-"+mode);
+      const active=state.mode===mode;
+      if(active)button.classList.add("active");
+      else button.classList.remove("active");
+      button.setAttribute("aria-pressed",String(active));
+    }
+  }
+  function filtered() {
+    return view.filterEvents(state.events,state);
+  }
+  function renderIndexedOfficialSources(root, events) {
+    // The official index and a verified policy change are different stages.
+    // A document without completed comparison must be discoverable, but must
+    // NEVER be represented as an already verified amendment or agency impact.
+    if(state.mode!=="all")return;
+    const terms=state.query.trim().toLocaleLowerCase("ko-KR")
+      .split(/\s+/).filter(Boolean);
+    if(!terms.length || terms.join("").length<2)return;
+    const verified=new Set(state.events.flatMap(e=>e.source_documents||[]));
+    const docs=(state.data?.documents||[]).filter(doc=>{
+      if(verified.has(doc.id))return false;
+      const text=[doc.title,doc.law_type,doc.ministry]
+        .join(" ").toLocaleLowerCase("ko-KR");
+      return terms.every(term=>text.includes(term));
     });
+    const section=create("details","indexed-search-section");
+    section.open=!events.length;
+    append(section,create("summary","",
+      "공식자료 검색 · 분석 대기 포함 "+num(docs.length)+"건"));
+    append(section,create("p","index-warning",
+      "여기는 공식 원천에서 색인한 문서 목록입니다. 신구 비교가 완료되지 않은 자료는 정책 변경으로 확정하거나 기관별 업무 변경으로 표시하지 않습니다."));
+    if(!docs.length){
+      append(section,create("p","empty",
+        "현재 색인에 일치하는 공식자료가 없습니다. 미수집 연혁·고시 원문은 별도 수집이 필요합니다."));
+    }
+    for(const doc of docs.slice(0,25)){
+      const item=create("div","indexed-source-item");
+      const status=doc.analysis?.status||"queued";
+      const label={
+        queued:"신구 분석 대기",
+        body_unavailable:"본문 미확보",
+        history_unavailable:"종전 이력 미확보",
+        baseline_unavailable:"종전 기준 미확보",
+        partial_unresolved:"원문 일부 미확인",
+        source_error:"공식 조회 오류",
+        compared:"변경 사건 없음",
+        no_text_change:"텍스트 변경 없음",
+        enactment:"신규 제정",
+        repeal:"폐지",
+      }[status]||"원문 비교 확인 중";
+      append(item,create("strong","",doc.title),
+        create("p","",[
+          doc.law_type||doc.source,doc.published_at,
+          doc.ministry,label].filter(Boolean).join(" · ")),
+        link(doc.url,"공식 법령·고시 원문"));
+      append(section,item);
+    }
+    if(docs.length>25)
+      append(section,create("p","section-help",
+        "처음 25건만 표시합니다. 검색어를 더 구체화하세요."));
+    append(root,section);
   }
-  root.appendChild(agency);
-  const compare=node('section','section');compare.id='policy-comparison';
-  const title=node('div','section-head');
-  add(title,node('h3','','실제 변경사항 · 신구 비교'),chip((e.changes||[]).length+'개','blue'));
-  compare.appendChild(title);
-  if(e.changes?.length){
-    const details=node('details','');
-    details.open=false;
-    add(details,node('summary','','개정 전·후 조문 펼치기'));
-    e.changes.forEach(c=>details.appendChild(changeCard(c)));
-    compare.appendChild(details);
-  } else add(compare,node('div','warning','비교할 수 있는 종전·개정 본문을 더 확보해야 합니다.'));
-  if(e.unresolved?.length){
-    add(compare,node('p','secondary','별표·첨부 또는 대응본 미확보: '+e.unresolved.length+'개 항목. 미확인 사항은 변경이라고 단정하지 않습니다.'));
+
+  function renderList() {
+    renderFilters();
+    const events=filtered();
+    const root=$("items");root.replaceChildren();
+    $("list-count").textContent=
+      "전체 "+num(state.events.length)+"건 · 조건 일치 "+num(events.length)+"건 · 표시 "+
+      num(Math.min(events.length,state.visible))+"건";
+    if (!events.length) {
+      append(root,create("p","empty",
+        "조건에 맞는 자료가 없습니다. 필터 초기화로 수집된 전체 정책을 확인하세요."));
+    }
+    for (const event of events.slice(0,state.visible)) {
+      const item=create("button","item"+(event.id===state.selected?" selected":""));
+      item.type="button";
+      item.dataset.eventId=event.id;
+      const header=create("div","item-top");
+      const categories=[...new Set((event.members||[])
+        .map(x=>x.kind).filter(Boolean))];
+      append(header,pill(view.category(event),"type "+event.kind),
+        categories.length===1&&categories[0]!=="법령"?
+          pill(categories[0]):null,
+        create("span","item-date",event.published_at||"날짜 미확인"));
+      const tags=create("div","item-tags");
+      if (event.source_count>1) append(tags,pill("동시 개정 "+num(event.source_count)+"건"));
+      if (event.institution_count) append(tags,pill("검토 기관 "+num(event.institution_count)+"곳","impact"));
+      if (event.review_count) append(tags,pill("업무 "+num(event.review_count)+"건"));
+      if (event.public_service_lead_count)
+        append(tags,pill("공공서비스 기준 "+num(event.public_service_lead_count)+"건"));
+      if(event.comparison_status!=="changed")append(tags,pill(model.stageLabel(event.comparison_status),"partial"));
+      if (event.ai_count) append(tags,pill("AI 보조검토","ai"));
+      const highlighted=(event.highlights||[])[0];
+      const important=highlighted && (event.changes||[]).find(ch=>
+        ch.document_id===highlighted.document_id && ch.article===highlighted.article);
+      const brief=important?.brief||event.changes?.[0]?.brief;
+      append(item,header,create("h3","",event.title),
+        create("p","item-brief",brief||event.headline),tags);
+      item.onclick=()=>select(event.id);
+      append(root,item);
+    }
+
+    $("more").hidden=events.length<=state.visible;
   }
-  if(e.prior_url)compare.appendChild(external('종전 공식 판본 보기',e.prior_url));
-  root.appendChild(compare);
-}
-async function main(){
-  try{
-    const response=await fetch('data.json',{cache:'no-store'});
-    if(!response.ok)throw new Error('HTTP '+response.status);
-    const data=await response.json();
-    if(data.schema!=='policy-domino-unified-ui-v1')throw new Error('데이터 규격 불일치');
-    dataset=data.events||[];
-    renderSummary(data);renderCoverage(data);active=dataset[0]||null;
-    for(const id of ['search','category','source','high','sort'])$(id).addEventListener(id==='search'?'input':'change',filtered);
-    const wanted=decodeURIComponent(location.hash.slice(1));active=dataset.find(e=>e.id===wanted)||active;
-    if(wanted){$('high').checked=false;document.body.classList.replace('mode-list','mode-detail');}
-    $('back').onclick=()=>{document.body.classList.replace('mode-detail','mode-list');history.replaceState(null,'',location.pathname);window.scrollTo({top:listScroll});};
-    $('policy-switcher').onchange=()=>selectPolicy(dataset.find(e=>e.id===$('policy-switcher').value));
-    $('agency-search').oninput=()=>renderAgencies();
-    window.addEventListener('popstate',()=>{const id=decodeURIComponent(location.hash.slice(1));const e=dataset.find(x=>x.id===id);if(e)selectPolicy(e,false);else{document.body.classList.replace('mode-detail','mode-list');window.scrollTo({top:listScroll});}});
-    document.querySelectorAll('[data-revision]').forEach(b=>b.onclick=()=>{revisionFilter=b.dataset.revision;document.querySelectorAll('[data-revision]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b));});pageSize=60;filtered();});
-    ['list','cards'].forEach(view=>$('view-'+view).onclick=()=>{document.body.classList.toggle('view-list',view==='list');['list','cards'].forEach(v=>{$('view-'+v).classList.toggle('active',v===view);$('view-'+v).setAttribute('aria-pressed',String(v===view));});});
-    $('more').onclick=()=>{pageSize+=60;renderList();};
-    $('reset').onclick=()=>{$('search').value='';$('category').value='';$('source').value='';$('high').checked=false;revisionFilter='all';document.querySelectorAll('[data-revision]').forEach(x=>{x.classList.toggle('active',x.dataset.revision==='all');x.setAttribute('aria-pressed',String(x.dataset.revision==='all'));});renderAgencies();filtered();};
-    $('freshness').textContent='자료 생성 '+new Date(data.generated_at).toLocaleString('ko-KR')+' · 공식 판본 '+data.total_source_versions_saved.toLocaleString()+'건';
-    renderAgencies();filtered();
-  }catch(e){
-    $('summary').replaceChildren(node('span','secondary','공식 자료를 읽지 못했습니다.'));
-    $('detail').replaceChildren(node('div','warning','데이터 로딩 실패: '+e.message));
+  function sourceDiffPreview(change, beforeLabel="변경 전", afterLabel="변경 후") {
+    const meaning=change.meaning||{};
+    const focus=Array.isArray(meaning.focus)?meaning.focus:[];
+    const wrapper=create("div","source-diff-preview");
+    if(!focus.length) {
+      const pair=create("div","highlight-comparison");
+      const a=create("div","highlight-old"),b=create("div","highlight-new");
+      append(a,create("small","",beforeLabel),
+        create("p","",meaning.before||"확인된 변경 부분 없음"));
+      append(b,create("small","",afterLabel),
+        create("p","",meaning.after||"확인된 변경 부분 없음"));
+      append(pair,a,b);
+      append(wrapper,pair);
+      return wrapper;
+    }
+    for(const [index,part] of focus.entries()){
+      const pair=create("div","highlight-comparison");
+      if(focus.length>1)
+        append(wrapper,create("p","diff-window-label",
+          "실제 변경 위치 "+num(index+1)+" / "+num(focus.length)));
+      for(const [side,label,className] of [
+        ["before",beforeLabel,"highlight-old"],
+        ["after",afterLabel,"highlight-new"]
+      ]) {
+        const block=create("div",className);
+        append(block,create("small","",label));
+        const p=create("p","diff-preview-text");
+        const snippet=part[side]||{};
+        if(snippet.prefix)append(p,create("span","diff-context",snippet.prefix));
+        if(snippet.changed)append(p,create("mark","diff-changed",snippet.changed));
+        else append(p,create("span","diff-absent",
+          side==="before"?"[추가된 부분]":"[삭제된 부분]"));
+        if(snippet.suffix)append(p,create("span","diff-context",snippet.suffix));
+        append(block,p);
+        append(pair,block);
+      }
+      append(wrapper,pair);
+    }
+    return wrapper;
   }
-}
-main();
+
+  function sourcePair(change) {
+    const wrap=create("div","clause");
+    const label=change.meaning?.label||"조문 내용 변경";
+    append(wrap,create("div","clause-name",
+      change.document_title+" · "+change.article+" · "+label));
+    if(change.brief)append(wrap,create("p","clause-description",change.brief));
+    append(wrap,sourceDiffPreview(change,"변경 전","변경 후"));
+    const full=create("details","original-clause");
+    append(full,create("summary","","변경 전·후 조문 전체 보기"));
+    const complete=create("div","pair");
+    const oldBox=create("div","before");
+    const newBox=create("div","after");
+    append(oldBox,create("small","value-label","종전 조문 전문"),
+      create("p","full-clause-text",change.before||"미확인"));
+    append(newBox,create("small","value-label","현행 조문 전문"),
+      create("p","full-clause-text",change.after||"미확인"));
+    append(complete,oldBox,newBox);
+    append(full,complete);
+    append(wrap,full,link(change.source_url,"공식 법령 원문"));
+    return wrap;
+  }
+  function renderCore(event) {
+    const section=heading("이번 개정에서 달라진 내용");
+    section.className="detail-section core";
+    const summary=create("div","core-summary");
+    append(summary,create("strong","",event.headline),
+      create("p","","원문에서 확인한 변경과 실제 업무 영향 검토 근거를 구분해 보여줍니다."));
+    append(section,summary);
+    if (event.changes?.length) {
+      const verifiedAi=new Map((event.ai_summaries||[])
+        .map(row=>[row.document_id+"|"+row.article,row]));
+      const highlights=create("div","highlights");
+      const featured=(event.highlights||[]).map(key=>
+        (event.changes||[]).find(ch=>ch.document_id===key.document_id &&
+          ch.article===key.article)).filter(Boolean);
+      const shown=featured.length?featured:event.changes.slice(0,3);
+      for (const change of shown) {
+        const meaning=change.meaning||{};
+        const row=create("div","highlight");
+        if(meaning.source_check_required)row.className+=" highlight-caution";
+        const lead=create("div","highlight-lead");
+        append(lead,create("span","highlight-cat",
+            meaning.label||"변경 조문"),
+          create("span","highlight-doc",
+            change.document_title+" · "+change.article));
+        append(row,lead);
+        const ai=verifiedAi.get(change.document_id+"|"+change.article);
+        if(ai?.summary && !meaning.source_check_required) {
+          append(row,create("strong","highlight-description",compact(ai.summary,160)),
+            create("p","highlight-source-label",
+              "AI 보조 요약 · 원문 인용 검증 완료"));
+          if(ai.summary.length>160){
+            const more=create("details","highlight-detail");
+            append(more,create("summary","","핵심 요약 전체 보기"),
+              create("p","",ai.summary));
+            append(row,more);
+          }
+        } else {
+          const description=meaning.description||change.brief||"원문 내용 확인 필요";
+          append(row,create("strong","highlight-description",compact(description,160)));
+          if(description.length>160){
+            const more=create("details","highlight-detail");
+            append(more,create("summary","","변경 설명 전체 보기"),
+              create("p","",description));
+            append(row,more);
+          }
+          if(meaning.source_check_required) {
+            append(row,create("p","highlight-warning",
+              "수집된 종전·현행 본문만으로는 실제 개정 내용을 단정할 수 없어 이 조문은 재확인 대상입니다."));
+          }
+        }
+        if(meaning.before || meaning.after || meaning.focus?.length) {
+          const toggle=create("details","highlight-detail");
+          append(toggle,create("summary","","실제 달라진 부분 보기"));
+          append(toggle,sourceDiffPreview(change,
+            meaning.change_kind==="citation"?"종전 인용 조문":"변경 전",
+            meaning.change_kind==="citation"?"현행 인용 조문":"변경 후"));
+          append(row,toggle);
+        }
+        append(highlights,row);
+      }
+      if (event.changes.length>shown.length)
+        append(highlights,create("p","section-help",
+          "그 밖의 "+num(event.changes.length-shown.length)+
+          "개 변경 조문은 아래 '공식 변경 전·후와 출처'에서 확인할 수 있습니다."));
+      append(section,highlights);
+    }
+    const stats=create("div","impact-numbers");
+    append(stats,create("span","","검토 기관 "+num(event.institution_count)+"곳"),
+      create("span","","업무 검토사항 "+num(event.review_count)+"건"));
+    if (event.public_service_lead_count)
+      append(stats,create("span","","공공서비스 검토 후보 "+
+        num(event.public_service_lead_count)+"건"));
+    if (event.dependent_rules?.length)
+      append(stats,create("span","","연관 규정 "+num(event.dependent_rules.length)+"건"));
+    append(section,stats);
+    return section;
+  }
+  function reviewCard(review) {
+    const card=create("div","review-card");
+    const type={
+      direct_regulated_institution:"직접 규율기관",
+      explicit_changed_clause:"변경 조문에 명시",
+      verified_official_rule_citation:"관련 공식 규정 인용",
+      verified_program_citation:"공식 사업 인용"
+    }[review.basis_tier]||"공식 근거";
+    append(card,create("div","review-meta",
+      type+" · "+(review.program||review.document_title)+" · "+review.article));
+    append(card,create("p","review-task",review.task));
+    if(review.effective_date)append(card,create("p","review-effective","적용 시점 "+review.effective_date));
+    const short=(review.linked_changes||[]).filter(model.isShort);
+    if(short.length)append(card,deltaTable(short,6));
+    if(review.linked_changes?.length){
+      const delta=create("details","proof");append(delta,create("summary","","연결된 변경 근거 "+review.linked_changes.length+"개"));
+      for(const change of review.linked_changes)append(delta,sourcePair(model.changeView(change,review.event)));
+      append(card,delta);
+    }
+    if (review.program && review.change)
+      append(card,create("div","review-change",compact(review.change,150)));
+    if (review.ai?.work_impact || review.ai?.question) {
+      const suggestion=create("details","ai-inline");
+      append(suggestion,create("summary","","AI 업무 영향 추가 검토"));
+      if (review.ai.work_impact)
+        append(suggestion,create("p","",review.ai.work_impact));
+      if (review.ai.question)
+        append(suggestion,create("p","",review.ai.question));
+      append(card,suggestion);
+    }
+    const proof=create("details","proof");
+    append(proof,create("summary","","변경 근거 확인"),
+      create("p","",compact(review.basis_quote,420)),
+      link(review.source_url,"변경 조문"),
+      link(review.related_rule_url,"관련 공식 규정"),
+      link(review.program_url,"공식 사업자료"));
+    append(card,proof);
+    return card;
+  }
+  function renderInstitutions(event) {
+    const section=heading("기관별 변경·사업 검토사항",
+      "변경 조문에 직접 연결된 기관 검토와 정부24에 등록된 실제 공공서비스 기준을 함께 찾되, 각각의 근거 수준은 구분해 보여줍니다.");
+    const groups=view.impactGroups(event);
+    if (!groups.length) {
+      append(section,create("p","no-impacts",
+        "이 변경 조문과 연결되는 기관·공공사업의 공식 근거가 아직 확인되지 않았습니다. 원천자료 수집·인용 대조가 더 필요합니다."));
+      return section;
+    }
+    // Names come solely from this event's verified institutional reviews.
+    // Switching policy events resets the selection in select(), never carrying
+    // an agency from another policy into an unrelated event.
+    if (state.institutionFilter!=="all" &&
+        !groups.some(g=>g.agency===state.institutionFilter)) {
+      state.institutionFilter="all";
+    }
+
+    const layout=create("div","institution-layout");
+    const sidebar=create("aside","agency-filter-panel");
+    append(sidebar,create("div","agency-filter-title","기관명 필터"));
+    const search=create("input","agency-filter-search");
+    search.type="search";
+    search.placeholder="기관명 검색";
+    search.setAttribute("aria-label","검토 대상 기관명 검색");
+    const buttons=create("div","agency-filter-buttons");
+    append(sidebar,search,buttons);
+
+    const main=create("div","agency-filter-results");
+    const compactLabel=create("label","agency-select-label","기관 선택");
+    const compactSelect=create("select","agency-select");
+    compactSelect.id="institution-select-"+event.id;
+    compactLabel.setAttribute("for",compactSelect.id);
+    compactSelect.setAttribute("aria-label","기관별 변경 검토사항 기관 선택");
+    const all=create("option","","전체 기관 ("+num(groups.length)+")");
+    all.value="all";
+    append(compactSelect,all);
+    for(const entry of groups) {
+      const opt=create("option","",entry.agency+" ("+num(entry.reviews.length+entry.services.length)+")");
+      opt.value=entry.agency;
+      append(compactSelect,opt);
+    }
+    compactSelect.value=state.institutionFilter;
+    const compactControl=create("div","agency-mobile-filter");
+    append(compactControl,compactLabel,compactSelect);
+    const counter=create("div","section-counter");
+    counter.setAttribute("aria-live","polite");
+    const results=create("div","agency-group-results");
+    append(main,compactControl,counter,results);
+    append(layout,sidebar,main);
+    append(section,layout);
+
+    function drawResults(){
+      const shown=state.institutionFilter==="all" ? groups :
+        groups.filter(g=>g.agency===state.institutionFilter);
+      const reviewCount=shown.reduce((total,g)=>total+g.reviews.length,0);
+      const serviceCount=shown.reduce((total,g)=>total+g.services.length,0);
+      counter.textContent=num(shown.length)+"개 기관 · 변경 조문 검토 "+
+        num(reviewCount)+"건 · 공공서비스 기준 확인 "+num(serviceCount)+"건";
+      compactSelect.value=state.institutionFilter;
+      results.replaceChildren();
+      for(let i=0;i<shown.length;i++){
+        const entry=shown[i];
+        const group=create("details","agency-group");
+        group.open=state.institutionFilter!=="all" ||
+          shown.length<=3 || i===0;
+        const top=create("summary","agency-heading");
+        append(top,create("strong","",entry.agency),
+          create("span","",num(entry.reviews.length+entry.services.length)+"건"));
+        append(group,top);
+        for(const review of entry.reviews){
+          append(group,reviewCard(review));
+        }
+        for(const service of entry.services) {
+          append(group,serviceLeadCard(service));
+        }
+        append(results,group);
+      }
+    }
+    function drawFilterButtons(){
+      const term=search.value.trim().toLocaleLowerCase("ko-KR");
+      buttons.replaceChildren();
+      const allButton=create("button",
+        "agency-filter-button"+(state.institutionFilter==="all"?" active":""),
+        "전체 기관");
+      allButton.type="button";
+      allButton.setAttribute("aria-pressed",
+        String(state.institutionFilter==="all"));
+      append(allButton,create("span","agency-filter-count",num(groups.length)));
+      allButton.onclick=()=>choose("all");
+      append(buttons,allButton);
+      let matched=0;
+      const buckets=new Map();
+      for(const entry of groups){
+        if(!entry.agency.toLocaleLowerCase("ko-KR").includes(term))continue;
+        matched++;
+        const selected=state.institutionFilter===entry.agency;
+        const button=create("button",
+          "agency-filter-button"+(selected?" active":""));
+        button.type="button";
+        button.setAttribute("aria-pressed",String(selected));
+        button.dataset.institution=entry.agency;
+        append(button,create("span","agency-filter-name",entry.agency),
+          create("span","agency-filter-count",num(entry.reviews.length+entry.services.length)));
+        button.onclick=()=>choose(entry.agency);
+        const type=entry.reviews[0]?.agency_type||"";
+        const name=/교육청|교육지원청/.test(entry.agency)?"교육청":/시군구|광역시도|지방자치/.test(type)?"지방자치단체":"중앙부처·공공기관";
+        if(!buckets.has(name))buckets.set(name,[]);buckets.get(name).push(button);
+      }
+      for(const [name,items]of buckets){const group=create("details");group.open=name==="중앙부처·공공기관"||!!term||items.some(b=>b.dataset.institution===state.institutionFilter);append(group,create("summary","",name+" · "+items.length));for(const item of items)append(group,item);append(buttons,group);}
+      if(!matched && term)
+        append(buttons,create("p","agency-no-match","검색된 기관이 없습니다."));
+    }
+    function choose(name){
+      state.institutionFilter=name;
+      drawFilterButtons();
+      drawResults();
+    }
+    search.oninput=()=>drawFilterButtons();
+    compactSelect.onchange=()=>choose(compactSelect.value);
+    drawFilterButtons();
+    drawResults();
+    return section;
+  }
+  function renderEvidence(event) {
+    const section=heading("공식 변경 전·후와 출처");
+    const wrapper=create("details","evidence-panel");
+    append(wrapper,create("summary","",
+      "조문 대조 "+num(event.changes?.length||0)+"건 · 원문 펼쳐 보기"));
+    for (const [i,ch] of (event.changes||[]).entries()) {
+      if (i===5) {
+        const more=create("details","more-clauses");
+        append(more,create("summary","",
+          "추가 변경 조문 "+num(event.changes.length-5)+"건"));
+        for (const other of event.changes.slice(5))
+          append(more,sourcePair(other));
+        append(wrapper,more);
+        break;
+      }
+      append(wrapper,sourcePair(ch,i));
+    }
+    if (!event.changes?.length)
+      append(wrapper,create("p","section-help",model.stageLabel(event.comparison_status)));
+    if(event.unresolved?.length)append(wrapper,create("p","section-help","별표·첨부 또는 대응본 미확보: "+event.unresolved.length+"개 항목"));
+    append(section,link(event.url,"현행 공식 판본"),link(event.prior_url,"종전 공식 판본"));
+    append(section,wrapper);
+    if (event.source_count>1) {
+      const documents=create("details","evidence-panel");
+      append(documents,create("summary","",
+        "동시 개정된 법령 "+num(event.source_count)+"건 확인"));
+      for (const member of event.members||[]) {
+        const row=create("div","member-row");
+        append(row,create("span","",member.title),
+          link(member.url,"공식 원문"));
+        append(documents,row);
+      }
+      append(section,documents);
+    }
+    if (event.dependent_rules?.length) {
+      const refs=create("details","evidence-panel");
+      append(refs,create("summary","",
+        "변경 조문을 인용하는 관련 규정 "+num(event.dependent_rules.length)+"건"));
+      for (const ref of event.dependent_rules) {
+        const row=create("div","member-row");
+        append(row,create("span","",ref.title+" · "+ref.article),
+          link(ref.url,"규정 원문"));
+        append(refs,row);
+      }
+      append(section,refs);
+    }
+    return section;
+  }
+  function renderAI(event) {
+    if (!event.ai_summaries?.length) return null;
+    const section=heading("AI 보조검토");
+    const drawer=create("details","evidence-panel");
+    append(drawer,create("summary","",
+      "원문 근거를 확인한 AI 추가 검토 "+num(event.ai_summaries.length)+"건"));
+    for (const item of event.ai_summaries.slice(0,12)) {
+      const card=create("div","ai-review");
+      append(card,create("strong","",item.summary),
+        create("p","",item.question),
+        create("small","",item.article+" · 공식 원문 인용: "+
+          item.before_quote+" → "+item.after_quote));
+      append(drawer,card);
+    }
+    if (event.ai_summaries.length>12)
+      append(drawer,create("p","section-help","나머지 AI 검토는 공식 조문 상세에 반영됩니다."));
+    append(section,drawer);
+    return section;
+  }
+  function serviceLeadCard(item) {
+    const card=create("details","review-card service-review-lead");
+    const title=create("summary","service-review-heading");
+    append(title,create("strong","",item.service_name),
+      create("span","",item.match_tier==="official_clause_citation"?
+        "공식 변경 조문 인용":"공식 법령명 인용 · 조문 확인 필요"));
+    append(card,title);
+    const content=create("div","public-service-lead-body");
+    append(content,create("p","",
+      "개정 근거: "+item.law_title+" "+item.article));
+    for(const target of item.review_targets||[]) {
+      const box=create("div","service-criterion");
+      append(box,create("strong","",target.field+" · 검토할 기준"),
+        create("p","",target.review_question));
+      if(target.old_value&&target.new_legal_value)
+        append(box,create("p","service-criterion-values",
+          "서비스 등록기준 "+target.old_value+" → 개정 조문 "+target.new_legal_value));
+      const original=create("details","service-source");
+      append(original,create("summary","","실제 서비스 등록기준 원문"),
+        create("p","",target.source_excerpt));
+      append(box,original);
+      append(content,box);
+    }
+    const proof=create("details","service-source");
+    append(proof,create("summary","","공식 법령 인용 근거 펼쳐보기"),
+      create("p","",item.basis_quote));
+    append(content,proof,
+      link(item.service_url||item.source_url,
+        item.service_url?"정부24 서비스 원문":"정부24 공식 서비스 데이터"));
+    append(card,content);
+    return card;
+  }
+
+  function renderDetail() {
+    const root=$("detail");root.replaceChildren();
+    const event=state.events.find(e=>e.id===state.selected);
+    if (!event) {
+      append(root,create("p","empty","정책 변경 사건을 선택하세요."));
+      return;
+    }
+    const head=create("header","detail-head");
+    const meta=create("div","detail-meta");
+    append(meta,pill(view.category(event),"type "+event.kind),
+      create("span","",event.published_at||""),
+      event.verification==="partial" ?
+        pill("일부 조문 대조","partial"):null);
+    append(head,meta,create("h2","",event.title),
+      event.effective_date ?
+        create("p","effective","시행일 "+event.effective_date):null);
+    append(root,head);
+    if(!event.loaded){append(root,create("p","loading-detail","정책 상세와 기관별 근거를 불러오는 중입니다."));return;}
+    const nav=create("nav","detail-nav");
+    for(const [text,id]of [["변경 핵심","policy-core"],["기관·사업 영향","policy-institutions"],["신구 비교·근거","policy-evidence"]]){
+      const b=create("button","",text);b.type="button";b.onclick=()=>$(id)?.scrollIntoView({behavior:"smooth",block:"start"});append(nav,b);
+    }
+    append(head,link(event.url,"공식 정책 원문"),nav);
+    const core=renderCore(event),institutions=renderInstitutions(event),evidence=renderEvidence(event);
+    core.id="policy-core";institutions.id="policy-institutions";evidence.id="policy-evidence";
+    const short=(event.changes||[]).filter(model.isShort);
+    if(short.length)core.insertBefore(deltaTable(short,4),core.children[1]);
+    append(root,core,institutions,evidence,renderAI(event));
+  }
+  function show(data) {
+    if(data.schema!=="policy-domino-unified-ui-v1"||!Array.isArray(data.events))throw Error("정책 데이터 규격이 일치하지 않습니다.");
+    const raw=data;
+    state.data=data;state.events=data.events.map(model.eventView);state.mode="impact";state.institutionFilter="all";
+    const stats=view.overview(state.events);
+    $("stat-events").textContent=num(raw.total_source_versions_saved||stats.events);
+    $("stat-agencies").textContent=num(stats.institutions);
+    $("stat-actions").textContent=num(stats.actions);
+    $("analysis-coverage").textContent="공식 판본 "+num(raw.total_source_versions_saved)+"건 · 신구 변경 확인 "+num(raw.summary?.with_verified_changes)+"건 · 수집·분석 현황 펼치기";
+    $("ai-review-progress").textContent="Gemini 정책 요약 "+num(raw.analysis?.policy_ai_summaries)+"건 · 남은 요약 "+num(raw.analysis?.policy_summaries_pending)+"건";
+    const c=raw.coverage||{};
+    $("institution-link-progress").textContent="알리오플러스 공공기관 명부 "+num(c.alio_public_institutions)+"곳 / 공식 명부 "+num(c.alio_reported)+"곳 · 정부24 보관 사업 "+num(c.gov24_programs)+"건 / 운영기관 "+num(c.gov24_agencies)+"곳. 기관 명부 수집과 정책별 영향 확인은 별도이며, 정부24 최신 전체 갱신은 아직 확인되지 않았습니다.";
+    $("updated").textContent=raw.generated_at?" · 자료 갱신 "+new Date(raw.generated_at).toLocaleString("ko-KR",{timeZone:"Asia/Seoul"})+" KST":"";
+    for(const topic of [...new Set(state.events.map(e=>e.topic).filter(Boolean))].sort()){
+      const option=create("option","",topic);option.value=topic;append($("category"),option);
+    }
+    setupRegistry();
+    const linked=eventHash();
+    state.selected=state.events.some(e=>e.id===linked) ?
+      linked:(filtered()[0]?.id||null);
+    renderList();renderDetail();
+    if(state.selected)select(state.selected,false);
+    if (linked && mobile()) select(linked,false);
+    else if (mobile()) back(false);
+  }
+  function refresh(){
+    state.visible=60;renderList();const shown=filtered();
+    if(!mobile()){
+      if(!shown.length){state.selected=null;requestId++;renderDetail();}
+      else if(!shown.some(e=>e.id===state.selected))select(shown[0].id,false);
+    }
+  }
+  for(const id of ["category","source","sort"])$(id).onchange=()=>{state[id]=$(id).value;refresh();};
+  $("reset").onclick=()=>{state.mode="all";state.query="";state.category="";state.source="";state.sort="published";$("search").value="";$("category").value="";$("source").value="";$("sort").value="published";refresh();};
+  function deltaTable(changes,limit){
+    const wrap=create("div","delta-wrap"),table=create("table","delta-table"),head=create("thead"),row=create("tr");
+    for(const label of ["변경 항목","이전","변경"])append(row,create("th","",label));append(head,row);append(table,head);
+    const body=create("tbody");for(const change of changes.slice(0,limit)){const row=create("tr");for(const text of [change.article,change.before,change.after])append(row,create("td","",text));append(body,row);}append(table,body);append(wrap,table);return wrap;
+  }
+  function setupRegistry(){
+    let records=[];
+    const draw=()=>{const q=$("registry-search").value.trim().toLocaleLowerCase("ko-KR"),rows=records.filter(x=>x.name.toLocaleLowerCase("ko-KR").includes(q));$("registry-caption").textContent="알리오플러스 공식 기관 명부 · "+records.length+"곳 중 "+rows.length+"곳 표시";$("registry-results").replaceChildren();for(const entry of rows){const row=create("div","registry-row");append(row,create("span","",entry.name),link(entry.url,"공식 기관정보 ↗"));append($("registry-results"),row);}};
+    $("registry-open").onclick=async()=>{try{if(!records.length){const res=await fetch("institutions.json");if(!res.ok)throw Error("명부 응답 오류");records=(await res.json()).records||[];}draw();$("registry-dialog").showModal();}catch(error){$("institution-link-progress").textContent=error.message;}};
+    $("registry-close").onclick=()=>$("registry-dialog").close();$("registry-search").oninput=draw;
+  }
+  for (const mode of view.MODES) {
+    $("mode-"+mode).onclick=()=>{
+      state.mode=mode;
+      state.visible=60;
+      renderList();
+      if(!mobile()){
+        const shown=filtered();
+        if(shown.length&&!shown.some(event=>event.id===state.selected)){
+          select(shown[0].id,false);
+        } else if(!shown.length) {
+          state.selected=null;
+          renderDetail();
+        }
+      }
+    };
+  }
+  $("search").oninput=ev=>{
+    state.query=String(ev.target.value||"").trim();
+    refresh();
+  };
+  $("more").onclick=()=>{state.visible+=60;renderList();};
+  $("backToList").onclick=()=>back();
+  window.addEventListener("popstate",()=>{
+    const id=eventHash();
+    if (id && state.events.some(e=>e.id===id)) select(id,false);
+    else back(false);
+  });
+  window.addEventListener("resize",()=>{
+    if (!mobile()) {
+      $("layout").classList.remove("detail-open");
+      document.body.classList.remove("detail-active");
+    } else if (!eventHash()) back(false);
+  });
+  fetch("./data.json",{cache:"no-store"})
+    .then(res=>{
+      if(!res.ok)throw Error("공식 정책 데이터 응답 오류");
+      return res.json();
+    }).then(show).catch(err=>{
+      $("items").replaceChildren(create("p","empty",
+        "공식 정책 변경 데이터를 불러오지 못했습니다."));
+      $("detail").replaceChildren(create("p","no-impacts",String(err)));
+      $("list-count").textContent="불러오기 실패";
+    });
+})();

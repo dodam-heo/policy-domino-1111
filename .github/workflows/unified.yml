@@ -11,6 +11,8 @@ on:
       - 'site/index.html'
       - 'site/app.js'
       - 'site/style.css'
+      - 'site/presentation.js'
+      - 'site/view-model.js'
   workflow_dispatch:
   schedule:
     - cron: '13 * * * *'
@@ -32,6 +34,8 @@ jobs:
       - name: Verify frontend syntax and current data
         run: |
           node --check site/app.js
+          node --check site/view-model.js
+          node --check site/presentation.js
           node tests/test_ui_identity.cjs
           python -c "import json; d=json.load(open('site/data.json')); assert d['events']"
       - uses: actions/configure-pages@v5

@@ -1,12 +1,20 @@
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const vm=require('node:vm');
-const code=fs.readFileSync('site/app.js','utf8').replace(/\nmain\(\);\s*$/,'');
-const context=vm.createContext({document:{getElementById:()=>null},fetch:()=>{throw Error('unexpected fetch')}});
-vm.runInContext(code,context);
-const {loadEventDetail,detailCache,scopedAgencyCounts}=vm.runInContext('({loadEventDetail,detailCache,scopedAgencyCounts})',context);
+const window={fetch:()=>{throw Error('unexpected fetch')}};
+const context=vm.createContext({window});
+for(const file of ['site/view-model.js','site/presentation.js'])vm.runInContext(fs.readFileSync(file,'utf8'),context);
+const {loadEventDetail,detailCache,eventView}=window.PolicyDominoModel;
+const view=window.PolicyDominoView;
+const scopedAgencyCounts=actions=>new Map(actions.map(a=>[a.agency,1]));
 (async()=>{
-  vm.runInContext("dataset=[{agency_names:['서울특별시 동대문구']}];",context);
+  const education=eventView({id:'education',title:'교육급여',revision:'개정',category:'급여·지원기준',source:'admrul',impact_level:'high',changes:[],institutions:[{agency:'교육부'},{agency:'경기도 수원시'}]});
+  const housing=eventView({id:'housing',title:'주거급여',changes:[],institutions:[{agency:'서울특별시 동대문구'}]});
+  assert.equal(view.impactGroups(education).some(x=>x.agency.includes('동대문')),false);
+  assert.equal(view.impactGroups(housing).length,1);
+  assert.equal(view.filterEvents([education,housing],{mode:'impact'}).length,1);
+  assert.equal(view.filterEvents([education,housing],{category:'급여·지원기준',source:'admrul',query:'수원시'}).length,1);
+  assert.equal(view.filterEvents([education,housing],{mode:'all'}).length,2);
   assert.deepEqual(Array.from(scopedAgencyCounts([{agency:'교육부'},{agency:'경기도 수원시'}]).keys()),['교육부','경기도 수원시']);
   const pending={};
   const fetcher=url=>new Promise(resolve=>pending[url]=resolve);
