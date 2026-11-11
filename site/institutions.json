@@ -1,0 +1,2846 @@
+{
+  "source": "alioplus",
+  "updated_at": "2026-11-11T06:53:48.897659+00:00",
+  "records": [
+    {
+      "id": "C0001",
+      "name": "88관광개발(주)",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0001"
+    },
+    {
+      "id": "C0002",
+      "name": "가축위생방역지원본부",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0002"
+    },
+    {
+      "id": "C0003",
+      "name": "강원대학교치과병원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0003"
+    },
+    {
+      "id": "C0004",
+      "name": "강원대학교병원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0004"
+    },
+    {
+      "id": "C0005",
+      "name": "(주)강원랜드",
+      "type_code": "A2001",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0005"
+    },
+    {
+      "id": "C0006",
+      "name": "건강보험심사평가원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0006"
+    },
+    {
+      "id": "C0008",
+      "name": "경북대학교병원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0008"
+    },
+    {
+      "id": "C0009",
+      "name": "경상국립대학교병원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0009"
+    },
+    {
+      "id": "C0010",
+      "name": "경제인문사회연구회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0010"
+    },
+    {
+      "id": "C0013",
+      "name": "공무원연금공단",
+      "type_code": "A2003",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0013"
+    },
+    {
+      "id": "C0017",
+      "name": "과학기술정책연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0017"
+    },
+    {
+      "id": "C0019",
+      "name": "한국교통안전공단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0019"
+    },
+    {
+      "id": "C0020",
+      "name": "한국원자력통제기술원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0020"
+    },
+    {
+      "id": "C0021",
+      "name": "국립공원공단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0021"
+    },
+    {
+      "id": "C0023",
+      "name": "국립암센터",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0023"
+    },
+    {
+      "id": "C0026",
+      "name": "국민건강보험공단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0026"
+    },
+    {
+      "id": "C0028",
+      "name": "국민연금공단",
+      "type_code": "A2003",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0028"
+    },
+    {
+      "id": "C0029",
+      "name": "서울올림픽기념국민체육진흥공단",
+      "type_code": "A2003",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0029"
+    },
+    {
+      "id": "C0031",
+      "name": "국제방송교류재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0031"
+    },
+    {
+      "id": "C0032",
+      "name": "국토연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0032"
+    },
+    {
+      "id": "C0035",
+      "name": "근로복지공단",
+      "type_code": "A2003",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0035"
+    },
+    {
+      "id": "C0038",
+      "name": "기술보증기금",
+      "type_code": "A2003",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0038"
+    },
+    {
+      "id": "C0042",
+      "name": "한국남동발전(주)",
+      "type_code": "A2001",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0042"
+    },
+    {
+      "id": "C0043",
+      "name": "한국남부발전(주)",
+      "type_code": "A2001",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0043"
+    },
+    {
+      "id": "C0045",
+      "name": "한국농수산식품유통공사",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0045"
+    },
+    {
+      "id": "C0046",
+      "name": "한국농어촌공사",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0046"
+    },
+    {
+      "id": "C0050",
+      "name": "연구개발특구진흥재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0050"
+    },
+    {
+      "id": "C0051",
+      "name": "대외경제정책연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0051"
+    },
+    {
+      "id": "C0054",
+      "name": "대한무역투자진흥공사",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0054"
+    },
+    {
+      "id": "C0055",
+      "name": "대한법률구조공단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0055"
+    },
+    {
+      "id": "C0057",
+      "name": "대한석탄공사",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0057"
+    },
+    {
+      "id": "C0059",
+      "name": "대한적십자사",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0059"
+    },
+    {
+      "id": "C0061",
+      "name": "주택도시보증공사",
+      "type_code": "A2002",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0061"
+    },
+    {
+      "id": "C0062",
+      "name": "한국국토정보공사",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0062"
+    },
+    {
+      "id": "C0063",
+      "name": "대한체육회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0063"
+    },
+    {
+      "id": "C0064",
+      "name": "한국도로교통공단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0064"
+    },
+    {
+      "id": "C0065",
+      "name": "독립기념관",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0065"
+    },
+    {
+      "id": "C0066",
+      "name": "한국동서발전(주)",
+      "type_code": "A2001",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0066"
+    },
+    {
+      "id": "C0067",
+      "name": "한국고전번역원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0067"
+    },
+    {
+      "id": "C0068",
+      "name": "민주화운동기념사업회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0068"
+    },
+    {
+      "id": "C0070",
+      "name": "한국보건복지인재원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0070"
+    },
+    {
+      "id": "C0071",
+      "name": "부산대학교병원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0071"
+    },
+    {
+      "id": "C0072",
+      "name": "부산항만공사",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0072"
+    },
+    {
+      "id": "C0075",
+      "name": "사립학교교직원연금공단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0075"
+    },
+    {
+      "id": "C0076",
+      "name": "한국산업기술시험원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0076"
+    },
+    {
+      "id": "C0078",
+      "name": "산업연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0078"
+    },
+    {
+      "id": "C0082",
+      "name": "한국서부발전(주)",
+      "type_code": "A2001",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0082"
+    },
+    {
+      "id": "C0083",
+      "name": "서울대학교병원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0083"
+    },
+    {
+      "id": "C0084",
+      "name": "서울대학교치과병원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0084"
+    },
+    {
+      "id": "C0087",
+      "name": "한국해양교통안전공단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0087"
+    },
+    {
+      "id": "C0089",
+      "name": "수도권매립지관리공사",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0089"
+    },
+    {
+      "id": "C0091",
+      "name": "신용보증기금",
+      "type_code": "A2003",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0091"
+    },
+    {
+      "id": "C0096",
+      "name": "에너지경제연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0096"
+    },
+    {
+      "id": "C0097",
+      "name": "한국에너지공단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0097"
+    },
+    {
+      "id": "C0098",
+      "name": "영상물등급위원회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0098"
+    },
+    {
+      "id": "C0099",
+      "name": "영화진흥위원회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0099"
+    },
+    {
+      "id": "C0101",
+      "name": "예금보험공사",
+      "type_code": "A2003",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0101"
+    },
+    {
+      "id": "C0102",
+      "name": "예술의전당",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0102"
+    },
+    {
+      "id": "C0103",
+      "name": "한국세라믹기술원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0103"
+    },
+    {
+      "id": "C0104",
+      "name": "한국원자력의학원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0104"
+    },
+    {
+      "id": "C0105",
+      "name": "인천국제공항공사",
+      "type_code": "A2001",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0105"
+    },
+    {
+      "id": "C0107",
+      "name": "인천항만공사",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0107"
+    },
+    {
+      "id": "C0112",
+      "name": "신용보증재단중앙회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0112"
+    },
+    {
+      "id": "C0113",
+      "name": "전남대학교병원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0113"
+    },
+    {
+      "id": "C0114",
+      "name": "전북대학교병원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0114"
+    },
+    {
+      "id": "C0115",
+      "name": "전쟁기념사업회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0115"
+    },
+    {
+      "id": "C0120",
+      "name": "정보통신정책연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0120"
+    },
+    {
+      "id": "C0121",
+      "name": "제주국제자유도시개발센터",
+      "type_code": "A2002",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0121"
+    },
+    {
+      "id": "C0122",
+      "name": "제주대학교병원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0122"
+    },
+    {
+      "id": "C0124",
+      "name": "주택관리공단(주)",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0124"
+    },
+    {
+      "id": "C0125",
+      "name": "(주)한국가스기술공사",
+      "type_code": "A2002",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0125"
+    },
+    {
+      "id": "C0126",
+      "name": "한국중소벤처기업유통원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0126"
+    },
+    {
+      "id": "C0127",
+      "name": "중소기업은행",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0127"
+    },
+    {
+      "id": "C0129",
+      "name": "중소기업기술정보진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0129"
+    },
+    {
+      "id": "C0130",
+      "name": "중소벤처기업진흥공단",
+      "type_code": "A2003",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0130"
+    },
+    {
+      "id": "C0134",
+      "name": "축산물품질평가원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0134"
+    },
+    {
+      "id": "C0135",
+      "name": "충남대학교병원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0135"
+    },
+    {
+      "id": "C0136",
+      "name": "충북대학교병원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0136"
+    },
+    {
+      "id": "C0140",
+      "name": "코레일로지스(주)",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0140"
+    },
+    {
+      "id": "C0141",
+      "name": "통일연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0141"
+    },
+    {
+      "id": "C0144",
+      "name": "학교법인한국폴리텍",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0144"
+    },
+    {
+      "id": "C0145",
+      "name": "한국교육학술정보원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0145"
+    },
+    {
+      "id": "C0146",
+      "name": "한국국제협력단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0146"
+    },
+    {
+      "id": "C0147",
+      "name": "한국가스공사",
+      "type_code": "A2001",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0147"
+    },
+    {
+      "id": "C0148",
+      "name": "한국가스안전공사",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0148"
+    },
+    {
+      "id": "C0149",
+      "name": "한국출판문화산업진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0149"
+    },
+    {
+      "id": "C0150",
+      "name": "한국부동산원",
+      "type_code": "A2002",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0150"
+    },
+    {
+      "id": "C0151",
+      "name": "한국개발연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0151"
+    },
+    {
+      "id": "C0152",
+      "name": "한국법무보호복지공단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0152"
+    },
+    {
+      "id": "C0157",
+      "name": "한국공항공사",
+      "type_code": "A2001",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0157"
+    },
+    {
+      "id": "C0158",
+      "name": "한국과학기술기획평가원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0158"
+    },
+    {
+      "id": "C0163",
+      "name": "한국과학창의재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0163"
+    },
+    {
+      "id": "C0165",
+      "name": "한국관광공사",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0165"
+    },
+    {
+      "id": "C0167",
+      "name": "한국교육개발원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0167"
+    },
+    {
+      "id": "C0168",
+      "name": "한국교육과정평가원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0168"
+    },
+    {
+      "id": "C0170",
+      "name": "한국교통연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0170"
+    },
+    {
+      "id": "C0171",
+      "name": "한국국방연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0171"
+    },
+    {
+      "id": "C0172",
+      "name": "한국국제교류재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0172"
+    },
+    {
+      "id": "C0173",
+      "name": "노사발전재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0173"
+    },
+    {
+      "id": "C0175",
+      "name": "한국기술교육대학교",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0175"
+    },
+    {
+      "id": "C0179",
+      "name": "한국노동연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0179"
+    },
+    {
+      "id": "C0181",
+      "name": "한국농촌경제연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0181"
+    },
+    {
+      "id": "C0183",
+      "name": "한국도로공사",
+      "type_code": "A2001",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0183"
+    },
+    {
+      "id": "C0184",
+      "name": "한국디자인진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0184"
+    },
+    {
+      "id": "C0185",
+      "name": "한국마사회",
+      "type_code": "A2002",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0185"
+    },
+    {
+      "id": "C0187",
+      "name": "한국방송통신전파진흥원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0187"
+    },
+    {
+      "id": "C0188",
+      "name": "한국문학번역원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0188"
+    },
+    {
+      "id": "C0189",
+      "name": "한국문화관광연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0189"
+    },
+    {
+      "id": "C0190",
+      "name": "한국문화예술위원회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0190"
+    },
+    {
+      "id": "C0191",
+      "name": "국가유산진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0191"
+    },
+    {
+      "id": "C0192",
+      "name": "한국문화진흥주식회사",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0192"
+    },
+    {
+      "id": "C0196",
+      "name": "한국방송광고진흥공사",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0196"
+    },
+    {
+      "id": "C0198",
+      "name": "한국법제연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0198"
+    },
+    {
+      "id": "C0199",
+      "name": "한국벤처투자",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0199"
+    },
+    {
+      "id": "C0200",
+      "name": "한국보건사회연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0200"
+    },
+    {
+      "id": "C0201",
+      "name": "한국보건산업진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0201"
+    },
+    {
+      "id": "C0202",
+      "name": "한국보건의료인국가시험원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0202"
+    },
+    {
+      "id": "C0203",
+      "name": "한국보훈복지의료공단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0203"
+    },
+    {
+      "id": "C0205",
+      "name": "한국사학진흥재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0205"
+    },
+    {
+      "id": "C0208",
+      "name": "한국산업단지공단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0208"
+    },
+    {
+      "id": "C0209",
+      "name": "한국산업안전보건공단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0209"
+    },
+    {
+      "id": "C0210",
+      "name": "한국산업은행",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0210"
+    },
+    {
+      "id": "C0211",
+      "name": "한국산업인력공단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0211"
+    },
+    {
+      "id": "C0214",
+      "name": "한국석유공사",
+      "type_code": "A2001",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0214"
+    },
+    {
+      "id": "C0215",
+      "name": "한국석유관리원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0215"
+    },
+    {
+      "id": "C0217",
+      "name": "한국소방산업기술원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0217"
+    },
+    {
+      "id": "C0218",
+      "name": "한국소비자원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0218"
+    },
+    {
+      "id": "C0220",
+      "name": "한국수력원자력(주)",
+      "type_code": "A2001",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0220"
+    },
+    {
+      "id": "C0221",
+      "name": "한국수자원공사",
+      "type_code": "A2002",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0221"
+    },
+    {
+      "id": "C0222",
+      "name": "한국무역보험공사",
+      "type_code": "A2003",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0222"
+    },
+    {
+      "id": "C0223",
+      "name": "한국수출입은행",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0223"
+    },
+    {
+      "id": "C0224",
+      "name": "한국승강기안전공단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0224"
+    },
+    {
+      "id": "C0225",
+      "name": "국토안전관리원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0225"
+    },
+    {
+      "id": "C0231",
+      "name": "한국여성정책연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0231"
+    },
+    {
+      "id": "C0232",
+      "name": "한국영상자료원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0232"
+    },
+    {
+      "id": "C0233",
+      "name": "한국에너지정보문화재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0233"
+    },
+    {
+      "id": "C0234",
+      "name": "한국원자력안전기술원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0234"
+    },
+    {
+      "id": "C0236",
+      "name": "한전원자력연료주식회사",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0236"
+    },
+    {
+      "id": "C0240",
+      "name": "한국자산관리공사",
+      "type_code": "A2003",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0240"
+    },
+    {
+      "id": "C0242",
+      "name": "한국장애인고용공단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0242"
+    },
+    {
+      "id": "C0243",
+      "name": "한국장애인개발원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0243"
+    },
+    {
+      "id": "C0244",
+      "name": "한국전기안전공사",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0244"
+    },
+    {
+      "id": "C0246",
+      "name": "한국전력거래소",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0246"
+    },
+    {
+      "id": "C0247",
+      "name": "한국전력공사",
+      "type_code": "A2001",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0247"
+    },
+    {
+      "id": "C0248",
+      "name": "한국전력기술주식회사",
+      "type_code": "A2002",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0248"
+    },
+    {
+      "id": "C0256",
+      "name": "한국조세재정연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0256"
+    },
+    {
+      "id": "C0257",
+      "name": "한국조폐공사",
+      "type_code": "A2002",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0257"
+    },
+    {
+      "id": "C0258",
+      "name": "한국주택금융공사",
+      "type_code": "A2003",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0258"
+    },
+    {
+      "id": "C0259",
+      "name": "한국중부발전(주)",
+      "type_code": "A2001",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0259"
+    },
+    {
+      "id": "C0261",
+      "name": "한국지역난방공사",
+      "type_code": "A2001",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0261"
+    },
+    {
+      "id": "C0264",
+      "name": "한국직업능력연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0264"
+    },
+    {
+      "id": "C0268",
+      "name": "한국철도공사",
+      "type_code": "A2002",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0268"
+    },
+    {
+      "id": "C0270",
+      "name": "국가철도공단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0270"
+    },
+    {
+      "id": "C0272",
+      "name": "코레일유통(주)",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0272"
+    },
+    {
+      "id": "C0276",
+      "name": "한국청소년정책연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0276"
+    },
+    {
+      "id": "C0278",
+      "name": "한국청소년상담복지개발원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0278"
+    },
+    {
+      "id": "C0280",
+      "name": "한국체육산업개발(주)",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0280"
+    },
+    {
+      "id": "C0281",
+      "name": "여수광양항만공사",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0281"
+    },
+    {
+      "id": "C0284",
+      "name": "한국투자공사",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0284"
+    },
+    {
+      "id": "C0290",
+      "name": "한국학중앙연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0290"
+    },
+    {
+      "id": "C0295",
+      "name": "한국해양수산개발원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0295"
+    },
+    {
+      "id": "C0296",
+      "name": "한국해양수산연수원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0296"
+    },
+    {
+      "id": "C0297",
+      "name": "한국해양과학기술원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0297"
+    },
+    {
+      "id": "C0298",
+      "name": "한국행정연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0298"
+    },
+    {
+      "id": "C0299",
+      "name": "한국형사·법무정책연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0299"
+    },
+    {
+      "id": "C0302",
+      "name": "한국환경연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0302"
+    },
+    {
+      "id": "C0305",
+      "name": "한전KPS(주)",
+      "type_code": "A2002",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0305"
+    },
+    {
+      "id": "C0306",
+      "name": "한전KDN",
+      "type_code": "A2002",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0306"
+    },
+    {
+      "id": "C0314",
+      "name": "코레일관광개발(주)",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0314"
+    },
+    {
+      "id": "C0315",
+      "name": "대한장애인체육회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0315"
+    },
+    {
+      "id": "C0318",
+      "name": "국토교통과학기술진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0318"
+    },
+    {
+      "id": "C0320",
+      "name": "한국문화예술교육진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0320"
+    },
+    {
+      "id": "C0321",
+      "name": "한국고용정보원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0321"
+    },
+    {
+      "id": "C0327",
+      "name": "코레일네트웍스(주)",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0327"
+    },
+    {
+      "id": "C0331",
+      "name": "(재)우체국물류지원단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0331"
+    },
+    {
+      "id": "C0335",
+      "name": "한국어촌어항공단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0335"
+    },
+    {
+      "id": "C0340",
+      "name": "한국특허정보원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0340"
+    },
+    {
+      "id": "C0344",
+      "name": "국립박물관문화재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0344"
+    },
+    {
+      "id": "C0345",
+      "name": "국방과학연구소",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0345"
+    },
+    {
+      "id": "C0347",
+      "name": "국방기술품질원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0347"
+    },
+    {
+      "id": "C0348",
+      "name": "한국발명진흥회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0348"
+    },
+    {
+      "id": "C0352",
+      "name": "(재)우체국금융개발원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0352"
+    },
+    {
+      "id": "C0354",
+      "name": "(재)한국우편사업진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0354"
+    },
+    {
+      "id": "C0357",
+      "name": "그랜드코리아레저(주)",
+      "type_code": "A2002",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0357"
+    },
+    {
+      "id": "C0358",
+      "name": "동북아역사재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0358"
+    },
+    {
+      "id": "C0365",
+      "name": "울산항만공사",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0365"
+    },
+    {
+      "id": "C0367",
+      "name": "무역안보관리원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0367"
+    },
+    {
+      "id": "C0368",
+      "name": "(재)우체국시설관리단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0368"
+    },
+    {
+      "id": "C0371",
+      "name": "한국원자력환경공단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0371"
+    },
+    {
+      "id": "C0373",
+      "name": "한국항로표지기술원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0373"
+    },
+    {
+      "id": "C0374",
+      "name": "해양수산과학기술진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0374"
+    },
+    {
+      "id": "C0376",
+      "name": "정부법무공단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0376"
+    },
+    {
+      "id": "C0377",
+      "name": "한국사회복지협의회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0377"
+    },
+    {
+      "id": "C0378",
+      "name": "한국노인인력개발원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0378"
+    },
+    {
+      "id": "C0379",
+      "name": "한국국제보건의료재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0379"
+    },
+    {
+      "id": "C0383",
+      "name": "극지연구소",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0383"
+    },
+    {
+      "id": "C0387",
+      "name": "코레일테크(주)",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0387"
+    },
+    {
+      "id": "C0388",
+      "name": "한국연구재단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0388"
+    },
+    {
+      "id": "C0389",
+      "name": "한국에너지기술평가원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0389"
+    },
+    {
+      "id": "C0390",
+      "name": "한국저작권위원회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0390"
+    },
+    {
+      "id": "C0391",
+      "name": "한국환경산업기술원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0391"
+    },
+    {
+      "id": "C0392",
+      "name": "한국지능정보사회진흥원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0392"
+    },
+    {
+      "id": "C0393",
+      "name": "한국산업기술진흥원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0393"
+    },
+    {
+      "id": "C0394",
+      "name": "정보통신산업진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0394"
+    },
+    {
+      "id": "C0395",
+      "name": "한국콘텐츠진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0395"
+    },
+    {
+      "id": "C0396",
+      "name": "한국토지주택공사",
+      "type_code": "A2002",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0396"
+    },
+    {
+      "id": "C0397",
+      "name": "한국산업기술기획평가원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0397"
+    },
+    {
+      "id": "C0399",
+      "name": "한국인터넷진흥원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0399"
+    },
+    {
+      "id": "C0400",
+      "name": "한국환경공단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0400"
+    },
+    {
+      "id": "C0402",
+      "name": "게임물관리위원회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0402"
+    },
+    {
+      "id": "C0404",
+      "name": "농림식품기술기획평가원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0404"
+    },
+    {
+      "id": "C0406",
+      "name": "국악방송",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0406"
+    },
+    {
+      "id": "C0407",
+      "name": "한국지식재산연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0407"
+    },
+    {
+      "id": "C0409",
+      "name": "태권도진흥재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0409"
+    },
+    {
+      "id": "C0410",
+      "name": "국가평생교육진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0410"
+    },
+    {
+      "id": "C0411",
+      "name": "한국사회보장정보원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0411"
+    },
+    {
+      "id": "C0412",
+      "name": "한국언론진흥재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0412"
+    },
+    {
+      "id": "C0415",
+      "name": "한국장학재단",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0415"
+    },
+    {
+      "id": "C0416",
+      "name": "한국지식재산보호원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0416"
+    },
+    {
+      "id": "C0422",
+      "name": "한국농업기술진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0422"
+    },
+    {
+      "id": "C0437",
+      "name": "KDI국제정책대학원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0437"
+    },
+    {
+      "id": "C0438",
+      "name": "건축공간연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0438"
+    },
+    {
+      "id": "C0440",
+      "name": "육아정책연구소",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0440"
+    },
+    {
+      "id": "C0441",
+      "name": "국가수리과학연구소",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0441"
+    },
+    {
+      "id": "C0444",
+      "name": "분당서울대학교병원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0444"
+    },
+    {
+      "id": "C0446",
+      "name": "국립중앙의료원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0446"
+    },
+    {
+      "id": "C0447",
+      "name": "한국청소년활동진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0447"
+    },
+    {
+      "id": "C0448",
+      "name": "동남권원자력의학원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0448"
+    },
+    {
+      "id": "C0449",
+      "name": "북한이탈주민지원재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0449"
+    },
+    {
+      "id": "C0450",
+      "name": "한국로봇산업진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0450"
+    },
+    {
+      "id": "C0451",
+      "name": "창업진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0451"
+    },
+    {
+      "id": "C0452",
+      "name": "한국공예디자인문화진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0452"
+    },
+    {
+      "id": "C0454",
+      "name": "(재)예술경영지원센터",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0454"
+    },
+    {
+      "id": "C0455",
+      "name": "한국수산자원공단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0455"
+    },
+    {
+      "id": "C0456",
+      "name": "한국사회적기업진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0456"
+    },
+    {
+      "id": "C0457",
+      "name": "국가과학기술인력개발원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0457"
+    },
+    {
+      "id": "C0459",
+      "name": "국민건강보험공단 일산병원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0459"
+    },
+    {
+      "id": "C0527",
+      "name": "한국데이터산업진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0527"
+    },
+    {
+      "id": "C0533",
+      "name": "해양환경공단",
+      "type_code": "A2002",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0533"
+    },
+    {
+      "id": "C0542",
+      "name": "농업정책보험금융원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0542"
+    },
+    {
+      "id": "C0553",
+      "name": "전국재해구호협회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0553"
+    },
+    {
+      "id": "C0571",
+      "name": "한국마약퇴치운동본부",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0571"
+    },
+    {
+      "id": "C0594",
+      "name": "한국양성평등교육진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0594"
+    },
+    {
+      "id": "C0620",
+      "name": "한국상하수도협회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0620"
+    },
+    {
+      "id": "C0631",
+      "name": "한국나노기술원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0631"
+    },
+    {
+      "id": "C0654",
+      "name": "한국해양조사협회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0654"
+    },
+    {
+      "id": "C0655",
+      "name": "한국공정거래조정원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0655"
+    },
+    {
+      "id": "C0661",
+      "name": "식품안전정보원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0661"
+    },
+    {
+      "id": "C0662",
+      "name": "한국보건의료연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0662"
+    },
+    {
+      "id": "C0663",
+      "name": "한국문화정보원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0663"
+    },
+    {
+      "id": "C0672",
+      "name": "건설근로자공제회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0672"
+    },
+    {
+      "id": "C0844",
+      "name": "한국등산·트레킹지원센터",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0844"
+    },
+    {
+      "id": "C0845",
+      "name": "한국건강가정진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0845"
+    },
+    {
+      "id": "C0847",
+      "name": "(사)남북교류협력지원협회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0847"
+    },
+    {
+      "id": "C0849",
+      "name": "한국영유아보육·교육진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0849"
+    },
+    {
+      "id": "C0853",
+      "name": "부산대학교치과병원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0853"
+    },
+    {
+      "id": "C0854",
+      "name": "한국건강증진개발원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0854"
+    },
+    {
+      "id": "C0856",
+      "name": "기초과학연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0856"
+    },
+    {
+      "id": "C0857",
+      "name": "한국임업진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0857"
+    },
+    {
+      "id": "C0858",
+      "name": "한국특허기술진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0858"
+    },
+    {
+      "id": "C0859",
+      "name": "한국잡월드",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0859"
+    },
+    {
+      "id": "C0860",
+      "name": "농림수산식품교육문화정보원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0860"
+    },
+    {
+      "id": "C0861",
+      "name": "재단법인 한국자활복지개발원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0861"
+    },
+    {
+      "id": "C0862",
+      "name": "한국의약품안전관리원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0862"
+    },
+    {
+      "id": "C0864",
+      "name": "한국기상산업기술원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0864"
+    },
+    {
+      "id": "C0865",
+      "name": "한국의료기기안전정보원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0865"
+    },
+    {
+      "id": "C0866",
+      "name": "국제식물검역인증원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0866"
+    },
+    {
+      "id": "C0867",
+      "name": "세종학당재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0867"
+    },
+    {
+      "id": "C0868",
+      "name": "한국예술인복지재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0868"
+    },
+    {
+      "id": "C0870",
+      "name": "한국의료분쟁조정중재원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0870"
+    },
+    {
+      "id": "C0879",
+      "name": "국립생태원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0879"
+    },
+    {
+      "id": "C0884",
+      "name": "중소벤처기업연구원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0884"
+    },
+    {
+      "id": "C0887",
+      "name": "(재)한국통계진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0887"
+    },
+    {
+      "id": "C0894",
+      "name": "대구경북첨단의료산업진흥재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0894"
+    },
+    {
+      "id": "C0896",
+      "name": "오송첨단의료산업진흥재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0896"
+    },
+    {
+      "id": "C0899",
+      "name": "한국특허전략개발원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0899"
+    },
+    {
+      "id": "C0900",
+      "name": "항공안전기술원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0900"
+    },
+    {
+      "id": "C0901",
+      "name": "한국여성과학기술인육성재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0901"
+    },
+    {
+      "id": "C0902",
+      "name": "한국여성인권진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0902"
+    },
+    {
+      "id": "C0903",
+      "name": "소상공인시장진흥공단",
+      "type_code": "A2003",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0903"
+    },
+    {
+      "id": "C0905",
+      "name": "선박해양플랜트연구소",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0905"
+    },
+    {
+      "id": "C0906",
+      "name": "소프트웨어정책연구소",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0906"
+    },
+    {
+      "id": "C0908",
+      "name": "정보통신기획평가원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0908"
+    },
+    {
+      "id": "C0916",
+      "name": "한국원산지정보원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0916"
+    },
+    {
+      "id": "C0918",
+      "name": "아시아·태평양경제협력체 기후센터",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0918"
+    },
+    {
+      "id": "C0920",
+      "name": "한식진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0920"
+    },
+    {
+      "id": "C0922",
+      "name": "한국도박문제예방치유원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0922"
+    },
+    {
+      "id": "C0923",
+      "name": "국립광주과학관",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0923"
+    },
+    {
+      "id": "C0924",
+      "name": "국립대구과학관",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0924"
+    },
+    {
+      "id": "C0931",
+      "name": "(재)일제강제동원피해자지원재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0931"
+    },
+    {
+      "id": "C0932",
+      "name": "한국원자력안전재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0932"
+    },
+    {
+      "id": "C0939",
+      "name": "서울요양원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C0939"
+    },
+    {
+      "id": "C1016",
+      "name": "국립해양박물관",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1016"
+    },
+    {
+      "id": "C1017",
+      "name": "재단법인 장애인기업종합지원센터",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1017"
+    },
+    {
+      "id": "C1018",
+      "name": "국립낙동강생물자원관",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1018"
+    },
+    {
+      "id": "C1021",
+      "name": "국립해양생물자원관",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1021"
+    },
+    {
+      "id": "C1024",
+      "name": "(주)공영홈쇼핑",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1024"
+    },
+    {
+      "id": "C1027",
+      "name": "국방전직교육원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1027"
+    },
+    {
+      "id": "C1028",
+      "name": "공간정보산업진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1028"
+    },
+    {
+      "id": "C1030",
+      "name": "(재)축산환경관리원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1030"
+    },
+    {
+      "id": "C1031",
+      "name": "경북대학교치과병원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1031"
+    },
+    {
+      "id": "C1033",
+      "name": "시청자미디어재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1033"
+    },
+    {
+      "id": "C1038",
+      "name": "과학기술사업화진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1038"
+    },
+    {
+      "id": "C1042",
+      "name": "한국재정정보원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1042"
+    },
+    {
+      "id": "C1044",
+      "name": "주식회사 에스알",
+      "type_code": "A2002",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1044"
+    },
+    {
+      "id": "C1046",
+      "name": "서민금융진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1046"
+    },
+    {
+      "id": "C1049",
+      "name": "한국저작권보호원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1049"
+    },
+    {
+      "id": "C1051",
+      "name": "국립부산과학관",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1051"
+    },
+    {
+      "id": "C1053",
+      "name": "한국한의약진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1053"
+    },
+    {
+      "id": "C1055",
+      "name": "한국산림복지진흥원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1055"
+    },
+    {
+      "id": "C1060",
+      "name": "(재)한국통계정보원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1060"
+    },
+    {
+      "id": "C1062",
+      "name": "한국환경보전원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1062"
+    },
+    {
+      "id": "C1064",
+      "name": "의료기관평가인증원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1064"
+    },
+    {
+      "id": "C1070",
+      "name": "한국전력국제원자력대학원대학교",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1070"
+    },
+    {
+      "id": "C1100",
+      "name": "한국식품안전관리인증원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1100"
+    },
+    {
+      "id": "C1102",
+      "name": "재단법인 한국공공조직은행",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1102"
+    },
+    {
+      "id": "C1103",
+      "name": "재단법인 한국장기조직기증원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1103"
+    },
+    {
+      "id": "C1107",
+      "name": "한국수목원정원관리원",
+      "type_code": "A2004",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1107"
+    },
+    {
+      "id": "C1108",
+      "name": "재단법인 대한건설기계안전관리원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1108"
+    },
+    {
+      "id": "C1109",
+      "name": "재단법인 한국에너지재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1109"
+    },
+    {
+      "id": "C1119",
+      "name": "한국해양진흥공사",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1119"
+    },
+    {
+      "id": "C1120",
+      "name": "국가생명윤리정책원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1120"
+    },
+    {
+      "id": "C1124",
+      "name": "한국제품안전관리원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1124"
+    },
+    {
+      "id": "C1127",
+      "name": "한국수자원조사기술원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1127"
+    },
+    {
+      "id": "C1130",
+      "name": "새만금개발공사",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1130"
+    },
+    {
+      "id": "C1131",
+      "name": "한국해외인프라도시개발지원공사",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1131"
+    },
+    {
+      "id": "C1138",
+      "name": "한국식품산업클러스터진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1138"
+    },
+    {
+      "id": "C1294",
+      "name": "한국도로공사서비스(주)",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1294"
+    },
+    {
+      "id": "C1303",
+      "name": "국가아동권리보장원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1303"
+    },
+    {
+      "id": "C1304",
+      "name": "(재)한국보건의료정보원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1304"
+    },
+    {
+      "id": "C1318",
+      "name": "재단법인 건설기술교육원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1318"
+    },
+    {
+      "id": "C1319",
+      "name": "한국고용노동교육원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1319"
+    },
+    {
+      "id": "C1324",
+      "name": "국립항공박물관",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1324"
+    },
+    {
+      "id": "C1327",
+      "name": "공간정보품질관리원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1327"
+    },
+    {
+      "id": "C1330",
+      "name": "차세대수치예보모델개발사업단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1330"
+    },
+    {
+      "id": "C1331",
+      "name": "스포츠윤리센터",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1331"
+    },
+    {
+      "id": "C1333",
+      "name": "국립울진해양과학관",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1333"
+    },
+    {
+      "id": "C1334",
+      "name": "국립호남권생물자원관",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1334"
+    },
+    {
+      "id": "C1335",
+      "name": "한국물기술인증원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1335"
+    },
+    {
+      "id": "C1352",
+      "name": "한전MCS(주)",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1352"
+    },
+    {
+      "id": "C1362",
+      "name": "국립아시아문화전당재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1362"
+    },
+    {
+      "id": "C1364",
+      "name": "한국광해광업공단",
+      "type_code": "A2002",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1364"
+    },
+    {
+      "id": "C1367",
+      "name": "한국생명존중희망재단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1367"
+    },
+    {
+      "id": "C1368",
+      "name": "한국탄소산업진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1368"
+    },
+    {
+      "id": "C1375",
+      "name": "국립농업박물관",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1375"
+    },
+    {
+      "id": "C1378",
+      "name": "중앙사회서비스원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1378"
+    },
+    {
+      "id": "C1383",
+      "name": "재외동포협력센터",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1383"
+    },
+    {
+      "id": "C1386",
+      "name": "한국치산기술협회",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1386"
+    },
+    {
+      "id": "C1395",
+      "name": "국립인천해양박물관",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1395"
+    },
+    {
+      "id": "C1398",
+      "name": "양육비이행관리원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1398"
+    },
+    {
+      "id": "C1399",
+      "name": "가덕도신공항건설공단",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1399"
+    },
+    {
+      "id": "C1400",
+      "name": "한국관세정보원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1400"
+    },
+    {
+      "id": "C1401",
+      "name": "자동차손해배상진흥원",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1401"
+    },
+    {
+      "id": "C1402",
+      "name": "국방기술진흥연구소",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1402"
+    },
+    {
+      "id": "C1410",
+      "name": "한국스포츠레저(주)",
+      "type_code": "A2005",
+      "source": "alioplus",
+      "source_url": "https://www.alioplus.go.kr/comm/searchApbaList.do",
+      "url": "https://www.alioplus.go.kr/organization/organHeadDetail.do?apbaId=C1410"
+    }
+  ]
+}
