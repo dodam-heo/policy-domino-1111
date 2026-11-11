@@ -1,0 +1,58 @@
+{
+  "id": "ordin|2191060|2182819",
+  "title": "고양시 일자리기금 설치 및 운용 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "경기도 고양시",
+  "published_at": "2026-11-06",
+  "effective_date": "2027-01-04",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182819",
+  "category": "기타 제·개정",
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제9조",
+      "before": "제9조(위원회의 구성) ① 위원회는 「고양시 일자리 창출 지원에 관한 조례」에 따른 고양시 일자리창출위원회 위원 중 10명 이내로 구성한다. <개정 2023. 11. 17.> ② 위원회의 위원장은 제1부시장이 되고, 부위원장은 일자리 업무 담당 국장이 된다.",
+      "after": "제9조(위원회의 구성) ① 위원회는 「고양시 일자리 창출 지원에 관한 조례」에 따른 고양시 일자리창출위원회 위원 중 10명 이내로 구성한다. <개정 2023. 11. 17.> ② 위원회의 위원장은 제2부시장이 되고, 부위원장은 일자리 업무 담당 국장이 된다. <개정 2026.11.6.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…0명 이내로 구성한다. <개정 2023. 11. 17.> ② 위원회의 위원장은 제",
+            "changed": "1",
+            "suffix": "부시장이 되고, 부위원장은 일자리 업무 담당 국장이 된다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…0명 이내로 구성한다. <개정 2023. 11. 17.> ② 위원회의 위원장은 제",
+            "changed": "2",
+            "suffix": "부시장이 되고, 부위원장은 일자리 업무 담당 국장이 된다. <개정 2026.11.…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 위원회의 위원장은 제1부시장이 되고, 부위원장은 일자리 업무 담당 국장이 된다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…위원회의 위원장은 제2부시장이 되고, 부위원장은 일자리 업무 담당 국장이 된다. ",
+            "changed": "<개정 2026.11.6.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1875141"
+}

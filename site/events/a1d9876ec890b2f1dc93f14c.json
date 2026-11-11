@@ -1,0 +1,62 @@
+{
+  "id": "ordin|2149218|2182787",
+  "title": "고양시 향토유산 보호 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "경기도 고양시",
+  "published_at": "2026-11-06",
+  "effective_date": "2027-01-04",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182787",
+  "category": "기타 제·개정",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제4조",
+      "before": "제4조(위원회의 구성과 임기) ① 위원회는 위원장 1명과 부위원장 1명을 포함하여 9명 이내의 위원으로 구성한다. ② 위원회의 위원장은 제1부시장이 되고, 부위원장은 위원 중에서 호선(互選)한다. ③ 위원회의 위원 중 당연직 위원은 향토유산 업무 담당 국장으로 하고, 위촉직 위원은 다음 각 호에 해당하는 사람 중에서 시장이 위촉한다. 1. 역사ㆍ고고학ㆍ문화유산 등 관련 전문분야에 학식과 경험이 풍부한 사람 2. 향토유산의 보존 또는 활용에 관련된 분야에 식견과 경험이 풍부한 사람 3. 그 밖에 향토유산과 관련하여 시장이 필요하다고 인정하는 사람 ④ 위촉직 위원의 임기는 3년으로 하고, 한 차례만 연임할 수 있다.",
+      "after": "제4조(위원회의 구성과 임기) ① 위원회는 위원장 1명과 부위원장 1명을 포함하여 9명 이내의 위원으로 구성한다. ② 위원회의 위원장은 제2부시장이 되고, 부위원장은 위원 중에서 호선(互選)한다. <개정 2026.11.6.> ③ 위원회의 위원 중 당연직 위원은 향토유산 업무 담당 국장으로 하고, 위촉직 위원은 다음 각 호에 해당하는 사람 중에서 시장이 위촉한다. 1. 역사ㆍ고고학ㆍ문화유산 등 관련 전문분야에 학식과 경험이 풍부한 사람 2. 향토유산의 보존 또는 활용에 관련된 분야에 식견과 경험이 풍부한 사람 3. 그 밖에 향토유산과 관련하여 시장이 필요하다고 인정하는 사람 ④ 위촉직 위원의 임기는 3년으로 하고, 한 차례만 연임할 수 있다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…부위원장 1명을 포함하여 9명 이내의 위원으로 구성한다. ② 위원회의 위원장은 제",
+            "changed": "1",
+            "suffix": "부시장이 되고, 부위원장은 위원 중에서 호선(互選)한다. ③ 위원회의 위원 중 당…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…부위원장 1명을 포함하여 9명 이내의 위원으로 구성한다. ② 위원회의 위원장은 제",
+            "changed": "2",
+            "suffix": "부시장이 되고, 부위원장은 위원 중에서 호선(互選)한다. <개정 2026.11.6…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 위원회의 위원장은 제1부시장이 되고, 부위원장은 위원 중에서 호선(互選)한다. ",
+            "changed": "",
+            "suffix": "③ 위원회의 위원 중 당연직 위원은 향토유산 업무 담당 국장으로 하고, 위촉직 위…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 위원회의 위원장은 제2부시장이 되고, 부위원장은 위원 중에서 호선(互選)한다. ",
+            "changed": "<개정 2026.11.6.>",
+            "suffix": " ③ 위원회의 위원 중 당연직 위원은 향토유산 업무 담당 국장으로 하고, 위촉직 …",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1930253"
+}

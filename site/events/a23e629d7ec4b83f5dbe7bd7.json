@@ -1,0 +1,58 @@
+{
+  "id": "ordin|2152615|2182729",
+  "title": "고양시 대중교통심의위원회 설치 및 운영 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "경기도 고양시",
+  "published_at": "2026-11-06",
+  "effective_date": "2027-01-04",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182729",
+  "category": "기타 제·개정",
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제11조",
+      "before": "제11조(간사 등) 위원회 사무를 처리하기 위하여 간사와 서기를 두고 간사는 버스정책과장, 서기는 대중교통업무 팀장이 되며, 간사는 회의록을 작성하여 위원장에게 보고한다. <개정 2008.12.12, 2011.3.2., 2021.1.5.>",
+      "after": "제11조(간사 등) 위원회 사무를 처리하기 위하여 간사와 서기를 두고 간사는 버스정책 업무 담당 부서의 장, 서기는 대중교통업무 팀장이 되며, 간사는 회의록을 작성하여 위원장에게 보고한다. <개정 2008.12.12, 2011.3.2., 2021.1.5., 2026.11.6.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제11조(간사 등) 위원회 사무를 처리하기 위하여 간사와 서기를 두고 간사는 ",
+            "changed": "버스정책과장",
+            "suffix": ", 서기는 대중교통업무 팀장이 되며, 간사는 회의록을 작성하여 위원장에게 보고한다…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제11조(간사 등) 위원회 사무를 처리하기 위하여 간사와 서기를 두고 간사는 ",
+            "changed": "버스정책 업무 담당 부서의 장",
+            "suffix": ", 서기는 대중교통업무 팀장이 되며, 간사는 회의록을 작성하여 위원장에게 보고한다…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 작성하여 위원장에게 보고한다. <개정 2008.12.12, 2011.3.2., ",
+            "changed": "2021.1.5.",
+            "suffix": ">",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 작성하여 위원장에게 보고한다. <개정 2008.12.12, 2011.3.2., ",
+            "changed": "2021.1.5., 2026.11.6.",
+            "suffix": ">",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1945107"
+}

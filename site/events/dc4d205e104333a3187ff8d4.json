@@ -1,0 +1,48 @@
+{
+  "id": "ordin|2157272|2182727",
+  "title": "고양시 문화원 지원 및 육성에 관한 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "경기도 고양시",
+  "published_at": "2026-11-06",
+  "effective_date": "2027-01-04",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182727",
+  "category": "기타 제·개정",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제27조",
+      "before": "제27조(이사선임) 문화원의 지원ㆍ육성을 위하여 다음 각 호의 관계자를 문화원의 당연직 이사로 위촉한다. 1. 시 교육문화국장 2. 시 문화예술 관련 기관ㆍ단체의 대표 2인(고양문화재단 대표이사, 고양예총 회장)",
+      "after": "제27조(이사선임) 문화원의 지원ㆍ육성을 위하여 다음 각 호의 관계자를 문화원의 당연직 이사로 위촉한다. 1. 시 문화관광국장 <개정 2026.11.6.> 2. 시 문화예술 관련 기관ㆍ단체의 대표 2인(고양문화재단 대표이사, 고양예총 회장)",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…육성을 위하여 다음 각 호의 관계자를 문화원의 당연직 이사로 위촉한다. 1. 시 ",
+            "changed": "교육문화국장",
+            "suffix": " 2. 시 문화예술 관련 기관ㆍ단체의 대표 2인(고양문화재단 대표이사, 고양예총 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…육성을 위하여 다음 각 호의 관계자를 문화원의 당연직 이사로 위촉한다. 1. 시 ",
+            "changed": "문화관광국장 <개정 2026.11.6.>",
+            "suffix": " 2. 시 문화예술 관련 기관ㆍ단체의 대표 2인(고양문화재단 대표이사, 고양예총 …",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1777435"
+}
