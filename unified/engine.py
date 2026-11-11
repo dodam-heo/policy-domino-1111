@@ -174,7 +174,11 @@ def parse_body(xml: bytes) -> dict:
         elif k in ("조항", "자치법규조문", "조"):
             number, value = field(el, "조문번호", True), field(el, "조내용", True)
             if number and value:
-                clauses["제"+number+"조"] = value
+                heading = re.match(r"제\s*\d+\s*조(?:의\s*\d+)?", value)
+                # Ordinance API numbers such as 000100/000402 are internal
+                # codes. The official text supplies the actual article label.
+                key = re.sub(r"\s+", "", heading.group()) if heading else "제"+number+"조"
+                clauses[key] = value
     if not clauses:
         fallback = [field(el, tag(el)) for el in root.iter()
                     if tag(el) in ("본문내용", "행정규칙본문", "조문내용") and
@@ -192,7 +196,7 @@ def parse_body(xml: bytes) -> dict:
         "clauses": clauses,
         "attachment_links": links,
         "incomplete_keys": incomplete,
-        "parser_version": 3,
+        "parser_version": 4,
         "raw_xml_sha256": hash256(xml),
         "body_sha256": hash256(json.dumps(clauses, sort_keys=True, ensure_ascii=False)),
     }
@@ -428,7 +432,10 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
         today: dt.date | None = None) -> dict:
     today = today or dt.date.today()
     deadline = time.monotonic() + max(30, int(os.getenv("PD_COLLECTION_SECONDS", "600")))
-    api.deadline = deadline
+    # Reserve most of each execution for originals, annexes and predecessor
+    # comparisons; index pagination must not starve the detail queue.
+    index_deadline = time.monotonic() + max(10, (deadline-time.monotonic()) * 0.4)
+    api.deadline = index_deadline
     state_file = root / "collection-state.json"
     state = load(state_file, {}) or {}
     for key in ("backfill", "coverage", "attempts", "errors"):
@@ -440,7 +447,7 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
 
     def collect_window(source, edition, kind, start, end, stage, query=""):
         nonlocal failed
-        if time.monotonic() >= deadline:
+        if time.monotonic() >= index_deadline:
             return False
         key = "|".join((source, edition, kind, start, end, stage))
         try:
@@ -498,6 +505,7 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
                            str(today.year+1))
     state["annual_kind_offset"] = (shift+2) % len(annual_types)
 
+    api.deadline = deadline
     # Reuse metadata saved by EVERY prior run, not only the latest window.
     records_by_id = {ident(r): r for r in _pending_index_records(root)}
     # Reused complete originals also require predecessor lookup; importing a
@@ -568,7 +576,7 @@ def refresh_cached(root: Path) -> dict:
         if not obj.get("official_xml_base64"):
             continue
         old_body = obj.get("body", {})
-        if old_body.get("parser_version") == 3:
+        if old_body.get("parser_version") == 4:
             continue
         body = parse_body(base64.b64decode(obj["official_xml_base64"]))
         archive = {normalized_url(a.get("source_url", "")): a.get("sha256")
@@ -580,7 +588,7 @@ def refresh_cached(root: Path) -> dict:
             return gzip.decompress((root / "attachments" / sha[:2] / (sha+".gz")).read_bytes())
         if body.get("attachment_links"):
             body = resolve_attachments(root, body, transport=cached_attachment)
-        body["parser_version"] = 3
+        body["parser_version"] = 4
         obj["body"] = body
         repaired += int(store(path, obj))
     rebuilt = 0

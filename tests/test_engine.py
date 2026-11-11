@@ -27,6 +27,11 @@ class EngineTest(unittest.TestCase):
         body = parse_body('<AdmRulService><조문내용><![CDATA[선정기준 120원]]></조문내용></AdmRulService>'.encode())
         self.assertEqual(body['clauses']['본문'], '선정기준 120원')
 
+    def test_ordinance_article_code_uses_official_heading(self):
+        body = parse_body('<root><조><조문번호>000402</조문번호><조내용>제4조의2(심사) 처리한다.</조내용></조></root>'.encode())
+        self.assertIn("제4조의2", body["clauses"])
+        self.assertNotIn("제000402조", body["clauses"])
+
     def test_actual_before_after(self):
         left = {"status": "complete", "clauses": {"제1조": "기준 100원"}}
         right = {"status": "complete", "clauses": {"제1조": "기준 120원"}}
