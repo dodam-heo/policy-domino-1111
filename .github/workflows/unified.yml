@@ -1,0 +1,119 @@
+name: Policy Domino Unified - Single Production Pipeline
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/unified.yml'
+      - 'unified/**'
+      - 'tests/**'
+      - 'site/index.html'
+      - 'site/app.js'
+      - 'site/style.css'
+  workflow_dispatch:
+  schedule:
+    - cron: '13 */6 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: policy-domino-unified-single-writer
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - name: Check out ONE canonical source and data store
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Use Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install annex PDF text extraction
+        run: python -m pip install --disable-pip-version-check 'pypdf>=5,<7'
+      - name: Verify audited source and evidence gates
+        run: python -m unittest discover -s tests -v
+      - name: Collect independent official change versions
+        if: github.event_name != 'pull_request'
+        env:
+          LAW_OC: ${{ vars.LAW_OC || 'dori' }}
+          PD_FETCH_OFFICIAL_ATTACHMENTS: 'true'
+        run: python -m unified.engine --root data --streams 6 --details 60
+      - name: Incrementally refresh official Gov24 program criteria if configured
+        if: github.event_name != 'pull_request'
+        env:
+          GOV24_SERVICE_KEY: ${{ secrets.GOV24_SERVICE_KEY }}
+        run: python -m unified.gov24 --root data --list-pages 3 --detail-pages 3
+      - name: Identify verified public-agency program impacts
+        if: github.event_name != 'pull_request'
+        env:
+          PD_LLM_API_KEY: ${{ secrets.PD_LLM_API_KEY || secrets.OPENAI_API_KEY }}
+          PD_LLM_MODEL: ${{ vars.PD_LLM_MODEL }}
+          PD_LLM_URL: ${{ vars.PD_LLM_URL || 'https://api.openai.com/v1/chat/completions' }}
+          PD_LLM_MAX_REQUESTS: ${{ vars.PD_LLM_MAX_REQUESTS || '12' }}
+        run: python -m unified.impact --root data
+      - name: Build compact source-backed policy workbench
+        run: python -m unified.publish --root data --output site/data.json
+      - name: Check final publication contract
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          catalog=json.loads(Path('site/data.json').read_text('utf8'))
+          assert catalog['schema']=='policy-domino-unified-ui-v1'
+          assert catalog['events']
+          ids=[e['id'] for e in catalog['events']]
+          assert len(ids)==len(set(ids))
+          for item in catalog['events']:
+              assert item.get('detail_url')
+              detail=json.loads((Path('site')/item['detail_url']).read_text('utf8'))
+              assert detail['id']==item['id']
+              for action in detail.get('institutions',[]):
+                  assert action['evidence']['proof_type'] in ('exact_changed_article_cited_by_official_program', 'delegated_rule_and_operating_criterion')
+                  assert action['evidence']['reference_quote']
+                  assert action['evidence']['service_quote']
+          print('PUBLISH_CONTRACT_PASS',catalog['summary'])
+          PY
+      - name: Store only incremental source versions and current public index
+        if: github.event_name != 'pull_request'
+        run: |
+          set -euo pipefail
+          git config user.name policy-domino-unified-bot
+          git config user.email policy-domino-unified-bot@users.noreply.github.com
+          git add data/ site/data.json site/events/
+          if ! git diff --cached --quiet; then
+            base_sha=$(git rev-parse HEAD)
+            git fetch origin main
+            if [ "$(git rev-parse FETCH_HEAD)" != "$base_sha" ]; then
+              echo "::error::main advanced while collecting; do not rebase generated evidence."
+              exit 1
+            fi
+            git commit -m 'data: refresh independent official evidence and public impact [skip ci]'
+            git push origin HEAD:main
+          fi
+      - name: Configure Pages after repository owner has enabled it
+        if: github.event_name != 'pull_request'
+        id: pages
+        continue-on-error: true
+        uses: actions/configure-pages@v5
+      - name: Upload one verified public site
+        if: github.event_name != 'pull_request' && steps.pages.outcome == 'success'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy unified source-backed site
+        if: github.event_name != 'pull_request' && steps.pages.outcome == 'success'
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 1200000
+      - name: Explain required one-time Pages setting if unavailable
+        if: github.event_name != 'pull_request' && steps.pages.outcome != 'success'
+        run: |
+          echo "::warning::Source collection, comparison, impact and UI build succeeded. Pages needs manual enablement in repository Settings > Pages > Source: GitHub Actions."
+          echo "Pages must first be enabled in repository Settings > Pages > Build and deployment > GitHub Actions." >> "$GITHUB_STEP_SUMMARY"
