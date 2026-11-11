@@ -1,0 +1,55 @@
+{
+  "id": "ordin|2205606|2183019",
+  "title": "정읍시 노인목욕비 지원 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "전북특별자치도 정읍시",
+  "published_at": "2026-11-06",
+  "effective_date": "2027-01-01",
+  "revision": "폐지",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183019",
+  "category": "기타 제·개정",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제10조",
+      "before": "제10조(지도ㆍ감독) 시장은 서비스 제공업소, 카드관리시스템의 구축 및 운영 전문업체 등이 사업 목적대로 적정 운영하는지에 대해서 지도ㆍ감독할 수 있다.",
+      "after": "제10조(지도ㆍ감독) 시장은 서비스 제공업소, 카드관리시스템의 구축 및 운영 전문업체 등이 사업 목적대로 적정 운영하는지에 대해서 지도ㆍ감독할 수 있다. 부칙 이 조례는 2024년 1월 1일부터 시행한다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…운영 전문업체 등이 사업 목적대로 적정 운영하는지에 대해서 지도ㆍ감독할 수 있다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…영 전문업체 등이 사업 목적대로 적정 운영하는지에 대해서 지도ㆍ감독할 수 있다. ",
+            "changed": "부칙 이 조례는 2024년 1월 1일부터 시행한다.",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": {
+    "explanation": "정읍시 노인목욕비 지원 조례의 시행일을 2024년 1월 1일로 명시하는 부칙이 신설되었습니다.",
+    "old_quote": "제10조: 제10조(지도ㆍ감독) 시장은 서비스 제공업소, 카드관리시스템의 구축 및 운영 전문업체 등이 사업 목적대로 적정 운영하는지에 대해서 지도ㆍ감독할 수 있다.",
+    "new_quote": "제10조: 제10조(지도ㆍ감독) 시장은 서비스 제공업소, 카드관리시스템의 구축 및 운영 전문업체 등이 사업 목적대로 적정 운영하는지에 대해서 지도ㆍ감독할 수 있다. 부칙 이 조례는 2024년 1월 1일부터 시행한다.",
+    "program_quote": "제10조: 제10조(지도ㆍ감독) 시장은 서비스 제공업소, 카드관리시스템의 구축 및 운영 전문업체 등이 사업 목적대로 적정 운영하는지에 대해서 지도ㆍ감독할 수 있다. 부칙 이 조례는 2024년 1월 1일부터 시행한다.",
+    "verified": true,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1891469"
+}

@@ -2,35 +2,68 @@
   "id": "ordin|2178242|2183507",
   "title": "영덕군 도시숲 및 가로수 조성ㆍ관리 조례",
   "source": "ordin",
-  "kind": "자치법규",
+  "kind": "",
   "ministry": "경상북도 영덕군",
   "published_at": "2026-11-09",
   "effective_date": "2027-01-01",
   "revision": "일부개정",
-  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%98%81%EB%8D%95%EA%B5%B0%20%EB%8F%84%EC%8B%9C%EC%88%B2%20%EB%B0%8F%20%EA%B0%80%EB%A1%9C%EC%88%98%20%EC%A1%B0%EC%84%B1%E3%86%8D%EA%B4%80%EB%A6%AC%20%EC%A1%B0%EB%A1%80",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183507",
   "category": "기타 제·개정",
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
-  "changes": [],
+  "changes": [
+    {
+      "article": "제6조",
+      "before": "제6조(위원회 구성) ① 위원장은 부군수가 되고, 부위원장은 산림과장, 간사는 가로수 업무 담당팀장이 된다. <개정 2021.12.30., 2022.9.2.> ② 위원의 임기는 2년으로 하되 한번만 연임할 수 있으며, 공무원은 그 직위에 재직하는 기간으로 한다. ③ 위원회 구성 시 위촉직 위원은「양성평등기본법」제21조제2항에 따라 구성한다. <개정 2021.12.30.>",
+      "after": "제6조(위원회 구성) ① 위원장은 부군수가 되고, 부위원장은 산림녹지과장, 간사는 가로수 업무 담당팀장이 된다. <개정 2021.12.30., 2022.9.2., 2026.11.9.> ② 위원의 임기는 2년으로 하되 한번만 연임할 수 있으며, 공무원은 그 직위에 재직하는 기간으로 한다. ③ 위원회 구성 시 위촉직 위원은「양성평등기본법」제21조제2항에 따라 구성한다. <개정 2021.12.30.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제6조(위원회 구성) ① 위원장은 부군수가 되고, 부위원장은 ",
+            "changed": "산림과장",
+            "suffix": ", 간사는 가로수 업무 담당팀장이 된다. <개정 2021.12.30., 2022.…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제6조(위원회 구성) ① 위원장은 부군수가 되고, 부위원장은 ",
+            "changed": "산림녹지과장",
+            "suffix": ", 간사는 가로수 업무 담당팀장이 된다. <개정 2021.12.30., 2022.…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 산림과장, 간사는 가로수 업무 담당팀장이 된다. <개정 2021.12.30., ",
+            "changed": "2022.9.2.",
+            "suffix": "> ② 위원의 임기는 2년으로 하되 한번만 연임할 수 있으며, 공무원은 그 직위에…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…림녹지과장, 간사는 가로수 업무 담당팀장이 된다. <개정 2021.12.30., ",
+            "changed": "2022.9.2., 2026.11.9.",
+            "suffix": "> ② 위원의 임기는 2년으로 하되 한번만 연임할 수 있으며, 공무원은 그 직위에…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    }
+  ],
   "unresolved": [
     {
-      "clause": "부칙 2457 20260220",
-      "reason": "counterpart_not_verified"
-    },
-    {
-      "clause": "부칙 2472 20261109",
-      "reason": "counterpart_not_verified"
-    },
-    {
       "reason": "incomplete_original_or_attachment"
-    },
-    {
-      "reason": "original_source_not_reverified"
     }
   ],
   "institutions": [],
   "dependent_rules": [],
-  "policy_analysis": null,
+  "policy_analysis": {
+    "explanation": "도시숲 및 가로수 조성·관리 위원회의 부위원장 직위가 기존 산림과장에서 산림녹지과장으로 변경되었습니다.",
+    "old_quote": "제6조: 제6조(위원회 구성) ① 위원장은 부군수가 되고, 부위원장은 산림과장, 간사는 가로수 업무 담당팀장이 된다. <개정 2021.12.30., 2022.9.2.> ② 위원의 임기는 2년으로 하되 한번만 연임할 수 있으며, 공무원은 그 직위에 재직하는 기간으로 한다. ③ 위원회 구성 시 위촉직 위원은「양성평등기본법」제21조제2항에 따라 구성한다. <개정 2021.12.30.>",
+    "new_quote": "제6조: 제6조(위원회 구성) ① 위원장은 부군수가 되고, 부위원장은 산림녹지과장, 간사는 가로수 업무 담당팀장이 된다. <개정 2021.12.30., 2022.9.2., 2026.11.9.> ② 위원의 임기는 2년으로 하되 한번만 연임할 수 있으며, 공무원은 그 직위에 재직하는 기간으로 한다. ③ 위원회 구성 시 위촉직 위원은「양성평등기본법」제21조제2항에 따라 구성한다. <개정 2021.12.30.>",
+    "program_quote": "제6조: 제6조(위원회 구성) ① 위원장은 부군수가 되고, 부위원장은 산림녹지과장, 간사는 가로수 업무 담당팀장이 된다. <개정 2021.12.30., 2022.9.2., 2026.11.9.> ② 위원의 임기는 2년으로 하되 한번만 연임할 수 있으며, 공무원은 그 직위에 재직하는 기간으로 한다. ③ 위원회 구성 시 위촉직 위원은「양성평등기본법」제21조제2항에 따라 구성한다. <개정 2021.12.30.>",
+    "verified": true,
+    "model": "gemini-3.5-flash-lite"
+  },
   "impact_level": "normal",
-  "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%98%81%EB%8D%95%EA%B5%B0%20%EB%8F%84%EC%8B%9C%EC%88%B2%20%EB%B0%8F%20%EA%B0%80%EB%A1%9C%EC%88%98%20%EC%A1%B0%EC%84%B1%E3%86%8D%EA%B4%80%EB%A6%AC%20%EC%A1%B0%EB%A1%80"
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2110805"
 }

@@ -2,35 +2,71 @@
   "id": "ordin|2199167|2183511",
   "title": "영덕군 지역발전기금 설치 및 운용조례",
   "source": "ordin",
-  "kind": "자치법규",
+  "kind": "",
   "ministry": "경상북도 영덕군",
   "published_at": "2026-11-09",
   "effective_date": "2027-01-01",
   "revision": "일부개정",
-  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%A7%80%EC%97%AD%EB%B0%9C%EC%A0%84%EA%B8%B0%EA%B8%88%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%9A%A9%EC%A1%B0%EB%A1%80",
-  "category": "기타 제·개정",
-  "comparison_status": "partial_unverified",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183511",
+  "category": "급여·지원기준",
+  "comparison_status": "changed",
   "relationship": "same_official_id_revision",
-  "changes": [],
-  "unresolved": [
+  "changes": [
     {
-      "clause": "부칙 2243 20220902",
-      "reason": "counterpart_not_verified"
-    },
-    {
-      "clause": "부칙 2472 20261109",
-      "reason": "counterpart_not_verified"
-    },
-    {
-      "reason": "incomplete_original_or_attachment"
-    },
-    {
-      "reason": "original_source_not_reverified"
+      "article": "제10조",
+      "before": "제10조(위원회의 설치 및 구성) ① 기금의 운용 및 관리에 관한 사항을 심의하기 위하여 영덕군 지역발전기금 운용심의위원회(이하 “위원회”라 한다)를 둔다. ② 위원회는 위원장과 부위원장 각 1명을 포함한 10명 이내의 위원으로 구성하되 민간전문가를 3분의 1이상 참여토록 한다. ③ 위원장은 부군수가 되고, 부위원장은 위원 중에서 호선한다. ④ 위원은 다음 각 호의 어느 하나에 해당하는 사람 중에서 군수가 임명 또는 위촉한다. 1. 기획예산실장ㆍ일자리경제과장ㆍ주민복지과장 2. 영덕군의회 의장이 추천하는 군의원 3. 기금운용 또는 기금 관련분야에 관한 전문지식을 갖춘 민간 전문가 ⑤ 위촉직위원의 경우에는 특정 성별이 위촉직 위원 수의 10분의 6을 초과하지 아니하도록 하여야 한다. ⑥ 당연직 위원의 임기는 해당 직에 재직하는 기간으로 하고, 위촉직 위원의 임기는 위촉일로부터 2년으로 하되, 1회에 한하여 연임할 수 있다.",
+      "after": "제10조(위원회의 설치 및 구성) ① 기금의 운용 및 관리에 관한 사항을 심의하기 위하여 영덕군 지역발전기금 운용심의위원회(이하 “위원회”라 한다)를 둔다. ② 위원회는 위원장과 부위원장 각 1명을 포함한 10명 이내의 위원으로 구성하되 민간전문가를 3분의 1이상 참여토록 한다. ③ 위원장은 부군수가 되고, 부위원장은 위원 중에서 호선한다. ④ 위원은 다음 각 호의 어느 하나에 해당하는 사람 중에서 군수가 임명 또는 위촉한다. <개정 2026.11.9.> 1. 기획조정실장ㆍ에너지산업과장ㆍ주민복지과장 2. 영덕군의회 의장이 추천하는 군의원 3. 기금운용 또는 기금 관련분야에 관한 전문지식을 갖춘 민간 전문가 ⑤ 위촉직위원의 경우에는 특정 성별이 위촉직 위원 수의 10분의 6을 초과하지 아니하도록 하여야 한다. ⑥ 당연직 위원의 임기는 해당 직에 재직하는 기간으로 하고, 위촉직 위원의 임기는 위촉일로부터 2년으로 하되, 1회에 한하여 연임할 수 있다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…은 다음 각 호의 어느 하나에 해당하는 사람 중에서 군수가 임명 또는 위촉한다. ",
+            "changed": "",
+            "suffix": "1. 기획예산실장ㆍ일자리경제과장ㆍ주민복지과장 2. 영덕군의회 의장이 추천하는 군의…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…은 다음 각 호의 어느 하나에 해당하는 사람 중에서 군수가 임명 또는 위촉한다. ",
+            "changed": "<개정 2026.11.9.>",
+            "suffix": " 1. 기획조정실장ㆍ에너지산업과장ㆍ주민복지과장 2. 영덕군의회 의장이 추천하는 군…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…음 각 호의 어느 하나에 해당하는 사람 중에서 군수가 임명 또는 위촉한다. 1. ",
+            "changed": "기획예산실장",
+            "suffix": "ㆍ일자리경제과장ㆍ주민복지과장 2. 영덕군의회 의장이 추천하는 군의원 3. 기금운용…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…하는 사람 중에서 군수가 임명 또는 위촉한다. <개정 2026.11.9.> 1. ",
+            "changed": "기획조정실장",
+            "suffix": "ㆍ에너지산업과장ㆍ주민복지과장 2. 영덕군의회 의장이 추천하는 군의원 3. 기금운용…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…어느 하나에 해당하는 사람 중에서 군수가 임명 또는 위촉한다. 1. 기획예산실장ㆍ",
+            "changed": "일자리경제과장",
+            "suffix": "ㆍ주민복지과장 2. 영덕군의회 의장이 추천하는 군의원 3. 기금운용 또는 기금 관…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…에서 군수가 임명 또는 위촉한다. <개정 2026.11.9.> 1. 기획조정실장ㆍ",
+            "changed": "에너지산업과장",
+            "suffix": "ㆍ주민복지과장 2. 영덕군의회 의장이 추천하는 군의원 3. 기금운용 또는 기금 관…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 3
     }
   ],
+  "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
   "impact_level": "normal",
-  "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%A7%80%EC%97%AD%EB%B0%9C%EC%A0%84%EA%B8%B0%EA%B8%88%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%9A%A9%EC%A1%B0%EB%A1%80"
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1726315"
 }

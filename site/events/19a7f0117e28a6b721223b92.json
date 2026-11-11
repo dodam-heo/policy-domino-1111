@@ -1,0 +1,25 @@
+{
+  "id": "ordin|2232687|2182891",
+  "title": "삼척시 행정기구 및 정원 규칙",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "강원특별자치도 삼척시",
+  "published_at": "2026-11-06",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182891",
+  "category": "조직·인력",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2165559"
+}
