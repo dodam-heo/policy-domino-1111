@@ -584,6 +584,19 @@
         append(item,detail);
       }
       if(proof?.source_url)append(item,link(proof.source_url,"공식 판본 확인"));
+      if (key==="ripple" && axis.evidence?.length>1) {
+        const sources=create("details","impact-axis-detail");
+        append(sources,create("summary","","실제 연결된 공식 규정·사업 "+num(axis.evidence.length-1)+"건"));
+        for(const edge of axis.evidence.slice(1)){
+          const entry=create("div","impact-path-evidence");
+          append(entry,create("strong","",edge.reason||edge.source_title||"연결 근거"));
+          if(edge.article)append(entry,create("span","",edge.article));
+          if(edge.before)append(entry,create("p","",compact(edge.before,155)));
+          append(entry,link(edge.source_url,"공식 사업·규정 근거"));
+          append(sources,entry);
+        }
+        append(item,sources);
+      }
       append(breakdown,item);
     }
     append(section,breakdown);
