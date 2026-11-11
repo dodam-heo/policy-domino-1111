@@ -9,6 +9,8 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181379",
   "category": "기타 제·개정",
+  "primary_change_summary": "제000000조 · 신설 → <신설 2026.10.30.>",
+  "priority_reasons": [],
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -489,6 +491,6 @@
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2136577"
 }

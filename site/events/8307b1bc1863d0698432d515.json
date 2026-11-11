@@ -9,6 +9,12 @@
   "revision": "전부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181785",
   "category": "급여·지원기준",
+  "primary_change_summary": "제1조 · 고령과 → 고령ㆍ",
+  "priority_reasons": [
+    "지원대상·자격·선정 기준 변경",
+    "요율·수수료·부담금 변경",
+    "급여·지원금·소득 기준 변경"
+  ],
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [

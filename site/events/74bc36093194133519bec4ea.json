@@ -9,6 +9,8 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/행정규칙/%EC%9A%B0%EC%88%98%20%ED%95%B4%EC%99%B8%EC%9D%B8%EC%9E%AC%20%EA%B8%B0%EC%A4%80%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B3%A0%EC%8B%9C",
   "category": "행정절차·인허가",
+  "primary_change_summary": "별표 0001 (K-Tech Pass 확인서) · ? → －",
+  "priority_reasons": [],
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -163,6 +165,6 @@
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000257230"
 }

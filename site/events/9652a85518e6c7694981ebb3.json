@@ -9,6 +9,8 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182853",
   "category": "공공재정·요율",
+  "primary_change_summary": "제1조 · 그 산하기관장을 → 하부행정기관을",
+  "priority_reasons": [],
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -110,6 +112,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1583337"
 }

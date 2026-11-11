@@ -9,6 +9,10 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180625",
   "category": "급여·지원기준",
+  "primary_change_summary": "제6조 · 사립의 초등학교ㆍ중학교에 대한 다음 각 목에 관한 사항 가. 「학교시설사업 촉진법」 제5조의2제1항에 따른 해당 학교시설사업의 건축등(제 → 삭제 <2026.12.30.>",
+  "priority_reasons": [
+    "급여·지원금·소득 기준 변경"
+  ],
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [

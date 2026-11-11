@@ -9,6 +9,8 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182325",
   "category": "기타 제·개정",
+  "primary_change_summary": "제7조 · 행정안전국장을 → 행정자치국장을",
+  "priority_reasons": [],
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [

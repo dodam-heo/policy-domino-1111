@@ -9,6 +9,8 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180409",
   "category": "급여·지원기준",
+  "primary_change_summary": "제3조 · 신설 → <개정 2026. 10. 28.>",
+  "priority_reasons": [],
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -285,6 +287,6 @@
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1852705"
 }

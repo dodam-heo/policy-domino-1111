@@ -9,6 +9,8 @@
   "revision": "타법개정",
   "url": "https://www.law.go.kr/법령/%EC%97%AC%EC%88%98%EC%84%B8%EA%B3%84%EB%B0%95%EB%9E%8C%ED%9A%8C%20%EA%B8%B0%EB%85%90%20%EB%B0%8F%20%EC%82%AC%ED%9B%84%ED%99%9C%EC%9A%A9%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
   "category": "행정절차·인허가",
+  "primary_change_summary": "제11조의2 · 도(道)와 → 통합특별시와",
+  "priority_reasons": [],
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -293,6 +295,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/법령/%EC%97%AC%EC%88%98%EC%84%B8%EA%B3%84%EB%B0%95%EB%9E%8C%ED%9A%8C%20%EA%B8%B0%EB%85%90%20%EB%B0%8F%20%EC%82%AC%ED%9B%84%ED%99%9C%EC%9A%A9%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9"
 }

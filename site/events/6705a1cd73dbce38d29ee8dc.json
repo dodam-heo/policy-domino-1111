@@ -9,6 +9,8 @@
   "revision": "타법개정",
   "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C%EA%B5%90%EC%9C%A1%EC%B2%AD%20%EA%B3%B5%EB%AC%B4%EC%9B%90%20%ED%96%89%EB%8F%99%EA%B0%95%EB%A0%B9",
   "category": "기타 제·개정",
+  "primary_change_summary": "별표 0001의00 (금품ㆍ향응수수 관련 징계양정 기준) · · → ㆍ",
+  "priority_reasons": [],
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -869,6 +871,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C%EA%B5%90%EC%9C%A1%EC%B2%AD%20%EA%B3%B5%EB%AC%B4%EC%9B%90%20%ED%96%89%EB%8F%99%EA%B0%95%EB%A0%B9"
 }

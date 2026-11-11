@@ -9,6 +9,8 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182777",
   "category": "공공재정·요율",
+  "primary_change_summary": "제3조 · 일자리재정국장, 도시주택정책실장 → 도시정책실장",
+  "priority_reasons": [],
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -67,6 +69,6 @@
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1811911"
 }

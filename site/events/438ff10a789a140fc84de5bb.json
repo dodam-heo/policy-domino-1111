@@ -9,6 +9,10 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181251",
   "category": "급여·지원기준",
+  "primary_change_summary": "제6조 · 10 → 20",
+  "priority_reasons": [
+    "급여·지원금·소득 기준 변경"
+  ],
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -53,6 +57,6 @@
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "normal",
+  "impact_level": "high",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1884499"
 }

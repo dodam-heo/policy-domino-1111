@@ -9,6 +9,8 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B5%90%EC%9C%A1%EB%B9%84%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84%20%EC%86%8C%EA%B4%80%20%EA%B3%B5%EB%AC%B4%EC%9A%A9%20%EC%B0%A8%EB%9F%89%20%EA%B4%80%EB%A6%AC%20%EA%B7%9C%EC%B9%99",
   "category": "행정절차·인허가",
+  "primary_change_summary": "별표 0000의00 (차량의 차종·차형·배정대상·기준정수 및 차량 관리·운행 기준) · · → ㆍ",
+  "priority_reasons": [],
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -337,6 +339,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B5%90%EC%9C%A1%EB%B9%84%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84%20%EC%86%8C%EA%B4%80%20%EA%B3%B5%EC%9A%A9%EC%B0%A8%EB%9F%89%20%EA%B4%80%EB%A6%AC%20%EA%B7%9C%EC%B9%99"
 }

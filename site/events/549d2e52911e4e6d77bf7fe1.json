@@ -9,6 +9,10 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000266578",
   "category": "기타 제·개정",
+  "primary_change_summary": "본문 · 장기 재활용목표율 → 장기재활용목표율",
+  "priority_reasons": [
+    "법정 의무·제재 기준 변경"
+  ],
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [

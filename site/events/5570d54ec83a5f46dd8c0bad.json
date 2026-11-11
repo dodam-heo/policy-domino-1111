@@ -9,6 +9,8 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EA%B8%B0%EA%B4%80%EC%83%9D%EB%AA%85%EC%9C%A4%EB%A6%AC%EC%9C%84%EC%9B%90%ED%9A%8C%20%ED%8F%89%EA%B0%80%C2%B7%EC%9D%B8%EC%A6%9D%20%EC%A0%88%EC%B0%A8%20%EB%B0%8F%20%EB%B0%A9%EB%B2%95%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B3%A0%EC%8B%9C",
   "category": "행정절차·인허가",
+  "primary_change_summary": "별표 0001 (기관생명윤리위원회 평가·인증 신청서) · ①희망 │1순위 │ 참여연도 ├───┼────────────────────────────────────────────── │2순위 │ ├ → 삭제",
+  "priority_reasons": [],
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -351,6 +353,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EA%B8%B0%EA%B4%80%EC%83%9D%EB%AA%85%EC%9C%A4%EB%A6%AC%EC%9C%84%EC%9B%90%ED%9A%8C%20%ED%8F%89%EA%B0%80%C2%B7%EC%9D%B8%EC%A6%9D%20%EC%A0%88%EC%B0%A8%20%EB%B0%8F%20%EB%B0%A9%EB%B2%95%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B3%A0%EC%8B%9C"
 }

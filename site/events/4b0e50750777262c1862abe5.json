@@ -9,6 +9,8 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=law&type=HTML&MST=291867",
   "category": "행정절차·인허가",
+  "primary_change_summary": "별표 0002 (행정처분의 기준(제43조 관련)) · 2022. 1. 17. → 2026. 11. 10.",
+  "priority_reasons": [],
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -977,6 +979,6 @@
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=law&type=HTML&MST=269047"
 }

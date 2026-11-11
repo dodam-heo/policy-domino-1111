@@ -9,6 +9,10 @@
   "revision": "제정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000280632",
   "category": "급여·지원기준",
+  "primary_change_summary": "첨부 1 · - 1 - → 삭제",
+  "priority_reasons": [
+    "지원대상·자격·선정 기준 변경"
+  ],
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [

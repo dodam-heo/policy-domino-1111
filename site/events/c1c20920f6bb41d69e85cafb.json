@@ -9,6 +9,8 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%B6%A9%EC%B2%AD%EA%B4%91%EC%97%AD%EC%97%B0%ED%95%A9%20%EA%B3%B5%EB%AC%B4%EA%B5%AD%EC%99%B8%EC%B6%9C%EC%9E%A5%20%EC%A1%B0%EB%A1%80",
   "category": "행정절차·인허가",
+  "primary_change_summary": "별표 0003의00 (공무국외출장 심의결정서) · · → ㆍ",
+  "priority_reasons": [],
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -89,6 +91,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%B6%A9%EC%B2%AD%EA%B4%91%EC%97%AD%EC%97%B0%ED%95%A9%20%EA%B3%B5%EB%AC%B4%EA%B5%AD%EC%99%B8%EC%B6%9C%EC%9E%A5%20%EC%A1%B0%EB%A1%80"
 }

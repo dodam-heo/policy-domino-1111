@@ -9,6 +9,13 @@
   "revision": "전부개정",
   "url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EA%B5%90%EC%9C%A1%EA%B8%89%EC%97%AC%EC%9D%98%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
   "category": "급여·지원기준",
+  "primary_change_summary": "본문 · * → ※",
+  "priority_reasons": [
+    "공식 사업·기관 업무의 변경 조문 인용 확인",
+    "급여·지원금·소득 기준 변경",
+    "지원대상·자격·선정 기준 변경",
+    "법정 의무·제재 기준 변경"
+  ],
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [

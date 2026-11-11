@@ -9,6 +9,8 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000287864",
   "category": "기타 제·개정",
+  "primary_change_summary": "별표 0002 (악취검사기관 현지평가서) · 대기환경기사 → 기술책임자",
+  "priority_reasons": [],
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -172,6 +174,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%95%85%EC%B7%A8%EA%B2%80%EC%82%AC%EA%B8%B0%EA%B4%80%EC%9D%98%20%EC%A7%80%EC%A0%95%20%EB%B0%8F%20%EA%B4%80%EB%A6%AC%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%97%85%EB%AC%B4%EC%B2%98%EB%A6%AC%EA%B7%9C%EC%A0%95"
 }

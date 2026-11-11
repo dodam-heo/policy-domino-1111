@@ -9,6 +9,8 @@
   "revision": "타법개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180595",
   "category": "기타 제·개정",
+  "primary_change_summary": "별표 0000 (특수지 근무수당 지급대상 지역과 기관 및 등급별 구분표(제2조 관련)) · 정선읍 수미길 7 정선초등학교가수분교장 → 삭제",
+  "priority_reasons": [],
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -109,6 +111,6 @@
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2082619"
 }

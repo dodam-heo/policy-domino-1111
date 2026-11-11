@@ -9,6 +9,8 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000286976",
   "category": "행정절차·인허가",
+  "primary_change_summary": "본문 · 2024.12.31. → 2028.12.31.",
+  "priority_reasons": [],
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -58,7 +60,14 @@
   ],
   "institutions": [],
   "dependent_rules": [],
-  "policy_analysis": null,
+  "policy_analysis": {
+    "explanation": "보령시노인통계의 작성 변경 연월일이 2024년 12월 31일에서 2028년 12월 31일로 변경되었습니다.",
+    "old_quote": "본문: 1. 통계의 명칭 : 보령시노인통계 2. 통계작성기관의 명칭 : 충청남도 보령시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제693003호 [2020.12.18.] 4. 통계작성의 변경 연월일 : 2024.12.31. 5. 통계작성의 변경 내용과 사유: [표: 공식 첨부 참조]",
+    "new_quote": "본문: 1. 통계의 명칭 : 보령시노인통계 2. 통계작성기관의 명칭 : 충청남도 보령시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제693003호 [2020.12.18.] 4. 통계작성의 변경 연월일 : 2028.12.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+    "program_quote": "본문: 1. 통계의 명칭 : 보령시노인통계 2. 통계작성기관의 명칭 : 충청남도 보령시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제693003호 [2020.12.18.] 4. 통계작성의 변경 연월일 : 2028.12.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+    "verified": true,
+    "model": "gemini-3.5-flash-lite"
+  },
   "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000251036"
 }

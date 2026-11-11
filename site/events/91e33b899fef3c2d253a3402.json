@@ -9,6 +9,8 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EB%B9%84%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84%20%EC%9E%AC%EB%AC%B4%ED%9A%8C%EA%B3%84%20%EA%B7%9C%EC%B9%99",
   "category": "급여·지원기준",
+  "primary_change_summary": "별표 0001의00 (회계관계공무원의 관직지정) · 신설 → [시행일: 2027. 3. 1.] 본청의 지정관직 중 기획운영부장을 신설하는 부분",
+  "priority_reasons": [],
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -6761,6 +6763,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EB%B9%84%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84%20%EC%9E%AC%EB%AC%B4%ED%9A%8C%EA%B3%84%20%EA%B7%9C%EC%B9%99"
 }

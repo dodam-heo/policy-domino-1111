@@ -9,6 +9,8 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/행정규칙/%EB%B6%80%EB%8B%B9%ED%95%9C%20%ED%91%9C%EC%8B%9C%20%EB%98%90%EB%8A%94%20%EA%B4%91%EA%B3%A0%EB%A1%9C%20%EB%B3%B4%EC%A7%80%20%EC%95%84%EB%8B%88%ED%95%98%EB%8A%94%20%EC%8B%9D%ED%92%88%EB%93%B1%EC%9D%98%20%EA%B8%B0%EB%8A%A5%EC%84%B1%20%ED%91%9C%EC%8B%9C%20%EB%98%90%EB%8A%94%20%EA%B4%91%EA%B3%A0%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%A0%95",
   "category": "행정절차·인허가",
+  "primary_change_summary": "별표 0000 (기능성을 나타내는 원재료의 일반식품 사용 신청서) · 수입건강 → 수입건강기",
+  "priority_reasons": [],
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -107,6 +109,6 @@
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000248274"
 }

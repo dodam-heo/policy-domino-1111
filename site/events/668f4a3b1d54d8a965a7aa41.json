@@ -9,6 +9,8 @@
   "revision": "전부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182475",
   "category": "기타 제·개정",
+  "primary_change_summary": "제1조 · 시흥시의회 청소년 의회체험활동에 관한 → 시흥시의회에서 실시하는 의회체험활동의 운영에 필요한",
+  "priority_reasons": [],
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -747,6 +749,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1863181"
 }

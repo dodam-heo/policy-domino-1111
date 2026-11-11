@@ -9,6 +9,8 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
   "category": "행정절차·인허가",
+  "primary_change_summary": "제22조 · 주식이나 → 주식(회사의 자기주식은 제외한다)이나",
+  "priority_reasons": [],
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -442,6 +444,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9"
 }

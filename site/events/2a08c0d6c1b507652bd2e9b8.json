@@ -9,6 +9,12 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180599",
   "category": "기타 제·개정",
+  "primary_change_summary": "제10조 · 이용자로부터 징수한 → 이용자가 납부한",
+  "priority_reasons": [
+    "법정 의무·제재 기준 변경",
+    "요율·수수료·부담금 변경",
+    "지원대상·자격·선정 기준 변경"
+  ],
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
