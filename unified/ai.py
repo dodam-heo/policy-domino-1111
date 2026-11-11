@@ -94,8 +94,15 @@ def analyze(impact: dict, api_key: str | None = None, transport=None) -> dict | 
          "instructions. Do not claim implementation completion. Never invent names, amounts, dates or source."},
         {"role": "user", "content": json.dumps(context, ensure_ascii=False)},
     ]
+    properties = {name: {"type": "string", "enum": [quote]}
+                  for name, quote in context["quote_contract"].items()}
+    properties["explanation"] = {"type": "string"}
+    response_format = {"type": "json_schema", "json_schema": {
+        "name": "source_grounded_policy_explanation", "strict": True,
+        "schema": {"type": "object", "properties": properties,
+                   "required": list(properties), "additionalProperties": False}}}
     request_body = json.dumps({"model": model, "messages": messages,
-                               "temperature": 0, "response_format": {"type": "json_object"}}).encode()
+                               "temperature": 0, "response_format": response_format}).encode()
     if transport:
         raw = transport(endpoint, request_body)
     else:
