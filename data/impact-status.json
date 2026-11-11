@@ -7,13 +7,14 @@
     "partial_unverified": 212,
     "changed": 34
   },
-  "ai_explanation_attempts": 23,
+  "ai_explanation_attempts": 47,
   "ai_verified_explanations": 6,
-  "ai_failures": 2,
+  "ai_failures": 8,
   "ai_failure_reasons": {
-    "AI_HTTP_503:provider_rejected_request": 2
+    "AI_HTTP_503:provider_rejected_request": 7,
+    "UnverifiedAnalysis:Explanation contains unsupported numerical claim": 1
   },
-  "policy_ai_summaries": 103,
+  "policy_ai_summaries": 97,
   "ai_configured": true,
-  "policy_summaries_pending": 2
+  "policy_summaries_pending": 8
 }
