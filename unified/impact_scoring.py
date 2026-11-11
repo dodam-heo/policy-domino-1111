@@ -201,7 +201,7 @@ def evaluate(doc, comparison, actions=None, rules=None):
             # A partial or incomplete original can establish a positive lower
             # bound only for a real paired numeric standard, not for vague text.
             if status == "changed" or (
-                score == 40 and "실질 기준" in ev["reason"]
+                score == 40 and ("실질 지급 기준" in ev["reason"] or "기준 수치 변경" in ev["reason"])
                 and (str(ev["article"]).startswith("표 ") or
                      bool(re.search(r"\d", ev["before"]) and re.search(r"\d", ev["after"])))
             ):
