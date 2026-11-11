@@ -22,8 +22,11 @@
         first.article+" · "+(oldFragment||"신설")+" → "+(newFragment||"삭제"):"");
     return {...raw,raw,loaded:Array.isArray(raw.changes),topic:raw.category,
       kind:/폐지/.test(raw.revision||'')?'repealed':/제정|신규|신설/.test(raw.revision||'')?'new':'amended',
-      headline:analysis?.explanation||factualChange||(raw.change_count||changes.length?
-        (first?.article||"본문")+" 등 "+(raw.change_count||changes.length)+"개 항목 변경 · 상세 대조 확인":stageLabel(raw.comparison_status)),
+      headline:raw.primary_change_summary||(
+        raw.impact_assessment?.featured_change_indices?.length ? factualChange : "")||(
+        raw.change_count||changes.length?
+        "원문 변경 "+(raw.change_count||changes.length)+"건 · 실질적인 기준 변경은 상세 대조에서 확인":
+        stageLabel(raw.comparison_status)),
       verification:raw.comparison_status==='changed'?'verified':'partial',changes,
       source_documents:[raw.id],source_count:1,members:[{id:raw.id,title:raw.title,kind:raw.kind,url:raw.url}],
       institution_count:raw.agency_names?.length??new Set((raw.institutions||[]).map(x=>x.agency)).size,
