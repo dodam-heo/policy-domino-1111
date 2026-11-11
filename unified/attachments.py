@@ -17,6 +17,7 @@ import zipfile
 
 BASE = "https://www.law.go.kr/LSW/"
 MAX_ATTACHMENT_BYTES = 12_000_000
+MAX_EXTRACTED_TEXT = 250_000
 
 
 def normalized_url(raw: str) -> str:
@@ -45,10 +46,17 @@ def fetch(url: str, transport=None):
         return response.read(MAX_ATTACHMENT_BYTES+1)
 
 
-def pdf_text(raw: bytes) -> str:
+def pdf_extract(raw: bytes) -> tuple[str, bool]:
     from pypdf import PdfReader
     pdf = PdfReader(io.BytesIO(raw), strict=False)
-    return "\n".join((page.extract_text() or "") for page in pdf.pages[:80]).strip()
+    # Preserve text from the first 80 pages. Never certify a longer file as
+    # fully compared unless all its pages were actually processed.
+    return ("\n".join((page.extract_text() or "") for page in pdf.pages[:80]).strip(),
+            len(pdf.pages) > 80)
+
+
+def pdf_text(raw: bytes) -> str:
+    return pdf_extract(raw)[0]
 
 
 def docx_text(raw: bytes) -> str:
@@ -151,8 +159,9 @@ def resolve_attachments(root: Path, original: dict,
                 tmp.write_bytes(gzip.compress(data, mtime=0))
                 tmp.replace(dest)
             row.update({"sha256": sha, "format": fmt, "size": len(data)})
+            pages_truncated = False
             if fmt == "pdf":
-                text = pdf_text(data)
+                text, pages_truncated = pdf_extract(data)
             elif fmt == "docx":
                 text = docx_text(data)
             elif fmt == "hwpx":
@@ -161,14 +170,18 @@ def resolve_attachments(root: Path, original: dict,
             else:
                 text = ""
             text = re.sub(r"[ \t]+", " ", text)
-            # Image-backed, unsupported HWP and unreadable tables stay partial.
-            if len(text.strip()) < 100:
+            # A short *structured* HWPX table is valid evidence too; scanner
+            # images and unstructured short text remain unresolved.
+            structured_hwpx = fmt == "hwpx" and bool(row.get("table_cells"))
+            if len(text.strip()) < 100 and not structured_hwpx:
                 row["reason"] = "insufficient_verified_extractable_text"
                 unresolved.append(row)
                 continue
-            clauses["첨부 "+str(n+1)] = text[:15000]
-            if len(text) > 15000:
+            clauses["첨부 "+str(n+1)] = text[:MAX_EXTRACTED_TEXT]
+            if len(text) > MAX_EXTRACTED_TEXT:
                 unresolved.append({"index": n+1, "reason": "attachment_text_truncated"})
+            if pages_truncated:
+                unresolved.append({"index": n+1, "reason": "attachment_pages_truncated"})
             row.update({"verified_text": True, "text_sha256":
                 hashlib.sha256(text.encode("utf8")).hexdigest()})
         except Exception as exc:
