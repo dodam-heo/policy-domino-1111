@@ -15,6 +15,15 @@ const scopedAgencyCounts=actions=>new Map(actions.map(a=>[a.agency,1]));
   assert.equal(view.filterEvents([education,housing],{mode:'impact'}).length,1);
   assert.equal(view.filterEvents([education,housing],{category:'급여·지원기준',source:'admrul',query:'수원시'}).length,1);
   assert.equal(view.filterEvents([education,housing],{mode:'all'}).length,2);
+  const filterHtml=fs.readFileSync('site/index.html','utf8');
+  const requiredModes=['all','new','repealed','impact'];
+  assert.deepEqual(Array.from(view.MODES),requiredModes);
+  const positions=requiredModes.map(id=>filterHtml.indexOf('id="mode-'+id+'"'));
+  assert.ok(positions.every(position=>position>=0));
+  assert.ok(positions.every((position,i)=>i===0||position>positions[i-1]));
+  assert.ok(!filterHtml.includes('id="mode-amended"'));
+  assert.ok(filterHtml.includes('>영향도 큼</button>'));
+  assert.ok(!filterHtml.includes('영향도 큼만 보기'));
   assert.equal(view.filterEvents([education,housing],{mode:'all',verification:'changed'}).length,0);
   assert.equal(view.filterEvents([education,housing],{mode:'all',verification:'partial'}).length,0);
   const change=eventView({id:'annual',title:'지원기준 고시',category:'급여·지원기준',

@@ -1,7 +1,7 @@
 /* Policy list navigation by priority, status, and legal source. */
 (function (global) {
   "use strict";
-  const MODES=Object.freeze(["impact","all","new","amended","repealed"]);
+  const MODES=Object.freeze(["all","new","repealed","impact"]);
   function category(event) {
     if(event.kind==="new")return "신규 제정";
     if(event.kind==="repealed")return "폐지";
