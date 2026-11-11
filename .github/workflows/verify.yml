@@ -160,6 +160,35 @@ jobs:
               detail=json.loads(path.read_text("utf8"))
               assert item["id"]==detail["id"], "Detail identity mismatch"
               assert item.get("priority_reasons")==detail.get("priority_reasons")
+          assert all(e.get("impact_assessment", {}).get("scoring_version")
+                     == "substance40-scope35-ripple25-v1" for e in events), (
+                     "Published events must all use the new 100-point model")
+          assert all(e.get("impact_assessment", {}).get("score_min", -1)
+                     <= e.get("impact_assessment", {}).get("score_max", 0)
+                     for e in events), "A lower bound cannot exceed a possible score"
+          for e in events:
+              assessment=e["impact_assessment"]
+              axes=assessment["axes"]
+              sub=axes["substance"]["score"]
+              if assessment["classification"]=="high":
+                  assert assessment["score_min"]>=65 and sub is not None and sub>=30
+              if any(v["score"] is None for v in axes.values()):
+                  assert not assessment["score_complete"]
+          income=[e for e in events if ("중위소득" in e["title"] or
+                                       "교육급여" in e["title"] or
+                                       "주거급여" in e["title"]) and
+                  "2027" in e["title"]]
+          for e in income:
+              a=e["impact_assessment"]
+              print("NATIONAL_STANDARD_SCORE",json.dumps({
+                  "title":e["title"],"classification":a["classification"],
+                  "min":a["score_min"],"max":a["score_max"],
+                  "axes":{k:v["score"] for k,v in a["axes"].items()}},
+                  ensure_ascii=False))
+          print("PRIORITY_COUNTS",json.dumps({
+              "high":sum(e["impact_assessment"]["classification"]=="high" for e in events),
+              "pending":sum(e["impact_assessment"]["classification"]=="pending" for e in events),
+              "normal":sum(e["impact_assessment"]["classification"]=="normal" for e in events)},ensure_ascii=False))
           print("UI_ACCEPTANCE",json.dumps({
               "total":len(events),"high_priority":len(high),
               "with_agency_actions":len(linked),"confirmed_changes":len(confirmed),
