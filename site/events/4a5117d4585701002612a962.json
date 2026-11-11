@@ -11,27 +11,28 @@
   "category": "행정절차·인허가",
   "primary_change_summary": "",
   "priority_reasons": [
+    "지원 자격·법정 권리·의무의 실질 문구 변경",
     "중앙행정규칙이 관할하는 전국 특정 분야"
   ],
   "impact_assessment": {
-    "classification": "pending",
-    "score": 25,
-    "score_min": 25,
+    "classification": "high",
+    "score": 65,
+    "score_min": 65,
     "score_max": 90,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
-    "possible_high": true,
+    "possible_high": false,
     "axes": {
       "substance": {
-        "score": null,
-        "status": "pending",
+        "score": 40,
+        "status": "confirmed",
         "evidence": [
           {
-            "reason": "종전·현행 원문 비교 대기",
-            "article": "",
-            "before": "",
-            "after": "",
+            "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+            "article": "표 3 · 10. 한센사업 대상자 현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+            "before": "10. 한센사업 대상자 현황",
+            "after": "[삭제]",
             "source_title": "통계작성의 변경 승인(협의) 고시(경기도연천군기본통계)",
             "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%97%B0%EC%B2%9C%EA%B5%B0%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%29"
           }
@@ -66,17 +67,1723 @@
         ]
       }
     },
-    "featured_change_indices": [],
+    "featured_change_indices": [
+      31,
+      63,
+      72
+    ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "본문",
+      "before": "1. 통계의 명칭: 경기도연천군기본통계(2차) 2. 통계작성기관의 명칭: 경기도 연천군 3. 통계작성승인(협의)번호 [작성승인(협의)일]: 제638001[2007. 5. 4.] 4. 통계작성의 변경 연월일: 2025.08.31. 5. 통계작성의 변경 내용과 사유: 붙임참조 - 표준화 서식 반영하여 통계표항목, 자료출처, 단위, 주석 등 변경 [표: 공식 첨부 참조] [표: 공식 첨부 참조] [표: 공식 첨부 참조] [표: 공식 첨부 참조]",
+      "after": "1. 통계의 명칭 : 경기도연천군기본통계 2. 통계작성기관의 명칭 : 경기도 연천군 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제638001호 [2007.05.04.] 4. 통계작성의 변경 연월일 : 2026.12.31. 5. 통계작성의 변경 내용과 사유 [표: 공식 첨부 참조]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "1. 통계의 명칭: 경기도연천군기본통계",
+            "changed": "(2차)",
+            "suffix": " 2. 통계작성기관의 명칭: 경기도 연천군 3. 통계작성승인(협의)번호 [작성승인…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "1. 통계의 명칭 : 경기도연천군기본통계 ",
+            "changed": "",
+            "suffix": "2. 통계작성기관의 명칭 : 경기도 연천군 3. 통계작성승인(협의)번호 [작성승인…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 경기도 연천군 3. 통계작성승인(협의)번호 [작성승인(협의)일]: 제638001",
+            "changed": "",
+            "suffix": "[2007. 5. 4.] 4. 통계작성의 변경 연월일: 2025.08.31. 5.…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…경기도 연천군 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제638001",
+            "changed": "호",
+            "suffix": " [2007.05.04.] 4. 통계작성의 변경 연월일 : 2026.12.31. …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…경기도 연천군 3. 통계작성승인(협의)번호 [작성승인(협의)일]: 제638001[",
+            "changed": "2007. 5. 4.",
+            "suffix": "] 4. 통계작성의 변경 연월일: 2025.08.31. 5. 통계작성의 변경 내용…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 연천군 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제638001호 [",
+            "changed": "2007.05.04.",
+            "suffix": "] 4. 통계작성의 변경 연월일 : 2026.12.31. 5. 통계작성의 변경 내…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…협의)일]: 제638001[2007. 5. 4.] 4. 통계작성의 변경 연월일: ",
+            "changed": "2025.08.31.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유: 붙임참조 - 표준화 서식 반영하여 통계표항목…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…] : 제638001호 [2007.05.04.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2026.12.31.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 [표: 공식 첨부 참조]",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 통계작성의 변경 연월일: 2025.08.31. 5. 통계작성의 변경 내용과 사유",
+            "changed": ": 붙임참조 - 표준화 서식 반영하여 통계표항목, 자료출처, 단위, 주석 등 변경",
+            "suffix": " [표: 공식 첨부 참조] [표: 공식 첨부 참조] [표: 공식 첨부 참조] [표…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…계작성의 변경 연월일 : 2026.12.31. 5. 통계작성의 변경 내용과 사유 ",
+            "changed": "",
+            "suffix": "[표: 공식 첨부 참조]",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 반영하여 통계표항목, 자료출처, 단위, 주석 등 변경 [표: 공식 첨부 참조] ",
+            "changed": "[표: 공식 첨부 참조] [표: 공식 첨부 참조] [표: 공식 첨부 참조]",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 2026.12.31. 5. 통계작성의 변경 내용과 사유 [표: 공식 첨부 참조]",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 6,
+      "substance_score": 10
+    },
+    {
+      "article": "표 1 · 작성 기간 · 변경 전",
+      "before": "[신설]",
+      "after": "작성기준: 2023.12.31. (단, 교육부문 2024. 4. 1.) 대상기간: 2023. 1.1.~12.31.",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 1 · 작성 기간 · 변경 후",
+      "before": "[신설]",
+      "after": "작성기준: 2024.12.31. (단, 교육부문 2025. 4. 1.) 대상기간: 2024. 1.1.~12.31.",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 1 · 작성 항목 · 변경 사유",
+      "before": "[신설]",
+      "after": "ㅇ 45개 항목 수정 - 표준서식 및 경기도 작성 서식 준용 통계표 구성 변경(4) ․ Ⅶ-2. 사업체 규모별(중분류별) 광업 및 제조업 ․ Ⅶ-3. 제조업 중분류별 사업체수 및 종사자수 ․ Ⅶ-4. 석유류 소비량 ․ Ⅷ-3. 제조업종별 전력사용량 - 표준서식 준용 하위항목 수정(3) ․ Ⅻ-9. 주요 법정전염병 발생 및 사망 ․ -6. 적령아동 취학(입학상황) ․ -7. 사설학원 - 출처 수정(26) - 주석 수정(5) 등",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 1 · 작성 항목 · 변경 전",
+      "before": "[신설]",
+      "after": "18개 부문 190개 항목",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 1 · 작성 항목 · 변경 후",
+      "before": "[신설]",
+      "after": "18개 부문 190개 항목 (변동 없음)",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 경제활동인구 총괄 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 경제활동인구 총괄",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 공무원 총괄 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 공무원 총괄",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 광업 및 제조업 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 광업 및 제조업",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 국세징수 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 국세징수",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 농가 및 농가인구 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 농가 및 농가인구",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 발전 현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 발전 현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 발전 현황 · 변경승인 내역",
+      "before": "(단위변경) 발전설비(MW)->발전설비(kW) (주석추가)2) 2023년발전설비단위변경(MW->kW)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 30
+    },
+    {
+      "article": "표 3 · 1. 산업 대분류별 사업체총괄 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 산업 대분류별 사업체총괄",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 역대 군수 명단 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 역대 군수 명단",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 연혁 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 연혁",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 위치 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 위치",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 유통업체 현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 유통업체 현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 의료기관 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 의료기관",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 인구추이 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 인구추이",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 자동차 등록 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 자동차 등록",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 주택현황 및 보급률 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 주택현황 및 보급률",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 학교총개황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 학교총개황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 1. 행정기구표 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 행정기구표",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 20
+    },
+    {
+      "article": "표 3 · 1. 환경오염물질 배출사업장 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "1. 환경오염물질 배출사업장",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 10. 공원 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "10. 공원",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 10. 교육비 특별회계 세입결산 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "10. 교육비 특별회계 세입결산",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 10. 국가유산 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "10. 국가유산",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 10. 외국인과이 혼인 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "10. 외국인과이 혼인",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 10. 채소류 생산량 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "10. 채소류 생산량",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 10. 하수도 보급률 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "10. 하수도 보급률",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 10. 한센사업 대상자 현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "10. 한센사업 대상자 현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 40
+    },
+    {
+      "article": "표 3 · 10. 화재발생 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "10. 화재발생",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 11. 결핵환자 현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "11. 결핵환자 현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 11. 교육비 특별회계 세출결산 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "11. 교육비 특별회계 세출결산",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 11. 문화공간 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "11. 문화공간",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 11. 발화요인별 화재 발생 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "11. 발화요인별 화재 발생",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 11. 특용작물 생산량 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "11. 특용작물 생산량",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 11. 하수도 사용료 부과 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "11. 하수도 사용료 부과",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 11. 하수도 사용료 부과 · 변경승인 내역",
+      "before": "(단위수정) 백만원(million won) -> 원(won) (항목변경) 하수도사용료수익(원) (주석3 추가) 3)2023년단위변경:하수도사용료수익(백만원→원)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 30
+    },
+    {
+      "article": "표 3 · 11. 하천 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "11. 하천",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 12. 과실류 생산량 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "12. 과실류 생산량",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 12. 보건소 구강보건사업 실적 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "12. 보건소 구강보건사업 실적",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 12. 장소별 화재발생 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "12. 장소별 화재발생",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 12. 장소별 화재발생 · 변경승인 내역",
+      "before": "(주석삭제) 주석2 삭제",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 30
+    },
+    {
+      "article": "표 3 · 12. 체육시설 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "12. 체육시설",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 12. 하수관서 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "12. 하수관서",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 12. 하천부지 점용 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "12. 하천부지 점용",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 13. 농업협동조합 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "13. 농업협동조합",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 13. 도로 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "13. 도로",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 13. 모자보건사업 실적 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "13. 모자보건사업 실적",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 13. 산불발생 현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "13. 산불발생 현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 13. 청소년 수련시설 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "13. 청소년 수련시설",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 14. 건강보험 적용 인구 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "14. 건강보험 적용 인구",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 14. 농업기계 보유현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "14. 농업기계 보유현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 14. 소방장비 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "14. 소방장비",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 14. 언론매체 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "14. 언론매체",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 15. 119 구급활동실적 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "15. 119 구급활동실적",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 15. 가축사육 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "15. 가축사육",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 15. 건강보험급여 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "15. 건강보험급여",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 15. 교량 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "14. 교량",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 16. 119 구조활동실적 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "16. 119 구조활동실적",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 16. 가축전염병 발생 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "16. 가축전염병 발생",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 16. 건강보험대상자 진료 실적 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "16. 건강보험대상자 진료 실적",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 40
+    },
+    {
+      "article": "표 3 · 16. 건설장비 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "15. 건설장비",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 17. 국민연금 가입자 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "17. 국민연금 가입자",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 17. 소방대상물 현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "17. 소방대상물 현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 17. 수의사 현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "17. 수의사 현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 18. 국민연금 급여 지급현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "18. 국민연금 급여 지급현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 18. 위험물제조소 설치현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "18. 위험물제조소 설치현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 18. 축산물 위생관계업소 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "18. 축산물 위생관계업소",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 19. 교통사고 건수(자동차) · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "19. 교통사고 건수(자동차)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 19. 국가보훈대상자 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "19. 국가보훈대상자",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 40
+    },
+    {
+      "article": "표 3 · 19. 임산물 생산량 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "19. 임산물 생산량",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 각 읍·면 거리표 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 각 읍·면 거리표",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 경지면적 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 경지면적",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 금융기관 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 금융기관",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 본청 공무원 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 본청 공무원",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 사업체 규모별(중분류별) 광업 및 제조업 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 사업체 규모별(중분류별) 광업 및 제조업",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 역대 부군수 명단 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 역대 부군수 명단",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 연령별 취업자 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 연령별 취업자",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 용도별 전력사용량 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 용도별 전력사용량",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 유치원 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 유치원",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 읍·면별 자동차 등록 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 읍·면별 자동차 등록",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 읍면동별 세대 및 등록인구 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 읍면동별 세대 및 등록인구",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 의료기관종사 의료인력 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 의료기관종사 의료인력",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 종사자규모별 사업체수 및 종사자수 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 종사자규모별 사업체수 및 종사자수",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 주택소유현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 주택소유현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 지방세 부담 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 지방세 부담",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 행정구역 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 행정구역",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 2. 환경오염배출사업장 단속 및 행정조치 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "2. 환경오염배출사업장 단속 및 행정조치",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 20. 국가보훈대상자 취업 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "20. 국가보훈대상자 취업",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 40
+    },
+    {
+      "article": "표 3 · 20. 수렵 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "20. 수렵",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 20. 자동차 단속 및 처리 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "20. 자동차 단속 및 처리",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 21. 국가보훈대상자 및 자녀 취학 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "21. 국가보훈대상자 및 자녀 취학",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 40
+    },
+    {
+      "article": "표 3 · 21. 수렵면허장 발급 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "21. 수렵면허장 발급",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 22. 사방사업 실적 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "22. 사방사업 실적",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 22. 사회복지시설 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "22. 사회복지시설",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 23. 노인여가복지시설 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "23. 노인여가복지시설",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 23. 조림 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "23. 조림",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 24. 노인주거복지시설 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "24. 노인주거복지시설",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 24. 불법 산림훼손 피해현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "24. 불법 산림훼손 피해현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 25. 노인의료복지시설 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "25. 노인의료복지시설",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 25. 어가 및 어가 인구(내수면 어업) · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "25. 어가 및 어가 인구(내수면 어업)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 26. 어선보유(내수면 어업) · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "26. 어선보유(내수면 어업)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 26. 재가노인복지시설 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "26. 재가노인복지시설",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 27. 국민기초생활보장 수급자 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "27. 국민기초생활보장 수급자",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 27. 친환경 농축산물 출하현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "27. 친환경 농축산물 출하현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 28. 여성폭력상담 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "28. 여성폭력상담",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 28. 화훼재배현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "28. 화훼재배현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 29. 장애인 거주시설 수 및 입소 현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "29. 장애인 거주시설 수 및 입소 현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 건축연도별 주택 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 건축연도별 주택",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 농업진흥지역 지정 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 농업진흥지역 지정",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 대기오염 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 대기오염",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 도의회 의원 명단 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 도의회 의원 명단",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 보건소 인력 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 보건소 인력",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 산업별 취업자 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 산업별 취업자",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 산업별, 읍·면별 사업체수 및 종사자수 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 산업별, 읍·면별 사업체수 및 종사자수",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 영업용 자동차 업종별 수송 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 영업용 자동차 업종별 수송",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 예금은행 예금, 대출 및 어음 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 예금은행 예금, 대출 및 어음",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 제조업 중분류별 사업체수 및 종사자수 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 제조업 중분류별 사업체수 및 종사자수",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 제조업종별 전력사용량 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 제조업종별 전력사용량",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 지방세 징수 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 지방세 징수",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 직속기관·사업소·의회사무과 공무원 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 직속기관·사업소·의회사무과 공무원",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 초등학교 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 초등학교",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 토지지목별 현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 토지지목별 현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 행정구역 및 자연부락 일람표 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 행정구역 및 자연부락 일람표",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 3. 행정리별 세대 및 인구 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "3. 행정리별 세대 및 인구",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 30. 장애인 등록현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "30. 장애인 등록현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 31. 저소득 및 한부모 가족 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "31. 저소득 및 한부모 가족",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 32. 묘지 및 봉안시설 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "32. 묘지 및 봉안시설",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 33. 방문건강관리사업실적 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "33. 방문건강관리사업실적",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 36. 어린이집 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "34. 어린이집",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 37. 사회복지자원봉사자 현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "35. 사회복지자원봉사자 현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 4. 가스 공급량 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "4. 가스 공급량",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 4. 군의회 의원 명단 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "4. 군의회 의원 명단",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 4. 보건지소 및 보건진료소 인력, 건강생활지원센터 인력 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "4. 보건지소 및 보건진료소 인력, 건강생활지원센터 인력",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 4. 석유류 소비량 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "4. 석유류 소비량",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 4. 수출입 통관 실적 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "4. 수출입 통관 실적",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 4. 식량작물 생산량(정곡) · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "4. 식량작물 생산량(정곡)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 4. 쓰레기 수거 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "4. 쓰레기 수거",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 4. 연령(5세계급별) 및 성별 인구 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "4. 연령(5세계급별) 및 성별 인구",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 4. 연면적별 주택 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "4. 연면적별 주택",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 4. 예산결산 총괄 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "4. 예산결산 총괄",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 4. 읍·면 공무원 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "4. 읍·면 공무원",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 4. 일기일수 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "4. 일기일수",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 4. 주차장 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "4. 주차장",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 4. 중학교(국·공립) · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "4. 중학교(국·공립)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 4. 직업별 취업자 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "4. 직업별 취업자",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 5. 건축허가 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "5. 건축허가",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 30
+    },
+    {
+      "article": "표 3 · 5. 기상개황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "5. 기상개황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 5. 도시가스 용도별 공급량 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "5. 도시가스 용도별 공급량",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 5. 미 곡 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "5. 미 곡",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 5. 생활폐기물 매립지 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "5. 생활폐기물 매립지",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 5. 소방공무원 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "5. 소방공무원",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 5. 의약품 등 제조업소 및 판매업소 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "5. 의약품 등 제조업소 및 판매업소",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 5. 인구동태 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "5. 인구동태",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 5. 일반고등학교(국·공립) · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "5. 일반고등학교(국·공립)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 5. 일반회계 세입예산개요 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "5. 일반회계 세입예산개요",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 5. 철도수송 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "5. 철도수송",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 6. 강수량 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "6. 강수량",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 6. 관광사업체 등록 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "6. 관광사업체 등록",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 6. 관광사업체 등록 · 변경승인 내역",
+      "before": "(주석변경) (1) 혼합여행업이 국내외여행업과 통합됨(2023년)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 30
+    },
+    {
+      "article": "표 3 · 6. 맥 류 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "6. 맥 류",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 6. 상수도 보급현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "6. 상수도 보급현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 6. 식품위생관계업소 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "6. 식품위생관계업소",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 6. 아파트 건립 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "6. 아파트 건립",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 6. 인구이동 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "6. 인구이동",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 6. 일반회계 세입결산 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "6. 일반회계 세입결산",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 6. 적령아동 취학(입학상황) · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "6. 적령아동 취학(입학상황)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 6. 퇴직 사유별 공무원 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "6. 퇴직 사유별 공무원",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 6. 폐기물 재활용률 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "6. 폐기물 재활용률",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 7. 공공하수처리시설 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "7. 공공하수처리시설",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 7. 공중위생영업소 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "7. 공중위생영업소",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 7. 관내 관공서 및 주요기관 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "7. 관내 관공서 및 주요기관",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 7. 사설학원 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "7. 사설학원",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 7. 상수도관 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "7. 상수도관",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 7. 일반회계 세출예산개요 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "7. 일반회계 세출예산개요",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 7. 잡 곡 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "7. 잡 곡",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 7. 주민등록 전입지별 인구이동 (타시도->연천군) · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "7. 주민등록 전입지별 인구이동 (타시도->연천군)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 7. 주요관광지 방문객수 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "7. 주요관광지 방문객수",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 7. 토지거래현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "7. 토지거래현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 8. 공공도서관 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "8. 공공도서관",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 8. 급수 사용량 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "8. 급수 사용량",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 8. 급수 사용량 · 변경승인 내역",
+      "before": "(단위수정) 8. 급수 사용량 -> ㎥",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 30
+    },
+    {
+      "article": "표 3 · 8. 두 류 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "8. 두 류",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 8. 민원서류 처리 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "8. 민원서류 처리",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 8. 시설녹지현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "8. 시설녹지현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 8. 예방접종 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "8. 예방접종",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 8. 용도지역 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "8. 용도지역",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 8. 일반회계 세출결산 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "8. 일반회계 세출결산",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 8. 주민등록 전출지별 인구이동 (연천군->타시도) · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "8. 주민등록 전출지별 인구이동 (연천군->타시도)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 8. 지정(법정) 관광지 현황 및 방문객수 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "8. 지정(법정) 관광지 현황 및 방문객수",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 9. 급수사용료 부과 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "9. 급수사용료 부과",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 9. 박물관 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "9. 박물관",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 9. 서 류 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "9. 서 류",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 9. 여권발급 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "9. 여권발급",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 9. 외국인 국적별 현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "9. 외국인 국적별 현황",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 9. 용도지구 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "9. 용도지구",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 9. 주요 법정전염병 발생 및 사망 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "9. 주요 법정전염병 발생 및 사망",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · 9. 특별회계 예산결산 · (2차) 2023년 기준 기본통계 (190개통계표)",
+      "before": "9. 특별회계 예산결산",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 3 · I. 연혁 · 변경승인 내역",
+      "before": "변경(27)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 30
+    }
+  ],
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
   "direct_actor_leads": [],
   "policy_analysis": null,
-  "impact_level": "pending",
-  "prior_url": ""
+  "impact_level": "high",
+  "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%97%B0%EC%B2%9C%EA%B5%B0%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%282%EC%B0%A8%29%29"
 }

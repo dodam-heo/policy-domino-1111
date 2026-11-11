@@ -69,14 +69,34 @@
     "featured_change_indices": [],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
   "changes": [],
-  "unresolved": [],
+  "unresolved": [
+    {
+      "clause": "본문",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "첨부 1",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "첨부 2",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "첨부 3",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
   "institutions": [],
   "dependent_rules": [],
   "direct_actor_leads": [],
   "policy_analysis": null,
   "impact_level": "pending",
-  "prior_url": ""
+  "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EB%8B%B4%EB%B1%83%EA%B0%91%ED%8F%AC%EC%9E%A5%EC%A7%80%20%EA%B2%BD%EA%B3%A0%EA%B7%B8%EB%A6%BC%EB%93%B1%20%ED%91%9C%EA%B8%B0%EB%82%B4%EC%9A%A9"
 }

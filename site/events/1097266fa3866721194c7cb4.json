@@ -9,26 +9,26 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EB%82%A8%EB%B6%81%EA%B5%90%EB%A5%98%ED%98%91%EB%A0%A5%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
   "category": "기타 제·개정",
-  "primary_change_summary": "",
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
   "priority_reasons": [
     "특정 지방자치단체·지역·사업에 적용"
   ],
   "impact_assessment": {
-    "classification": "pending",
+    "classification": "normal",
     "score": 15,
     "score_min": 15,
-    "score_max": 80,
+    "score_max": 40,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
-    "possible_high": true,
+    "possible_high": false,
     "axes": {
       "substance": {
-        "score": null,
-        "status": "pending",
+        "score": 0,
+        "status": "confirmed",
         "evidence": [
           {
-            "reason": "부분 대조의 근거 추가 확인 필요",
+            "reason": "실질 기준 변경 근거 미확인 · 문구 정비",
             "article": "",
             "before": "",
             "after": "",
@@ -69,45 +69,52 @@
     "featured_change_indices": [],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
-  "comparison_status": "partial_unverified",
-  "relationship": "reused_official_version_comparison",
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
   "changes": [
     {
       "article": "제4조의2",
-      "before": "제4조의2(기금의 존속기한) 기금의 존속기한은 2026년 12월 31일까지로 한다. ",
-      "after": "제4조의2(기금의 존속기한) 기금의 존속기한은 2031년 12월 31일까지로 한다. ",
+      "before": "제4조의2(기금의 존속기한) 기금의 존속기한은 2026년 12월 31일까지로 한다.<조의 신설 2016. 12. 29. 개정 2021. 9. 23.>",
+      "after": "제4조의2(기금의 존속기한) 기금의 존속기한은 2031년 12월 31일까지로 한다.<조의 신설 2016. 12. 29. 개정 2021. 9. 23., 2026. 7. 13.>",
       "focus": [
         {
           "before": {
             "prefix": "제4조의2(기금의 존속기한) 기금의 존속기한은 ",
             "changed": "2026",
-            "suffix": "년 12월 31일까지로 한다. ",
+            "suffix": "년 12월 31일까지로 한다.<조의 신설 2016. 12. 29. 개정 2021.…",
             "truncated": false
           },
           "after": {
             "prefix": "제4조의2(기금의 존속기한) 기금의 존속기한은 ",
             "changed": "2031",
-            "suffix": "년 12월 31일까지로 한다. ",
+            "suffix": "년 12월 31일까지로 한다.<조의 신설 2016. 12. 29. 개정 2021.…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…월 31일까지로 한다.<조의 신설 2016. 12. 29. 개정 2021. 9. ",
+            "changed": "23.",
+            "suffix": ">",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…월 31일까지로 한다.<조의 신설 2016. 12. 29. 개정 2021. 9. ",
+            "changed": "23., 2026. 7. 13.",
+            "suffix": ">",
             "truncated": false
           }
         }
       ],
-      "diff_window_count": 1,
-      "substance_score": 10
+      "diff_window_count": 2,
+      "substance_score": 0
     }
   ],
-  "unresolved": [
-    {
-      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
-    },
-    {
-      "reason": "original_source_not_reverified"
-    }
-  ],
+  "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
   "direct_actor_leads": [],
   "policy_analysis": null,
-  "impact_level": "pending",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EB%82%A8%EB%B6%81%EA%B5%90%EB%A5%98%ED%98%91%EB%A0%A5%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
 }

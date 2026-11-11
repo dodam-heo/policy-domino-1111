@@ -1,0 +1,110 @@
+{
+  "id": "ordin|2135090|2139645",
+  "title": "함안군 수도급수 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "경상남도 함안군",
+  "published_at": "2026-06-30",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2139645",
+  "category": "공공재정·요율",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 15,
+    "score_min": 15,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "함안군 수도급수 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2139645"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "함안군 수도급수 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2139645"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "함안군 수도급수 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2139645"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제26조",
+      "before": "제26조(수도사용요금) ① 요금은 별표 2의 수도사용료 요율표에 의하며,별표 3 구경별 정액요금과 별표 2 요율표에 의한 사용요금의 합계액으로 한다. <개정 2014.12.29> ② 제3조 단서에 따른 요금은 군수가 관계기관과 따로 협의하여 조정할 수 있다. ③ 급수 중지 또는 정수처분 중에 있는 급수전은 구경별 기본요금을 부과하되, 그 원인이 소멸된 후 최초로 수도요금을 부과할 경우 일괄 조정할 수 있다. <개정 2018.10.31.>",
+      "after": "제26조(수도사용요금) ① 요금은 별표 2의 수도사용료 요율표에 의하며,별표 3 구경별 정액요금과 별표 2 요율표에 의한 사용요금의 합계액으로 한다. <개정 2014.12.29, 2019.6.5.> ② 제3조 단서에 따른 요금은 군수가 관계기관과 따로 협의하여 조정할 수 있다. ③ 급수 중지 또는 정수처분 중에 있는 급수전은 구경별 기본요금을 부과하되, 그 원인이 소멸된 후 최초로 수도요금을 부과할 경우 일괄 조정할 수 있다. <개정 2018.10.31.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…3 구경별 정액요금과 별표 2 요율표에 의한 사용요금의 합계액으로 한다. <개정 ",
+            "changed": "2014.12.29",
+            "suffix": "> ② 제3조 단서에 따른 요금은 군수가 관계기관과 따로 협의하여 조정할 수 있다…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…3 구경별 정액요금과 별표 2 요율표에 의한 사용요금의 합계액으로 한다. <개정 ",
+            "changed": "2014.12.29, 2019.6.5.",
+            "suffix": "> ② 제3조 단서에 따른 요금은 군수가 관계기관과 따로 협의하여 조정할 수 있다…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 0
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1977583"
+}

@@ -1,8 +1,8 @@
 {
   "schema": "policy-domino-unified-ui-v1",
-  "generated_at": "2026-11-11T19:13:22.853114+00:00",
+  "generated_at": "2026-11-11T20:19:38.702110+00:00",
   "scope": "source-backed version catalog; institutional actions only for exact citation evidence",
-  "total_source_versions_saved": 2235,
+  "total_source_versions_saved": 2249,
   "events": [
     {
       "id": "law|014805|291907",
@@ -112668,29 +112668,30 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%ED%99%94%EC%88%9C%EA%B5%B0%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29",
       "category": "행정절차·인허가",
-      "primary_change_summary": "첨부 전문 · 399 → 485",
+      "primary_change_summary": "",
       "priority_reasons": [
+        "신청·심사·집행 절차의 실질 문구 변경",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
         "classification": "pending",
-        "score": 25,
-        "score_min": 25,
-        "score_max": 90,
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
         "possible_high": true,
         "axes": {
           "substance": {
-            "score": null,
-            "status": "pending",
+            "score": 30,
+            "status": "confirmed",
             "evidence": [
               {
-                "reason": "부분 대조의 근거 추가 확인 필요",
-                "article": "",
-                "before": "",
-                "after": "",
+                "reason": "신청·심사·집행 절차의 실질 문구 변경",
+                "article": "표 5 · 통계표 (결과표) · 변경 전(2026)",
+                "before": "[신설]",
+                "after": "3-6. 분기별 구직신청건수",
                 "source_title": "통계작성의 변경 승인(협의) 고시(화순군청년통계)",
                 "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%ED%99%94%EC%88%9C%EA%B5%B0%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29"
               }
@@ -112726,18 +112727,19 @@
           }
         },
         "featured_change_indices": [
-          0
+          10,
+          11
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
       "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%ED%99%94%EC%88%9C%EA%B5%B0%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29",
       "detail_url": "events/ca695bf79d53a84f229ff982.json",
-      "change_count": 1,
+      "change_count": 12,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -118220,27 +118222,29 @@
       "category": "급여·지원기준",
       "primary_change_summary": "제10조 · 신설 → 기금 운용심의위원회의 설치 및 기능) ① 기금의 운용ㆍ관리에 관한 사항을 심의하기 위하여 위원회를 둔다. ② 위원회는 다음 각 호의 사항",
       "priority_reasons": [
-        "특정 지방자치단체·지역·사업에 적용"
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
+        "특정 지방자치단체·지역·사업에 적용",
+        "관련 공식 규정의 조문 인용 확인, 업무 파급은 추가 대조 중"
       ],
       "impact_assessment": {
-        "classification": "pending",
-        "score": 15,
-        "score_min": 15,
-        "score_max": 80,
-        "score_complete": false,
+        "classification": "normal",
+        "score": 63,
+        "score_min": 63,
+        "score_max": 63,
+        "score_complete": true,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": true,
+        "possible_high": false,
         "axes": {
           "substance": {
-            "score": null,
-            "status": "pending",
+            "score": 40,
+            "status": "confirmed",
             "evidence": [
               {
-                "reason": "부분 대조의 근거 추가 확인 필요",
-                "article": "",
-                "before": "",
-                "after": "",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제10조",
+                "before": "제10조(기금운용의 성과분석 ) 「지방자치단체 기금관리기본법 시행령」 제8조에 따라 매년 전년도 운용성과를 기금운용성과분석계획에 따라 분석하여야 한다.",
+                "after": "…다. 1. 기금운용계획 2. 기금의 조성ㆍ운용 및 결산 3. 기금운용의 성과분석 4. 그 밖에 기금과 관련하여 운용 관리에 필요한 사항으로서 구청장이 회의에 부치는 사항",
                 "source_title": "서울특별시 동작구 사회복지기금 설치 및 운용 조례",
                 "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EA%B8%B0%EA%B8%88%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%9A%A9%20%EC%A1%B0%EB%A1%80"
               }
@@ -118261,16 +118265,24 @@
             ]
           },
           "ripple": {
-            "score": null,
-            "status": "pending",
+            "score": 8,
+            "status": "confirmed",
             "evidence": [
               {
-                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "reason": "관련 공식 규정의 조문 인용 확인, 업무 파급은 추가 대조 중",
                 "article": "",
                 "before": "",
                 "after": "",
                 "source_title": "서울특별시 동작구 사회복지기금 설치 및 운용 조례",
                 "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EA%B8%B0%EA%B8%88%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%9A%A9%20%EC%A1%B0%EB%A1%80"
+              },
+              {
+                "reason": "서울특별시 동작구 생활보장위원회 설치 및 운영 조례",
+                "article": "제2조",
+                "before": "「서울특별시 동작구 사회복지기금 설치 및 운용 조례」 제10조",
+                "after": "",
+                "source_title": "서울특별시 동작구 생활보장위원회 설치 및 운영 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%83%9D%ED%99%9C%EB%B3%B4%EC%9E%A5%EC%9C%84%EC%9B%90%ED%9A%8C%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%20%EC%A1%B0%EB%A1%80"
               }
             ]
           }
@@ -118278,18 +118290,18 @@
         "featured_change_indices": [
           0,
           4,
-          7
+          5
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
-      "impact_level": "pending",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EA%B8%B0%EA%B8%88%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%9A%A9%20%EC%A1%B0%EB%A1%80",
       "detail_url": "events/c0f5d1e29091ba7111c31c51.json",
-      "change_count": 11,
+      "change_count": 18,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 1
@@ -118305,29 +118317,30 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%83%9D%ED%99%9C%EB%B3%B4%EC%9E%A5%EC%9C%84%EC%9B%90%ED%9A%8C%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%20%EC%A1%B0%EB%A1%80",
       "category": "급여·지원기준",
-      "primary_change_summary": "",
+      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
-        "classification": "pending",
-        "score": 15,
-        "score_min": 15,
-        "score_max": 80,
+        "classification": "normal",
+        "score": 25,
+        "score_min": 25,
+        "score_max": 50,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": true,
+        "possible_high": false,
         "axes": {
           "substance": {
-            "score": null,
-            "status": "pending",
+            "score": 10,
+            "status": "confirmed",
             "evidence": [
               {
-                "reason": "부분 대조의 근거 추가 확인 필요",
-                "article": "",
-                "before": "",
-                "after": "",
+                "reason": "제한적인 본문·명칭·인용 정비",
+                "article": "제2조",
+                "before": "…. 그 밖에 서울특별시 동작구청장(이하 “구청장”이라 한다)이 회의에 부치는 사항",
+                "after": "… 그 밖에 서울특별시 동작구청장(이하 “구청장”이라 한다)이 회의에 부치는 사항 ② 구청장은 「서울특별시 동작구 사회복지기금 설치 및 운용 조례」 제10조에 따른 서울특별시 동작구 사회복지기금 운용심의위원회로 하여금 제1항제5호의 기능을 대신하게 할 수 있다. [항 신설 2026.7.16.]",
                 "source_title": "서울특별시 동작구 생활보장위원회 설치 및 운영 조례",
                 "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%83%9D%ED%99%9C%EB%B3%B4%EC%9E%A5%EC%9C%84%EC%9B%90%ED%9A%8C%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%20%EC%A1%B0%EB%A1%80"
               }
@@ -118365,14 +118378,122 @@
         "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
-      "impact_level": "pending",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%83%9D%ED%99%9C%EB%B3%B4%EC%9E%A5%EC%9C%84%EC%9B%90%ED%9A%8C%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%20%EC%A1%B0%EB%A1%80",
       "detail_url": "events/05827fd3cfc1ab9af944d9c0.json",
       "change_count": 1,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2140861|2152111",
+      "title": "서울특별시 동작구 장애인복지 증진에 관한 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "서울특별시 동작구",
+      "published_at": "2026-07-16",
+      "effective_date": "2027-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%9E%A5%EC%95%A0%EC%9D%B8%EB%B3%B5%EC%A7%80%20%EC%A6%9D%EC%A7%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+      "category": "급여·지원기준",
+      "primary_change_summary": "제21조 · (기금의 관리운용) ① 구청장은 기금의 수입과 지출을 명확히 하기 위하여 기금계좌를 따로 설치하여 관리ㆍ운용한다. ② 기금은 구지정 금고 → 삭제",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "부분 대조의 근거 추가 확인 필요",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "서울특별시 동작구 장애인복지 증진에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%9E%A5%EC%95%A0%EC%9D%B8%EB%B3%B5%EC%A7%80%20%EC%A6%9D%EC%A7%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "서울특별시 동작구 장애인복지 증진에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%9E%A5%EC%95%A0%EC%9D%B8%EB%B3%B5%EC%A7%80%20%EC%A6%9D%EC%A7%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "서울특별시 동작구 장애인복지 증진에 관한 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%9E%A5%EC%95%A0%EC%9D%B8%EB%B3%B5%EC%A7%80%20%EC%A6%9D%EC%A7%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [
+          3,
+          5,
+          6
+        ],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "partial_unverified",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [
+        {
+          "actor": "부구청장",
+          "article": "제6조",
+          "before": "… 위원장은 구청장이 되고, 부위원장은 부구청장이 된다. ③ 제1항제4호의 위원은 안전환경국장, 행정자치국장, 도시교통국장, 복지국장, 보건소장으로 한다. <개정 2007.5…",
+          "after": "… 위원장은 구청장이 되고, 부위원장은 부구청장이 된다. ③ 제1항제4호의 위원은 신속개발국장, 안전교통국장, 행정지원국장, 돌봄복지국장, 보건소장으로 한다. <개정 2007…",
+          "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%9E%A5%EC%95%A0%EC%9D%B8%EB%B3%B5%EC%A7%80%20%EC%A6%9D%EC%A7%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+          "verification": "explicit_actor_near_changed_words_in_both_versions",
+          "operational_program_verified": false,
+          "required_action_verified": false
+        },
+        {
+          "actor": "부위원장",
+          "article": "제6조",
+          "before": "… 위원장은 구청장이 되고, 부위원장은 부구청장이 된다. ③ 제1항제4호의 위원은 안전환경국장, 행정자치국장, 도시교통국장, 복지국장, 보건소장으로 한다. <개정 2007.5…",
+          "after": "… 위원장은 구청장이 되고, 부위원장은 부구청장이 된다. ③ 제1항제4호의 위원은 신속개발국장, 안전교통국장, 행정지원국장, 돌봄복지국장, 보건소장으로 한다. <개정 2007…",
+          "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%9E%A5%EC%95%A0%EC%9D%B8%EB%B3%B5%EC%A7%80%20%EC%A6%9D%EC%A7%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+          "verification": "explicit_actor_near_changed_words_in_both_versions",
+          "operational_program_verified": false,
+          "required_action_verified": false
+        }
+      ],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2128087",
+      "detail_url": "events/c4660571f23928d07037c584.json",
+      "change_count": 10,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -118490,7 +118611,7 @@
             "status": "pending",
             "evidence": [
               {
-                "reason": "종전·현행 원문 비교 대기",
+                "reason": "부분 대조의 근거 추가 확인 필요",
                 "article": "",
                 "before": "",
                 "after": "",
@@ -118531,14 +118652,25 @@
         "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "original_saved_comparison_pending",
-      "relationship": "",
-      "direct_actor_leads": [],
+      "comparison_status": "partial_unverified",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [
+        {
+          "actor": "부위원장",
+          "article": "제5조",
+          "before": "…<개정2009.3.5., 2019.9.19.> ③ 위원장은 부구청장, 부위원장은 복지국장이 되고 위원은 다음 각 호의 사람으로 한다. <개정98.9.18, 2007.5.3…",
+          "after": "…<개정2009.3.5., 2019.9.19.> ③ 위원장은 부구청장, 부위원장은 돌봄복지국장이 되고 위원은 다음 각 호의 사람으로 한다. <개정 98.9.18, 2007.5.…",
+          "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EA%B8%B0%EA%B8%88%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%9A%A9%20%EC%A1%B0%EB%A1%80",
+          "verification": "explicit_actor_near_changed_words_in_both_versions",
+          "operational_program_verified": false,
+          "required_action_verified": false
+        }
+      ],
       "policy_analysis": null,
       "impact_level": "pending",
-      "prior_url": "",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1982557",
       "detail_url": "events/97780a366c6a3a329b8a8079.json",
-      "change_count": 0,
+      "change_count": 2,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -118980,29 +119112,30 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9D%BC%E3%86%8D%EA%B0%80%EC%A0%95%20%EC%96%91%EB%A6%BD%20%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29",
       "category": "행정절차·인허가",
-      "primary_change_summary": "",
+      "primary_change_summary": "본문 · 일가정양립실태조사 → 일ㆍ가정 양립 실태조사",
       "priority_reasons": [
+        "신청·심사·집행 절차의 실질 문구 변경",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
         "classification": "pending",
-        "score": 25,
-        "score_min": 25,
-        "score_max": 90,
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
         "possible_high": true,
         "axes": {
           "substance": {
-            "score": null,
-            "status": "pending",
+            "score": 30,
+            "status": "confirmed",
             "evidence": [
               {
-                "reason": "종전·현행 원문 비교 대기",
-                "article": "",
-                "before": "",
-                "after": "",
+                "reason": "신청·심사·집행 절차의 실질 문구 변경",
+                "article": "본문",
+                "before": "1. 통계의 명칭 : 일가정양립실태조사 2. 통계작성기관의 명칭 : 고용노동부 3. 통계작성승인(협의)번호 [작성승인(…",
+                "after": "1. 통계의 명칭 : 일ㆍ가정 양립 실태조사 2. 통계작성기관의 명칭 : 고용노동부 3. 통계작성승인(협의)번호 [작성승인(…",
                 "source_title": "통계작성의 변경 승인(협의) 고시(일ㆍ가정 양립 실태조사)",
                 "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9D%BC%E3%86%8D%EA%B0%80%EC%A0%95%20%EC%96%91%EB%A6%BD%20%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
               }
@@ -119037,17 +119170,19 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "original_saved_comparison_pending",
-      "relationship": "",
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
-      "prior_url": "",
+      "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9D%BC%EA%B0%80%EC%A0%95%EC%96%91%EB%A6%BD%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29",
       "detail_url": "events/6dc40d345102ad5247e199fd.json",
-      "change_count": 0,
+      "change_count": 11,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -119065,27 +119200,28 @@
       "category": "행정절차·인허가",
       "primary_change_summary": "",
       "priority_reasons": [
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
-        "classification": "pending",
-        "score": 25,
-        "score_min": 25,
+        "classification": "high",
+        "score": 65,
+        "score_min": 65,
         "score_max": 90,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": true,
+        "possible_high": false,
         "axes": {
           "substance": {
-            "score": null,
-            "status": "pending",
+            "score": 40,
+            "status": "confirmed",
             "evidence": [
               {
-                "reason": "종전·현행 원문 비교 대기",
-                "article": "",
-                "before": "",
-                "after": "",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "표 3 · 10. 한센사업 대상자 현황 · (2차) 2023년 기준 기본통계 (190개통계표)",
+                "before": "10. 한센사업 대상자 현황",
+                "after": "[삭제]",
                 "source_title": "통계작성의 변경 승인(협의) 고시(경기도연천군기본통계)",
                 "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%97%B0%EC%B2%9C%EA%B5%B0%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%29"
               }
@@ -119120,17 +119256,21 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          31,
+          63,
+          72
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "original_saved_comparison_pending",
-      "relationship": "",
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
-      "impact_level": "pending",
-      "prior_url": "",
+      "impact_level": "high",
+      "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%97%B0%EC%B2%9C%EA%B5%B0%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%282%EC%B0%A8%29%29",
       "detail_url": "events/4a5117d4585701002612a962.json",
-      "change_count": 0,
+      "change_count": 202,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -123819,26 +123959,26 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EB%82%A8%EB%B6%81%EA%B5%90%EB%A5%98%ED%98%91%EB%A0%A5%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
       "category": "기타 제·개정",
-      "primary_change_summary": "",
+      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
-        "classification": "pending",
+        "classification": "normal",
         "score": 15,
         "score_min": 15,
-        "score_max": 80,
+        "score_max": 40,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": true,
+        "possible_high": false,
         "axes": {
           "substance": {
-            "score": null,
-            "status": "pending",
+            "score": 0,
+            "status": "confirmed",
             "evidence": [
               {
-                "reason": "부분 대조의 근거 추가 확인 필요",
+                "reason": "실질 기준 변경 근거 미확인 · 문구 정비",
                 "article": "",
                 "before": "",
                 "after": "",
@@ -123879,14 +124019,97 @@
         "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
-      "impact_level": "pending",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EB%82%A8%EB%B6%81%EA%B5%90%EB%A5%98%ED%98%91%EB%A0%A5%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
       "detail_url": "events/1097266fa3866721194c7cb4.json",
       "change_count": 1,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "admrul|38022|2100000282498",
+      "title": "식품첨가물의 기준 및 규격",
+      "source": "admrul",
+      "kind": "고시",
+      "ministry": "식품의약품안전처",
+      "published_at": "2026-07-13",
+      "effective_date": "2028-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%8B%9D%ED%92%88%EC%B2%A8%EA%B0%80%EB%AC%BC%EC%9D%98%20%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EA%B7%9C%EA%B2%A9",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "중앙행정규칙이 관할하는 전국 특정 분야"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 25,
+        "score_min": 25,
+        "score_max": 90,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "식품첨가물의 기준 및 규격",
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%8B%9D%ED%92%88%EC%B2%A8%EA%B0%80%EB%AC%BC%EC%9D%98%20%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EA%B7%9C%EA%B2%A9"
+              }
+            ]
+          },
+          "scope": {
+            "score": 25,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "식품첨가물의 기준 및 규격",
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%8B%9D%ED%92%88%EC%B2%A8%EA%B0%80%EB%AC%BC%EC%9D%98%20%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EA%B7%9C%EA%B2%A9"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "식품첨가물의 기준 및 규격",
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%8B%9D%ED%92%88%EC%B2%A8%EA%B0%80%EB%AC%BC%EC%9D%98%20%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EA%B7%9C%EA%B2%A9"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "partial_unverified",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000268862",
+      "detail_url": "events/1fba498dd522f9fe659efb54.json",
+      "change_count": 0,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -124307,17 +124530,17 @@
       "dependency_count": 0
     },
     {
-      "id": "ordin|2209927|2146743",
-      "title": "부산광역시 다자녀가정 우대 및 지원에 관한 조례",
+      "id": "ordin|2181412|2146747",
+      "title": "부산광역시 빈집 및 소규모주택 정비 조례",
       "source": "ordin",
       "kind": "자치법규",
       "ministry": "부산광역시",
       "published_at": "2026-07-08",
-      "effective_date": "2027-01-01",
+      "effective_date": "2027-01-09",
       "revision": "일부개정",
-      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8B%A4%EC%9E%90%EB%85%80%EA%B0%80%EC%A0%95%20%EC%9A%B0%EB%8C%80%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
-      "category": "행정절차·인허가",
-      "primary_change_summary": "제4조 · 차량스티커를 발급할 때에는 다자녀가정의 주민등록표등본 또는 가족관계증명서와 자동차등록증을 → 차량스티커의 발급 신청을 받은 경우에는 다음 각 호의 서류를",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B9%88%EC%A7%91%20%EB%B0%8F%20%EC%86%8C%EA%B7%9C%EB%AA%A8%EC%A3%BC%ED%83%9D%20%EC%A0%95%EB%B9%84%20%EC%A1%B0%EB%A1%80",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -124340,6 +124563,90 @@
                 "article": "",
                 "before": "",
                 "after": "",
+                "source_title": "부산광역시 빈집 및 소규모주택 정비 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B9%88%EC%A7%91%20%EB%B0%8F%20%EC%86%8C%EA%B7%9C%EB%AA%A8%EC%A3%BC%ED%83%9D%20%EC%A0%95%EB%B9%84%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시 빈집 및 소규모주택 정비 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B9%88%EC%A7%91%20%EB%B0%8F%20%EC%86%8C%EA%B7%9C%EB%AA%A8%EC%A3%BC%ED%83%9D%20%EC%A0%95%EB%B9%84%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시 빈집 및 소규모주택 정비 조례",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B9%88%EC%A7%91%20%EB%B0%8F%20%EC%86%8C%EA%B7%9C%EB%AA%A8%EC%A3%BC%ED%83%9D%20%EC%A0%95%EB%B9%84%20%EC%A1%B0%EB%A1%80"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "partial_unverified",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2103959",
+      "detail_url": "events/a52b05b7cb72a9de6dfe0808.json",
+      "change_count": 1,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2209927|2146743",
+      "title": "부산광역시 다자녀가정 우대 및 지원에 관한 조례",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "부산광역시",
+      "published_at": "2026-07-08",
+      "effective_date": "2027-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8B%A4%EC%9E%90%EB%85%80%EA%B0%80%EC%A0%95%20%EC%9A%B0%EB%8C%80%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+      "category": "행정절차·인허가",
+      "primary_change_summary": "제4조 · 차량스티커를 발급할 때에는 다자녀가정의 주민등록표등본 또는 가족관계증명서와 자동차등록증을 → 차량스티커의 발급 신청을 받은 경우에는 다음 각 호의 서류를",
+      "priority_reasons": [
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": 40,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제4조",
+                "before": "…상 세대원이 신청하여 발급받을 수 있다. ② 시장은 제1항에 따른 가족사랑카드와 차량스티커를 발급할 때에는 다자녀가정의 주민등록표등본 또는 가족관계증명서와 자동차등록증을 확인하여야 한다. 다만, 신청인이 정보이용에 동의하지 아니할 때에는 그 사본을 …",
+                "after": "…상 세대원이 신청하여 발급받을 수 있다. ② 시장은 제1항에 따른 가족사랑카드와 차량스티커의 발급 신청을 받은 경우에는 다음 각 호의 서류를 확인하여야 한다. 다만, 신청인이 행정정보의 공동이용에 동의하지 아니할 때에는 …",
                 "source_title": "부산광역시 다자녀가정 우대 및 지원에 관한 조례",
                 "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8B%A4%EC%9E%90%EB%85%80%EA%B0%80%EC%A0%95%20%EC%9A%B0%EB%8C%80%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
               }
@@ -124379,8 +124686,8 @@
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
@@ -124402,7 +124709,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%20%EC%A1%B0%EB%A1%80",
       "category": "급여·지원기준",
-      "primary_change_summary": "제4조 · 자는 시설사용허가를 받은 자의 → 자(이하 “시설사용자”라 한다)가 납부하여야 하는 이용료의 기준은 별표 2와 같다. ③ 제2항의 규정에도 불구하고 시장은 다음 각 호의 ",
+      "primary_change_summary": "제4조 · 자는 시설사용허가를 받은 자의 → 자(이하 “시설사용자”라 한다)가 납부하여야 하는 이용료의 기준은 별표 2와 같다. <신설 2026. 7. 8.> ③ 제2항의 규정에도 ",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -124465,7 +124772,7 @@
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
@@ -124551,7 +124858,7 @@
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
@@ -124575,12 +124882,13 @@
       "category": "급여·지원기준",
       "primary_change_summary": "제10조 · 시의 → 구미시(이하 “시”라 한다)의",
       "priority_reasons": [
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
         "classification": "pending",
-        "score": 15,
-        "score_min": 15,
+        "score": 55,
+        "score_min": 55,
         "score_max": 80,
         "score_complete": false,
         "threshold": 65,
@@ -124588,14 +124896,14 @@
         "possible_high": true,
         "axes": {
           "substance": {
-            "score": null,
-            "status": "pending",
+            "score": 40,
+            "status": "confirmed",
             "evidence": [
               {
-                "reason": "부분 대조의 근거 추가 확인 필요",
-                "article": "",
-                "before": "",
-                "after": "",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제10조",
+                "before": "… 8. 그 밖에 영유아 보육에 관하여 시장이 필요하다고 인정하는 사항 ② 센터는 시의 어린이집과 보육수요자에 대하여 지역특성을 고려한 서비스를 제공하여야 한다.",
+                "after": "… 8. 그 밖에 영유아 보육에 관하여 시장이 필요하다고 인정하는 사항 ② 센터는 구미시(이하 “시”라 한다)의 어린이집과 보육수요자에 대하여 지역특성을 고려한 서비스를 제공하여야 한다. <개…",
                 "source_title": "구미시 영유아보육에 관한 조례",
                 "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EC%98%81%EC%9C%A0%EC%95%84%EB%B3%B4%EC%9C%A1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
               }
@@ -124637,8 +124945,8 @@
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
@@ -124723,7 +125031,7 @@
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
@@ -124806,16 +125114,9 @@
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
-      "policy_analysis": {
-        "explanation": "강릉시 상수도원인자부담금 산정ㆍ징수 등에 관한 조례 정비에 따라 제12조가 삭제되고 감면 조항 중 시설분담금 관련 표현이 정리되었습니다.",
-        "old_quote": "제11조: 제11조(준용) 이 조례에 따른 원인자부담금의 징수에 있어 이 조례에서 정한 사항 이외의 사항은 「지방세법」에 따른 지방세 징수의 예에 따른다. \n제4조의2: 제4조의2(감면 및 제외) ① 시장은 다음 각 호의 어느 하나에 해당되는 경우에는 원인자부담금 및 시설분담금의 전부 또는 일부를 감면할 수 있다. 1. 「교육환경 보호에 관한 법률」 제2조제1호의 교육환경을 보호하는 시설 2. 「사회복지사업법」 제2조제4호의 사회복지시설 3. 그 밖에 시장이 필요하다고 인정하는 공공시설물 ② 시장은 제1항에도 불구하고 「수도법」제71조제1항 중 수도시설을 손괴하는 사업이나 행위를 한 때에는 해당 감면대상자에서 제외한다.",
-        "new_quote": "제11조: 제11조(준용) 이 조례에 따른 원인자부담금의 징수에 있어 이 조례에서 정한 사항 이외의 사항은 「지방세법」에 따른 지방세 징수의 예에 따른다. 제12조 삭제\n제4조의2: 제4조의2(감면 및 제외) ① 시장은 다음 각 호의 어느 하나에 해당되는 경우에는 원인자부담금의 전부 또는 일부를 감면할 수 있다. 1. 「교육환경 보호에 관한 법률」 제2조제1호의 교육환경을 보호하는 시설 2. 「사회복지사업법」 제2조제4호의 사회복지시설 3. 그 밖에 시장이 필요하다고 인정하는 공공시설물 ② 시장은 제1항에도 불구하고 「수도법」제71조제1항 중 수도시설을 손괴하는 사업이나 행위를 한 때에는 해당 감면대상자에서 제외한다. ",
-        "program_quote": "제11조: 제11조(준용) 이 조례에 따른 원인자부담금의 징수에 있어 이 조례에서 정한 사항 이외의 사항은 「지방세법」에 따른 지방세 징수의 예에 따른다. 제12조 삭제\n제4조의2: 제4조의2(감면 및 제외) ① 시장은 다음 각 호의 어느 하나에 해당되는 경우에는 원인자부담금의 전부 또는 일부를 감면할 수 있다. 1. 「교육환경 보호에 관한 법률」 제2조제1호의 교육환경을 보호하는 시설 2. 「사회복지사업법」 제2조제4호의 사회복지시설 3. 그 밖에 시장이 필요하다고 인정하는 공공시설물 ② 시장은 제1항에도 불구하고 「수도법」제71조제1항 중 수도시설을 손괴하는 사업이나 행위를 한 때에는 해당 감면대상자에서 제외한다. ",
-        "verified": true,
-        "model": "gemini-3.5-flash-lite"
-      },
+      "policy_analysis": null,
       "impact_level": "pending",
       "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B0%95%EB%A6%89%EC%8B%9C%20%EC%83%81%EC%88%98%EB%8F%84%EC%9B%90%EC%9D%B8%EC%9E%90%EB%B6%80%EB%8B%B4%EA%B8%88%20%EC%82%B0%EC%A0%95%E3%86%8D%EC%A7%95%EC%88%98%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
       "detail_url": "events/f9c05f4186a32a9436727ae3.json",
@@ -124854,7 +125155,7 @@
             "status": "pending",
             "evidence": [
               {
-                "reason": "종전·현행 원문 비교 대기",
+                "reason": "부분 대조의 근거 추가 확인 필요",
                 "article": "",
                 "before": "",
                 "after": "",
@@ -124895,14 +125196,14 @@
         "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "original_saved_comparison_pending",
-      "relationship": "",
+      "comparison_status": "partial_unverified",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
-      "prior_url": "",
+      "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%9C%A0%EC%A0%84%EC%9E%90%EB%B3%80%ED%98%95%EC%8B%9D%ED%92%88%EB%93%B1%EC%9D%98%20%ED%91%9C%EC%8B%9C%EA%B8%B0%EC%A4%80",
       "detail_url": "events/38261aa56e6a13e957d7870f.json",
-      "change_count": 0,
+      "change_count": 1,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -125143,19 +125444,19 @@
         },
         "featured_change_indices": [
           3,
-          7,
-          9
+          4,
+          8
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
       "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%9A%B8%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9A%B8%EC%A3%BC%EA%B5%B0%20%EC%9B%85%EC%B4%8C%EB%AC%B8%ED%99%94%EB%B3%B5%EC%A7%80%EC%84%BC%ED%84%B0%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%20%EC%A1%B0%EB%A1%80",
       "detail_url": "events/a437eca9f0b39091b854d0bf.json",
-      "change_count": 13,
+      "change_count": 14,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -125171,29 +125472,30 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%ED%99%94%EC%88%9C%EA%B5%B0%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29",
       "category": "행정절차·인허가",
-      "primary_change_summary": "",
+      "primary_change_summary": "본문 · (Hwasun Youth Statistics) → 삭제",
       "priority_reasons": [
+        "신청·심사·집행 절차의 실질 문구 변경",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
         "classification": "pending",
-        "score": 25,
-        "score_min": 25,
-        "score_max": 90,
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
         "possible_high": true,
         "axes": {
           "substance": {
-            "score": null,
-            "status": "pending",
+            "score": 30,
+            "status": "confirmed",
             "evidence": [
               {
-                "reason": "종전·현행 원문 비교 대기",
-                "article": "",
-                "before": "",
-                "after": "",
+                "reason": "신청·심사·집행 절차의 실질 문구 변경",
+                "article": "본문",
+                "before": "…년통계 (Hwasun Youth Statistics) 2. 통계작성기관의 명칭: 전라남도 화순군 3. 통계작성승인(협의)번호 [작성승인(협의)일]: 제741002호 [2…",
+                "after": "1. 통계의 명칭 : 화순군청년통계 2. 통계작성기관의 명칭 : 전남광주통합특별시 화순군 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제741002호 […",
                 "source_title": "통계작성의 변경 승인(협의) 고시(화순군청년통계)",
                 "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%ED%99%94%EC%88%9C%EA%B5%B0%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29"
               }
@@ -125228,17 +125530,21 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0,
+          1,
+          2
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "original_saved_comparison_pending",
-      "relationship": "",
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
-      "prior_url": "",
+      "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%ED%99%94%EC%88%9C%EA%B5%B0%EC%B2%AD%EB%85%84%ED%86%B5%EA%B3%84%29",
       "detail_url": "events/cc2a5b8097e347846abbe2e2.json",
-      "change_count": 0,
+      "change_count": 5,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -125254,29 +125560,30 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9D%B8%EA%B5%AC%EB%8F%99%ED%83%9C%ED%8C%A8%EB%84%90%ED%86%B5%EA%B3%84%29",
       "category": "행정절차·인허가",
-      "primary_change_summary": "",
+      "primary_change_summary": "본문 · 통계청 → 국가데이터처",
       "priority_reasons": [
+        "신청·심사·집행 절차의 실질 문구 변경",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
         "classification": "pending",
-        "score": 25,
-        "score_min": 25,
-        "score_max": 90,
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
         "possible_high": true,
         "axes": {
           "substance": {
-            "score": null,
-            "status": "pending",
+            "score": 30,
+            "status": "confirmed",
             "evidence": [
               {
-                "reason": "종전·현행 원문 비교 대기",
-                "article": "",
-                "before": "",
-                "after": "",
+                "reason": "신청·심사·집행 절차의 실질 문구 변경",
+                "article": "본문",
+                "before": "1. 통계의 명칭 : 인구동태패널통계 2. 통계작성기관의 명칭 : 통계청 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제101094호 [2025…",
+                "after": "1. 통계의 명칭 : 인구동태패널통계 2. 통계작성기관의 명칭 : 국가데이터처 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제101094호 [2025…",
                 "source_title": "통계작성의 변경승인(협의) 고시(인구동태패널통계)",
                 "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9D%B8%EA%B5%AC%EB%8F%99%ED%83%9C%ED%8C%A8%EB%84%90%ED%86%B5%EA%B3%84%29"
               }
@@ -125311,17 +125618,21 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0,
+          1,
+          2
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "original_saved_comparison_pending",
-      "relationship": "",
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
-      "prior_url": "",
+      "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9D%B8%EA%B5%AC%EB%8F%99%ED%83%9C%ED%8C%A8%EB%84%90%ED%86%B5%EA%B3%84%29",
       "detail_url": "events/4572da4a49b30f53ffd022bd.json",
-      "change_count": 0,
+      "change_count": 5,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -125487,6 +125798,89 @@
       "impact_level": "pending",
       "prior_url": "",
       "detail_url": "events/6897985b3fc70c4e1bcfc3d3.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2265498|2145827",
+      "title": "전남광주통합특별시교육청 특수교육운영위원회 운영 규칙",
+      "source": "ordin",
+      "kind": "자치법규",
+      "ministry": "전남광주통합특별시교육청",
+      "published_at": "2026-07-01",
+      "effective_date": "2027-03-01",
+      "revision": "제정",
+      "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%EA%B5%90%EC%9C%A1%EC%B2%AD%20%ED%8A%B9%EC%88%98%EA%B5%90%EC%9C%A1%EC%9A%B4%EC%98%81%EC%9C%84%EC%9B%90%ED%9A%8C%20%EC%9A%B4%EC%98%81%20%EA%B7%9C%EC%B9%99",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "전남광주통합특별시교육청 특수교육운영위원회 운영 규칙",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%EA%B5%90%EC%9C%A1%EC%B2%AD%20%ED%8A%B9%EC%88%98%EA%B5%90%EC%9C%A1%EC%9A%B4%EC%98%81%EC%9C%84%EC%9B%90%ED%9A%8C%20%EC%9A%B4%EC%98%81%20%EA%B7%9C%EC%B9%99"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "전남광주통합특별시교육청 특수교육운영위원회 운영 규칙",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%EA%B5%90%EC%9C%A1%EC%B2%AD%20%ED%8A%B9%EC%88%98%EA%B5%90%EC%9C%A1%EC%9A%B4%EC%98%81%EC%9C%84%EC%9B%90%ED%9A%8C%20%EC%9A%B4%EC%98%81%20%EA%B7%9C%EC%B9%99"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "전남광주통합특별시교육청 특수교육운영위원회 운영 규칙",
+                "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%EA%B5%90%EC%9C%A1%EC%B2%AD%20%ED%8A%B9%EC%88%98%EA%B5%90%EC%9C%A1%EC%9A%B4%EC%98%81%EC%9C%84%EC%9B%90%ED%9A%8C%20%EC%9A%B4%EC%98%81%20%EA%B7%9C%EC%B9%99"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/e7b0d84dffbd734c310598a8.json",
       "change_count": 0,
       "agency_names": [],
       "action_count": 0,
@@ -126240,6 +126634,89 @@
       "dependency_count": 0
     },
     {
+      "id": "ordin|2135090|2139645",
+      "title": "함안군 수도급수 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "경상남도 함안군",
+      "published_at": "2026-06-30",
+      "effective_date": "2027-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2139645",
+      "category": "공공재정·요율",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "함안군 수도급수 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2139645"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "함안군 수도급수 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2139645"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "함안군 수도급수 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2139645"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "partial_unverified",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1977583",
+      "detail_url": "events/e1e201e5064c9785d9836dca.json",
+      "change_count": 1,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "ordin|2218280|2139409",
       "title": "부산광역시 부산진구의회 기본 조례",
       "source": "ordin",
@@ -126318,6 +126795,89 @@
       "prior_url": "",
       "detail_url": "events/fb368bea0c176cad066fce39.json",
       "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2135286|2136627",
+      "title": "함안군 하수도 사용 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "경상남도 함안군",
+      "published_at": "2026-06-30",
+      "effective_date": "2027-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2136627",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "함안군 하수도 사용 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2136627"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "함안군 하수도 사용 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2136627"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "함안군 하수도 사용 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2136627"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "partial_unverified",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1493565",
+      "detail_url": "events/048647938de6af180ddca669.json",
+      "change_count": 1,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -126746,9 +127306,9 @@
       "published_at": "2026-06-30",
       "effective_date": "2027-01-01",
       "revision": "일부개정",
-      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000281534",
-      "category": "기타 제·개정",
-      "primary_change_summary": "",
+      "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%A7%80%EB%B0%A9%EA%B3%B5%EB%AC%B4%EC%9B%90%20%EA%B7%A0%ED%98%95%EC%9D%B8%EC%82%AC%20%EC%9A%B4%EC%98%81%EC%A7%80%EC%B9%A8",
+      "category": "행정절차·인허가",
+      "primary_change_summary": "첨부 5 · (관련) → 삭제",
       "priority_reasons": [
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
@@ -126767,12 +127327,12 @@
             "status": "pending",
             "evidence": [
               {
-                "reason": "종전·현행 원문 비교 대기",
+                "reason": "부분 대조의 근거 추가 확인 필요",
                 "article": "",
                 "before": "",
                 "after": "",
                 "source_title": "지방공무원 균형인사 운영지침",
-                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000281534"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%A7%80%EB%B0%A9%EA%B3%B5%EB%AC%B4%EC%9B%90%20%EA%B7%A0%ED%98%95%EC%9D%B8%EC%82%AC%20%EC%9A%B4%EC%98%81%EC%A7%80%EC%B9%A8"
               }
             ]
           },
@@ -126786,7 +127346,7 @@
                 "before": "",
                 "after": "",
                 "source_title": "지방공무원 균형인사 운영지침",
-                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000281534"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%A7%80%EB%B0%A9%EA%B3%B5%EB%AC%B4%EC%9B%90%20%EA%B7%A0%ED%98%95%EC%9D%B8%EC%82%AC%20%EC%9A%B4%EC%98%81%EC%A7%80%EC%B9%A8"
               }
             ]
           },
@@ -126800,7 +127360,94 @@
                 "before": "",
                 "after": "",
                 "source_title": "지방공무원 균형인사 운영지침",
-                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000281534"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%A7%80%EB%B0%A9%EA%B3%B5%EB%AC%B4%EC%9B%90%20%EA%B7%A0%ED%98%95%EC%9D%B8%EC%82%AC%20%EC%9A%B4%EC%98%81%EC%A7%80%EC%B9%A8"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [
+          9,
+          10,
+          1
+        ],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "partial_unverified",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%A7%80%EB%B0%A9%EA%B3%B5%EB%AC%B4%EC%9B%90%20%EA%B7%A0%ED%98%95%EC%9D%B8%EC%82%AC%20%EC%9A%B4%EC%98%81%EC%A7%80%EC%B9%A8",
+      "detail_url": "events/d74b33ea0d48abfdb140963c.json",
+      "change_count": 12,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2262999|2136273",
+      "title": "경기도 장애인활동지원급여 비용부담에 관한 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "경기도",
+      "published_at": "2026-06-29",
+      "effective_date": "2027-01-01",
+      "revision": "제정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2136273",
+      "category": "급여·지원기준",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "경기도 장애인활동지원급여 비용부담에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2136273"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "경기도 장애인활동지원급여 비용부담에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2136273"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "경기도 장애인활동지원급여 비용부담에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2136273"
               }
             ]
           }
@@ -126814,7 +127461,7 @@
       "policy_analysis": null,
       "impact_level": "pending",
       "prior_url": "",
-      "detail_url": "events/d74b33ea0d48abfdb140963c.json",
+      "detail_url": "events/8364b1c497d083d69e48ebf8.json",
       "change_count": 0,
       "agency_names": [],
       "action_count": 0,
@@ -127147,6 +127794,89 @@
       "impact_level": "pending",
       "prior_url": "",
       "detail_url": "events/e9bcdc14dc43fc1ad8c96e07.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2262963|2134005",
+      "title": "대구광역시 파크골프장 관리 및 운영 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "대구광역시",
+      "published_at": "2026-06-25",
+      "effective_date": "2027-07-01",
+      "revision": "제정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2134005",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "대구광역시 파크골프장 관리 및 운영 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2134005"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "대구광역시 파크골프장 관리 및 운영 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2134005"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "대구광역시 파크골프장 관리 및 운영 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2134005"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/9122833b27aa26876c02025a.json",
       "change_count": 0,
       "agency_names": [],
       "action_count": 0,
@@ -127887,12 +128617,12 @@
         "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "original_saved_comparison_pending",
-      "relationship": "",
+      "comparison_status": "partial_unverified",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
-      "prior_url": "",
+      "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EB%8B%B4%EB%B1%83%EA%B0%91%ED%8F%AC%EC%9E%A5%EC%A7%80%20%EA%B2%BD%EA%B3%A0%EA%B7%B8%EB%A6%BC%EB%93%B1%20%ED%91%9C%EA%B8%B0%EB%82%B4%EC%9A%A9",
       "detail_url": "events/9e8c0a3bbe48138b67b7d316.json",
       "change_count": 0,
       "agency_names": [],
@@ -127993,7 +128723,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EB%AC%B4%ED%95%AD%EC%83%9D%EC%A0%9C%EC%B6%95%EC%82%B0%EB%AC%BC%EC%9D%98%20%EC%9D%B8%EC%A6%9D%EA%B8%B0%EA%B4%80%20%EC%A7%80%EC%A0%95%C2%B7%EC%9A%B4%EC%98%81%20%EC%9A%94%EB%A0%B9",
       "category": "행정절차·인허가",
-      "primary_change_summary": "별표 0004의00 · 신설 → 원장에게 승인 받아야 한다.",
+      "primary_change_summary": "별표 0004 (인증심사원의 교육 등 세부사항(제12조 관련)) · 신설 → 원장에게 승인 받아야 한다.",
       "priority_reasons": [
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
@@ -128056,13 +128786,13 @@
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
-      "relationship": "reused_official_version_comparison",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
       "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EB%AC%B4%ED%95%AD%EC%83%9D%EC%A0%9C%EC%B6%95%EC%82%B0%EB%AC%BC%EC%9D%98%20%EC%9D%B8%EC%A6%9D%EA%B8%B0%EA%B4%80%20%EC%A7%80%EC%A0%95%C2%B7%EC%9A%B4%EC%98%81%20%EC%9A%94%EB%A0%B9",
       "detail_url": "events/86705a338c43560d03e272e6.json",
-      "change_count": 3,
+      "change_count": 1,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -130477,6 +131207,89 @@
       "impact_level": "pending",
       "prior_url": "",
       "detail_url": "events/507734ab55d0cc8e18e685b2.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2140861|2128087",
+      "title": "서울특별시 동작구 장애인복지 증진에 관한 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "서울특별시 동작구",
+      "published_at": "2026-05-07",
+      "effective_date": "2026-05-07",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2128087",
+      "category": "급여·지원기준",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "서울특별시 동작구 장애인복지 증진에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2128087"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "서울특별시 동작구 장애인복지 증진에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2128087"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "서울특별시 동작구 장애인복지 증진에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2128087"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/7647b0a521b46f61c355dd4f.json",
       "change_count": 0,
       "agency_names": [],
       "action_count": 0,
@@ -139629,6 +140442,89 @@
       "dependency_count": 0
     },
     {
+      "id": "ordin|2181412|2103959",
+      "title": "부산광역시 빈집 및 소규모주택 정비 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "부산광역시",
+      "published_at": "2025-12-31",
+      "effective_date": "2025-12-31",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2103959",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시 빈집 및 소규모주택 정비 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2103959"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시 빈집 및 소규모주택 정비 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2103959"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "부산광역시 빈집 및 소규모주택 정비 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2103959"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/6d28aaec248d620447eacf54.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "ordin|2038806|2103299",
       "title": "구미시 영유아보육에 관한 조례",
       "source": "ordin",
@@ -144271,6 +145167,89 @@
       "impact_level": "pending",
       "prior_url": "",
       "detail_url": "events/2eb25e44ffda6c1cb5f655ba.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "admrul|38022|2100000268862",
+      "title": "식품첨가물의 기준 및 규격",
+      "source": "admrul",
+      "kind": "고시",
+      "ministry": "식품의약품안전처",
+      "published_at": "2025-11-26",
+      "effective_date": "2025-11-26",
+      "revision": "전부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000268862",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "중앙행정규칙이 관할하는 전국 특정 분야"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 25,
+        "score_min": 25,
+        "score_max": 90,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "식품첨가물의 기준 및 규격",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000268862"
+              }
+            ]
+          },
+          "scope": {
+            "score": 25,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "식품첨가물의 기준 및 규격",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000268862"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "식품첨가물의 기준 및 규격",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000268862"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/462d9a7f9ebcb5b7ca93a047.json",
       "change_count": 0,
       "agency_names": [],
       "action_count": 0,
@@ -160885,6 +161864,89 @@
       "dependency_count": 0
     },
     {
+      "id": "ordin|2153254|1982557",
+      "title": "서울특별시 동작구 노인복지기금 설치 및 운용 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "서울특별시 동작구",
+      "published_at": "2024-11-07",
+      "effective_date": "2024-11-07",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1982557",
+      "category": "급여·지원기준",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "서울특별시 동작구 노인복지기금 설치 및 운용 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1982557"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "서울특별시 동작구 노인복지기금 설치 및 운용 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1982557"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "서울특별시 동작구 노인복지기금 설치 및 운용 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1982557"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/ce697214929a3f525b2f771e.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "ordin|2142265|1982555",
       "title": "서울특별시 동작구 국가보훈대상자 예우 및 지원에 관한 조례",
       "source": "ordin",
@@ -161709,6 +162771,89 @@
       "impact_level": "pending",
       "prior_url": "",
       "detail_url": "events/f53fc965811602c37e13b707.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2135090|1977583",
+      "title": "함안군 수도급수 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "경상남도 함안군",
+      "published_at": "2024-10-16",
+      "effective_date": "2025-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1977583",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "함안군 수도급수 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1977583"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "함안군 수도급수 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1977583"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "함안군 수도급수 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1977583"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/32609e286e7c78d316638471.json",
       "change_count": 0,
       "agency_names": [],
       "action_count": 0,
@@ -185958,6 +187103,89 @@
       "dependency_count": 0
     },
     {
+      "id": "ordin|2135286|1493565",
+      "title": "함안군 하수도 사용 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "경상남도 함안군",
+      "published_at": "2020-05-14",
+      "effective_date": "2020-05-14",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1493565",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "함안군 하수도 사용 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1493565"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "함안군 하수도 사용 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1493565"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "함안군 하수도 사용 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1493565"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/8f7c351fe59a8e68e8d28b27.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "ordin|2062644|1489791",
       "title": "부산광역시 부산진구 주민자치회 설치 및 운영 조례 시행규칙",
       "source": "ordin",
@@ -190026,61 +191254,61 @@
     }
   ],
   "summary": {
-    "displayed_events": 2235,
-    "with_verified_changes": 207,
-    "with_text_differences": 606,
+    "displayed_events": 2249,
+    "with_verified_changes": 217,
+    "with_text_differences": 617,
     "with_institutional_actions": 10,
     "agency_action_count": 24882,
     "by_category": {
-      "행정절차·인허가": 307,
-      "기타 제·개정": 1481,
+      "행정절차·인허가": 308,
+      "기타 제·개정": 1489,
       "조직·인력": 192,
-      "급여·지원기준": 186,
-      "공공재정·요율": 69
+      "급여·지원기준": 190,
+      "공공재정·요율": 70
     }
   },
   "collection": {
-    "detail_attempted": 3,
-    "complete_originals_added": 0,
-    "compared_pairs_processed": 1,
-    "failed_windows": 12,
+    "detail_attempted": 31,
+    "complete_originals_added": 15,
+    "compared_pairs_processed": 25,
+    "failed_windows": 15,
     "streams_checked": 6,
-    "indexed_unique_versions": 28899,
-    "saved_indexed_originals": 2235,
-    "verified_complete_originals": 497,
-    "pending_index_versions": 26664,
-    "indexed_versions_without_comparison": 28144,
+    "indexed_unique_versions": 28929,
+    "saved_indexed_originals": 2243,
+    "verified_complete_originals": 520,
+    "pending_index_versions": 26686,
+    "indexed_versions_without_comparison": 28161,
     "year_search_year": 2027
   },
   "analysis": {
     "official_programs": 10942,
-    "comparisons_considered": 755,
+    "comparisons_considered": 768,
     "verified_institutional_tasks": 27,
     "named_standard_review_candidates": 24855,
-    "direct_statutory_actor_leads": 108,
-    "official_rule_dependencies": 5,
-    "legacy_citation_candidates": 16,
+    "direct_statutory_actor_leads": 111,
+    "official_rule_dependencies": 6,
+    "legacy_citation_candidates": 15,
     "legacy_program_review_candidates": 0,
     "comparison_statuses": {
-      "partial_unverified": 544,
-      "changed": 207,
+      "changed": 217,
+      "partial_unverified": 547,
       "no_text_change": 4
     },
-    "ai_explanation_attempts": 2,
+    "ai_explanation_attempts": 1,
     "ai_verified_explanations": 0,
     "ai_failures": 1,
     "ai_failure_reasons": {
       "AI_HTTP_503:provider_rejected_request": 1
     },
-    "policy_ai_summaries": 253,
+    "policy_ai_summaries": 252,
     "ai_configured": true,
-    "policy_summaries_pending": 353
+    "policy_summaries_pending": 365
   },
   "coverage": {
     "alio_public_institutions": 355,
     "alio_reported": 355,
     "alio_source_url": "https://www.alioplus.go.kr/organization/organByTypeList.do?schApbaGb=APBA&pageNo=1",
-    "alio_updated_at": "2026-11-11T19:01:41.936717+00:00",
+    "alio_updated_at": "2026-11-11T20:05:08.633367+00:00",
     "gov24_programs": 10942,
     "gov24_agencies": 686,
     "gov24_agency_types": {
@@ -190102,15 +191330,15 @@
     "directory_is_impact_evidence": false
   },
   "reconciliation": {
-    "indexed_unique_versions": 28600,
-    "saved_versions": 2235,
-    "indexed_without_saved_original": 26664,
-    "official_complete_originals": 497,
-    "legacy_extracted_versions_requiring_source_revalidation": 1215,
-    "comparisons": 755,
+    "indexed_unique_versions": 28630,
+    "saved_versions": 2249,
+    "indexed_without_saved_original": 26686,
+    "official_complete_originals": 520,
+    "legacy_extracted_versions_requiring_source_revalidation": 1176,
+    "comparisons": 768,
     "comparisons_by_status": {
-      "changed": 207,
-      "partial_unverified": 544,
+      "changed": 217,
+      "partial_unverified": 547,
       "no_text_change": 4
     },
     "comparisons_without_impact_assessment": 0,

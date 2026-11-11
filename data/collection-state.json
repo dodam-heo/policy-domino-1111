@@ -9,8 +9,8 @@
     "admrul|1|5": "2025-06-30",
     "admrul|1|6": "2025-06-30",
     "admrul|2|1": "2025-12-27",
-    "admrul|2|5": "2025-06-30",
-    "admrul|2|6": "2025-06-30",
+    "admrul|2|5": "2025-04-01",
+    "admrul|2|6": "2025-04-01",
     "admrul|2|2": "2025-12-27",
     "ordin|1|": "2026-07-09",
     "admrul|2|4": "2025-12-27",
@@ -385,7 +385,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T17:02:32.470894+00:00"
+      "checked_at": "2026-11-11T20:06:35.800591+00:00"
     },
     "admrul|2|5|2026-10-22|2026-11-04|historical": {
       "reported": 0,
@@ -414,7 +414,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T17:02:35.135621+00:00"
+      "checked_at": "2026-11-11T20:06:37.134446+00:00"
     },
     "admrul|2|6|2026-10-22|2026-11-04|historical": {
       "reported": 0,
@@ -528,7 +528,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T17:03:03.317060+00:00"
+      "checked_at": "2026-11-11T20:06:55.665866+00:00"
     },
     "ordin|1||2026-10-22|2026-11-04|historical": {
       "reported": 997,
@@ -557,7 +557,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T18:03:00.316373+00:00"
+      "checked_at": "2026-11-11T20:07:57.384278+00:00"
     },
     "ordin|2||2026-10-22|2026-11-04|historical": {
       "reported": 1071,
@@ -1983,9 +1983,14 @@
       "stage": "split_split_split_split_split_historical",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T19:03:59.772930+00:00"
+      "checked_at": "2026-11-11T20:07:39.543593+00:00"
     },
     "ordin|2||2026-09-22|2026-10-21|historical": {
+      "reported": 4242,
+      "collected": 2000,
+      "pages": 20,
+      "complete": false,
+      "error": "pagination_limit",
       "source": "ordin",
       "edition": "2",
       "kind": "",
@@ -1994,9 +1999,7 @@
       "stage": "historical",
       "query_year": "",
       "search_scope": 1,
-      "complete": false,
-      "checked_at": "2026-11-11T18:03:03.364097+00:00",
-      "error": "TimeoutError: collection_budget_reached"
+      "checked_at": "2026-11-11T20:08:36.902600+00:00"
     },
     "admrul|1|4|2025-07-01|2025-09-28|historical": {
       "reported": 3,
@@ -2055,6 +2058,49 @@
       "complete": false,
       "checked_at": "2026-11-11T19:05:27.628478+00:00",
       "error": "RuntimeError: official_api_network_error: URLError"
+    },
+    "admrul|2|5|2025-04-02|2025-06-30|historical": {
+      "reported": 31,
+      "collected": 31,
+      "pages": 1,
+      "complete": true,
+      "source": "admrul",
+      "edition": "2",
+      "kind": "5",
+      "first": "2025-04-02",
+      "last": "2025-06-30",
+      "stage": "historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T20:06:36.604706+00:00"
+    },
+    "admrul|2|6|2025-04-02|2025-06-30|historical": {
+      "reported": 0,
+      "collected": 0,
+      "pages": 1,
+      "complete": true,
+      "source": "admrul",
+      "edition": "2",
+      "kind": "6",
+      "first": "2025-04-02",
+      "last": "2025-06-30",
+      "stage": "historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T20:06:37.721115+00:00"
+    },
+    "ordin|2||2026-09-22|2026-10-06|split_historical": {
+      "source": "ordin",
+      "edition": "2",
+      "kind": "",
+      "first": "2026-09-22",
+      "last": "2026-10-06",
+      "stage": "split_historical",
+      "query_year": "",
+      "search_scope": 1,
+      "complete": false,
+      "checked_at": "2026-11-11T20:09:09.892866+00:00",
+      "error": "TimeoutError: collection_budget_reached"
     }
   },
   "attempts": {
@@ -2580,7 +2626,38 @@
     "admrul|37680|2100000283464": 1,
     "ordin|2060375|2153535": 2,
     "law|011794|291859": 1,
-    "law|004138|291819": 2
+    "law|004138|291819": 2,
+    "admrul|87438|2100000283148": 1,
+    "ordin|2232395|2166537": 1,
+    "ordin|2176637|2152139": 1,
+    "ordin|2140861|2152111": 1,
+    "ordin|2140092|2152097": 1,
+    "ordin|2153254|2152095": 1,
+    "admrul|65171|2100000282608": 1,
+    "admrul|90938|2100000282546": 1,
+    "ordin|2026962|2150275": 1,
+    "admrul|38022|2100000282498": 1,
+    "ordin|2266009|2148063": 2,
+    "ordin|2181412|2146747": 1,
+    "ordin|2209927|2146743": 1,
+    "ordin|2064041|2146737": 1,
+    "ordin|2171727|2146299": 1,
+    "ordin|2038806|2146269": 1,
+    "ordin|2020369|2146185": 1,
+    "ordin|2020368|2146153": 1,
+    "admrul|44603|2100000282012": 1,
+    "ordin|2179403|2147997": 1,
+    "admrul|87438|2100000283140": 1,
+    "admrul|93474|2100000282024": 1,
+    "ordin|2265498|2145827": 2,
+    "ordin|2263834|2139187": 2,
+    "ordin|2135090|2139645": 1,
+    "ordin|2135286|2136627": 1,
+    "admrul|30235|2100000281534": 1,
+    "ordin|2262999|2136273": 2,
+    "ordin|2262963|2134005": 2,
+    "admrul|54944|2100000280992": 1,
+    "admrul|75731|2100000280906": 1
   },
   "errors": {
     "admrul|40796|2100000287994": "RuntimeError: official_api_network_error: URLError",
@@ -2671,23 +2748,29 @@
     "ordin|2035971|2156087": "official_body_not_parsed",
     "ordin|2266924|2156021": "predecessor_not_found",
     "ordin|2060375|2153535": "RuntimeError: official_api_network_error: URLError",
-    "law|004138|291819": "RuntimeError: official_api_network_error: URLError"
+    "law|004138|291819": "RuntimeError: official_api_network_error: URLError",
+    "ordin|2140092|2152097": "official_body_not_parsed",
+    "ordin|2266009|2148063": "predecessor_not_found",
+    "ordin|2265498|2145827": "predecessor_not_found",
+    "ordin|2263834|2139187": "predecessor_not_found",
+    "ordin|2262999|2136273": "predecessor_not_found",
+    "ordin|2262963|2134005": "predecessor_not_found"
   },
-  "stream_offset": 11,
+  "stream_offset": 2,
   "last_run": "2026-11-11",
   "last_run_stats": {
-    "detail_attempted": 3,
-    "complete_originals_added": 0,
-    "compared_pairs_processed": 1,
-    "failed_windows": 12,
+    "detail_attempted": 31,
+    "complete_originals_added": 15,
+    "compared_pairs_processed": 25,
+    "failed_windows": 15,
     "streams_checked": 6,
-    "indexed_unique_versions": 28899,
-    "saved_indexed_originals": 2235,
-    "verified_complete_originals": 497,
-    "pending_index_versions": 26664,
-    "indexed_versions_without_comparison": 28144,
+    "indexed_unique_versions": 28929,
+    "saved_indexed_originals": 2243,
+    "verified_complete_originals": 520,
+    "pending_index_versions": 26686,
+    "indexed_versions_without_comparison": 28161,
     "year_search_year": 2027
   },
-  "annual_kind_offset": 0,
-  "failed_retry_offset": 2
+  "annual_kind_offset": 2,
+  "failed_retry_offset": 4
 }

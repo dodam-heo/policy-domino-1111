@@ -1,13 +1,13 @@
 {
-  "indexed_unique_versions": 28600,
-  "saved_versions": 2235,
-  "indexed_without_saved_original": 26664,
-  "official_complete_originals": 497,
-  "legacy_extracted_versions_requiring_source_revalidation": 1215,
-  "comparisons": 755,
+  "indexed_unique_versions": 28630,
+  "saved_versions": 2249,
+  "indexed_without_saved_original": 26686,
+  "official_complete_originals": 520,
+  "legacy_extracted_versions_requiring_source_revalidation": 1176,
+  "comparisons": 768,
   "comparisons_by_status": {
-    "changed": 207,
-    "partial_unverified": 544,
+    "changed": 217,
+    "partial_unverified": 547,
     "no_text_change": 4
   },
   "comparisons_without_impact_assessment": 0,

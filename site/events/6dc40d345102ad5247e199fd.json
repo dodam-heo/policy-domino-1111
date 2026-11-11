@@ -9,29 +9,30 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9D%BC%E3%86%8D%EA%B0%80%EC%A0%95%20%EC%96%91%EB%A6%BD%20%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29",
   "category": "행정절차·인허가",
-  "primary_change_summary": "",
+  "primary_change_summary": "본문 · 일가정양립실태조사 → 일ㆍ가정 양립 실태조사",
   "priority_reasons": [
+    "신청·심사·집행 절차의 실질 문구 변경",
     "중앙행정규칙이 관할하는 전국 특정 분야"
   ],
   "impact_assessment": {
     "classification": "pending",
-    "score": 25,
-    "score_min": 25,
-    "score_max": 90,
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
     "possible_high": true,
     "axes": {
       "substance": {
-        "score": null,
-        "status": "pending",
+        "score": 30,
+        "status": "confirmed",
         "evidence": [
           {
-            "reason": "종전·현행 원문 비교 대기",
-            "article": "",
-            "before": "",
-            "after": "",
+            "reason": "신청·심사·집행 절차의 실질 문구 변경",
+            "article": "본문",
+            "before": "1. 통계의 명칭 : 일가정양립실태조사 2. 통계작성기관의 명칭 : 고용노동부 3. 통계작성승인(협의)번호 [작성승인(…",
+            "after": "1. 통계의 명칭 : 일ㆍ가정 양립 실태조사 2. 통계작성기관의 명칭 : 고용노동부 3. 통계작성승인(협의)번호 [작성승인(…",
             "source_title": "통계작성의 변경 승인(협의) 고시(일ㆍ가정 양립 실태조사)",
             "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9D%BC%E3%86%8D%EA%B0%80%EC%A0%95%20%EC%96%91%EB%A6%BD%20%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
           }
@@ -66,17 +67,137 @@
         ]
       }
     },
-    "featured_change_indices": [],
+    "featured_change_indices": [
+      0
+    ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "본문",
+      "before": "1. 통계의 명칭 : 일가정양립실태조사 2. 통계작성기관의 명칭 : 고용노동부 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제118045호 [2018.11.06.] 4. 통계작성의 변경 연월일 : 2025.08.21. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "after": "1. 통계의 명칭 : 일ㆍ가정 양립 실태조사 2. 통계작성기관의 명칭 : 고용노동부 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제118045호 [2018.11.06.] 4. 통계작성의 변경 연월일 : 2026.12.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "1. 통계의 명칭 : ",
+            "changed": "일가정양립실태조사",
+            "suffix": " 2. 통계작성기관의 명칭 : 고용노동부 3. 통계작성승인(협의)번호 [작성승인(…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "1. 통계의 명칭 : ",
+            "changed": "일ㆍ가정 양립 실태조사",
+            "suffix": " 2. 통계작성기관의 명칭 : 고용노동부 3. 통계작성승인(협의)번호 [작성승인(…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…] : 제118045호 [2018.11.06.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2025.08.21.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…] : 제118045호 [2018.11.06.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2026.12.31.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 30
+    },
+    {
+      "article": "표 4 · 조사표 · 변경전",
+      "before": "총 82개 문항 A. B. 임신 및 출산지원제도 활용실태(16문항) C. 육아 등 돌봄지원제도 활용실태(39문항) D. 유연근로 및 일하는 문화(13문항) E.",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 4 · 조사표 · 변경후",
+      "before": "총 76개 문항 A. (7문항) B. 임신 및 출산지원제도 활용실태 (14문항) C. 육아 등 돌봄지원제도 활용실태 (32문항) D. 유연근로 및 일하는 문화 (15문항) E. (8문항)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 조사대상규모 · 변경 전",
+      "before": "[신설]",
+      "after": "ㅇ 전국 상시근로자 5인 이상 5,000개 사업체",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 조사대상규모 · 변경 후",
+      "before": "[신설]",
+      "after": "ㅇ 전국 상시근로자 5인 이상 10,000개 사업체",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 조사항목 (조사표) · 변경 전",
+      "before": "[신설]",
+      "after": "ㅇ 총 76개 문항 A. 사업장 일반현황(7문항) B. 임신 및 출산지원제도 활용실태(14 문항) C. 육아 등 돌봄지원제도 활용실태(32 문항) D. 유연근로 및 일하는 문화(15문항) E. 남녀고용 평등기회(8문항)",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 조사항목 (조사표) · 변경 후",
+      "before": "[신설]",
+      "after": "ㅇ 총 80개 문항 A. 사업장 일반현황(7문항) B. 임신 및 출산지원제도 활용실태 (18 문항) C. 육아 등 돌봄지원제도 활용실태 (31 문항) D. 유연근로 및 일하는 문화 (16문항) E. 남녀고용 평등기회(8문항)",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 통계분류 · 변경 전",
+      "before": "[신설]",
+      "after": "ㅇ 한국표준산업분류 제10차",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 통계분류 · 변경 후",
+      "before": "[신설]",
+      "after": "ㅇ 한국표준산업분류 제11차",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 표본추출틀 · 변경 전",
+      "before": "[신설]",
+      "after": "ㅇ 2023년 12월 말 기준 사업체노동실태현황",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 표본추출틀 · 변경 후",
+      "before": "[신설]",
+      "after": "ㅇ 2024년 12월 말 기준 사업체노동실태현황",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    }
+  ],
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
   "direct_actor_leads": [],
   "policy_analysis": null,
   "impact_level": "pending",
-  "prior_url": ""
+  "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9D%BC%EA%B0%80%EC%A0%95%EC%96%91%EB%A6%BD%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
 }
