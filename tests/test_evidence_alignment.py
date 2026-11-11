@@ -50,3 +50,13 @@ class EvidenceAlignmentTests(unittest.TestCase):
         from unified.engine import parse_body
         body=parse_body('<LawService><조><조문번호>1</조문번호><조내용>본문</조내용></조><별표단위><별표번호>1</별표번호></별표단위></LawService>'.encode())
         self.assertEqual(body['status'],'partial')
+
+    def test_table_amount_inherits_unit_from_header(self):
+        from unified.ai import verify, UnverifiedAnalysis
+        impact={'before':'100,000','after':'120,000','changed_clause':'표 1 금액 (원/월)',
+                'evidence':{'service_quote':'기준 100,000원'}}
+        reply={'old_quote':'100,000','new_quote':'120,000','program_quote':'100,000원',
+               'explanation':'금액을 120,000원으로 검토'}
+        self.assertTrue(verify(reply,impact)['verified'])
+        reply['explanation']='금액을 900,000원으로 검토'
+        with self.assertRaises(UnverifiedAnalysis):verify(reply,impact)

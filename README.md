@@ -38,9 +38,9 @@ python -m http.server 8000 --directory site
 |---|---|
 | Variable `LAW_OC` | 법제처 인증 식별값. 기본 `dori` |
 | Secret `GOV24_SERVICE_KEY` | 정부24 자료 갱신. 미설정 시 보관된 자료 사용 |
-| Secret `PD_LLM_API_KEY` 또는 `OPENAI_API_KEY` | AI 설명 API 인증 |
-| Variable `PD_LLM_MODEL` | 사용할 모델 이름. 기본 `gpt-4.1-mini` |
-| Variable `PD_LLM_URL` | OpenAI 호환 API 주소 |
+| Secret `GEMINI_API_KEY`, `PD_LLM_API_KEY` 또는 `OPENAI_API_KEY` | AI 설명 API 인증 |
+| Variable `PD_LLM_MODEL` | 사용할 모델 이름. 기본 `gemini-3.5-flash-lite` |
+| Variable `PD_LLM_URL` | 모델 API 주소. 기본 Gemini 공식 호환 API |
 | Variable `PD_LLM_MAX_REQUESTS` | 실행당 신규 설명 한도. 기본 60, 기존 결과 재사용 후 다음 실행에서 이어 처리 |
 
 Pages의 배포 원본은 **Settings → Pages → GitHub Actions**로 설정합니다.
@@ -52,3 +52,5 @@ Pages의 배포 원본은 **Settings → Pages → GitHub Actions**로 설정합
 공식 HWPX 표는 행·열의 이름을 보존해 비교합니다. PDF/HWPX 첨부 순서가 바뀌어도 대응 표 항목으로 비교하며, 공식 XML과 저장된 첨부를 새 파서로 다시 읽을 수 있습니다. 기관 연결은 정확한 변경 조문 인용, 고시의 상위법 위임과 사업 적용 기준, 또는 같은 정책 대상·상위법·종전 운영금액이 함께 일치하는 경우에만 생성합니다.
 
 AI는 변경 정책별 핵심 요약과 기관·사업별 설명을 별도로 생성하며, 기존 결과를 재사용하고 남은 건은 다음 실행에서 계속 처리합니다. 새 저장소에는 별도로 API Secret이 등록되어야 하며, 인증 정보가 없으면 AI 호출은 실행되지 않습니다.
+
+현재 배포는 Gemini를 사용합니다. 기존 `OPENAI_API_KEY` 이름에 등록한 Gemini 키도 읽으며, Secret 이름이 제공자를 결정하지 않습니다. UI 수정은 `[ui-only]` 커밋으로 수집 대기 없이 배포할 수 있습니다. 공식 자료 수집은 실행당 10분 범위에서 처리한 상태를 저장하고 다음 실행에서 이어집니다.

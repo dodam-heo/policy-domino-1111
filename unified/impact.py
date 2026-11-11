@@ -356,7 +356,7 @@ def run(root: Path, limit_events: int = 300) -> dict:
                             store(output, verified)
                     except Exception as exc:
                         ai_errors += 1
-                        ai_failure_reasons[str(exc) if str(exc).startswith("AI_HTTP_") else type(exc).__name__] += 1
+                        ai_failure_reasons[str(exc) if str(exc).startswith("AI_HTTP_") else (type(exc).__name__+":"+str(exc) if type(exc).__name__ == "UnverifiedAnalysis" else type(exc).__name__)] += 1
                 if verified and verified.get("verified"):
                     action["ai_analysis"] = verified
                     ai_verified += 1
@@ -380,7 +380,7 @@ def run(root: Path, limit_events: int = 300) -> dict:
                         store(output, policy_analysis)
                 except Exception as exc:
                     ai_errors += 1
-                    ai_failure_reasons[str(exc) if str(exc).startswith("AI_HTTP_") else type(exc).__name__] += 1
+                    ai_failure_reasons[str(exc) if str(exc).startswith("AI_HTTP_") else (type(exc).__name__+":"+str(exc) if type(exc).__name__ == "UnverifiedAnalysis" else type(exc).__name__)] += 1
             if policy_analysis and policy_analysis.get("verified"):
                 policy_ai_count += 1
         payload = {"doc": doc, "comparison_status": comparison.get("status"),
