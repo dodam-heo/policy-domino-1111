@@ -21,14 +21,16 @@ class Gov24Test(unittest.TestCase):
             self.assertIn("제3조",obj["basis"]["법령"])
             self.assertEqual(obj["criteria"]["선정기준"],"기준 100원")
 
-    def test_dori_is_embedded_as_default_credential(self):
+    def test_gov24_uses_independent_secret_not_law_identifier(self):
         from unittest.mock import patch
-        self.assertEqual(DEFAULT_GOV24_SERVICE_KEY, "dori")
+        self.assertEqual(DEFAULT_GOV24_SERVICE_KEY, "")
         with patch.dict("os.environ", {}, clear=True):
-            self.assertEqual(gov24_service_key(), "dori")
-            self.assertEqual(Gov24Client().key, "dori")
+            self.assertEqual(gov24_service_key(), "")
+            with self.assertRaisesRegex(ValueError, "GOV24_SERVICE_KEY"):
+                Gov24Client(gov24_service_key())
         with patch.dict("os.environ", {"GOV24_SERVICE_KEY": "valid-override"}, clear=True):
             self.assertEqual(gov24_service_key(), "valid-override")
+            self.assertEqual(Gov24Client(gov24_service_key()).key, "valid-override")
 
     def test_resume_official_pagination(self):
         seen=[]
@@ -44,15 +46,6 @@ class Gov24Test(unittest.TestCase):
             self.assertEqual(state["errors"],[])
             self.assertEqual(len(seen),2)
 
-
-    def test_law_identifier_never_falls_back_as_gov24_secret(self):
-        import os
-        from unittest.mock import patch
-        from unified.gov24 import gov24_service_key, Gov24Client
-        with patch.dict(os.environ, {}, clear=True):
-            self.assertEqual(gov24_service_key(), "")
-            with self.assertRaisesRegex(ValueError, "GOV24_SERVICE_KEY"):
-                Gov24Client(gov24_service_key())
 
 if __name__=="__main__":
     unittest.main()
