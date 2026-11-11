@@ -31,6 +31,24 @@ const scopedAgencyCounts=actions=>new Map(actions.map(a=>[a.agency,1]));
   assert.equal(view.filterEvents([education,housing,change],{mode:'impact'}).length,2);
   assert.equal(view.filterEvents([education,housing,change],{mode:'all',verification:'changed'}).length,1);
   assert.throws(()=>view.filterEvents([education,housing,change],{mode:'linked'}),/Unsupported event filter/);
+  // Default ranking: confirmed high first, high-potential pending second,
+  // general last; all ties break by newest promulgation date.
+  const ranked=[
+    {id:'normal',title:'경미한 내부 정비',impact_level:'normal',published_at:'2026-11-11',
+      impact_assessment:{classification:'normal',score_min:40}},
+    {id:'pending',title:'확인 중인 전국 기준',impact_level:'pending',published_at:'2026-11-10',
+      impact_assessment:{classification:'pending',score_min:60,possible_high:true}},
+    {id:'high-older',title:'전국 급여 기준',impact_level:'high',published_at:'2026-01-01',
+      impact_assessment:{classification:'high',score_min:75}},
+    {id:'high-newer',title:'새로운 공공서비스 기준',impact_level:'high',published_at:'2026-10-01',
+      impact_assessment:{classification:'high',score_min:75}}
+  ];
+  assert.deepEqual(view.filterEvents(ranked,{sort:'impact'}).map(e=>e.id),
+    ['high-newer','high-older','pending','normal']);
+  assert.deepEqual(view.filterEvents(ranked,{sort:'impact',mode:'impact'}).map(e=>e.id),
+    ['high-newer','high-older']);
+  assert.deepEqual(view.filterEvents(ranked,{sort:'published'}).map(e=>e.id),
+    ['normal','pending','high-newer','high-older']);
   assert.deepEqual(Array.from(scopedAgencyCounts([{agency:'교육부'},{agency:'경기도 수원시'}]).keys()),['교육부','경기도 수원시']);
   const pending={};
   const fetcher=url=>new Promise(resolve=>pending[url]=resolve);
