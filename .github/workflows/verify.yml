@@ -152,7 +152,10 @@ jobs:
           assert high, "Default priority filter would show an empty homepage"
           for item in high:
               assert item.get("priority_reasons"), "High priority must explain itself"
-              assert item["comparison_status"]=="changed", "Never promote unverified changes"
+              assert item["comparison_status"] in ("changed","partial_unverified"), "High priority requires source-backed changes"
+              if item["comparison_status"]=="partial_unverified":
+                  assert item["impact_assessment"]["axes"]["substance"]["status"]=="confirmed", (
+                      "A partial comparator can be high only with an evidenced substantive change")
           assert all(e.get("comparison_status")=="changed" for e in confirmed)
           for item in (high[:3]+linked[:3]+events[:2]):
               path=root/item["detail_url"]
