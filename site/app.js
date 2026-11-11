@@ -477,6 +477,27 @@
     if(relatedRules)append(section,relatedRules);
     return section;
   }
+  function renderDirectActors(event) {
+    const items=event.direct_actor_leads||[];
+    if(!items.length)return null;
+    const section=create("details","detail-section evidence-panel actors-section");
+    append(section,create("summary","section-heading",
+      "변경 조문에 명시된 담당 주체 ("+num(items.length)+")"));
+    for(const row of items.slice(0,35)){
+      const part=create("div","review-card");
+      append(part,create("strong","",row.actor+" · "+row.article));
+      const lines=create("div","highlight-comparison");
+      const before=create("div","highlight-old");
+      append(before,create("small","","변경 전"),create("p","",compact(row.before,230)));
+      const after=create("div","highlight-new");
+      append(after,create("small","","변경 후"),create("p","",compact(row.after,230)));
+      append(lines,before,after);
+      append(part,lines,link(row.source_url,"해당 조문 공식 원문"));
+      append(section,part);
+    }
+    return section;
+  }
+
   function renderEvidence(event) {
     // The entire evidence section, including official source links, begins
     // collapsed. Expanding it reveals the first five excerpts and a separate
@@ -561,14 +582,17 @@
     const core=renderCore(event);
     const institutions=renderInstitutions(event);
     const ai=renderAI(event);
+    const actors=renderDirectActors(event);
     const evidence=renderEvidence(event);
     core.id="policy-core";
     if(institutions)institutions.id="policy-institutions";
+    if(actors)actors.id="policy-actors";
     if(ai)ai.id="policy-ai";
     evidence.id="policy-evidence";
     const links=[
       ["변경 핵심","policy-core"],
       ...(institutions?[["기관별 후속조치","policy-institutions"]]:[]),
+      ...(actors?[["관련 주체","policy-actors"]]:[]),
       ...(ai?[["AI 분석 근거","policy-ai"]]:[]),
       ["신구대비·근거","policy-evidence"]
     ];
@@ -587,7 +611,7 @@
     append(head,link(event.url,"공식 정책 원문"),nav);
     // Sections follow the reader's actual work: what changed, what to do,
     // AI explanation, then optional source archive. No score/debug panels.
-    append(root,core,institutions,ai,evidence);
+    append(root,core,institutions,actors,ai,evidence);
   }
   function show(data) {
     if(data.schema!=="policy-domino-unified-ui-v1"||!Array.isArray(data.events))throw Error("정책 데이터 규격이 일치하지 않습니다.");

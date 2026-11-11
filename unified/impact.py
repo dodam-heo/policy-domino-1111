@@ -15,6 +15,7 @@ import re
 import time
 
 from .engine import hash256, clean, load, store, save_json, relative_path, YEAR
+from .actors import direct_actor_leads
 
 REFERENCES = re.compile(r"[「｢]([^」｣]{2,180})[」｣]\s*(제\s*\d+\s*조(?:의\s*\d+)?)?")
 ARTICLE = re.compile(r"제\s*\d+\s*조(?:의\s*\d+)?")
@@ -392,6 +393,7 @@ def run(root: Path, limit_events: int = 300) -> dict:
         program["_basis_search"] = plain(" ".join(program["basis"].values()))
         program["_criteria_search"] = plain(" ".join(program["criteria"].values()))
     generated = []
+    actor_leads_count = 0
     policy_ai_count = 0
     statuses = Counter()
     ai_failure_reasons = Counter()
@@ -505,9 +507,12 @@ def run(root: Path, limit_events: int = 300) -> dict:
                         model_available = False
             if policy_analysis and policy_analysis.get("verified"):
                 policy_ai_count += 1
+        actor_leads = direct_actor_leads(doc, comparison)
+        actor_leads_count += len(actor_leads)
         payload = {"doc": doc, "comparison_status": comparison.get("status"),
                    "changes_count": len(comparison.get("changes", [])),
-                   "institutional_actions": impacted, "dependent_rules": all_dependencies, "policy_analysis": policy_analysis}
+                   "institutional_actions": impacted, "dependent_rules": all_dependencies,
+                   "direct_actor_leads": actor_leads, "policy_analysis": policy_analysis}
         target = root / "impacts" / (hash256("|".join((
             doc.get("source", ""), doc.get("stable_id", ""),
             doc.get("serial", ""))))[:24] + ".json.gz")
@@ -521,6 +526,7 @@ def run(root: Path, limit_events: int = 300) -> dict:
     stats = {"official_programs": len(programs), "comparisons_considered": sum(statuses.values()),
              "verified_institutional_tasks": verified_tasks,
              "named_standard_review_candidates": named_standard_leads,
+             "direct_statutory_actor_leads": actor_leads_count,
              "official_rule_dependencies": dependency_count,
              "legacy_citation_candidates": legacy_dependency_count,
              "legacy_program_review_candidates": sum(

@@ -154,6 +154,7 @@ def assemble(root: Path, limit: int | None = None) -> dict:
     impacts = {}
     analyses = {}
     dependencies = {}
+    actors = {}
     for path in (root / "impacts").glob("*.json.gz"):
         payload = load(path, {})
         row = payload.get("doc") or {}
@@ -161,6 +162,7 @@ def assemble(root: Path, limit: int | None = None) -> dict:
             impacts[ident(row)] = payload.get("institutional_actions", [])
             analyses[ident(row)] = payload.get("policy_analysis")
             dependencies[ident(row)] = payload.get("dependent_rules", [])
+            actors[ident(row)] = payload.get("direct_actor_leads", [])
     events = []
     for doc in sources[:limit]:
         key = ident(doc)
@@ -205,6 +207,7 @@ def assemble(root: Path, limit: int | None = None) -> dict:
             "unresolved": comp.get("unresolved", []),
             "institutions": candidates,
             "dependent_rules": dependencies.get(key, []),
+            "direct_actor_leads": actors.get(key, []),
             "policy_analysis": analyses.get(key),
             "impact_level": assessment["classification"],
             "prior_url": (comp.get("prior_record") or {}).get("url", ""),
