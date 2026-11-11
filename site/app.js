@@ -155,9 +155,10 @@
 
     $("more").hidden=events.length<=state.visible;
   }
-  function sourceDiffPreview(change, beforeLabel="변경 전", afterLabel="변경 후") {
+  function sourceDiffPreview(change, beforeLabel="변경 전", afterLabel="변경 후", visible=Infinity, start=0) {
     const meaning=change.meaning||{};
-    const focus=Array.isArray(meaning.focus)?meaning.focus:[];
+    const allFocus=Array.isArray(meaning.focus)?meaning.focus:[];
+    const focus=allFocus.slice(start,start+visible);
     const wrapper=create("div","source-diff-preview");
     if(!focus.length) {
       const pair=create("div","highlight-comparison");
@@ -170,12 +171,13 @@
       append(wrapper,pair);
       return wrapper;
     }
-    if(meaning.diff_window_count>focus.length)append(wrapper,create("p","section-help","변경 위치 "+meaning.diff_window_count+"곳 중 "+focus.length+"곳 표시 · 나머지는 전체 원문에서 확인하세요."));
+    if(meaning.diff_window_count>allFocus.length)
+      append(wrapper,create("p","section-help","일부 변경 내용은 조문 전문에서 확인할 수 있습니다."));
     for(const [index,part] of focus.entries()){
       const pair=create("div","highlight-comparison");
-      if(focus.length>1)
+      if(allFocus.length>1)
         append(wrapper,create("p","diff-window-label",
-          "실제 변경 위치 "+num(index+1)+" / "+num(focus.length)));
+          "변경 위치 "+num(start+index+1)+" / "+num(allFocus.length)));
       for(const [side,label,className] of [
         ["before",beforeLabel,"highlight-old"],
         ["after",afterLabel,"highlight-new"]
@@ -259,8 +261,16 @@
         }
         if(change.before || change.after || meaning.focus?.length) {
           const first=shown.indexOf(change)===0;
-          if(first)append(row,sourceDiffPreview(change,"변경 전","변경 후"));
-          else {
+          if(first) {
+            append(row,sourceDiffPreview(change,"변경 전","변경 후",1));
+            const windows=Array.isArray(meaning.focus)?meaning.focus:[];
+            if(windows.length>1) {
+              const rest=create("details","core-more");
+              append(rest,create("summary","","나머지 변경 위치 "+num(windows.length-1)+"곳 펼쳐보기"),
+                sourceDiffPreview(change,"변경 전","변경 후",Infinity,1));
+              append(row,rest);
+            }
+          } else {
             const toggle=create("details","highlight-detail");
             append(toggle,create("summary","","변경 전·후 내용 펼치기"));
             append(toggle,sourceDiffPreview(change,"변경 전","변경 후"));

@@ -33,6 +33,9 @@ const scopedAgencyCounts=actions=>new Map(actions.map(a=>[a.agency,1]));
   assert.ok(detailSource.includes('const section=create("details","detail-section evidence-panel evidence-section")'));
   assert.ok(!detailSource.includes('wrapper.open=true'));
   assert.ok(detailSource.includes('append(root,core,institutions,ai,evidence)'));
+  assert.ok(detailSource.includes('sourceDiffPreview(change,"변경 전","변경 후",1)'));
+  assert.ok(detailSource.includes('나머지 변경 위치 '));
+  assert.ok(detailSource.includes('sourceDiffPreview(change,"변경 전","변경 후",Infinity,1)'));
   assert.ok(detailSource.includes('if(target.tagName==="DETAILS")target.open=true'));
 
   assert.equal(view.filterEvents([education,housing],{mode:'all',verification:'changed'}).length,0);
