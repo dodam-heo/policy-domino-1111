@@ -572,7 +572,7 @@
     const stats=view.overview(state.events);
     $("stat-events").textContent=num(raw.total_source_versions_saved||stats.events);
     $("stat-agencies").textContent=num(stats.institutions);
-    $("stat-actions").textContent=num(stats.actions);
+    $("stat-actions").textContent=num(raw.reconciliation?.verified_institutional_review_tasks??stats.actions);
     const rc=raw.reconciliation||{};
     $("analysis-coverage").textContent="공식 원문 확보 "+num(rc.official_complete_originals)+"건 · 검증된 신구 변경 "+num(rc.comparisons_by_status?.changed)+"건 · 부분 대조 "+num(rc.comparisons_by_status?.partial_unverified)+"건 · 분석 현황 펼치기";
     $("ai-review-progress").textContent="AI 정책 변경 설명 "+num(raw.analysis?.policy_ai_summaries)+"건 · 추가 분석 대상 "+num(raw.analysis?.policy_summaries_pending)+"건";
