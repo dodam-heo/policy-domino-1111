@@ -1,0 +1,54 @@
+import unittest
+from unified.impact import delegated_proof, collect_programs, impact_for, proof
+from unified.ai import verify, UnverifiedAnalysis
+
+
+class ImpactTests(unittest.TestCase):
+    def setUp(self):
+        self.doc = {"title": "공공서비스 규정", "url": "https://www.law.go.kr",
+                    "stable_id": "1", "serial": "2"}
+        self.change = {"clause": "제3조", "before": "지원 기준은 100원으로 한다.",
+                       "after": "지원 기준은 120원으로 한다."}
+        self.program = {"id": "svc01", "agency": "실제공공기관",
+                        "agency_type": "공공기관", "service_name": "공공지원사업",
+                        "url": "https://www.gov.kr",
+                        "basis": {"법령": "「공공서비스 규정」 제3조"},
+                        "criteria": {"선정기준": "100원 기준을 심사에 적용"}}
+    def test_exact_article_citation_and_old_value(self):
+        proofed = proof(self.program, self.doc, self.change)
+        self.assertTrue(proofed["numeric_value_in_operating_criteria"])
+        self.assertEqual(proofed["new_value"], "120원")
+    def test_title_only_does_not_prove_impact(self):
+        self.program["basis"]["법령"] = "공공서비스 규정"
+        self.assertIsNone(proof(self.program, self.doc, self.change))
+    def test_changed_article_only(self):
+        rows = impact_for(self.doc, {"status": "changed", "changes": [self.change]}, [self.program])
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["agency"], "실제공공기관")
+    def test_ai_must_quote_original(self):
+        impact = {"before": "100원", "after": "120원",
+                  "evidence": {"service_quote": "100원 기준"}}
+        good = {"old_quote": "100원", "new_quote": "120원",
+                "program_quote": "100원", "explanation": "표준값 변경 검토"}
+        self.assertTrue(verify(good, impact)["verified"])
+        bad = {**good, "new_quote": "900원"}
+        with self.assertRaises(UnverifiedAnalysis):
+            verify(bad, impact)
+
+
+class DelegationTests(unittest.TestCase):
+    def test_notice_parent_article_and_operating_criterion(self):
+        doc = {"source": "admrul", "title": "2027년 생활지원급여 선정기준"}
+        change = {"before": "「생활지원법」 제5조 생활지원급여 100원",
+                  "after": "「생활지원법」 제5조 생활지원급여 120원"}
+        program = {"basis": {"법령": "생활지원법(제5조)"},
+                   "criteria": {"지원내용": "생활지원급여 지급"}}
+        self.assertIsNotNone(delegated_proof(program, doc, change))
+        program['basis']['법령'] = '생활지원법(제6조)'
+        self.assertIsNone(delegated_proof(program, doc, change))
+        program['basis']['법령'] = '생활지원법(제5조)'
+        program['criteria']['지원내용'] = '별도 사업 지원'
+        self.assertIsNone(delegated_proof(program, doc, change))
+
+if __name__ == "__main__":
+    unittest.main()

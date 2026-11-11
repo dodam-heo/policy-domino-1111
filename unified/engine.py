@@ -1,0 +1,536 @@
+"""Independent official-law incremental collection and version comparison.
+
+New discovery does not import historical V2/V4/NEXT code or state.
+One immutable compressed source file per official document version.
+Unresolved annexes/attachments are explicitly incomplete, never invented.
+"""
+from __future__ import annotations
+import argparse
+import base64
+import datetime as dt
+from dataclasses import dataclass, asdict
+import gzip
+import hashlib
+import io
+import json
+import os
+from pathlib import Path
+import re
+import time
+from urllib.parse import urlencode, quote, urlparse
+from urllib.request import Request, urlopen
+import xml.etree.ElementTree as ET
+
+API = "https://www.law.go.kr/DRF/"
+FIELDS = {
+    "law": ("법령명한글", "법령ID", "법령일련번호", "공포일자", "ancYd", "MST"),
+    "admrul": ("행정규칙명", "행정규칙ID", "행정규칙일련번호", "발령일자", "prmlYd", "ID"),
+    "ordin": ("자치법규명", "자치법규ID", "자치법규일련번호", "공포일자", "ancYd", "MST"),
+}
+KINDS = {"1": "훈령", "2": "예규", "3": "고시", "4": "공고", "5": "지침", "6": "기타"}
+CLAUSE_TAGS = ("조문내용", "조내용", "항내용", "호내용", "목내용")
+LINK_TAGS = {"별표서식파일링크", "별표서식PDF파일링크", "첨부파일링크", "별표파일링크"}
+MAX_RESPONSE = 16_000_000
+YEAR = re.compile(r"(?:19|20)\d{2}\s*년(?:도)?")
+
+
+def hash256(raw: bytes | str) -> str:
+    return hashlib.sha256(raw.encode("utf8") if isinstance(raw, str) else raw).hexdigest()
+
+
+def clean(value) -> str:
+    return re.sub(r"\s+", " ", str(value or "")).strip()
+
+
+def tag(el) -> str:
+    return el.tag.split("}")[-1]
+
+
+def field(node, name: str, direct=False) -> str:
+    els = list(node) if direct else node.iter()
+    match = next((x for x in els if tag(x) == name), None)
+    return clean("".join(match.itertext())) if match is not None else ""
+
+
+def ymd(text: str) -> str:
+    digits = re.sub("[^0-9]", "", text or "")
+    if len(digits) != 8:
+        return ""
+    try:
+        return dt.date(int(digits[:4]), int(digits[4:6]), int(digits[6:])).isoformat()
+    except ValueError:
+        return ""
+
+
+def ident(rec) -> str:
+    return "|".join((rec["source"], rec["stable_id"], rec["serial"]))
+
+
+def relative_path(rec: dict) -> Path:
+    source, stable, serial = rec["source"], rec["stable_id"], rec["serial"]
+    if source not in FIELDS or not stable or not serial:
+        raise ValueError("Incomplete official document identity")
+    # IDs enter paths only after hashing; cannot traverse output directories.
+    return Path("documents") / source / hash256(source + "|" + stable)[:16] / (
+        hash256(ident(rec))[:24] + ".json.gz")
+
+
+def store(path: Path, obj: dict):
+    data = json.dumps(obj, ensure_ascii=False, separators=(",", ":")).encode("utf8")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    content = gzip.compress(data, compresslevel=6, mtime=0)
+    if path.exists() and path.read_bytes() == content:
+        return False
+    temp = path.with_name(path.name + ".tmp")
+    temp.write_bytes(content)
+    temp.replace(path)
+    return True
+
+
+def load(path: Path, default=None):
+    if not path.exists():
+        return default
+    if path.suffix == ".gz":
+        with gzip.open(path, "rt", encoding="utf8") as handle:
+            return json.load(handle)
+    return json.loads(path.read_text("utf8"))
+
+
+def save_json(path: Path, obj):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    data = json.dumps(obj, ensure_ascii=False, indent=2)
+    temp = path.with_name(path.name + ".tmp")
+    temp.write_text(data, "utf8")
+    temp.replace(path)
+
+
+def parse_index(root, source, rule_kind=""):
+    cfg = FIELDS[source]
+    needed = {cfg[0], cfg[2]}
+    result = {}
+    for node in root.iter():
+        children = {tag(el) for el in node}
+        if not needed <= children:
+            continue
+        title, stable, serial = (field(node, col, True) for col in cfg[:3])
+        issued = ymd(field(node, cfg[3], True) or field(node, "공포일자", True))
+        if not (title and stable and serial and issued):
+            continue
+        kind = KINDS.get(rule_kind, field(node, "행정규칙종류", True))
+        rec = {
+            "source": source, "stable_id": stable, "serial": serial,
+            "title": title, "published_at": issued,
+            "effective_date": ymd(field(node, "시행일자", True)),
+            "revision": field(node, "제개정구분명", True) or field(node, "제개정구분", True),
+            "kind": kind, "ministry": field(node, "소관부처명", True) or
+                                        field(node, "지자체기관명", True),
+            "url": API + "lawService.do?" + urlencode({
+                "OC": "dori", "target": source, "type": "HTML", cfg[5]: serial}),
+        }
+        result[ident(rec)] = rec
+    return list(result.values())
+
+
+def parse_body(xml: bytes) -> dict:
+    root = ET.fromstring(xml)
+    clauses = {}
+    links = []
+    for el in root.iter():
+        k = tag(el)
+        if k in LINK_TAGS:
+            url = clean("".join(el.itertext()))
+            if url and url not in links:
+                links.append(url)
+        if k == "조문단위":
+            number = field(el, "조문번호")
+            if not number:
+                continue
+            branch = field(el, "조문가지번호")
+            key = "제" + number + "조" + ("의" + branch if branch not in ("", "0") else "")
+            pieces = []
+            for child in el.iter():
+                if tag(child) not in CLAUSE_TAGS:
+                    continue
+                # Inner text only for wrappers to avoid duplicated parent+children.
+                nested = any(tag(grandchild) in CLAUSE_TAGS for grandchild in child)
+                text = clean(child.text if nested else "".join(child.itertext()))
+                if text and text not in pieces:
+                    pieces.append(text)
+            if pieces:
+                clauses[key] = " ".join(pieces)
+        elif k in ("별표단위", "서식단위"):
+            number = field(el, "별표번호") or field(el, "서식번호")
+            title = field(el, "별표제목") or field(el, "서식제목")
+            value = field(el, "별표내용") or field(el, "서식내용") or field(el, "본문내용")
+            if value:
+                key = ("별표 " if k == "별표단위" else "서식 ") + (number or str(len(clauses)+1))
+                if title:
+                    key += " (" + title + ")"
+                clauses[key] = value
+        elif k in ("조항", "자치법규조문"):
+            number, value = field(el, "조문번호", True), field(el, "조내용", True)
+            if number and value:
+                clauses["제"+number+"조"] = value
+    if not clauses:
+        fallback = [field(el, tag(el)) for el in root.iter()
+                    if tag(el) in ("본문내용", "행정규칙본문", "조문내용") and
+                    not any(tag(child) in CLAUSE_TAGS for child in el)]
+        fallback = [x for x in fallback if x]
+        if fallback:
+            clauses["본문"] = " ".join(dict.fromkeys(fallback))
+    incomplete = [k for k, v in clauses.items() if not v or len(v) >= 15000]
+    if any(re.search(r"<img\b", v, re.I) for v in clauses.values()):
+        incomplete.append("embedded_image_requires_full_attachment")
+    clauses = {key: re.sub(r"<img\b[^>]*>\s*(?:</img>)?", "[표: 공식 첨부 참조]", value,
+                           flags=re.I) for key, value in clauses.items()}
+    return {
+        "status": "complete" if clauses and not incomplete and not links else "partial",
+        "clauses": clauses,
+        "attachment_links": links,
+        "incomplete_keys": incomplete,
+        "raw_xml_sha256": hash256(xml),
+        "body_sha256": hash256(json.dumps(clauses, sort_keys=True, ensure_ascii=False)),
+    }
+
+
+def compare_bodies(before: dict, after: dict, *, annual=False) -> dict:
+    a, b = before.get("clauses", {}), after.get("clauses", {})
+    changes = []
+    unresolved = []
+    for clause in sorted(set(a) | set(b)):
+        old, new = a.get(clause), b.get(clause)
+        if old is None or new is None:
+            unresolved.append({"clause": clause, "reason": "counterpart_not_verified"})
+        elif old != new:
+            changes.append({"clause": clause, "before": old, "after": new,
+                            "before_hash": hash256(old), "after_hash": hash256(new)})
+    if before.get("status") != "complete" or after.get("status") != "complete":
+        unresolved.append({"reason": "incomplete_original_or_attachment"})
+    return {
+        "status": ("partial_unverified" if unresolved else
+                   "changed" if changes else "no_text_change"),
+        "relationship": "annual_successor" if annual else "same_official_id_revision",
+        "changes": changes, "unresolved": unresolved,
+        "counts": {"changed": len(changes), "unresolved": len(unresolved)},
+    }
+
+
+class OfficialAPI:
+    def __init__(self, oc, transport=None):
+        if not oc:
+            raise ValueError("LAW_OC is required")
+        self.oc, self.transport = oc, transport
+
+    def request(self, endpoint, source, **params):
+        url = API + endpoint + "?" + urlencode(
+            {"OC": self.oc, "target": source, "type": "XML", **params})
+        if self.transport:
+            raw = self.transport(url)
+        else:
+            last = None
+            for n in range(3):
+                try:
+                    with urlopen(Request(url, headers={
+                            "User-Agent": "PolicyDominoUnified/1.0"}), timeout=25) as r:
+                        raw = r.read(MAX_RESPONSE + 1)
+                    break
+                except OSError as exc:
+                    last = exc
+                    if n < 2:
+                        time.sleep(n + 1)
+            else:
+                raise RuntimeError("official_api_network_error: " + type(last).__name__)
+        if len(raw) > MAX_RESPONSE:
+            raise ValueError("official_api_payload_too_large")
+        root = ET.fromstring(raw)
+        if tag(root).lower() in ("html", "error"):
+            raise ValueError("official_api_error_document")
+        return root, raw
+
+    def search(self, source, start, end, edition="1", kind="", max_pages=20,
+               query=""):
+        if source not in FIELDS:
+            raise ValueError("Unsupported source")
+        params = {FIELDS[source][4]: start.replace("-", "") +
+                  "~" + end.replace("-", ""), "sort": "ddes", "display": 100}
+        if source != "law":
+            params["nw"] = edition
+        if kind and source == "admrul":
+            params["knd"] = kind
+        if query:
+            params["query"] = query
+        found, reported, seen_pages = {}, None, 0
+        for page in range(1, max_pages+1):
+            root, _ = self.request("lawSearch.do", source, page=page, **params)
+            count = field(root, "totalCnt")
+            if not count.isdigit():
+                raise ValueError("official_totalCnt_missing")
+            if reported is not None and int(count) != reported:
+                raise ValueError("official_totalCnt_changed_during_pagination")
+            reported = int(count)
+            rows = parse_index(root, source, kind)
+            if reported and not rows:
+                raise ValueError("official_rows_not_parsed")
+            for row in rows:
+                if start <= row["published_at"] <= end:
+                    found[ident(row)] = row
+            seen_pages = page
+            if reported == 0 or page*100 >= reported:
+                return list(found.values()), {
+                    "reported": reported, "collected": len(found),
+                    "pages": seen_pages, "complete": len(found) == reported}
+        return list(found.values()), {"reported": reported, "collected": len(found),
+                                     "pages": seen_pages, "complete": False,
+                                     "error": "pagination_limit"}
+
+    def detail(self, record):
+        param = FIELDS[record["source"]][5]
+        root, xml = self.request("lawService.do", record["source"],
+                                 **{param: record["serial"]})
+        return xml
+
+    def predecessor(self, record):
+        src = record["source"]
+        if src == "law":
+            root, _ = self.request("lawSearch.do", "eflaw", LID=record["stable_id"],
+                                   nw="1,2,3", page=1, display=100, sort="ddes")
+        else:
+            root, _ = self.request("lawSearch.do", src, query=record["title"],
+                                   nw="2", page=1, display=100, sort="ddes")
+        rows = parse_index(root, src)
+        candidates = [r for r in rows if r["stable_id"] == record["stable_id"] and
+                      (r["published_at"], r["serial"]) <
+                      (record["published_at"], record["serial"])]
+        if candidates:
+            return max(candidates, key=lambda r: (r["published_at"], r["serial"])), False
+        if src == "admrul":
+            m = YEAR.search(record["title"])
+            if m:
+                year = int(m.group()[:4])
+                previous_title = record["title"][:m.start()] + str(year-1) + record["title"][m.start()+4:]
+                for edition in ("1", "2"):
+                    root, _ = self.request("lawSearch.do", "admrul",
+                                           query=previous_title, nw=edition,
+                                           page=1, display=100, sort="ddes")
+                    prior = [r for r in parse_index(root, "admrul")
+                             if r["title"] == previous_title and
+                             r["published_at"] < record["published_at"] and
+                             (not record.get("ministry") or
+                              r.get("ministry") == record["ministry"])]
+                    if prior:
+                        return max(prior, key=lambda r: r["published_at"]), True
+        return None, False
+
+
+def _windows(root, state, source, edition, kind, today):
+    name = "|".join((source, edition, kind))
+    start_recent = today - dt.timedelta(days=6)
+    old_end = dt.date.fromisoformat(state.get("backfill", {}).get(
+        name, (today - dt.timedelta(days=7)).isoformat()))
+    first = old_end - dt.timedelta(days=13)
+    return [
+        (start_recent.isoformat(), today.isoformat(), "recent"),
+        (first.isoformat(), old_end.isoformat(), "historical"),
+    ]
+
+
+def streams():
+    return ([("admrul", "1", "3"), ("admrul", "2", "3"),
+             ("law", "1", "")] +
+            [(src, edition, kind)
+             for src in ("admrul", "ordin")
+             for edition in ("1", "2")
+             for kind in (KINDS if src == "admrul" else ("",))
+             if not (src == "admrul" and kind == "3")])
+
+
+def process(api, root: Path, state: dict, record: dict) -> dict:
+    destination = root / relative_path(record)
+    existing = load(destination)
+    if (existing and existing.get("body", {}).get("status") == "complete"
+            and existing.get("official_xml_base64")):
+        return existing
+    xml = api.detail(record)
+    body = parse_body(xml)
+    if body.get("attachment_links") and os.getenv(
+            "PD_FETCH_OFFICIAL_ATTACHMENTS", "true").lower() == "true":
+        from .attachments import resolve_attachments
+        body = resolve_attachments(root, body)
+    obj = {"identity": ident(record), "record": record, "body": body,
+           "official_xml_base64": base64.b64encode(xml).decode("ascii"),
+           "fetched_at": dt.datetime.now(dt.timezone.utc).isoformat()}
+    store(destination, obj)
+    return obj
+
+
+def _index_path(root: Path, source: str, edition: str, kind: str,
+                start: str, end: str, stage: str) -> Path:
+    key = "|".join((source, edition, kind, start, end, stage))
+    return root / "indexes" / source / (hash256(key)[:24] + ".json.gz")
+
+
+def _priority(rec: dict, today: dt.date) -> tuple:
+    """Generic date/year priority, not a policy-name or institution whitelist."""
+    target = today.year + 1
+    years = [int(x[:4]) for x in YEAR.findall(rec.get("title", ""))]
+    # YEAR.findall includes its whole 4-digit match when there are no captures.
+    annual = any(y >= target for y in years)
+    future = rec.get("effective_date", "") > today.isoformat()
+    current = rec.get("published_at", "") >= (
+        today - dt.timedelta(days=90)).isoformat()
+    return (int(annual)*5 + int(future)*3 + int(current),
+            rec.get("published_at", ""), rec.get("serial", ""))
+
+
+def _pending_index_records(root: Path, max_files=15000) -> list[dict]:
+    """Never lose official list results when per-run detail budget is exhausted."""
+    pending = {}
+    for path in sorted((root / "indexes").glob("*/*.json.gz"))[-max_files:]:
+        index = load(path, {})
+        for record in index.get("records", []):
+            if all(record.get(key) for key in ("source", "stable_id", "serial")):
+                pending[ident(record)] = record
+    return list(pending.values())
+
+
+def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
+        today: dt.date | None = None) -> dict:
+    today = today or dt.date.today()
+    state_file = root / "collection-state.json"
+    state = load(state_file, {}) or {}
+    for key in ("backfill", "coverage", "attempts", "errors"):
+        state.setdefault(key, {})
+    states = streams()
+    offset = int(state.get("stream_offset", 0)) % len(states)
+    schedule = (states[offset:] + states[:offset])[:min(len(states), limit_streams)]
+    failed = 0
+
+    def collect_window(source, edition, kind, start, end, stage, query=""):
+        nonlocal failed
+        key = "|".join((source, edition, kind, start, end, stage))
+        try:
+            records, info = api.search(source, start, end, edition, kind,
+                                       query=query)
+            saved = {
+                **info, "source": source, "edition": edition, "kind": kind,
+                "first": start, "last": end, "stage": stage,
+                "query_year": query, "checked_at": dt.datetime.now(
+                    dt.timezone.utc).isoformat()}
+            state["coverage"][key] = saved
+            store(_index_path(root, source, edition, kind, start, end, stage),
+                  {"coverage": saved, "records": records})
+            if not info.get("complete"):
+                failed += 1
+            elif stage == "historical":
+                state["backfill"]["|".join((source, edition, kind))] = (
+                    dt.date.fromisoformat(start) - dt.timedelta(days=1)).isoformat()
+            return info.get("complete", False)
+        except Exception as exc:
+            failed += 1
+            state["coverage"][key] = {
+                "source": source, "edition": edition, "kind": kind,
+                "first": start, "last": end, "stage": stage,
+                "query_year": query, "complete": False,
+                "error": type(exc).__name__ + ": " + str(exc)[:150]}
+            return False
+        finally:
+            save_json(state_file, state)
+
+    # Failed page windows are retried explicitly, ahead of advancing backfill.
+    prior_failures = [entry for entry in list(state["coverage"].values())
+                      if isinstance(entry, dict) and entry.get("complete") is not True
+                      and all(entry.get(k) for k in ("source", "edition", "first", "last"))]
+    for win in prior_failures[:2]:
+        collect_window(win["source"], win["edition"], win.get("kind", ""),
+                       win["first"], win["last"], win.get("stage", "retry"),
+                       win.get("query_year", ""))
+
+    # One uniform index for all official source/date/kind streams.
+    for source, edition, kind in schedule:
+        for start, end, stage in _windows(root, state, source, edition, kind, today):
+            collect_window(source, edition, kind, start, end, stage)
+
+    # Annual announcements are sometimes issued many months before taking
+    # effect. Search next-year notices across official administrative-rule
+    # categories, without enrolling any policy title.
+    annual_types = ["3", "1", "2", "4", "5", "6"]
+    shift = int(state.get("annual_kind_offset", 0)) % len(annual_types)
+    for kind in (annual_types[shift], annual_types[(shift+1) % len(annual_types)]):
+        for edition in ("1", "2"):
+            collect_window("admrul", edition, kind,
+                           (today - dt.timedelta(days=540)).isoformat(),
+                           today.isoformat(), "annual_forward",
+                           str(today.year+1))
+    state["annual_kind_offset"] = (shift+2) % len(annual_types)
+
+    # Reuse metadata saved by EVERY prior run, not only the latest window.
+    records_by_id = {ident(r): r for r in _pending_index_records(root)}
+    # Reused complete originals also require predecessor lookup; importing a
+    # body must not strand it outside the ongoing comparison queue.
+    for path in (root / "documents").glob("*/*/*.json.gz"):
+        record = load(path, {}).get("record", {})
+        if all(record.get(k) for k in ("source", "stable_id", "serial")):
+            records_by_id.setdefault(ident(record), record)
+    records = list(records_by_id.values())
+    # Rotate failures behind unattempted records so one inaccessible annex
+    # cannot permanently consume the entire processing budget.
+    records.sort(key=lambda r: (-int(state["attempts"].get(ident(r), 0)),
+                                _priority(r, today)), reverse=True)
+    attempted, complete, compared = 0, 0, 0
+    for rec in records:
+        if attempted >= detail_budget:
+            break
+        stored = load(root / relative_path(rec))
+        comparison_path = root / "comparisons" / (hash256(ident(rec))[:24] + ".json.gz")
+        if (stored and stored.get("body", {}).get("status") == "complete"
+                and stored.get("official_xml_base64") and comparison_path.exists()):
+            continue
+        attempted += 1
+        try:
+            after = process(api, root, state, rec)
+            if after.get("body", {}).get("status") == "complete":
+                complete += 1
+            if not after["body"]["clauses"]:
+                continue
+            prev, annual = api.predecessor(rec)
+            if not prev:
+                state["attempts"][ident(rec)] = int(state["attempts"].get(ident(rec), 0)) + 1
+                state["errors"][ident(rec)] = "predecessor_not_found"
+                continue
+            before = process(api, root, state, prev)
+            result = compare_bodies(before["body"], after["body"], annual=annual)
+            result["prior_record"] = prev
+            result["changed_record"] = rec
+            store(root / "comparisons" / (hash256(ident(rec))[:24] +
+                  ".json.gz"), result)
+            compared += 1
+            state["errors"].pop(ident(rec), None)
+        except Exception as exc:
+            state["attempts"][ident(rec)] = int(state["attempts"].get(ident(rec), 0)) + 1
+            state["errors"][ident(rec)] = type(exc).__name__ + ": " + str(exc)[:150]
+    state["stream_offset"] = (offset + len(schedule)) % len(states)
+    state["last_run"] = today.isoformat()
+    state["last_run_stats"] = {
+        "detail_attempted": attempted, "complete_originals_added": complete,
+        "compared_pairs_processed": compared,
+        "failed_windows": failed, "streams_checked": len(schedule),
+        "pending_index_versions": len(records),
+        "year_search_year": today.year+1,
+    }
+    save_json(state_file, state)
+    return state["last_run_stats"]
+
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--root", type=Path, default=Path("data"))
+    p.add_argument("--streams", type=int, default=3)
+    p.add_argument("--details", type=int, default=20)
+    args = p.parse_args()
+    oc = os.getenv("LAW_OC", "").strip()
+    result = run(args.root, OfficialAPI(oc), max(1, args.streams), max(1, args.details))
+    print(json.dumps(result, ensure_ascii=False))
+
+
+if __name__ == "__main__":
+    main()

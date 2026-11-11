@@ -1,0 +1,31 @@
+{
+  "id": "ordin|2093741|2183531",
+  "title": "영덕군 지명위원회 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "경상북도 영덕군",
+  "published_at": "2026-11-09",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%A7%80%EB%AA%85%EC%9C%84%EC%9B%90%ED%9A%8C%20%EC%A1%B0%EB%A1%80",
+  "category": "기타 제·개정",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [],
+  "unresolved": [
+    {
+      "clause": "부칙 2336 20231229",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "부칙 2472 20261109",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%A7%80%EB%AA%85%EC%9C%84%EC%9B%90%ED%9A%8C%20%EC%A1%B0%EB%A1%80"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ordin|2115354|2183247",
+  "title": "전북특별자치도의회 회의 규칙",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "전북특별자치도",
+  "published_at": "2026-11-06",
+  "effective_date": "2026-11-06",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%EC%9D%98%ED%9A%8C%20%ED%9A%8C%EC%9D%98%20%EA%B7%9C%EC%B9%99",
+  "category": "기타 제·개정",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [],
+  "unresolved": [
+    {
+      "clause": "부칙 185 20261106",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "부칙 3248 20240628",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%EC%9D%98%ED%9A%8C%20%ED%9A%8C%EC%9D%98%20%EA%B7%9C%EC%B9%99"
+}

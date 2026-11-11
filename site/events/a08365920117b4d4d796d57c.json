@@ -1,0 +1,31 @@
+{
+  "id": "ordin|2104182|2151321",
+  "title": "음성군 사무 전결처리 규칙",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "충청북도 음성군",
+  "published_at": "2026-07-15",
+  "effective_date": "2026-07-15",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%9D%8C%EC%84%B1%EA%B5%B0%20%EC%82%AC%EB%AC%B4%20%EC%A0%84%EA%B2%B0%EC%B2%98%EB%A6%AC%20%EA%B7%9C%EC%B9%99",
+  "category": "기타 제·개정",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [],
+  "unresolved": [
+    {
+      "clause": "부칙 1531 20260515",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "부칙 1533 20260715",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%9D%8C%EC%84%B1%EA%B5%B0%20%EC%82%AC%EB%AC%B4%20%EC%A0%84%EA%B2%B0%EC%B2%98%EB%A6%AC%20%EA%B7%9C%EC%B9%99"
+}

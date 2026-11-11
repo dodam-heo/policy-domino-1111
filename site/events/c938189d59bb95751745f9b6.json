@@ -1,0 +1,31 @@
+{
+  "id": "ordin|2095872|2183469",
+  "title": "영주시의회 위원회 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "경상북도 영주시",
+  "published_at": "2026-11-09",
+  "effective_date": "2026-11-09",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%98%81%EC%A3%BC%EC%8B%9C%EC%9D%98%ED%9A%8C%20%EC%9C%84%EC%9B%90%ED%9A%8C%20%EC%A1%B0%EB%A1%80",
+  "category": "기타 제·개정",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [],
+  "unresolved": [
+    {
+      "clause": "부칙 1595 20240603",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "부칙 1737 20261109",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%98%81%EC%A3%BC%EC%8B%9C%EC%9D%98%ED%9A%8C%20%EC%9C%84%EC%9B%90%ED%9A%8C%20%EC%A1%B0%EB%A1%80"
+}

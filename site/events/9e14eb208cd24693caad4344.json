@@ -1,0 +1,31 @@
+{
+  "id": "ordin|2193141|2183439",
+  "title": "영주시 인구정책 지원 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "경상북도 영주시",
+  "published_at": "2026-11-09",
+  "effective_date": "2026-11-09",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%9D%B8%EA%B5%AC%EC%A0%95%EC%B1%85%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80",
+  "category": "기타 제·개정",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [],
+  "unresolved": [
+    {
+      "clause": "부칙 1685 20251110",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "부칙 1741 20261109",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%9D%B8%EA%B5%AC%EC%A0%95%EC%B1%85%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80"
+}

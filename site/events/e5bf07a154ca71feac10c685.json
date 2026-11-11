@@ -1,0 +1,31 @@
+{
+  "id": "ordin|2039277|2183465",
+  "title": "군산시 도시계획 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "전북특별자치도 군산시",
+  "published_at": "2026-11-09",
+  "effective_date": "2026-11-09",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B5%B0%EC%82%B0%EC%8B%9C%20%EB%8F%84%EC%8B%9C%EA%B3%84%ED%9A%8D%20%EC%A1%B0%EB%A1%80",
+  "category": "기타 제·개정",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [],
+  "unresolved": [
+    {
+      "clause": "부칙 2303 20250415",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "부칙 2489 20261109",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B5%B0%EC%82%B0%EC%8B%9C%20%EB%8F%84%EC%8B%9C%EA%B3%84%ED%9A%8D%20%EC%A1%B0%EB%A1%80"
+}

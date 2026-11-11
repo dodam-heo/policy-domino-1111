@@ -1,0 +1,35 @@
+{
+  "id": "admrul|77245|2100000287788",
+  "title": "국립춘천병원 비급여수가규정",
+  "source": "admrul",
+  "kind": "예규",
+  "ministry": "국립춘천병원",
+  "published_at": "2026-11-04",
+  "effective_date": "2026-11-04",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EA%B5%AD%EB%A6%BD%EC%B6%98%EC%B2%9C%EB%B3%91%EC%9B%90%20%EB%B9%84%EA%B8%89%EC%97%AC%EC%88%98%EA%B0%80%EA%B7%9C%EC%A0%95",
+  "category": "급여·지원기준",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [],
+  "unresolved": [
+    {
+      "clause": "별표 0002 (약제 비급여 수가)",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "별표 0002 (진단서 및 증명서 등 발급 수수료)",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "별표 0003 (진단서 및 증명서 등 발급 수수료)",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EA%B5%AD%EB%A6%BD%EC%B6%98%EC%B2%9C%EB%B3%91%EC%9B%90%20%EB%B9%84%EA%B8%89%EC%97%AC%EC%88%98%EA%B0%80%EA%B7%9C%EC%A0%95"
+}
