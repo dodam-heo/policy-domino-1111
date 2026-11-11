@@ -12,6 +12,7 @@ from pathlib import Path
 import re
 from .engine import ident, load, save_json
 from .institutions import coverage
+from .impact_scoring import evaluate as score_impact, change_substance
 
 TOPICS = (
     ("급여·지원기준", re.compile(r"급여|지원대상|선정기준|기준 중위소득|소득인정액|보조금|복지")),
@@ -171,7 +172,23 @@ def assemble(root: Path, limit: int | None = None) -> dict:
             "focus": c.get("focus", []), "diff_window_count": c.get("diff_window_count", 0),
         } for c in changes]
         candidates = impacts.get(key, [])
-        priority = review_priority(doc, comp, candidates)
+        assessment = score_impact(doc, comp, candidates, dependencies.get(key, []))
+        priority = [
+            axis["evidence"][0]["reason"]
+            for axis in assessment["axes"].values()
+            if axis["score"] is not None and axis["score"] > 0
+            and axis["evidence"]
+        ]
+        featured = assessment["featured_change_indices"]
+        focus_change = next((changes[i] for i in featured if i < len(changes)), None)
+        actual_summary = primary_change_summary([focus_change]) if focus_change else ""
+        if not actual_summary and assessment["axes"]["substance"]["score"] is not None:
+            if assessment["axes"]["substance"]["score"] < 20:
+                actual_summary = "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인"
+        before_after = [
+            dict(row, substance_score=(change_substance(doc, changes[i]) or (0, None))[0])
+            for i, row in enumerate(before_after)
+        ]
         events.append({
             "id": key, "title": doc.get("title", ""),
             "source": doc["source"], "kind": doc.get("kind", ""),
@@ -179,8 +196,9 @@ def assemble(root: Path, limit: int | None = None) -> dict:
             "effective_date": doc.get("effective_date", ""),
             "revision": doc.get("revision", ""), "url": doc.get("url", ""),
             "category": classify(doc, changes),
-            "primary_change_summary": primary_change_summary(changes),
+            "primary_change_summary": actual_summary,
             "priority_reasons": priority,
+            "impact_assessment": assessment,
             "comparison_status": comp.get("status", "original_saved_comparison_pending"),
             "relationship": comp.get("relationship", ""),
             "changes": before_after,
@@ -188,7 +206,7 @@ def assemble(root: Path, limit: int | None = None) -> dict:
             "institutions": candidates,
             "dependent_rules": dependencies.get(key, []),
             "policy_analysis": analyses.get(key),
-            "impact_level": "high" if priority else "normal",
+            "impact_level": assessment["classification"],
             "prior_url": (comp.get("prior_record") or {}).get("url", ""),
         })
     report = {
