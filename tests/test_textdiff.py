@@ -23,3 +23,19 @@ class TextDiffTests(unittest.TestCase):
         self.assertTrue(focus[0]['before']['truncated'])
         self.assertLessEqual(len(focus[0]['before']['changed']),401)
         self.assertEqual(count,1)
+
+class ImportedComparisonTests(unittest.TestCase):
+    def test_missing_archived_originals_never_become_verified(self):
+        import tempfile
+        from pathlib import Path
+        from unified.engine import store,load,refresh_cached
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            path=root/'comparisons'/'imported.json.gz'
+            record={'source':'law','stable_id':'1','serial':'2','title':'운영규정'}
+            store(path,{'changed_record':record,'prior_record':{**record,'serial':'1'},'status':'changed','changes':[{'clause':'제1조','before':'지원 금액 100원','after':'지원금액 100원'}]})
+            refresh_cached(root)
+            result=load(path)
+            self.assertEqual(result['status'],'partial_unverified')
+            self.assertEqual(result['changes'],[])
+            self.assertTrue(any(x['reason']=='original_source_not_reverified' for x in result['unresolved']))
