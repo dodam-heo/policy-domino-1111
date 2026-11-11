@@ -32,7 +32,7 @@ def classify(doc, changes) -> str:
 
 
 
-AMOUNT_OR_PERIOD = re.compile(r"(?<!\d)\d[\d,]*(?:\.\d+)?\s*(?:만원|개월|원|%|일|명|가구|년)?")
+AMOUNT_OR_PERIOD = re.compile(r"(?<!\d)(\d[\d,]*(?:\.\d+)?)\s*(만원|만\s*원|개월|시간|가구|원|%|일|명|년|세|주)")
 IMPACT_CRITERIA = (
     ("급여·지원금·소득 기준 변경", re.compile(r"급여|지원금|중위소득|소득기준|소득인정액|생계비|주거비|장학금|보조금|지원액")),
     ("지원대상·자격·선정 기준 변경", re.compile(r"선정기준|지원대상|입주자격|수급자격|자격기준|심사기준|지원요건")),
@@ -40,28 +40,27 @@ IMPACT_CRITERIA = (
     ("신청·처리 기한 변경", re.compile(r"신청기한|신청기간|처리기한|처리기간|접수기간|제출기한")),
     ("법정 의무·제재 기준 변경", re.compile(r"법정의무|의무기준|제재기준|처분기준|벌칙|위반기준")),
 )
+MONEY_UNITS = {"원", "만원", "%", "표 수치"}
+ELIGIBILITY_UNITS = MONEY_UNITS | {"명", "세", "가구", "개월"}
+DEADLINE_UNITS = {"일", "개월", "년", "주", "시간"}
 
 
-def _changed_quantity_tokens(text: str) -> set[str]:
-    """Numbers in the actual changed span, not unrelated numbers in a clause."""
+def _quantities(text: str) -> dict[str, set[str]]:
+    """Numbers and their real units, excluding article numbers and dates."""
+    text = re.sub(r"<[^>]{0,140}>", "", text)
     text = re.sub(r"제\s*\d+\s*조(?:의\s*\d+)?", "", text)
-    result = set()
-    for raw in AMOUNT_OR_PERIOD.findall(text):
-        token = raw.replace(" ", "")
-        digits = re.sub(r"\D", "", token)
-        # Merely changing the annual reference year is not a support amount.
-        if digits.isdigit() and len(digits) == 4 and 1900 <= int(digits) <= 2099 and token == digits:
-            continue
-        result.add(token)
-    return result
+    found = {}
+    for value, unit in AMOUNT_OR_PERIOD.findall(text):
+        unit = unit.replace(" ", "")
+        found.setdefault(unit, set()).add(value.replace(",", ""))
+    return found
 
 
 def review_priority(doc: dict, comparison: dict, actions: list[dict]) -> list[str]:
-    """Reasoned review priority based on verified edits, not keyword co-occurrence.
+    """An auditably local numeric criterion change or verified program link.
 
-    A changed numeric fragment and a closely surrounding criterion phrase must
-    agree. Unrelated fee words elsewhere in a long organizational regulation
-    must not create a false 'fee impact' signal.
+    An article renumbering, revision date, agency reshuffle or unrelated keyword
+    must never be categorized as an income, fee or eligibility change.
     """
     if comparison.get("status") != "changed" or not comparison.get("changes"):
         return []
@@ -71,35 +70,47 @@ def review_priority(doc: dict, comparison: dict, actions: list[dict]) -> list[st
            a.get("evidence", {}).get("service_quote") for a in actions):
         reasons.append("공식 사업·기관 업무의 변경 조문 인용 확인")
     for change in comparison["changes"]:
-        before, after = str(change.get("before") or ""), str(change.get("after") or "")
-        if not before or not after or before == after:
+        old, new = str(change.get("before") or ""), str(change.get("after") or "")
+        if not old or not new or old == new:
             continue
         windows = change.get("focus") or []
-        if not windows and len(before) + len(after) <= 350:
-            windows = [{"before": {"changed": before},
-                        "after": {"changed": after}}]
+        if not windows and len(old) + len(new) <= 350:
+            windows = [{"before": {"changed": old}, "after": {"changed": new}}]
         for window in windows:
-            previous = window.get("before") or {}
-            current = window.get("after") or {}
-            prior_segment = str(previous.get("changed") or "")
-            new_segment = str(current.get("changed") or "")
-            if not (_changed_quantity_tokens(prior_segment) ^
-                    _changed_quantity_tokens(new_segment)):
+            left, right = window.get("before") or {}, window.get("after") or {}
+            old_edit = str(left.get("changed") or "")
+            new_edit = str(right.get("changed") or "")
+            # One-sided insertion and amendment-history dates are not proof
+            # that an operating amount or deadline was replaced.
+            if not re.search(r"\d", old_edit) or not re.search(r"\d", new_edit):
                 continue
-            # Use only the immediate changed words and nearby unchanged text.
-            local_context = " ".join((
-                str(change.get("clause") or ""),
-                str(previous.get("prefix") or "")[-80:], prior_segment,
-                str(previous.get("suffix") or "")[:80],
-                str(current.get("prefix") or "")[-80:], new_segment,
-                str(current.get("suffix") or "")[:80],
-            ))
-            # A short annex/table cell often has a bare amount. Its exact
-            # notice title can identify the criterion; long articles cannot.
-            if len(before) + len(after) <= 250:
+            old_local = (str(left.get("prefix") or "")[-70:] +
+                         old_edit + str(left.get("suffix") or "")[:70])
+            new_local = (str(right.get("prefix") or "")[-70:] +
+                         new_edit + str(right.get("suffix") or "")[:70])
+            prior, current = _quantities(old_local), _quantities(new_local)
+            changed_units = {unit for unit in prior.keys() & current.keys()
+                             if prior[unit] != current[unit]}
+            is_table = str(change.get("clause") or "").startswith("표 ")
+            if is_table and len(old) + len(new) <= 250:
+                numeric_old = set(re.findall(r"(?<!\d)\d[\d,]*(?:\.\d+)?", old))
+                numeric_new = set(re.findall(r"(?<!\d)\d[\d,]*(?:\.\d+)?", new))
+                if numeric_old and numeric_new and numeric_old != numeric_new:
+                    changed_units.add("표 수치")
+            if not changed_units:
+                continue
+            local_context = (" ".join((str(change.get("clause") or ""),
+                                     old_local, new_local)))
+            if is_table and len(old) + len(new) <= 250:
                 local_context += " " + str(doc.get("title") or "")
-            for label, pattern in IMPACT_CRITERIA:
-                if label not in reasons and pattern.search(local_context):
+            for index, (label, pattern) in enumerate(IMPACT_CRITERIA):
+                if label in reasons or not pattern.search(local_context):
+                    continue
+                allowed = (MONEY_UNITS if index in (0, 2) else
+                           ELIGIBILITY_UNITS if index == 1 else
+                           DEADLINE_UNITS if index == 3 else
+                           MONEY_UNITS | DEADLINE_UNITS)
+                if changed_units & allowed:
                     reasons.append(label)
     return reasons
 

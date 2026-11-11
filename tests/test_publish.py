@@ -77,5 +77,33 @@ class PublishTest(unittest.TestCase):
                          ["요율·수수료·부담금 변경"])
 
 
+    def test_no_false_priority_from_revision_dates_or_article_renumbering(self):
+        from unified.publish import review_priority
+        old = "예방접종 지원대상자는 다음과 같다. <개정 2025. 12. 26.>"
+        new = "예방접종 지원대상자는 다음과 같다. <개정 2025. 12. 26., 2026. 11. 6.>"
+        comparison = {"status": "changed", "changes": [{
+            "clause": "제4조", "before": old, "after": new,
+            "focus": [{"before":{"changed":"26."}, "after":{"changed":"26., 2026. 11. 6."},
+                       "before_context":"지원대상"}]}]}
+        self.assertEqual(review_priority({"title":"예방접종 지원 조례"},comparison,[]),[])
+        doc = {"title":"행정기구 설치 시행규칙"}
+        comparison = {"status":"changed","changes":[{
+            "clause":"제11조","before":"제2호 민원여권과","after":"제3호 민원여권과",
+            "focus":[{"before":{"prefix":"제", "changed":"2","suffix":"호 민원여권과"},
+                      "after":{"prefix":"제", "changed":"3","suffix":"호 민원여권과"}}]}]}
+        self.assertEqual(review_priority(doc,comparison,[]),[])
+
+    def test_support_amount_near_numeric_change_is_high_priority(self):
+        from unified.publish import review_priority
+        old = "지원액 : 월 10만원"
+        new = "지원액 : 월 20만원"
+        changes = [{"clause":"제6조", "before":old, "after":new,
+                    "focus":[{"before":{"prefix":"지원액 : 월 ","changed":"10","suffix":"만원"},
+                              "after":{"prefix":"지원액 : 월 ","changed":"20","suffix":"만원"}}]}]
+        result = review_priority({"title":"보훈 지원 조례"},
+                                 {"status":"changed","changes":changes},[])
+        self.assertEqual(result,["급여·지원금·소득 기준 변경"])
+
+
 if __name__ == "__main__":
     unittest.main()
