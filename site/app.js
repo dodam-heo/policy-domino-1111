@@ -593,14 +593,27 @@
   for(const id of ["category","source","sort"])$(id).onchange=()=>{state[id]=$(id).value;refresh();};
   $("reset").onclick=()=>{state.mode="all";state.query="";state.category="";state.source="";state.sort="published";$("search").value="";$("category").value="";$("source").value="";$("sort").value="published";refresh();};
   function goHome(event){
-    event.preventDefault();requestId++;state.mode="impact";state.query="";state.category="";state.source="";state.sort="published";state.visible=60;state.institutionFilter="all";
-    $("search").value="";$("category").value="";$("source").value="";$("sort").value="published";
+    if(event)event.preventDefault();
+    // Cancel in-flight detail responses so a previous policy cannot reopen.
+    requestId++;
+    Object.assign(state,{mode:"impact",query:"",category:"",source:"",
+      sort:"published",visible:60,institutionFilter:"all",selected:null});
+    $("search").value="";
+    $("category").value="";
+    $("source").value="";
+    $("sort").value="published";
     if($("registry-dialog").open)$("registry-dialog").close();
     document.querySelector(".coverage-status-inner").open=true;
-    history.replaceState(null,"",location.pathname+location.search);
-    back(false);state.selected=null;renderList();
-    const first=filtered()[0];if(first)select(first.id,false);else renderDetail();
-    if(mobile())back(false);$("items").scrollTop=0;scrollTop();
+    try{history.replaceState(null,"",location.pathname+location.search);}catch{}
+    back(false);
+    renderList();
+    const first=filtered()[0];
+    if(first)select(first.id,false);
+    else renderDetail();
+    // The mobile home view is the list, not an automatically opened detail.
+    if(mobile())back(false);
+    $("items").scrollTop=0;
+    scrollTop();
   }
   document.querySelectorAll("[data-home]").forEach(banner=>banner.addEventListener("click",goHome));
   function deltaTable(changes,limit){
