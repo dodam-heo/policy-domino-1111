@@ -5,7 +5,7 @@
   const model = window.PolicyDominoModel;
   let requestId=0;
   const state = {
-    data: null, events: [], selected: null, mode: "all", category:"",source:"",sort:"impact",
+    data: null, events: [], selected: null, mode: "impact", category:"",source:"",sort:"impact",
     query: "", visible: 60, institutionFilter: "all", verification:""
   };
   const mobile = () => window.matchMedia("(max-width:850px)").matches;
@@ -596,7 +596,7 @@
   function show(data) {
     if(data.schema!=="policy-domino-unified-ui-v1"||!Array.isArray(data.events))throw Error("정책 데이터 규격이 일치하지 않습니다.");
     const raw=data;
-    state.data=data;state.events=data.events.map(model.eventView);state.mode="all";state.sort="impact";state.institutionFilter="all";
+    state.data=data;state.events=data.events.map(model.eventView);state.mode="impact";state.sort="impact";state.institutionFilter="all";
     const stats=view.overview(state.events);
     $("stat-events").textContent=num(raw.total_source_versions_saved||stats.events);
     $("stat-agencies").textContent=num(stats.institutions);
@@ -630,12 +630,12 @@
     }
   }
   for(const id of ["category","source","sort","verification"])$(id).onchange=()=>{state[id]=$(id).value;refresh();};
-  $("reset").onclick=()=>{state.mode="all";state.query="";state.category="";state.source="";state.sort="impact";state.verification="";$("search").value="";$("category").value="";$("source").value="";$("sort").value="impact";$("verification").value="";refresh();};
+  $("reset").onclick=()=>{state.mode="impact";state.query="";state.category="";state.source="";state.sort="impact";state.verification="";$("search").value="";$("category").value="";$("source").value="";$("sort").value="impact";$("verification").value="";refresh();};
   function goHome(event){
     if(event)event.preventDefault();
     // Cancel in-flight detail responses so a previous policy cannot reopen.
     requestId++;
-    Object.assign(state,{mode:"all",query:"",category:"",source:"",
+    Object.assign(state,{mode:"impact",query:"",category:"",source:"",
       sort:"impact",visible:60,institutionFilter:"all",selected:null,verification:""});
     $("search").value="";
     $("category").value="";

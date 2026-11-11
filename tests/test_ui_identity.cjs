@@ -24,6 +24,16 @@ const scopedAgencyCounts=actions=>new Map(actions.map(a=>[a.agency,1]));
   assert.ok(!filterHtml.includes('id="mode-amended"'));
   assert.ok(filterHtml.includes('>영향도 큼</button>'));
   assert.ok(!filterHtml.includes('영향도 큼만 보기'));
+  assert.ok(!filterHtml.includes('영향도 평가 기준 (100점) 보기'));
+  assert.ok(!filterHtml.includes('class="priority-explainer"'));
+  assert.match(filterHtml,/id="mode-impact"[^>]*class="quick-filter active"[^>]*aria-pressed="true"/);
+  assert.match(filterHtml,/id="mode-all"[^>]*class="quick-filter"[^>]*aria-pressed="false"/);
+  const appDefaults=fs.readFileSync('site/app.js','utf8');
+  assert.match(appDefaults,/selected: null, mode: "impact"/);
+  assert.ok(appDefaults.includes('state.mode="impact";state.sort="impact"'));
+  assert.ok(appDefaults.includes('$("reset").onclick=()=>{state.mode="impact";'));
+  assert.ok(appDefaults.includes('Object.assign(state,{mode:"impact",query:""'));
+  assert.equal(view.filterEvents([education,housing],{mode:'impact'}).length,1);
   // The detail page is a reader-oriented view, not a scoring or debug console.
   const detailSource=fs.readFileSync('site/app.js','utf8');
   assert.ok(!detailSource.includes('renderImpactScore('));
