@@ -1,0 +1,179 @@
+{
+  "id": "ordin|2143254|2178027",
+  "title": "안양시 양성평등 기본 조례 시행규칙",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "경기도 안양시",
+  "published_at": "2026-10-07",
+  "effective_date": "2027-01-01",
+  "revision": "폐지",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%95%88%EC%96%91%EC%8B%9C%20%EC%96%91%EC%84%B1%ED%8F%89%EB%93%B1%20%EA%B8%B0%EB%B3%B8%20%EC%A1%B0%EB%A1%80%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
+  "category": "행정절차·인허가",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 15,
+    "score_min": 15,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "안양시 양성평등 기본 조례 시행규칙",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%95%88%EC%96%91%EC%8B%9C%20%EC%96%91%EC%84%B1%ED%8F%89%EB%93%B1%20%EA%B8%B0%EB%B3%B8%20%EC%A1%B0%EB%A1%80%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "안양시 양성평등 기본 조례 시행규칙",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%95%88%EC%96%91%EC%8B%9C%20%EC%96%91%EC%84%B1%ED%8F%89%EB%93%B1%20%EA%B8%B0%EB%B3%B8%20%EC%A1%B0%EB%A1%80%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "안양시 양성평등 기본 조례 시행규칙",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%95%88%EC%96%91%EC%8B%9C%20%EC%96%91%EC%84%B1%ED%8F%89%EB%93%B1%20%EA%B8%B0%EB%B3%B8%20%EC%A1%B0%EB%A1%80%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제1조",
+      "before": "제1조(목적) 이 규칙은「안양시 양성평등 기본조례」의 시행에 필요한 사항을 규정함을 목적으로 한다. <개정 2018. 2. 28>",
+      "after": "제1조(목적) 이 규칙은「안양시 양성평등 기본조례」의 시행에 필요한 사항을 규정함을 목적으로 한다. <개정 2018. 2. 28.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…본조례」의 시행에 필요한 사항을 규정함을 목적으로 한다. <개정 2018. 2. ",
+            "changed": "28",
+            "suffix": ">",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…본조례」의 시행에 필요한 사항을 규정함을 목적으로 한다. <개정 2018. 2. ",
+            "changed": "28.",
+            "suffix": ">",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 0
+    },
+    {
+      "article": "제2조",
+      "before": "제2조(기금의 지원신청) 「안양시 양성평등 기본 조례」(이하 “조례”라 한다) 제40조에 따른 안양시 양성평등기금(이하 “기금”이라 한다)을 지원받고자 하는 자는 별지 제1호서식의 기금 지원신청서와 다음 각 호의 서류를 첨부하여 안양시장(이하 “시장”이라 한다)에게 제출하여야 한다. <개정 2018. 2. 28> 1. 사업계획서 2. 법인 또는 단체의 정관 3. 법인 또는 단체의 구성현황 및 활동실적 4. 그 밖에 필요한 증명서류",
+      "after": "제2조(기금의 지원신청) 「안양시 양성평등 기본 조례」(이하 “조례”라 한다) 제40조에 따른 안양시 양성평등기금(이하 “기금”이라 한다)을 지원받고자 하는 자는 별지 제1호서식의 기금 지원신청서와 다음 각 호의 서류를 첨부하여 안양시장(이하 “시장”이라 한다)에게 제출하여야 한다. <개정 2018. 2. 28.> 1. 사업계획서 2. 법인 또는 단체의 정관 3. 법인 또는 단체의 구성현황 및 활동실적 4. 그 밖에 필요한 증명서류",
+      "focus": [
+        {
+          "before": {
+            "prefix": "… 안양시장(이하 “시장”이라 한다)에게 제출하여야 한다. <개정 2018. 2. ",
+            "changed": "28",
+            "suffix": "> 1. 사업계획서 2. 법인 또는 단체의 정관 3. 법인 또는 단체의 구성현황 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 안양시장(이하 “시장”이라 한다)에게 제출하여야 한다. <개정 2018. 2. ",
+            "changed": "28.",
+            "suffix": "> 1. 사업계획서 2. 법인 또는 단체의 정관 3. 법인 또는 단체의 구성현황 …",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 0
+    },
+    {
+      "article": "제3조",
+      "before": "제3조(기금의 지원결정) ① 시장은 제2조에 따른 기금 지원신청서를 접수한 때에는 다음 각 호의 사항을 검토한 후 조례 제30조에 따른 안양시 양성평등정책위원회(이하 “위원회”라 한다)의 심의를 거쳐 지원여부와 지원금액을 결정한다. <개정 2018. 2. 28> 1. 사업목적의 적정성 2. 지원사업의 적정성 3. 금액산정의 적정성 4. 자체부담금의 부담능력 5. 사업의 수행능력 6. 여성관련사업 추진실적 ② 시장은 제1항에 따라 결정된 내용을 신청자에게 통보하여야 한다.",
+      "after": "제3조(기금의 지원결정) ① 시장은 제2조에 따른 기금 지원신청서를 접수한 때에는 다음 각 호의 사항을 검토한 후 조례 제30조에 따른 안양시 양성평등정책위원회(이하 “위원회”라 한다)의 심의를 거쳐 지원여부와 지원금액을 결정한다. <개정 2018. 2. 28.> 1. 사업목적의 적정성 2. 지원사업의 적정성 3. 금액산정의 적정성 4. 자체부담금의 부담능력 5. 사업의 수행능력 6. 여성관련사업 추진실적 ② 시장은 제1항에 따라 결정된 내용을 신청자에게 통보하여야 한다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…라 한다)의 심의를 거쳐 지원여부와 지원금액을 결정한다. <개정 2018. 2. ",
+            "changed": "28",
+            "suffix": "> 1. 사업목적의 적정성 2. 지원사업의 적정성 3. 금액산정의 적정성 4. 자…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…라 한다)의 심의를 거쳐 지원여부와 지원금액을 결정한다. <개정 2018. 2. ",
+            "changed": "28.",
+            "suffix": "> 1. 사업목적의 적정성 2. 지원사업의 적정성 3. 금액산정의 적정성 4. 자…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 0
+    },
+    {
+      "article": "제4조",
+      "before": "제4조(기금의 신청 및 교부) ① 위원회에서 지원사업자로 결정된 자는 사업시작 1개월 전까지 별지 제2호서식의 기금 교부신청서와 관련서류를 첨부하여 시장에게 제출하여야 한다. ② 시장은 제1항에 따라 신청한 기금 교부신청서를 검토한 후 사업시작일 전까지 기금을 교부하여야 한다. 다만, 시장이 필요하다고 인정할 경우에는 분할하여 교부할 수 있다. <개정 2018. 2. 28>",
+      "after": "제4조(기금의 신청 및 교부) ① 위원회에서 지원사업자로 결정된 자는 사업시작 1개월 전까지 별지 제2호서식의 기금 교부신청서와 관련서류를 첨부하여 시장에게 제출하여야 한다. ② 시장은 제1항에 따라 신청한 기금 교부신청서를 검토한 후 사업시작일 전까지 기금을 교부하여야 한다. 다만, 시장이 필요하다고 인정할 경우에는 분할하여 교부할 수 있다. <개정 2018. 2. 28.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…이 필요하다고 인정할 경우에는 분할하여 교부할 수 있다. <개정 2018. 2. ",
+            "changed": "28",
+            "suffix": ">",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…이 필요하다고 인정할 경우에는 분할하여 교부할 수 있다. <개정 2018. 2. ",
+            "changed": "28.",
+            "suffix": ">",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 0
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1340373"
+}

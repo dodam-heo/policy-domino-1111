@@ -1,0 +1,82 @@
+{
+  "id": "ordin|2068997|2175965",
+  "title": "부천시 문화시설건립특별회계 설치 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "경기도 부천시",
+  "published_at": "2026-10-06",
+  "effective_date": "2027-01-01",
+  "revision": "폐지",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%B2%9C%EC%8B%9C%20%EB%AC%B8%ED%99%94%EC%8B%9C%EC%84%A4%EA%B1%B4%EB%A6%BD%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84%20%EC%84%A4%EC%B9%98%20%EC%A1%B0%EB%A1%80",
+  "category": "기타 제·개정",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 15,
+    "score_min": 15,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "종전·현행 원문 비교 대기",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부천시 문화시설건립특별회계 설치 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%B2%9C%EC%8B%9C%20%EB%AC%B8%ED%99%94%EC%8B%9C%EC%84%A4%EA%B1%B4%EB%A6%BD%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84%20%EC%84%A4%EC%B9%98%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부천시 문화시설건립특별회계 설치 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%B2%9C%EC%8B%9C%20%EB%AC%B8%ED%99%94%EC%8B%9C%EC%84%A4%EA%B1%B4%EB%A6%BD%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84%20%EC%84%A4%EC%B9%98%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부천시 문화시설건립특별회계 설치 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%B2%9C%EC%8B%9C%20%EB%AC%B8%ED%99%94%EC%8B%9C%EC%84%A4%EA%B1%B4%EB%A6%BD%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84%20%EC%84%A4%EC%B9%98%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "original_saved_comparison_pending",
+  "relationship": "",
+  "changes": [],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": ""
+}

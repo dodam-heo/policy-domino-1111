@@ -9,10 +9,10 @@
     "admrul|1|5": "2025-12-27",
     "admrul|1|6": "2025-12-27",
     "admrul|2|1": "2026-03-27",
-    "admrul|2|5": "2025-12-27",
-    "admrul|2|6": "2025-12-27",
+    "admrul|2|5": "2025-09-28",
+    "admrul|2|6": "2025-09-28",
     "admrul|2|2": "2026-03-27",
-    "ordin|1|": "2026-08-08",
+    "ordin|1|": "2026-07-09",
     "admrul|2|4": "2026-03-27",
     "ordin|2|": "2026-10-21"
   },
@@ -385,7 +385,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T10:08:53.613040+00:00"
+      "checked_at": "2026-11-11T14:58:08.116137+00:00"
     },
     "admrul|2|5|2026-10-22|2026-11-04|historical": {
       "reported": 0,
@@ -414,7 +414,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T10:08:56.346117+00:00"
+      "checked_at": "2026-11-11T14:58:15.268288+00:00"
     },
     "admrul|2|6|2026-10-22|2026-11-04|historical": {
       "reported": 0,
@@ -528,7 +528,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T10:09:19.529824+00:00"
+      "checked_at": "2026-11-11T14:58:47.735668+00:00"
     },
     "ordin|1||2026-10-22|2026-11-04|historical": {
       "reported": 997,
@@ -545,10 +545,6 @@
       "checked_at": "2026-11-11T05:46:41.023356+00:00"
     },
     "ordin|2||2026-11-05|2026-11-11|recent": {
-      "reported": 847,
-      "collected": 847,
-      "pages": 9,
-      "complete": true,
       "source": "ordin",
       "edition": "2",
       "kind": "",
@@ -556,7 +552,10 @@
       "last": "2026-11-11",
       "stage": "recent",
       "query_year": "",
-      "checked_at": "2026-11-11T05:46:57.794272+00:00"
+      "search_scope": 1,
+      "complete": false,
+      "checked_at": "2026-11-11T15:02:07.875051+00:00",
+      "error": "TimeoutError: collection_budget_reached"
     },
     "ordin|2||2026-10-22|2026-11-04|historical": {
       "reported": 1071,
@@ -1600,6 +1599,83 @@
       "query_year": "",
       "search_scope": 1,
       "checked_at": "2026-11-11T13:17:22.230679+00:00"
+    },
+    "admrul|2|5|2025-09-29|2025-12-27|historical": {
+      "reported": 16,
+      "collected": 16,
+      "pages": 1,
+      "complete": true,
+      "source": "admrul",
+      "edition": "2",
+      "kind": "5",
+      "first": "2025-09-29",
+      "last": "2025-12-27",
+      "stage": "historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T14:58:11.772722+00:00"
+    },
+    "admrul|2|6|2025-09-29|2025-12-27|historical": {
+      "reported": 0,
+      "collected": 0,
+      "pages": 1,
+      "complete": true,
+      "source": "admrul",
+      "edition": "2",
+      "kind": "6",
+      "first": "2025-09-29",
+      "last": "2025-12-27",
+      "stage": "historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T14:58:18.767542+00:00"
+    },
+    "ordin|1||2026-07-10|2026-08-08|historical": {
+      "reported": 2089,
+      "collected": 2089,
+      "pages": 20,
+      "complete": true,
+      "error": "pagination_limit",
+      "source": "ordin",
+      "edition": "1",
+      "kind": "",
+      "first": "2026-07-10",
+      "last": "2026-08-08",
+      "stage": "historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T15:00:00.259197+00:00",
+      "split_verified": true
+    },
+    "ordin|1||2026-07-10|2026-07-24|split_historical": {
+      "reported": 654,
+      "collected": 654,
+      "pages": 7,
+      "complete": true,
+      "source": "ordin",
+      "edition": "1",
+      "kind": "",
+      "first": "2026-07-10",
+      "last": "2026-07-24",
+      "stage": "split_historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T15:00:20.063614+00:00"
+    },
+    "ordin|1||2026-07-25|2026-08-08|split_historical": {
+      "reported": 1435,
+      "collected": 1435,
+      "pages": 15,
+      "complete": true,
+      "source": "ordin",
+      "edition": "1",
+      "kind": "",
+      "first": "2026-07-25",
+      "last": "2026-08-08",
+      "stage": "split_historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T15:01:44.532804+00:00"
     }
   },
   "attempts": {
@@ -1978,7 +2054,32 @@
     "ordin|2076485|2173439": 1,
     "ordin|2215678|2173425": 1,
     "ordin|2076484|2173423": 1,
-    "ordin|2076426|2173405": 1
+    "ordin|2076426|2173405": 1,
+    "law|012298|291717": 1,
+    "admrul|79900|2100000287264": 1,
+    "admrul|57792|2100000287270": 1,
+    "ordin|2194387|2178897": 1,
+    "law|004551|291177": 1,
+    "ordin|2107345|2178159": 1,
+    "ordin|2132969|2177177": 1,
+    "ordin|2144992|2178067": 1,
+    "ordin|2150143|2178065": 1,
+    "ordin|2145821|2178061": 1,
+    "ordin|2140566|2178039": 1,
+    "ordin|2143254|2178027": 1,
+    "ordin|2152678|2178025": 1,
+    "ordin|2157577|2178023": 1,
+    "ordin|2143176|2178021": 1,
+    "ordin|2068997|2175965": 1,
+    "ordin|2092024|2174149": 1,
+    "ordin|2076427|2173397": 1,
+    "ordin|2267695|2171813": 2,
+    "ordin|2000120|2171799": 1,
+    "ordin|2187536|2171781": 1,
+    "ordin|2267694|2171765": 2,
+    "ordin|2189272|2171761": 1,
+    "ordin|2190330|2171757": 1,
+    "admrul|43481|2100000286012": 1
   },
   "errors": {
     "admrul|40796|2100000287994": "RuntimeError: official_api_network_error: URLError",
@@ -2044,23 +2145,28 @@
     "ordin|2268127|2176303": "predecessor_not_found",
     "ordin|2268137|2176283": "predecessor_not_found",
     "ordin|2267836|2173877": "predecessor_not_found",
-    "ordin|2267822|2173505": "predecessor_not_found"
+    "ordin|2267822|2173505": "predecessor_not_found",
+    "ordin|2152678|2178025": "official_body_not_parsed",
+    "ordin|2068997|2175965": "official_body_not_parsed",
+    "ordin|2092024|2174149": "official_body_not_parsed",
+    "ordin|2267695|2171813": "predecessor_not_found",
+    "ordin|2267694|2171765": "predecessor_not_found"
   },
-  "stream_offset": 11,
+  "stream_offset": 2,
   "last_run": "2026-11-11",
   "last_run_stats": {
-    "detail_attempted": 60,
-    "complete_originals_added": 31,
-    "compared_pairs_processed": 45,
-    "failed_windows": 0,
+    "detail_attempted": 25,
+    "complete_originals_added": 16,
+    "compared_pairs_processed": 20,
+    "failed_windows": 1,
     "streams_checked": 6,
-    "indexed_unique_versions": 15796,
-    "saved_indexed_originals": 1426,
-    "verified_complete_originals": 328,
-    "pending_index_versions": 14370,
-    "indexed_versions_without_comparison": 15320,
+    "indexed_unique_versions": 23091,
+    "saved_indexed_originals": 2066,
+    "verified_complete_originals": 365,
+    "pending_index_versions": 21025,
+    "indexed_versions_without_comparison": 22414,
     "year_search_year": 2027
   },
-  "annual_kind_offset": 2,
+  "annual_kind_offset": 4,
   "failed_retry_offset": 2
 }
