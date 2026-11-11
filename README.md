@@ -37,7 +37,7 @@ python -m http.server 8000 --directory site
 | 설정 | 용도 |
 |---|---|
 | Variable `LAW_OC` | 법제처 인증 식별값. 기본 `dori` |
-| 정부24 기본 인증값 `dori` | `unified/gov24.py`와 Actions에서 직접 기본값으로 설정. 별도 Secret이 없어도 API 호출을 시도하고, 공식 API가 거절하면 오류를 기록하고 기존 자료를 유지 |
+| Secret `GOV24_SERVICE_KEY` | 정부24 공공서비스 API 인증키. `LAW_OC`와 별개이며, 없으면 새로운 정부24 자료 수집은 제한됩니다. 저장된 기존 자료는 유지합니다. |
 | Secret `GEMINI_API_KEY`, `PD_LLM_API_KEY` 또는 `OPENAI_API_KEY` | AI 설명 API 인증 |
 | Variable `PD_LLM_MODEL` | 사용할 모델 이름. 기본 `gemini-3.5-flash-lite` |
 | Variable `PD_LLM_URL` | 모델 API 주소. 기본 Gemini 공식 호환 API |
