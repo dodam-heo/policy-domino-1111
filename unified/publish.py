@@ -31,6 +31,63 @@ def classify(doc, changes) -> str:
     return "기타 제·개정"
 
 
+
+AMOUNT_OR_PERIOD = re.compile(r"(?<![\\d가-힣])\\d[\\d,]*(?:\\.\\d+)?\\s*(?:만원|개월|원|%|일|명|가구|년)?")
+IMPACT_CRITERIA = (
+    ("급여·지원금·소득 기준 변경", re.compile(r"급여|지원금|중위소득|소득기준|소득인정액|생계비|주거비|장학금|보조금|지원액")),
+    ("지원대상·자격·선정 기준 변경", re.compile(r"선정기준|지원대상|입주자격|수급자격|자격기준|심사기준|지원요건")),
+    ("요율·수수료·부담금 변경", re.compile(r"요율|세율|수수료|부담금|보험료|과태료|과징금")),
+    ("신청·처리 기한 변경", re.compile(r"신청기한|신청기간|처리기한|처리기간|접수기간|제출기한")),
+    ("법정 의무·제재 기준 변경", re.compile(r"의무|제재|처분기준|벌칙|위반기준")),
+)
+
+
+def review_priority(doc: dict, comparison: dict, actions: list[dict]) -> list[str]:
+    """Explain a transparent review PRIORITY, not a measured actual impact.
+
+    No priority from titles alone, unverified comparisons, or an agency name.
+    A number must genuinely differ in the paired source texts.
+    """
+    if comparison.get("status") != "changed" or not comparison.get("changes"):
+        return []
+    reasons = []
+    if any(a.get("status") == "review_of_verified_citation" and
+           a.get("evidence", {}).get("reference_quote") and
+           a.get("evidence", {}).get("service_quote")
+           for a in actions):
+        reasons.append("공식 사업·기관 업무의 변경 조문 인용 확인")
+    for change in comparison["changes"]:
+        before, after = str(change.get("before") or ""), str(change.get("after") or "")
+        # A change to the structure alone does not prove altered criteria.
+        if not before or not after or before == after:
+            continue
+        old_values = set(AMOUNT_OR_PERIOD.findall(before))
+        new_values = set(AMOUNT_OR_PERIOD.findall(after))
+        if not old_values.symmetric_difference(new_values):
+            continue
+        context = " ".join((str(doc.get("title") or ""), str(change.get("clause") or ""),
+                            before[:1500], after[:1500]))
+        for label, pattern in IMPACT_CRITERIA:
+            if label not in reasons and pattern.search(context):
+                reasons.append(label)
+    return reasons
+
+
+def primary_change_summary(changes: list[dict]) -> str:
+    """Small, factual list preview derived from real changed spans."""
+    for change in changes:
+        focus = change.get("focus") or []
+        if not focus:
+            continue
+        first = focus[0]
+        prior = (first.get("before") or {}).get("changed", "").strip()
+        new = (first.get("after") or {}).get("changed", "").strip()
+        if prior or new:
+            prior = re.sub(r"\\s+", " ", prior)[:76] or "신설"
+            new = re.sub(r"\\s+", " ", new)[:76] or "삭제"
+            return str(change.get("clause") or "본문") + " · " + prior + " → " + new
+    return ""
+
 def assemble(root: Path, limit: int | None = None) -> dict:
     sources = []
     official_originals = legacy_texts = 0
@@ -72,6 +129,7 @@ def assemble(root: Path, limit: int | None = None) -> dict:
             "focus": c.get("focus", []), "diff_window_count": c.get("diff_window_count", 0),
         } for c in changes]
         candidates = impacts.get(key, [])
+        priority = review_priority(doc, comp, candidates)
         events.append({
             "id": key, "title": doc.get("title", ""),
             "source": doc["source"], "kind": doc.get("kind", ""),
@@ -79,6 +137,8 @@ def assemble(root: Path, limit: int | None = None) -> dict:
             "effective_date": doc.get("effective_date", ""),
             "revision": doc.get("revision", ""), "url": doc.get("url", ""),
             "category": classify(doc, changes),
+            "primary_change_summary": primary_change_summary(changes),
+            "priority_reasons": priority,
             "comparison_status": comp.get("status", "original_saved_comparison_pending"),
             "relationship": comp.get("relationship", ""),
             "changes": before_after,
@@ -86,10 +146,7 @@ def assemble(root: Path, limit: int | None = None) -> dict:
             "institutions": candidates,
             "dependent_rules": dependencies.get(key, []),
             "policy_analysis": analyses.get(key),
-            "impact_level": "high" if candidates or any(
-                re.search(r"급여|소득|선정|자격|지원대상|요율|수수료|신청|의무|기한", c.get("before", "") + c.get("after", ""))
-                and re.search(r"\d", c.get("before", "") + c.get("after", ""))
-                for c in changes) else "normal",
+            "impact_level": "high" if priority else "normal",
             "prior_url": (comp.get("prior_record") or {}).get("url", ""),
         })
     report = {
