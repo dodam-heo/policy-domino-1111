@@ -15,57 +15,314 @@
     {
       "article": "본문",
       "before": "1. 교육급여의 선정기준 및 최저보장수준 「국민기초생활 보장법」 제6조 및 제12조제1항과 제3항, 제12조의2에 따른 ’교육급여의 선정기준 및 최저보장수준’을 다음과 같이 정한다. 1) 선정기준 [표: 공식 첨부 참조] * 8인 이상 가구의 교육급여 선정기준: 1인 증가시마다 479,599원씩 증가(8인가구: 5,237,174원) ※ 「국민기초생활 보장법」 제12조의2에 따라 부양의무자 기준은 적용하지 아니함 2) 최저보장수준 선정기준에 해당하는 초ㆍ중학생 교육활동지원비, 고등학생 교육활동지원비ㆍ교과서ㆍ입학금 및 수업료 [표: 공식 첨부 참조]",
-      "after": "1. 교육급여의 선정기준 및 최저보장수준 「국민기초생활 보장법」 제6조 및 제12조제1항과 제3항, 제12조의2에 따른 ’교육급여의 선정기준 및 최저보장수준’을 다음과 같이 정한다. 1) 선정기준 [표: 공식 첨부 참조] ※ 8인 이상 가구의 교육급여 선정기준은 7인 가구 선정기준 + (7인 가구 선정기준 － 6인 가구의 선정기준) × {(해당 가구원 수)-7명}으로 한다. ※ 「국민기초생활 보장법」 제12조의2에 따라 부양의무자 기준은 적용하지 아니함 2) 최저보장수준 선정기준에 해당하는 초ㆍ중학생 교육활동지원비, 고등학생 교육활동지원비ㆍ교과서ㆍ입학금 및 수업료 [표: 공식 첨부 참조]"
+      "after": "1. 교육급여의 선정기준 및 최저보장수준 「국민기초생활 보장법」 제6조 및 제12조제1항과 제3항, 제12조의2에 따른 ’교육급여의 선정기준 및 최저보장수준’을 다음과 같이 정한다. 1) 선정기준 [표: 공식 첨부 참조] ※ 8인 이상 가구의 교육급여 선정기준은 7인 가구 선정기준 + (7인 가구 선정기준 － 6인 가구의 선정기준) × {(해당 가구원 수)-7명}으로 한다. ※ 「국민기초생활 보장법」 제12조의2에 따라 부양의무자 기준은 적용하지 아니함 2) 최저보장수준 선정기준에 해당하는 초ㆍ중학생 교육활동지원비, 고등학생 교육활동지원비ㆍ교과서ㆍ입학금 및 수업료 [표: 공식 첨부 참조]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…및 최저보장수준’을 다음과 같이 정한다. 1) 선정기준 [표: 공식 첨부 참조] ",
+            "changed": "*",
+            "suffix": " 8인 이상 가구의 교육급여 선정기준: 1인 증가시마다 479,599원씩 증가(8…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…및 최저보장수준’을 다음과 같이 정한다. 1) 선정기준 [표: 공식 첨부 참조] ",
+            "changed": "※",
+            "suffix": " 8인 이상 가구의 교육급여 선정기준은 7인 가구 선정기준 + (7인 가구 선정기…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 정한다. 1) 선정기준 [표: 공식 첨부 참조] * 8인 이상 가구의 교육급여 ",
+            "changed": "",
+            "suffix": "선정기준: 1인 증가시마다 479,599원씩 증가(8인가구: 5,237,174원)…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 정한다. 1) 선정기준 [표: 공식 첨부 참조] ※ 8인 이상 가구의 교육급여 ",
+            "changed": "선정기준은 7인 가구",
+            "suffix": " 선정기준 + (7인 가구 선정기준 － 6인 가구의 선정기준) × {(해당 가구원…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…. 1) 선정기준 [표: 공식 첨부 참조] * 8인 이상 가구의 교육급여 선정기준",
+            "changed": ": 1",
+            "suffix": "인 증가시마다 479,599원씩 증가(8인가구: 5,237,174원) ※ 「국민기…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 공식 첨부 참조] ※ 8인 이상 가구의 교육급여 선정기준은 7인 가구 선정기준 ",
+            "changed": "+ (7",
+            "suffix": "인 가구 선정기준 － 6인 가구의 선정기준) × {(해당 가구원 수)-7명}으로 …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…선정기준 [표: 공식 첨부 참조] * 8인 이상 가구의 교육급여 선정기준: 1인 ",
+            "changed": "증가시마다 479,599원씩 증가",
+            "suffix": "(8인가구: 5,237,174원) ※ 「국민기초생활 보장법」 제12조의2에 따라 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 참조] ※ 8인 이상 가구의 교육급여 선정기준은 7인 가구 선정기준 + (7인 ",
+            "changed": "가구 선정기준 － 6인 가구의 선정기준) × {",
+            "suffix": "(해당 가구원 수)-7명}으로 한다. ※ 「국민기초생활 보장법」 제12조의2에 따…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…* 8인 이상 가구의 교육급여 선정기준: 1인 증가시마다 479,599원씩 증가(",
+            "changed": "8인가구: 5,237,174원",
+            "suffix": ") ※ 「국민기초생활 보장법」 제12조의2에 따라 부양의무자 기준은 적용하지 아니…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 7인 가구 선정기준 + (7인 가구 선정기준 － 6인 가구의 선정기준) × {(",
+            "changed": "해당 가구원 수",
+            "suffix": ")-7명}으로 한다. ※ 「국민기초생활 보장법」 제12조의2에 따라 부양의무자 기…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…정기준: 1인 증가시마다 479,599원씩 증가(8인가구: 5,237,174원) ",
+            "changed": "",
+            "suffix": "※ 「국민기초생활 보장법」 제12조의2에 따라 부양의무자 기준은 적용하지 아니함 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…기준 + (7인 가구 선정기준 － 6인 가구의 선정기준) × {(해당 가구원 수)",
+            "changed": "-7명}으로 한다.",
+            "suffix": " ※ 「국민기초생활 보장법」 제12조의2에 따라 부양의무자 기준은 적용하지 아니함…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 6
     },
     {
       "article": "표 1 · 금액 (원/월) · 1인가구",
       "before": "1,282,119",
-      "after": "1,368,021"
+      "after": "1,368,021",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "1,282,119",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "1,368,021",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 1 · 금액 (원/월) · 2인가구",
       "before": "2,099,646",
-      "after": "2,240,323"
+      "after": "2,240,323",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "2,099,646",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "2,240,323",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 1 · 금액 (원/월) · 3인가구",
       "before": "2,679,518",
-      "after": "2,859,046"
+      "after": "2,859,046",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "2,679,518",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "2,859,046",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 1 · 금액 (원/월) · 4인가구",
       "before": "3,247,369",
-      "after": "3,464,943"
+      "after": "3,464,943",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "3,247,369",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "3,464,943",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 1 · 금액 (원/월) · 5인가구",
       "before": "3,778,360",
-      "after": "4,031,510"
+      "after": "4,031,510",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "3,778,360",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "4,031,510",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 1 · 금액 (원/월) · 6인가구",
       "before": "4,277,976",
-      "after": "4,564,601"
+      "after": "4,564,601",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "4,277,976",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "4,564,601",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 1 · 금액 (원/월) · 7인가구",
       "before": "4,757,575",
-      "after": "5,076,333"
+      "after": "5,076,333",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "4,757,575",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "5,076,333",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 고등학생 · 교육활동지원비",
       "before": "860,000원",
-      "after": "945,000원"
+      "after": "945,000원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "860,000",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "945,000",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 중학생 · 교육활동지원비",
       "before": "699,000원",
-      "after": "714,000원"
+      "after": "714,000원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "699,000",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "714,000",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 초등학생 · 교육활동지원비",
       "before": "502,000원",
-      "after": "513,000원"
+      "after": "513,000원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "502,000",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "513,000",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     }
   ],
   "unresolved": [],

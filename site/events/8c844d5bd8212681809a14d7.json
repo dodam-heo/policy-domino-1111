@@ -15,157 +15,684 @@
     {
       "article": "표 1 · 금액 (원/월) · 1인 가구",
       "before": "1,230,834",
-      "after": "1,313,300"
+      "after": "1,313,300",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "1,230,834",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "1,313,300",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 1 · 금액 (원/월) · 2인 가구",
       "before": "2,015,660",
-      "after": "2,150,710"
+      "after": "2,150,710",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "2,015,660",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "2,150,710",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 1 · 금액 (원/월) · 3인 가구",
       "before": "2,572,337",
-      "after": "2,744,684"
+      "after": "2,744,684",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "2,572,337",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "2,744,684",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 1 · 금액 (원/월) · 4인 가구",
       "before": "3,117,474",
-      "after": "3,326,345"
+      "after": "3,326,345",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "3,117,474",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "3,326,345",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 1 · 금액 (원/월) · 5인 가구",
       "before": "3,627,225",
-      "after": "3,870,249"
+      "after": "3,870,249",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "3,627,225",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "3,870,249",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 1 · 금액 (원/월) · 6인 가구",
       "before": "4,106,857",
-      "after": "4,382,016"
+      "after": "4,382,016",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "4,106,857",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "4,382,016",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 1 · 금액 (원/월) · 7인 가구",
       "before": "4,567,272",
-      "after": "4,873,279"
+      "after": "4,873,279",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "4,567,272",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "4,873,279",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 1인 · 1급지 (서울)",
       "before": "369,000",
-      "after": "381,000"
+      "after": "381,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "369,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "381,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 1인 · 2급지 (경기·인천)",
       "before": "300,000",
-      "after": "313,000"
+      "after": "313,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "300,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "313,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 1인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
       "before": "247,000",
-      "after": "259,000"
+      "after": "259,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "247,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "259,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 1인 · 4급지 (그외 지역)",
       "before": "212,000",
-      "after": "234,000"
+      "after": "234,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "212,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "234,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 2인 · 1급지 (서울)",
       "before": "414,000",
-      "after": "431,000"
+      "after": "431,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "414,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "431,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 2인 · 2급지 (경기·인천)",
       "before": "335,000",
-      "after": "352,000"
+      "after": "352,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "335,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "352,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 2인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
       "before": "275,000",
-      "after": "291,000"
+      "after": "291,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "275,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "291,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 2인 · 4급지 (그외 지역)",
       "before": "238,000",
-      "after": "265,000"
+      "after": "265,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "238,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "265,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 3인 · 1급지 (서울)",
       "before": "492,000",
-      "after": "514,000"
+      "after": "514,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "492,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "514,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 3인 · 2급지 (경기·인천)",
       "before": "401,000",
-      "after": "422,000"
+      "after": "422,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "401,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "422,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 3인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
       "before": "327,000",
-      "after": "347,000"
+      "after": "347,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "327,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "347,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 3인 · 4급지 (그외 지역)",
       "before": "283,000",
-      "after": "318,000"
+      "after": "318,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "283,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "318,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 4인 · 1급지 (서울)",
       "before": "571,000",
-      "after": "596,000"
+      "after": "596,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "571,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "596,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 4인 · 2급지 (경기·인천)",
       "before": "463,000",
-      "after": "488,000"
+      "after": "488,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "463,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "488,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 4인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
       "before": "381,000",
-      "after": "403,000"
+      "after": "403,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "381,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "403,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 4인 · 4급지 (그외 지역)",
       "before": "329,000",
-      "after": "369,000"
+      "after": "369,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "329,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "369,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 5인 · 1급지 (서울)",
       "before": "591,000",
-      "after": "618,000"
+      "after": "618,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "591,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "618,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 5인 · 2급지 (경기·인천)",
       "before": "479,000",
-      "after": "505,000"
+      "after": "505,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "479,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "505,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 5인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
       "before": "394,000",
-      "after": "418,000"
+      "after": "418,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "394,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "418,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 5인 · 4급지 (그외 지역)",
       "before": "340,000",
-      "after": "382,000"
+      "after": "382,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "340,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "382,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 6인 · 1급지 (서울)",
       "before": "699,000",
-      "after": "731,000"
+      "after": "731,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "699,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "731,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 6인 · 2급지 (경기·인천)",
       "before": "568,000",
-      "after": "599,000"
+      "after": "599,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "568,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "599,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 6인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
       "before": "463,000",
-      "after": "492,000"
+      "after": "492,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "463,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "492,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     },
     {
       "article": "표 2 · 6인 · 4급지 (그외 지역)",
       "before": "402,000",
-      "after": "452,000"
+      "after": "452,000",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "402,000",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "452,000",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
     }
   ],
   "unresolved": [],

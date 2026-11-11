@@ -6,13 +6,13 @@
     "partial_unverified": 220,
     "changed": 20
   },
-  "ai_explanation_attempts": 31,
+  "ai_explanation_attempts": 7,
   "ai_verified_explanations": 6,
-  "ai_failures": 4,
+  "ai_failures": 1,
   "ai_failure_reasons": {
-    "AI_HTTP_503:provider_rejected_request": 4
+    "AI_HTTP_503:provider_rejected_request": 1
   },
-  "policy_ai_summaries": 80,
+  "policy_ai_summaries": 82,
   "ai_configured": true,
-  "policy_summaries_pending": 4
+  "policy_summaries_pending": 1
 }
