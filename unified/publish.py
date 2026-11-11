@@ -33,12 +33,17 @@ def classify(doc, changes) -> str:
 
 def assemble(root: Path, limit: int | None = None) -> dict:
     sources = []
+    official_originals = legacy_texts = 0
     for path in (root / "documents").glob("*/*/*.json.gz"):
         value = load(path, {})
         doc = value.get("record", {})
         if not all(doc.get(k) for k in ("source", "stable_id", "serial", "title")):
             continue
         sources.append(doc)
+        official_originals += bool(value.get("official_xml_base64") and
+                                   value.get("body", {}).get("status") == "complete")
+        legacy_texts += bool(value.get("source_snapshot_provenance") and
+                             not value.get("official_xml_base64"))
     sources.sort(key=lambda v: (v.get("published_at", ""), v.get("serial", "")), reverse=True)
     comparisons = {}
     for path in (root / "comparisons").glob("*.json.gz"):
@@ -105,6 +110,40 @@ def assemble(root: Path, limit: int | None = None) -> dict:
     report["collection"] = load(root / "collection-state.json", {}).get("last_run_stats", {})
     report["analysis"] = load(root / "impact-status.json", {})
     report["coverage"] = coverage(root)
+    # These measures are stage-specific: indexed metadata is not an archived
+    # original; a partial extracted comparison is not a verified amendment.
+    indexed = set()
+    for path in (root / "indexes").glob("*/*.json.gz"):
+        for row in load(path, {}).get("records", []):
+            if all(row.get(k) for k in ("source", "stable_id", "serial")):
+                indexed.add(ident(row))
+    compared = Counter(c.get("status", "unknown") for c in comparisons.values())
+    known = {ident(s) for s in sources}
+    verified_tasks = review_leads = 0
+    for key, actions in impacts.items():
+        for action in actions:
+            if not action.get("agency") or not action.get("service"):
+                continue
+            proof = action.get("evidence") or {}
+            if (comparisons.get(key, {}).get("status") == "changed" and
+                    action.get("status") == "review_of_verified_citation" and
+                    proof.get("reference_quote") and proof.get("service_quote")):
+                verified_tasks += 1
+            else:
+                review_leads += 1
+    report["reconciliation"] = {
+        "indexed_unique_versions": len(indexed),
+        "saved_versions": len(sources),
+        "indexed_without_saved_original": len(indexed - known),
+        "official_complete_originals": official_originals,
+        "legacy_extracted_versions_requiring_source_revalidation": legacy_texts,
+        "comparisons": len(comparisons),
+        "comparisons_by_status": dict(compared),
+        "comparisons_without_impact_assessment": len(set(comparisons) - set(impacts)),
+        "verified_institutional_review_tasks": verified_tasks,
+        "review_leads_not_fully_verified": review_leads,
+        "source": "incremental_cumulative_official_evidence",
+    }
     return report
 
 
@@ -114,6 +153,7 @@ def main():
     parser.add_argument("--output", type=Path, default=Path("site/data.json"))
     args = parser.parse_args()
     payload = assemble(args.root)
+    save_json(args.root / "reconciliation-status.json", payload["reconciliation"])
     # Fetch summaries once; fetch only the selected event's comparison/impact.
     detail_dir = args.output.parent / "events"
     detail_dir.mkdir(parents=True, exist_ok=True)

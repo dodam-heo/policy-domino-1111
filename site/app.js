@@ -572,10 +572,14 @@
     $("stat-events").textContent=num(raw.total_source_versions_saved||stats.events);
     $("stat-agencies").textContent=num(stats.institutions);
     $("stat-actions").textContent=num(stats.actions);
-    $("analysis-coverage").textContent="공식 판본 "+num(raw.total_source_versions_saved)+"건 · 신구 문구 차이 "+num(raw.summary?.with_text_differences??raw.summary?.with_verified_changes)+"건 · 수집·분석 현황 펼치기";
+    const rc=raw.reconciliation||{};
+    $("analysis-coverage").textContent="공식 원문 확보 "+num(rc.official_complete_originals)+"건 · 검증된 신구 변경 "+num(rc.comparisons_by_status?.changed)+"건 · 부분 대조 "+num(rc.comparisons_by_status?.partial_unverified)+"건 · 분석 현황 펼치기";
     $("ai-review-progress").textContent="AI 정책 변경 설명 "+num(raw.analysis?.policy_ai_summaries)+"건 · 추가 분석 대상 "+num(raw.analysis?.policy_summaries_pending)+"건";
     const c=raw.coverage||{};
-    $("institution-link-progress").textContent="알리오플러스 공공기관 명부 "+num(c.alio_public_institutions)+"곳 / 공식 명부 "+num(c.alio_reported)+"곳 · 정부24 보관 사업 "+num(c.gov24_programs)+"건 / 운영기관 "+num(c.gov24_agencies)+"곳. 기관 명부 수집과 정책별 영향 확인은 별도이며, 정부24 최신 전체 갱신은 아직 확인되지 않았습니다.";
+    const latestGov=c.gov24_refresh||{};
+    const govStatus=latestGov.errors?.length?"최근 정부24 갱신 오류":latestGov.listed_pages||latestGov.detail_pages?
+      "최근 정부24 갱신: 목록 "+num(latestGov.listed_pages)+"쪽, 상세 "+num(latestGov.detail_pages)+"쪽":"정부24 최신 갱신 대기";
+    $("institution-link-progress").textContent="정부24 공식 사업 "+num(c.gov24_programs)+"건, 운영기관 "+num(c.gov24_agencies)+"곳 · "+govStatus+" · 색인 "+num(rc.indexed_unique_versions)+"건 중 원문 미확보 "+num(rc.indexed_without_saved_original)+"건, 과거 추출본 재검증 "+num(rc.legacy_extracted_versions_requiring_source_revalidation)+"건. 알리오플러스 기관 명부 "+num(c.alio_public_institutions)+"곳. 기관 명부만으로 정책 영향을 추정하지 않습니다.";
     $("updated").textContent=raw.generated_at?" · 자료 갱신 "+new Date(raw.generated_at).toLocaleString("ko-KR",{timeZone:"Asia/Seoul"})+" KST":"";
     for(const topic of [...new Set(state.events.map(e=>e.topic).filter(Boolean))].sort()){
       const option=create("option","",topic);option.value=topic;append($("category"),option);
