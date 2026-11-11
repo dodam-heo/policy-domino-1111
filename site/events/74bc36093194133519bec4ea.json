@@ -8,14 +8,161 @@
   "effective_date": "2026-11-12",
   "revision": "일부개정",
   "url": "https://www.law.go.kr/행정규칙/%EC%9A%B0%EC%88%98%20%ED%95%B4%EC%99%B8%EC%9D%B8%EC%9E%AC%20%EA%B8%B0%EC%A4%80%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B3%A0%EC%8B%9C",
-  "category": "기타 제·개정",
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
-  "unresolved": [],
+  "category": "행정절차·인허가",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "별표 0001 (K-Tech Pass 확인서)",
+      "before": "[별지 제1호 서식] ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ ┃┌────────────┐Certificate No. ┃ ┃│최초발급일 │ ┃ ┃│Date of Initial Issuance│ ┃ ┃├────────────┤ ┃ ┃│2025.00.00. │ ┃ ┃└────────────┘ ┃ ┃제 2 0 2 5 ? o o o 호 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃K?Tech Pass 확인서 ┃ ┃(Certificate of K-Tech Pass) ┃ ┃ ┃ ┃ ┃ ┃ 기 업 명: ┃ ┃ (Company Name) ┃ ┃ ┃ ┃ 성 명: ┃ ┃ (Name) ┃ ┃ ┃ ┃ 여권번호: ┃ ┃ (Passport No.) ┃ ┃ ┃ ┃ 생년월일: ┃ ┃ (Date of Birth) ┃ ┃ ┃ ┃ 국 적: ┃ ┃ (Nationality) ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃본 패스 소지자를 「첨단산업 인재혁신 특별법」제28조에 따른 ┃ ┃우수 해외인재로 확인합니다. ┃ ┃This is to certify that the bearer of the pass is recognized as ┃ ┃an outstanding overseas talent under Article 28 of the Special ┃ ┃Act on Talent Innovation in the High-Tech Industry. ┃ ┃ ┃ ┃ ┃ ┃ 년(Year) 월(Month) 일(Day) ┃ ┃ ┃ ┃ ┏━━┓ ┃ ┃ K O T R A 사 장 ┃직인┃ ┃ ┃ ┗━━┛ ┃ ┃ ┃ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ 257mm×364mm[보존용지 120g/㎡]",
+      "after": "[별지 제1호 서식] ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ ┃┌────────────┐Certificate No. ┃ ┃│최초발급일 │ ┃ ┃│Date of Initial Issuance│ ┃ ┃├────────────┤ ┃ ┃│2025.00.00. │ ┃ ┃└────────────┘ ┃ ┃제 2 0 2 5 － o o o 호 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃K－Tech Pass 확인서 ┃ ┃(Certificate of K-Tech Pass) ┃ ┃ ┃ ┃ ┃ ┃ 기 업 명: ┃ ┃ (Company Name) ┃ ┃ ┃ ┃ 성 명: ┃ ┃ (Name) ┃ ┃ ┃ ┃ 여권번호: ┃ ┃ (Passport No.) ┃ ┃ ┃ ┃ 생년월일: ┃ ┃ (Date of Birth) ┃ ┃ ┃ ┃ 국 적: ┃ ┃ (Nationality) ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃본 패스 소지자를 「첨단산업 인재혁신 특별법」제28조에 따른 ┃ ┃우수 해외인재로 확인합니다. ┃ ┃This is to certify that the bearer of the pass is recognized as ┃ ┃an outstanding overseas talent under Article 28 of the Special ┃ ┃Act on Talent Innovation in the High-Tech Industry. ┃ ┃ ┃ ┃ ┃ ┃ 년(Year) 월(Month) 일(Day) ┃ ┃ ┃ ┃ ┏━━┓ ┃ ┃ K O T R A 사 장 ┃직인┃ ┃ ┃ ┗━━┛ ┃ ┃ ┃ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ 257mm×364mm[보존용지 120g/㎡]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…2025.00.00. │ ┃ ┃└────────────┘ ┃ ┃제 2 0 2 5 ",
+            "changed": "?",
+            "suffix": " o o o 호 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃K?Tech Pass 확인서 ┃ ┃(C…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…2025.00.00. │ ┃ ┃└────────────┘ ┃ ┃제 2 0 2 5 ",
+            "changed": "－",
+            "suffix": " o o o 호 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃K－Tech Pass 확인서 ┃ ┃(C…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…────┘ ┃ ┃제 2 0 2 5 ? o o o 호 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃K",
+            "changed": "?",
+            "suffix": "Tech Pass 확인서 ┃ ┃(Certificate of K-Tech Pass)…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…────┘ ┃ ┃제 2 0 2 5 － o o o 호 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃K",
+            "changed": "－",
+            "suffix": "Tech Pass 확인서 ┃ ┃(Certificate of K-Tech Pass)…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    },
+    {
+      "article": "별표 0001 (제4조 제1항 제2호에 따른 대학)",
+      "before": "[별표1] 제4조 제1항 제2호에 따른 대학은 다음과 같다. 심사년도 기준 최근 5개년 내 해당 대학평가 지표 중 하나 이상에서 100위 이내에 선정된 대학일 것 ① QS Engineering and Technology, ② Times Higher Education World University Rankings by subject engineering, ③ US News Global University Rankings by subject engineering",
+      "after": "[별표1] 제4조 제1항 제2호에 따른 대학은 다음과 같다. 심사년도 기준 최근 5개년 내 해당 대학평가 지표 중 하나 이상에서 100위 이내에 선정된 대학일 것 ① QS World University Ranking ② QS World University Ranking by Subject : Engineering and Technology ③ Times Higher Education World University Rangkings ④ Times Higher Education World University Rangkings by Subject Engineering ⑤ US News & World Report Global University Rangkings ⑥ US News & World Report Global University Rangkings by Subject Engineering",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…해당 대학평가 지표 중 하나 이상에서 100위 이내에 선정된 대학일 것 ① QS ",
+            "changed": "",
+            "suffix": "Engineering and Technology, ② Times Higher Ed…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…해당 대학평가 지표 중 하나 이상에서 100위 이내에 선정된 대학일 것 ① QS ",
+            "changed": "World University Ranking ② QS World University Ranking by Subject :",
+            "suffix": " Engineering and Technology ③ Times Higher Ed…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…이내에 선정된 대학일 것 ① QS Engineering and Technology",
+            "changed": ", ②",
+            "suffix": " Times Higher Education World University Rank…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…king by Subject : Engineering and Technology ",
+            "changed": "③",
+            "suffix": " Times Higher Education World University Rang…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…y, ② Times Higher Education World University ",
+            "changed": "Rankings",
+            "suffix": " by subject engineering, ③ US News Global Uni…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…gy ③ Times Higher Education World University ",
+            "changed": "Rangkings ④ Times Higher Education World University Rangkings",
+            "suffix": " by Subject Engineering ⑤ US News & World Rep…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…igher Education World University Rankings by ",
+            "changed": "subject engineering, ③",
+            "suffix": " US News Global University Rankings by subjec…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…gher Education World University Rangkings by ",
+            "changed": "Subject Engineering ⑤",
+            "suffix": " US News & World Report Global University Ran…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…y Rankings by subject engineering, ③ US News ",
+            "changed": "",
+            "suffix": "Global University Rankings by subject enginee…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…y Rangkings by Subject Engineering ⑤ US News ",
+            "changed": "& World Report",
+            "suffix": " Global University Rangkings ⑥ US News & Worl…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…ect engineering, ③ US News Global University ",
+            "changed": "Rankings",
+            "suffix": " by subject engineering",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…g ⑤ US News & World Report Global University ",
+            "changed": "Rangkings ⑥ US News & World Report Global University Rangkings",
+            "suffix": " by Subject Engineering",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…ing, ③ US News Global University Rankings by ",
+            "changed": "subject engineering",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… World Report Global University Rangkings by ",
+            "changed": "Subject Engineering",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 7
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "normal",
-  "prior_url": ""
+  "impact_level": "high",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000257230"
 }

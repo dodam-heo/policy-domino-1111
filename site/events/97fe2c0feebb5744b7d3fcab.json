@@ -1,0 +1,25 @@
+{
+  "id": "ordin|2125988|2181381",
+  "title": "청송군 지방공무원 정원 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "경상북도 청송군",
+  "published_at": "2026-10-30",
+  "effective_date": "2026-12-28",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181381",
+  "category": "조직·인력",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2136615"
+}

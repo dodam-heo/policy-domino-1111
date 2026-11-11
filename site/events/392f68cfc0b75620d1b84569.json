@@ -7,15 +7,80 @@
   "published_at": "2026-10-29",
   "effective_date": "2027-12-31",
   "revision": "일부개정",
-  "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%B2%9C%EC%95%88%EC%8B%9C%EC%95%84%EB%8F%99%EB%B3%B5%EC%A7%80%ED%86%B5%EA%B3%84%29",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000287508",
   "category": "급여·지원기준",
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "본문",
+      "before": "1. 통계의 명칭 : 천안시아동복지통계 2. 통계작성기관의 명칭 : 충청남도 천안시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제691007호 [2022.5.17.] 4. 통계작성의 변경 연월일 : 2025.2.20. 5. 통계작성의 변경 내용과 사유: [표: 공식 첨부 참조]",
+      "after": "1. 통계의 명칭 : 천안시아동복지통계 2. 통계작성기관의 명칭 : 충청남도 천안시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제691007호 [2022.05.17.] 4. 통계작성의 변경 연월일 : 2027.12.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "… 천안시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제691007호 [",
+            "changed": "2022.5.17.",
+            "suffix": "] 4. 통계작성의 변경 연월일 : 2025.2.20. 5. 통계작성의 변경 내용…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 천안시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제691007호 [",
+            "changed": "2022.05.17.",
+            "suffix": "] 4. 통계작성의 변경 연월일 : 2027.12.31. 5. 통계작성의 변경 내…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…일] : 제691007호 [2022.5.17.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2025.2.20.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유: [표: 공식 첨부 참조]",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…] : 제691007호 [2022.05.17.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2027.12.31.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    },
+    {
+      "article": "표 1 · 작성 및 공표주기 · 변경 전",
+      "before": "[신설]",
+      "after": "· 2년",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 1 · 작성 및 공표주기 · 변경 후",
+      "before": "[신설]",
+      "after": "· 3년",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 4 · 공표내용 (통계표) · 변경 전",
+      "before": "○ 6개 부문 84개 항목 ∘ 인구·세대(18) ∘ 인구동향(10) ∘ 건강(19) ∘ 복지(21) ∘ 교육(9) ∘ 안전(7)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 4 · 공표내용 (통계표) · 변경 후",
+      "before": "○ 7개 부문 83개 항목 ∘ 인구·세대(16) - 삭제 3 ∘ 인구동향(10) ∘ 건강(18) ∘ 복지(21) ∘ 교육(9) - 변경 3 ∘ 안전(4) ∘ 재산(5): 신규",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0
+    }
+  ],
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
   "impact_level": "normal",
-  "prior_url": ""
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000254944"
 }

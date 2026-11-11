@@ -1,0 +1,69 @@
+{
+  "id": "ordin|2214727|2181097",
+  "title": "인천광역시 계양구의회 모범공무원 포상 운영 규칙",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "인천광역시 계양구",
+  "published_at": "2026-10-30",
+  "effective_date": "2026-11-13",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181097",
+  "category": "기타 제·개정",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제1조",
+      "before": "제1조(목적) 이 규칙은 「인천광역시 계양구의회 운영 조례」 제42조에 따른 모범공무원의 포상에 관하여 필요한 사항을 규정함을 목적으로 한다.",
+      "after": "제1조(목적) 이 규칙은 「인천광역시 계양구의회 운영 조례」 제45조에 따른 모범공무원의 포상에 관하여 필요한 사항을 규정함을 목적으로 한다.<개정 2026.10.30.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제1조(목적) 이 규칙은 「인천광역시 계양구의회 운영 조례」 제",
+            "changed": "42",
+            "suffix": "조에 따른 모범공무원의 포상에 관하여 필요한 사항을 규정함을 목적으로 한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제1조(목적) 이 규칙은 「인천광역시 계양구의회 운영 조례」 제",
+            "changed": "45",
+            "suffix": "조에 따른 모범공무원의 포상에 관하여 필요한 사항을 규정함을 목적으로 한다.<개정…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…제42조에 따른 모범공무원의 포상에 관하여 필요한 사항을 규정함을 목적으로 한다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…제45조에 따른 모범공무원의 포상에 관하여 필요한 사항을 규정함을 목적으로 한다.",
+            "changed": "<개정 2026.10.30.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": {
+    "explanation": "인천광역시 계양구의회 운영 조례의 개정으로 인하여 모범공무원 포상 관련 근거 조문이 제42조에서 제45조로 변경되었습니다.",
+    "old_quote": "제1조: 제1조(목적) 이 규칙은 「인천광역시 계양구의회 운영 조례」 제42조에 따른 모범공무원의 포상에 관하여 필요한 사항을 규정함을 목적으로 한다.",
+    "new_quote": "제1조: 제1조(목적) 이 규칙은 「인천광역시 계양구의회 운영 조례」 제45조에 따른 모범공무원의 포상에 관하여 필요한 사항을 규정함을 목적으로 한다.<개정 2026.10.30.>",
+    "program_quote": "제1조: 제1조(목적) 이 규칙은 「인천광역시 계양구의회 운영 조례」 제45조에 따른 모범공무원의 포상에 관하여 필요한 사항을 규정함을 목적으로 한다.<개정 2026.10.30.>",
+    "verified": true,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1878937"
+}

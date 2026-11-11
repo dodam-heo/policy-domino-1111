@@ -1,0 +1,430 @@
+{
+  "id": "ordin|2050073|2181413",
+  "title": "대구광역시 시세 감면 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "대구광역시",
+  "published_at": "2026-10-30",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181413",
+  "category": "급여·지원기준",
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제10조",
+      "before": "제10조(고용창출기업에 대한 감면) 「지방자치분권 및 지역균형발전에 관한 특별법」 제14조와 제24조 및 「지방자치단체의 지방투자기업 유치에 대한 국가의 재정자금 지원기준」에 따른 지방투자촉진보조금(이하 이 조에서는 “보조금”이라 한다)을 지급받는 기업이 해당 사업에 직접 사용하기 위하여 보조금 최초 교부결정일부터 2년 이내(보조금 지급기간이 2년을 초과하는 경우는 마지막 보조금 수령일까지로 한다)에 취득하는 부동산(보조금 교부결정일 이전에 보조금과 관련된 신규투자로 취득한 부동산을 포함하되 임대용 부동산은 제외한다)에 대해서는 취득세의 100분의 50을 2026년 12월 31일까지 경감한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 경감된 취득세를 추징한다. <개정 2017.12.27., 2020.12.10., 2022.6.30., 2023.10.4.> 1. 정당한 사유 없이 그 취득일부터 1년이 경과할 때까지 해당 사업에 직접 사용하지 아니하는 경우 2. 해당 용도로 직접 사용한 기간이 2년 미만인 상태에서 매각ㆍ증여하거나 다른 용도로 사용하는 경우",
+      "after": "제10조(고용창출기업에 대한 감면) 「지방자치분권 및 균형성장에 관한 특별법」 제14조와 제24조 및 「지방자치단체의 지방투자기업 유치에 대한 국가의 재정자금 지원기준」에 따른 지방투자촉진보조금(이하 이 조에서는 “보조금”이라 한다)을 지급받는 기업이 해당 사업에 직접 사용하기 위하여 보조금 최초 교부결정일부터 2년 이내(보조금 지급기간이 2년을 초과하는 경우는 마지막 보조금 수령일까지로 한다)에 취득하는 부동산(보조금 교부결정일 이전에 보조금과 관련된 신규투자로 취득한 부동산을 포함하되 임대용 부동산은 제외한다)에 대해서는 취득세의 100분의 50을 2029년 12월 31일까지 경감한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 경감된 취득세를 추징한다. <개정 2017.12.27., 2020.12.10., 2022.6.30., 2023.10.4., 2026.10.30.> 1. 정당한 사유 없이 그 취득일부터 1년이 경과할 때까지 해당 사업에 직접 사용하지 아니하는 경우 2. 해당 용도로 직접 사용한 기간이 2년 미만인 상태에서 매각ㆍ증여하거나 다른 용도로 사용하는 경우",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제10조(고용창출기업에 대한 감면) 「지방자치분권 및 ",
+            "changed": "지역균형발전에",
+            "suffix": " 관한 특별법」 제14조와 제24조 및 「지방자치단체의 지방투자기업 유치에 대한 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제10조(고용창출기업에 대한 감면) 「지방자치분권 및 ",
+            "changed": "균형성장에",
+            "suffix": " 관한 특별법」 제14조와 제24조 및 「지방자치단체의 지방투자기업 유치에 대한 …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…동산을 포함하되 임대용 부동산은 제외한다)에 대해서는 취득세의 100분의 50을 ",
+            "changed": "2026",
+            "suffix": "년 12월 31일까지 경감한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…동산을 포함하되 임대용 부동산은 제외한다)에 대해서는 취득세의 100분의 50을 ",
+            "changed": "2029",
+            "suffix": "년 12월 31일까지 경감한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…다. <개정 2017.12.27., 2020.12.10., 2022.6.30., ",
+            "changed": "2023.10.4.",
+            "suffix": "> 1. 정당한 사유 없이 그 취득일부터 1년이 경과할 때까지 해당 사업에 직접 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…다. <개정 2017.12.27., 2020.12.10., 2022.6.30., ",
+            "changed": "2023.10.4., 2026.10.30.",
+            "suffix": "> 1. 정당한 사유 없이 그 취득일부터 1년이 경과할 때까지 해당 사업에 직접 …",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 3
+    },
+    {
+      "article": "제11조",
+      "before": "제11조(시장현대화사업에 대한 감면) ① 「전통시장 및 상점가 육성을 위한 특별법」 제20조제1항에 따라 시장의 상인조직 또는 시장관리자가 정부 또는 지방자치단체로부터 지원받거나 보조받아 추진되는 상업기반시설 현대화사업의 시행으로 취득하는 건축물에 대해서는 취득세를 2026년 12월 31일까지 면제한다. <개정 2017.12.27., 2020.12.10., 2023.10.4.> ② 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 제1항에 따라 감면된 취득세를 추징한다. 1. 정당한 사유 없이 그 취득일부터 3년이 경과할 때까지 「전통시장 및 상점가 육성을 위한 특별법」제20조제1항 각 호에 규정된 용도로 직접 사용하지 아니하는 경우 2. 해당 용도로 직접 사용한 기간이 2년 미만인 상태에서 매각ㆍ증여하거나 다른 용도로 사용하는 경우",
+      "after": "제11조(시장현대화사업에 대한 감면) ① 「전통시장 및 상점가 육성을 위한 특별법」 제20조제1항에 따라 시장의 상인조직 또는 시장관리자가 정부 또는 지방자치단체로부터 지원받거나 보조받아 추진되는 상업기반시설 현대화사업의 시행으로 취득하는 건축물에 대해서는 취득세를 2029년 12월 31일까지 면제한다. <개정 2017.12.27., 2020.12.10., 2023.10.4., 2026.10.30.> ② 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 제1항에 따라 감면된 취득세를 추징한다. 1. 정당한 사유 없이 그 취득일부터 3년이 경과할 때까지 「전통시장 및 상점가 육성을 위한 특별법」제20조제1항 각 호에 규정된 용도로 직접 사용하지 아니하는 경우 2. 해당 용도로 직접 사용한 기간이 2년 미만인 상태에서 매각ㆍ증여하거나 다른 용도로 사용하는 경우",
+      "focus": [
+        {
+          "before": {
+            "prefix": "… 추진되는 상업기반시설 현대화사업의 시행으로 취득하는 건축물에 대해서는 취득세를 ",
+            "changed": "2026",
+            "suffix": "년 12월 31일까지 면제한다. <개정 2017.12.27., 2020.12.10…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 추진되는 상업기반시설 현대화사업의 시행으로 취득하는 건축물에 대해서는 취득세를 ",
+            "changed": "2029",
+            "suffix": "년 12월 31일까지 면제한다. <개정 2017.12.27., 2020.12.10…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…2월 31일까지 면제한다. <개정 2017.12.27., 2020.12.10., ",
+            "changed": "2023.10.4.",
+            "suffix": "> ② 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 제1항에…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…2월 31일까지 면제한다. <개정 2017.12.27., 2020.12.10., ",
+            "changed": "2023.10.4., 2026.10.30.",
+            "suffix": "> ② 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 제1항에…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    },
+    {
+      "article": "제12조",
+      "before": "제12조(산격지구 종합유통단지에 대한 감면) ① 대구광역시가 조성한 산격지구 종합유통단지(이하 이 조에서 “유통단지”라 한다)내에 입주하는 자가 취득하는 입주시설용 부동산에 대해서는 다음 각 호에 정하는 바에 따라 취득세를 2026년 12월 31일까지 면제한다. 다만, 정당한 사유 없이 그 취득일부터 3년이 경과할 때까지 해당 용도로 직접 사용하지 아니하거나 매각ㆍ증여하는 경우(해당 유통단지관리권자 또는 관리권한을 위임받은 자가 환매하는 경우를 제외한다)에는 면제된 취득세를 추징한다. <개정 2017.12.27., 2020.12.10., 2023.10.4.> 1. 입주시설을 건립하기 위하여 최초로 취득하는 토지 2. 제1호의 토지 취득일부터 5년 이내에 취득하는 입주시설용 토지 및 건축물(기존 건축물을 승계 취득하는 경우를 제외한다) 3. 제1호의 토지 취득일 전에 그 사용승인을 얻어 신축한 입주시설용 건축물 ② 조합(「중소기업협동조합법」 제3조제1항제1호 및 제2호에 따른 조합을 말한다. 이하 이 조에서 같다)이 유통단지 중 도매단지 내의 미분양된 토지 또는 계약해지된 토지 내에서 건축ㆍ분양하는 입주시설용 부동산의 취득에 대해서는 다음 각 호에 정하는 바에 따라 취득세를 2026년 12월 31일까지 면제한다. 다만, 정당한 사유 없이 건축물을 건축한 날부터 3년이 경과할 때까지 해당 용도로 직접 사용하지 아니하거나 이외의 용도로 사용하는 경우에는 취득세를 추징한다. <개정 2017.12.27., 2020.12.10., 2023.10.4.> 1. 조합이 분양할 목적으로 건축하는 건축물 2. 입주자가 조합으로부터 최초로 분양받는 건축물과 그 부속토지 ③ 유통단지 내에서 제4항에 따른 입주시설과 업종의 유치를 위하여 「대구광역시 종합유통단지 조성 및 분양에 관한 조례」 제17조에 따라 임대 승인을 받은 자가 관계법령에 적합한 시설을 갖추고 다음 표에서 정하는 임대면적비율의 범위에서 임대하는 경우에는 취득세를 2026년 12월 31일까지 면제하되, 그 비율을 초과하여 임대하는 부분에 대해서는 취득세를 면제하지 아니한다. <개정 2017.12.27., 2020.12.10, 2023.10.4.> <table style='border-top: medium none; border-right: medium none; border-collapse: collapse; border-bottom: medium none; border-left: medium none'> <tbody> <tr> <td style='border-top: #000000 1.7pt solid; height: 16.33pt; border-right: #000000 0.28pt solid; width: 223.44pt; border-bottom: #000000 0.28pt solid; padding-bottom: 1.41pt; padding-top: 1.41pt; padding-left: 5.1pt; border-left: #000000 1.7pt solid; padding-right: 5.1pt' valign=middle> <p class=바탕글 style='font-size: 12pt; font-family: 한양신명조; layout-grid-mode: char; text-align: center; line-height: 4.48pt; mso-hansi-font-family: 한양신명조'><span style='font-size: 12pt; font-family: 한양신명조; mso-hansi-font-family: 한양신명조; mso-ascii-font-family: 한양신명조'>시설구분</span></p></td> <td style='border-top: #000000 1.7pt solid; height: 16.33pt; border-right: #000000 1.7pt solid; width: 217.78pt; border-bottom: #000000 0.28pt solid; padding-bottom: 1.41pt; padding-top: 1.41pt; padding-left: 5.1pt; border-left: #000000 0.28pt solid; padding-right: 5.1pt' valign=middle> <p class=바탕글 style='font-size: 12pt; font-family: 한양신명조; layout-grid-mode: char; text-align: center; line-height: 4.48pt; mso-hansi-font-family: 한양신명조'><span style='font-size: 12pt; font-family: 한양신명조; mso-hansi-font-family: 한양신명조; mso-ascii-font-family: 한양신명조'>임대면적비율</span></p></td></tr> <tr> <td style='border-top: #000000 0.28pt solid; height: 16.33pt; border-right: #000000 0.28pt solid; width: 223.44pt; border-bottom: #000000 0.28pt solid; padding-bottom: 1.41pt; padding-top: 1.41pt; padding-left: 5.1pt; border-left: #000000 1.7pt solid; padding-right: 5.1pt' valign=middle> <p class=바탕글 style='font-size: 12pt; font-family: 한양신명조; layout-grid-mode: char; line-height: 4.48pt; mso-hansi-font-family: 한양신명조'><span style='font-size: 12pt; font-family: 한양신명조; mso-hansi-font-family: 한양신명조; mso-ascii-font-family: 한양신명조'>무역센터</span></p></td> <td style='border-top: #000000 0.28pt solid; height: 16.33pt; border-right: #000000 1.7pt solid; width: 217.78pt; border-bottom: #000000 0.28pt solid; padding-bottom: 1.41pt; padding-top: 1.41pt; padding-left: 5.1pt; border-left: #000000 0.28pt solid; padding-right: 5.1pt' valign=middle> <p class=바탕글 style='font-size: 12pt; font-family: 한양신명조; layout-grid-mode: char; text-align: center; line-height: 4.48pt; mso-hansi-font-family: 한양신명조'><span lang=en-us style='font-size: 12pt; font-family: 한양신명조; mso-hansi-font-family: 한양신명조; mso-fareast-font-family: 한양신명조'>100%</span></p></td></tr> <tr> <td style='border-top: #000000 0.28pt solid; height: 16.33pt; border-right: #000000 0.28pt solid; width: 223.44pt; border-bottom: #000000 0.28pt solid; padding-bottom: 1.41pt; padding-top: 1.41pt; padding-left: 5.1pt; border-left: #000000 1.7pt solid; padding-right: 5.1pt' valign=middle> <p class=바탕글 style='font-size: 12pt; font-family: 한양신명조; layout-grid-mode: char; line-height: 4.48pt; mso-hansi-font-family: 한양신명조'><span style='font-size: 12pt; font-family: 한양신명조; mso-hansi-font-family: 한양신명조; mso-ascii-font-family: 한양신명조'>도매단지</span></p></td> <td style='border-top: #000000 0.28pt solid; height: 16.33pt; border-right: #000000 1.7pt solid; width: 217.78pt; border-bottom: #000000 0.28pt solid; padding-bottom: 1.41pt; padding-top: 1.41pt; padding-left: 5.1pt; border-left: #000000 0.28pt solid; padding-right: 5.1pt' valign=middle> <p class=바탕글 style='font-size: 12pt; font-family: 한양신명조; layout-grid-mode: char; text-align: center; line-height: 4.48pt; mso-hansi-font-family: 한양신명조'><span lang=en-us style='font-size: 12pt; font-family: 한양신명조; mso-hansi-font-family: 한양신명조; mso-fareast-font-family: 한양신명조'>70%</span></p></td></tr> <tr> <td style='border-top: #000000 0.28pt solid; height: 16.33pt; border-right: #000000 0.28pt solid; width: 223.44pt; border-bottom: #000000 1.7pt solid; padding-bottom: 1.41pt; padding-top: 1.41pt; padding-left: 5.1pt; border-left: #000000 1.7pt solid; padding-right: 5.1pt' valign=middle> <p class=바탕글 style='font-size: 12pt; font-family: 한양신명조; layout-grid-mode: char; line-height: 4.48pt; mso-hansi-font-family: 한양신명조'><span style='font-size: 12pt; font-family: 한양신명조; mso-hansi-font-family: 한양신명조; mso-ascii-font-family: 한양신명조'>기업관ㆍ물류단지</span></p></td> <td style='border-top: #000000 0.28pt solid; height: 16.33pt; border-right: #000000 1.7pt solid; width: 217.78pt; border-bottom: #000000 1.7pt solid; padding-bottom: 1.41pt; padding-top: 1.41pt; padding-left: 5.1pt; border-left: #000000 0.28pt solid; padding-right: 5.1pt' valign=middle> <p class=바탕글 style='font-size: 12pt; font-family: 한양신명조; layout-grid-mode: char; text-align: center; line-height: 4.48pt; mso-hansi-font-family: 한양신명조'><span lang=en-us style='font-size: 12pt; font-family: 한양신명조; mso-hansi-font-family: 한양신명조; mso-fareast-font-family: 한양신명조'>50%</span></p></td></tr></tbody></table> ④ 제1항ㆍ제2항 및 제3항에 따른 “입주시설”이라 함은 다음 각 호의 시설 및 그 부대시설(「건축법 시행령」 제2조제12호에 따른 부속건축물을 말한다)을 말한다. <개정 2023.10.4.> 1. 무역센터: 전시컨벤션센터 <개정 2023.10.4.> 2. 도매단지: 섬유제품관, 일반의류관, 산업용재관, 전자관, 전자상가, 전기재료관, 전기조명관 <개정 2023.10.4.> 3. 삭제 <2023.10.4.> 4. 기업관: 대기업관, 중기업관, 지역기업관 <개정 2023.10.4.> 5. 물류단지: 일반물류, 철강물류, 우편기계화물류 <개정 2023.10.4.>",
+      "after": "제12조(산격지구 종합유통단지에 대한 감면) ① 대구광역시가 조성한 산격지구 종합유통단지(이하 이 조에서 “유통단지”라 한다)내에 입주하는 자가 취득하는 입주시설용 부동산에 대해서는 다음 각 호에 정하는 바에 따라 취득세를 2029년 12월 31일까지 면제한다. 다만, 정당한 사유 없이 그 취득일부터 3년이 경과할 때까지 해당 용도로 직접 사용하지 아니하거나 매각ㆍ증여하는 경우(해당 유통단지관리권자 또는 관리권한을 위임받은 자가 환매하는 경우를 제외한다)에는 면제된 취득세를 추징한다. <개정 2017.12.27., 2020.12.10., 2023.10.4., 2026.10.30.> 1. 입주시설을 건립하기 위하여 최초로 취득하는 토지 2. 제1호의 토지 취득일부터 5년 이내에 취득하는 입주시설용 토지 및 건축물(기존 건축물을 승계 취득하는 경우를 제외한다) 3. 제1호의 토지 취득일 전에 그 사용승인을 얻어 신축한 입주시설용 건축물 ② 조합(「중소기업협동조합법」 제3조제1항제1호 및 제2호에 따른 조합을 말한다. 이하 이 조에서 같다)이 유통단지 중 도매단지 내의 미분양된 토지 또는 계약해지된 토지 내에서 건축ㆍ분양하는 입주시설용 부동산의 취득에 대해서는 다음 각 호에 정하는 바에 따라 취득세를 2029년 12월 31일까지 면제한다. 다만, 정당한 사유 없이 건축물을 건축한 날부터 3년이 경과할 때까지 해당 용도로 직접 사용하지 아니하거나 이외의 용도로 사용하는 경우에는 취득세를 추징한다. <개정 2017.12.27., 2020.12.10., 2023.10.4., 2026.10.30.> 1. 조합이 분양할 목적으로 건축하는 건축물 2. 입주자가 조합으로부터 최초로 분양받는 건축물과 그 부속토지 ③ 유통단지 내에서 제4항에 따른 입주시설과 업종의 유치를 위하여 「대구광역시 종합유통단지 조성 및 분양에 관한 조례」 제17조에 따라 임대 승인을 받은 자가 관계법령에 적합한 시설을 갖추고 다음 표에서 정하는 임대면적비율의 범위에서 임대하는 경우에는 취득세를 2029년 12월 31일까지 면제하되, 그 비율을 초과하여 임대하는 부분에 대해서는 취득세를 면제하지 아니한다. <개정 2017.12.27., 2020.12.10, 2023.10.4., 2026.10.30.> <table style='border-top: medium none; border-right: medium none; border-collapse: collapse; border-bottom: medium none; border-left: medium none'> <tbody> <tr> <td style='border-top: #000000 1.7pt solid; height: 16.33pt; border-right: #000000 0.28pt solid; width: 223.44pt; border-bottom: #000000 0.28pt solid; padding-bottom: 1.41pt; padding-top: 1.41pt; padding-left: 5.1pt; border-left: #000000 1.7pt solid; padding-right: 5.1pt' valign=middle> <p class=바탕글 style='font-size: 12pt; font-family: 한양신명조; layout-grid-mode: char; text-align: center; line-height: 4.48pt; mso-hansi-font-family: 한양신명조'><span style='font-size: 12pt; font-family: 한양신명조; mso-hansi-font-family: 한양신명조; mso-ascii-font-family: 한양신명조'>시설구분</span></p></td> <td style='border-top: #000000 1.7pt solid; height: 16.33pt; border-right: #000000 1.7pt solid; width: 217.78pt; border-bottom: #000000 0.28pt solid; padding-bottom: 1.41pt; padding-top: 1.41pt; padding-left: 5.1pt; border-left: #000000 0.28pt solid; padding-right: 5.1pt' valign=middle> <p class=바탕글 style='font-size: 12pt; font-family: 한양신명조; layout-grid-mode: char; text-align: center; line-height: 4.48pt; mso-hansi-font-family: 한양신명조'><span style='font-size: 12pt; font-family: 한양신명조; mso-hansi-font-family: 한양신명조; mso-ascii-font-family: 한양신명조'>임대면적비율</span></p></td></tr> <tr> <td style='border-top: #000000 0.28pt solid; height: 16.33pt; border-right: #000000 0.28pt solid; width: 223.44pt; border-bottom: #000000 0.28pt solid; padding-bottom: 1.41pt; padding-top: 1.41pt; padding-left: 5.1pt; border-left: #000000 1.7pt solid; padding-right: 5.1pt' valign=middle> <p class=바탕글 style='font-size: 12pt; font-family: 한양신명조; layout-grid-mode: char; line-height: 4.48pt; mso-hansi-font-family: 한양신명조'><span style='font-size: 12pt; font-family: 한양신명조; mso-hansi-font-family: 한양신명조; mso-ascii-font-family: 한양신명조'>무역센터</span></p></td> <td style='border-top: #000000 0.28pt solid; height: 16.33pt; border-right: #000000 1.7pt solid; width: 217.78pt; border-bottom: #000000 0.28pt solid; padding-bottom: 1.41pt; padding-top: 1.41pt; padding-left: 5.1pt; border-left: #000000 0.28pt solid; padding-right: 5.1pt' valign=middle> <p class=바탕글 style='font-size: 12pt; font-family: 한양신명조; layout-grid-mode: char; text-align: center; line-height: 4.48pt; mso-hansi-font-family: 한양신명조'><span lang=en-us style='font-size: 12pt; font-family: 한양신명조; mso-hansi-font-family: 한양신명조; mso-fareast-font-family: 한양신명조'>100%</span></p></td></tr> <tr> <td style='border-top: #000000 0.28pt solid; height: 16.33pt; border-right: #000000 0.28pt solid; width: 223.44pt; border-bottom: #000000 0.28pt solid; padding-bottom: 1.41pt; padding-top: 1.41pt; padding-left: 5.1pt; border-left: #000000 1.7pt solid; padding-right: 5.1pt' valign=middle> <p class=바탕글 style='font-size: 12pt; font-family: 한양신명조; layout-grid-mode: char; line-height: 4.48pt; mso-hansi-font-family: 한양신명조'><span style='font-size: 12pt; font-family: 한양신명조; mso-hansi-font-family: 한양신명조; mso-ascii-font-family: 한양신명조'>도매단지</span></p></td> <td style='border-top: #000000 0.28pt solid; height: 16.33pt; border-right: #000000 1.7pt solid; width: 217.78pt; border-bottom: #000000 0.28pt solid; padding-bottom: 1.41pt; padding-top: 1.41pt; padding-left: 5.1pt; border-left: #000000 0.28pt solid; padding-right: 5.1pt' valign=middle> <p class=바탕글 style='font-size: 12pt; font-family: 한양신명조; layout-grid-mode: char; text-align: center; line-height: 4.48pt; mso-hansi-font-family: 한양신명조'><span lang=en-us style='font-size: 12pt; font-family: 한양신명조; mso-hansi-font-family: 한양신명조; mso-fareast-font-family: 한양신명조'>70%</span></p></td></tr> <tr> <td style='border-top: #000000 0.28pt solid; height: 16.33pt; border-right: #000000 0.28pt solid; width: 223.44pt; border-bottom: #000000 1.7pt solid; padding-bottom: 1.41pt; padding-top: 1.41pt; padding-left: 5.1pt; border-left: #000000 1.7pt solid; padding-right: 5.1pt' valign=middle> <p class=바탕글 style='font-size: 12pt; font-family: 한양신명조; layout-grid-mode: char; line-height: 4.48pt; mso-hansi-font-family: 한양신명조'><span style='font-size: 12pt; font-family: 한양신명조; mso-hansi-font-family: 한양신명조; mso-ascii-font-family: 한양신명조'>기업관ㆍ물류단지</span></p></td> <td style='border-top: #000000 0.28pt solid; height: 16.33pt; border-right: #000000 1.7pt solid; width: 217.78pt; border-bottom: #000000 1.7pt solid; padding-bottom: 1.41pt; padding-top: 1.41pt; padding-left: 5.1pt; border-left: #000000 0.28pt solid; padding-right: 5.1pt' valign=middle> <p class=바탕글 style='font-size: 12pt; font-family: 한양신명조; layout-grid-mode: char; text-align: center; line-height: 4.48pt; mso-hansi-font-family: 한양신명조'><span lang=en-us style='font-size: 12pt; font-family: 한양신명조; mso-hansi-font-family: 한양신명조; mso-fareast-font-family: 한양신명조'>50%</span></p></td></tr></tbody></table> ④ 제1항ㆍ제2항 및 제3항에 따른 “입주시설”이라 함은 다음 각 호의 시설 및 그 부대시설(「건축법 시행령」 제2조제12호에 따른 부속건축물을 말한다)을 말한다. <개정 2023.10.4.> 1. 무역센터: 전시컨벤션센터 <개정 2023.10.4.> 2. 도매단지: 섬유제품관, 일반의류관, 산업용재관, 전자관, 전자상가, 전기재료관, 전기조명관 <개정 2023.10.4.> 3. 삭제 <2023.10.4.> 4. 기업관: 대기업관, 중기업관, 지역기업관 <개정 2023.10.4.> 5. 물류단지: 일반물류, 철강물류, 우편기계화물류 <개정 2023.10.4.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "… 취득하는 입주시설용 부동산에 대해서는 다음 각 호에 정하는 바에 따라 취득세를 ",
+            "changed": "2026",
+            "suffix": "년 12월 31일까지 면제한다. 다만, 정당한 사유 없이 그 취득일부터 3년이 경…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 취득하는 입주시설용 부동산에 대해서는 다음 각 호에 정하는 바에 따라 취득세를 ",
+            "changed": "2029",
+            "suffix": "년 12월 31일까지 면제한다. 다만, 정당한 사유 없이 그 취득일부터 3년이 경…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…면제된 취득세를 추징한다. <개정 2017.12.27., 2020.12.10., ",
+            "changed": "2023.10.4.",
+            "suffix": "> 1. 입주시설을 건립하기 위하여 최초로 취득하는 토지 2. 제1호의 토지 취득…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…면제된 취득세를 추징한다. <개정 2017.12.27., 2020.12.10., ",
+            "changed": "2023.10.4., 2026.10.30.",
+            "suffix": "> 1. 입주시설을 건립하기 위하여 최초로 취득하는 토지 2. 제1호의 토지 취득…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…는 입주시설용 부동산의 취득에 대해서는 다음 각 호에 정하는 바에 따라 취득세를 ",
+            "changed": "2026",
+            "suffix": "년 12월 31일까지 면제한다. 다만, 정당한 사유 없이 건축물을 건축한 날부터 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…는 입주시설용 부동산의 취득에 대해서는 다음 각 호에 정하는 바에 따라 취득세를 ",
+            "changed": "2029",
+            "suffix": "년 12월 31일까지 면제한다. 다만, 정당한 사유 없이 건축물을 건축한 날부터 …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…우에는 취득세를 추징한다. <개정 2017.12.27., 2020.12.10., ",
+            "changed": "2023.10.4.",
+            "suffix": "> 1. 조합이 분양할 목적으로 건축하는 건축물 2. 입주자가 조합으로부터 최초로…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…우에는 취득세를 추징한다. <개정 2017.12.27., 2020.12.10., ",
+            "changed": "2023.10.4., 2026.10.30.",
+            "suffix": "> 1. 조합이 분양할 목적으로 건축하는 건축물 2. 입주자가 조합으로부터 최초로…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…을 갖추고 다음 표에서 정하는 임대면적비율의 범위에서 임대하는 경우에는 취득세를 ",
+            "changed": "2026",
+            "suffix": "년 12월 31일까지 면제하되, 그 비율을 초과하여 임대하는 부분에 대해서는 취득…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…을 갖추고 다음 표에서 정하는 임대면적비율의 범위에서 임대하는 경우에는 취득세를 ",
+            "changed": "2029",
+            "suffix": "년 12월 31일까지 면제하되, 그 비율을 초과하여 임대하는 부분에 대해서는 취득…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…취득세를 면제하지 아니한다. <개정 2017.12.27., 2020.12.10, ",
+            "changed": "2023.10.4.",
+            "suffix": "> <table style='border-top: medium none; bord…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…취득세를 면제하지 아니한다. <개정 2017.12.27., 2020.12.10, ",
+            "changed": "2023.10.4., 2026.10.30.",
+            "suffix": "> <table style='border-top: medium none; bord…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 6
+    },
+    {
+      "article": "제13조",
+      "before": "제13조(연구개발특구 지역에 대한 감면) 「연구개발특구의 육성에 관한 특별법」 제4조에 따른 연구개발특구에서 같은 법 제2조에 따른 첨단기술기업, 연구소기업, 외국인투자기업 및 외국연구기관이 고유업무에 직접 사용하기 위하여 취득하는 부동산에 대해서는 취득세를 2026년 12월 31일까지 면제한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 면제된 취득세를 추징한다. <개정 2017.5.10., 2017.12.27., 2020.12.10., 2022.6.30., 2023.10.4.> 1. 정당한 사유 없이 그 취득일부터 3년이 경과할 때까지 해당 용도로 직접 사용하지 아니하는 경우 2. 해당 용도로 직접 사용한 기간이 2년 미만인 상태에서 매각ㆍ증여하거나 다른 용도로 사용하는 경우(「연구개발특구의 육성에 관한 특별법」 제9조의2, 제9조의4 또는 제40조에 따라 지정ㆍ등록 취소 또는 입주계약이 해지된 경우를 포함한다)",
+      "after": "제13조(연구개발특구 지역에 대한 감면) 「연구개발특구의 육성에 관한 특별법」 제4조에 따른 연구개발특구에서 같은 법 제2조에 따른 첨단기술기업, 연구소기업, 외국인투자기업 및 외국연구기관이 고유업무에 직접 사용하기 위하여 취득하는 부동산에 대해서는 취득세를 2029년 12월 31일까지 면제한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 면제된 취득세를 추징한다. <개정 2017.5.10., 2017.12.27., 2020.12.10., 2022.6.30., 2023.10.4., 2026.10.30.> 1. 정당한 사유 없이 그 취득일부터 3년이 경과할 때까지 해당 용도로 직접 사용하지 아니하는 경우 2. 해당 용도로 직접 사용한 기간이 2년 미만인 상태에서 매각ㆍ증여하거나 다른 용도로 사용하는 경우(「연구개발특구의 육성에 관한 특별법」 제9조의2, 제9조의4 또는 제40조에 따라 지정ㆍ등록 취소 또는 입주계약이 해지된 경우를 포함한다)",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…국연구기관이 고유업무에 직접 사용하기 위하여 취득하는 부동산에 대해서는 취득세를 ",
+            "changed": "2026",
+            "suffix": "년 12월 31일까지 면제한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…국연구기관이 고유업무에 직접 사용하기 위하여 취득하는 부동산에 대해서는 취득세를 ",
+            "changed": "2029",
+            "suffix": "년 12월 31일까지 면제한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…5.10., 2017.12.27., 2020.12.10., 2022.6.30., ",
+            "changed": "2023.10.4.",
+            "suffix": "> 1. 정당한 사유 없이 그 취득일부터 3년이 경과할 때까지 해당 용도로 직접 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…5.10., 2017.12.27., 2020.12.10., 2022.6.30., ",
+            "changed": "2023.10.4., 2026.10.30.",
+            "suffix": "> 1. 정당한 사유 없이 그 취득일부터 3년이 경과할 때까지 해당 용도로 직접 …",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    },
+    {
+      "article": "제14조",
+      "before": "제14조(첨단의료복합단지에 대한 감면) 「첨단의료복합단지 육성에 관한 특별법」 제6조에 따른 첨단의료복합단지에서 같은 법 제2조에 따른 입주의료연구개발기관 및 제11조에 따른 첨단의료산업진흥재단이 고유업무에 직접 사용하기 위하여 취득하는 부동산에 대해서는 취득세를 2026년 12월 31일까지 면제한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 면제된 취득세를 추징한다. <개정 2017.12.27., 2020.5.11., 2020.12.10., 2022.6.30., 2023.10.4.> 1. 정당한 사유 없이 그 취득일부터 3년이 경과할 때까지 해당 용도로 직접 사용하지 아니하는 경우 2. 해당 용도로 직접 사용한 기간이 2년 미만인 상태에서 매각ㆍ증여하거나 다른 용도로 사용하는 경우(「첨단의료복합단지 육성에 관한 특별법」 제31조에 따라 입주승인이 취소된 경우를 포함한다)",
+      "after": "제14조(첨단의료복합단지에 대한 감면) 「첨단의료복합단지 육성에 관한 특별법」 제6조에 따른 첨단의료복합단지에서 같은 법 제2조에 따른 입주의료연구개발기관 및 제11조에 따른 첨단의료산업진흥재단이 고유업무에 직접 사용하기 위하여 취득하는 부동산에 대해서는 취득세를 2029년 12월 31일까지 면제한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 면제된 취득세를 추징한다. <개정 2017.12.27., 2020.5.11., 2020.12.10., 2022.6.30., 2023.10.4., 2026.10.30.> 1. 정당한 사유 없이 그 취득일부터 3년이 경과할 때까지 해당 용도로 직접 사용하지 아니하는 경우 2. 해당 용도로 직접 사용한 기간이 2년 미만인 상태에서 매각ㆍ증여하거나 다른 용도로 사용하는 경우(「첨단의료복합단지 육성에 관한 특별법」 제31조에 따라 입주승인이 취소된 경우를 포함한다)",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…업진흥재단이 고유업무에 직접 사용하기 위하여 취득하는 부동산에 대해서는 취득세를 ",
+            "changed": "2026",
+            "suffix": "년 12월 31일까지 면제한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…업진흥재단이 고유업무에 직접 사용하기 위하여 취득하는 부동산에 대해서는 취득세를 ",
+            "changed": "2029",
+            "suffix": "년 12월 31일까지 면제한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…12.27., 2020.5.11., 2020.12.10., 2022.6.30., ",
+            "changed": "2023.10.4.",
+            "suffix": "> 1. 정당한 사유 없이 그 취득일부터 3년이 경과할 때까지 해당 용도로 직접 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…12.27., 2020.5.11., 2020.12.10., 2022.6.30., ",
+            "changed": "2023.10.4., 2026.10.30.",
+            "suffix": "> 1. 정당한 사유 없이 그 취득일부터 3년이 경과할 때까지 해당 용도로 직접 …",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    },
+    {
+      "article": "제15조",
+      "before": "제15조(지역특산품생산단지 등에 대한 감면) ① 다음 각 호의 어느 하나에 해당하는 자가 「농업ㆍ농촌 및 식품산업 기본법」제50조제1항 또는 「수산업ㆍ어촌 발전 기본법」제39조제1항에 따른 지역특산품 생산단지에서 해당 사업에 직접 사용하기 위하여 취득하는 부동산(이미 해당 사업용으로 사용하던 부동산을 승계하여 취득한 경우는 제외한다)에 대해서는 취득세를 2023년 12월 31일까지 면제한다.<개정 2017.12.27., 2020.12.10., 2022.6.30.> 1. 「농업ㆍ농촌 및 식품산업 기본법」 제50조제1항 또는「수산업ㆍ어촌 발전 기본법」제39조제1항에 따른 지역특산품 생산단지의 지정을 받은 자 2. 「식품산업진흥법」제19조의3제1항에 따른 농산물가공품의 생산을 업으로 하거나 하려는 자 3. 「수산식품산업의 육성 및 지원에 관한 법률」 제15조제1항제1호에 따른 수산가공품의 생산ㆍ개발ㆍ수출 촉진 및 전문판매점의 설치ㆍ운영을 하려는 자 ② 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 제1항에 따라 면제된 취득세를 추징한다. 1. 정당한 사유 없이 그 취득일부터 1년이 경과할 때까지 해당 용도로 직접 사용하지 아니하는 경우 2. 해당 용도로 직접 사용한 기간이 2년 미만인 상태에서 매각ㆍ증여하거나 다른 용도로 사용하는 경우 ③ 삭제 <2017.5.10.>",
+      "after": "제15조 삭제 <2026.10.30.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제15조",
+            "changed": "(지역특산품생산단지 등에 대한 감면) ① 다음 각 호의 어느 하나에 해당하는 자가 「농업ㆍ농촌 및 식품산업 기본법」제50조제1항 또는 「수산업ㆍ어촌 발전 기본법」제39조제1항에 따른 지역특산품 생산단지에서 해당 사업에 직접 사용하기 위하여 취득하는 부동산(이미 해당 사업용으로 사용하던 부동산을 승계하여 취득한 경우는 제외한다)에 대해서는 취득세를 2023년 12월 31일까지 면제한다.<개정 2017.12.27., 2020.12.10., 2022.6.30.> 1. 「농업ㆍ농촌 및 식품산업 기본법」 제50조제1항 또는「수산업ㆍ어촌 발전 기본법」제39조제1항에 따른 지역특산품 생산단지의 지정을 받은 자 2. 「식품산업진흥법」제19조의3제1항에 따른 농산물가공품의 생산을 업으로 하거나 하려는 자 3. 「수산식품산업…",
+            "suffix": " 삭제 <2017.5.10.>",
+            "truncated": true
+          },
+          "after": {
+            "prefix": "제15조 ",
+            "changed": "",
+            "suffix": "삭제 <2026.10.30.>",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…간이 2년 미만인 상태에서 매각ㆍ증여하거나 다른 용도로 사용하는 경우 ③ 삭제 <",
+            "changed": "2017.5.10.",
+            "suffix": ">",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제15조 삭제 <",
+            "changed": "2026.10.30.",
+            "suffix": ">",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    },
+    {
+      "article": "제5조",
+      "before": "제5조(농공단지 대체입주자에 대한 감면) ① 「산업입지 및 개발에 관한 법률」에 따른 농공단지에서 휴업(「부가가치세법」 제8조에 따라 휴업 신고한 날부터 6개월이 경과한 경우에 한정한다) 또는 폐업(폐업한 날부터 3개월이 경과한 경우에 한정한다)된 공장을 취득하여 입주하려는 자가 취득하는 부동산에 대해서는 취득세를 2026년 12월 31일까지 면제한다. <개정 2017.12.27., 2020.12.10., 2023.10.4.> ② 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 제1항에 따라 면제된 취득세를 추징한다. 1. 정당한 사유 없이 그 취득일부터 3년이 경과할 때까지 공장 용도로 직접 사용하지 아니하는 경우 2. 공장 용도로 직접 사용한 기간이 2년 미만인 상태에서 매각(해당 농공단지 관리기관이 환매하는 경우는 제외한다)ㆍ증여하거나 다른 용도로 사용하는 경우",
+      "after": "제5조(농공단지 대체입주자에 대한 감면) ① 「산업입지 및 개발에 관한 법률」에 따른 농공단지에서 휴업(「부가가치세법」 제8조에 따라 휴업 신고한 날부터 6개월이 경과한 경우에 한정한다) 또는 폐업(폐업한 날부터 3개월이 경과한 경우에 한정한다)된 공장을 취득하여 입주하려는 자가 취득하는 부동산에 대해서는 취득세를 2029년 12월 31일까지 면제한다. <개정 2017.12.27., 2020.12.10., 2023.10.4., 2026.10.30.> ② 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 제1항에 따라 면제된 취득세를 추징한다. 1. 정당한 사유 없이 그 취득일부터 3년이 경과할 때까지 공장 용도로 직접 사용하지 아니하는 경우 2. 공장 용도로 직접 사용한 기간이 2년 미만인 상태에서 매각(해당 농공단지 관리기관이 환매하는 경우는 제외한다)ㆍ증여하거나 다른 용도로 사용하는 경우",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…한정한다)된 공장을 취득하여 입주하려는 자가 취득하는 부동산에 대해서는 취득세를 ",
+            "changed": "2026",
+            "suffix": "년 12월 31일까지 면제한다. <개정 2017.12.27., 2020.12.10…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…한정한다)된 공장을 취득하여 입주하려는 자가 취득하는 부동산에 대해서는 취득세를 ",
+            "changed": "2029",
+            "suffix": "년 12월 31일까지 면제한다. <개정 2017.12.27., 2020.12.10…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…2월 31일까지 면제한다. <개정 2017.12.27., 2020.12.10., ",
+            "changed": "2023.10.4.",
+            "suffix": "> ② 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 제1항에…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…2월 31일까지 면제한다. <개정 2017.12.27., 2020.12.10., ",
+            "changed": "2023.10.4., 2026.10.30.",
+            "suffix": "> ② 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 제1항에…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    },
+    {
+      "article": "제8조",
+      "before": "제8조(벤처기업에 대한 감면) 「벤처기업육성에 관한 특별법」에 따른 벤처기업집적시설 설립자로부터 벤처기업집적시설을 최초로 분양받아 입주하는 자(벤처기업집적시설에 입주하는 자 중 벤처기업에 해당되지 아니하는 자는 제외한다)가 취득하는 벤처기업집적시설용 부동산(임대용 부동산은 제외한다)에 대해서는 취득세의 1000분의 375를 2026년 12월 31일까지 경감한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 경감된 취득세를 추징한다. <개정 2017.12.27., 2020.12.10., 2023.10.4., 2026.3.30.> 1. 정당한 사유 없이 그 취득일부터 1년 경과할 때까지 해당 용도로 직접 사용하지 아니하는 경우 2. 그 취득일부터 5년 이내에 매각ㆍ증여하거나 다른 용도로 사용하는 경우",
+      "after": "제8조 삭제 <2026.10.30.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제8조",
+            "changed": "(벤처기업에 대한 감면) 「벤처기업육성에 관한 특별법」에 따른 벤처기업집적시설 설립자로부터 벤처기업집적시설을 최초로 분양받아 입주하는 자(벤처기업집적시설에 입주하는 자 중 벤처기업에 해당되지 아니하는 자는 제외한다)가 취득하는 벤처기업집적시설용 부동산(임대용 부동산은 제외한다)에 대해서는 취득세의 1000분의 375를 2026년 12월 31일까지 경감한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 경감된 취득세를 추징한다.",
+            "suffix": " <개정 2017.12.27., 2020.12.10., 2023.10.4., 20…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제8조 ",
+            "changed": "삭제",
+            "suffix": " <2026.10.30.>",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…어느 하나에 해당하는 경우 그 해당 부분에 대해서는 경감된 취득세를 추징한다. <",
+            "changed": "개정 2017.12.27., 2020.12.10., 2023.10.4., 2026.3.30.",
+            "suffix": "> 1. 정당한 사유 없이 그 취득일부터 1년 경과할 때까지 해당 용도로 직접 사…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제8조 삭제 <",
+            "changed": "2026.10.30.",
+            "suffix": ">",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…12.27., 2020.12.10., 2023.10.4., 2026.3.30.> ",
+            "changed": "1. 정당한 사유 없이 그 취득일부터 1년 경과할 때까지 해당 용도로 직접 사용하지 아니하는 경우 2. 그 취득일부터 5년 이내에 매각ㆍ증여하거나 다른 용도로 사용하는 경우",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제8조 삭제 <2026.10.30.>",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 3
+    },
+    {
+      "article": "제9조",
+      "before": "제9조(우수 향토기업에 대한 감면) ① 「대구광역시 기업인 예우 및 기업활동 지원에 관한 조례」에 따라 선정된 우수기업인 중 대구광역시에서 본점 사업자 등록을 한 지 30년이 경과하고 상시고용인원이 30명 이상인 제조업을 영위하는 기업이 공장용으로 직접 사용하기 위하여 우수기업인 선정일부터 3년 이내에 취득하는 부동산(임대용 부동산은 제외한다)에 대해서는 취득세의 100분의 50을 2026년 12월 31일까지 경감한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 경감된 취득세를 추징한다. <개정 2017.12.27., 2020.12.10., 2023.10.4.> 1. 정당한 사유 없이 그 취득일부터 1년이 경과할 때까지 해당 용도로 직접 사용하지 아니하는 경우 2. 해당 용도로 직접 사용한 기간이 2년 미만인 상태에서 매각ㆍ증여하거나 다른 용도로 사용하는 경우 ② 제1항의 “본점 사업자 등록을 한지 30년이 경과”라 함은 다음 각 호에 해당하는 사업자 등록기간을 합산하여 산정한다. 다만, 각 호의 사업자 등록기간이 중복되는 경우에는 중복되는 기간은 합산하지 아니한다. 1. 직계존비속의 사업을 상속한 경우에는 피상속인과 상속인의 사업자 등록기간 2. 법인의 합병인 경우에는 합병으로 소멸되는 기업과 존속하는 기업의 사업자 등록기간 3. 「조세특례제한법」 제31조에 따른 중소기업 간의 통합인 경우에는 소멸되는 기업과 통합법인의 사업자 등록기간 4. 「조세특례제한법」 제32조에 따른 현물출자하거나 사업양수ㆍ양도의 방법에 따라 법인으로 전환한 경우에는 개인과 법인의 사업자 등록기간",
+      "after": "제9조(우수 향토기업에 대한 감면) ① 「대구광역시 기업인 예우 및 기업활동 지원에 관한 조례」에 따라 선정된 우수기업인 중 대구광역시에서 본점 사업자 등록을 한 지 30년이 경과하고 상시고용인원이 30명 이상인 제조업을 영위하는 기업이 공장용으로 직접 사용하기 위하여 우수기업인 선정일부터 3년 이내에 취득하는 부동산(임대용 부동산은 제외한다)에 대해서는 취득세의 100분의 50을 2029년 12월 31일까지 경감한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 그 해당 부분에 대해서는 경감된 취득세를 추징한다. <개정 2017.12.27., 2020.12.10., 2023.10.4., 2026.10.30.> 1. 정당한 사유 없이 그 취득일부터 1년이 경과할 때까지 해당 용도로 직접 사용하지 아니하는 경우 2. 해당 용도로 직접 사용한 기간이 2년 미만인 상태에서 매각ㆍ증여하거나 다른 용도로 사용하는 경우 ② 제1항의 “본점 사업자 등록을 한지 30년이 경과”라 함은 다음 각 호에 해당하는 사업자 등록기간을 합산하여 산정한다. 다만, 각 호의 사업자 등록기간이 중복되는 경우에는 중복되는 기간은 합산하지 아니한다. 1. 직계존비속의 사업을 상속한 경우에는 피상속인과 상속인의 사업자 등록기간 2. 법인의 합병인 경우에는 합병으로 소멸되는 기업과 존속하는 기업의 사업자 등록기간 3. 「조세특례제한법」 제31조에 따른 중소기업 간의 통합인 경우에는 소멸되는 기업과 통합법인의 사업자 등록기간 4. 「조세특례제한법」 제32조에 따른 현물출자하거나 사업양수ㆍ양도의 방법에 따라 법인으로 전환한 경우에는 개인과 법인의 사업자 등록기간",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…취득하는 부동산(임대용 부동산은 제외한다)에 대해서는 취득세의 100분의 50을 ",
+            "changed": "2026",
+            "suffix": "년 12월 31일까지 경감한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…취득하는 부동산(임대용 부동산은 제외한다)에 대해서는 취득세의 100분의 50을 ",
+            "changed": "2029",
+            "suffix": "년 12월 31일까지 경감한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우 …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…경감된 취득세를 추징한다. <개정 2017.12.27., 2020.12.10., ",
+            "changed": "2023.10.4.",
+            "suffix": "> 1. 정당한 사유 없이 그 취득일부터 1년이 경과할 때까지 해당 용도로 직접 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…경감된 취득세를 추징한다. <개정 2017.12.27., 2020.12.10., ",
+            "changed": "2023.10.4., 2026.10.30.",
+            "suffix": "> 1. 정당한 사유 없이 그 취득일부터 1년이 경과할 때까지 해당 용도로 직접 …",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "high",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2117797"
+}

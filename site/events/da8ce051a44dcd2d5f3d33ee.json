@@ -9,13 +9,162 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9D%98%EB%A3%8C%EA%B8%B0%EA%B4%80%EB%B3%84%EA%B8%89%EC%97%AC%EC%A0%81%EC%A0%95%EC%84%B1%ED%8F%89%EA%B0%80%ED%98%84%ED%99%A9%29",
   "category": "급여·지원기준",
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "본문",
+      "before": "1. 통계의 명칭 : 의료기관별급여적정성평가현황 2. 통계작성기관의 명칭 : 건강보험심사평가원 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제354002호 [2007.07.19.] 4. 통계작성의 변경 연월일 : 2026.06.15. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "after": "1. 통계의 명칭 : 의료기관별급여적정성평가현황 2. 통계작성기관의 명칭 : 건강보험심사평가원 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제354002호 [2007.07.19.] 4. 통계작성의 변경 연월일 : 2026.12.01. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…] : 제354002호 [2007.07.19.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2026.06.15.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…] : 제354002호 [2007.07.19.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2026.12.01.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 1 · 작성항목 · 변경 후",
+      "before": "[신설]",
+      "after": "<부문: 대장암> ㅇ 조사문항 - 수정 11개",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 1 · 조사대상 기간 · 변경 전",
+      "before": "[신설]",
+      "after": "<부문: 정신건강> ㅇ ‘23.8.~‘24.1.",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 1 · 조사대상 기간 · 변경 후",
+      "before": "[신설]",
+      "after": "<부문: 정신건강> ㅇ ‘26.1.~‘26.6.",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 1 · 조사실시 기간 · 변경 전",
+      "before": "[신설]",
+      "after": "<부문: 정신건강> ㅇ ‘24.7.-‘24.8.",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 1 · 조사실시 기간 · 변경 후",
+      "before": "[신설]",
+      "after": "<부문: 정신건강> ㅇ ‘26.12.~‘27.1.",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 1 · 통계표 (결과표) · 변경 전",
+      "before": "[신설]",
+      "after": "<부문: 대장암> ㅇ 평가지표 10개",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 1 · 통계표 (결과표) · 변경 후",
+      "before": "[신설]",
+      "after": "<부문: 대장암> ㅇ 평가지표 10개 - 지표 개선 2개",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 5 · 작성항목 · 변경 전",
+      "before": "<부문: 중환자실> ㅇ 조사표: 문항 개수 12개",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 5 · 작성항목 · 변경 후",
+      "before": "<부문: 중환자실> ㅇ 조사표: 문항 개수 5개 - 삭제 7개, 변경 2개, 추가 1개",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 5 · 조사대상 · 변 경 사 유",
+      "before": "평가의 실효성 확보 및 요양기관 행정업무 부담 감소를 위해 48시간 미만 환자 평가 대상 포함",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 5 · 조사대상 · 변경 전",
+      "before": "<부문: 중환자실> ㅇ 평가대상: 3개월 ㅇ 대상환자: 중환자실 48시간 미만 입실환자 제외",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 5 · 조사대상 · 변경 후",
+      "before": "<부문: 중환자실> ㅇ 평가대상: 6개월 ㅇ 대상환자: 중환자실 48시간 미만 입실환자 포함",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 5 · 조사대상기간 · 변경 전",
+      "before": "<부문: 중환자실> ㅇ ’23.1.~’23.3.",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 5 · 조사대상기간 · 변경 후",
+      "before": "<부문: 중환자실> ㅇ ’25.7.~’25.12.",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 5 · 조사실시기간 · 변경 전",
+      "before": "<부문: 중환자실> ㅇ ’23.10-’23.11",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 5 · 조사실시기간 · 변경 후",
+      "before": "<부문: 중환자실> ㅇ ’26.6.~’26.7.",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 5 · 통계표 (결과표) · 변경 전",
+      "before": "<부문: 수혈> ㅇ 평가지표 1 [수혈체크리스트 보유 유무] ㅇ 기관조사표(전수조사)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 5 · 통계표 (결과표) · 변경 후",
+      "before": "<부문: 수혈> ㅇ 평가지표 1 [수혈체크리스트 사용률] ㅇ 기관조사표(전수조사), 환자조사표(표본조사)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0
+    }
+  ],
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "normal",
-  "prior_url": ""
+  "impact_level": "high",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000280596"
 }
