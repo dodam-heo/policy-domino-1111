@@ -47,11 +47,11 @@ class CoverageCompletionTests(unittest.TestCase):
 
             def search(self, source, start, end, edition, kind, query="",
                        search_scope=1):
-                if not query and start == "2026-08-07" and end == "2026-11-04":
+                if source == "admrul" and edition == "1" and kind == "3" and not query and start == "2026-08-07" and end == "2026-11-04":
                     self.parent_calls += 1
-                if not query and start == "2026-08-07" and end == "2026-09-20":
+                if source == "admrul" and edition == "1" and kind == "3" and not query and start == "2026-08-07" and end == "2026-09-20":
                     self.left_calls += 1
-                if not query and start == "2026-09-21" and end == "2026-11-04" and not self.failed:
+                if source == "admrul" and edition == "1" and kind == "3" and not query and start == "2026-09-21" and end == "2026-11-04" and not self.failed:
                     self.failed = True
                     raise TimeoutError("one transient shard outage")
                 return super().search(source, start, end, edition, kind,
