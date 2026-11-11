@@ -45,7 +45,7 @@ function filtered(){
 function renderAgencies(){
   const root=$('agencies');root.replaceChildren();
   const counts=new Map(); dataset.forEach(e=>(e.agency_names||[]).forEach(n=>counts.set(n,(counts.get(n)||0)+1)));
-  const button=(name,count)=>{const b=node('button',globalAgency===name?'selected':'', (name||'전체 기관')+' '+count);b.type='button';b.onclick=()=>{globalAgency=name;agencyFilter=name;pageSize=60;renderAgencies();filtered();};return b;};
+  const button=(name,count)=>{const b=node('button',globalAgency===name?'selected':'', name ? name+' '+count : '전체 기관');b.type='button';b.onclick=()=>{globalAgency=name;agencyFilter=name;pageSize=60;renderAgencies();filtered();};return b;};
   root.appendChild(button('',dataset.length));
   const groups={'중앙부처·공공기관':[],'지방자치단체':[],'교육청':[]};
   [...counts].sort((a,b)=>a[0].localeCompare(b[0],'ko')).forEach(([n,c])=>groups[/교육청|교육지원청/.test(n)?'교육청':/특별시|광역시|특별자치|도 |시청|군청|구청|시 |군 |구$/.test(n)?'지방자치단체':'중앙부처·공공기관'].push([n,c]));
@@ -60,6 +60,7 @@ function renderList(){
     add(b,chip(e.category),changeCount(e)?chip('변경 '+changeCount(e)+'개','blue'):chip(stage[e.comparison_status]||'대조 대기','orange'));
     if(actionCount(e))b.appendChild(chip('기관·사업 '+actionCount(e),'blue'));
     add(b,node('h3','',e.title),node('div','meta',(e.ministry||names[e.source])+' · '+(e.published_at||'발령일 미확인')));
+    if(e.policy_analysis?.verified)b.appendChild(node('p','event-summary',e.policy_analysis.explanation));
     const foot=node('div','event-foot');add(foot,node('span','',e.effective_date?'시행 '+e.effective_date:'시행일 확인 중'),node('span','event-arrow','영향 확인 ↗'));b.appendChild(foot);
     b.addEventListener('click',()=>{active=e;agencyFilter='';document.body.className='mode-detail';renderList();renderDetail();window.scrollTo({top:0,behavior:'smooth'});});
     list.appendChild(b);
@@ -103,19 +104,6 @@ function deltaTable(changes, limit=12){
   table.appendChild(body);wrap.appendChild(table);return wrap;
 }
 function shortChanges(changes){return changes.filter(c=>String(c.before).length<100&&String(c.after).length<100);}
-function workItems(action){
-  const rows=action.linked_changes||[],text=rows.map(c=>c.article+' '+c.after).join(' ');
-  const field=action.evidence.service_field;
-  if(/가구|소득|선정|지원대상/.test(text+' '+field))return [
-    '신청 안내의 가구 규모별 선정기준과 소득기준표 갱신',
-    '대상자 심사에 사용하는 기준값·계산식과 적용연도 확인',
-    '시행일 이후 신청·재심사 건에 적용할 기준 구분'];
-  if(/금액|원|지원내용|비용/.test(text+' '+field))return [
-    '사업 안내와 지급기준표의 해당 금액 갱신',
-    '지급액 산식·상한액 및 업무 시스템 기준값 대조',
-    '시행일 기준 지급 대상과 적용 시점 확인'];
-  return ['공식 운영기준의 해당 조문·항목 대조','업무 안내·심사 절차·관련 서식의 수정 항목 확인'];
-}
 
 async function renderDetail(){
   const ticket=++requestId;
@@ -168,19 +156,13 @@ async function renderDetail(){
     actions.filter(x=>!agencyFilter||x.agency===agencyFilter).forEach(x=>{
       const item=node('article','agency-item');
       add(item,node('strong','',x.agency),node('div','secondary','공공서비스 · '+x.service));
-      add(item,node('p','action-text',x.required_change));
+      add(item,node('p','action-text',x.ai_analysis?.verified?x.ai_analysis.explanation:x.required_change));
       if(e.effective_date)add(item,chip('적용 시점 '+e.effective_date,'blue'));
-      const todos=node('ul','work-items');workItems(x).forEach(t=>todos.appendChild(node('li','',t)));item.appendChild(todos);
       const linked=x.linked_changes||[{article:x.changed_clause,before:x.before,after:x.after}];
       const compact=shortChanges(linked);
       if(compact.length)item.appendChild(deltaTable(compact,6));
       const delta=node('details');add(delta,node('summary','','연결된 변경 근거 '+linked.length+'개 펼치기'));
       linked.forEach(c=>delta.appendChild(changeCard(c)));item.appendChild(delta);
-      if(x.ai_analysis?.verified){
-        const ai=node('details','');
-        add(ai,node('summary','','검증된 AI 설명'),node('p','proof',x.ai_analysis.explanation));
-        item.appendChild(ai);
-      }
       add(item,node('div','proof','적용 항목 · '+x.evidence.service_field));
       const more=node('details','');
       add(more,node('summary','','공식 운영기준·연결 근거'),node('p','proof',x.evidence.service_quote),node('p','proof',x.evidence.reference_quote+(x.evidence.delegation_quote?'\n상위법 위임 근거 · '+x.evidence.delegation_quote:'')));

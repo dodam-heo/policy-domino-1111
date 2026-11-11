@@ -60,3 +60,29 @@ class EvidenceAlignmentTests(unittest.TestCase):
         self.assertTrue(verify(reply,impact)['verified'])
         reply['explanation']='금액을 900,000원으로 검토'
         with self.assertRaises(UnverifiedAnalysis):verify(reply,impact)
+
+    def test_gemini_credential_uses_google_endpoint_without_variables(self):
+        import json, os
+        from unittest.mock import patch
+        from unified.ai import analyze
+        impact={'before':'100원','after':'120원','evidence':{'service_quote':'100원 기준'}}
+        reply={'old_quote':'100원','new_quote':'120원','program_quote':'100원','explanation':'120원 적용 검토'}
+        seen=[]
+        def transport(endpoint,body):
+            seen.append((endpoint,json.loads(body)['model']))
+            return json.dumps({'choices':[{'message':{'content':json.dumps(reply)}}]}).encode()
+        with patch.dict(os.environ,{},clear=True):
+            result=analyze(impact,api_key='AIza-example-for-unit-test',transport=transport)
+        self.assertEqual(seen[0],('https://generativelanguage.googleapis.com/v1beta/openai/chat/completions','gemini-3.5-flash-lite'))
+        self.assertTrue(result['verified'])
+
+    def test_singleton_provider_envelope_keeps_quote_validation(self):
+        import json,os
+        from unittest.mock import patch
+        from unified.ai import analyze
+        impact={'before':'100원','after':'120원','evidence':{'service_quote':'100원 기준'}}
+        reply={'old_quote':'100원','new_quote':'120원','program_quote':'100원','explanation':'120원 적용 검토'}
+        def transport(endpoint,body):
+            return json.dumps({'choices':[{'message':{'content':json.dumps([reply])}}]}).encode()
+        with patch.dict(os.environ,{},clear=True):
+            self.assertTrue(analyze(impact,api_key='test',transport=transport)['verified'])
