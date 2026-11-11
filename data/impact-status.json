@@ -6,15 +6,13 @@
     "partial_unverified": 205,
     "changed": 3
   },
-  "ai_explanation_attempts": 26,
-  "ai_verified_explanations": 5,
-  "ai_failures": 7,
+  "ai_explanation_attempts": 7,
+  "ai_verified_explanations": 6,
+  "ai_failures": 1,
   "ai_failure_reasons": {
-    "UnverifiedAnalysis:Unsupported exact source quotation": 2,
-    "AI_HTTP_503:provider_rejected_request": 4,
-    "TimeoutError": 1
+    "AI_HTTP_503:provider_rejected_request": 1
   },
-  "policy_ai_summaries": 47,
+  "policy_ai_summaries": 52,
   "ai_configured": true,
-  "policy_summaries_pending": 6
+  "policy_summaries_pending": 1
 }
