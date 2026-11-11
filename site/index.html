@@ -7,7 +7,7 @@
   <title>정책 도미노 | 공공기관 정책변경 영향분석</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="mode-list">
+<body class="mode-list view-list">
   <header class="header">
     <div class="shell brand">
       <div class="brand-icon" aria-hidden="true">▥</div>
@@ -22,6 +22,20 @@
       <p>무엇이 달라졌는지, 어느 기관의 어떤 업무를 바꿔야 하는지 확인하세요.</p>
       <div class="summary" id="summary"><span>공식 원천 자료를 불러오고 있어요.</span></div>
     </section>
+    <details class="coverage-panel"><summary id="coverage-summary">자료 수집 범위</summary><div id="coverage-details"></div><button type="button" id="registry-open">공공기관 명부 보기</button></details>
+    <dialog id="registry-dialog"><div class="registry-heading"><h2>공식 공공기관 명부</h2><button type="button" id="registry-close" aria-label="명부 닫기">닫기 ×</button></div><p id="registry-caption"></p><input type="search" id="registry-search" placeholder="기관명 검색" aria-label="공공기관 명부 검색"><div id="registry-results"></div></dialog>
+    <div class="catalog-controls">
+      <div class="revision-filters" role="group" aria-label="제개정 구분">
+        <button type="button" data-revision="all" class="active" aria-pressed="true">전체</button>
+        <button type="button" data-revision="new" aria-pressed="false">신규</button>
+        <button type="button" data-revision="amended" aria-pressed="false">개정</button>
+        <button type="button" data-revision="repealed" aria-pressed="false">폐지</button>
+      </div>
+      <div class="view-controls" role="group" aria-label="목록 보기 방식">
+        <button type="button" id="view-list" class="active" aria-pressed="true">목록형</button>
+        <button type="button" id="view-cards" aria-pressed="false">카드형</button>
+      </div>
+    </div>
     <section class="toolbar" aria-label="정책 필터">
       <label class="search">
         <span class="sr">정책명 검색</span>
@@ -44,13 +58,13 @@
     </section>
     <div class="list-heading"><div><p class="eyebrow">POLICY UPDATES</p><h2>정책 변경 살펴보기</h2></div><p>정책을 선택하면 기관·사업별 영향을 확인할 수 있습니다.</p></div>
     <div class="workspace">
-      <aside class="panel institutions-nav"><div class="pane-top"><h2>영향받는 기관</h2></div><div id="agencies"></div></aside>
+      <aside class="panel institutions-nav"><div class="pane-top"><h2>영향받는 기관</h2></div><p class="agency-scope">선택한 정책에 연결된 기관</p><input id="agency-search" type="search" placeholder="기관명 검색" aria-label="선택한 정책의 기관명 검색"><div id="agencies"></div></aside>
       <aside class="panel listing" aria-label="정책 변경 목록">
         <div class="pane-top"><h2>정책 변경 목록</h2><span id="count">0건</span></div>
         <div id="events" class="events"></div><button id="more" type="button">더 보기</button>
       </aside>
       <section class="panel detail" aria-live="polite">
-        <button class="back-button" id="back" type="button">← 정책 목록으로</button>
+        <div class="detail-navigation"><button class="back-button" id="back" type="button">← 정책 목록으로</button><div class="policy-switch"><button id="previous-policy" type="button" aria-label="이전 정책">←</button><label class="sr" for="policy-switcher">다른 정책 선택</label><select id="policy-switcher"></select><button id="next-policy" type="button" aria-label="다음 정책">→</button></div></div>
         <div id="detail"><div class="empty">정책을 선택하면 변경 근거와 기관별 후속조치를 볼 수 있어요.</div></div>
       </section>
     </div>

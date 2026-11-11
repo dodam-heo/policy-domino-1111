@@ -32,6 +32,7 @@ jobs:
       - name: Verify frontend syntax and current data
         run: |
           node --check site/app.js
+          node tests/test_ui_identity.cjs
           python -c "import json; d=json.load(open('site/data.json')); assert d['events']"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
@@ -58,7 +59,12 @@ jobs:
       - name: Install annex PDF text extraction
         run: python -m pip install --disable-pip-version-check 'pypdf>=5,<7'
       - name: Verify audited source and evidence gates
-        run: python -m unittest discover -s tests -v
+        run: |
+          python -m unittest discover -s tests -v
+          node tests/test_ui_identity.cjs
+      - name: Refresh official public-institution directory
+        if: github.event_name != 'pull_request'
+        run: python -m unified.institutions --root data
       - name: Collect independent official change versions
         if: github.event_name != 'pull_request' && !contains(github.event.head_commit.message, '[deploy-existing]')
         env:
@@ -107,13 +113,13 @@ jobs:
           set -euo pipefail
           git config user.name policy-domino-unified-bot
           git config user.email policy-domino-unified-bot@users.noreply.github.com
-          git add data/ site/data.json site/events/
+          git add data/ site/data.json site/events/ site/institutions.json
           if ! git diff --cached --quiet; then
             base_sha=$(git rev-parse HEAD)
             git fetch origin main
             remote_sha=$(git rev-parse FETCH_HEAD)
             if [ "$remote_sha" != "$base_sha" ]; then
-              if git diff --name-only "$base_sha" "$remote_sha" -- data/ site/data.json site/events/ | read -r changed; then
+              if git diff --name-only "$base_sha" "$remote_sha" -- data/ site/data.json site/events/ site/institutions.json | read -r changed; then
                 echo "::error::Official evidence changed upstream; retained in recovery artifact."
                 exit 1
               fi

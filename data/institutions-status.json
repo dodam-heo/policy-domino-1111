@@ -1,0 +1,10 @@
+{
+  "configured": true,
+  "status": "collected",
+  "registered_public_institutions": 355,
+  "reported_public_institutions": 355,
+  "alio_directory_complete": true,
+  "scope": "ALIOPLUS headquarters; excludes government and local-public-enterprise registers",
+  "source_url": "https://www.alioplus.go.kr/organization/organByTypeList.do?schApbaGb=APBA&pageNo=1",
+  "updated_at": "2026-11-11T06:44:39.828352+00:00"
+}

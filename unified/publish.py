@@ -11,6 +11,7 @@ import json
 from pathlib import Path
 import re
 from .engine import ident, load, save_json
+from .institutions import coverage
 
 TOPICS = (
     ("급여·지원기준", re.compile(r"급여|지원대상|선정기준|기준 중위소득|소득인정액|보조금|복지")),
@@ -98,6 +99,7 @@ def assemble(root: Path, limit: int | None = None) -> dict:
     }
     report["collection"] = load(root / "collection-state.json", {}).get("last_run_stats", {})
     report["analysis"] = load(root / "impact-status.json", {})
+    report["coverage"] = coverage(root)
     return report
 
 
@@ -120,6 +122,9 @@ def main():
         event.pop("changes")
         event.pop("institutions")
         event.pop("unresolved")
+    registry = load(args.root / "institutions" / "alioplus.json.gz", {})
+    save_json(args.output.parent / "institutions.json", {"source": "alioplus",
+              "updated_at": registry.get("fetched_at", ""), "records": registry.get("records", [])})
     save_json(args.output, payload)
     print(json.dumps(payload["summary"], ensure_ascii=False))
 

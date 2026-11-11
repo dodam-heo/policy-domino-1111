@@ -1,0 +1,24 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const vm=require('node:vm');
+const code=fs.readFileSync('site/app.js','utf8').replace(/\nmain\(\);\s*$/,'');
+const context=vm.createContext({document:{getElementById:()=>null},fetch:()=>{throw Error('unexpected fetch')}});
+vm.runInContext(code,context);
+const {loadEventDetail,detailCache,scopedAgencyCounts}=vm.runInContext('({loadEventDetail,detailCache,scopedAgencyCounts})',context);
+(async()=>{
+  vm.runInContext("dataset=[{agency_names:['서울특별시 동대문구']}];",context);
+  assert.deepEqual(Array.from(scopedAgencyCounts([{agency:'교육부'},{agency:'경기도 수원시'}]).keys()),['교육부','경기도 수원시']);
+  const pending={};
+  const fetcher=url=>new Promise(resolve=>pending[url]=resolve);
+  const a=loadEventDetail({id:'education',detail_url:'education.json'},fetcher);
+  const b=loadEventDetail({id:'housing',detail_url:'housing.json'},fetcher);
+  pending['housing.json']({ok:true,json:async()=>({id:'housing',title:'주거급여'})});
+  await b;
+  pending['education.json']({ok:true,json:async()=>({id:'education',title:'교육급여'})});
+  await a;
+  assert.equal(detailCache.get('education').title,'교육급여');
+  assert.equal(detailCache.get('housing').title,'주거급여');
+  await assert.rejects(loadEventDetail({id:'other',detail_url:'other.json'},async()=>({ok:true,json:async()=>({id:'housing'})})),/일치하지/);
+  assert.equal(detailCache.has('other'),false);
+  console.log('UI_IDENTITY_PASS: selected-policy agencies, reversed responses, mismatched payload rejection');
+})().catch(e=>{console.error(e);process.exit(1)});
