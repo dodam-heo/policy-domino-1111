@@ -213,7 +213,12 @@ def compare_bodies(before: dict, after: dict, *, annual=False) -> dict:
     for clause in sorted(set(a) | set(b)):
         old, new = a.get(clause), b.get(clause)
         if old is None or new is None:
-            unresolved.append({"clause": clause, "reason": "counterpart_not_verified"})
+            if before.get("status") == after.get("status") == "complete":
+                changes.append({"clause": clause, "before": old or "[신설]",
+                                "after": new or "[삭제]",
+                                "change_type": "added" if old is None else "removed"})
+            else:
+                unresolved.append({"clause": clause, "reason": "counterpart_not_verified"})
         elif old != new:
             changes.append({"clause": clause, "before": old, "after": new,
                             "before_hash": hash256(old), "after_hash": hash256(new)})

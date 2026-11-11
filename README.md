@@ -32,19 +32,23 @@ python -m http.server 8000 --directory site
 
 ## 자동 실행과 설정
 
-`.github/workflows/unified.yml` 하나가 검증 → 수집 → 공공서비스 갱신 → 영향분석 → 화면 생성 → 데이터 저장 → 배포를 실행합니다.
+매시간 `.github/workflows/unified.yml` 하나가 검증 → 수집 → 공공서비스 갱신 → 영향분석 → 화면 생성 → 데이터 저장 → 배포를 실행합니다.
 
 | 설정 | 용도 |
 |---|---|
 | Variable `LAW_OC` | 법제처 인증 식별값. 기본 `dori` |
 | Secret `GOV24_SERVICE_KEY` | 정부24 자료 갱신. 미설정 시 보관된 자료 사용 |
 | Secret `PD_LLM_API_KEY` 또는 `OPENAI_API_KEY` | AI 설명 API 인증 |
-| Variable `PD_LLM_MODEL` | 사용할 모델 이름 |
+| Variable `PD_LLM_MODEL` | 사용할 모델 이름. 기본 `gpt-4.1-mini` |
 | Variable `PD_LLM_URL` | OpenAI 호환 API 주소 |
-| Variable `PD_LLM_MAX_REQUESTS` | 실행당 신규 설명 한도. 기본 12, 기존 결과 재사용 후 다음 실행에서 이어 처리 |
+| Variable `PD_LLM_MAX_REQUESTS` | 실행당 신규 설명 한도. 기본 60, 기존 결과 재사용 후 다음 실행에서 이어 처리 |
 
 Pages의 배포 원본은 **Settings → Pages → GitHub Actions**로 설정합니다.
 
 ## 해석 기준
 
 수집된 판본 수는 전수 수집 완료를 의미하지 않습니다. 본문 차이를 확인해도 첨부가 미확인이면 추가 확인 대상으로 표시합니다. 기관 연결이 없는 경우 임의 기관을 생성하지 않습니다. 연결된 사업의 실제 반영 완료 여부는 별도의 공식 확인 없이는 판정하지 않습니다. AI 원문 인용 검사는 설명 전체의 의미적 정확성을 보장하지 않습니다.
+
+공식 HWPX 표는 행·열의 이름을 보존해 비교합니다. PDF/HWPX 첨부 순서가 바뀌어도 대응 표 항목으로 비교하며, 공식 XML과 저장된 첨부를 새 파서로 다시 읽을 수 있습니다. 기관 연결은 정확한 변경 조문 인용, 고시의 상위법 위임과 사업 적용 기준, 또는 같은 정책 대상·상위법·종전 운영금액이 함께 일치하는 경우에만 생성합니다.
+
+AI는 변경 정책별 핵심 요약과 기관·사업별 설명을 별도로 생성하며, 기존 결과를 재사용하고 남은 건은 다음 실행에서 계속 처리합니다. 새 저장소에는 별도로 API Secret이 등록되어야 하며, 인증 정보가 없으면 AI 호출은 실행되지 않습니다.

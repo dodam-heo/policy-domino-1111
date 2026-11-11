@@ -33,3 +33,10 @@ class EvidenceAlignmentTests(unittest.TestCase):
         self.assertIsNotNone(operating_value_proof(p,doc,change))
         p['service_name']='무관한 사업'
         self.assertIsNone(operating_value_proof(p,doc,change))
+
+    def test_added_clause_requires_complete_editions(self):
+        old={'status':'complete','clauses':{'제1조':'기존'}}
+        new={'status':'complete','clauses':{'제1조':'기존','제2조':'신설 의무'}}
+        self.assertEqual(compare_bodies(old,new)['changes'][0]['change_type'],'added')
+        old['status']='partial'
+        self.assertFalse(compare_bodies(old,new)['changes'])

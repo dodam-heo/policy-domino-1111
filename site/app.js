@@ -45,7 +45,7 @@ function filtered(){
 function renderAgencies(){
   const root=$('agencies');root.replaceChildren();
   const counts=new Map(); dataset.forEach(e=>(e.agency_names||[]).forEach(n=>counts.set(n,(counts.get(n)||0)+1)));
-  const button=(name,count)=>{const b=node('button',globalAgency===name?'selected':'', (name||'전체 기관')+' '+count);b.type='button';b.onclick=()=>{globalAgency=name;pageSize=60;renderAgencies();filtered();};return b;};
+  const button=(name,count)=>{const b=node('button',globalAgency===name?'selected':'', (name||'전체 기관')+' '+count);b.type='button';b.onclick=()=>{globalAgency=name;agencyFilter=name;pageSize=60;renderAgencies();filtered();};return b;};
   root.appendChild(button('',dataset.length));
   const groups={'중앙부처·공공기관':[],'지방자치단체':[],'교육청':[]};
   [...counts].sort((a,b)=>a[0].localeCompare(b[0],'ko')).forEach(([n,c])=>groups[/교육청|교육지원청/.test(n)?'교육청':/특별시|광역시|특별자치|도 |시청|군청|구청|시 |군 |구$/.test(n)?'지방자치단체':'중앙부처·공공기관'].push([n,c]));
@@ -140,7 +140,7 @@ async function renderDetail(){
       : '공식 문서 판본은 확보됐지만 종전·개정 원문 대조가 완료되지 않았습니다.';
   add(overview,node('p','lead',e.policy_analysis?.verified?e.policy_analysis.explanation:note));
   const tableChanges=shortChanges(e.changes||[]);
-  if(tableChanges.length)overview.appendChild(deltaTable(tableChanges,7));
+  if(tableChanges.length)overview.appendChild(deltaTable(tableChanges,4));
   (e.changes||[]).filter(c=>!shortChanges([c]).length&&!/[─━┼│┬┴┌┐└┘]/.test(c.before+c.after)).slice(0,1).forEach(c=>{
     const card=node('div','key-change');add(card,node('b','',c.article||'본문 변경'));
     const [before,after]=compactDiff(c.before,c.after);
