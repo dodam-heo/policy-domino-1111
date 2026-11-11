@@ -26,10 +26,11 @@
   function link(url, label) {
     try {
       const valid = new URL(url);
-      if (valid.protocol !== "https:" ||
-          !["law.go.kr","www.law.go.kr","www.alioplus.go.kr",
-            "alioplus.go.kr","gov.kr","www.gov.kr",
-            "data.go.kr","www.data.go.kr"].includes(valid.hostname)) return null;
+      // Official ministries and institutions use many independent domains.
+      // Keep the protocol safe without dropping evidence links outside the
+      // central government's small historical host allow-list.
+      if (valid.protocol !== "https:" || valid.username || valid.password ||
+          !valid.hostname.includes(".")) return null;
       const a = create("a","official-link",label);
       a.href = valid.href;
       a.target = "_blank";
