@@ -19,7 +19,7 @@ a{color:var(--blue);text-underline-offset:3px}
 .brand strong{color:#8fd5e8}.brand span{font-weight:700;color:#d1eaf1;
   font-size:10px;border:1px solid #50768d;padding:2px 5px;border-radius:3px}
 .brand-sub{font-size:12px;color:#c1d4de}
-.intro{max-width:1390px;padding:29px 24px 24px;margin:auto;
+.intro{max-width:1390px;padding:6px 16px 24px;margin:auto;
   display:flex;justify-content:space-between;align-items:center;gap:25px}
 .eyebrow{font-size:12px;color:var(--blue);font-weight:800;margin:0 0 7px}
 .intro h1{font-size:clamp(22px,2.7vw,32px);line-height:1.3;
@@ -33,7 +33,7 @@ a{color:var(--blue);text-underline-offset:3px}
 .summary small{display:block;white-space:nowrap;font-size:10px;color:var(--muted)}
 .summary strong{display:block;line-height:1.25;margin-top:5px;color:#12577a;
   font-size:25px;font-weight:850;font-variant-numeric:tabular-nums}
-.coverage-status{max-width:1390px;margin:-2px auto 16px;padding:0 24px}
+.coverage-status{max-width:1390px;margin:-2px auto 16px;padding:0 16px}
 .coverage-status-inner{display:block;padding:12px 16px;
   border:1px solid #cbdde7;border-radius:9px;background:#eff6fa}
 .coverage-status-inner>summary{cursor:pointer;color:#2e5e77;font-size:12px;
@@ -311,3 +311,6 @@ a{color:var(--blue);text-underline-offset:3px}
 .advanced-filters{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:12px}.advanced-filters label{font-size:11px;color:var(--muted,#65728a);display:grid;gap:5px}.advanced-filters select{width:100%;min-width:0;padding:8px;border:1px solid #dce4ef;border-radius:8px;background:white;font:inherit;color:#25354a}.advanced-filters button,.registry-open{border:1px solid #dce4ef;background:#f4f7fc;border-radius:8px;padding:8px;color:#31568b;cursor:pointer;font:inherit;font-size:12px}.advanced-filters button{align-self:end}.delta-wrap{overflow:auto;margin:12px 0}.delta-table{border-collapse:collapse;width:100%;font-size:12px;line-height:1.6}.delta-table th,.delta-table td{border-bottom:1px solid #e0e8f2;padding:9px;text-align:left;vertical-align:top}.delta-table th{background:#f2f6fc;color:#53647b}.delta-table td:nth-child(2){color:#885050}.delta-table td:nth-child(3){color:#1764b0;font-weight:650}.delta-table td:first-child{min-width:145px}.delta-table td:nth-child(n+2){white-space:nowrap}.loading-detail{padding:40px;color:#61738b}.detail-nav{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}.detail-nav button{font:inherit;font-size:12px;border:1px solid #dbe5f0;background:#f4f8ff;border-radius:8px;padding:8px;color:#2b5d9c;cursor:pointer}.review-effective{font-size:12px;color:#34649a}.agency-filter-buttons details>summary{font-size:12px;padding:12px 4px;cursor:pointer;color:#596980}.registry-top{display:flex;align-items:center;justify-content:space-between;gap:20px}dialog{border:1px solid #dce4ef;border-radius:16px;padding:24px;width:min(680px,90vw);max-height:82vh;color:#213047}dialog::backdrop{background:#14294770}dialog input{width:100%;padding:12px;border:1px solid #dce4ef;border-radius:8px}dialog button{padding:8px 12px;cursor:pointer;border:1px solid #dce4ef;border-radius:6px;background:white}.registry-row{display:flex;justify-content:space-between;gap:15px;border-top:1px solid #e4eaf2;padding:12px 0;font-size:13px}.registry-row a{color:#2365ad}#registry-results{max-height:52vh;overflow:auto}.agency-no-match{font-size:12px;color:#65728a}
 
 .core-agencies{font-size:12px;color:#176381;margin:10px 0 0;font-weight:650}.core-summary .highlight-detail{margin:6px 0 12px}.core .highlight-detail>summary{font-size:12px;color:#37647b;cursor:pointer}.core-summary .highlight-detail p{font-size:13px;line-height:1.7}.list-panel{position:sticky;top:16px}.items{max-height:calc(100vh - 390px);min-height:200px}.list-subtitle{margin-bottom:9px}@media(max-width:850px){.list-panel{position:static}.items{max-height:none;min-height:0}}
+
+/* Home banners are native links with keyboard access and a full state reset. */
++.brand{color:inherit;text-decoration:none}.home-banner{display:block;color:inherit;text-decoration:none}.home-banner:hover h1{color:#176381}.intro-copy>p:last-child{max-width:900px}.top-inner{padding:12px 16px}.summary{border-radius:14px}.coverage-expanded{gap:5px}.registry-open{width:100%;padding:9px 12px}.coverage-status-inner{padding:12px 16px}.intro h1{margin-bottom:6px}.home-banner:focus-visible{border-radius:8px}@media(max-width:850px){.intro{padding:12px 15px 16px}.intro-copy>p:last-child{line-height:1.7}.brand-sub{font-size:10px}}

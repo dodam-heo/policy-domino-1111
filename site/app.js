@@ -577,6 +577,17 @@
   }
   for(const id of ["category","source","sort"])$(id).onchange=()=>{state[id]=$(id).value;refresh();};
   $("reset").onclick=()=>{state.mode="all";state.query="";state.category="";state.source="";state.sort="published";$("search").value="";$("category").value="";$("source").value="";$("sort").value="published";refresh();};
+  function goHome(event){
+    event.preventDefault();requestId++;state.mode="impact";state.query="";state.category="";state.source="";state.sort="published";state.visible=60;state.institutionFilter="all";
+    $("search").value="";$("category").value="";$("source").value="";$("sort").value="published";
+    if($("registry-dialog").open)$("registry-dialog").close();
+    document.querySelector(".coverage-status-inner").open=true;
+    history.replaceState(null,"",location.pathname+location.search);
+    back(false);state.selected=null;renderList();
+    const first=filtered()[0];if(first)select(first.id,false);else renderDetail();
+    if(mobile())back(false);$("items").scrollTop=0;scrollTop();
+  }
+  document.querySelectorAll("[data-home]").forEach(banner=>banner.addEventListener("click",goHome));
   function deltaTable(changes,limit){
     const wrap=create("div","delta-wrap"),table=create("table","delta-table"),head=create("thead"),row=create("tr");
     for(const label of ["변경 항목","이전","변경"])append(row,create("th","",label));append(head,row);append(table,head);

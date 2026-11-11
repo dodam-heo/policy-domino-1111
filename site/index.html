@@ -3,23 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="공식 정책 변경 사건에서 공공기관·사업별 업무 영향과 검토할 변경사항을 확인합니다.">
-  <title>정책도미노 | 정책 변경과 공공기관 업무 영향</title>
-  <link rel="stylesheet" href="./style.css?v=20261111-next2">
+  <meta name="description" content="정책 변화가 중앙부처·지자체·공공기관의 사업과 업무에 미치는 영향과 검토사항을 확인합니다.">
+  <title>정책도미노 | 정책 변경과 공공부문 업무 영향</title>
+  <link rel="stylesheet" href="./style.css?v=20261111-header3">
 </head>
 <body>
 <header class="topbar">
   <div class="top-inner">
-    <div class="brand">POLICY <strong>DOMINO</strong> <span>통합</span></div>
-    <div class="brand-sub">정책 변화 → 공공기관 업무 영향</div>
+    <a class="brand" href="./" data-home aria-label="정책도미노 처음 화면">POLICY <strong>DOMINO</strong> <span>통합</span></a>
+    <div class="brand-sub">정책 변화 → 공공부문 업무 영향</div>
   </div>
 </header>
 <div class="intro">
-  <div class="intro-copy">
+  <a class="intro-copy home-banner" href="./" data-home aria-label="정책도미노 처음 화면">
     <p class="eyebrow">공식 정책 변경 자동 분석</p>
     <h1>무엇이 바뀌고, 어디에 영향을 줄까?</h1>
-    <p>정책 변경을 확인하고, 어떤 공공기관의 어떤 사업·업무를 검토해야 하는지 근거와 함께 살펴보세요.</p>
-  </div>
+    <p>정책 변화가 중앙부처·지자체·공공기관의 어떤 사업과 업무에 영향을 주는지, 근거와 함께 검토할 사항을 확인하세요.</p>
+  </a>
   <div class="summary" aria-label="확인된 정책 변경 결과">
     <div><small>수집된 공식 판본</small><strong id="stat-events">—</strong></div>
     <div><small>검토 대상 기관</small><strong id="stat-agencies">—</strong></div>
@@ -27,7 +27,7 @@
   </div>
 </div>
 <section class="coverage-status" aria-label="공식 근거 및 AI 분석 현황">
-  <details class="coverage-status-inner">
+  <details class="coverage-status-inner" open>
     <summary id="analysis-coverage">공식 문서의 분석 진행률을 확인하는 중입니다.</summary>
     <div class="coverage-expanded">
       <p id="ai-review-progress">AI 분석 현황을 확인하는 중입니다.</p>
@@ -75,8 +75,8 @@
   <span id="updated"></span>
 </footer>
 <dialog id="registry-dialog" aria-labelledby="registry-title"><div class="registry-top"><h2 id="registry-title">공공기관 명부</h2><button id="registry-close" type="button">닫기</button></div><p>기관 명부와 정책별 영향 확인은 별도입니다.</p><input id="registry-search" type="search" placeholder="기관명 검색" aria-label="공공기관 명부 검색"><p id="registry-caption" aria-live="polite"></p><div id="registry-results"></div></dialog>
-<script src="./view-model.js?v=20261111-next2"></script>
-<script src="./presentation.js?v=20261111-next2"></script>
-<script src="./app.js?v=20261111-next2"></script>
+<script src="./view-model.js?v=20261111-header3"></script>
+<script src="./presentation.js?v=20261111-header3"></script>
+<script src="./app.js?v=20261111-header3"></script>
 </body>
 </html>
