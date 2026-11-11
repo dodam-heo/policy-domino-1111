@@ -1,8 +1,8 @@
 {
   "schema": "policy-domino-unified-ui-v1",
-  "generated_at": "2026-11-11T21:59:41.383574+00:00",
+  "generated_at": "2026-11-11T23:11:14.452620+00:00",
   "scope": "source-backed version catalog; institutional actions only for exact citation evidence",
-  "total_source_versions_saved": 2259,
+  "total_source_versions_saved": 2269,
   "events": [
     {
       "id": "law|014805|291907",
@@ -132168,6 +132168,89 @@
       "dependency_count": 0
     },
     {
+      "id": "admrul|57614|2100000278836",
+      "title": "통계작성의 변경 승인(협의) 고시(고양시경제지표조사)",
+      "source": "admrul",
+      "kind": "고시",
+      "ministry": "국가데이터처",
+      "published_at": "2026-05-07",
+      "effective_date": "2027-08-25",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000278836",
+      "category": "행정절차·인허가",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "중앙행정규칙이 관할하는 전국 특정 분야"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 25,
+        "score_min": 25,
+        "score_max": 90,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경 승인(협의) 고시(고양시경제지표조사)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000278836"
+              }
+            ]
+          },
+          "scope": {
+            "score": 25,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경 승인(협의) 고시(고양시경제지표조사)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000278836"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경 승인(협의) 고시(고양시경제지표조사)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000278836"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "partial_unverified",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000244934",
+      "detail_url": "events/fa5999c7b4049c663d61d809.json",
+      "change_count": 1,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "admrul|97058|2100000278824",
       "title": "자율기구 산림재난피해임업현장지원단의 설치 및 운영에 관한 규정",
       "source": "admrul",
@@ -132259,33 +132342,34 @@
       "published_at": "2026-05-07",
       "effective_date": "2026-12-31",
       "revision": "일부개정",
-      "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B2%BD%EC%A0%9C%ED%99%9C%EB%8F%99%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29",
+      "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B2%BD%EC%A0%9C%ED%99%9C%EB%8F%99%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29",
       "category": "행정절차·인허가",
-      "primary_change_summary": "",
+      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
+        "제한적인 본문·명칭·인용 정비",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
-        "classification": "pending",
-        "score": 25,
-        "score_min": 25,
-        "score_max": 90,
+        "classification": "normal",
+        "score": 35,
+        "score_min": 35,
+        "score_max": 60,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": true,
+        "possible_high": false,
         "axes": {
           "substance": {
-            "score": null,
-            "status": "pending",
+            "score": 10,
+            "status": "confirmed",
             "evidence": [
               {
-                "reason": "종전·현행 원문 비교 대기",
-                "article": "",
-                "before": "",
-                "after": "",
+                "reason": "제한적인 본문·명칭·인용 정비",
+                "article": "표 5 · 조사표 · 변경전",
+                "before": "[신설]",
+                "after": "총 132항목",
                 "source_title": "통계작성의 변경승인(협의) 고시(장애인경제활동실태조사)",
-                "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B2%BD%EC%A0%9C%ED%99%9C%EB%8F%99%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B2%BD%EC%A0%9C%ED%99%9C%EB%8F%99%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
               }
             ]
           },
@@ -132299,7 +132383,7 @@
                 "before": "",
                 "after": "",
                 "source_title": "통계작성의 변경승인(협의) 고시(장애인경제활동실태조사)",
-                "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B2%BD%EC%A0%9C%ED%99%9C%EB%8F%99%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B2%BD%EC%A0%9C%ED%99%9C%EB%8F%99%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
               }
             ]
           },
@@ -132313,7 +132397,7 @@
                 "before": "",
                 "after": "",
                 "source_title": "통계작성의 변경승인(협의) 고시(장애인경제활동실태조사)",
-                "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B2%BD%EC%A0%9C%ED%99%9C%EB%8F%99%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
+                "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B2%BD%EC%A0%9C%ED%99%9C%EB%8F%99%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
               }
             ]
           }
@@ -132321,14 +132405,14 @@
         "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "original_saved_comparison_pending",
-      "relationship": "",
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
-      "impact_level": "pending",
-      "prior_url": "",
+      "impact_level": "normal",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000265682",
       "detail_url": "events/3ac04964914f811f0fab3ffd.json",
-      "change_count": 0,
+      "change_count": 5,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -133173,7 +133257,7 @@
       "effective_date": "2027-01-01",
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2125467",
-      "category": "기타 제·개정",
+      "category": "급여·지원기준",
       "primary_change_summary": "",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
@@ -133193,7 +133277,7 @@
             "status": "pending",
             "evidence": [
               {
-                "reason": "종전·현행 원문 비교 대기",
+                "reason": "부분 대조의 근거 추가 확인 필요",
                 "article": "",
                 "before": "",
                 "after": "",
@@ -133234,14 +133318,14 @@
         "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
-      "comparison_status": "original_saved_comparison_pending",
-      "relationship": "",
+      "comparison_status": "partial_unverified",
+      "relationship": "same_official_id_revision",
       "direct_actor_leads": [],
       "policy_analysis": null,
       "impact_level": "pending",
-      "prior_url": "",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1918077",
       "detail_url": "events/b4644a044e2aff78d76b3e84.json",
-      "change_count": 0,
+      "change_count": 10,
       "agency_names": [],
       "action_count": 0,
       "dependency_count": 0
@@ -133739,6 +133823,89 @@
       "impact_level": "pending",
       "prior_url": "",
       "detail_url": "events/d9fed50eced2c4073d131fe5.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "admrul|96837|2100000277966",
+      "title": "통계작성의 변경승인(협의) 고시(우유및유제품생산소비상황)",
+      "source": "admrul",
+      "kind": "고시",
+      "ministry": "국가데이터처",
+      "published_at": "2026-04-16",
+      "effective_date": "2027-02-28",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000277966",
+      "category": "행정절차·인허가",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "중앙행정규칙이 관할하는 전국 특정 분야"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 25,
+        "score_min": 25,
+        "score_max": 90,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경승인(협의) 고시(우유및유제품생산소비상황)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000277966"
+              }
+            ]
+          },
+          "scope": {
+            "score": 25,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경승인(협의) 고시(우유및유제품생산소비상황)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000277966"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경승인(협의) 고시(우유및유제품생산소비상황)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000277966"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/3fe21dc2d35f8d0409e7a489.json",
       "change_count": 0,
       "agency_names": [],
       "action_count": 0,
@@ -134658,6 +134825,93 @@
       "dependency_count": 0
     },
     {
+      "id": "admrul|59275|2100000276914",
+      "title": "통계작성의 변경승인(협의) 고시(광주시노인등록통계)",
+      "source": "admrul",
+      "kind": "고시",
+      "ministry": "국가데이터처",
+      "published_at": "2026-04-02",
+      "effective_date": "2027-12-30",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276914",
+      "category": "행정절차·인허가",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "신청·심사·집행 절차의 실질 문구 변경",
+        "중앙행정규칙이 관할하는 전국 특정 분야"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": 30,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "신청·심사·집행 절차의 실질 문구 변경",
+                "article": "표 2 · 복지 · ‘24년 2차 변경 (9개 부문 77개 항목)",
+                "before": "6-4. 자격별 노인장기요양보험 신청,인정 노인인구",
+                "after": "[삭제]",
+                "source_title": "통계작성의 변경승인(협의) 고시(광주시노인등록통계)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276914"
+              }
+            ]
+          },
+          "scope": {
+            "score": 25,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경승인(협의) 고시(광주시노인등록통계)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276914"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경승인(협의) 고시(광주시노인등록통계)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276914"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [
+          3,
+          4
+        ],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "changed",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000251178",
+      "detail_url": "events/8409c1b1c0fc6ab26065f76c.json",
+      "change_count": 14,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "ordin|2039256|2118321",
       "title": "군산시 농업기계 임대사업 및 수리지원사업 운영조례",
       "source": "ordin",
@@ -135316,6 +135570,172 @@
       "impact_level": "pending",
       "prior_url": "",
       "detail_url": "events/f4c94055ea01b54c468f72f1.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "admrul|48163|2100000276522",
+      "title": "현역병 모집업무 규정",
+      "source": "admrul",
+      "kind": "훈령",
+      "ministry": "병무청",
+      "published_at": "2026-03-27",
+      "effective_date": "2027-09-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276522",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "중앙행정규칙이 관할하는 전국 특정 분야"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 25,
+        "score_min": 25,
+        "score_max": 90,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "부분 대조의 근거 추가 확인 필요",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "현역병 모집업무 규정",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276522"
+              }
+            ]
+          },
+          "scope": {
+            "score": 25,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "현역병 모집업무 규정",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276522"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "현역병 모집업무 규정",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276522"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "partial_unverified",
+      "relationship": "same_official_id_revision",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276520",
+      "detail_url": "events/0784987367b22332ea404434.json",
+      "change_count": 6,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "admrul|48163|2100000276520",
+      "title": "현역병 모집업무 규정",
+      "source": "admrul",
+      "kind": "훈령",
+      "ministry": "병무청",
+      "published_at": "2026-03-27",
+      "effective_date": "2026-09-28",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276520",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "중앙행정규칙이 관할하는 전국 특정 분야"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 25,
+        "score_min": 25,
+        "score_max": 90,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "현역병 모집업무 규정",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276520"
+              }
+            ]
+          },
+          "scope": {
+            "score": 25,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "현역병 모집업무 규정",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276520"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "현역병 모집업무 규정",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276520"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/943c349ea725fedec704a91e.json",
       "change_count": 0,
       "agency_names": [],
       "action_count": 0,
@@ -136146,6 +136566,89 @@
       "impact_level": "pending",
       "prior_url": "",
       "detail_url": "events/b5b058ddccb2c4df8460bad0.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "admrul|33902|2100000276454",
+      "title": "방치폐기물 처리이행보증보험금 산출 등을 위한 폐기물의 종류별 처리단가",
+      "source": "admrul",
+      "kind": "고시",
+      "ministry": "기후에너지환경부",
+      "published_at": "2026-03-24",
+      "effective_date": "2027-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276454",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "중앙행정규칙이 관할하는 전국 특정 분야"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 25,
+        "score_min": 25,
+        "score_max": 90,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "방치폐기물 처리이행보증보험금 산출 등을 위한 폐기물의 종류별 처리단가",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276454"
+              }
+            ]
+          },
+          "scope": {
+            "score": 25,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "방치폐기물 처리이행보증보험금 산출 등을 위한 폐기물의 종류별 처리단가",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276454"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "방치폐기물 처리이행보증보험금 산출 등을 위한 폐기물의 종류별 처리단가",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276454"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/3127ef2fd1c2d4e0208e62a1.json",
       "change_count": 0,
       "agency_names": [],
       "action_count": 0,
@@ -148446,6 +148949,89 @@
       "impact_level": "pending",
       "prior_url": "",
       "detail_url": "events/4fc8215bd665c4c6a0665807.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "admrul|2087954|2100000265682",
+      "title": "통계작성의 변경승인(협의) 고시(장애인경제활동실태조사)",
+      "source": "admrul",
+      "kind": "고시",
+      "ministry": "국가데이터처",
+      "published_at": "2025-10-24",
+      "effective_date": "2025-10-17",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000265682",
+      "category": "행정절차·인허가",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "중앙행정규칙이 관할하는 전국 특정 분야"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 25,
+        "score_min": 25,
+        "score_max": 90,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경승인(협의) 고시(장애인경제활동실태조사)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000265682"
+              }
+            ]
+          },
+          "scope": {
+            "score": 25,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경승인(협의) 고시(장애인경제활동실태조사)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000265682"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경승인(협의) 고시(장애인경제활동실태조사)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000265682"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/1be96c437488b478d0a9413c.json",
       "change_count": 0,
       "agency_names": [],
       "action_count": 0,
@@ -161491,6 +162077,89 @@
       "dependency_count": 0
     },
     {
+      "id": "admrul|59275|2100000251178",
+      "title": "통계작성의 변경승인(협의) 고시(광주시노인등록통계_3차)",
+      "source": "admrul",
+      "kind": "고시",
+      "ministry": "국가데이터처",
+      "published_at": "2024-12-19",
+      "effective_date": "2024-12-13",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000251178",
+      "category": "행정절차·인허가",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "중앙행정규칙이 관할하는 전국 특정 분야"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 25,
+        "score_min": 25,
+        "score_max": 90,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경승인(협의) 고시(광주시노인등록통계_3차)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000251178"
+              }
+            ]
+          },
+          "scope": {
+            "score": 25,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경승인(협의) 고시(광주시노인등록통계_3차)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000251178"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경승인(협의) 고시(광주시노인등록통계_3차)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000251178"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/a1409ebde6bc55aeee99f6d9.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "admrul|75250|2100000251036",
       "title": "통계작성의 변경승인(협의) 고시(보령시노인통계)",
       "source": "admrul",
@@ -165973,6 +166642,89 @@
       "dependency_count": 0
     },
     {
+      "id": "admrul|57614|2100000244934",
+      "title": "통계작성의 변경승인(협의) 고시(고양시경제지표조사)",
+      "source": "admrul",
+      "kind": "고시",
+      "ministry": "국가데이터처",
+      "published_at": "2024-07-25",
+      "effective_date": "2024-07-15",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000244934",
+      "category": "행정절차·인허가",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "중앙행정규칙이 관할하는 전국 특정 분야"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 25,
+        "score_min": 25,
+        "score_max": 90,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경승인(협의) 고시(고양시경제지표조사)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000244934"
+              }
+            ]
+          },
+          "scope": {
+            "score": 25,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경승인(협의) 고시(고양시경제지표조사)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000244934"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "통계작성의 변경승인(협의) 고시(고양시경제지표조사)",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000244934"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/5651d421649b48d6b249278b.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
       "id": "law|004029|264277",
       "title": "수의사법 시행령",
       "source": "law",
@@ -169619,6 +170371,89 @@
       "impact_level": "pending",
       "prior_url": "",
       "detail_url": "events/e550f886173a393fa7a661e7.json",
+      "change_count": 0,
+      "agency_names": [],
+      "action_count": 0,
+      "dependency_count": 0
+    },
+    {
+      "id": "ordin|2007644|1918077",
+      "title": "파주시 국가보훈대상자 예우 및 지원에 관한 조례",
+      "source": "ordin",
+      "kind": "",
+      "ministry": "경기도 파주시",
+      "published_at": "2024-04-02",
+      "effective_date": "2025-01-01",
+      "revision": "일부개정",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1918077",
+      "category": "기타 제·개정",
+      "primary_change_summary": "",
+      "priority_reasons": [
+        "특정 지방자치단체·지역·사업에 적용"
+      ],
+      "impact_assessment": {
+        "classification": "pending",
+        "score": 15,
+        "score_min": 15,
+        "score_max": 80,
+        "score_complete": false,
+        "threshold": 65,
+        "minimum_substance": 30,
+        "possible_high": true,
+        "axes": {
+          "substance": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "종전·현행 원문 비교 대기",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "파주시 국가보훈대상자 예우 및 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1918077"
+              }
+            ]
+          },
+          "scope": {
+            "score": 15,
+            "status": "confirmed",
+            "evidence": [
+              {
+                "reason": "특정 지방자치단체·지역·사업에 적용",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "파주시 국가보훈대상자 예우 및 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1918077"
+              }
+            ]
+          },
+          "ripple": {
+            "score": null,
+            "status": "pending",
+            "evidence": [
+              {
+                "reason": "하위 규정·사업 파급 경로 조사 중",
+                "article": "",
+                "before": "",
+                "after": "",
+                "source_title": "파주시 국가보훈대상자 예우 및 지원에 관한 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1918077"
+              }
+            ]
+          }
+        },
+        "featured_change_indices": [],
+        "scoring_version": "substance40-scope35-ripple25-v1"
+      },
+      "comparison_status": "original_saved_comparison_pending",
+      "relationship": "",
+      "direct_actor_leads": [],
+      "policy_analysis": null,
+      "impact_level": "pending",
+      "prior_url": "",
+      "detail_url": "events/dc247dcf3fec5344f7f9aaac.json",
       "change_count": 0,
       "agency_names": [],
       "action_count": 0,
@@ -192292,35 +193127,35 @@
     }
   ],
   "summary": {
-    "displayed_events": 2259,
-    "with_verified_changes": 218,
-    "with_text_differences": 621,
+    "displayed_events": 2269,
+    "with_verified_changes": 220,
+    "with_text_differences": 626,
     "with_institutional_actions": 10,
     "agency_action_count": 24882,
     "by_category": {
-      "행정절차·인허가": 315,
-      "기타 제·개정": 1491,
+      "행정절차·인허가": 321,
+      "기타 제·개정": 1494,
       "조직·인력": 192,
-      "급여·지원기준": 191,
+      "급여·지원기준": 192,
       "공공재정·요율": 70
     }
   },
   "collection": {
-    "detail_attempted": 7,
-    "complete_originals_added": 1,
+    "detail_attempted": 8,
+    "complete_originals_added": 4,
     "compared_pairs_processed": 5,
-    "failed_windows": 3,
+    "failed_windows": 4,
     "streams_checked": 6,
-    "indexed_unique_versions": 28935,
-    "saved_indexed_originals": 2255,
-    "verified_complete_originals": 521,
-    "pending_index_versions": 26680,
-    "indexed_versions_without_comparison": 28163,
+    "indexed_unique_versions": 28939,
+    "saved_indexed_originals": 2265,
+    "verified_complete_originals": 525,
+    "pending_index_versions": 26674,
+    "indexed_versions_without_comparison": 28162,
     "year_search_year": 2027
   },
   "analysis": {
     "official_programs": 10942,
-    "comparisons_considered": 772,
+    "comparisons_considered": 777,
     "verified_institutional_tasks": 27,
     "named_standard_review_candidates": 24855,
     "direct_statutory_actor_leads": 111,
@@ -192328,25 +193163,25 @@
     "legacy_citation_candidates": 15,
     "legacy_program_review_candidates": 0,
     "comparison_statuses": {
-      "partial_unverified": 550,
-      "changed": 218,
+      "changed": 220,
+      "partial_unverified": 553,
       "no_text_change": 4
     },
-    "ai_explanation_attempts": 31,
-    "ai_verified_explanations": 11,
-    "ai_failures": 2,
+    "ai_explanation_attempts": 1,
+    "ai_verified_explanations": 0,
+    "ai_failures": 1,
     "ai_failure_reasons": {
-      "UnverifiedAnalysis:Explanation contains unsupported numerical claim": 2
+      "AI_HTTP_503:provider_rejected_request": 1
     },
     "policy_ai_summaries": 281,
     "ai_configured": true,
-    "policy_summaries_pending": 340
+    "policy_summaries_pending": 345
   },
   "coverage": {
     "alio_public_institutions": 355,
     "alio_reported": 355,
     "alio_source_url": "https://www.alioplus.go.kr/organization/organByTypeList.do?schApbaGb=APBA&pageNo=1",
-    "alio_updated_at": "2026-11-11T21:42:14.244515+00:00",
+    "alio_updated_at": "2026-11-11T22:57:10.166490+00:00",
     "gov24_programs": 10942,
     "gov24_agencies": 686,
     "gov24_agency_types": {
@@ -192369,14 +193204,14 @@
   },
   "reconciliation": {
     "indexed_unique_versions": 28630,
-    "saved_versions": 2259,
-    "indexed_without_saved_original": 26680,
-    "official_complete_originals": 522,
+    "saved_versions": 2269,
+    "indexed_without_saved_original": 26674,
+    "official_complete_originals": 527,
     "legacy_extracted_versions_requiring_source_revalidation": 1174,
-    "comparisons": 772,
+    "comparisons": 777,
     "comparisons_by_status": {
-      "changed": 218,
-      "partial_unverified": 550,
+      "changed": 220,
+      "partial_unverified": 553,
       "no_text_change": 4
     },
     "comparisons_without_impact_assessment": 0,

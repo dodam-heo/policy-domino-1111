@@ -1,0 +1,114 @@
+{
+  "id": "admrul|57614|2100000278836",
+  "title": "통계작성의 변경 승인(협의) 고시(고양시경제지표조사)",
+  "source": "admrul",
+  "kind": "고시",
+  "ministry": "국가데이터처",
+  "published_at": "2026-05-07",
+  "effective_date": "2027-08-25",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000278836",
+  "category": "행정절차·인허가",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 90,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경 승인(협의) 고시(고양시경제지표조사)",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000278836"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경 승인(협의) 고시(고양시경제지표조사)",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000278836"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경 승인(협의) 고시(고양시경제지표조사)",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000278836"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "본문",
+      "before": "1. 통계의 명칭: 고양시경제지표조사 2. 통계작성기관의 명칭: 경기도 고양시 3. 통계작성승인(협의)번호 [작성승인(협의)일]: 제620004호 [2017.06.16.] 4. 통계작성의 변경 연월일: 2024.07.15. 5. 통계작성의 변경 내용과 사유 [표: 공식 첨부 참조]",
+      "after": "1. 통계의 명칭 : 고양시경제지표조사 2. 통계작성기관의 명칭 : 경기도 고양시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제620004호 [2017.06.16.] 4. 통계작성의 변경 연월일 : 2027.08.25. 5. 통계작성의 변경 내용과 사유 [표: 공식 첨부 참조]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…)일]: 제620004호 [2017.06.16.] 4. 통계작성의 변경 연월일: ",
+            "changed": "2024.07.15.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 [표: 공식 첨부 참조]",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…] : 제620004호 [2017.06.16.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2027.08.25.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 [표: 공식 첨부 참조]",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 0
+    }
+  ],
+  "unresolved": [
+    {
+      "clause": "첨부 4",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000244934"
+}

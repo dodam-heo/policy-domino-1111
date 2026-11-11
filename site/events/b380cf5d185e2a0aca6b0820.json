@@ -74,6 +74,14 @@
   "changes": [],
   "unresolved": [
     {
+      "clause": "첨부 1",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "첨부 2",
+      "reason": "counterpart_not_verified"
+    },
+    {
       "reason": "incomplete_original_or_attachment"
     }
   ],

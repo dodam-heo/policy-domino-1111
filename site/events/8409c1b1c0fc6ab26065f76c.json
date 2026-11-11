@@ -1,0 +1,228 @@
+{
+  "id": "admrul|59275|2100000276914",
+  "title": "통계작성의 변경승인(협의) 고시(광주시노인등록통계)",
+  "source": "admrul",
+  "kind": "고시",
+  "ministry": "국가데이터처",
+  "published_at": "2026-04-02",
+  "effective_date": "2027-12-30",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276914",
+  "category": "행정절차·인허가",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "신청·심사·집행 절차의 실질 문구 변경",
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 30,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "신청·심사·집행 절차의 실질 문구 변경",
+            "article": "표 2 · 복지 · ‘24년 2차 변경 (9개 부문 77개 항목)",
+            "before": "6-4. 자격별 노인장기요양보험 신청,인정 노인인구",
+            "after": "[삭제]",
+            "source_title": "통계작성의 변경승인(협의) 고시(광주시노인등록통계)",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276914"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(광주시노인등록통계)",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276914"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(광주시노인등록통계)",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000276914"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      3,
+      4
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "본문",
+      "before": "1. 통계의 명칭: 광주시노인등록통계(3차) 2. 통계작성기관의 명칭: 경기도 광주시 3. 통계작성승인(협의)번호 [작성승인(협의)일]: 제637003호 [2017.09.19.] 4. 통계작성의 변경 연월일: 2024.12.13. 5. 통계작성의 변경 내용과 사유 [표: 공식 첨부 참조]",
+      "after": "1. 통계의 명칭 : 광주시노인등록통계 2. 통계작성기관의 명칭 : 경기도 광주시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제637003호 [2017.09.19.] 4. 통계작성의 변경 연월일 : 2027.12.30. 5. 통계작성의 변경 내용과 사유 [표: 공식 첨부 참조]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "1. 통계의 명칭: 광주시노인등록통계",
+            "changed": "(3차)",
+            "suffix": " 2. 통계작성기관의 명칭: 경기도 광주시 3. 통계작성승인(협의)번호 [작성승인…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "1. 통계의 명칭 : 광주시노인등록통계 ",
+            "changed": "",
+            "suffix": "2. 통계작성기관의 명칭 : 경기도 광주시 3. 통계작성승인(협의)번호 [작성승인…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…)일]: 제637003호 [2017.09.19.] 4. 통계작성의 변경 연월일: ",
+            "changed": "2024.12.13.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 [표: 공식 첨부 참조]",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…] : 제637003호 [2017.09.19.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2027.12.30.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 [표: 공식 첨부 참조]",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 0
+    },
+    {
+      "article": "표 2 · 건강 · ‘24년 2차 변경 (9개 부문 77개 항목)",
+      "before": "5-2. 연도별 노인 진료 실적",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 2 · 건강 · ‘24년 3차 변경 (9개 부문 77개 항목)",
+      "before": "5-2. 연도별 노인 진료 실적",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 2 · 복지 · ‘24년 2차 변경 (9개 부문 77개 항목)",
+      "before": "6-4. 자격별 노인장기요양보험 신청,인정 노인인구",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 30
+    },
+    {
+      "article": "표 2 · 복지 · ‘24년 3차 변경 (9개 부문 77개 항목)",
+      "before": "6-4. 자격별 노인장기요양보험 신청,인정 노인인구",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 30
+    },
+    {
+      "article": "표 2 · 소득보장 · ‘24년 2차 변경 (9개 부문 77개 항목)",
+      "before": "7-6. 연도별 국민연금 수급 노인 인구",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 2 · 소득보장 · ‘24년 3차 변경 (9개 부문 77개 항목)",
+      "before": "7-6. 연도별 국민연금 수급 노인 인구",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 2 · 소득보장 · 비 고",
+      "before": "주석 변경(“1년간”삭제)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 2 · 인구 · ‘24년 2차 변경 (9개 부문 77개 항목)",
+      "before": "1-8. 주요 사망 원인별 노인 사망률",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 2 · 인구 · ‘24년 3차 변경 (9개 부문 77개 항목)",
+      "before": "1-8. 주요 사망 원인별 노인 사망률",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 2 · 일자리 · ‘24년 2차 변경 (9개 부문 77개 항목)",
+      "before": "8-7. 노인 구직자 희망 직종",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 2 · 일자리 · ‘24년 3차 변경 (9개 부문 77개 항목)",
+      "before": "8-7. 노인 구직자 희망 직종",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 작성주기 및 공표주기 · 변경 전",
+      "before": "[신설]",
+      "after": "2년",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 작성주기 및 공표주기 · 변경 후",
+      "before": "[신설]",
+      "after": "3년",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000251178"
+}

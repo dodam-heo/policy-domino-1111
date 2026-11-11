@@ -2090,6 +2090,11 @@
       "checked_at": "2026-11-11T20:06:37.721115+00:00"
     },
     "ordin|2||2026-09-22|2026-10-06|split_historical": {
+      "reported": 3004,
+      "collected": 2000,
+      "pages": 20,
+      "complete": false,
+      "error": "pagination_limit",
       "source": "ordin",
       "edition": "2",
       "kind": "",
@@ -2098,8 +2103,50 @@
       "stage": "split_historical",
       "query_year": "",
       "search_scope": 1,
+      "checked_at": "2026-11-11T22:58:12.567287+00:00"
+    },
+    "ordin|2||2026-09-22|2026-09-29|split_split_historical": {
+      "reported": 982,
+      "collected": 982,
+      "pages": 10,
+      "complete": true,
+      "source": "ordin",
+      "edition": "2",
+      "kind": "",
+      "first": "2026-09-22",
+      "last": "2026-09-29",
+      "stage": "split_split_historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T22:59:16.850158+00:00"
+    },
+    "ordin|2||2026-09-30|2026-10-06|split_split_historical": {
+      "reported": 2022,
+      "collected": 2000,
+      "pages": 20,
       "complete": false,
-      "checked_at": "2026-11-11T20:09:09.892866+00:00",
+      "error": "pagination_limit",
+      "source": "ordin",
+      "edition": "2",
+      "kind": "",
+      "first": "2026-09-30",
+      "last": "2026-10-06",
+      "stage": "split_split_historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T23:00:52.417125+00:00"
+    },
+    "ordin|2||2026-09-30|2026-10-03|split_split_split_historical": {
+      "source": "ordin",
+      "edition": "2",
+      "kind": "",
+      "first": "2026-09-30",
+      "last": "2026-10-03",
+      "stage": "split_split_split_historical",
+      "query_year": "",
+      "search_scope": 1,
+      "complete": false,
+      "checked_at": "2026-11-11T23:01:11.537659+00:00",
       "error": "TimeoutError: collection_budget_reached"
     }
   },
@@ -2664,7 +2711,15 @@
     "admrul|52812|2100000280398": 1,
     "admrul|2087933|2100000280364": 1,
     "admrul|78562|2100000278994": 1,
-    "admrul|2040288|2100000278948": 2
+    "admrul|2040288|2100000278948": 2,
+    "admrul|57614|2100000278836": 1,
+    "admrul|2087954|2100000278804": 1,
+    "ordin|2262602|2126947": 2,
+    "ordin|2007644|2125467": 1,
+    "admrul|96837|2100000277966": 2,
+    "admrul|59275|2100000276914": 1,
+    "admrul|48163|2100000276522": 1,
+    "admrul|33902|2100000276454": 2
   },
   "errors": {
     "admrul|40796|2100000287994": "RuntimeError: official_api_network_error: URLError",
@@ -2763,23 +2818,26 @@
     "ordin|2262999|2136273": "predecessor_not_found",
     "ordin|2262963|2134005": "predecessor_not_found",
     "ordin|2262907|2131559": "predecessor_not_found",
-    "admrul|2040288|2100000278948": "TimeoutError: collection_budget_reached"
+    "admrul|2040288|2100000278948": "TimeoutError: collection_budget_reached",
+    "ordin|2262602|2126947": "predecessor_not_found",
+    "admrul|96837|2100000277966": "predecessor_not_found",
+    "admrul|33902|2100000276454": "TimeoutError: collection_budget_reached"
   },
-  "stream_offset": 8,
+  "stream_offset": 14,
   "last_run": "2026-11-11",
   "last_run_stats": {
-    "detail_attempted": 7,
-    "complete_originals_added": 1,
+    "detail_attempted": 8,
+    "complete_originals_added": 4,
     "compared_pairs_processed": 5,
-    "failed_windows": 3,
+    "failed_windows": 4,
     "streams_checked": 6,
-    "indexed_unique_versions": 28935,
-    "saved_indexed_originals": 2255,
-    "verified_complete_originals": 521,
-    "pending_index_versions": 26680,
-    "indexed_versions_without_comparison": 28163,
+    "indexed_unique_versions": 28939,
+    "saved_indexed_originals": 2265,
+    "verified_complete_originals": 525,
+    "pending_index_versions": 26674,
+    "indexed_versions_without_comparison": 28162,
     "year_search_year": 2027
   },
-  "annual_kind_offset": 4,
-  "failed_retry_offset": 6
+  "annual_kind_offset": 0,
+  "failed_retry_offset": 8
 }
