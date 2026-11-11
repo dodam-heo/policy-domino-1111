@@ -9,11 +9,11 @@
   "revision": "전부개정",
   "url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EA%B5%90%EC%9C%A1%EA%B8%89%EC%97%AC%EC%9D%98%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
   "category": "급여·지원기준",
-  "primary_change_summary": "본문 · * → ※",
+  "primary_change_summary": "표 1 · 금액 (원/월) · 1인가구 · 1,282,119 → 1,368,021",
   "priority_reasons": [
-    "자격·권리·의무의 실질 문구 변경",
+    "급여·금액·요율 등 실질 지급 기준 변경",
     "전국 공통 법정 급여·보장·보험 기준",
-    "별개로 확인된 복수 하위 규정·공공사업 연결 경로"
+    "서로 다른 공식 하위 규정·공공사업 연결 경로 2개 이상 확인"
   ],
   "impact_assessment": {
     "classification": "high",
@@ -30,10 +30,10 @@
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "자격·권리·의무의 실질 문구 변경",
-            "article": "본문",
-            "before": "… 정한다. 1) 선정기준 [표: 공식 첨부 참조] * 8인 이상 가구의 교육급여 선정기준: 1인 증가시마다 479,599원씩 증가(8인가구: 5,237,174원)…",
-            "after": "… 정한다. 1) 선정기준 [표: 공식 첨부 참조] ※ 8인 이상 가구의 교육급여 선정기준은 7인 가구 선정기준 + (7인 가구 선정기준 － 6인 가구의 선정기준) × {(해당 가구원…",
+            "reason": "급여·금액·요율 등 실질 지급 기준 변경",
+            "article": "표 1 · 금액 (원/월) · 1인가구",
+            "before": "1,282,119",
+            "after": "1,368,021",
             "source_title": "2027년 교육급여의 선정기준 및 최저보장수준",
             "source_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EA%B5%90%EC%9C%A1%EA%B8%89%EC%97%AC%EC%9D%98%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80"
           }
@@ -58,20 +58,36 @@
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "별개로 확인된 복수 하위 규정·공공사업 연결 경로",
+            "reason": "서로 다른 공식 하위 규정·공공사업 연결 경로 2개 이상 확인",
             "article": "",
             "before": "",
             "after": "",
             "source_title": "2027년 교육급여의 선정기준 및 최저보장수준",
             "source_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EA%B5%90%EC%9C%A1%EA%B8%89%EC%97%AC%EC%9D%98%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80"
+          },
+          {
+            "reason": "경기도 수원시 · 기초생활보장 교육급여",
+            "article": "",
+            "before": "국민기초생활 보장법(제12조)||국민기초생활 보장법(제7조)",
+            "after": "",
+            "source_title": "기초생활보장 교육급여",
+            "source_url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001326&bnefType=all&svcId=374000000109"
+          },
+          {
+            "reason": "교육부 · 교육급여",
+            "article": "",
+            "before": "국민기초생활 보장법(제12조)  ",
+            "after": "",
+            "source_title": "교육급여",
+            "source_url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=726481&bnefType=all&svcId=134200000003"
           }
         ]
       }
     },
     "featured_change_indices": [
-      0,
       1,
-      2
+      2,
+      3
     ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },

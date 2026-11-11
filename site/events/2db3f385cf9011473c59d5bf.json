@@ -9,7 +9,7 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A0%81%EA%B7%B9%ED%96%89%EC%A0%95%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%A0%95",
   "category": "기타 제·개정",
-  "primary_change_summary": "제12조 · 위원회는 다른 중앙행정기관 또는 지방자치단체와 관련된 현안을 심의하는 등 필요한 경우 관계 기관의 위원회(지방자치단체의 경우에는 「지방공 → 삭제",
+  "primary_change_summary": "제10조 · 신설 → ①",
   "priority_reasons": [
     "국가 법률에 따른 전국 단위 규율 범위"
   ],
@@ -67,7 +67,7 @@
       }
     },
     "featured_change_indices": [
-      2,
+      0,
       8,
       9
     ],
@@ -111,7 +111,7 @@
         }
       ],
       "diff_window_count": 2,
-      "substance_score": 10
+      "substance_score": 40
     },
     {
       "article": "제11조",
@@ -505,7 +505,7 @@
         }
       ],
       "diff_window_count": 7,
-      "substance_score": 30
+      "substance_score": 40
     },
     {
       "article": "제18조의2",
@@ -626,7 +626,7 @@
         }
       ],
       "diff_window_count": 9,
-      "substance_score": 30
+      "substance_score": 40
     },
     {
       "article": "제18조의3",
@@ -747,7 +747,7 @@
         }
       ],
       "diff_window_count": 9,
-      "substance_score": 30
+      "substance_score": 40
     },
     {
       "article": "제22조",
@@ -877,7 +877,7 @@
         }
       ],
       "diff_window_count": 4,
-      "substance_score": 10
+      "substance_score": 40
     }
   ],
   "unresolved": [

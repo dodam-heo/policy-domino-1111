@@ -9,27 +9,27 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182743",
   "category": "급여·지원기준",
-  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "primary_change_summary": "제7조 · 사회복지국장이 → 시민복지국장이",
   "priority_reasons": [
-    "경미하거나 적용 범위가 제한적인 본문 정비",
+    "지원 자격·법정 권리·의무의 실질 문구 변경",
     "특정 지방자치단체·지역·사업에 적용"
   ],
   "impact_assessment": {
-    "classification": "normal",
-    "score": 25,
-    "score_min": 25,
-    "score_max": 50,
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
-    "possible_high": false,
+    "possible_high": true,
     "axes": {
       "substance": {
-        "score": 10,
+        "score": 40,
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+            "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
             "article": "제7조",
             "before": "…전문지식을 갖춘 민간전문가가 2분의 1 이상 참여하도록 해야 한다. ② 위원장은 사회복지국장이 되고, 부위원장은 위원 중에서 호선(互選)하며 당연직 위원은 담당과장으로 한다.…",
             "after": "…전문지식을 갖춘 민간전문가가 2분의 1 이상 참여하도록 해야 한다. ② 위원장은 시민복지국장이 되고, 부위원장은 위원 중에서 호선(互選)하며 당연직 위원은 담당과장으로 한다.…",
@@ -67,7 +67,9 @@
         ]
       }
     },
-    "featured_change_indices": [],
+    "featured_change_indices": [
+      0
+    ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
   "comparison_status": "changed",
@@ -108,13 +110,13 @@
         }
       ],
       "diff_window_count": 2,
-      "substance_score": 10
+      "substance_score": 40
     }
   ],
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1971769"
 }

@@ -9,30 +9,30 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180885",
   "category": "행정절차·인허가",
-  "primary_change_summary": "별표 0000 (소송수임료 등 지급기준(제18조제1항 관련)) · 신설 → ■ 서울특별시교육청 소송 사무처리 규칙",
+  "primary_change_summary": "제26조 · 보고 → 통보 등",
   "priority_reasons": [
-    "신청·심사·집행 절차의 실질 문구 변경",
+    "지원 자격·법정 권리·의무의 실질 문구 변경",
     "특정 지방자치단체·지역·사업에 적용"
   ],
   "impact_assessment": {
     "classification": "pending",
-    "score": 45,
-    "score_min": 45,
-    "score_max": 70,
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
     "possible_high": true,
     "axes": {
       "substance": {
-        "score": 30,
+        "score": 40,
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "신청·심사·집행 절차의 실질 문구 변경",
-            "article": "별표 0000 (소송수임료 등 지급기준(제18조제1항 관련))",
-            "before": "…기준(제18조제1항 관련) 구분 내 용 (소송물가액) 지 급 기 준 (단위 : 원 ) 착 수 금 사 례 금 공 통 경 비 행 정 소 송 1. 신청사건 가. 변론이 …",
-            "after": "…──────────────────┐ │구분 │내 용 │지 급 기 준 (단위 : 원 ) │ │ │(소송물가액 ) ├────────┬──────────────┬──────────┤ │ │ │착…",
+            "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+            "article": "제26조",
+            "before": "제26조(다른 기관에의 보고 ) 소송수행자 등은 다음 각 호의 구분에 따라 해당기관에 보고하여야 한다. <개정…",
+            "after": "제26조(다른 기관에의 통보 등 ) 소송소관 부서 또는 기관의 장은 행정소송이 제기되면 소송이 제기된 사실과 진행…",
             "source_title": "서울특별시교육청 소송 사무처리 규칙",
             "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180885"
           }
@@ -68,9 +68,9 @@
       }
     },
     "featured_change_indices": [
-      0,
-      2,
-      5
+      20,
+      24,
+      0
     ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
@@ -1370,7 +1370,7 @@
         }
       ],
       "diff_window_count": 10,
-      "substance_score": 20
+      "substance_score": 40
     },
     {
       "article": "제27조",
@@ -1700,7 +1700,7 @@
         }
       ],
       "diff_window_count": 4,
-      "substance_score": 10
+      "substance_score": 40
     },
     {
       "article": "제32조",

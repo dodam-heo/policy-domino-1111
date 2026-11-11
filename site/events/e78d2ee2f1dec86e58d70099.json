@@ -9,27 +9,27 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183795",
   "category": "급여·지원기준",
-  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "primary_change_summary": "제3조 · 복지환경국장 → 복지국장",
   "priority_reasons": [
-    "경미하거나 적용 범위가 제한적인 본문 정비",
+    "지원 자격·법정 권리·의무의 실질 문구 변경",
     "특정 지방자치단체·지역·사업에 적용"
   ],
   "impact_assessment": {
-    "classification": "normal",
-    "score": 25,
-    "score_min": 25,
-    "score_max": 50,
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
-    "possible_high": false,
+    "possible_high": true,
     "axes": {
       "substance": {
-        "score": 10,
+        "score": 40,
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+            "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
             "article": "제3조",
             "before": "…원은 어느 한쪽 성이 60퍼센트를 넘지 않도록 하여야 한다. 1. 경제교통국장, 복지환경국장 (일부개정 2019.06.27,2021.05.31, 2025.11.14.) 2.…",
             "after": "…원은 어느 한쪽 성이 60퍼센트를 넘지 않도록 하여야 한다. 1. 경제교통국장, 복지국장 (일부개정 2019.06.27,2021.05.31, 2025.11.14.,202…",
@@ -67,7 +67,9 @@
         ]
       }
     },
-    "featured_change_indices": [],
+    "featured_change_indices": [
+      0
+    ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
   "comparison_status": "changed",
@@ -108,7 +110,7 @@
         }
       ],
       "diff_window_count": 2,
-      "substance_score": 10
+      "substance_score": 40
     }
   ],
   "unresolved": [],
@@ -122,6 +124,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2086909"
 }

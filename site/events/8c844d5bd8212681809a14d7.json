@@ -11,9 +11,9 @@
   "category": "급여·지원기준",
   "primary_change_summary": "표 1 · 금액 (원/월) · 1인 가구 · 1,230,834 → 1,313,300",
   "priority_reasons": [
-    "급여·금액·자격·권리 등 실질 기준의 변경",
+    "급여·금액·요율 등 실질 지급 기준 변경",
     "전국 공통 법정 급여·보장·보험 기준",
-    "별개로 확인된 복수 하위 규정·공공사업 연결 경로"
+    "서로 다른 공식 하위 규정·공공사업 연결 경로 2개 이상 확인"
   ],
   "impact_assessment": {
     "classification": "high",
@@ -30,7 +30,7 @@
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "급여·금액·자격·권리 등 실질 기준의 변경",
+            "reason": "급여·금액·요율 등 실질 지급 기준 변경",
             "article": "표 1 · 금액 (원/월) · 1인 가구",
             "before": "1,230,834",
             "after": "1,313,300",
@@ -58,12 +58,28 @@
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "별개로 확인된 복수 하위 규정·공공사업 연결 경로",
+            "reason": "서로 다른 공식 하위 규정·공공사업 연결 경로 2개 이상 확인",
             "article": "",
             "before": "",
             "after": "",
             "source_title": "2027년 주거급여 선정기준 및 최저보장수준",
             "source_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80"
+          },
+          {
+            "reason": "서울특별시 동대문구 · 저소득층 주거급여 지원",
+            "article": "",
+            "before": "주거급여법(제7조)",
+            "after": "",
+            "source_title": "저소득층 주거급여 지원",
+            "source_url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=809819&bnefType=all&svcId=305000000140"
+          },
+          {
+            "reason": "국토교통부 · 주거급여 (맞춤형 급여)",
+            "article": "",
+            "before": "주거급여법(제1조)||주거급여법(제2조)||주거급여법(제3조)||국민기초생활 보장법(제34조)  ",
+            "after": "",
+            "source_title": "주거급여 (맞춤형 급여)",
+            "source_url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=999076&bnefType=all&svcId=336000000096"
           }
         ]
       }
@@ -260,7 +276,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 1인 · 2급지 (경기·인천)",
@@ -283,7 +299,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 1인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
@@ -306,7 +322,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 1인 · 4급지 (그외 지역)",
@@ -329,7 +345,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 2인 · 1급지 (서울)",
@@ -352,7 +368,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 2인 · 2급지 (경기·인천)",
@@ -375,7 +391,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 2인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
@@ -398,7 +414,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 2인 · 4급지 (그외 지역)",
@@ -421,7 +437,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 3인 · 1급지 (서울)",
@@ -444,7 +460,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 3인 · 2급지 (경기·인천)",
@@ -467,7 +483,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 3인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
@@ -490,7 +506,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 3인 · 4급지 (그외 지역)",
@@ -513,7 +529,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 4인 · 1급지 (서울)",
@@ -536,7 +552,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 4인 · 2급지 (경기·인천)",
@@ -559,7 +575,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 4인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
@@ -582,7 +598,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 4인 · 4급지 (그외 지역)",
@@ -605,7 +621,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 5인 · 1급지 (서울)",
@@ -628,7 +644,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 5인 · 2급지 (경기·인천)",
@@ -651,7 +667,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 5인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
@@ -674,7 +690,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 5인 · 4급지 (그외 지역)",
@@ -697,7 +713,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 6인 · 1급지 (서울)",
@@ -720,7 +736,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 6인 · 2급지 (경기·인천)",
@@ -743,7 +759,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 6인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
@@ -766,7 +782,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "표 2 · 6인 · 4급지 (그외 지역)",
@@ -789,7 +805,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 40
+      "substance_score": 10
     }
   ],
   "unresolved": [],
@@ -1208,7 +1224,15 @@
           "before": "2,572,337",
           "after": "2,744,684"
         }
-      ]
+      ],
+      "ai_analysis": {
+        "explanation": "경기도 포천시는 입원명령 대상 환자지원 사업에서 3인 가구 기준 최저보장수준 금액이 변경됨에 따라 관련 기준 및 지급액 적정성을 검토해야 합니다.",
+        "old_quote": "2,572,337",
+        "new_quote": "2,744,684",
+        "program_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저)",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "agency": "보건복지부",
@@ -1239,7 +1263,15 @@
           "before": "3,117,474",
           "after": "3,326,345"
         }
-      ]
+      ],
+      "ai_analysis": {
+        "explanation": "보건복지부의 생계급여 프로그램에서 2027년 기준 변경에 따른 지급기준 금액 변화에 대한 지침 반영 여부를 검토해야 합니다.",
+        "old_quote": "3,117,474",
+        "new_quote": "3,326,345",
+        "program_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "agency": "경기도 포천시",
@@ -1270,7 +1302,15 @@
           "before": "3,117,474",
           "after": "3,326,345"
         }
-      ]
+      ],
+      "ai_analysis": {
+        "explanation": "경기도 포천시는 입원명령 대상 환자지원 프로그램에서 변경된 최저보장수준 금액에 맞춰 관련 지급 기준 및 심사 규정의 적정성을 검토해야 합니다.",
+        "old_quote": "3,117,474",
+        "new_quote": "3,326,345",
+        "program_quote": "○ 입원비 지원 :입원, 격리 치료명령 대상자 - 식대, 검사 등의 요양(선별)급여 일부본인부담금 - 비급여 및 요양급여의 전액본인부담금(지원상한액 이내) ○ 환자 본인 부담 약제비 지원 : 본인부담 약제비 지원 대상자 - 입원명령 기간 중 발생한 비급여 약제비 - 입원명령해제 이후 나머지 지원기간 동안 발생한 비급여 약제비 ○ 간병비: 지원기준에 부합하는 환자- 치매, 장애인(지체장애 또는 뇌병변장애 등), 폐절제등으로 인한 호흡곤란, 뇌졸중, 고령 등 거동불편자 및 그 외 환자(정신질환 등) - 간병비 실비를 예산범위 내에서 지원(1일 최대 15만원 이내) (간병지원 단체를 통해 간병비용 내역 확인서 등 증빙 철저)",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "agency": "국토교통부",
@@ -1302,7 +1342,15 @@
           "before": "3,117,474",
           "after": "3,326,345"
         }
-      ]
+      ],
+      "ai_analysis": {
+        "explanation": "국토교통부는 주거급여(맞춤형 급여) 프로그램에서 4인 가구의 소득인정액 선정기준 금액을 종전 3,117,474원에서 새로운 기준인 3,326,345원으로 대조하고 관련 자격 심사 기준 및 안내 산식을 검토해야 합니다.",
+        "old_quote": "3,117,474",
+        "new_quote": "3,326,345",
+        "program_quote": "○ 소득 인정액 기준 - 가구 소득인정액이 기준 중위소득의 48% 이하인 가구 ㆍ4인 가구 기준 : 3,117,474원 이하 ※ 지원형태: 서비스(임차급여, 수선유지급여)",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "agency": "보건복지부",
@@ -1333,7 +1381,15 @@
           "before": "3,627,225",
           "after": "3,870,249"
         }
-      ]
+      ],
+      "ai_analysis": {
+        "explanation": "보건복지부의 생계급여 프로그램에서 5인 가구 최저보장수준 금액이 변경됨에 따라 관련 기준 및 지급액 계산의 적정성을 검토해야 합니다.",
+        "old_quote": "3,627,225",
+        "new_quote": "3,870,249",
+        "program_quote": "○ 일반수급자 : 가구별 소득 인정액에 따라 급여액이 다름 -생계급여액은 생계급여 선정 기준(급여기준)에서 가구의 소득 인정액을 차감한 금액 ○ 2026년 생계급여 선정 및 급여기준 - 기준 중위소득 32% · 1인 가구 : 820,556원 · 2인 가구 : 1,343,773원 · 3인 가구 : 1,714,892원 · 4인 가구 : 2,078,316원 · 5인 가구 : 2,418,150원 * 단, 부양의무자의 연 소득 1.3억원(월 소득 1,084만원) 또는 일반재산 12억원을 초과하는 경우 생계급여 대상에서 제외 ○ 생계급여액 = 생계급여 최저보장수준 (대상자 선정기준) - 소득인정액 -예시 : 소득 인정액이 300,",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "agency": "경기도 포천시",

@@ -12,7 +12,7 @@
   "primary_change_summary": "제16조 · 직무 → 동장",
   "priority_reasons": [
     "단일 지방기관 내부 운영 범위",
-    "하위 규정의 명시적 조문 인용 확인, 운영 영향은 대조 중"
+    "관련 공식 규정의 조문 인용 확인, 업무 파급은 추가 대조 중"
   ],
   "impact_assessment": {
     "classification": "normal",
@@ -57,11 +57,19 @@
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "하위 규정의 명시적 조문 인용 확인, 운영 영향은 대조 중",
+            "reason": "관련 공식 규정의 조문 인용 확인, 업무 파급은 추가 대조 중",
             "article": "",
             "before": "",
             "after": "",
             "source_title": "서울특별시 금천구 행정기구 설치 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182263"
+          },
+          {
+            "reason": "서울특별시 금천구 행정기구 설치 조례 시행규칙",
+            "article": "제1조",
+            "before": "「서울특별시 금천구 행정기구 설치 조례」 제2조",
+            "after": "",
+            "source_title": "서울특별시 금천구 행정기구 설치 조례 시행규칙",
             "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182323"
           }
         ]
@@ -684,7 +692,7 @@
         }
       ],
       "diff_window_count": 6,
-      "substance_score": 20
+      "substance_score": 40
     },
     {
       "article": "제17조",
@@ -777,7 +785,7 @@
         }
       ],
       "diff_window_count": 6,
-      "substance_score": 20
+      "substance_score": 40
     },
     {
       "article": "제2조",

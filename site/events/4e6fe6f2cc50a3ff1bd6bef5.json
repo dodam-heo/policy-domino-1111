@@ -9,30 +9,30 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181413",
   "category": "급여·지원기준",
-  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "primary_change_summary": "제15조 · (지역특산품생산단지 등에 대한 감면) ① 다음 각 호의 어느 하나에 해당하는 자가 「농업ㆍ농촌 및 식품산업 기본법」제50조제1항 또는 「 → 삭제",
   "priority_reasons": [
-    "경미하거나 적용 범위가 제한적인 본문 정비",
+    "지원 자격·법정 권리·의무의 실질 문구 변경",
     "특정 지방자치단체·지역·사업에 적용"
   ],
   "impact_assessment": {
-    "classification": "normal",
-    "score": 25,
-    "score_min": 25,
-    "score_max": 50,
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
-    "possible_high": false,
+    "possible_high": true,
     "axes": {
       "substance": {
-        "score": 10,
+        "score": 40,
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
-            "article": "제10조",
-            "before": "제10조(고용창출기업에 대한 감면) 「지방자치분권 및 지역균형발전에 관한 특별법」 제14조와 제24조 및 「지방자치단체의 지방투자기업 유치에 대한 …",
-            "after": "제10조(고용창출기업에 대한 감면) 「지방자치분권 및 균형성장에 관한 특별법」 제14조와 제24조 및 「지방자치단체의 지방투자기업 유치에 대한 …",
+            "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+            "article": "제15조",
+            "before": "제15조 (지역특산품생산단지 등에 대한 감면) ① 다음 각 호의 어느 하나에 해당하는 자가 「농업ㆍ농촌 및 식품산업 기본법」제50조제1항 또는 「수산업ㆍ어촌 발전 기본법」제39조제1항에 따른 지역특산품 생산단지에서 해당 사업에 직접 사용하기 위하여 취득하는 부동산(이미 해당 사업용으로 사용하던 부동산을 ",
+            "after": "제15조 삭제 <2026.10.30.>",
             "source_title": "대구광역시 시세 감면 조례",
             "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181413"
           }
@@ -67,7 +67,9 @@
         ]
       }
     },
-    "featured_change_indices": [],
+    "featured_change_indices": [
+      5
+    ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
   "comparison_status": "changed",
@@ -363,7 +365,7 @@
         }
       ],
       "diff_window_count": 2,
-      "substance_score": 10
+      "substance_score": 40
     },
     {
       "article": "제5조",
@@ -495,6 +497,6 @@
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2117797"
 }

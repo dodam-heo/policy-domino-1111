@@ -9,7 +9,7 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181215",
   "category": "행정절차·인허가",
-  "primary_change_summary": "제19조의2 · 판매하는데 → 판매하는 데",
+  "primary_change_summary": "제2조 · 총괄재산관리자(이하“총괄재산관리관”이라 한다)를 → 총괄재산관리관을",
   "priority_reasons": [
     "특정 지방자치단체·지역·사업에 적용"
   ],
@@ -67,9 +67,9 @@
       }
     },
     "featured_change_indices": [
-      2,
-      4,
-      8
+      7,
+      17,
+      2
     ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
@@ -566,7 +566,7 @@
         }
       ],
       "diff_window_count": 2,
-      "substance_score": 10
+      "substance_score": 40
     },
     {
       "article": "제31조",
@@ -1216,7 +1216,7 @@
         }
       ],
       "diff_window_count": 4,
-      "substance_score": 10
+      "substance_score": 40
     }
   ],
   "unresolved": [

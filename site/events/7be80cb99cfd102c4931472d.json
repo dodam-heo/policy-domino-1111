@@ -9,27 +9,27 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182761",
   "category": "기타 제·개정",
-  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "primary_change_summary": "제9조 · 교육문화국장 → 교육가족국장 <개정 2026.11.6.>",
   "priority_reasons": [
-    "경미하거나 적용 범위가 제한적인 본문 정비",
+    "지원 자격·법정 권리·의무의 실질 문구 변경",
     "특정 지방자치단체·지역·사업에 적용"
   ],
   "impact_assessment": {
-    "classification": "normal",
-    "score": 25,
-    "score_min": 25,
-    "score_max": 50,
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
-    "possible_high": false,
+    "possible_high": true,
     "axes": {
       "substance": {
-        "score": 10,
+        "score": 40,
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+            "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
             "article": "제9조",
             "before": "…성별이 위원 수의 10분의 6을 초과하지 아니하여야 한다. 1. 당연직 가. 시 교육문화국장 나. 시 보건소장 1명 다. 시 농업기술센터 소장 라. 고양교육지원청 교수학습국…",
             "after": "…성별이 위원 수의 10분의 6을 초과하지 아니하여야 한다. 1. 당연직 가. 시 교육가족국장 나. 시 보건소장 1명 다. 시 농업기술센터 소장 라. 고양교육지원청 교수학습국…",
@@ -67,7 +67,9 @@
         ]
       }
     },
-    "featured_change_indices": [],
+    "featured_change_indices": [
+      0
+    ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
   "comparison_status": "changed",
@@ -94,7 +96,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 10
+      "substance_score": 40
     }
   ],
   "unresolved": [],
@@ -108,6 +110,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1198522"
 }

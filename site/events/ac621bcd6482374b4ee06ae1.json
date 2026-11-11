@@ -9,7 +9,7 @@
   "revision": "전부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181925",
   "category": "행정절차·인허가",
-  "primary_change_summary": "제3조 · <삭제><개정 2015. → (출산장려금 신청 및 지원절차) ① 읍ㆍ면장은 출생신고 시 출산장려금 지원 대상 여부를 확인하여 「칠곡군 출산장려 및 다자녀 가정 지원에",
+  "primary_change_summary": "제2조 · 행복플러스 카드 → 행복플러스카드 발급 신청",
   "priority_reasons": [
     "특정 지방자치단체·지역·사업에 적용"
   ],
@@ -67,9 +67,9 @@
       }
     },
     "featured_change_indices": [
+      1,
       2,
-      4,
-      1
+      3
     ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
@@ -204,7 +204,7 @@
         }
       ],
       "diff_window_count": 6,
-      "substance_score": 30
+      "substance_score": 40
     },
     {
       "article": "제3조",
@@ -278,7 +278,7 @@
         }
       ],
       "diff_window_count": 2,
-      "substance_score": 30
+      "substance_score": 40
     },
     {
       "article": "제5조",
@@ -464,7 +464,7 @@
         }
       ],
       "diff_window_count": 4,
-      "substance_score": 10
+      "substance_score": 40
     }
   ],
   "unresolved": [

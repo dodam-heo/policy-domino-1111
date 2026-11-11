@@ -11,28 +11,28 @@
   "category": "행정절차·인허가",
   "primary_change_summary": "제13조 · 기획예산실장에게 → 기획조정실장에게",
   "priority_reasons": [
-    "기관 기능·권한·업무분장 변경",
+    "지원 자격·법정 권리·의무의 실질 문구 변경",
     "특정 지방자치단체·지역·사업에 적용"
   ],
   "impact_assessment": {
-    "classification": "normal",
-    "score": 35,
-    "score_min": 35,
-    "score_max": 60,
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
-    "possible_high": false,
+    "possible_high": true,
     "axes": {
       "substance": {
-        "score": 20,
+        "score": 40,
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "기관 기능·권한·업무분장 변경",
+            "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
             "article": "제13조",
-            "before": "…역결과 관리) 주관부서의 장은 용역결과를 효율적으로 활용하기 위하여 용역성과품을 기획예산실장에게 제출하고, 기획예산실장은 용역성과가 시책개발 및 사업추진에 적극적으로 활용될 수…",
-            "after": "…역결과 관리) 주관부서의 장은 용역결과를 효율적으로 활용하기 위하여 용역성과품을 기획조정실장에게 제출하고, 기획조정실장은 용역성과가 시책개발 및 사업추진에 적극적으로 활용될 수…",
+            "before": "…은 용역결과를 효율적으로 활용하기 위하여 용역성과품을 기획예산실장에게 제출하고, 기획예산실장은 용역성과가 시책개발 및 사업추진에 적극적으로 활용될 수 있도록 하여야 한다. <…",
+            "after": "…은 용역결과를 효율적으로 활용하기 위하여 용역성과품을 기획조정실장에게 제출하고, 기획조정실장은 용역성과가 시책개발 및 사업추진에 적극적으로 활용될 수 있도록 하여야 한다. <…",
             "source_title": "영덕군 용역과제 심의위원회 설치 및 운영 조례",
             "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183455"
           }
@@ -69,8 +69,8 @@
     },
     "featured_change_indices": [
       0,
-      2,
-      3
+      3,
+      2
     ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
@@ -126,7 +126,7 @@
         }
       ],
       "diff_window_count": 3,
-      "substance_score": 20
+      "substance_score": 40
     },
     {
       "article": "제2조",
@@ -237,7 +237,7 @@
         }
       ],
       "diff_window_count": 2,
-      "substance_score": 20
+      "substance_score": 40
     }
   ],
   "unresolved": [],
@@ -251,6 +251,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1896171"
 }

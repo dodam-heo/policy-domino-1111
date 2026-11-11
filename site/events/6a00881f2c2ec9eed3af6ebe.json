@@ -9,7 +9,7 @@
   "revision": "타법개정",
   "url": "https://www.law.go.kr/법령/%EA%B3%A0%EB%8F%84%20%EB%B3%B4%EC%A1%B4%20%EB%B0%8F%20%EC%9C%A1%EC%84%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
   "category": "행정절차·인허가",
-  "primary_change_summary": "",
+  "primary_change_summary": "제16조의3 · 시행계획을 둘 이상의 일간신문과 특별자치시ㆍ특별자치도 또는 시ㆍ군ㆍ구의 → 일간신문, 공보, 해당 지방자치단체의",
   "priority_reasons": [
     "국가 법률에 따른 전국 단위 규율 범위"
   ],
@@ -66,7 +66,11 @@
         ]
       }
     },
-    "featured_change_indices": [],
+    "featured_change_indices": [
+      0,
+      1,
+      2
+    ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
   "comparison_status": "partial_unverified",
@@ -149,7 +153,7 @@
         }
       ],
       "diff_window_count": 5,
-      "substance_score": 10
+      "substance_score": 40
     },
     {
       "article": "제16조의4",
@@ -228,7 +232,7 @@
         }
       ],
       "diff_window_count": 5,
-      "substance_score": 10
+      "substance_score": 40
     },
     {
       "article": "제16조의5",
@@ -307,7 +311,7 @@
         }
       ],
       "diff_window_count": 5,
-      "substance_score": 10
+      "substance_score": 40
     },
     {
       "article": "제1조의2",
@@ -428,7 +432,7 @@
         }
       ],
       "diff_window_count": 15,
-      "substance_score": 10
+      "substance_score": 40
     }
   ],
   "unresolved": [

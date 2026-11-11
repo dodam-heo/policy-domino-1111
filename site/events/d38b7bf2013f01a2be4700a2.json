@@ -9,7 +9,7 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182329",
   "category": "행정절차·인허가",
-  "primary_change_summary": "제7조 · 민원감사담당관은 → 감사담당관은",
+  "primary_change_summary": "제15조 · 민원감사담당관에게 → 감사담당관에게",
   "priority_reasons": [
     "특정 지방자치단체·지역·사업에 적용"
   ],
@@ -67,9 +67,9 @@
       }
     },
     "featured_change_indices": [
-      16,
-      7,
-      12
+      3,
+      4,
+      7
     ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
@@ -250,7 +250,7 @@
         }
       ],
       "diff_window_count": 2,
-      "substance_score": 10
+      "substance_score": 40
     },
     {
       "article": "제16조",
@@ -371,7 +371,7 @@
         }
       ],
       "diff_window_count": 14,
-      "substance_score": 20
+      "substance_score": 40
     },
     {
       "article": "제17조",
@@ -594,7 +594,7 @@
         }
       ],
       "diff_window_count": 8,
-      "substance_score": 30
+      "substance_score": 40
     },
     {
       "article": "제23조",
@@ -807,7 +807,7 @@
         }
       ],
       "diff_window_count": 4,
-      "substance_score": 30
+      "substance_score": 40
     },
     {
       "article": "제30조",
@@ -928,7 +928,7 @@
         }
       ],
       "diff_window_count": 8,
-      "substance_score": 20
+      "substance_score": 40
     },
     {
       "article": "제5조",
@@ -1021,7 +1021,7 @@
         }
       ],
       "diff_window_count": 6,
-      "substance_score": 10
+      "substance_score": 40
     },
     {
       "article": "제6조",
@@ -1123,7 +1123,7 @@
         }
       ],
       "diff_window_count": 4,
-      "substance_score": 40
+      "substance_score": 10
     }
   ],
   "unresolved": [

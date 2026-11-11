@@ -68,9 +68,7 @@
       }
     },
     "featured_change_indices": [
-      0,
-      1,
-      2
+      0
     ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
@@ -120,7 +118,7 @@
       "after": "- (KOSIS) 지역별고용조사>기혼여성> 경 력단절여성 관련 KOSIS 6개 통 계표 내: 경력단절여성",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 1 · 통계표 · 변경 후",
@@ -128,7 +126,7 @@
       "after": "- (KOSIS) 지역별고용조사>기혼여성> 경 력보유여성 관련 KOSIS 6개 통 계표 내: 경력 보유 여성",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 1 · 통계표 · 변경사유",
@@ -136,7 +134,7 @@
       "after": "- “여성의 경제활동 촉진과 경력단절 예방법” 시행(2026.7.1.)에 따라 “ 경력 단절여성”을 “경력보유여성” 으로 용어 변경",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 4 · 통계표 · 변경사유",
@@ -144,7 +142,7 @@
       "after": "[삭제]",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     }
   ],
   "unresolved": [],

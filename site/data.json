@@ -1,6 +1,6 @@
 {
   "schema": "policy-domino-unified-ui-v1",
-  "generated_at": "2026-11-11T12:02:45.144410+00:00",
+  "generated_at": "2026-11-11T12:15:23.754386+00:00",
   "scope": "source-backed version catalog; institutional actions only for exact citation evidence",
   "total_source_versions_saved": 1372,
   "events": [
@@ -15,7 +15,7 @@
       "revision": "타법개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=law&type=HTML&MST=291907",
       "category": "행정절차·인허가",
-      "primary_change_summary": "별표 0008 (해양재난구조대원 치료 신청서) · 신설 → <개정 2026. 11. 11.>",
+      "primary_change_summary": "제21조 · 신설 → 통합특별시장ㆍ",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -73,6 +73,7 @@
           }
         },
         "featured_change_indices": [
+          1,
           0
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
@@ -277,7 +278,7 @@
       "revision": "타법개정",
       "url": "https://www.law.go.kr/법령/%EC%88%98%EC%83%81%EC%97%90%EC%84%9C%EC%9D%98%20%EC%88%98%EC%83%89%E3%86%8D%EA%B5%AC%EC%A1%B0%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
       "category": "행정절차·인허가",
-      "primary_change_summary": "",
+      "primary_change_summary": "제11조 · 신설 → 통합특별시장ㆍ",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -334,7 +335,11 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          1,
+          2,
+          3
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -703,7 +708,7 @@
       "category": "행정절차·인허가",
       "primary_change_summary": "별표 0000 (포상금 지급기준) · 신설 → 포획 │아프리카돼지열병 확산방지를 위한 유해야생동물 │건당 │ │ │허가 │포획 허가사항(준수사항을 포함한다) 위반행위를 │200만원 │",
       "priority_reasons": [
-        "급여·금액·자격·권리 등 실질 기준의 변경",
+        "급여·금액·요율 등 실질 지급 기준 변경",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
@@ -721,7 +726,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "급여·금액·자격·권리 등 실질 기준의 변경",
+                "reason": "급여·금액·요율 등 실질 지급 기준 변경",
                 "article": "별표 0000 (포상금 지급기준)",
                 "before": "…──────┼────┴─────────────────────────┴────┤ │ 아프리카 │20만원 │ │돼지열병 외 │ │ │살처분 질병 │ │ ├──────┼…",
                 "after": "…│ │ ├────┼─────────────────────────┼────┤ │ │ 포획 │아프리카돼지열병 확산방지를 위한 유해야생동물 │건당 │ │ │허가 │포획 허가사항(준수사항을 포함한다) 위반행위를 │200만원 │ │ │위반 │발견하여 신고한 자(다만, 무분별한 허위?중복 │ │ │ │ │신고를 ",
@@ -793,7 +798,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=law&type=HTML&MST=291867",
       "category": "행정절차·인허가",
-      "primary_change_summary": "별표 0012 ([(마약류취급자, 원료물질수출입업자등) 폐업, 휴업, 재개업] 신고서) · 2018. → 2026. 11.",
+      "primary_change_summary": "제16조 · 항의 규정에 → 항 및 제3항에",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -851,9 +856,9 @@
           }
         },
         "featured_change_indices": [
-          1,
-          2,
-          3
+          4,
+          6,
+          7
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -972,10 +977,10 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A7%80%EB%B0%A9%EA%B3%B5%EB%AC%B4%EC%9B%90%20%EC%A0%81%EA%B7%B9%ED%96%89%EC%A0%95%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%A0%95",
       "category": "행정절차·인허가",
-      "primary_change_summary": "제11조 · 위원회는 다른 중앙행정기관 또는 지방자치단체와 관련된 현안을 심의하는 등 필요한 경우 관계 기관의 위원회(중앙행정기관의 경우에는 「적극행 → 삭제",
+      "primary_change_summary": "제17조 · 다만, 제3호의 경우에는 소송대리인 선임 등 소송수행 비용을 법원의 판결에 따라 무죄로 확정된 이후 지원해야 한다. → 삭제",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위",
-        "하위 규정의 명시적 조문 인용 확인, 운영 영향은 대조 중"
+        "관련 공식 규정의 조문 인용 확인, 업무 파급은 추가 대조 중"
       ],
       "impact_assessment": {
         "classification": "pending",
@@ -1020,20 +1025,28 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "하위 규정의 명시적 조문 인용 확인, 운영 영향은 대조 중",
+                "reason": "관련 공식 규정의 조문 인용 확인, 업무 파급은 추가 대조 중",
                 "article": "",
                 "before": "",
                 "after": "",
                 "source_title": "지방공무원 적극행정 운영규정",
-                "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A0%81%EA%B7%B9%ED%96%89%EC%A0%95%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%A0%95"
+                "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A7%80%EB%B0%A9%EA%B3%B5%EB%AC%B4%EC%9B%90%20%EC%A0%81%EA%B7%B9%ED%96%89%EC%A0%95%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%A0%95"
+              },
+              {
+                "reason": "서울특별시 금천구 적극행정 추진 공무원의 소송수행 지원 등에 관한 규칙",
+                "article": "제1조",
+                "before": "「지방공무원 적극행정 운영규정」 제17조제2항 및 제3항",
+                "after": "",
+                "source_title": "서울특별시 금천구 적극행정 추진 공무원의 소송수행 지원 등에 관한 규칙",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182289"
               }
             ]
           }
         },
         "featured_change_indices": [
-          1,
           6,
-          7
+          7,
+          8
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -1155,7 +1168,7 @@
       "revision": "타법개정",
       "url": "https://www.law.go.kr/법령/%ED%95%9C%EC%98%A5%20%EB%93%B1%20%EA%B1%B4%EC%B6%95%EC%9E%90%EC%82%B0%EC%9D%98%20%EC%A7%84%ED%9D%A5%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0%20%EC%8B%9C%ED%96%89%EB%A0%B9",
       "category": "행정절차·인허가",
-      "primary_change_summary": "",
+      "primary_change_summary": "제14조 · 신설 → ㆍ통합특별시장",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -1212,7 +1225,11 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0,
+          1,
+          2
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -1326,7 +1343,7 @@
       "revision": "타법개정",
       "url": "https://www.law.go.kr/법령/%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%20%EA%B5%90%ED%86%B5%EB%AC%BC%EB%A5%98%20%EB%B0%9C%EC%A0%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
       "category": "기타 제·개정",
-      "primary_change_summary": "",
+      "primary_change_summary": "제37조 · 시의 → 지방자치단체의",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -1383,7 +1400,9 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -1497,7 +1516,7 @@
       "revision": "타법개정",
       "url": "https://www.law.go.kr/법령/%EC%97%AC%EC%88%98%EC%84%B8%EA%B3%84%EB%B0%95%EB%9E%8C%ED%9A%8C%20%EA%B8%B0%EB%85%90%20%EB%B0%8F%20%EC%82%AC%ED%9B%84%ED%99%9C%EC%9A%A9%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
       "category": "행정절차·인허가",
-      "primary_change_summary": "",
+      "primary_change_summary": "제11조의2 · 도(道)와 → 통합특별시와",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -1554,7 +1573,11 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0,
+          1,
+          2
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -1678,7 +1701,7 @@
       "revision": "타법개정",
       "url": "https://www.law.go.kr/법령/%EC%86%8C%ED%95%98%EC%B2%9C%EC%A0%95%EB%B9%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
       "category": "기타 제·개정",
-      "primary_change_summary": "",
+      "primary_change_summary": "제14조의3 · 일간신문과 → 공보, 해당 관리청의 게시판, 일간신문 중 하나 이상과",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -1735,7 +1758,9 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -1849,7 +1874,7 @@
       "revision": "타법개정",
       "url": "https://www.law.go.kr/법령/%EB%B3%B4%ED%96%89%EC%95%88%EC%A0%84%20%EB%B0%8F%20%ED%8E%B8%EC%9D%98%EC%A6%9D%EC%A7%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0%20%EC%8B%9C%ED%96%89%EB%A0%B9",
       "category": "기타 제·개정",
-      "primary_change_summary": "",
+      "primary_change_summary": "제1조의2 · 관할 → 지방자치단체의 인터넷 홈페이지에 공고하고, 필요한 경우 해당",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -1906,7 +1931,10 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0,
+          1
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -1938,7 +1966,7 @@
       "revision": "타법개정",
       "url": "https://www.law.go.kr/법령/%EB%A8%B9%EB%8A%94%EB%AC%BC%EA%B4%80%EB%A6%AC%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
       "category": "기타 제·개정",
-      "primary_change_summary": "",
+      "primary_change_summary": "제17조의4 · 일반일간신문에 게재하고 → 일반일간신문, 정보통신매체 또는 그 밖의 효과적인 방법을 이용하여 공표하고",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -1995,7 +2023,10 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0,
+          1
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -2027,7 +2058,7 @@
       "revision": "타법개정",
       "url": "https://www.law.go.kr/법령/%EB%93%B1%EB%8C%80%EC%9C%A0%EC%82%B0%20%EB%B3%B4%EC%A1%B4%20%EB%B0%8F%20%ED%99%9C%EC%9A%A9%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0%20%EC%8B%9C%ED%96%89%EB%A0%B9",
       "category": "행정절차·인허가",
-      "primary_change_summary": "",
+      "primary_change_summary": "제9조 · 관보와 둘 이상의 일간신문( → 관보,",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -2084,7 +2115,9 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -2116,7 +2149,7 @@
       "revision": "타법개정",
       "url": "https://www.law.go.kr/법령/%EB%8F%84%EC%8B%9C%20%EA%B3%B5%EC%97%85%EC%A7%80%EC%97%AD%EC%9D%98%20%EA%B4%80%EB%A6%AC%20%EB%B0%8F%20%ED%99%9C%EC%84%B1%ED%99%94%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
       "category": "행정절차·인허가",
-      "primary_change_summary": "",
+      "primary_change_summary": "제12조 · 신설 → 해당 지방자치단체의 인터넷 홈페이지에 공고하고, 필요한 경우 해당 지역을 주된 보급지역으로 하는",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -2173,7 +2206,9 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -2205,7 +2240,7 @@
       "revision": "타법개정",
       "url": "https://www.law.go.kr/법령/%EA%B5%AC%EA%B0%95%EB%B3%B4%EA%B1%B4%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
       "category": "급여·지원기준",
-      "primary_change_summary": "",
+      "primary_change_summary": "제3조 · 신설 → ㆍ통합특별시장",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -2262,7 +2297,9 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -2294,7 +2331,7 @@
       "revision": "타법개정",
       "url": "https://www.law.go.kr/법령/%EA%B3%A0%EB%8F%84%20%EB%B3%B4%EC%A1%B4%20%EB%B0%8F%20%EC%9C%A1%EC%84%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
       "category": "행정절차·인허가",
-      "primary_change_summary": "",
+      "primary_change_summary": "제16조의3 · 시행계획을 둘 이상의 일간신문과 특별자치시ㆍ특별자치도 또는 시ㆍ군ㆍ구의 → 일간신문, 공보, 해당 지방자치단체의",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -2351,7 +2388,11 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0,
+          1,
+          2
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -2556,7 +2597,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/법령/%EC%9E%AC%EC%99%B8%EA%B3%B5%EA%B4%80%20%EB%AC%B4%EA%B4%80%EC%A3%BC%EC%9E%AC%EB%A0%B9",
       "category": "공공재정·요율",
-      "primary_change_summary": "별표 0000 · 신설 → 본문",
+      "primary_change_summary": "제10조 · 신설 → 다만, 국방부장관은 인력 운영상 필요하다고 인정하는 경우에는 별표에 따른 주재무관[장성(將星)에 해당하는 주재무관으로 한정한다]의 총 정",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -2614,8 +2655,8 @@
           }
         },
         "featured_change_indices": [
-          0,
-          1
+          1,
+          0
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -2648,7 +2689,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A0%81%EA%B7%B9%ED%96%89%EC%A0%95%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%A0%95",
       "category": "기타 제·개정",
-      "primary_change_summary": "제12조 · 위원회는 다른 중앙행정기관 또는 지방자치단체와 관련된 현안을 심의하는 등 필요한 경우 관계 기관의 위원회(지방자치단체의 경우에는 「지방공 → 삭제",
+      "primary_change_summary": "제10조 · 신설 → ①",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -2706,7 +2747,7 @@
           }
         },
         "featured_change_indices": [
-          2,
+          0,
           8,
           9
         ],
@@ -2914,7 +2955,7 @@
       "category": "행정절차·인허가",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -2932,7 +2973,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제3조",
                 "before": "… 관련된 각종 규칙에 관한 사항 2. 자치행정위원회 : 기획예산실, 감사담당관, 행정자치국, 문화관광복지국, 보건소, 도서관사업소 소관에 속하는 사항 3. 산업ㆍ…",
                 "after": "… 관련된 각종 규칙에 관한 사항 2. 자치행정위원회 : 기획예산실, 감사담당관, 인구정책담당관, 행정자치국, 문화관광복지국, 보건소, 도서관사업소 소관에 속하는 사항 3. 산업…",
@@ -3002,30 +3043,30 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183871",
       "category": "공공재정·요율",
-      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+      "primary_change_summary": "제16조 · 포상 → 청년의 주거ㆍ생활 안정 등",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
-        "classification": "normal",
-        "score": 25,
-        "score_min": 25,
-        "score_max": 50,
+        "classification": "pending",
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": false,
+        "possible_high": true,
         "axes": {
           "substance": {
-            "score": 10,
+            "score": 40,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
-                "article": "제15조",
-                "before": "제15조( 협력체계 구축 ) 시장은 청년정책의 원활한 추진을 위하여 관련 기관 및 단체 등과 협력체계를 구…",
-                "after": "제15조( 청년의 건강증진 지원 ) 시장은 청년의 신체적ㆍ정신적 건강을 보호ㆍ증진하기 위한 다음 각 호의 사업을 …",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제16조",
+                "before": "제16조( 포상 ) 시장은 지역사회 발전 및 청년권익 증진에 공헌한 청년과 청년 관련 단체에 대하…",
+                "after": "제16조( 청년의 주거ㆍ생활 안정 등 ) ① 시장은 청년의 주거안정 및 주거수준 향상을 위해 노력하여야 한다. ② 시장…",
                 "source_title": "동해시 청년 기본 조례",
                 "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183871"
               }
@@ -3060,7 +3101,9 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          1
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "changed",
@@ -3073,7 +3116,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "normal",
+      "impact_level": "pending",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1959581",
       "detail_url": "events/3c7a0c332825b1614de1a00e.json",
       "change_count": 5,
@@ -3174,7 +3217,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183867",
       "category": "기타 제·개정",
-      "primary_change_summary": "",
+      "primary_change_summary": "제13조 · 10일 이내의 → 별도로 정하는 기간 내의",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -3231,7 +3274,9 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -3526,9 +3571,9 @@
       "revision": "전부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183799",
       "category": "급여·지원기준",
-      "primary_change_summary": "제13조 · 비밀 준수의 의무 → 지도ㆍ감독",
+      "primary_change_summary": "제10조 · 등 → 삭제",
       "priority_reasons": [
-        "자격·권리·의무의 실질 문구 변경",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -3546,10 +3591,10 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "자격·권리·의무의 실질 문구 변경",
-                "article": "제13조",
-                "before": "제13조( 비밀 준수의 의무 ) 이 조례에 따른 아동학대예방 등과 관련된 업무에 종사하였거가 종사하는 사람은 …",
-                "after": "제13조( 지도ㆍ감독 ) 구청장은 아동학대예방과 방지 및 피해아동 보호를 위하여 어린이집, 아동복지시설…",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제10조",
+                "before": "제10조(홍보 등) 구청장은 대구광역시 북구 소식지, 홈페이지 등을 통하여 아동학대예방 등에 관한 홍보를 실시할 수 있다.",
+                "after": "제10조(홍보) ① 구청장은 다양한 매체를 활용하여 아동학대예방과 방지 및 피해아동 보호에 관한 홍보를 실시하여야 한다. ② 구청장은 법 제23조에 따른 아동학대예방주간에…",
                 "source_title": "대구광역시 북구 아동학대 예방과 방지 및 피해아동 보호에 관한 조례",
                 "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183799"
               }
@@ -3585,9 +3630,9 @@
           }
         },
         "featured_change_indices": [
-          3,
-          6,
-          9
+          0,
+          1,
+          2
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -3620,27 +3665,27 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183795",
       "category": "급여·지원기준",
-      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+      "primary_change_summary": "제3조 · 복지환경국장 → 복지국장",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
-        "classification": "normal",
-        "score": 25,
-        "score_min": 25,
-        "score_max": 50,
+        "classification": "pending",
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": false,
+        "possible_high": true,
         "axes": {
           "substance": {
-            "score": 10,
+            "score": 40,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
                 "article": "제3조",
                 "before": "…원은 어느 한쪽 성이 60퍼센트를 넘지 않도록 하여야 한다. 1. 경제교통국장, 복지환경국장 (일부개정 2019.06.27,2021.05.31, 2025.11.14.) 2.…",
                 "after": "…원은 어느 한쪽 성이 60퍼센트를 넘지 않도록 하여야 한다. 1. 경제교통국장, 복지국장 (일부개정 2019.06.27,2021.05.31, 2025.11.14.,202…",
@@ -3678,7 +3723,9 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "changed",
@@ -3691,7 +3738,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "normal",
+      "impact_level": "pending",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2086909",
       "detail_url": "events/e78d2ee2f1dec86e58d70099.json",
       "change_count": 1,
@@ -3801,7 +3848,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -3819,7 +3866,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제12조",
                 "before": "제12조(회계관계 공무원의 관직 지정) 1. 징 수 관 : 복지환경국장 (개정 2014.12.30,2021.05.31) 2. 분임징수관 : 환경관리과장 …",
                 "after": "…회계관계 공무원의 관직 지정) 1. 징 수 관 : 문화환경국장 (개정 2014.12.30,2021.05.31.) 2. 분임징수관 : 환경과장 3…",
@@ -3891,7 +3938,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -3909,7 +3956,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제3조",
                 "before": "…회의 위원장은 부구청장이 되고, 부위원장은 위원 중에서 호선하며, 당연직 위원은 복지환경국장 , 보건소장으로 한다.(개정 2021.05.31.) ④ 위원회는 간사와 서기 각각…",
                 "after": "…회의 위원장은 부구청장이 되고, 부위원장은 위원 중에서 호선하며, 당연직 위원은 복지국장 , 보건소장으로 한다.(개정 2021.05.31.,2026.11.10.) ④ 위원…",
@@ -4070,7 +4117,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -4088,7 +4135,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제5조",
                 "before": "… ② 위원은 다음 각 호에 해당하는 사람을 구청장이 임명하거나 위촉하되 구청장, 복지환경국장 , 보건소장 및 실무협의체위원장은 당연직 위원이 된다.(개정 2021.05.31.…",
                 "after": "… ② 위원은 다음 각 호에 해당하는 사람을 구청장이 임명하거나 위촉하되 구청장, 복지국장 , 보건소장 및 실무협의체위원장은 당연직 위원이 된다.(개정 2021.05.31.…",
@@ -4430,7 +4477,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -4448,7 +4495,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제3조",
                 "before": "…한 경우에는 위촉 위원을 둘 수 있다. ② 위원장은 부구청장이 되고, 부위원장은 정책기획국장이 되며, 당연직 위원은 국장과 감사실장 및 각 국의 주무과장이 된다.(개정 201…",
                 "after": "…한 경우에는 위촉 위원을 둘 수 있다. ② 위원장은 부구청장이 되고, 부위원장은 기획국장이 되며, 당연직 위원은 국장과 감사실장 및 각 국의 주무과장이 된다.(개정 201…",
@@ -4520,7 +4567,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -4538,7 +4585,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제5조",
                 "before": "…는 이사장을 포함 15명 이하로 구성하되, 대구광역시 북구 부구청장, 행정국장, 복지환경국장은 당연직 이사로 한다.(개정 2013.7.22, 2014.12.30,2021.05…",
                 "after": "…는 이사장을 포함 15명 이하로 구성하되, 대구광역시 북구 부구청장, 행정국장, 복지국장은 당연직 이사로 한다.(개정 2013.7.22, 2014.12.30,2021.05…",
@@ -4788,27 +4835,27 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183769",
       "category": "급여·지원기준",
-      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+      "primary_change_summary": "제3조 · 정책기획국장 → 기획국장",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
-        "classification": "normal",
-        "score": 25,
-        "score_min": 25,
-        "score_max": 50,
+        "classification": "pending",
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": false,
+        "possible_high": true,
         "axes": {
           "substance": {
-            "score": 10,
+            "score": 40,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
                 "article": "제3조",
                 "before": "…의 1을 초과할 수 없다. ④ 위원은 다음 각 호와 같다. 1. 당연직 위원 : 정책기획국장 , 행정국장, 복지환경국장(일부개정 2022.05.02, 2025.5.30.) 2…",
                 "after": "…의 1을 초과할 수 없다. ④ 위원은 다음 각 호와 같다. 1. 당연직 위원 : 기획국장 , 행정국장, 복지국장(일부개정 2022.05.02, 2025.5.30.,2026…",
@@ -4846,7 +4893,9 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "changed",
@@ -4859,7 +4908,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "normal",
+      "impact_level": "pending",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2042061",
       "detail_url": "events/71f1267b1b6c7a56f5f94c68.json",
       "change_count": 1,
@@ -4880,7 +4929,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -4898,7 +4947,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제4조",
                 "before": "…위원으로 구성한다. ③ 위원장은 부구청장이 되고 부위원장은 위원 중에서 선출하며 정책소통과장은 당연직 위원이 된다.(일부개정 2024.6.5.) ④ 위원은 북구 소속 공무원과…",
                 "after": "…위원으로 구성한다. ③ 위원장은 부구청장이 되고 부위원장은 위원 중에서 선출하며 홍보과장은 당연직 위원이 된다.(일부개정 2024.6.5.,2026.11.10.) ④ 위원…",
@@ -4970,7 +5019,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -4988,7 +5037,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제3조",
                 "before": "…회 위원장은 부구청장이 되고 부위원장은 위원 중에서 호선한다. ④ 당연직 위원은 복지환경국장 , 경제교통국장과 지방노동관서의 장이 되며, 위촉직 위원은 사회적기업 등에대한 학…",
                 "after": "…회 위원장은 부구청장이 되고 부위원장은 위원 중에서 호선한다. ④ 당연직 위원은 복지국장 , 경제교통국장과 지방노동관서의 장이 되며, 위촉직 위원은 사회적기업 등에대한 학…",
@@ -5060,7 +5109,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -5078,7 +5127,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제3조",
                 "before": "…의회 경제도시위원회 위원장(개정 2019.9.20., 2026.6.30.) 2. 정책소통과장 (개정 2011.12.23, 2024.6.5.) 3. 건축주택과장 4. 건설과장 …",
                 "after": "…의회 경제도시위원회 위원장(개정 2019.9.20., 2026.6.30.) 2. 공공정책과장 (개정 2011.12.23, 2024.6.5.,2026.11.10.) 3. 건축주…",
@@ -5239,7 +5288,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183731",
       "category": "행정절차·인허가",
-      "primary_change_summary": "제6조 · 행정지원과장이 → 총무과장이",
+      "primary_change_summary": "제11조 · 행정지원과장에게 → 총무과장에게",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -5297,8 +5346,9 @@
           }
         },
         "featured_change_indices": [
-          2,
-          3
+          0,
+          1,
+          2
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -5415,7 +5465,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -5433,7 +5483,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제3조",
                 "before": "…무원이 아닌 위원 중에서 호선하여 공동위원장으로 둘 수 있다. ③ 당연직 위원은 정책기획국장 , 행정국장, 복지환경국장, 도시국장으로 하고, 위촉직 위원은 학식과 경험이 풍부…",
                 "after": "…무원이 아닌 위원 중에서 호선하여 공동위원장으로 둘 수 있다. ③ 당연직 위원은 기획국장 , 행정국장, 복지국장, 도시국장으로 하고, 위촉직 위원은 학식과 경험이 풍부한 …",
@@ -10179,7 +10229,7 @@
       "category": "행정절차·인허가",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -10197,7 +10247,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제10조",
                 "before": "…. ③위원회의 위원장은 부군수가 되고, 부위원장은 안전재난과장으로 한다. <개정 2012. 1. 10 2020.1.1., 2023. 12. 29.…",
                 "after": "… ③ 위원회의 위원장은 부군수가 되고, 부위원장은 안전총괄과장으로 한다. <개정 2012. 1. 10 2020.1.1., 2023. 12. 29.…",
@@ -10269,7 +10319,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -10287,7 +10337,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제3조",
                 "before": "…중에서 선출하며, 위원은 당연직 위원과 위촉위원으로 구분한다. ③ 당연직 위원은 기획예산실장 , 가족지원과장, 자치행정과장으로 한다. <개정 2015.1.1., 2022.9.…",
                 "after": "…중에서 선출하며, 위원은 당연직 위원과 위촉위원으로 구분한다. ③ 당연직 위원은 행정안전복지국장 , 가족지원과장, 자치행정과장으로 한다. <개정 2015.1.1., 2022.9.…",
@@ -10359,7 +10409,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -10377,7 +10427,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제2조",
                 "before": "…한다. ② 위원회의 위원장은 영덕군수(이하 “군수”라 한다)로 하고, 부위원장은 종합민원처리과장으로 한다. ③ 위원회의 위원은 다음 각 호의 사람 중에서 군수가 임명하거나 위촉한다…",
                 "after": "…한다. ② 위원회의 위원장은 영덕군수(이하 “군수”라 한다)로 하고, 부위원장은 종합민원과장으로 한다. ③ 위원회의 위원은 다음 각 호의 사람 중에…",
@@ -10538,7 +10588,7 @@
       "category": "공공재정·요율",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -10556,7 +10606,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제6조",
                 "before": "…처리하고 사실 조사 등을 행하게 하기 위하여 간사와 사무직원을 둔다. ② 간사는 기획예산실장으로하며 , 사무직원은 감사법무팀장으로 한다. <개정 1996. 8. 16., 2004. …",
                 "after": "…처리하고 사실 조사 등을 행하게 하기 위하여 간사와 사무직원을 둔다. ② 간사는 기획조정실장으로하며 , 사무직원은 법무민원대응팀장으로 한다. <개정 1996. 8. 16., 2004…",
@@ -10628,7 +10678,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -10646,7 +10696,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제2조",
                 "before": "…“군수”라 한다)가 위촉 또는 임명한다. 1. 산림과장과 안전재난과장 2. 산사태ㆍ사방 또는 재난 분야에 학식과 경험이 풍…",
                 "after": "…“군수”라 한다)가 위촉 또는 임명한다. 1. 산림녹지과장과 안전총괄과장 2. 산사태ㆍ사방 또는 재난 분…",
@@ -10718,7 +10768,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -10736,7 +10786,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제5조",
                 "before": "…개정 2023. 12. 29.> 1. 당연직 위원: 문화관광과장, 농업정책과장, 농촌지원과장 , 건강증진과장, 농업기술과장 2. 위촉직 위원: 다음 각 목의 사람 가. 영덕군…",
                 "after": "… 29., 2026.11.9.> 1. 당연직 위원: 문화관광과장, 농업정책과장, 유통축산과장 , 건강증진과장, 농업기술센터소장 2. 위촉직 위원: 다음 각 목의 사람 가. 영…",
@@ -10900,7 +10950,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -10918,7 +10968,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제11조",
                 "before": "… 부위원장은 위원장이 임명 또는 위촉한다. ③ 위원회의 당연직 위원은 건설과장, 도시디자인과장으로 하고, 위촉직 위원은 다음 각 호의 어느 하나에 해당하는 사람 중에서 군수가 위…",
                 "after": "… 부위원장은 위원장이 임명 또는 위촉한다. ③ 위원회의 당연직 위원은 건설과장, 도시건축과장으로 하고, 위촉직 위원은 다음 각 호의 어느 하나에 해당하는 사람 중에서 군수가 위…",
@@ -11072,7 +11122,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -11090,7 +11140,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제9조",
                 "before": "…, 다음 각 호의 사람이 된다. 1. 당연직 위원 : 기획예산실장 , 주민복지과장, 가족지원과장, 문화관광과장, 일자리경제과장 2. 위촉직 위원 :…",
                 "after": "…이 된다. 1. 당연직 위원 : 행정안전복지국장, 경제건설국장, 기획조정실장 , 주민복지과장, 가족지원과장, 문화관광과장, 민생경제과장 2. 위촉직 위원 : …",
@@ -11253,7 +11303,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -11271,7 +11321,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제10조",
                 "before": "…음 각 호의 어느 하나에 해당하는 사람 중에서 군수가 임명 또는 위촉한다. 1. 기획예산실장 ㆍ일자리경제과장ㆍ주민복지과장 2. 영덕군의회 의장이 추천하는 군의원 3. 기금운용…",
                 "after": "…하는 사람 중에서 군수가 임명 또는 위촉한다. 1. 기획조정실장 ㆍ에너지산업과장ㆍ주민복지과장 2. 영덕군의회 의장이 추천하는 군의원 3. 기금운용…",
@@ -11336,7 +11386,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -11354,7 +11404,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제11조",
                 "before": "…가 위촉한 군의원 2. 자치행정과장 3. 건설과장 4. 교육청 교육지원과장 5. 도시디자인과장 6. 경찰서 생활안전교통과장 7. 교통 관련 분야에 관한 전문지식과 경험이 풍부…",
                 "after": "…가 위촉한 군의원 2. 자치행정과장 3. 건설과장 4. 교육청 교육지원과장 5. 도시건축과장 6. 경찰서 생활안전교통과장 7. 교통 관련 분야에 관한 전문지식과 경험이 풍부…",
@@ -11515,7 +11565,7 @@
       "category": "조직·인력",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -11533,7 +11583,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제2조",
                 "before": "…제129조까지에 따른 소속행정기관장 4. 소속행정기관의 소속공무원중 군본청의 실ㆍ 과ㆍ단장과 동일직급 이상인 자 5. 읍면장 [신설 1995. 3. 2]",
                 "after": "…29조까지에 따른 소속행정기관장 4. 소속행정기관의 소속공무원중 군본청의 국ㆍ실ㆍ 과장과 동일직급 이상인 자 5. 읍면장 [신설 1995. 3. 2]",
@@ -11787,7 +11837,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -11805,7 +11855,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제4조",
                 "before": "제4조(구성) ① 예찰ㆍ방제단에는 단장 1명을 두며, 단장은 농업기술과장으로 하고 예찰ㆍ방제단의 업무를 총괄한다. ② 예찰ㆍ방제단의…",
                 "after": "제4조(구성) ① 예찰ㆍ방제단에는 단장 1명을 두며, 단장은 농업기술센터소장으로 하고 예찰ㆍ방제단의 업무를 총괄한다.<개정 2020.1.1., 2026.11.9…",
@@ -13558,7 +13608,7 @@
       "category": "공공재정·요율",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -13576,7 +13626,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제3조",
                 "before": "… 포함한 15명 이내의 위원으로 구성한다. ②위원장은 부군수가 되고, 부위원장은 기획예산실장이 된다. ③위원은 군의 각 …",
                 "after": "…포함한 15명 이내의 위원으로 구성한다. ② 위원장은 부군수가 되고, 부위원장은 기획조정실장이 된다. <개정 1996. 8. 16, 2022. 9. 2., 2026.11.9.…",
@@ -13648,28 +13698,28 @@
       "category": "행정절차·인허가",
       "primary_change_summary": "제13조 · 기획예산실장에게 → 기획조정실장에게",
       "priority_reasons": [
-        "기관 기능·권한·업무분장 변경",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
-        "classification": "normal",
-        "score": 35,
-        "score_min": 35,
-        "score_max": 60,
+        "classification": "pending",
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": false,
+        "possible_high": true,
         "axes": {
           "substance": {
-            "score": 20,
+            "score": 40,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "기관 기능·권한·업무분장 변경",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
                 "article": "제13조",
-                "before": "…역결과 관리) 주관부서의 장은 용역결과를 효율적으로 활용하기 위하여 용역성과품을 기획예산실장에게 제출하고, 기획예산실장은 용역성과가 시책개발 및 사업추진에 적극적으로 활용될 수…",
-                "after": "…역결과 관리) 주관부서의 장은 용역결과를 효율적으로 활용하기 위하여 용역성과품을 기획조정실장에게 제출하고, 기획조정실장은 용역성과가 시책개발 및 사업추진에 적극적으로 활용될 수…",
+                "before": "…은 용역결과를 효율적으로 활용하기 위하여 용역성과품을 기획예산실장에게 제출하고, 기획예산실장은 용역성과가 시책개발 및 사업추진에 적극적으로 활용될 수 있도록 하여야 한다. <…",
+                "after": "…은 용역결과를 효율적으로 활용하기 위하여 용역성과품을 기획조정실장에게 제출하고, 기획조정실장은 용역성과가 시책개발 및 사업추진에 적극적으로 활용될 수 있도록 하여야 한다. <…",
                 "source_title": "영덕군 용역과제 심의위원회 설치 및 운영 조례",
                 "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183455"
               }
@@ -13706,8 +13756,8 @@
         },
         "featured_change_indices": [
           0,
-          2,
-          3
+          3,
+          2
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -13721,7 +13771,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "normal",
+      "impact_level": "pending",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1896171",
       "detail_url": "events/268807c87717ee80e89f3ed4.json",
       "change_count": 4,
@@ -15334,7 +15384,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EB%B9%84%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84%20%EC%9E%AC%EB%AC%B4%ED%9A%8C%EA%B3%84%20%EA%B7%9C%EC%B9%99",
       "category": "급여·지원기준",
-      "primary_change_summary": "별표 0083의00 (수입지출원장(공금지급대행점용)) · 비 고 → 삭제",
+      "primary_change_summary": "별표 0035의00 (납부서) · 세입 → 세입과목",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -15392,9 +15442,9 @@
           }
         },
         "featured_change_indices": [
-          55,
           21,
-          35
+          35,
+          38
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -21475,7 +21525,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183215",
       "category": "행정절차·인허가",
-      "primary_change_summary": "제16조 · 호 서식의 → 호서식의",
+      "primary_change_summary": "제10조 · 심의위원회 설치 → 정책연구용역의 심의",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -21533,9 +21583,9 @@
           }
         },
         "featured_change_indices": [
+          0,
           2,
-          3,
-          5
+          3
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -22559,7 +22609,7 @@
       "revision": "전부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183175",
       "category": "행정절차·인허가",
-      "primary_change_summary": "제2조 · 담양군의회 → 삭제",
+      "primary_change_summary": "제3조 · 인영의 내용 → 비치 및 관리",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -22617,7 +22667,9 @@
           }
         },
         "featured_change_indices": [
-          1
+          2,
+          4,
+          6
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -22645,7 +22697,7 @@
       "category": "조직·인력",
       "primary_change_summary": "제5조 · 지원대상에서 → 지원 대상에서",
       "priority_reasons": [
-        "자격·권리·의무의 실질 문구 변경",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -22663,7 +22715,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "자격·권리·의무의 실질 문구 변경",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
                 "article": "제5조",
                 "before": "…업에 대하여 다른 법령이나 조례 등에 따라 지원을 받는 경우에는 이 조례에 따른 지원대상에서 제외한다.",
                 "after": "…업에 대하여 다른 법령이나 조례 등에 따라 지원을 받는 경우에는 이 조례에 따른 지원 대상에서 제외한다.",
@@ -22833,7 +22885,7 @@
       "primary_change_summary": "제4조 · 의한 → 따른",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용",
-        "공식 공공사업 운영기준과 변경 조문 직접 연결"
+        "공식 사업 운영기준의 변경 조문 인용 확인"
       ],
       "impact_assessment": {
         "classification": "pending",
@@ -22878,12 +22930,20 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "공식 공공사업 운영기준과 변경 조문 직접 연결",
+                "reason": "공식 사업 운영기준의 변경 조문 인용 확인",
                 "article": "",
                 "before": "",
                 "after": "",
                 "source_title": "안동시 국가보훈대상자 예우 및 지원에 관한 조례",
                 "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183067"
+              },
+              {
+                "reason": "경상북도 안동시 · 국가보훈대상자 사망위로금 지원",
+                "article": "",
+                "before": "  안동시 국가보훈대상자 예우 및 지원에 관한 조례(제14조)",
+                "after": "",
+                "source_title": "국가보훈대상자 사망위로금 지원",
+                "source_url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1006081&bnefType=all&svcId=507000000768"
               }
             ]
           }
@@ -22928,7 +22988,7 @@
       "category": "공공재정·요율",
       "primary_change_summary": "제4조 · 신설 → 2010.04.12, 2011.08.05,",
       "priority_reasons": [
-        "급여·금액·자격·권리 등 실질 기준의 변경",
+        "급여·금액·요율 등 실질 지급 기준 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -22946,7 +23006,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "급여·금액·자격·권리 등 실질 기준의 변경",
+                "reason": "급여·금액·요율 등 실질 지급 기준 변경",
                 "article": "제4조",
                 "before": "…유공자 예우 및 지원에 관한 조례」에 따라 교부결정 된 금액은 포함하지 아니한다. ) 가. 6ㆍ25참전유공자 : 월 15만원 나. 월남전참전유공자 : 월 13만원 다…",
                 "after": "…공자 예우 및 지원에 관한 조례」에 따라 교부결정 된 금액은 포함하지 아니한다. 가. 6ㆍ25참전유공자 : 월 20만원 나. 월남전참전유공자 : 월 18만원 다.…",
@@ -23018,7 +23078,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183057",
       "category": "기타 제·개정",
-      "primary_change_summary": "제4조 · 신설 → ①",
+      "primary_change_summary": "제10조 · 위원회의 구성 → 소송비용의 환수",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -23076,9 +23136,9 @@
           }
         },
         "featured_change_indices": [
-          5,
+          0,
           3,
-          7
+          6
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -23202,7 +23262,7 @@
       "category": "공공재정·요율",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -23220,7 +23280,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제13조",
                 "before": "제13조(협력체계 구축ㆍ운영 ) 군수는 범죄예방 도시디자인 추진을 위하여 장수군교육지원청 및 장수경찰서 등과 …",
                 "after": "제13조(협력체계 구축ㆍ운영 지원 ) 군수는 범죄예방 도시디자인 추진을 위하여 장수교육지원청 및 장수경찰서 등과 상…",
@@ -23292,7 +23352,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "",
       "priority_reasons": [
-        "자격·권리·의무의 실질 문구 변경",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -23310,7 +23370,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "자격·권리·의무의 실질 문구 변경",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
                 "article": "제10조",
                 "before": "[신설]",
                 "after": "제10조(환수조치) 시장은 지원 대상자가 거짓 또는 그 밖의 부정한 방법으로 예방접종 비용을 지원 받은 경우 지원비용을 환수하여야 한다. 다만, 행방불명 등의 사유로 환수가 불가능할 경우에는 그 사유와 일자 등을 기록ㆍ관리하여야 한다.",
@@ -23883,7 +23943,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182931",
       "category": "급여·지원기준",
-      "primary_change_summary": "제4조 · 민원전용 → 생활불편 전용",
+      "primary_change_summary": "제10조 · , → ㆍ",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -23941,9 +24001,9 @@
           }
         },
         "featured_change_indices": [
+          0,
           4,
-          6,
-          3
+          6
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -24825,7 +24885,7 @@
       "category": "공공재정·요율",
       "primary_change_summary": "제5조 · 신설 → 〈개정 2026ㆍ11ㆍ6〉",
       "priority_reasons": [
-        "신청·심사·처리 기한 또는 절차 변경",
+        "신청·심사·집행 절차의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -24843,7 +24903,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "신청·심사·처리 기한 또는 절차 변경",
+                "reason": "신청·심사·집행 절차의 실질 문구 변경",
                 "article": "제5조",
                 "before": "… 범위에서 다음 각 호에 따라 지급할 수 있다. 1. 본안소송(행정ㆍ민사소송): 1인당 300,000 원 이내 2. 신청사건(행정ㆍ민사소송) 및 「소액사건 심판법」에 따른 소액사건: …",
                 "after": "…따라 지급할 수 있다. 1. 본안소송(행정ㆍ민사소송): 사건당 500,000 원 이내 2. 신청사건(행정ㆍ민사소송) 및 「소액사건 심판법」에 따른 소액사건: …",
@@ -25088,7 +25148,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -25106,7 +25166,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제25조",
                 "before": "…은 소비자업무 담당 국장이 된다. ② 당연직 위원은 복지여성업무 담당 국장, 도시교통업무 담당실장이 된다. <개정 2018.9.21., 2019…",
                 "after": "…장이 된다. ② 당연직 위원은 복지ㆍ도시ㆍ교통 업무 담당 실장ㆍ국장이 된다. <개정 2018.9.21., 2019.1.11., 20…",
@@ -25359,7 +25419,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -25377,7 +25437,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제11조",
                 "before": "…촉직 위원 중에서 호선한다. ③ 당연직 위원은 시의회 의원 2명, 기획조정실장, 도시주택정책실장 , 사회복지국장으로 한다. ④ 위촉직 위원은 시민…",
                 "after": "…촉직 위원 중에서 호선한다. ③ 당연직 위원은 시의회 의원 2명, 기획조정실장, 도시정책실장 , 시민복지국장으로 한다. <개정 2023. 5. 23., 2026. 11. 6.…",
@@ -25538,7 +25598,7 @@
       "category": "공공재정·요율",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -25556,7 +25616,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제11조",
                 "before": "…시장이 되며, 부위원장은 위원 중에서 호선한다. ③ 당연직 위원은 기획조정실장, 도시주택정책실장 , 일자리재정국장, 교육문화국장, 도시혁신국장으로 하고, 위촉직 위원은 다음 각 …",
                 "after": "…시장이 되며, 부위원장은 위원 중에서 호선한다. ③ 당연직 위원은 기획조정실장, 도시정책실장 , 경제산업국장, 문화관광국장, 주택건축국장으로 하고, 위촉직 위원은 다음 각 호…",
@@ -25878,7 +25938,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -25896,7 +25956,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제4조",
                 "before": "…위원장은 제2부시장으로 하고 부위원장은 위원 중에서 호선한다. ③ 당연직 위원은 도시혁신국장 , 신도시정비과장으로 한다. <개정 2023. 5. 23., 2023. 11. 1…",
                 "after": "…위원장은 제2부시장으로 하고 부위원장은 위원 중에서 호선한다. ③ 당연직 위원은 주택건축국장 , 주택정책과장으로 한다. <개정 2023. 5. 23., 2023. 11. 17…",
@@ -26324,7 +26384,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -26342,7 +26402,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제11조",
                 "before": "…명을 포함하여 15명 이내의 위원으로 구성한다. ② 위원회의 위원장은 업무 담당 사업소장으로 하고, 부위원장은 위원 중에서 호선한다. ③ 보행안전 및 편의증진 업무 담당 부…",
                 "after": "…명을 포함하여 15명 이내의 위원으로 구성한다. ② 위원회의 위원장은 업무 담당 실장ㆍ국장으로 하고, 부위원장은 위원 중에서 호선한다. ③ 보행안…",
@@ -26414,7 +26474,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -26432,7 +26492,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제6조",
                 "before": "… 그 밖에 데이터기반행정에 관한 업무 ③ 책임관은 데이터기반행정 업무를 총괄하는 실ㆍ국장으로 한다.",
                 "after": "… 그 밖에 데이터기반행정에 관한 업무 ③ 책임관은 데이터기반행정 업무를 총괄하는 제2부시장으로 한다.",
@@ -26504,7 +26564,7 @@
       "category": "공공재정·요율",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -26522,7 +26582,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제3조",
                 "before": "…다. ② 당연직 위원으로는 제1부시장, 기획조정실장, 일자리재정국장, 도시주택정책실장 , 교통국장, 도로건설사업소장, 기획정책관으로 한다. <개정 2014.9.23.,…",
                 "after": "…다. ② 당연직 위원으로는 제1부시장, 기획조정실장, 도시정책실장 , 교통국장, 경제산업국장, 주택건축국장, 기획정책관으로 한다. <개정 2014.…",
@@ -26587,7 +26647,7 @@
       "category": "조직·인력",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -26605,7 +26665,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제6조",
                 "before": "…책임하에 운영한다. ③ 상황실은 실장과 20명 이내의 반원으로 구성하되, 실장은 시민안전담당관이 되며, 각 분야별 지원반 활동을 조정ㆍ통제하고 분야별 지원반은 총괄, 인력ㆍ재정…",
                 "after": "…책임하에 운영한다. ③ 상황실은 실장과 20명 이내의 반원으로 구성하되, 실장은 안전건설국장이 되며, 각 분야별 지원반 활동을 조정ㆍ통제하고 분야별 지원반은 총괄, 인력ㆍ재정…",
@@ -26670,7 +26730,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -26688,7 +26748,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제9조",
                 "before": "…. 이 경우 위원장을 호선하는 회의는 당연직 위원이 주재한다. ③ 당연직 위원은 도서관센터소장으로 하고, 위촉직 위원은 시장이 다음 각 호의 사람 중에서 위촉한다. 이 경우 위촉…",
                 "after": "…. 이 경우 위원장을 호선하는 회의는 당연직 위원이 주재한다. ③ 당연직 위원은 도서관사업소장으로 하고, 위촉직 위원은 시장이 다음 각 호의 사람 중에서 위촉한다. 이 경우 위촉…",
@@ -26760,7 +26820,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -26778,7 +26838,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제3조",
                 "before": "…. ② 위원장은 시장이 되고 부위원장은 위원 중에서 호선한다. ③ 당연직 위원은 교육문화국장이 되고, 위촉직 위원은 다음 각 호의 사람 중에서 시장이 임명 또는 위촉한다. 이…",
                 "after": "…. ② 위원장은 시장이 되고 부위원장은 위원 중에서 호선한다. ③ 당연직 위원은 문화관광국장이 되고, 위촉직 위원은 다음 각 호의 사람 중에서 시장이 임명 또는 위촉한다. 이…",
@@ -27106,7 +27166,7 @@
       "category": "공공재정·요율",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -27124,7 +27184,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제12조",
                 "before": "…함하여 20명 이내의 위원으로 구성하며, 위원장은 제2부시장이 되고, 부위원장은 도시혁신국장으로 한다. <개정 2016.2.12., 2018.3.20., 2019.1.11., …",
                 "after": "…함하여 20명 이내의 위원으로 구성하며, 위원장은 제2부시장이 되고, 부위원장은 주택건축국장으로 한다. <개정 2016.2.12., 2018.3.20., 2019.1.11., …",
@@ -27187,27 +27247,27 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182761",
       "category": "기타 제·개정",
-      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+      "primary_change_summary": "제9조 · 교육문화국장 → 교육가족국장 <개정 2026.11.6.>",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
-        "classification": "normal",
-        "score": 25,
-        "score_min": 25,
-        "score_max": 50,
+        "classification": "pending",
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": false,
+        "possible_high": true,
         "axes": {
           "substance": {
-            "score": 10,
+            "score": 40,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
                 "article": "제9조",
                 "before": "…성별이 위원 수의 10분의 6을 초과하지 아니하여야 한다. 1. 당연직 가. 시 교육문화국장 나. 시 보건소장 1명 다. 시 농업기술센터 소장 라. 고양교육지원청 교수학습국…",
                 "after": "…성별이 위원 수의 10분의 6을 초과하지 아니하여야 한다. 1. 당연직 가. 시 교육가족국장 나. 시 보건소장 1명 다. 시 농업기술센터 소장 라. 고양교육지원청 교수학습국…",
@@ -27245,7 +27305,9 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "changed",
@@ -27258,7 +27320,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "normal",
+      "impact_level": "pending",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1198522",
       "detail_url": "events/7be80cb99cfd102c4931472d.json",
       "change_count": 1,
@@ -27724,7 +27786,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -27742,7 +27804,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제7조",
                 "before": "…다. ③ 위원회의 당연직 위원은 일자리재정국장 , 사회복지국장으로 하고, 위촉직 위원은 다음 각 호 어느 하나에 해당하는 사람 …",
                 "after": "…1.9., 2025.4.18., 2026.11.6.> ③ 위원회의 당연직 위원은 경제산업국장 , 시민복지국장으로 하고, 위촉직 위원은 다음 각 호 어느 하나에 해당하는 사람 …",
@@ -27896,7 +27958,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -27914,7 +27976,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제22조의2",
                 "before": "… 제1부시장이 되고, 부위원장은 위촉직 위원 중에서 호선한다. ③ 당연직 위원은 기후환경국장 , 환경정책과장, 기후에너지과장, 자원순환과장, 도시계획정책관, 녹지과장, 생태하…",
                 "after": "… 제1부시장이 되고, 부위원장은 위촉직 위원 중에서 호선한다. ③ 당연직 위원은 기후에너지국장 , 환경정책과장, 기후대응과장, 자원순환과장, 도시계획정책관, 녹지과장, 생태하천…",
@@ -27977,27 +28039,27 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182743",
       "category": "급여·지원기준",
-      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+      "primary_change_summary": "제7조 · 사회복지국장이 → 시민복지국장이",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
-        "classification": "normal",
-        "score": 25,
-        "score_min": 25,
-        "score_max": 50,
+        "classification": "pending",
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": false,
+        "possible_high": true,
         "axes": {
           "substance": {
-            "score": 10,
+            "score": 40,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
                 "article": "제7조",
                 "before": "…전문지식을 갖춘 민간전문가가 2분의 1 이상 참여하도록 해야 한다. ② 위원장은 사회복지국장이 되고, 부위원장은 위원 중에서 호선(互選)하며 당연직 위원은 담당과장으로 한다.…",
                 "after": "…전문지식을 갖춘 민간전문가가 2분의 1 이상 참여하도록 해야 한다. ② 위원장은 시민복지국장이 되고, 부위원장은 위원 중에서 호선(互選)하며 당연직 위원은 담당과장으로 한다.…",
@@ -28035,13 +28097,15 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": null,
-      "impact_level": "normal",
+      "impact_level": "pending",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1971769",
       "detail_url": "events/44dbefe0aa1eacc86c3068a7.json",
       "change_count": 1,
@@ -29288,7 +29352,7 @@
       "category": "조직·인력",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -29306,7 +29370,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제2조",
                 "before": "…하로 한다. ② 위원장은 제2부시장이 되고 부위원장은 도시혁신국장이 된다. <개정 98.10.23., 2001.1.9., 2011.3.2., 201…",
                 "after": "…하로 한다. ② 위원장은 제2부시장이 되고 부위원장은 도시정책실장이 된다. <개정 98.10.23., 2001.1.9., 2011.3.2., 201…",
@@ -29460,7 +29524,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -29478,7 +29542,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제4조",
                 "before": "…을 포함하여 20명 이상 40명 이하의 위원으로 구성한다. ② 위원회의 위원장은 제2부시장으로 한다. ③ 위원회의 위원은 방재에 관한 학식과 …",
                 "after": "…을 포함하여 20명 이상 40명 이하의 위원으로 구성한다. ② 위원회의 위원장은 안전건설국장으로 한다. ③ 위원회의 위원은…",
@@ -29723,7 +29787,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "제4조 · 26. → 26., 2026. 11 .6.",
       "priority_reasons": [
-        "자격·권리·의무의 실질 문구 변경",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -29741,7 +29805,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "자격·권리·의무의 실질 문구 변경",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
                 "article": "제4조",
                 "before": "…구청장이 예방접종이 필요하다고 인정하는 사람 ② 대상포진 예방접종 지원 대상자는 예방접종일을 기준으로 강북구에 1년 이상 주민등록을 두고 거주하는 다음 각 호에 해당하는 사람을 말한다. 단, 과거 대상포진 예방접종 이력이 있는…",
                 "after": "…구청장이 예방접종이 필요하다고 인정하는 사람 ② 대상포진 예방접종 지원 대상자는 다음 각 호와 같다. 단, 과거 대상포진 예방접종 이력이 있는 사람은 지원대상에서…",
@@ -29780,7 +29844,8 @@
           }
         },
         "featured_change_indices": [
-          0
+          0,
+          1
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -30658,27 +30723,27 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000287914",
       "category": "행정절차·인허가",
-      "primary_change_summary": "",
+      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "신청·심사·집행 절차의 실질 문구 변경",
+        "제한적인 본문·명칭·인용 정비",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
-        "classification": "pending",
-        "score": 55,
-        "score_min": 55,
-        "score_max": 80,
+        "classification": "normal",
+        "score": 35,
+        "score_min": 35,
+        "score_max": 60,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": true,
+        "possible_high": false,
         "axes": {
           "substance": {
-            "score": 30,
+            "score": 10,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "신청·심사·집행 절차의 실질 문구 변경",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "표 1 · 결과표 · 변경 후",
                 "before": "[신설]",
                 "after": "∘H.접근성(신규) H1. 평생교육기관 이동 접근성 H2. 정보 접근성 H3. 정보접근 경로분포 비율 H4. 선호 프로그램 형태 H5. 오프라인 참여희망 수강시간대",
@@ -30716,11 +30781,7 @@
             ]
           }
         },
-        "featured_change_indices": [
-          1,
-          2,
-          3
-        ],
+        "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "changed",
@@ -30733,7 +30794,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "pending",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000278500",
       "detail_url": "events/57b51ddfafed77cbe3465a92.json",
       "change_count": 4,
@@ -32221,7 +32282,6 @@
         },
         "featured_change_indices": [
           2,
-          3,
           4
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
@@ -32344,30 +32404,30 @@
       "revision": "전부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182475",
       "category": "기타 제·개정",
-      "primary_change_summary": "제5조 · 운영시간 → 참가 신청 및 승인",
+      "primary_change_summary": "제3조 · 책무 → 의회체험활동의 유형",
       "priority_reasons": [
-        "신청·심사·집행 절차의 실질 문구 변경",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
         "classification": "pending",
-        "score": 45,
-        "score_min": 45,
-        "score_max": 70,
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
         "possible_high": true,
         "axes": {
           "substance": {
-            "score": 30,
+            "score": 40,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "신청·심사·집행 절차의 실질 문구 변경",
-                "article": "제5조",
-                "before": "제5조( 운영시간 ) ① 운영시간은 10시부터 17시까지로 한다. ② 견학일이 토요일,「관공서의 공…",
-                "after": "제5조( 참가 신청 및 승인 ) ① 제4조에 따른 사람이 의회체험활동에 참가하려는 경우에는 본인, 법정대리인 …",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제3조",
+                "before": "제3조(책무) 시흥시의회 의장(이하“의장”이라 한다) 은 시 관내 청소년이 지방자치에 대한 이해와 민주의식을 제고할 수 있도록 노력하여야 한다. [제목개정 2023.10.11.]",
+                "after": "…결정 과정을 경험하는 활동 3. 그 밖에 시흥시의회 의장(이하 “의장”이라 한다) 이 의회체험활동의 목적에 적합하다고 인정하는 활동",
                 "source_title": "시흥시의회 의회체험활동 운영 조례",
                 "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182475"
               }
@@ -32403,8 +32463,9 @@
           }
         },
         "featured_change_indices": [
+          5,
           7,
-          10
+          8
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -33111,7 +33172,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182329",
       "category": "행정절차·인허가",
-      "primary_change_summary": "제7조 · 민원감사담당관은 → 감사담당관은",
+      "primary_change_summary": "제15조 · 민원감사담당관에게 → 감사담당관에게",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -33169,9 +33230,9 @@
           }
         },
         "featured_change_indices": [
-          16,
-          7,
-          12
+          3,
+          4,
+          7
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -33204,7 +33265,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182327",
       "category": "행정절차·인허가",
-      "primary_change_summary": "제30조 · 민원감사담당관으로 → 감사담당관으로",
+      "primary_change_summary": "",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -33261,9 +33322,7 @@
             ]
           }
         },
-        "featured_change_indices": [
-          0
-        ],
+        "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -33295,7 +33354,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182325",
       "category": "기타 제·개정",
-      "primary_change_summary": "",
+      "primary_change_summary": "제8조 · 행정문화국장이 → 행정자치국장이",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -33352,7 +33411,9 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          1
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -33377,9 +33438,9 @@
       "revision": "전부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182323",
       "category": "행정절차·인허가",
-      "primary_change_summary": "제10조 · 주민안전과 → 민원여권과",
+      "primary_change_summary": "제15조 · 일자리청년과 → 세무관리과",
       "priority_reasons": [
-        "자격·권리·의무의 실질 문구 변경",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "단일 지방기관 내부 운영 범위"
       ],
       "impact_assessment": {
@@ -33397,10 +33458,10 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "자격·권리·의무의 실질 문구 변경",
-                "article": "제10조",
-                "before": "…정보시스템(NDMS) 관리에 관한 사항 5. 안전도시관련 평가에 관한 사항 6. 재난관리실태 평가에 관한 사항 7. 안전문화운동 협의회 구성ㆍ운영에 관한 사항 8. 국제재해경감전략기구(UNI…",
-                "after": "…관인제작 및 관리 4. 문서접수 및 배부 5. 120 시ㆍ구통합콜센터 운영 6. 기록물관리 및 기록관 운영 7. 행정자료실 운영 8. 우편물 분류 발송 및 접수 9. 정부24에 관한 사항…",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제15조",
+                "before": "…청년과장은 다음 사항을 분장한다. 1. 일자리종합계획 수립 및 시행에 관한 사항( 지역일자리 목표 공시제 ) 2. 일자리주식회사 설립 및 운영 업무 총괄 3. 일자리 관련 위원회 구성 및…",
+                "after": "…입 관리ㆍ분석 등 총괄 13. 세외수입 일반회계 지난 연도 체납징수에 관한 사항( 주차관리과 소관 사항 제외 ) 14. 세외수입 종합징수시스템 운영ㆍ관리에 관한 사항 15. 지방세 및 과태료…",
                 "source_title": "서울특별시 금천구 행정기구 설치 조례 시행규칙",
                 "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182323"
               }
@@ -33436,9 +33497,9 @@
           }
         },
         "featured_change_indices": [
-          0,
           5,
-          9
+          9,
+          10
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -33471,7 +33532,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182321",
       "category": "기타 제·개정",
-      "primary_change_summary": "",
+      "primary_change_summary": "제6조 · 신설 → <개정 1998.09.26., 2026.11.5.>",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -33528,7 +33589,9 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -33993,7 +34056,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -34011,7 +34074,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제5조",
                 "before": "…회의 위원(이하 “위원”이라 한다)은 당연직과 위촉직으로 구성하며 당연직 위원은 복지정책과장 , 기획예산과장, 재무과장, 주택과장, 건축과장, 공원녹지과장, 주민안전과장, 도…",
                 "after": "…회의 위원(이하 “위원”이라 한다)은 당연직과 위촉직으로 구성하며 당연직 위원은 통합돌봄과장 , 기획예산과장, 재무과장, 주택과장, 건축과장, 공원녹지과장, 재난안전과장, 도…",
@@ -34178,7 +34241,7 @@
       "primary_change_summary": "제16조 · 직무 → 동장",
       "priority_reasons": [
         "단일 지방기관 내부 운영 범위",
-        "하위 규정의 명시적 조문 인용 확인, 운영 영향은 대조 중"
+        "관련 공식 규정의 조문 인용 확인, 업무 파급은 추가 대조 중"
       ],
       "impact_assessment": {
         "classification": "normal",
@@ -34223,11 +34286,19 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "하위 규정의 명시적 조문 인용 확인, 운영 영향은 대조 중",
+                "reason": "관련 공식 규정의 조문 인용 확인, 업무 파급은 추가 대조 중",
                 "article": "",
                 "before": "",
                 "after": "",
                 "source_title": "서울특별시 금천구 행정기구 설치 조례",
+                "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182263"
+              },
+              {
+                "reason": "서울특별시 금천구 행정기구 설치 조례 시행규칙",
+                "article": "제1조",
+                "before": "「서울특별시 금천구 행정기구 설치 조례」 제2조",
+                "after": "",
+                "source_title": "서울특별시 금천구 행정기구 설치 조례 시행규칙",
                 "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182323"
               }
             ]
@@ -34356,7 +34427,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -34374,7 +34445,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제4조",
                 "before": "… 어느 하나에 해당하는 사람 중에서 구청장이 임명하거나 위촉하는 사람으로 한다. 1. 푸른미래도시국장, 공원녹지과장, 치수과장 <개정 2013.10.31, 2015.5.18., 2019.12.31., 2022…",
                 "after": "… 어느 하나에 해당하는 사람 중에서 구청장이 임명하거나 위촉하는 사람으로 한다. <개정 2013.10.31, 2015.5.18., 2019.12.31., 2022…",
@@ -34528,7 +34599,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -34546,7 +34617,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제7조",
                 "before": "… 하기 위하여 위원회에 간사와 사무직원을 둔다. ②간사는 민원감사담당관으로 하며, 사무직원은 위원회 업무담당 공무원으로 한다.",
                 "after": "…하기 위하여 위원회에 간사와 사무직원을 둔다. ② 간사는 감사담당관으로 하며, 사무직원은 위원회 업무담당 공무원으로 한다.<개정 2021.7.9., 2…",
@@ -34611,7 +34682,7 @@
       "category": "행정절차·인허가",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -34629,7 +34700,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제3조",
                 "before": "…장 1명, 부위원장 1명을 포함한 12명 이내의 위원으로 구성한다. ② 위원장은 교통건설국장으로 하고, 부위원장은 주차관리과장으로 한다. ③ 위원…",
                 "after": "…장 1명, 부위원장 1명을 포함한 12명 이내의 위원으로 구성한다. ② 위원장은 안전교통국장으로 하고, 부위원장은 주차관리과장으로 한다. <개정 2019.12.31., 2026…",
@@ -34699,7 +34770,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182245",
       "category": "기타 제·개정",
-      "primary_change_summary": "",
+      "primary_change_summary": "제2조 · 기획경제국장을 → 행정자치국장을",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -34756,7 +34827,9 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -34783,7 +34856,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -34801,7 +34874,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제12조",
                 "before": "… ④위원은 다음 각호의 어느 하나에 해당하는 자를 구청장이 임명 또는 위촉한다. 1. 구 관계공무원(복지가족국장, 푸른미래도시국장, 교통건설국장) <개정 2011.3.18, 2013.10.31, 2018.11.9, 2019.12…",
                 "after": "…④ 위원은 다음 각호의 어느 하나에 해당하는 자를 구청장이 임명 또는 위촉한다. <개정 2011.3.18, 2013.10.31, 2018.11.9, 2019.12…",
@@ -34873,7 +34946,7 @@
       "category": "공공재정·요율",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -34891,7 +34964,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제3조",
                 "before": "…장 각 1인을 포함하여 9인 이상 15인 이내의 위원으로 구성 한다. ②위원장은 교통건설국장으로 하고, 부위원장은 위원 중에서 호선한다.<개정 2013.10.31, 2019.1…",
                 "after": "… 각 1인을 포함하여 9인 이상 15인 이내의 위원으로 구성 한다. ② 위원장은 안전교통국장으로 하고, 부위원장은 위원 중에서 호선한다.<개정 2013.10.31, 2019.1…",
@@ -35052,7 +35125,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -35070,7 +35143,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제3조",
                 "before": "…12.31., 2022.8.15., 2023.10.12.> 1. 당연직 위원 : 문화환경국장 , 지역경제과장, 청소행정과장, 도시계획과장, 공원녹지과장, 교통행정과장, 치수과…",
                 "after": "….8.15., 2023.10.12., 2026.11.5.> 1. 당연직 위원 : 기후환경생활국장 , 지역경제과장, 청소행정과장, 도시계획과장, 공원녹지과장, 교통행정과장, 치수과…",
@@ -35307,30 +35380,30 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180885",
       "category": "행정절차·인허가",
-      "primary_change_summary": "별표 0000 (소송수임료 등 지급기준(제18조제1항 관련)) · 신설 → ■ 서울특별시교육청 소송 사무처리 규칙",
+      "primary_change_summary": "제26조 · 보고 → 통보 등",
       "priority_reasons": [
-        "신청·심사·집행 절차의 실질 문구 변경",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
         "classification": "pending",
-        "score": 45,
-        "score_min": 45,
-        "score_max": 70,
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
         "possible_high": true,
         "axes": {
           "substance": {
-            "score": 30,
+            "score": 40,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "신청·심사·집행 절차의 실질 문구 변경",
-                "article": "별표 0000 (소송수임료 등 지급기준(제18조제1항 관련))",
-                "before": "…기준(제18조제1항 관련) 구분 내 용 (소송물가액) 지 급 기 준 (단위 : 원 ) 착 수 금 사 례 금 공 통 경 비 행 정 소 송 1. 신청사건 가. 변론이 …",
-                "after": "…──────────────────┐ │구분 │내 용 │지 급 기 준 (단위 : 원 ) │ │ │(소송물가액 ) ├────────┬──────────────┬──────────┤ │ │ │착…",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제26조",
+                "before": "제26조(다른 기관에의 보고 ) 소송수행자 등은 다음 각 호의 구분에 따라 해당기관에 보고하여야 한다. <개정…",
+                "after": "제26조(다른 기관에의 통보 등 ) 소송소관 부서 또는 기관의 장은 행정소송이 제기되면 소송이 제기된 사실과 진행…",
                 "source_title": "서울특별시교육청 소송 사무처리 규칙",
                 "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180885"
               }
@@ -35366,9 +35439,9 @@
           }
         },
         "featured_change_indices": [
-          0,
-          2,
-          5
+          20,
+          24,
+          0
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -35647,27 +35720,27 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000288000",
       "category": "급여·지원기준",
-      "primary_change_summary": "",
+      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "신청·심사·집행 절차의 실질 문구 변경",
+        "제한적인 본문·명칭·인용 정비",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
-        "classification": "pending",
-        "score": 55,
-        "score_min": 55,
-        "score_max": 80,
+        "classification": "normal",
+        "score": 35,
+        "score_min": 35,
+        "score_max": 60,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": true,
+        "possible_high": false,
         "axes": {
           "substance": {
-            "score": 30,
+            "score": 10,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "신청·심사·집행 절차의 실질 문구 변경",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "표 1 · 작성 및 공표주기 · 변경 전",
                 "before": "[신설]",
                 "after": "· 2년",
@@ -35705,11 +35778,7 @@
             ]
           }
         },
-        "featured_change_indices": [
-          1,
-          2,
-          3
-        ],
+        "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "changed",
@@ -35722,7 +35791,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "pending",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000233702",
       "detail_url": "events/ad7b080526642ea51783fe0d.json",
       "change_count": 5,
@@ -37002,7 +37071,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "제3조 · 2023 → 2027",
       "priority_reasons": [
-        "급여·금액·자격·권리 등 실질 기준의 변경",
+        "급여·금액·요율 등 실질 지급 기준 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -37020,7 +37089,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "급여·금액·자격·권리 등 실질 기준의 변경",
+                "reason": "급여·금액·요율 등 실질 지급 기준 변경",
                 "article": "제3조",
                 "before": "…090원, 2024년 ~ 2026년도 월정수당은 전년도 월정수당에 전년도 공무원 보수인상률만큼을 합산한 금액을 금정구의회 소속 공무원 보수 지급일에 지급한다. 단, 1개월 미만…",
                 "after": "…580원, 2028년 ~ 2030년도 월정수당은 전년도 월정수당에 전년도 공무원 보수인상률의 50%만큼을 합산한 금액을 금정구의회 소속 공무원 보수 지급일에 지급한다. 단, 1개월 미만…",
@@ -39231,7 +39300,7 @@
       "revision": "전부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181925",
       "category": "행정절차·인허가",
-      "primary_change_summary": "제3조 · <삭제><개정 2015. → (출산장려금 신청 및 지원절차) ① 읍ㆍ면장은 출생신고 시 출산장려금 지원 대상 여부를 확인하여 「칠곡군 출산장려 및 다자녀 가정 지원에",
+      "primary_change_summary": "제2조 · 행복플러스 카드 → 행복플러스카드 발급 신청",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -39289,9 +39358,9 @@
           }
         },
         "featured_change_indices": [
+          1,
           2,
-          4,
-          1
+          3
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -40247,7 +40316,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "",
       "priority_reasons": [
-        "자격·권리·의무의 실질 문구 변경",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -40265,10 +40334,10 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "자격·권리·의무의 실질 문구 변경",
-                "article": "제11조",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제10조",
                 "before": "[신설]",
-                "after": "제11조(자료 제공 및 협력) 도지사는 대상자 선정 및 보험료 지원을 위하여 공단에 보험료 부과자료 등 필요한 자료의 제공과 협력을 요청할 수 있다.",
+                "after": "제10조(예산확보) ① 도지사는 이 조례에 따른 보험료 지원에 필요한 예산을 매년 확보하기 위하여 노력하여야 한다. ② 제1항에 따른 도비보조 비율과 시ㆍ군비 부담비율은 「경상북도 지방보조금 관리 조례」 제3조에 따른 기준보조율에 따라 정한다.",
                 "source_title": "경상북도 저소득주민 국민건강보험료 및 노인장기요양보험료 지원 조례",
                 "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181785"
               }
@@ -40304,9 +40373,9 @@
           }
         },
         "featured_change_indices": [
+          0,
           1,
-          4,
-          5
+          4
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -40423,7 +40492,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181625",
       "category": "기타 제·개정",
-      "primary_change_summary": "",
+      "primary_change_summary": "제5조 · 각종 → 안전",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -40480,7 +40549,9 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -40589,7 +40660,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -40607,7 +40678,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "별표 0000 (특수지근무수당 지급대상 지역 및 기관과 그 등급별 구분표)",
                 "before": "… 경상북도교육청 포항산누리오토캠핑장 <나지역> 기관소재지 기관명 시ㆍ군ㆍ구 위치 상주시 화북면 문장로 2645 화북초등학교입석분교장 영덕군 창수면 오서로 1370 창수초등학교인천분교장 <다지역> 기관소재지 기관명…",
                 "after": "… 경상북도교육청 포항산누리오토캠핑장 <나지역> 기관소재지 기관명 시ㆍ군ㆍ구 위치 영덕군 창수면 오서로 1370 창수초등학교인천분교장 <다지역> 기관소재지 기관명 …",
@@ -40679,7 +40750,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -40697,7 +40768,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "별표 0001 (유치원)",
                 "before": "… 안동시 길안면 충효로 2230 임동초등학교병설유치원 안동시 임동면 편항길 42 월곡초등학교병설유치원 안동시 예안면 정산길 23 녹전초등학교…",
                 "after": "… 안동시 길안면 충효로 2230 임동초등학교병설유치원 안동시 임동면 편항길 42 <…",
@@ -41351,7 +41422,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181453",
       "category": "급여·지원기준",
-      "primary_change_summary": "제4조 · 신설 → 30., 2026. 10.",
+      "primary_change_summary": "제7조 · 200만원 → 1천만원",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -41409,7 +41480,6 @@
           }
         },
         "featured_change_indices": [
-          0,
           1
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
@@ -41532,7 +41602,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181419",
       "category": "기타 제·개정",
-      "primary_change_summary": "제10조 · 채용 → 위촉",
+      "primary_change_summary": "",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -41589,9 +41659,7 @@
             ]
           }
         },
-        "featured_change_indices": [
-          0
-        ],
+        "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -41616,7 +41684,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181417",
       "category": "급여·지원기준",
-      "primary_change_summary": "제2조 · 종합복지회관관리사무소 → 종합복지회관",
+      "primary_change_summary": "제6조 · 관리사무소의 → 회관의",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -41674,6 +41742,7 @@
           }
         },
         "featured_change_indices": [
+          4,
           1
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
@@ -41700,30 +41769,30 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181413",
       "category": "급여·지원기준",
-      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+      "primary_change_summary": "제15조 · (지역특산품생산단지 등에 대한 감면) ① 다음 각 호의 어느 하나에 해당하는 자가 「농업ㆍ농촌 및 식품산업 기본법」제50조제1항 또는 「 → 삭제",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
-        "classification": "normal",
-        "score": 25,
-        "score_min": 25,
-        "score_max": 50,
+        "classification": "pending",
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": false,
+        "possible_high": true,
         "axes": {
           "substance": {
-            "score": 10,
+            "score": 40,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
-                "article": "제10조",
-                "before": "제10조(고용창출기업에 대한 감면) 「지방자치분권 및 지역균형발전에 관한 특별법」 제14조와 제24조 및 「지방자치단체의 지방투자기업 유치에 대한 …",
-                "after": "제10조(고용창출기업에 대한 감면) 「지방자치분권 및 균형성장에 관한 특별법」 제14조와 제24조 및 「지방자치단체의 지방투자기업 유치에 대한 …",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제15조",
+                "before": "제15조 (지역특산품생산단지 등에 대한 감면) ① 다음 각 호의 어느 하나에 해당하는 자가 「농업ㆍ농촌 및 식품산업 기본법」제50조제1항 또는 「수산업ㆍ어촌 발전 기본법」제39조제1항에 따른 지역특산품 생산단지에서 해당 사업에 직접 사용하기 위하여 취득하는 부동산(이미 해당 사업용으로 사용하던 부동산을 ",
+                "after": "제15조 삭제 <2026.10.30.>",
                 "source_title": "대구광역시 시세 감면 조례",
                 "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181413"
               }
@@ -41758,13 +41827,15 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          5
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": null,
-      "impact_level": "normal",
+      "impact_level": "pending",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2117797",
       "detail_url": "events/4e6fe6f2cc50a3ff1bd6bef5.json",
       "change_count": 9,
@@ -42179,7 +42250,8 @@
           }
         },
         "featured_change_indices": [
-          1
+          1,
+          2
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -42615,7 +42687,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181215",
       "category": "행정절차·인허가",
-      "primary_change_summary": "제19조의2 · 판매하는데 → 판매하는 데",
+      "primary_change_summary": "제2조 · 총괄재산관리자(이하“총괄재산관리관”이라 한다)를 → 총괄재산관리관을",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -42673,9 +42745,9 @@
           }
         },
         "featured_change_indices": [
-          2,
-          4,
-          8
+          7,
+          17,
+          2
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -42790,9 +42862,9 @@
       "revision": "전부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181095",
       "category": "행정절차·인허가",
-      "primary_change_summary": "제30조 · 의제외 → 의제 외",
+      "primary_change_summary": "제13조 · 제출ㆍ → 삭제",
       "priority_reasons": [
-        "자격·권리·의무의 실질 문구 변경",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -42810,10 +42882,10 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "자격·권리·의무의 실질 문구 변경",
-                "article": "제30조",
-                "before": "제30조( 의제외 발언의 금지) ① 모든 발언은 의제외에 미치거나 허가받은 발언의 성질에 반하여서…",
-                "after": "제30조( 의제 외 발언의 금지) ① 모든 발언은 의제 외에 미치거나 허가받은 발언의 성질에 반해서…",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제13조",
+                "before": "… 발의의원과 찬성의원을 구분하되, 해당 조례안의 제명의 부제로 발의의원의 성명을 기재하여야 한다. 다만, 발의의원이 2명 이상인 경우에는 대표발의의원 1명을 명시하여야 한…",
+                "after": "… 발의의원과 찬성의원을 구분하되, 해당 조례안의 제명의 부제로 발의의원의 성명을 적어야 한다. 다만, 발의의원이 2명 이상인 경우에는 대표발의의원 1명을 명시해야 한다…",
                 "source_title": "인천광역시 계양구의회 회의규칙",
                 "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181095"
               }
@@ -42849,9 +42921,9 @@
           }
         },
         "featured_change_indices": [
-          21,
-          57,
-          60
+          4,
+          12,
+          13
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -42884,7 +42956,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181093",
       "category": "기타 제·개정",
-      "primary_change_summary": "",
+      "primary_change_summary": "제13조 · 농기계를 출고한 후에 발생하는 인적ㆍ물적 피해 사고 등에 대하여는 임차인이 민ㆍ형사상의 책임을 진다. → 삭제",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -42941,7 +43013,9 @@
             ]
           }
         },
-        "featured_change_indices": [],
+        "featured_change_indices": [
+          0
+        ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "partial_unverified",
@@ -43303,7 +43377,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -43321,7 +43395,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제9조",
                 "before": "제9조 (군위군에 관한 특례) ① 제7조제2호 및 제8조제4호에도 불구하고 군위군 관내 공립의 유치원·초등학교·중학교 소속 교원의 정기승급은 소속 학교장에게 위임한다. ② 제7조제3호에도 불구하고 군위군 관내 공립의 유치…",
                 "after": "제9조 삭제 <2026.10.30.>",
@@ -43645,7 +43719,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -43663,7 +43737,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "별표 0001 (유치원)",
                 "before": "…시 동면 춘천로449번길 33 조양초등학교병설유치원 춘천시 동산면 조양길 257 지촌초등학교지암분교장병설유치원 춘천시 사북면 화악지암길 431 천전초등학교병설유치원 춘천시 신북읍 율문1길16-9 추곡초등학교병설유치원 춘천시…",
                 "after": "…시 동면 춘천로449번길 33 조양초등학교병설유치원 춘천시 동산면 조양길 257 천전초등학교병설유치원 춘천시 신북읍 율문1길16-9 추곡초등학교병설유치원 춘천시 …",
@@ -43728,7 +43802,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "",
       "priority_reasons": [
-        "자격·권리·의무의 실질 문구 변경",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -43746,7 +43820,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "자격·권리·의무의 실질 문구 변경",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
                 "article": "별표 0002 (대구학생문화센터 시설 이용료(제8조 관련))",
                 "before": "[신설]",
                 "after": "[별표 2] 대구학생문화센터 시설 이용료(제8조 관련) (단위: 원) 구 분 단 위 이용료 비 고 수영장 일일 회원 초등학생 이하 2,000 1. 초등학생 이하: 13세 미만 2. 청소년: 13세 이상 19세 미만 3. 월회원은 월 이용료를 선납하고 회원증을 소지한 자 4. 수영강습 수강자는 별도의 수강",
@@ -43787,7 +43861,7 @@
         "featured_change_indices": [
           2,
           5,
-          4
+          6
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -43815,7 +43889,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -43833,7 +43907,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "별표 0000 (특수지 근무수당 지급대상 지역과 기관 및 등급별 구분표(제2조 관련))",
                 "before": "…복기념관 정선군 신동읍 동강로 877 강원특별자치도교육청교직원수련원 아라리 분원 정선읍 수미길 7 정선초등학교가수분교장 기관 소재지 기관명 시군 위치 춘천시 남면 여우내길 20 가정중학교 남면 충효로…",
                 "after": "…복기념관 정선군 신동읍 동강로 877 강원특별자치도교육청교직원수련원 아라리 분원 기관 소재지 기관명 시군 위치 춘천시 남면 여우내길 20 가정중학교 남면 충효로 …",
@@ -44481,7 +44555,7 @@
       "category": "행정절차·인허가",
       "primary_change_summary": "첨부 2 · 412 → 734",
       "priority_reasons": [
-        "신청·심사·처리 기한 또는 절차 변경",
+        "신청·심사·처리 기한 변경",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
@@ -44499,7 +44573,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "신청·심사·처리 기한 또는 절차 변경",
+                "reason": "신청·심사·처리 기한 변경",
                 "article": "첨부 2",
                 "before": "…정에 의하여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. 2026 년 07 월 09일 국 가 데 이 터 처 장 1. 통계의 명칭 : 연천군사회조사 2. 통계…",
                 "after": "…정에 의하여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. 2026 년 10 월 29일 국 가 데 이 터 처 장 1. 통계의 명칭 : 연천군사회조사 2. 통계…",
@@ -44571,27 +44645,27 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000287508",
       "category": "급여·지원기준",
-      "primary_change_summary": "",
+      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "신청·심사·집행 절차의 실질 문구 변경",
+        "제한적인 본문·명칭·인용 정비",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
-        "classification": "pending",
-        "score": 55,
-        "score_min": 55,
-        "score_max": 80,
+        "classification": "normal",
+        "score": 35,
+        "score_min": 35,
+        "score_max": 60,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": true,
+        "possible_high": false,
         "axes": {
           "substance": {
-            "score": 30,
+            "score": 10,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "신청·심사·집행 절차의 실질 문구 변경",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "표 1 · 작성 및 공표주기 · 변경 전",
                 "before": "[신설]",
                 "after": "· 2년",
@@ -44629,17 +44703,13 @@
             ]
           }
         },
-        "featured_change_indices": [
-          1,
-          2,
-          3
-        ],
+        "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": null,
-      "impact_level": "pending",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000254944",
       "detail_url": "events/392f68cfc0b75620d1b84569.json",
       "change_count": 5,
@@ -44717,9 +44787,7 @@
           }
         },
         "featured_change_indices": [
-          0,
-          1,
-          2
+          0
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -44752,27 +44820,27 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9D%98%EB%A3%8C%EA%B8%B0%EA%B4%80%EB%B3%84%EA%B8%89%EC%97%AC%EC%A0%81%EC%A0%95%EC%84%B1%ED%8F%89%EA%B0%80%ED%98%84%ED%99%A9%29",
       "category": "급여·지원기준",
-      "primary_change_summary": "",
+      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "신청·심사·집행 절차의 실질 문구 변경",
+        "제한적인 본문·명칭·인용 정비",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
-        "classification": "pending",
-        "score": 55,
-        "score_min": 55,
-        "score_max": 80,
+        "classification": "normal",
+        "score": 35,
+        "score_min": 35,
+        "score_max": 60,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": true,
+        "possible_high": false,
         "axes": {
           "substance": {
-            "score": 30,
+            "score": 10,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "신청·심사·집행 절차의 실질 문구 변경",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "표 1 · 작성항목 · 변경 후",
                 "before": "[신설]",
                 "after": "<부문: 대장암> ㅇ 조사문항 - 수정 11개",
@@ -44810,11 +44878,7 @@
             ]
           }
         },
-        "featured_change_indices": [
-          1,
-          2,
-          3
-        ],
+        "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "changed",
@@ -44827,7 +44891,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "pending",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000280596",
       "detail_url": "events/da8ce051a44dcd2d5f3d33ee.json",
       "change_count": 19,
@@ -44930,7 +44994,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "제7조 · 신설 → <개정 2026. 10. 28.>",
       "priority_reasons": [
-        "급여·금액·자격·권리 등 실질 기준의 변경",
+        "급여·금액·요율 등 실질 지급 기준 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -44948,7 +45012,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "급여·금액·자격·권리 등 실질 기준의 변경",
+                "reason": "급여·금액·요율 등 실질 지급 기준 변경",
                 "article": "제7조",
                 "before": "… 다음 각 호의 기준에 따라 예산의 범위에서 피해지원금을 지원할 수 있다. 1. 주택 전소 : 300만원 이하 2. 주택 반소 : 200만원 이하 3. 주택 부분소 …",
                 "after": "…의 범위에서 피해지원금을 지원할 수 있다. 1. 전소 : 300만원 이하 2. 반소 : 200만원 이하 3. 부분소 : 100만원…",
@@ -45180,7 +45244,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180333",
       "category": "급여·지원기준",
-      "primary_change_summary": "제4조 · 신설 → 시장은",
+      "primary_change_summary": "제2조 · 2023.8.2. → 2023.8.2., 2026.10.28.",
       "priority_reasons": [
         "특정 지방자치단체·지역·사업에 적용"
       ],
@@ -45238,9 +45302,9 @@
           }
         },
         "featured_change_indices": [
-          2,
           0,
-          1
+          1,
+          2
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -46835,7 +46899,7 @@
       "category": "행정절차·인허가",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -46853,7 +46917,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "제3조의2",
                 "before": "[신설]",
                 "after": "제3조의2(출생에 따른 다자녀 가구에 대한 재산세 감면) 과세기준일 현재 부산광역시 부산진구에 ㆍ주민등록법ㆍ 제6조제1항에 따라 등록이 되어 있는 사람으로서 2026년 1월 1일 이후 자녀의 출생으로 2자녀 이상의 다자녀 가구가 된 부모(미혼모 또는 미혼부를 포함한다)가 「지방세법」 제111조의2에 따른",
@@ -47347,9 +47411,9 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2179667",
       "category": "급여·지원기준",
-      "primary_change_summary": "제6조 · 신설 → <개정 2026.10.26.>",
+      "primary_change_summary": "제4조 · 전용주차구역을 → 가족배려주차구획을",
       "priority_reasons": [
-        "자격·권리·의무의 실질 문구 변경",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -47367,10 +47431,10 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "자격·권리·의무의 실질 문구 변경",
-                "article": "제6조",
-                "before": "…자동차임을 알아 볼 수 있는“임산부자동차표지”를 발급하여야 한다. ② 누구든지 제 1항에 따른 임산부자동차표지가 부착되지 아니한 자동차를 전용주차구역에 주차하여서는 아니…",
-                "after": "…산부자동차표지”를 발급하여야 한다. ② 누구든지 제 4조의2에 따른 이용대상자가 탑승하지 아니한 자동차를 가족배려주차구획에 주차하여서는 아니 …",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+                "article": "제4조",
+                "before": "…범위) 시장은 성남시청 및 그 소속기관의 청사와 시장이 직접 관리하는 공공시설에 전용주차구역을 설치하여야 한다. 다만, 부설주차장의 주차대수가 20대 미만인 경우에는 그러하지…",
+                "after": "…범위) 시장은 성남시청 및 그 소속기관의 청사와 시장이 직접 관리하는 공공시설에 가족배려주차구획을 설치하여야 한다. 다만, 부설주차장의 주차대수가 20대 미만인 경우에는 그러하지…",
                 "source_title": "성남시 임산부ㆍ영유아 가족배려주차구획 설치 및 운영에 관한 조례",
                 "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2179667"
               }
@@ -47406,8 +47470,9 @@
           }
         },
         "featured_change_indices": [
-          6,
-          9
+          3,
+          5,
+          6
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -48351,7 +48416,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/행정규칙/%EB%B6%80%EB%8B%B9%ED%95%9C%20%ED%91%9C%EC%8B%9C%20%EB%98%90%EB%8A%94%20%EA%B4%91%EA%B3%A0%EB%A1%9C%20%EB%B3%B4%EC%A7%80%20%EC%95%84%EB%8B%88%ED%95%98%EB%8A%94%20%EC%8B%9D%ED%92%88%EB%93%B1%EC%9D%98%20%EA%B8%B0%EB%8A%A5%EC%84%B1%20%ED%91%9C%EC%8B%9C%20%EB%98%90%EB%8A%94%20%EA%B4%91%EA%B3%A0%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%A0%95",
       "category": "행정절차·인허가",
-      "primary_change_summary": "별표 0000 (기능성을 나타내는 원재료의 일반식품 사용 신청서) · 수입건강 → 수입건강기",
+      "primary_change_summary": "별표 0001 (기능성 표시 식품등의 영양성분 함량 기준(제3조제2항제2호 관련)) · 신설 → 다. 식후 혈당상승 억제에 도움 등을 줄 수 있는 기능성 원재료 또는 성분을 사용하여 해당 기능성을 표시 또는 광고하려는 식품등은 「식품",
       "priority_reasons": [
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
@@ -48409,6 +48474,7 @@
           }
         },
         "featured_change_indices": [
+          1,
           0
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
@@ -49018,7 +49084,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "제2조 · 신설 → <개정 2026.10.21.>",
       "priority_reasons": [
-        "자격·권리·의무의 실질 문구 변경",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
@@ -49036,7 +49102,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "자격·권리·의무의 실질 문구 변경",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
                 "article": "제2조",
                 "before": "…1. “학교”란 「초ㆍ중등교육법」제2조 각 호에 해당하는 학교를 말한다. 2. “ 입학준비금 ”이란 입학하는 학생이 있는 가정의 교육비 부담을 덜어 주고 학생의 입학을 축하하…",
                 "after": "…1. “학교”란 「초ㆍ중등교육법」제2조 각 호에 해당하는 학교를 말한다. 2. “ 교육지원비”란 지원대상자가 학교에 입학하는 과정에서 필요한 물품 구입 등에 소요되는 비용 및 학력 증진, 진로 지원 등의 교육 활동을 하는 과정에서 필요한 비용을 말한다. 3. “교육지원물품 ”이란 제2호에 따른 비용으로",
@@ -52392,7 +52458,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표 1 · 「 약사법」 제2조제3호에 따른 약국 및 같은 법 제 91조에 따른 한국 희귀·필수의약품센터 · 점수당 단가 · 105.5 → 109.4",
       "priority_reasons": [
-        "급여·금액·자격·권리 등 실질 기준의 변경",
+        "급여·금액·요율 등 실질 지급 기준 변경",
         "전국 공통 법정 급여·보장·보험 기준"
       ],
       "impact_assessment": {
@@ -52410,7 +52476,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "급여·금액·자격·권리 등 실질 기준의 변경",
+                "reason": "급여·금액·요율 등 실질 지급 기준 변경",
                 "article": "표 1 · 「 약사법」 제2조제3호에 따른 약국 및 같은 법 제 91조에 따른 한국 희귀·필수의약품센터 · 점수당 단가",
                 "before": "105.5 원",
                 "after": "109.4 원",
@@ -52732,25 +52798,25 @@
       "category": "기타 제·개정",
       "primary_change_summary": "",
       "priority_reasons": [
-        "신청·심사·집행 절차의 실질 문구 변경",
+        "지원 자격·법정 권리·의무의 실질 문구 변경",
         "특정 지방자치단체·지역·사업에 적용"
       ],
       "impact_assessment": {
         "classification": "pending",
-        "score": 45,
-        "score_min": 45,
-        "score_max": 70,
+        "score": 55,
+        "score_min": 55,
+        "score_max": 80,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
         "possible_high": true,
         "axes": {
           "substance": {
-            "score": 30,
+            "score": 40,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "신청·심사·집행 절차의 실질 문구 변경",
+                "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
                 "article": "제40조의2",
                 "before": "[신설]",
                 "after": "제40조의2(교섭단체 대표연설) ① 교섭단체 대표의원 또는 대표의원이 지정하는 소속 의원은 교섭단체를 대표하여 연설(이하 “교섭단체 대표연설”이라 한다)을 할 수 있다. ② 교섭단체 대표연설은 매년 첫 번째 임시회에서 실시한다. 다만, 부득이한 사유로 해당 임시회에서 실시하지 못한 경우에는 의장이 각 교",
@@ -53496,7 +53562,7 @@
       "category": "행정절차·인허가",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
@@ -53514,7 +53580,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "표 3 · 병동진입출입구 · □ 단독 □ 건물내 ( 층/ 층)",
                 "before": "2층 이상 위치시",
                 "after": "[삭제]",
@@ -64989,27 +65055,27 @@
       "revision": "제정",
       "url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EB%B0%94%EC%9D%B4%EC%98%A4%EA%B0%80%EC%8A%A4%20%EB%AF%BC%EA%B0%84%EC%9D%98%EB%AC%B4%EC%83%9D%EC%82%B0%EC%9E%90%20%EA%B3%A0%EC%8B%9C",
       "category": "기타 제·개정",
-      "primary_change_summary": "",
+      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "자격·권리·의무의 실질 문구 변경",
+        "제한적인 본문·명칭·인용 정비",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
-        "classification": "high",
-        "score": 65,
-        "score_min": 65,
-        "score_max": 90,
+        "classification": "normal",
+        "score": 35,
+        "score_min": 35,
+        "score_max": 60,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
         "possible_high": false,
         "axes": {
           "substance": {
-            "score": 40,
+            "score": 10,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "자격·권리·의무의 실질 문구 변경",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "표 1 · 1 · 사업장명",
                 "before": "타임스퀘어 00021호",
                 "after": "[삭제]",
@@ -65047,11 +65113,7 @@
             ]
           }
         },
-        "featured_change_indices": [
-          2,
-          3,
-          4
-        ],
+        "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "changed",
@@ -65064,7 +65126,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/2026%EB%85%84%20%EB%B0%94%EC%9D%B4%EC%98%A4%EA%B0%80%EC%8A%A4%20%EB%AF%BC%EA%B0%84%EC%9D%98%EB%AC%B4%EC%83%9D%EC%82%B0%EC%9E%90%20%EA%B3%A0%EC%8B%9C",
       "detail_url": "events/ff044fdfe5fbc5fc97a37400.json",
       "change_count": 10,
@@ -73543,11 +73605,11 @@
       "revision": "전부개정",
       "url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EA%B5%90%EC%9C%A1%EA%B8%89%EC%97%AC%EC%9D%98%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80",
       "category": "급여·지원기준",
-      "primary_change_summary": "본문 · * → ※",
+      "primary_change_summary": "표 1 · 금액 (원/월) · 1인가구 · 1,282,119 → 1,368,021",
       "priority_reasons": [
-        "자격·권리·의무의 실질 문구 변경",
+        "급여·금액·요율 등 실질 지급 기준 변경",
         "전국 공통 법정 급여·보장·보험 기준",
-        "별개로 확인된 복수 하위 규정·공공사업 연결 경로"
+        "서로 다른 공식 하위 규정·공공사업 연결 경로 2개 이상 확인"
       ],
       "impact_assessment": {
         "classification": "high",
@@ -73564,10 +73626,10 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "자격·권리·의무의 실질 문구 변경",
-                "article": "본문",
-                "before": "… 정한다. 1) 선정기준 [표: 공식 첨부 참조] * 8인 이상 가구의 교육급여 선정기준: 1인 증가시마다 479,599원씩 증가(8인가구: 5,237,174원)…",
-                "after": "… 정한다. 1) 선정기준 [표: 공식 첨부 참조] ※ 8인 이상 가구의 교육급여 선정기준은 7인 가구 선정기준 + (7인 가구 선정기준 － 6인 가구의 선정기준) × {(해당 가구원…",
+                "reason": "급여·금액·요율 등 실질 지급 기준 변경",
+                "article": "표 1 · 금액 (원/월) · 1인가구",
+                "before": "1,282,119",
+                "after": "1,368,021",
                 "source_title": "2027년 교육급여의 선정기준 및 최저보장수준",
                 "source_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EA%B5%90%EC%9C%A1%EA%B8%89%EC%97%AC%EC%9D%98%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80"
               }
@@ -73592,20 +73654,36 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "별개로 확인된 복수 하위 규정·공공사업 연결 경로",
+                "reason": "서로 다른 공식 하위 규정·공공사업 연결 경로 2개 이상 확인",
                 "article": "",
                 "before": "",
                 "after": "",
                 "source_title": "2027년 교육급여의 선정기준 및 최저보장수준",
                 "source_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EA%B5%90%EC%9C%A1%EA%B8%89%EC%97%AC%EC%9D%98%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80"
+              },
+              {
+                "reason": "경기도 수원시 · 기초생활보장 교육급여",
+                "article": "",
+                "before": "국민기초생활 보장법(제12조)||국민기초생활 보장법(제7조)",
+                "after": "",
+                "source_title": "기초생활보장 교육급여",
+                "source_url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001326&bnefType=all&svcId=374000000109"
+              },
+              {
+                "reason": "교육부 · 교육급여",
+                "article": "",
+                "before": "국민기초생활 보장법(제12조)  ",
+                "after": "",
+                "source_title": "교육급여",
+                "source_url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=726481&bnefType=all&svcId=134200000003"
               }
             ]
           }
         },
         "featured_change_indices": [
-          0,
           1,
-          2
+          2,
+          3
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -74055,9 +74133,9 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표 1 · 금액 (원/월) · 1인 가구 · 1,230,834 → 1,313,300",
       "priority_reasons": [
-        "급여·금액·자격·권리 등 실질 기준의 변경",
+        "급여·금액·요율 등 실질 지급 기준 변경",
         "전국 공통 법정 급여·보장·보험 기준",
-        "별개로 확인된 복수 하위 규정·공공사업 연결 경로"
+        "서로 다른 공식 하위 규정·공공사업 연결 경로 2개 이상 확인"
       ],
       "impact_assessment": {
         "classification": "high",
@@ -74074,7 +74152,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "급여·금액·자격·권리 등 실질 기준의 변경",
+                "reason": "급여·금액·요율 등 실질 지급 기준 변경",
                 "article": "표 1 · 금액 (원/월) · 1인 가구",
                 "before": "1,230,834",
                 "after": "1,313,300",
@@ -74102,12 +74180,28 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "별개로 확인된 복수 하위 규정·공공사업 연결 경로",
+                "reason": "서로 다른 공식 하위 규정·공공사업 연결 경로 2개 이상 확인",
                 "article": "",
                 "before": "",
                 "after": "",
                 "source_title": "2027년 주거급여 선정기준 및 최저보장수준",
                 "source_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80"
+              },
+              {
+                "reason": "서울특별시 동대문구 · 저소득층 주거급여 지원",
+                "article": "",
+                "before": "주거급여법(제7조)",
+                "after": "",
+                "source_title": "저소득층 주거급여 지원",
+                "source_url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=809819&bnefType=all&svcId=305000000140"
+              },
+              {
+                "reason": "국토교통부 · 주거급여 (맞춤형 급여)",
+                "article": "",
+                "before": "주거급여법(제1조)||주거급여법(제2조)||주거급여법(제3조)||국민기초생활 보장법(제34조)  ",
+                "after": "",
+                "source_title": "주거급여 (맞춤형 급여)",
+                "source_url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=999076&bnefType=all&svcId=336000000096"
               }
             ]
           }
@@ -75383,41 +75477,40 @@
       "revision": "제정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000283564",
       "category": "행정절차·인허가",
-      "primary_change_summary": "첨부 1 · 55 → 60",
+      "primary_change_summary": "",
       "priority_reasons": [
-        "급여·금액·자격·권리 등 실질 기준의 변경",
-        "중앙행정규칙이 관할하는 전국 특정 분야"
+        "전국 공통 법정 급여·보장·보험 기준"
       ],
       "impact_assessment": {
-        "classification": "high",
-        "score": 65,
-        "score_min": 65,
-        "score_max": 90,
+        "classification": "pending",
+        "score": 35,
+        "score_min": 35,
+        "score_max": 100,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": false,
+        "possible_high": true,
         "axes": {
           "substance": {
-            "score": 40,
-            "status": "confirmed",
+            "score": null,
+            "status": "pending",
             "evidence": [
               {
-                "reason": "급여·금액·자격·권리 등 실질 기준의 변경",
-                "article": "첨부 1",
-                "before": "…1항 및 같은 법 시행령 제8조에 따라 2027년 적용 최저임금안을 다음과 같이 고시하니, 이 안에 대하여 이의가 있는 노․사 단체 대표자는 같은 법 시행령 제9조에 따라 고시일로부터 10일 이내에이의제기서를제출하여주시기바랍니다 . 2026. 7. 16. 고용노동부장관 《 2027년 적용 최저임금안 》",
-                "after": "…년 1월 1일부터 2027년 12월 31일까지 적용되는 최저임금액을 다음과 같이 고시합니다 . 2026. 8. 5. 고 용 노 동 부 장 관 1. 최저임금액 결정단위 업종 …",
+                "reason": "종전 대조본이 정책안이므로 전년도 확정 기준과 추가 대조 필요",
+                "article": "",
+                "before": "",
+                "after": "",
                 "source_title": "2027년 적용 최저임금 고시",
                 "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000283564"
               }
             ]
           },
           "scope": {
-            "score": 25,
+            "score": 35,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+                "reason": "전국 공통 법정 급여·보장·보험 기준",
                 "article": "",
                 "before": "",
                 "after": "",
@@ -75441,9 +75534,7 @@
             ]
           }
         },
-        "featured_change_indices": [
-          0
-        ],
+        "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "changed",
@@ -75456,7 +75547,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "pending",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000282670",
       "detail_url": "events/9b3042b608e2896d1d527e70.json",
       "change_count": 1,
@@ -75974,7 +76065,7 @@
       "revision": "전부개정",
       "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EB%B0%A9%EB%B6%80%EC%A1%B0%EC%82%AC%EB%B3%B8%EB%B6%80%EB%A0%B9",
       "category": "행정절차·인허가",
-      "primary_change_summary": "제2조 · 본부장 등 → 기본원칙",
+      "primary_change_summary": "제4조 · 정원 → 임무 수행 시 이의제기 등",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -76032,7 +76123,7 @@
           }
         },
         "featured_change_indices": [
-          1,
+          3,
           0,
           2
         ],
@@ -77408,7 +77499,7 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EA%B0%80%ED%86%B5%EA%B3%84%EC%9C%84%EC%9B%90%ED%9A%8C%20%EA%B7%9C%EC%A0%95",
       "category": "급여·지원기준",
-      "primary_change_summary": "제8조의2 · 신설 → 분과위원회 위원장의 직무, 분과위원회의 회의, 의견의 청취 및 회의록에 관하여는",
+      "primary_change_summary": "제3조 · 1 → 2",
       "priority_reasons": [
         "국가 법률에 따른 전국 단위 규율 범위"
       ],
@@ -77466,6 +77557,7 @@
           }
         },
         "featured_change_indices": [
+          1,
           4
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
@@ -77557,7 +77649,8 @@
           }
         },
         "featured_change_indices": [
-          3
+          3,
+          6
         ],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
@@ -77672,41 +77765,40 @@
       "revision": "제정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000282670",
       "category": "행정절차·인허가",
-      "primary_change_summary": "첨부 1 · 2025 → 2026",
+      "primary_change_summary": "",
       "priority_reasons": [
-        "급여·금액·자격·권리 등 실질 기준의 변경",
-        "중앙행정규칙이 관할하는 전국 특정 분야"
+        "전국 공통 법정 급여·보장·보험 기준"
       ],
       "impact_assessment": {
-        "classification": "high",
-        "score": 65,
-        "score_min": 65,
-        "score_max": 90,
+        "classification": "pending",
+        "score": 35,
+        "score_min": 35,
+        "score_max": 100,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
-        "possible_high": false,
+        "possible_high": true,
         "axes": {
           "substance": {
-            "score": 40,
-            "status": "confirmed",
+            "score": null,
+            "status": "pending",
             "evidence": [
               {
-                "reason": "급여·금액·자격·권리 등 실질 기준의 변경",
-                "article": "첨부 1",
-                "before": "…동부고시제2025–47호 2026년 적용 최저임금 고시 「최저임금법」제10조제1 항에 따라 2026년 1월 1일부터 2026년 12월 31일까지 적용되는 최저임금액을…",
-                "after": "…시제2026 – 55호 2027년 적용 최저임금안 고시 「최저임금법 」제9조제1 항 및 같은 법 시행령 제8조에 따라 2027년 적용 최저임금안을 다음과 같이 고시하니, 이 안에 대하여 이의가…",
+                "reason": "확정 전 정책안 · 효력 있는 최종 기준 확인 필요",
+                "article": "",
+                "before": "",
+                "after": "",
                 "source_title": "2027년 적용 최저임금안 고시",
                 "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000282670"
               }
             ]
           },
           "scope": {
-            "score": 25,
+            "score": 35,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+                "reason": "전국 공통 법정 급여·보장·보험 기준",
                 "article": "",
                 "before": "",
                 "after": "",
@@ -77730,9 +77822,7 @@
             ]
           }
         },
-        "featured_change_indices": [
-          0
-        ],
+        "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "changed",
@@ -77745,7 +77835,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "pending",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000262710",
       "detail_url": "events/7c6cfc96250abb8467924f10.json",
       "change_count": 2,
@@ -82119,7 +82209,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
@@ -82137,7 +82227,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "첨부 1",
                 "before": "- 1 - ◉병무청고시 제 2025-2호 년도 병역지정업체 선정 및 인원배정 기준에 대하여 다음과 같이 고시합니다 2026…",
                 "after": "◉병무청고시 제2026-2호 2027년도 병역지정업체 선정 및 인원배정 기준 2027 년도 병역지정업체 선정 및 인원배정 기준에 대하여 다음과 같이 고시합니다. 202…",
@@ -84587,7 +84677,7 @@
       "category": "기타 제·개정",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
@@ -84605,7 +84695,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "첨부 1",
                 "before": "◉ 환경부고시 제 2024-34호 수도법 제 조 및 같은 법 시행령 제 조제 항에 따라 년…",
                 "after": "◉ 기후에너지환경부고시 제 2026-49호 수도법 제 조 및 같은 법 시행령 제 조제 항에 따라 년…",
@@ -85333,7 +85423,7 @@
       "category": "급여·지원기준",
       "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "경미하거나 적용 범위가 제한적인 본문 정비",
+        "제한적인 본문·명칭·인용 정비",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
@@ -85351,7 +85441,7 @@
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "첨부 1",
                 "before": "- 1 - 병무청 고시 2024 - 7호 2026년도 사회복무요원 배정기준 등을 다음과 같…",
                 "after": "병무청 고시 2025 - 5호 2027년도 사회복무요원 배정기준 등을 다음과 같이…",
@@ -89685,30 +89775,30 @@
       "revision": "일부개정",
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000266578",
       "category": "기타 제·개정",
-      "primary_change_summary": "본문 · 장기 재활용목표율 → 장기재활용목표율",
+      "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
       "priority_reasons": [
-        "자격·권리·의무의 실질 문구 변경",
+        "제한적인 본문·명칭·인용 정비",
         "중앙행정규칙이 관할하는 전국 특정 분야"
       ],
       "impact_assessment": {
-        "classification": "high",
-        "score": 65,
-        "score_min": 65,
-        "score_max": 90,
+        "classification": "normal",
+        "score": 35,
+        "score_min": 35,
+        "score_max": 60,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
         "possible_high": false,
         "axes": {
           "substance": {
-            "score": 40,
+            "score": 10,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "자격·권리·의무의 실질 문구 변경",
+                "reason": "제한적인 본문·명칭·인용 정비",
                 "article": "본문",
-                "before": "…을 제외한 합성수지재질 필름류의 경우, 복합재질 및 필름ㆍ시트형 단일ㆍ복합재질의 장기재활용의무율을 적용한다.",
-                "after": "…을 제외한 합성수지재질 필름류의 경우, 복합재질 및 필름ㆍ시트형 단일ㆍ복합재질의 장기재활용목표율을 적용한다.",
+                "before": "1. 2027년 제품ㆍ포장재별 장기 재활용목표율 (법 제15조의2제1항제1호에 해당하는 용기 제외) [표: 공식 첨부 참조] [표…",
+                "after": "1. 2027년 제품ㆍ포장재별 장기재활용목표율 (법 제15조의2제1항제1호에 해당하는 용기 제외) [표: 공식 첨부 참조] 2.…",
                 "source_title": "2027년도 제품·포장재별 장기재활용목표율",
                 "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000266578"
               }
@@ -89743,9 +89833,7 @@
             ]
           }
         },
-        "featured_change_indices": [
-          0
-        ],
+        "featured_change_indices": [],
         "scoring_version": "substance40-scope35-ripple25-v1"
       },
       "comparison_status": "changed",
@@ -89758,7 +89846,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000234894",
       "detail_url": "events/549d2e52911e4e6d77bf7fe1.json",
       "change_count": 5,
@@ -90763,13 +90851,13 @@
       "category": "기타 제·개정",
       "primary_change_summary": "",
       "priority_reasons": [
-        "중앙행정규칙이 관할하는 전국 특정 분야"
+        "전국 공통 법정 급여·보장·보험 기준"
       ],
       "impact_assessment": {
         "classification": "pending",
-        "score": 25,
-        "score_min": 25,
-        "score_max": 90,
+        "score": 35,
+        "score_min": 35,
+        "score_max": 100,
         "score_complete": false,
         "threshold": 65,
         "minimum_substance": 30,
@@ -90790,11 +90878,11 @@
             ]
           },
           "scope": {
-            "score": 25,
+            "score": 35,
             "status": "confirmed",
             "evidence": [
               {
-                "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+                "reason": "전국 공통 법정 급여·보장·보험 기준",
                 "article": "",
                 "before": "",
                 "after": "",
@@ -114655,8 +114743,8 @@
       "partial_unverified": 303,
       "changed": 128
     },
-    "ai_explanation_attempts": 2,
-    "ai_verified_explanations": 6,
+    "ai_explanation_attempts": 7,
+    "ai_verified_explanations": 11,
     "ai_failures": 2,
     "ai_failure_reasons": {
       "UnverifiedAnalysis:Explanation contains unsupported numerical claim": 1,
@@ -114670,7 +114758,7 @@
     "alio_public_institutions": 355,
     "alio_reported": 355,
     "alio_source_url": "https://www.alioplus.go.kr/organization/organByTypeList.do?schApbaGb=APBA&pageNo=1",
-    "alio_updated_at": "2026-11-11T12:01:41.411495+00:00",
+    "alio_updated_at": "2026-11-11T12:13:37.714520+00:00",
     "gov24_programs": 10942,
     "gov24_agencies": 686,
     "gov24_agency_types": {

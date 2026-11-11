@@ -9,41 +9,40 @@
   "revision": "제정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000283564",
   "category": "행정절차·인허가",
-  "primary_change_summary": "첨부 1 · 55 → 60",
+  "primary_change_summary": "",
   "priority_reasons": [
-    "급여·금액·자격·권리 등 실질 기준의 변경",
-    "중앙행정규칙이 관할하는 전국 특정 분야"
+    "전국 공통 법정 급여·보장·보험 기준"
   ],
   "impact_assessment": {
-    "classification": "high",
-    "score": 65,
-    "score_min": 65,
-    "score_max": 90,
+    "classification": "pending",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 100,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
-    "possible_high": false,
+    "possible_high": true,
     "axes": {
       "substance": {
-        "score": 40,
-        "status": "confirmed",
+        "score": null,
+        "status": "pending",
         "evidence": [
           {
-            "reason": "급여·금액·자격·권리 등 실질 기준의 변경",
-            "article": "첨부 1",
-            "before": "…1항 및 같은 법 시행령 제8조에 따라 2027년 적용 최저임금안을 다음과 같이 고시하니, 이 안에 대하여 이의가 있는 노․사 단체 대표자는 같은 법 시행령 제9조에 따라 고시일로부터 10일 이내에이의제기서를제출하여주시기바랍니다 . 2026. 7. 16. 고용노동부장관 《 2027년 적용 최저임금안 》",
-            "after": "…년 1월 1일부터 2027년 12월 31일까지 적용되는 최저임금액을 다음과 같이 고시합니다 . 2026. 8. 5. 고 용 노 동 부 장 관 1. 최저임금액 결정단위 업종 …",
+            "reason": "종전 대조본이 정책안이므로 전년도 확정 기준과 추가 대조 필요",
+            "article": "",
+            "before": "",
+            "after": "",
             "source_title": "2027년 적용 최저임금 고시",
             "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000283564"
           }
         ]
       },
       "scope": {
-        "score": 25,
+        "score": 35,
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "reason": "전국 공통 법정 급여·보장·보험 기준",
             "article": "",
             "before": "",
             "after": "",
@@ -67,9 +66,7 @@
         ]
       }
     },
-    "featured_change_indices": [
-      0
-    ],
+    "featured_change_indices": [],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
   "comparison_status": "changed",
@@ -194,7 +191,7 @@
         }
       ],
       "diff_window_count": 17,
-      "substance_score": 40
+      "substance_score": 10
     }
   ],
   "unresolved": [],
@@ -208,6 +205,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "high",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000282670"
 }

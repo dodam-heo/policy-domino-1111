@@ -9,30 +9,30 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000266578",
   "category": "기타 제·개정",
-  "primary_change_summary": "본문 · 장기 재활용목표율 → 장기재활용목표율",
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
   "priority_reasons": [
-    "자격·권리·의무의 실질 문구 변경",
+    "제한적인 본문·명칭·인용 정비",
     "중앙행정규칙이 관할하는 전국 특정 분야"
   ],
   "impact_assessment": {
-    "classification": "high",
-    "score": 65,
-    "score_min": 65,
-    "score_max": 90,
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
     "possible_high": false,
     "axes": {
       "substance": {
-        "score": 40,
+        "score": 10,
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "자격·권리·의무의 실질 문구 변경",
+            "reason": "제한적인 본문·명칭·인용 정비",
             "article": "본문",
-            "before": "…을 제외한 합성수지재질 필름류의 경우, 복합재질 및 필름ㆍ시트형 단일ㆍ복합재질의 장기재활용의무율을 적용한다.",
-            "after": "…을 제외한 합성수지재질 필름류의 경우, 복합재질 및 필름ㆍ시트형 단일ㆍ복합재질의 장기재활용목표율을 적용한다.",
+            "before": "1. 2027년 제품ㆍ포장재별 장기 재활용목표율 (법 제15조의2제1항제1호에 해당하는 용기 제외) [표: 공식 첨부 참조] [표…",
+            "after": "1. 2027년 제품ㆍ포장재별 장기재활용목표율 (법 제15조의2제1항제1호에 해당하는 용기 제외) [표: 공식 첨부 참조] 2.…",
             "source_title": "2027년도 제품·포장재별 장기재활용목표율",
             "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000266578"
           }
@@ -67,9 +67,7 @@
         ]
       }
     },
-    "featured_change_indices": [
-      0
-    ],
+    "featured_change_indices": [],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
   "comparison_status": "changed",
@@ -166,7 +164,7 @@
         }
       ],
       "diff_window_count": 6,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "첨부 1",
@@ -438,6 +436,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000234894"
 }

@@ -9,7 +9,7 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EA%B0%80%ED%86%B5%EA%B3%84%EC%9C%84%EC%9B%90%ED%9A%8C%20%EA%B7%9C%EC%A0%95",
   "category": "급여·지원기준",
-  "primary_change_summary": "제8조의2 · 신설 → 분과위원회 위원장의 직무, 분과위원회의 회의, 의견의 청취 및 회의록에 관하여는",
+  "primary_change_summary": "제3조 · 1 → 2",
   "priority_reasons": [
     "국가 법률에 따른 전국 단위 규율 범위"
   ],
@@ -67,6 +67,7 @@
       }
     },
     "featured_change_indices": [
+      1,
       4
     ],
     "scoring_version": "substance40-scope35-ripple25-v1"
@@ -188,7 +189,7 @@
         }
       ],
       "diff_window_count": 6,
-      "substance_score": 10
+      "substance_score": 40
     },
     {
       "article": "제4조의2",
@@ -383,7 +384,7 @@
         }
       ],
       "diff_window_count": 8,
-      "substance_score": 20
+      "substance_score": 40
     }
   ],
   "unresolved": [

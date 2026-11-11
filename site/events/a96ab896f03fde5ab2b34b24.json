@@ -9,7 +9,7 @@
   "revision": "전부개정",
   "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EB%B0%A9%EB%B6%80%EC%A1%B0%EC%82%AC%EB%B3%B8%EB%B6%80%EB%A0%B9",
   "category": "행정절차·인허가",
-  "primary_change_summary": "제2조 · 본부장 등 → 기본원칙",
+  "primary_change_summary": "제4조 · 정원 → 임무 수행 시 이의제기 등",
   "priority_reasons": [
     "국가 법률에 따른 전국 단위 규율 범위"
   ],
@@ -67,7 +67,7 @@
       }
     },
     "featured_change_indices": [
-      1,
+      3,
       0,
       2
     ],
@@ -274,7 +274,7 @@
         }
       ],
       "diff_window_count": 8,
-      "substance_score": 40
+      "substance_score": 20
     },
     {
       "article": "제3조",
@@ -418,7 +418,7 @@
         }
       ],
       "diff_window_count": 3,
-      "substance_score": 30
+      "substance_score": 40
     }
   ],
   "unresolved": [

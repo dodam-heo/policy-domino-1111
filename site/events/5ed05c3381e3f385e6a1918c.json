@@ -11,13 +11,13 @@
   "category": "기타 제·개정",
   "primary_change_summary": "",
   "priority_reasons": [
-    "중앙행정규칙이 관할하는 전국 특정 분야"
+    "전국 공통 법정 급여·보장·보험 기준"
   ],
   "impact_assessment": {
     "classification": "pending",
-    "score": 25,
-    "score_min": 25,
-    "score_max": 90,
+    "score": 35,
+    "score_min": 35,
+    "score_max": 100,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
@@ -38,11 +38,11 @@
         ]
       },
       "scope": {
-        "score": 25,
+        "score": 35,
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "reason": "전국 공통 법정 급여·보장·보험 기준",
             "article": "",
             "before": "",
             "after": "",

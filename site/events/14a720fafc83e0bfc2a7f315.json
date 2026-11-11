@@ -12,7 +12,7 @@
   "primary_change_summary": "제4조 · 의한 → 따른",
   "priority_reasons": [
     "특정 지방자치단체·지역·사업에 적용",
-    "공식 공공사업 운영기준과 변경 조문 직접 연결"
+    "공식 사업 운영기준의 변경 조문 인용 확인"
   ],
   "impact_assessment": {
     "classification": "pending",
@@ -57,12 +57,20 @@
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "공식 공공사업 운영기준과 변경 조문 직접 연결",
+            "reason": "공식 사업 운영기준의 변경 조문 인용 확인",
             "article": "",
             "before": "",
             "after": "",
             "source_title": "안동시 국가보훈대상자 예우 및 지원에 관한 조례",
             "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183067"
+          },
+          {
+            "reason": "경상북도 안동시 · 국가보훈대상자 사망위로금 지원",
+            "article": "",
+            "before": "  안동시 국가보훈대상자 예우 및 지원에 관한 조례(제14조)",
+            "after": "",
+            "source_title": "국가보훈대상자 사망위로금 지원",
+            "source_url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1006081&bnefType=all&svcId=507000000768"
           }
         ]
       }

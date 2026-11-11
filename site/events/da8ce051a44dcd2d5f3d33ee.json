@@ -9,27 +9,27 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9D%98%EB%A3%8C%EA%B8%B0%EA%B4%80%EB%B3%84%EA%B8%89%EC%97%AC%EC%A0%81%EC%A0%95%EC%84%B1%ED%8F%89%EA%B0%80%ED%98%84%ED%99%A9%29",
   "category": "급여·지원기준",
-  "primary_change_summary": "",
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
   "priority_reasons": [
-    "신청·심사·집행 절차의 실질 문구 변경",
+    "제한적인 본문·명칭·인용 정비",
     "중앙행정규칙이 관할하는 전국 특정 분야"
   ],
   "impact_assessment": {
-    "classification": "pending",
-    "score": 55,
-    "score_min": 55,
-    "score_max": 80,
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
-    "possible_high": true,
+    "possible_high": false,
     "axes": {
       "substance": {
-        "score": 30,
+        "score": 10,
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "신청·심사·집행 절차의 실질 문구 변경",
+            "reason": "제한적인 본문·명칭·인용 정비",
             "article": "표 1 · 작성항목 · 변경 후",
             "before": "[신설]",
             "after": "<부문: 대장암> ㅇ 조사문항 - 수정 11개",
@@ -67,11 +67,7 @@
         ]
       }
     },
-    "featured_change_indices": [
-      1,
-      2,
-      3
-    ],
+    "featured_change_indices": [],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
   "comparison_status": "changed",
@@ -106,7 +102,7 @@
       "after": "<부문: 대장암> ㅇ 조사문항 - 수정 11개",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 1 · 조사대상 기간 · 변경 전",
@@ -114,7 +110,7 @@
       "after": "<부문: 정신건강> ㅇ ‘23.8.~‘24.1.",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 1 · 조사대상 기간 · 변경 후",
@@ -122,7 +118,7 @@
       "after": "<부문: 정신건강> ㅇ ‘26.1.~‘26.6.",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 1 · 조사실시 기간 · 변경 전",
@@ -130,7 +126,7 @@
       "after": "<부문: 정신건강> ㅇ ‘24.7.-‘24.8.",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 1 · 조사실시 기간 · 변경 후",
@@ -138,7 +134,7 @@
       "after": "<부문: 정신건강> ㅇ ‘26.12.~‘27.1.",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 1 · 통계표 (결과표) · 변경 전",
@@ -146,7 +142,7 @@
       "after": "<부문: 대장암> ㅇ 평가지표 10개",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 1 · 통계표 (결과표) · 변경 후",
@@ -154,7 +150,7 @@
       "after": "<부문: 대장암> ㅇ 평가지표 10개 - 지표 개선 2개",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 5 · 작성항목 · 변경 전",
@@ -162,7 +158,7 @@
       "after": "[삭제]",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 5 · 작성항목 · 변경 후",
@@ -170,7 +166,7 @@
       "after": "[삭제]",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 5 · 조사대상 · 변 경 사 유",
@@ -178,7 +174,7 @@
       "after": "[삭제]",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 5 · 조사대상 · 변경 전",
@@ -186,7 +182,7 @@
       "after": "[삭제]",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 5 · 조사대상 · 변경 후",
@@ -194,7 +190,7 @@
       "after": "[삭제]",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 5 · 조사대상기간 · 변경 전",
@@ -202,7 +198,7 @@
       "after": "[삭제]",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 5 · 조사대상기간 · 변경 후",
@@ -210,7 +206,7 @@
       "after": "[삭제]",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 5 · 조사실시기간 · 변경 전",
@@ -218,7 +214,7 @@
       "after": "[삭제]",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 5 · 조사실시기간 · 변경 후",
@@ -226,7 +222,7 @@
       "after": "[삭제]",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 5 · 통계표 (결과표) · 변경 전",
@@ -234,7 +230,7 @@
       "after": "[삭제]",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     },
     {
       "article": "표 5 · 통계표 (결과표) · 변경 후",
@@ -242,7 +238,7 @@
       "after": "[삭제]",
       "focus": [],
       "diff_window_count": 0,
-      "substance_score": 30
+      "substance_score": 10
     }
   ],
   "unresolved": [],
@@ -256,6 +252,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "pending",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000280596"
 }

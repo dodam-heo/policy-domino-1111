@@ -9,7 +9,7 @@
   "revision": "타법개정",
   "url": "https://www.law.go.kr/법령/%EB%A8%B9%EB%8A%94%EB%AC%BC%EA%B4%80%EB%A6%AC%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
   "category": "기타 제·개정",
-  "primary_change_summary": "",
+  "primary_change_summary": "제17조의4 · 일반일간신문에 게재하고 → 일반일간신문, 정보통신매체 또는 그 밖의 효과적인 방법을 이용하여 공표하고",
   "priority_reasons": [
     "국가 법률에 따른 전국 단위 규율 범위"
   ],
@@ -66,7 +66,10 @@
         ]
       }
     },
-    "featured_change_indices": [],
+    "featured_change_indices": [
+      0,
+      1
+    ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
   "comparison_status": "partial_unverified",
@@ -107,7 +110,7 @@
         }
       ],
       "diff_window_count": 2,
-      "substance_score": 10
+      "substance_score": 40
     },
     {
       "article": "제1조의2",
@@ -144,7 +147,7 @@
         }
       ],
       "diff_window_count": 2,
-      "substance_score": 10
+      "substance_score": 40
     }
   ],
   "unresolved": [

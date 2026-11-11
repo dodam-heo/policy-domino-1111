@@ -9,7 +9,7 @@
   "revision": "타법개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=law&type=HTML&MST=291907",
   "category": "행정절차·인허가",
-  "primary_change_summary": "별표 0008 (해양재난구조대원 치료 신청서) · 신설 → <개정 2026. 11. 11.>",
+  "primary_change_summary": "제21조 · 신설 → 통합특별시장ㆍ",
   "priority_reasons": [
     "국가 법률에 따른 전국 단위 규율 범위"
   ],
@@ -67,6 +67,7 @@
       }
     },
     "featured_change_indices": [
+      1,
       0
     ],
     "scoring_version": "substance40-scope35-ripple25-v1"
@@ -160,7 +161,7 @@
         }
       ],
       "diff_window_count": 2,
-      "substance_score": 10
+      "substance_score": 40
     }
   ],
   "unresolved": [

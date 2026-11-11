@@ -9,7 +9,7 @@
   "revision": "타법개정",
   "url": "https://www.law.go.kr/법령/%EC%97%AC%EC%88%98%EC%84%B8%EA%B3%84%EB%B0%95%EB%9E%8C%ED%9A%8C%20%EA%B8%B0%EB%85%90%20%EB%B0%8F%20%EC%82%AC%ED%9B%84%ED%99%9C%EC%9A%A9%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
   "category": "행정절차·인허가",
-  "primary_change_summary": "",
+  "primary_change_summary": "제11조의2 · 도(道)와 → 통합특별시와",
   "priority_reasons": [
     "국가 법률에 따른 전국 단위 규율 범위"
   ],
@@ -66,7 +66,11 @@
         ]
       }
     },
-    "featured_change_indices": [],
+    "featured_change_indices": [
+      0,
+      1,
+      2
+    ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
   "comparison_status": "partial_unverified",
@@ -93,7 +97,7 @@
         }
       ],
       "diff_window_count": 1,
-      "substance_score": 10
+      "substance_score": 40
     },
     {
       "article": "제13조",
@@ -214,7 +218,7 @@
         }
       ],
       "diff_window_count": 12,
-      "substance_score": 10
+      "substance_score": 40
     },
     {
       "article": "제1조의2",
@@ -335,7 +339,7 @@
         }
       ],
       "diff_window_count": 13,
-      "substance_score": 10
+      "substance_score": 40
     }
   ],
   "unresolved": [

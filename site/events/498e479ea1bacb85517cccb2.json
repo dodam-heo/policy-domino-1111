@@ -9,7 +9,7 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181093",
   "category": "기타 제·개정",
-  "primary_change_summary": "",
+  "primary_change_summary": "제13조 · 농기계를 출고한 후에 발생하는 인적ㆍ물적 피해 사고 등에 대하여는 임차인이 민ㆍ형사상의 책임을 진다. → 삭제",
   "priority_reasons": [
     "특정 지방자치단체·지역·사업에 적용"
   ],
@@ -66,7 +66,9 @@
         ]
       }
     },
-    "featured_change_indices": [],
+    "featured_change_indices": [
+      0
+    ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
   "comparison_status": "partial_unverified",
@@ -107,7 +109,7 @@
         }
       ],
       "diff_window_count": 2,
-      "substance_score": 10
+      "substance_score": 40
     }
   ],
   "unresolved": [

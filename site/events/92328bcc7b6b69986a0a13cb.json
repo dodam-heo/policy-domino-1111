@@ -9,9 +9,9 @@
   "revision": "전부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182323",
   "category": "행정절차·인허가",
-  "primary_change_summary": "제10조 · 주민안전과 → 민원여권과",
+  "primary_change_summary": "제15조 · 일자리청년과 → 세무관리과",
   "priority_reasons": [
-    "자격·권리·의무의 실질 문구 변경",
+    "지원 자격·법정 권리·의무의 실질 문구 변경",
     "단일 지방기관 내부 운영 범위"
   ],
   "impact_assessment": {
@@ -29,10 +29,10 @@
         "status": "confirmed",
         "evidence": [
           {
-            "reason": "자격·권리·의무의 실질 문구 변경",
-            "article": "제10조",
-            "before": "…정보시스템(NDMS) 관리에 관한 사항 5. 안전도시관련 평가에 관한 사항 6. 재난관리실태 평가에 관한 사항 7. 안전문화운동 협의회 구성ㆍ운영에 관한 사항 8. 국제재해경감전략기구(UNI…",
-            "after": "…관인제작 및 관리 4. 문서접수 및 배부 5. 120 시ㆍ구통합콜센터 운영 6. 기록물관리 및 기록관 운영 7. 행정자료실 운영 8. 우편물 분류 발송 및 접수 9. 정부24에 관한 사항…",
+            "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+            "article": "제15조",
+            "before": "…청년과장은 다음 사항을 분장한다. 1. 일자리종합계획 수립 및 시행에 관한 사항( 지역일자리 목표 공시제 ) 2. 일자리주식회사 설립 및 운영 업무 총괄 3. 일자리 관련 위원회 구성 및…",
+            "after": "…입 관리ㆍ분석 등 총괄 13. 세외수입 일반회계 지난 연도 체납징수에 관한 사항( 주차관리과 소관 사항 제외 ) 14. 세외수입 종합징수시스템 운영ㆍ관리에 관한 사항 15. 지방세 및 과태료…",
             "source_title": "서울특별시 금천구 행정기구 설치 조례 시행규칙",
             "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182323"
           }
@@ -68,9 +68,9 @@
       }
     },
     "featured_change_indices": [
-      0,
       5,
-      9
+      9,
+      10
     ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
@@ -196,7 +196,7 @@
         }
       ],
       "diff_window_count": 38,
-      "substance_score": 40
+      "substance_score": 30
     },
     {
       "article": "제11조",
@@ -1824,7 +1824,7 @@
         }
       ],
       "diff_window_count": 7,
-      "substance_score": 40
+      "substance_score": 20
     },
     {
       "article": "제27조",
@@ -3159,7 +3159,7 @@
         }
       ],
       "diff_window_count": 16,
-      "substance_score": 40
+      "substance_score": 30
     },
     {
       "article": "제40조",
@@ -3601,7 +3601,7 @@
         }
       ],
       "diff_window_count": 5,
-      "substance_score": 40
+      "substance_score": 30
     },
     {
       "article": "제44조",
@@ -3708,7 +3708,7 @@
         }
       ],
       "diff_window_count": 7,
-      "substance_score": 40
+      "substance_score": 10
     },
     {
       "article": "제45조",
