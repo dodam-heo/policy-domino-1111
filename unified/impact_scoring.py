@@ -146,29 +146,42 @@ def _scope(doc):
 
 
 def _ripple(actions, rules):
-    verified_programs = set()
-    for a in actions or []:
-        evidence = a.get("evidence") or {}
-        if (a.get("status") == "review_of_verified_citation"
-                and evidence.get("reference_quote") and evidence.get("service_quote")):
-            ident = a.get("service_id") or (
-                a.get("agency", ""), a.get("service", ""), a.get("changed_clause", ""))
-            verified_programs.add(str(ident))
-    verified_rules = {
-        (r.get("source"), r.get("stable_id"), r.get("serial"), r.get("article"))
-        for r in rules or []
-        if r.get("status") == "citation_dependency_review"
-        and r.get("reference_quote")
-    }
-    verified_rules.discard((None, None, None, None))
-    count = len(verified_programs) + len(verified_rules)
-    if count >= 2:
-        return 25, "별개로 확인된 복수 하위 규정·공공사업 연결 경로"
-    if verified_programs:
-        return 15, "공식 공공사업 운영기준과 변경 조문 직접 연결"
-    if verified_rules:
-        return 8, "하위 규정의 명시적 조문 인용 확인, 운영 영향은 대조 중"
-    # Absence of a discovered link is not an official determination of zero.
+    # Distinct verified operating programs and rule citations are evidence
+    # paths. A raw institution count is not one of the scoring inputs.
+    programs = {}
+    for action in actions or []:
+        proof = action.get("evidence") or {}
+        if (action.get("status") != "review_of_verified_citation" or
+                not proof.get("reference_quote") or not proof.get("service_quote")):
+            continue
+        identity = str(action.get("service_id") or (
+            action.get("agency", ""), action.get("service", ""),
+            action.get("changed_clause", "")))
+        programs.setdefault(identity, {
+            "kind": "official_program", "title": action.get("service", ""),
+            "agency": action.get("agency", ""),
+            "url": action.get("service_url", ""),
+            "quote": proof.get("reference_quote", ""),
+        })
+    matched_rules = {}
+    for rule in rules or []:
+        if (rule.get("status") != "citation_dependency_review"
+                or not rule.get("reference_quote")):
+            continue
+        identity = (rule.get("source"), rule.get("stable_id"),
+                    rule.get("serial"), rule.get("article"))
+        matched_rules.setdefault(identity, {
+            "kind": "official_rule", "title": rule.get("title", ""),
+            "article": rule.get("article", ""), "url": rule.get("url", ""),
+            "quote": rule.get("reference_quote", ""),
+        })
+    paths = list(programs.values()) + list(matched_rules.values())
+    if len(paths) >= 2:
+        return 25, "서로 다른 공식 하위 규정·공공사업 연결 경로 2개 이상 확인", paths
+    if programs:
+        return 15, "공식 사업 운영기준의 변경 조문 인용 확인", paths
+    if matched_rules:
+        return 8, "관련 공식 규정의 조문 인용 확인, 업무 파급은 추가 대조 중", paths
     return None
 
 
@@ -230,9 +243,13 @@ def evaluate(doc, comparison, actions=None, rules=None):
                            "evidence": [_evidence(doc, "적용 대상·지역 확인 필요")]})
     ripple = _ripple(actions, rules)
     axes["ripple"] = ({"score": ripple[0], "status": "confirmed",
-                       "evidence": [_evidence(doc, ripple[1],
-                                              link=(next((r.get("url") for r in rules or []
-                                                          if r.get("url")), None)))]}
+                       "evidence": [_evidence(doc, ripple[1])] + [
+                           {"reason": (p.get("agency", "") + " · " + p.get("title", "")).strip(" ·"),
+                            "article": p.get("article", ""),
+                            "before": str(p.get("quote") or "")[:170], "after": "",
+                            "source_title": p.get("title", ""),
+                            "source_url": p.get("url", "")}
+                           for p in ripple[2][:8]]}
                       if ripple else {"score": None, "status": "pending",
                                       "evidence": [_evidence(doc, "하위 규정·사업 파급 경로 조사 중")]})
     lower = sum(a["score"] for a in axes.values() if a["score"] is not None)
