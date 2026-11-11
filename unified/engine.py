@@ -591,6 +591,26 @@ def refresh_cached(root: Path) -> dict:
             continue
         before, after = load(root / relative_path(prior), {}), load(root / relative_path(current), {})
         if not (before.get("official_xml_base64") and after.get("official_xml_base64")):
+            # Imported comparisons lack archived originals: retain their raw
+            # evidence, but never promote them to fully verified comparisons.
+            result = dict(old)
+            changes = []
+            ignored = 0
+            for change in old.get("changes", []):
+                a, b = change.get("before", ""), change.get("after", "")
+                if substantive_text(a) == substantive_text(b):
+                    ignored += 1
+                    continue
+                focus, count = difference_windows(a, b)
+                changes.append({**change, "focus": focus, "diff_window_count": count})
+            result["changes"] = changes
+            unresolved = [u for u in old.get("unresolved", [])
+                          if u.get("reason") != "original_source_not_reverified"]
+            unresolved.append({"reason": "original_source_not_reverified"})
+            result.update({"status": "partial_unverified", "unresolved": unresolved,
+                           "counts": {"changed": len(changes), "unresolved": len(unresolved),
+                                      "presentation_only": ignored}})
+            rebuilt += int(store(path, result))
             continue
         result = compare_bodies(before["body"], after["body"],
                                 annual=old.get("relationship") == "annual_successor")
