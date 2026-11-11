@@ -43,11 +43,11 @@ const scopedAgencyCounts=actions=>new Map(actions.map(a=>[a.agency,1]));
     {id:'high-newer',title:'새로운 공공서비스 기준',impact_level:'high',published_at:'2026-10-01',
       impact_assessment:{classification:'high',score_min:75}}
   ];
-  assert.deepEqual(view.filterEvents(ranked,{sort:'impact'}).map(e=>e.id),
+  assert.deepEqual(Array.from(view.filterEvents(ranked,{sort:'impact'}).map(e=>e.id)),
     ['high-newer','high-older','pending','normal']);
-  assert.deepEqual(view.filterEvents(ranked,{sort:'impact',mode:'impact'}).map(e=>e.id),
+  assert.deepEqual(Array.from(view.filterEvents(ranked,{sort:'impact',mode:'impact'}).map(e=>e.id)),
     ['high-newer','high-older']);
-  assert.deepEqual(view.filterEvents(ranked,{sort:'published'}).map(e=>e.id),
+  assert.deepEqual(Array.from(view.filterEvents(ranked,{sort:'published'}).map(e=>e.id)),
     ['normal','pending','high-newer','high-older']);
   assert.deepEqual(Array.from(scopedAgencyCounts([{agency:'교육부'},{agency:'경기도 수원시'}]).keys()),['교육부','경기도 수원시']);
   const pending={};
