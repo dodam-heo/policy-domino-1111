@@ -1,0 +1,163 @@
+{
+  "id": "ordin|2062642|2159437",
+  "title": "부산광역시 부산진구 주민자율방역단 지원 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "부산광역시 부산진구",
+  "published_at": "2026-08-11",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%A3%BC%EB%AF%BC%EC%9E%90%EC%9C%A8%EB%B0%A9%EC%97%AD%EB%8B%A8%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80",
+  "category": "급여·지원기준",
+  "primary_change_summary": "제1조 · 동 주민센터별 → 동행정복지센터별",
+  "priority_reasons": [
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 15,
+    "score_min": 15,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 부산진구 주민자율방역단 지원 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%A3%BC%EB%AF%BC%EC%9E%90%EC%9C%A8%EB%B0%A9%EC%97%AD%EB%8B%A8%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 부산진구 주민자율방역단 지원 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%A3%BC%EB%AF%BC%EC%9E%90%EC%9C%A8%EB%B0%A9%EC%97%AD%EB%8B%A8%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 부산진구 주민자율방역단 지원 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%A3%BC%EB%AF%BC%EC%9E%90%EC%9C%A8%EB%B0%A9%EC%97%AD%EB%8B%A8%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제1조",
+      "before": "제1조(목적) 이 조례는 부산광역시 부산진구 동 주민센터별 주민자율방역단의 조직ㆍ지원에 필요한 사항을 규정함으로써 각종 매개체로부터 감염병을 예방하고 쾌적한 환경을 조성하여 지역주민의 건강한 삶을 영위하는데 기여함을 목적으로 한다.",
+      "after": "제1조(목적) 이 조례는 부산광역시 부산진구 동행정복지센터별 주민자율방역단의 조직ㆍ지원에 필요한 사항을 규정함으로써 각종 매개체로부터 감염병을 예방하고 쾌적한 환경을 조성하여 지역주민의 건강한 삶을 영위하는데 기여함을 목적으로 한다. <개정 2026.8.11.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제1조(목적) 이 조례는 부산광역시 부산진구 ",
+            "changed": "동 주민센터별",
+            "suffix": " 주민자율방역단의 조직ㆍ지원에 필요한 사항을 규정함으로써 각종 매개체로부터 감염병…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제1조(목적) 이 조례는 부산광역시 부산진구 ",
+            "changed": "동행정복지센터별",
+            "suffix": " 주민자율방역단의 조직ㆍ지원에 필요한 사항을 규정함으로써 각종 매개체로부터 감염병…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…쾌적한 환경을 조성하여 지역주민의 건강한 삶을 영위하는데 기여함을 목적으로 한다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…적한 환경을 조성하여 지역주민의 건강한 삶을 영위하는데 기여함을 목적으로 한다. ",
+            "changed": "<개정 2026.8.11.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 20
+    },
+    {
+      "article": "제3조",
+      "before": "제3조(구성) 자율방역단은 부산광역시 부산진구(이하 “구”라 한다) 각 동 주민센터별 1개단씩 동장이 구성할 수 있으며 인원은 10명 이상으로 한다.",
+      "after": "제3조(구성) 자율방역단은 부산광역시 부산진구(이하 “구”라 한다) 각 동행정복지센터별 1개단씩 동장이 구성할 수 있으며 인원은 10명 이상으로 한다. <개정 2026.8.11.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제3조(구성) 자율방역단은 부산광역시 부산진구(이하 “구”라 한다) 각 ",
+            "changed": "동 주민센터별",
+            "suffix": " 1개단씩 동장이 구성할 수 있으며 인원은 10명 이상으로 한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제3조(구성) 자율방역단은 부산광역시 부산진구(이하 “구”라 한다) 각 ",
+            "changed": "동행정복지센터별",
+            "suffix": " 1개단씩 동장이 구성할 수 있으며 인원은 10명 이상으로 한다. <개정 2026…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…각 동 주민센터별 1개단씩 동장이 구성할 수 있으며 인원은 10명 이상으로 한다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…동행정복지센터별 1개단씩 동장이 구성할 수 있으며 인원은 10명 이상으로 한다. ",
+            "changed": "<개정 2026.8.11.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1337773"
+}

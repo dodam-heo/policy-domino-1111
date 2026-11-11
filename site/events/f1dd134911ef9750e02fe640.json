@@ -9,29 +9,30 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%ED%99%98%EA%B2%BD%EC%A0%84%EB%AC%B8%EA%B3%B5%EC%82%AC%EC%97%85%EC%88%98%EC%A3%BC%EC%8B%A4%EC%A0%81%ED%98%84%ED%99%A9%29",
   "category": "행정절차·인허가",
-  "primary_change_summary": "",
+  "primary_change_summary": "본문 · 환경부 → 기후에너지환경부",
   "priority_reasons": [
+    "신청·심사·집행 절차의 실질 문구 변경",
     "중앙행정규칙이 관할하는 전국 특정 분야"
   ],
   "impact_assessment": {
     "classification": "pending",
-    "score": 25,
-    "score_min": 25,
-    "score_max": 90,
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
     "possible_high": true,
     "axes": {
       "substance": {
-        "score": null,
-        "status": "pending",
+        "score": 30,
+        "status": "confirmed",
         "evidence": [
           {
-            "reason": "종전·현행 원문 비교 대기",
-            "article": "",
-            "before": "",
-            "after": "",
+            "reason": "신청·심사·집행 절차의 실질 문구 변경",
+            "article": "본문",
+            "before": "1. 통계의 명칭 : 환경전문공사업수주실적현황 2. 통계작성기관의 명칭 : 환경부 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제106023호 [2006…",
+            "after": "1. 통계의 명칭 : 환경전문공사업수주실적현황 2. 통계작성기관의 명칭 : 기후에너지환경부 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제106023호 [2006…",
             "source_title": "통계작성의 변경승인(협의) 고시(환경전문공사업수주실적현황)",
             "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%ED%99%98%EA%B2%BD%EC%A0%84%EB%AC%B8%EA%B3%B5%EC%82%AC%EC%97%85%EC%88%98%EC%A3%BC%EC%8B%A4%EC%A0%81%ED%98%84%ED%99%A9%29"
           }
@@ -66,17 +67,105 @@
         ]
       }
     },
-    "featured_change_indices": [],
+    "featured_change_indices": [
+      0
+    ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "본문",
+      "before": "1. 통계의 명칭 : 환경전문공사업수주실적현황 2. 통계작성기관의 명칭 : 환경부 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제106023호 [2006.09.06.] 4. 통계작성의 변경 연월일 : 2024.09.05. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "after": "1. 통계의 명칭 : 환경전문공사업수주실적현황 2. 통계작성기관의 명칭 : 기후에너지환경부 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제106023호 [2006.09.06.] 4. 통계작성의 변경 연월일 : 2026.12.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "1. 통계의 명칭 : 환경전문공사업수주실적현황 2. 통계작성기관의 명칭 : ",
+            "changed": "환경부",
+            "suffix": " 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제106023호 [2006…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "1. 통계의 명칭 : 환경전문공사업수주실적현황 2. 통계작성기관의 명칭 : ",
+            "changed": "기후에너지환경부",
+            "suffix": " 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제106023호 [2006…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…] : 제106023호 [2006.09.06.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2024.09.05.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…] : 제106023호 [2006.09.06.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2026.12.31.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 30
+    },
+    {
+      "article": "표 4 · 작성 항목 · 변경 전",
+      "before": "• 3개부문 43개 항목 - 시도별 총괄현황(8) - 환경전문공사업체별 일반현황(12) - 환경전문공사업 수주실적(23)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 4 · 작성 항목 · 변경 후",
+      "before": "• 3개부문 52개 항목 (추가9, 수정1) - 시도별 총괄현황(9) - 환경전문공사업체별 일반현황(13) - 환경전문공사업 수주실적(30)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 4 · 작성기간 · 변경 전",
+      "before": "• 작성대상 기준년도 익년 1.1~11.30",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 4 · 작성기간 · 변경 후",
+      "before": "• 작성대상 기준년도 익년 9월~11월",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 작성 항목 · 변경 전",
+      "before": "[신설]",
+      "after": "• 3개부문 52개 항목 - 시도별 총괄현황(9) - 환경전문공사업체별 일반현황(13) - 환경전문공사업 수주실적(30)",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 5 · 작성 항목 · 변경 후",
+      "before": "[신설]",
+      "after": "• 3개부문 52개 항목 - 시도별 총괄현황(9) - 환경전문공사업체별 일반현황(13) - 환경전문공사업 수주실적(30)",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    }
+  ],
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
   "direct_actor_leads": [],
   "policy_analysis": null,
   "impact_level": "pending",
-  "prior_url": ""
+  "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%ED%99%98%EA%B2%BD%EC%A0%84%EB%AC%B8%EA%B3%B5%EC%82%AC%EC%97%85%EC%88%98%EC%A3%BC%EC%8B%A4%EC%A0%81%ED%98%84%ED%99%A9%29"
 }

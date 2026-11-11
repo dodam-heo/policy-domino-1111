@@ -1,0 +1,121 @@
+{
+  "id": "ordin|2177163|2159293",
+  "title": "부산광역시 부산진구 고독사 예방 및 사회적 고립가구 안전망 확충을 위한 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "부산광역시 부산진구",
+  "published_at": "2026-08-11",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EA%B3%A0%EB%8F%85%EC%82%AC%20%EC%98%88%EB%B0%A9%20%EB%B0%8F%20%EC%82%AC%ED%9A%8C%EC%A0%81%20%EA%B3%A0%EB%A6%BD%EA%B0%80%EA%B5%AC%20%EC%95%88%EC%A0%84%EB%A7%9D%20%ED%99%95%EC%B6%A9%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+  "category": "급여·지원기준",
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "priority_reasons": [
+    "제한적인 본문·명칭·인용 정비",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 50,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 10,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "제한적인 본문·명칭·인용 정비",
+            "article": "제7조",
+            "before": "…된 사람 2. 건강상태, 경제상태, 사회적 관계 접촉빈도 등이 취약한 사람 3. 동 주민센터 , 사회복지기관 등을 통해 발굴된 고독사 위험자 4. 그 밖에 지원이 필요하다고 …",
+            "after": "…된 사람 2. 건강상태, 경제상태, 사회적 관계 접촉빈도 등이 취약한 사람 3. 동행정복지센터 , 사회복지기관 등을 통해 발굴된 고독사 위험자 4. 그 밖에 지원이 필요하다고 …",
+            "source_title": "부산광역시 부산진구 고독사 예방 및 사회적 고립가구 안전망 확충을 위한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EA%B3%A0%EB%8F%85%EC%82%AC%20%EC%98%88%EB%B0%A9%20%EB%B0%8F%20%EC%82%AC%ED%9A%8C%EC%A0%81%20%EA%B3%A0%EB%A6%BD%EA%B0%80%EA%B5%AC%20%EC%95%88%EC%A0%84%EB%A7%9D%20%ED%99%95%EC%B6%A9%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 부산진구 고독사 예방 및 사회적 고립가구 안전망 확충을 위한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EA%B3%A0%EB%8F%85%EC%82%AC%20%EC%98%88%EB%B0%A9%20%EB%B0%8F%20%EC%82%AC%ED%9A%8C%EC%A0%81%20%EA%B3%A0%EB%A6%BD%EA%B0%80%EA%B5%AC%20%EC%95%88%EC%A0%84%EB%A7%9D%20%ED%99%95%EC%B6%A9%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 부산진구 고독사 예방 및 사회적 고립가구 안전망 확충을 위한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EA%B3%A0%EB%8F%85%EC%82%AC%20%EC%98%88%EB%B0%A9%20%EB%B0%8F%20%EC%82%AC%ED%9A%8C%EC%A0%81%20%EA%B3%A0%EB%A6%BD%EA%B0%80%EA%B5%AC%20%EC%95%88%EC%A0%84%EB%A7%9D%20%ED%99%95%EC%B6%A9%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제7조",
+      "before": "제7조(지원대상) 구청장은 다음 각 호에 해당하는 사람을 지원대상자로 한다. 1. 경제적인 어려움이나 정신 및 신체 건강의 이상으로 인하여 고독사 위험에 노출된 사람 2. 건강상태, 경제상태, 사회적 관계 접촉빈도 등이 취약한 사람 3. 동 주민센터, 사회복지기관 등을 통해 발굴된 고독사 위험자 4. 그 밖에 지원이 필요하다고 구청장이 인정하는 사람",
+      "after": "제7조(지원대상) 구청장은 다음 각 호에 해당하는 사람을 지원대상자로 한다. <개정 2026.8.11.> 1. 경제적인 어려움이나 정신 및 신체 건강의 이상으로 인하여 고독사 위험에 노출된 사람 2. 건강상태, 경제상태, 사회적 관계 접촉빈도 등이 취약한 사람 3. 동행정복지센터, 사회복지기관 등을 통해 발굴된 고독사 위험자 4. 그 밖에 지원이 필요하다고 구청장이 인정하는 사람",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제7조(지원대상) 구청장은 다음 각 호에 해당하는 사람을 지원대상자로 한다. ",
+            "changed": "",
+            "suffix": "1. 경제적인 어려움이나 정신 및 신체 건강의 이상으로 인하여 고독사 위험에 노출…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제7조(지원대상) 구청장은 다음 각 호에 해당하는 사람을 지원대상자로 한다. ",
+            "changed": "<개정 2026.8.11.>",
+            "suffix": " 1. 경제적인 어려움이나 정신 및 신체 건강의 이상으로 인하여 고독사 위험에 노…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…된 사람 2. 건강상태, 경제상태, 사회적 관계 접촉빈도 등이 취약한 사람 3. ",
+            "changed": "동 주민센터",
+            "suffix": ", 사회복지기관 등을 통해 발굴된 고독사 위험자 4. 그 밖에 지원이 필요하다고 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…된 사람 2. 건강상태, 경제상태, 사회적 관계 접촉빈도 등이 취약한 사람 3. ",
+            "changed": "동행정복지센터",
+            "suffix": ", 사회복지기관 등을 통해 발굴된 고독사 위험자 4. 그 밖에 지원이 필요하다고 …",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1681731"
+}

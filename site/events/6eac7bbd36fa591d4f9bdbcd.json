@@ -1,0 +1,161 @@
+{
+  "id": "ordin|2062643|2159295",
+  "title": "부산광역시 부산진구 주민자치회 설치 및 운영 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "부산광역시 부산진구",
+  "published_at": "2026-08-11",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%A3%BC%EB%AF%BC%EC%9E%90%EC%B9%98%ED%9A%8C%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%20%EC%A1%B0%EB%A1%80",
+  "category": "급여·지원기준",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 15,
+    "score_min": 15,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 부산진구 주민자치회 설치 및 운영 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%A3%BC%EB%AF%BC%EC%9E%90%EC%B9%98%ED%9A%8C%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 부산진구 주민자치회 설치 및 운영 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%A3%BC%EB%AF%BC%EC%9E%90%EC%B9%98%ED%9A%8C%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 부산진구 주민자치회 설치 및 운영 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%A3%BC%EB%AF%BC%EC%9E%90%EC%B9%98%ED%9A%8C%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제4조",
+      "before": "제4조(설치 등) ①자치회는 동주민센터에 설치하는 것을 원칙으로 한다.다만, 필요한 경우에는 해당 동의 관할 구역에 있는 다른 시설 및 공간을 자치회의 시설 등으로 활용할 수 있다.<개정 2007. 4. 2, 2008.10.31., 2018.6.5.> ②자치회의 동별 명칭은 \"oo동 주민자치회\"로 한다.<개정 2007. 4. 2, 2008.10.31>",
+      "after": "제4조(설치 등) ① 자치회는 동행정복지센터에 설치하는 것을 원칙으로 한다.다만, 필요한 경우에는 해당 동의 관할 구역에 있는 다른 시설 및 공간을 자치회의 시설 등으로 활용할 수 있다.<개정 2007. 4. 2, 2008.10.31., 2018.6.5., 2026.8.11.> ② 자치회의 동별 명칭은 \"oo동 주민자치회\"로 한다.<개정 2007. 4. 2, 2008.10.31>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제4조(설치 등) ①자치회는 ",
+            "changed": "동주민센터에",
+            "suffix": " 설치하는 것을 원칙으로 한다.다만, 필요한 경우에는 해당 동의 관할 구역에 있는…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제4조(설치 등) ① 자치회는 ",
+            "changed": "동행정복지센터에",
+            "suffix": " 설치하는 것을 원칙으로 한다.다만, 필요한 경우에는 해당 동의 관할 구역에 있는…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…시설 등으로 활용할 수 있다.<개정 2007. 4. 2, 2008.10.31., ",
+            "changed": "2018.6.5.",
+            "suffix": "> ②자치회의 동별 명칭은 \"oo동 주민자치회\"로 한다.<개정 2007. 4. 2…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…시설 등으로 활용할 수 있다.<개정 2007. 4. 2, 2008.10.31., ",
+            "changed": "2018.6.5., 2026.8.11.",
+            "suffix": "> ② 자치회의 동별 명칭은 \"oo동 주민자치회\"로 한다.<개정 2007. 4. …",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 10
+    },
+    {
+      "article": "제6조",
+      "before": "제6조(시설 및 프로그램) ①부산광역시 부산진구청장(이하 \"구청장\"이라 한다)은 자치회가 제5조의 기능을 효과적으로 수행할 수 있도록 동에 필요한 시설과 프로그램(이하 \"시설 등\" 이라 한다)을 갖추어야 한다.<개정 2007. 4. 2, 2008.10.31., 2018.6.5.> ②시설 등의 종류와 내용, 그 변경 등은 위원회의 심의를 거쳐 동장이 정하되, 동별 특성, 재정형편 등을 고려하여 필요한 경우에는 구청장이 조정 할 수 있다.<개정 2007. 4. 2> ③자치회의 시설 등을 정하는 경우에는 사전에 해당 동의 관할구역 또는 인근 지역의 유사시설 등의 운영실태를 충분히 파악하여 중복되지 않도록 노력하여야 한다.<개정 2007. 4. 2, 2008.10.31., 2018.6.5.> ④구청장은 동주민센터가 협소하거나, 임차한 건물, 그 밖에 재정형편상 시설 등의 설치가 곤란한 경우에는 재정계획이 포함된 연차별 시설 등의 설치 계획을 수립하여야 한다.<개정 2008.10.31., 2018.6.5.>",
+      "after": "제6조(시설 및 프로그램) ① 부산광역시 부산진구청장(이하 \"구청장\"이라 한다)은 자치회가 제5조의 기능을 효과적으로 수행할 수 있도록 동에 필요한 시설과 프로그램(이하 \"시설 등\" 이라 한다)을 갖추어야 한다.<개정 2007. 4. 2, 2008.10.31., 2018.6.5.> ② 시설 등의 종류와 내용, 그 변경 등은 위원회의 심의를 거쳐 동장이 정하되, 동별 특성, 재정형편 등을 고려하여 필요한 경우에는 구청장이 조정 할 수 있다.<개정 2007. 4. 2> ③ 자치회의 시설 등을 정하는 경우에는 사전에 해당 동의 관할구역 또는 인근 지역의 유사시설 등의 운영실태를 충분히 파악하여 중복되지 않도록 노력하여야 한다.<개정 2007. 4. 2, 2008.10.31., 2018.6.5.> ④ 구청장은 동행정복지센터가 협소하거나, 임차한 건물, 그 밖에 재정형편상 시설 등의 설치가 곤란한 경우에는 재정계획이 포함된 연차별 시설 등의 설치 계획을 수립하여야 한다.<개정 2008.10.31., 2018.6.5., 2026.8.11.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…개정 2007. 4. 2, 2008.10.31., 2018.6.5.> ④구청장은 ",
+            "changed": "동주민센터가",
+            "suffix": " 협소하거나, 임차한 건물, 그 밖에 재정형편상 시설 등의 설치가 곤란한 경우에는…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…정 2007. 4. 2, 2008.10.31., 2018.6.5.> ④ 구청장은 ",
+            "changed": "동행정복지센터가",
+            "suffix": " 협소하거나, 임차한 건물, 그 밖에 재정형편상 시설 등의 설치가 곤란한 경우에는…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…된 연차별 시설 등의 설치 계획을 수립하여야 한다.<개정 2008.10.31., ",
+            "changed": "2018.6.5.",
+            "suffix": ">",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…된 연차별 시설 등의 설치 계획을 수립하여야 한다.<개정 2008.10.31., ",
+            "changed": "2018.6.5., 2026.8.11.",
+            "suffix": ">",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1681695"
+}

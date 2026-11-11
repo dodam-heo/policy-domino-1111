@@ -1,0 +1,121 @@
+{
+  "id": "ordin|2062595|2159439",
+  "title": "부산광역시 부산진구 작은도서관 설치ㆍ운영 및 지원에 관한 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "부산광역시 부산진구",
+  "published_at": "2026-08-11",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%9E%91%EC%9D%80%EB%8F%84%EC%84%9C%EA%B4%80%20%EC%84%A4%EC%B9%98%E3%86%8D%EC%9A%B4%EC%98%81%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+  "category": "기타 제·개정",
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "priority_reasons": [
+    "제한적인 본문·명칭·인용 정비",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 50,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 10,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "제한적인 본문·명칭·인용 정비",
+            "article": "제2조",
+            "before": "…조제2항제1호가목에 따른 도서관을 말한다. 2. “운영자”란 작은도서관 운영자로 동 주민센터 , 「민법」 또는 그 밖의 법률에 따라 설립된 법인ㆍ단체 또는 개인을 말한다. 3…",
+            "after": "…조제2항제1호가목에 따른 도서관을 말한다. 2. “운영자”란 작은도서관 운영자로 동행정복지센터 , 「민법」 또는 그 밖의 법률에 따라 설립된 법인ㆍ단체 또는 개인을 말한다. 3…",
+            "source_title": "부산광역시 부산진구 작은도서관 설치ㆍ운영 및 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%9E%91%EC%9D%80%EB%8F%84%EC%84%9C%EA%B4%80%20%EC%84%A4%EC%B9%98%E3%86%8D%EC%9A%B4%EC%98%81%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 부산진구 작은도서관 설치ㆍ운영 및 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%9E%91%EC%9D%80%EB%8F%84%EC%84%9C%EA%B4%80%20%EC%84%A4%EC%B9%98%E3%86%8D%EC%9A%B4%EC%98%81%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 부산진구 작은도서관 설치ㆍ운영 및 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%9E%91%EC%9D%80%EB%8F%84%EC%84%9C%EA%B4%80%20%EC%84%A4%EC%B9%98%E3%86%8D%EC%9A%B4%EC%98%81%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제2조",
+      "before": "제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음과 같다. <개정 2017. 2. 1., 2025.10.29.> 1. “작은도서관”이란 「도서관법」 제4조제2항제1호가목에 따른 도서관을 말한다. 2. “운영자”란 작은도서관 운영자로 동 주민센터, 「민법」 또는 그 밖의 법률에 따라 설립된 법인ㆍ단체 또는 개인을 말한다. 3. “자료”란 작은도서관이 수집ㆍ정리ㆍ분석ㆍ보존 및 공중에 이용을 제공하는 자료로 인쇄자료, 필사자료, 시청각자료, 마이크로형태 자료, 전자 자료 및 그 밖에 장애인을 위한 특수자료 등 지식정보 자원 전달을 목적으로 정보가 축적된 모든 매체를 말한다.",
+      "after": "제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음과 같다. <개정 2017. 2. 1., 2025.10.29., 2026.8.11.> 1. “작은도서관”이란 「도서관법」 제4조제2항제1호가목에 따른 도서관을 말한다. 2. “운영자”란 작은도서관 운영자로 동행정복지센터, 「민법」 또는 그 밖의 법률에 따라 설립된 법인ㆍ단체 또는 개인을 말한다. 3. “자료”란 작은도서관이 수집ㆍ정리ㆍ분석ㆍ보존 및 공중에 이용을 제공하는 자료로 인쇄자료, 필사자료, 시청각자료, 마이크로형태 자료, 전자 자료 및 그 밖에 장애인을 위한 특수자료 등 지식정보 자원 전달을 목적으로 정보가 축적된 모든 매체를 말한다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "… 이 조례에서 사용하는 용어의 뜻은 다음과 같다. <개정 2017. 2. 1., ",
+            "changed": "2025.10.29.",
+            "suffix": "> 1. “작은도서관”이란 「도서관법」 제4조제2항제1호가목에 따른 도서관을 말한…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 이 조례에서 사용하는 용어의 뜻은 다음과 같다. <개정 2017. 2. 1., ",
+            "changed": "2025.10.29., 2026.8.11.",
+            "suffix": "> 1. “작은도서관”이란 「도서관법」 제4조제2항제1호가목에 따른 도서관을 말한…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…조제2항제1호가목에 따른 도서관을 말한다. 2. “운영자”란 작은도서관 운영자로 ",
+            "changed": "동 주민센터",
+            "suffix": ", 「민법」 또는 그 밖의 법률에 따라 설립된 법인ㆍ단체 또는 개인을 말한다. 3…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…조제2항제1호가목에 따른 도서관을 말한다. 2. “운영자”란 작은도서관 운영자로 ",
+            "changed": "동행정복지센터",
+            "suffix": ", 「민법」 또는 그 밖의 법률에 따라 설립된 법인ㆍ단체 또는 개인을 말한다. 3…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2078365"
+}

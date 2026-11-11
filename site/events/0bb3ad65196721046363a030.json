@@ -1,0 +1,123 @@
+{
+  "id": "ordin|2247210|2159431",
+  "title": "부산광역시 부산진구 안전취약계층 안전 환경 지원 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "부산광역시 부산진구",
+  "published_at": "2026-08-11",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%95%88%EC%A0%84%EC%B7%A8%EC%95%BD%EA%B3%84%EC%B8%B5%20%EC%95%88%EC%A0%84%20%ED%99%98%EA%B2%BD%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80",
+  "category": "급여·지원기준",
+  "primary_change_summary": "제9조 · 동 주민센터 → 동행정복지센터",
+  "priority_reasons": [
+    "지원 자격·법정 권리·의무의 실질 문구 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 40,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+            "article": "제9조",
+            "before": "…취약계층의 생활환경 안전을 확보하기 위하여 제5조 각 호에 따라 지원하는 사업을 동 주민센터 , 구 홈페이지 등을 통하여 홍보해야 한다.",
+            "after": "…취약계층의 생활환경 안전을 확보하기 위하여 제5조 각 호에 따라 지원하는 사업을 동행정복지센터 , 구 홈페이지 등을 통하여 홍보해야 한다.",
+            "source_title": "부산광역시 부산진구 안전취약계층 안전 환경 지원 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%95%88%EC%A0%84%EC%B7%A8%EC%95%BD%EA%B3%84%EC%B8%B5%20%EC%95%88%EC%A0%84%20%ED%99%98%EA%B2%BD%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 부산진구 안전취약계층 안전 환경 지원 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%95%88%EC%A0%84%EC%B7%A8%EC%95%BD%EA%B3%84%EC%B8%B5%20%EC%95%88%EC%A0%84%20%ED%99%98%EA%B2%BD%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 부산진구 안전취약계층 안전 환경 지원 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%95%88%EC%A0%84%EC%B7%A8%EC%95%BD%EA%B3%84%EC%B8%B5%20%EC%95%88%EC%A0%84%20%ED%99%98%EA%B2%BD%20%EC%A7%80%EC%9B%90%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제9조",
+      "before": "제9조(홍보) 구청장은 안전취약계층의 생활환경 안전을 확보하기 위하여 제5조 각 호에 따라 지원하는 사업을 동 주민센터, 구 홈페이지 등을 통하여 홍보해야 한다.",
+      "after": "제9조(홍보) 구청장은 안전취약계층의 생활환경 안전을 확보하기 위하여 제5조 각 호에 따라 지원하는 사업을 동행정복지센터, 구 홈페이지 등을 통하여 홍보해야 한다. <개정 2026.8.11.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…취약계층의 생활환경 안전을 확보하기 위하여 제5조 각 호에 따라 지원하는 사업을 ",
+            "changed": "동 주민센터",
+            "suffix": ", 구 홈페이지 등을 통하여 홍보해야 한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…취약계층의 생활환경 안전을 확보하기 위하여 제5조 각 호에 따라 지원하는 사업을 ",
+            "changed": "동행정복지센터",
+            "suffix": ", 구 홈페이지 등을 통하여 홍보해야 한다. <개정 2026.8.11.>",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…호에 따라 지원하는 사업을 동 주민센터, 구 홈페이지 등을 통하여 홍보해야 한다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 따라 지원하는 사업을 동행정복지센터, 구 홈페이지 등을 통하여 홍보해야 한다. ",
+            "changed": "<개정 2026.8.11.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 40
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1978149"
+}

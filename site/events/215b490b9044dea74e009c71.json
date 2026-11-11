@@ -1,0 +1,124 @@
+{
+  "id": "ordin|2086164|2162627",
+  "title": "아산시 효도가정 지원에 관한 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "충청남도 아산시",
+  "published_at": "2026-08-18",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%95%84%EC%82%B0%EC%8B%9C%20%ED%9A%A8%EB%8F%84%EA%B0%80%EC%A0%95%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+  "category": "공공재정·요율",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 15,
+    "score_min": 15,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "아산시 효도가정 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%95%84%EC%82%B0%EC%8B%9C%20%ED%9A%A8%EB%8F%84%EA%B0%80%EC%A0%95%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "아산시 효도가정 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%95%84%EC%82%B0%EC%8B%9C%20%ED%9A%A8%EB%8F%84%EA%B0%80%EC%A0%95%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "아산시 효도가정 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%95%84%EC%82%B0%EC%8B%9C%20%ED%9A%A8%EB%8F%84%EA%B0%80%EC%A0%95%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제4조",
+      "before": "제4조(지급기준) 효도수당의 지급액은 월 50,000원으로 하고, 효도대상자가 부부일 경우에도 1인으로 간주한다. 다만, 예산의 범위 내에서 지급할 수 있다.(개정 2022.9.26.)",
+      "after": "제4조(지급기준) 효도수당의 지급액은 월 100,000원으로 하고, 효도대상자가 부부일 경우에도 1인으로 간주한다. 다만, 예산의 범위 내에서 지급할 수 있다.(개정 2022.9.26., 2026.8.18.)",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제4조(지급기준) 효도수당의 지급액은 월 ",
+            "changed": "50,000",
+            "suffix": "원으로 하고, 효도대상자가 부부일 경우에도 1인으로 간주한다. 다만, 예산의 범위…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제4조(지급기준) 효도수당의 지급액은 월 ",
+            "changed": "100,000",
+            "suffix": "원으로 하고, 효도대상자가 부부일 경우에도 1인으로 간주한다. 다만, 예산의 범위…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 경우에도 1인으로 간주한다. 다만, 예산의 범위 내에서 지급할 수 있다.(개정 ",
+            "changed": "2022.9.26.",
+            "suffix": ")",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 경우에도 1인으로 간주한다. 다만, 예산의 범위 내에서 지급할 수 있다.(개정 ",
+            "changed": "2022.9.26., 2026.8.18.",
+            "suffix": ")",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 0
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1729829"
+}

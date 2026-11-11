@@ -1,0 +1,161 @@
+{
+  "id": "ordin|2227043|2159435",
+  "title": "부산광역시 부산진구 민원실의 설치 및 운영에 관한 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "부산광역시 부산진구",
+  "published_at": "2026-08-11",
+  "effective_date": "2027-01-01",
+  "revision": "전부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EB%AF%BC%EC%9B%90%EC%8B%A4%EC%9D%98%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+  "category": "급여·지원기준",
+  "primary_change_summary": "제2조 · 신설 → <개정 2026.8.11.>",
+  "priority_reasons": [
+    "기관 기능·권한·업무분장 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 20,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "기관 기능·권한·업무분장 변경",
+            "article": "제2조",
+            "before": "…리하고 민원인에 대한 안내와 상담의 편의를 제공하기 위해 설치한 부서를 말하며, 동 주민센터 등을 포함한다. 2. “전자민원창구”란 법 제12조의2에 따라 행정기관의 장이 …",
+            "after": "…리하고 민원인에 대한 안내와 상담의 편의를 제공하기 위해 설치한 부서를 말하며, 동행정복지센터 등을 포함한다. 2. “전자민원창구”란 법 제12조의2에 따라 행정기관의 장이 …",
+            "source_title": "부산광역시 부산진구 민원실의 설치 및 운영에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EB%AF%BC%EC%9B%90%EC%8B%A4%EC%9D%98%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 부산진구 민원실의 설치 및 운영에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EB%AF%BC%EC%9B%90%EC%8B%A4%EC%9D%98%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 부산진구 민원실의 설치 및 운영에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EB%AF%BC%EC%9B%90%EC%8B%A4%EC%9D%98%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0,
+      1
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제2조",
+      "before": "제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음과 같다. 1. “민원실”이란 「민원 처리에 관한 법률」(이하 “법”이라 한다) 제2조제1호에 따른 민원을 신속히 처리하고 민원인에 대한 안내와 상담의 편의를 제공하기 위해 설치한 부서를 말하며, 동 주민센터 등을 포함한다. 2. “전자민원창구”란 법 제12조의2에 따라 행정기관의 장이 인터넷을 통하여 민원을 신청ㆍ접수받아 처리할 수 있도록 구축ㆍ운영하는 정보시스템을 말한다. 3. “통합전자민원창구”란 법 제12조의2에 따라 행정안전부장관이 전자민원창구의 구축ㆍ운영을 지원하거나 각 행정기관의 전자민원창구를 연계하기 위하여 구축ㆍ운영하는 정보시스템을 말한다. 4. “현장민원실”이란 주민이 이용하기 편리하도록 행정기관 이외의 장소에 설치ㆍ운영하는 민원실을 말한다.",
+      "after": "제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음과 같다. <개정 2026.8.11.> 1. “민원실”이란 「민원 처리에 관한 법률」(이하 “법”이라 한다) 제2조제1호에 따른 민원을 신속히 처리하고 민원인에 대한 안내와 상담의 편의를 제공하기 위해 설치한 부서를 말하며, 동행정복지센터 등을 포함한다. 2. “전자민원창구”란 법 제12조의2에 따라 행정기관의 장이 인터넷을 통하여 민원을 신청ㆍ접수받아 처리할 수 있도록 구축ㆍ운영하는 정보시스템을 말한다. 3. “통합전자민원창구”란 법 제12조의2에 따라 행정안전부장관이 전자민원창구의 구축ㆍ운영을 지원하거나 각 행정기관의 전자민원창구를 연계하기 위하여 구축ㆍ운영하는 정보시스템을 말한다. 4. “현장민원실”이란 주민이 이용하기 편리하도록 행정기관 이외의 장소에 설치ㆍ운영하는 민원실을 말한다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음과 같다. ",
+            "changed": "",
+            "suffix": "1. “민원실”이란 「민원 처리에 관한 법률」(이하 “법”이라 한다) 제2조제1호…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제2조(정의) 이 조례에서 사용하는 용어의 뜻은 다음과 같다. ",
+            "changed": "<개정 2026.8.11.>",
+            "suffix": " 1. “민원실”이란 「민원 처리에 관한 법률」(이하 “법”이라 한다) 제2조제1…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…리하고 민원인에 대한 안내와 상담의 편의를 제공하기 위해 설치한 부서를 말하며, ",
+            "changed": "동 주민센터",
+            "suffix": " 등을 포함한다. 2. “전자민원창구”란 법 제12조의2에 따라 행정기관의 장이 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…리하고 민원인에 대한 안내와 상담의 편의를 제공하기 위해 설치한 부서를 말하며, ",
+            "changed": "동행정복지센터",
+            "suffix": " 등을 포함한다. 2. “전자민원창구”란 법 제12조의2에 따라 행정기관의 장이 …",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 20
+    },
+    {
+      "article": "제4조",
+      "before": "제4조(민원실의 설치) ① 부산광역시 부산진구청장(이하 “구청장”이라 한다)은 법 제12조에 따라 구청, 동 주민센터 등에 민원실을 설치ㆍ운영할 수 있다. ② 민원실에는 민원 관련 부서를 통합 배치ㆍ운영할 수 있다.",
+      "after": "제4조(민원실의 설치) ① 부산광역시 부산진구청장(이하 “구청장”이라 한다)은 법 제12조에 따라 구청, 동행정복지센터 등에 민원실을 설치ㆍ운영할 수 있다. <개정 2026.8.11.> ② 민원실에는 민원 관련 부서를 통합 배치ㆍ운영할 수 있다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "… 부산광역시 부산진구청장(이하 “구청장”이라 한다)은 법 제12조에 따라 구청, ",
+            "changed": "동 주민센터",
+            "suffix": " 등에 민원실을 설치ㆍ운영할 수 있다. ② 민원실에는 민원 관련 부서를 통합 배치…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 부산광역시 부산진구청장(이하 “구청장”이라 한다)은 법 제12조에 따라 구청, ",
+            "changed": "동행정복지센터",
+            "suffix": " 등에 민원실을 설치ㆍ운영할 수 있다. <개정 2026.8.11.> ② 민원실에는…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…은 법 제12조에 따라 구청, 동 주민센터 등에 민원실을 설치ㆍ운영할 수 있다. ",
+            "changed": "",
+            "suffix": "② 민원실에는 민원 관련 부서를 통합 배치ㆍ운영할 수 있다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 법 제12조에 따라 구청, 동행정복지센터 등에 민원실을 설치ㆍ운영할 수 있다. ",
+            "changed": "<개정 2026.8.11.>",
+            "suffix": " ② 민원실에는 민원 관련 부서를 통합 배치ㆍ운영할 수 있다.",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 20
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1786223"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "ordin|2199920|2159429",
+  "title": "부산광역시 부산진구 의료ㆍ요양 등 지역 돌봄의 통합지원에 관한 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "부산광역시 부산진구",
+  "published_at": "2026-08-11",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%9D%98%EB%A3%8C%E3%86%8D%EC%9A%94%EC%96%91%20%EB%93%B1%20%EC%A7%80%EC%97%AD%20%EB%8F%8C%EB%B4%84%EC%9D%98%20%ED%86%B5%ED%95%A9%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+  "category": "급여·지원기준",
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "priority_reasons": [
+    "제한적인 본문·명칭·인용 정비",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 50,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 10,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "제한적인 본문·명칭·인용 정비",
+            "article": "제9조",
+            "before": "제9조(통합지원 창구 설치) 구청장은 동 주민센터 또는 보건소 등에 지역 주민들이 통합지원을 편리하게 상담하고 이용할 수 있도록 …",
+            "after": "제9조(통합지원 창구 설치) 구청장은 동행정복지센터 또는 보건소 등에 지역 주민들이 통합지원을 편리하게 상담하고 이용할 수 있도록 …",
+            "source_title": "부산광역시 부산진구 의료ㆍ요양 등 지역 돌봄의 통합지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%9D%98%EB%A3%8C%E3%86%8D%EC%9A%94%EC%96%91%20%EB%93%B1%20%EC%A7%80%EC%97%AD%20%EB%8F%8C%EB%B4%84%EC%9D%98%20%ED%86%B5%ED%95%A9%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 부산진구 의료ㆍ요양 등 지역 돌봄의 통합지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%9D%98%EB%A3%8C%E3%86%8D%EC%9A%94%EC%96%91%20%EB%93%B1%20%EC%A7%80%EC%97%AD%20%EB%8F%8C%EB%B4%84%EC%9D%98%20%ED%86%B5%ED%95%A9%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 부산진구 의료ㆍ요양 등 지역 돌봄의 통합지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%9D%98%EB%A3%8C%E3%86%8D%EC%9A%94%EC%96%91%20%EB%93%B1%20%EC%A7%80%EC%97%AD%20%EB%8F%8C%EB%B4%84%EC%9D%98%20%ED%86%B5%ED%95%A9%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제9조",
+      "before": "제9조(통합지원 창구 설치) 구청장은 동 주민센터 또는 보건소 등에 지역 주민들이 통합지원을 편리하게 상담하고 이용할 수 있도록 통합지원 창구를 설치ㆍ운영할 수 있다.",
+      "after": "제9조(통합지원 창구 설치) 구청장은 동행정복지센터 또는 보건소 등에 지역 주민들이 통합지원을 편리하게 상담하고 이용할 수 있도록 통합지원 창구를 설치ㆍ운영할 수 있다. <개정 2026.8.11.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제9조(통합지원 창구 설치) 구청장은 ",
+            "changed": "동 주민센터",
+            "suffix": " 또는 보건소 등에 지역 주민들이 통합지원을 편리하게 상담하고 이용할 수 있도록 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제9조(통합지원 창구 설치) 구청장은 ",
+            "changed": "동행정복지센터",
+            "suffix": " 또는 보건소 등에 지역 주민들이 통합지원을 편리하게 상담하고 이용할 수 있도록 …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…지원을 편리하게 상담하고 이용할 수 있도록 통합지원 창구를 설치ㆍ운영할 수 있다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…원을 편리하게 상담하고 이용할 수 있도록 통합지원 창구를 설치ㆍ운영할 수 있다. ",
+            "changed": "<개정 2026.8.11.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2109811"
+}

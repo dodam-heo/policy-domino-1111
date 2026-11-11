@@ -9,29 +9,30 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%82%B0%EC%8B%9C%EC%95%84%EB%8F%99%EB%B3%B5%EC%A7%80%ED%86%B5%EA%B3%84%29",
   "category": "급여·지원기준",
-  "primary_change_summary": "",
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
   "priority_reasons": [
+    "제한적인 본문·명칭·인용 정비",
     "중앙행정규칙이 관할하는 전국 특정 분야"
   ],
   "impact_assessment": {
-    "classification": "pending",
-    "score": 25,
-    "score_min": 25,
-    "score_max": 90,
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
-    "possible_high": true,
+    "possible_high": false,
     "axes": {
       "substance": {
-        "score": null,
-        "status": "pending",
+        "score": 10,
+        "status": "confirmed",
         "evidence": [
           {
-            "reason": "종전·현행 원문 비교 대기",
-            "article": "",
-            "before": "",
-            "after": "",
+            "reason": "제한적인 본문·명칭·인용 정비",
+            "article": "표 1 · 작성 및 공표내용 · 변경 전",
+            "before": "[신설]",
+            "after": "○ 6개 부문 64항목 Ⅰ. 인구․가구(16) Ⅱ. 경제(6) Ⅲ. 건강(9) Ⅳ. 복지(15) Ⅴ. 보육․교육(14) Ⅵ. 안전(4)",
             "source_title": "통계작성의 변경승인(협의) 고시(서산시아동복지통계)",
             "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%82%B0%EC%8B%9C%EC%95%84%EB%8F%99%EB%B3%B5%EC%A7%80%ED%86%B5%EA%B3%84%29"
           }
@@ -69,14 +70,102 @@
     "featured_change_indices": [],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "본문",
+      "before": "1. 통계의 명칭 : 서산시아동복지통계 2. 통계작성기관의 명칭 : 충청남도 서산시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제695004호 [2020.11.30.] 4. 통계작성의 변경 연월일 : 2024.12.6. 5. 통계작성의 변경 내용과 사유: [표: 공식 첨부 참조]",
+      "after": "1. 통계의 명칭 : 서산시아동복지통계 2. 통계작성기관의 명칭 : 충청남도 서산시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제695004호 [2020.11.30.] 4. 통계작성의 변경 연월일 : 2026.12.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…] : 제695004호 [2020.11.30.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2024.12.6.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유: [표: 공식 첨부 참조]",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…] : 제695004호 [2020.11.30.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2026.12.31.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 0
+    },
+    {
+      "article": "표 1 · 작성 및 공표내용 · 변경 전",
+      "before": "[신설]",
+      "after": "○ 6개 부문 64항목 Ⅰ. 인구․가구(16) Ⅱ. 경제(6) Ⅲ. 건강(9) Ⅳ. 복지(15) Ⅴ. 보육․교육(14) Ⅵ. 안전(4)",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 1 · 작성 및 공표내용 · 변경 후",
+      "before": "[신설]",
+      "after": "○ 6개 부문 62항목 - 변경 34, 삭제 2 Ⅰ. 인구․가구(16) - 변경 10 Ⅱ. 경제(4) - 삭제 2 Ⅲ. 건강(9) - 변경 2 Ⅳ. 복지(15) - 변경 14 Ⅴ. 보육․교육(14) - 변경 5 Ⅵ. 안전(4) - 변경 3",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 1 · 작성대상의 범위 및 규모 · 변경 전",
+      "before": "[신설]",
+      "after": "작성기준시점 현재 서산시 거주 아동 (만 18세 미만) ※ 2023.12.31. 기준 약 26천명",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 1 · 작성대상의 범위 및 규모 · 변경 후",
+      "before": "[신설]",
+      "after": "작성기준시점 현재 서산시 거주 아동 (만 18세 미만) ※ 2026.5.31. 기준 약 23천명",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 4 · 작성대상 · 변경 전",
+      "before": "작성기준시점 현재 서산시에 주민등록이 되어 있는 만18세 미만 아동인구 및 아동가구의 가구원",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 4 · 작성대상 · 변경 후",
+      "before": "작성기준시점 현재 서산시 거주 아동(만18세 미만)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 4 · 작성항목 (통계표) · 변경 전",
+      "before": "○ 6개 부문 106개 항목 1. 인구․세대(19) 2. 인구동향(7) 3. 주택(21) 4. 건강(21) 5. 복지(29) 6. 보육․교육(9)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 4 · 작성항목 (통계표) · 변경 후",
+      "before": "○ 6개 부문 64항목 - 추가 21, 변경 41, 삭제 63 Ⅰ. 인구․가구(16) (부문통합) Ⅱ. 경제(6) Ⅲ. 건강(9) Ⅳ. 복지(15) Ⅴ. 보육․교육(14) Ⅵ. 안전(4) (부문추가)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    }
+  ],
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
   "direct_actor_leads": [],
   "policy_analysis": null,
-  "impact_level": "pending",
-  "prior_url": ""
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%84%9C%EC%82%B0%EC%8B%9C%EC%95%84%EB%8F%99%EB%B3%B5%EC%A7%80%ED%86%B5%EA%B3%84%29"
 }
