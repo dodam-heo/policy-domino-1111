@@ -45,5 +45,14 @@ class Gov24Test(unittest.TestCase):
             self.assertEqual(len(seen),2)
 
 
+    def test_law_identifier_never_falls_back_as_gov24_secret(self):
+        import os
+        from unittest.mock import patch
+        from unified.gov24 import gov24_service_key, Gov24Client
+        with patch.dict(os.environ, {}, clear=True):
+            self.assertEqual(gov24_service_key(), "")
+            with self.assertRaisesRegex(ValueError, "GOV24_SERVICE_KEY"):
+                Gov24Client(gov24_service_key())
+
 if __name__=="__main__":
     unittest.main()

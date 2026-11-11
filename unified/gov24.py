@@ -15,8 +15,9 @@ from .engine import load, store, save_json, hash256, clean
 
 API = "https://api.odcloud.kr/api/gov24/v3/"
 SOURCE = "https://www.data.go.kr/data/15113968/openapi.do"
-# Requested code-level default. A configured ODcloud key can override it.
-DEFAULT_GOV24_SERVICE_KEY = "dori"
+# Gov24 uses its own ODcloud API key; LAW_OC='dori' is law.go.kr only.
+# An absent key must fail explicitly, never silently fall back to LAW_OC.
+DEFAULT_GOV24_SERVICE_KEY = ""
 
 
 def gov24_service_key() -> str:
@@ -160,8 +161,7 @@ def main():
     args = p.parse_args()
     key = gov24_service_key()
     report = collect(args.root, Gov24Client(key), args.list_pages, args.detail_pages)
-    report["credential_source"] = ("environment" if os.getenv("GOV24_SERVICE_KEY") or
-                                   os.getenv("ODCLOUD_API_KEY") else "code_default_dori")
+    report["credential_source"] = "environment"
     print("GOV24_CURRENT", json.dumps(report, ensure_ascii=False))
     if report["errors"]:
         print("GOV24_WARNING: official API rejected or failed a request; "
