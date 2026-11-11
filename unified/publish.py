@@ -32,44 +32,75 @@ def classify(doc, changes) -> str:
 
 
 
-AMOUNT_OR_PERIOD = re.compile(r"(?<![\d가-힣])\d[\d,]*(?:\.\d+)?\s*(?:만원|개월|원|%|일|명|가구|년)?")
+AMOUNT_OR_PERIOD = re.compile(r"(?<!\d)\d[\d,]*(?:\.\d+)?\s*(?:만원|개월|원|%|일|명|가구|년)?")
 IMPACT_CRITERIA = (
     ("급여·지원금·소득 기준 변경", re.compile(r"급여|지원금|중위소득|소득기준|소득인정액|생계비|주거비|장학금|보조금|지원액")),
     ("지원대상·자격·선정 기준 변경", re.compile(r"선정기준|지원대상|입주자격|수급자격|자격기준|심사기준|지원요건")),
     ("요율·수수료·부담금 변경", re.compile(r"요율|세율|수수료|부담금|보험료|과태료|과징금")),
     ("신청·처리 기한 변경", re.compile(r"신청기한|신청기간|처리기한|처리기간|접수기간|제출기한")),
-    ("법정 의무·제재 기준 변경", re.compile(r"의무|제재|처분기준|벌칙|위반기준")),
+    ("법정 의무·제재 기준 변경", re.compile(r"법정의무|의무기준|제재기준|처분기준|벌칙|위반기준")),
 )
 
 
-def review_priority(doc: dict, comparison: dict, actions: list[dict]) -> list[str]:
-    """Explain a transparent review PRIORITY, not a measured actual impact.
+def _changed_quantity_tokens(text: str) -> set[str]:
+    """Numbers in the actual changed span, not unrelated numbers in a clause."""
+    text = re.sub(r"제\s*\d+\s*조(?:의\s*\d+)?", "", text)
+    result = set()
+    for raw in AMOUNT_OR_PERIOD.findall(text):
+        token = raw.replace(" ", "")
+        digits = re.sub(r"\D", "", token)
+        # Merely changing the annual reference year is not a support amount.
+        if digits.isdigit() and len(digits) == 4 and 1900 <= int(digits) <= 2099 and token == digits:
+            continue
+        result.add(token)
+    return result
 
-    No priority from titles alone, unverified comparisons, or an agency name.
-    A number must genuinely differ in the paired source texts.
+
+def review_priority(doc: dict, comparison: dict, actions: list[dict]) -> list[str]:
+    """Reasoned review priority based on verified edits, not keyword co-occurrence.
+
+    A changed numeric fragment and a closely surrounding criterion phrase must
+    agree. Unrelated fee words elsewhere in a long organizational regulation
+    must not create a false 'fee impact' signal.
     """
     if comparison.get("status") != "changed" or not comparison.get("changes"):
         return []
     reasons = []
     if any(a.get("status") == "review_of_verified_citation" and
            a.get("evidence", {}).get("reference_quote") and
-           a.get("evidence", {}).get("service_quote")
-           for a in actions):
+           a.get("evidence", {}).get("service_quote") for a in actions):
         reasons.append("공식 사업·기관 업무의 변경 조문 인용 확인")
     for change in comparison["changes"]:
         before, after = str(change.get("before") or ""), str(change.get("after") or "")
-        # A change to the structure alone does not prove altered criteria.
         if not before or not after or before == after:
             continue
-        old_values = set(AMOUNT_OR_PERIOD.findall(before))
-        new_values = set(AMOUNT_OR_PERIOD.findall(after))
-        if not old_values.symmetric_difference(new_values):
-            continue
-        context = " ".join((str(doc.get("title") or ""), str(change.get("clause") or ""),
-                            before[:1500], after[:1500]))
-        for label, pattern in IMPACT_CRITERIA:
-            if label not in reasons and pattern.search(context):
-                reasons.append(label)
+        windows = change.get("focus") or []
+        if not windows and len(before) + len(after) <= 350:
+            windows = [{"before": {"changed": before},
+                        "after": {"changed": after}}]
+        for window in windows:
+            previous = window.get("before") or {}
+            current = window.get("after") or {}
+            prior_segment = str(previous.get("changed") or "")
+            new_segment = str(current.get("changed") or "")
+            if not (_changed_quantity_tokens(prior_segment) ^
+                    _changed_quantity_tokens(new_segment)):
+                continue
+            # Use only the immediate changed words and nearby unchanged text.
+            local_context = " ".join((
+                str(change.get("clause") or ""),
+                str(previous.get("prefix") or "")[-80:], prior_segment,
+                str(previous.get("suffix") or "")[:80],
+                str(current.get("prefix") or "")[-80:], new_segment,
+                str(current.get("suffix") or "")[:80],
+            ))
+            # A short annex/table cell often has a bare amount. Its exact
+            # notice title can identify the criterion; long articles cannot.
+            if len(before) + len(after) <= 250:
+                local_context += " " + str(doc.get("title") or "")
+            for label, pattern in IMPACT_CRITERIA:
+                if label not in reasons and pattern.search(local_context):
+                    reasons.append(label)
     return reasons
 
 

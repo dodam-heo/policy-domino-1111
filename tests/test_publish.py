@@ -55,5 +55,27 @@ class PublishTest(unittest.TestCase):
 
 
 
+    def test_priority_ignores_unrelated_fee_word_in_long_organization_rule(self):
+        from unified.publish import review_priority
+        doc = {"title": "금천구 행정기구 설치 조례 시행규칙"}
+        old = "수수료 담당부서 지정. " * 30 + "직원 정원 12명"
+        new = "수수료 담당부서 지정. " * 30 + "직원 정원 13명"
+        comparison = {"status": "changed", "changes": [{
+            "clause": "제3조", "before": old, "after": new,
+            "focus": [{"before": {"prefix": "직원 정원 ", "changed": "12", "suffix": "명"},
+                       "after": {"prefix": "직원 정원 ", "changed": "13", "suffix": "명"}}]}]}
+        self.assertEqual(review_priority(doc, comparison, []), [])
+
+    def test_priority_detects_fee_change_near_changed_number(self):
+        from unified.publish import review_priority
+        doc = {"title": "재정 운영 규정"}
+        comparison = {"status": "changed", "changes": [{
+            "clause": "제3조", "before": "접수 수수료 100원", "after": "접수 수수료 120원",
+            "focus": [{"before": {"prefix": "접수 수수료 ", "changed": "100원"},
+                       "after": {"prefix": "접수 수수료 ", "changed": "120원"}}]}]}
+        self.assertEqual(review_priority(doc, comparison, []),
+                         ["요율·수수료·부담금 변경"])
+
+
 if __name__ == "__main__":
     unittest.main()
