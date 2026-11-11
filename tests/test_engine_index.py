@@ -23,6 +23,44 @@ class OfficialStub:
 
 
 class IncrementalLedgerTest(unittest.TestCase):
+    def test_official_version_history_handles_renamed_title(self):
+        """Official stable IDs outrank a changed legal notice title."""
+        from unified.engine import hash256, ident
+
+        previous = {"source": "admrul", "stable_id": "402", "serial": "998",
+                    "title": "이전 명칭 공공기준", "published_at": "2025-08-01",
+                    "effective_date": "2026-01-01"}
+        latest = {"source": "admrul", "stable_id": "402", "serial": "999",
+                  "title": "변경된 명칭 공공기준", "published_at": "2026-09-01",
+                  "effective_date": "2027-01-01"}
+
+        class RenamedNoticeStub(OfficialStub):
+            def search(self, source, start, end, edition, kind, query="",
+                       search_scope=1):
+                return [previous, latest], {
+                    "reported": 2, "collected": 2, "pages": 1, "complete": True}
+
+            def detail(self, rec):
+                value = "120원" if rec["serial"] == "999" else "100원"
+                return (("<법령><조문단위><조문번호>1</조문번호>"
+                         "<조문내용>지원기준 " + value +
+                         "</조문내용></조문단위></법령>").encode())
+
+            def predecessor(self, rec):
+                raise AssertionError("Official-ID history should be reused")
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            run(root, RenamedNoticeStub(), limit_streams=1, detail_budget=2,
+                today=dt.date(2026, 11, 11))
+            comparison = load(root / "comparisons" /
+                              (hash256(ident(latest))[:24] + ".json.gz"), {})
+            self.assertEqual(comparison.get("status"), "changed")
+            self.assertEqual(comparison.get("relationship"),
+                             "same_official_id_revision")
+            self.assertEqual(comparison["changes"][0]["before"], "지원기준 100원")
+            self.assertEqual(comparison["changes"][0]["after"], "지원기준 120원")
+
     def test_discovered_versions_survive_zero_detail_budget(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
