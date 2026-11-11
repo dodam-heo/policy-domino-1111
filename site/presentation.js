@@ -14,17 +14,13 @@
   function highImpactScope(event) {
     return event.impact_level==="high";
   }
-  function filterEvents(events,{mode="all",query="",category:topic="",source="",sort="impact",verification=""}={}) {
+  function filterEvents(events,{mode="all",query="",category:topic="",source="",sort="impact"}={}) {
     if(!MODES.includes(mode))throw Error("Unsupported event filter");
     const term=String(query).trim().toLocaleLowerCase("ko-KR");
     return [...events].filter(event=>{
       if(topic&&event.topic!==topic)return false;
       if(source&&event.source!==source)return false;
       if(mode==="impact"&&!highImpactScope(event))return false;
-      if(verification==="changed"&&event.comparison_status!=="changed")return false;
-      if(verification==="partial"&&event.comparison_status!=="partial_unverified")return false;
-      if(verification==="pending"&&
-         !["original_saved_comparison_pending","no_text_change"].includes(event.comparison_status))return false;
       if(!["all","impact"].includes(mode)&&event.kind!==mode)return false;
       const searchable=[
         event.title,event.headline,event.ministry,event.topic,

@@ -2,7 +2,7 @@
 (function(global){
   'use strict';
   const detailCache=new Map();
-  const stages={changed:'신구 변경 확인',no_text_change:'본문 변경 없음',partial_unverified:'원문·첨부 추가 확인 필요',original_saved_comparison_pending:'신구 대조 대기'};
+  const stages={changed:'내용 변경',no_text_change:'본문 변경 없음',partial_unverified:'원문·첨부 추가 확인 필요',original_saved_comparison_pending:'신구 대조 대기'};
   const stageLabel=status=>stages[status]||'신구 대조 대기';
   const isShort=c=>String(c.before||'').length<100&&String(c.after||'').length<100;
   function focus(a,b){

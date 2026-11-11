@@ -6,7 +6,7 @@
   let requestId=0;
   const state = {
     data: null, events: [], selected: null, mode: "impact", category:"",source:"",sort:"impact",
-    query: "", visible: 60, institutionFilter: "all", verification:""
+    query: "", visible: 60, institutionFilter: "all"
   };
   const mobile = () => window.matchMedia("(max-width:850px)").matches;
   const num = n => Number(n || 0).toLocaleString("ko-KR");
@@ -140,8 +140,6 @@
       if (event.review_count) append(tags,pill("업무 검토 "+num(event.review_count)+"건"));
       if (event.public_service_lead_count)
         append(tags,pill("공공서비스 기준 "+num(event.public_service_lead_count)+"건"));
-      if(event.comparison_status==="changed")append(tags,pill("신구 변경 확인","verified"));
-      else append(tags,pill(model.stageLabel(event.comparison_status),"partial"));
       if (event.ai_count) append(tags,pill("AI 보조검토","ai"));
       const highlighted=(event.highlights||[])[0];
       const important=highlighted && (event.changes||[]).find(ch=>
@@ -551,9 +549,7 @@
     const head=create("header","detail-head");
     const meta=create("div","detail-meta");
     append(meta,pill(view.category(event),"type "+event.kind),
-      create("span","",event.published_at||""),
-      event.verification==="partial" ?
-        pill(model.stageLabel(event.comparison_status),"partial"):pill("신구 변경 확인","verified"));
+      create("span","",event.published_at||""));
     append(head,meta,create("h2","",event.title),
       event.effective_date ?
         create("p","effective","시행일 "+event.effective_date):null);
@@ -629,19 +625,18 @@
       else if(!shown.some(e=>e.id===state.selected))select(shown[0].id,false);
     }
   }
-  for(const id of ["category","source","sort","verification"])$(id).onchange=()=>{state[id]=$(id).value;refresh();};
-  $("reset").onclick=()=>{state.mode="impact";state.query="";state.category="";state.source="";state.sort="impact";state.verification="";$("search").value="";$("category").value="";$("source").value="";$("sort").value="impact";$("verification").value="";refresh();};
+  for(const id of ["category","source","sort"])$(id).onchange=()=>{state[id]=$(id).value;refresh();};
+  $("reset").onclick=()=>{state.mode="impact";state.query="";state.category="";state.source="";state.sort="impact";$("search").value="";$("category").value="";$("source").value="";$("sort").value="impact";refresh();};
   function goHome(event){
     if(event)event.preventDefault();
     // Cancel in-flight detail responses so a previous policy cannot reopen.
     requestId++;
     Object.assign(state,{mode:"impact",query:"",category:"",source:"",
-      sort:"impact",visible:60,institutionFilter:"all",selected:null,verification:""});
+      sort:"impact",visible:60,institutionFilter:"all",selected:null});
     $("search").value="";
     $("category").value="";
     $("source").value="";
     $("sort").value="impact";
-    $("verification").value="";
     if($("registry-dialog").open)$("registry-dialog").close();
     document.querySelector(".coverage-status-inner").open=false;
     try{history.replaceState(null,"",location.pathname+location.search);}catch{}

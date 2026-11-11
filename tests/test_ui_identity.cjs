@@ -24,6 +24,17 @@ const scopedAgencyCounts=actions=>new Map(actions.map(a=>[a.agency,1]));
   assert.ok(!filterHtml.includes('id="mode-amended"'));
   assert.ok(filterHtml.includes('>영향도 큼</button>'));
   assert.ok(!filterHtml.includes('영향도 큼만 보기'));
+  assert.ok(!filterHtml.includes('id="verification"'));
+  assert.ok(!filterHtml.includes('신구 비교 상태'));
+  assert.ok(filterHtml.includes('법령·고시 등 정책이 바뀌면, 어느 기관의 어떤 사업·업무에 어떤 변경이 필요한지 공식 근거와 함께 확인합니다.'));
+  assert.ok(!filterHtml.includes('정책의 변경 핵심과 연결된 기관·사업의 후속조치를'));
+  const noStatusPills=fs.readFileSync('site/app.js','utf8');
+  assert.ok(!noStatusPills.includes('pill("신구 변경 확인"'));
+  assert.ok(!noStatusPills.includes('model.stageLabel(event.comparison_status),"partial"'));
+  assert.ok(!noStatusPills.includes('$("verification")'));
+  const filterEngine=fs.readFileSync('site/presentation.js','utf8');
+  assert.ok(!filterEngine.includes('verification==="changed"'));
+
   assert.ok(!filterHtml.includes('영향도 평가 기준 (100점) 보기'));
   assert.ok(!filterHtml.includes('class="priority-explainer"'));
   assert.match(filterHtml,/id="mode-impact"[^>]*class="quick-filter active"[^>]*aria-pressed="true"/);
@@ -48,8 +59,6 @@ const scopedAgencyCounts=actions=>new Map(actions.map(a=>[a.agency,1]));
   assert.ok(detailSource.includes('sourceDiffPreview(change,"변경 전","변경 후",Infinity,1)'));
   assert.ok(detailSource.includes('if(target.tagName==="DETAILS")target.open=true'));
 
-  assert.equal(view.filterEvents([education,housing],{mode:'all',verification:'changed'}).length,0);
-  assert.equal(view.filterEvents([education,housing],{mode:'all',verification:'partial'}).length,0);
   const change=eventView({id:'annual',title:'지원기준 고시',category:'급여·지원기준',
     comparison_status:'changed',impact_level:'high',
     priority_reasons:['급여·지원금·소득 기준 변경'],
@@ -62,7 +71,6 @@ const scopedAgencyCounts=actions=>new Map(actions.map(a=>[a.agency,1]));
   assert.equal(change.institutional_reviews[0].task,'심사금액 정비');
   assert.ok(change.institutional_reviews[0].ai.work_impact.includes('120원'));
   assert.equal(view.filterEvents([education,housing,change],{mode:'impact'}).length,2);
-  assert.equal(view.filterEvents([education,housing,change],{mode:'all',verification:'changed'}).length,1);
   assert.throws(()=>view.filterEvents([education,housing,change],{mode:'linked'}),/Unsupported event filter/);
   // Default ranking: confirmed high first, high-potential pending second,
   // general last; all ties break by newest promulgation date.
