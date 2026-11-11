@@ -24,7 +24,7 @@
       review_count:raw.action_count??raw.institutions?.length??0,
       ai_count:analysis?1:0,ai_summaries:analysis?[{document_id:raw.id,article:"정책 변경 요약",summary:analysis.explanation,before_quote:analysis.old_quote,after_quote:analysis.new_quote,question:""}]:[],public_service_leads:[],dependent_rules:raw.dependent_rules||[],
       institutional_reviews:(raw.institutions||[]).map(x=>({institution:x.agency,agency_type:x.agency_type,program:x.service,article:x.changed_clause,
-        task:x.ai_analysis?.verified?x.ai_analysis.explanation:x.required_change,basis_tier:x.evidence?.dependency_path?.length?'verified_official_rule_citation':'verified_program_citation',
+        task:x.ai_analysis?.verified?x.ai_analysis.explanation:x.required_change,basis_tier:x.status==='review_of_named_standard'?'explicit_official_standard_criterion':x.evidence?.dependency_path?.length?'verified_official_rule_citation':'verified_program_citation',
         dependency_path:x.evidence?.dependency_path||[],
         basis_quote:[x.evidence?.service_field,x.evidence?.service_quote,x.evidence?.reference_quote,x.evidence?.delegation_quote].filter(Boolean).join('\n'),
         source_url:x.policy_url,program_url:x.service_url,effective_date:raw.effective_date,
