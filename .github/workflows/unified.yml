@@ -39,13 +39,13 @@ jobs:
       - name: Verify audited source and evidence gates
         run: python -m unittest discover -s tests -v
       - name: Collect independent official change versions
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && !contains(github.event.head_commit.message, '[deploy-existing]')
         env:
           LAW_OC: ${{ vars.LAW_OC || 'dori' }}
           PD_FETCH_OFFICIAL_ATTACHMENTS: 'true'
         run: python -m unified.engine --root data --streams 6 --details 60
       - name: Incrementally refresh official Gov24 program criteria if configured
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && !contains(github.event.head_commit.message, '[deploy-existing]')
         env:
           GOV24_SERVICE_KEY: ${{ secrets.GOV24_SERVICE_KEY }}
         run: python -m unified.gov24 --root data --list-pages 3 --detail-pages 3
