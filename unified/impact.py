@@ -381,8 +381,9 @@ def run(root: Path, limit_events: int = 300) -> dict:
     from .engine import refresh_cached
     refresh_cached(root)
     from .dependencies import build_index, dependencies_for, program_actions
-    dependency_index = build_index(root)
+    dependency_index = build_index(root, include_legacy=True)
     dependency_count = 0
+    legacy_dependency_count = 0
     programs = list(read_programs(root))
     # Each policy previously normalized all 9k+ lengthy official program
     # records anew. Cache only in-memory search strings; never modify the
@@ -415,12 +416,29 @@ def run(root: Path, limit_events: int = 300) -> dict:
                 original = load(root / relative_path(record), {})
                 if original.get("official_xml_base64"):
                     context_doc[field] = " ".join(original.get("body", {}).get("clauses", {}).values())
-        dependencies = dependencies_for(context_doc, comparison, dependency_index)
+        all_dependencies = dependencies_for(context_doc, comparison, dependency_index)
+        dependencies = [d for d in all_dependencies if d["status"] == "citation_dependency_review"]
+        legacy_dependencies = [d for d in all_dependencies
+                               if d["status"] == "historical_extracted_citation_candidate"]
         dependency_count += len(dependencies)
+        legacy_dependency_count += len(legacy_dependencies)
         impacted = impact_for(context_doc, comparison, programs)
-        direct_services = {a["service_id"] for a in impacted}
-        impacted.extend(a for a in program_actions(context_doc, comparison, dependencies, programs)
-                        if a["service_id"] not in direct_services)
+        linked_services = {a["service_id"] for a in impacted}
+        for action in program_actions(context_doc, comparison, dependencies, programs):
+            if action["service_id"] not in linked_services:
+                impacted.append(action)
+                linked_services.add(action["service_id"])
+        for action in program_actions(context_doc, comparison, legacy_dependencies, programs):
+            if action["service_id"] in linked_services:
+                continue
+            action["status"] = "review_of_legacy_rule_citation_candidate"
+            action["evidence"]["proof_type"] = "archived_extracted_rule_citation_unverified"
+            action["required_change"] = (
+                "이전 수집 규정에 상위 조문을 인용한 기록이 있습니다. 공식 원문과 운영기준을 "
+                "대조하여 " + action["service"] + "의 "
+                + action["evidence"]["service_field"] + " 변경 필요 여부를 검토하세요.")
+            impacted.append(action)
+            linked_services.add(action["service_id"])
         # AI is an optional explanatory layer AFTER deterministic official
         # linkage; model text cannot create a new agency or evidence edge.
         if key_available and model_available:
@@ -489,7 +507,7 @@ def run(root: Path, limit_events: int = 300) -> dict:
                 policy_ai_count += 1
         payload = {"doc": doc, "comparison_status": comparison.get("status"),
                    "changes_count": len(comparison.get("changes", [])),
-                   "institutional_actions": impacted, "dependent_rules": dependencies, "policy_analysis": policy_analysis}
+                   "institutional_actions": impacted, "dependent_rules": all_dependencies, "policy_analysis": policy_analysis}
         target = root / "impacts" / (hash256("|".join((
             doc.get("source", ""), doc.get("stable_id", ""),
             doc.get("serial", ""))))[:24] + ".json.gz")
@@ -504,6 +522,10 @@ def run(root: Path, limit_events: int = 300) -> dict:
              "verified_institutional_tasks": verified_tasks,
              "named_standard_review_candidates": named_standard_leads,
              "official_rule_dependencies": dependency_count,
+             "legacy_citation_candidates": legacy_dependency_count,
+             "legacy_program_review_candidates": sum(
+                 a.get("status") == "review_of_legacy_rule_citation_candidate"
+                 for a in generated),
              "comparison_statuses": dict(statuses),
              "ai_explanation_attempts": ai_attempts,
              "ai_verified_explanations": ai_verified,

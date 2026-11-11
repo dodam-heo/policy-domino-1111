@@ -8,7 +8,7 @@ from .engine import load
 from .impact import ARTICLE, cited_articles, citation_quotes, plain
 
 
-def build_index(root):
+def build_index(root, include_legacy=False):
     latest = {}
     for path in (root / 'documents').glob('*/*/*.json.gz'):
         item = load(path, {})
@@ -21,7 +21,9 @@ def build_index(root):
             latest[key] = (rank, item)
     index = defaultdict(list)
     for _, item in latest.values():
-        if not item.get('official_xml_base64'):
+        verified_source = bool(item.get('official_xml_base64'))
+        extracted_source = bool(item.get('source_snapshot_provenance'))
+        if not verified_source and not (include_legacy and extracted_source):
             continue
         doc = item['record']
         for key, text in item.get('body', {}).get('clauses', {}).items():
@@ -41,7 +43,8 @@ def build_index(root):
                     'published_at': doc.get('published_at', ''),
                     'effective_date': doc.get('effective_date', ''),
                     'reference_quote': quote, 'rule_quote': text,
-                    'status': 'citation_dependency_review',
+                    'status': ('citation_dependency_review' if verified_source
+                               else 'historical_extracted_citation_candidate'),
                 })
     return index
 

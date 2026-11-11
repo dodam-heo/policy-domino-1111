@@ -299,6 +299,7 @@
       direct_regulated_institution:"직접 규율기관",
       explicit_changed_clause:"변경 조문에 명시",
       verified_official_rule_citation:"관련 공식 규정 인용",
+      historical_citation_review_candidate:"이전 수집 자료 인용 · 원문 대조 전",
       verified_program_citation:"공식 사업 인용",
        explicit_official_standard_criterion:"공식 사업에 명시된 기준 · 연계 검토"
     }[review.basis_tier]||"공식 근거";

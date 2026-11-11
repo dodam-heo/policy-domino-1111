@@ -109,7 +109,7 @@ jobs:
               detail=json.loads((Path('site')/item['detail_url']).read_text('utf8'))
               assert detail['id']==item['id']
               for action in detail.get('institutions',[]):
-                  assert action['evidence']['proof_type'] in ('exact_changed_article_cited_by_official_program', 'delegated_rule_and_operating_criterion', 'official_parent_subject_and_operating_value', 'explicit_named_standard_in_official_criteria')
+                  assert action['evidence']['proof_type'] in ('exact_changed_article_cited_by_official_program', 'delegated_rule_and_operating_criterion', 'official_parent_subject_and_operating_value', 'explicit_named_standard_in_official_criteria', 'archived_extracted_rule_citation_unverified')
                   assert action['evidence']['reference_quote']
                   assert action['evidence']['service_quote']
           print('PUBLISH_CONTRACT_PASS',catalog['summary'])
