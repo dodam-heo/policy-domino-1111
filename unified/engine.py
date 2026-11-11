@@ -257,6 +257,10 @@ class OfficialAPI:
         deadline = getattr(self, "deadline", None)
         if deadline is not None and time.monotonic() >= deadline:
             raise TimeoutError("collection_budget_reached")
+        # One failed API endpoint must not consume the entire collection run
+        # through many repeated 3-attempt windows. Retry on the next run.
+        if getattr(self, "network_unavailable", False):
+            raise RuntimeError("official_api_network_circuit_open")
         url = API + endpoint + "?" + urlencode(
             {"OC": self.oc, "target": source, "type": "XML", **params})
         if self.transport:
@@ -274,7 +278,9 @@ class OfficialAPI:
                     if n < 2:
                         time.sleep(n + 1)
             else:
+                self.network_unavailable = True
                 raise RuntimeError("official_api_network_error: " + type(last).__name__)
+            self.network_unavailable = False
         if len(raw) > MAX_RESPONSE:
             raise ValueError("official_api_payload_too_large")
         root = ET.fromstring(raw)
@@ -447,7 +453,7 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
 
     def collect_window(source, edition, kind, start, end, stage, query=""):
         nonlocal failed
-        if time.monotonic() >= index_deadline:
+        if time.monotonic() >= index_deadline or getattr(api, "network_unavailable", False):
             return False
         key = "|".join((source, edition, kind, start, end, stage))
         try:
@@ -473,6 +479,7 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
                 "source": source, "edition": edition, "kind": kind,
                 "first": start, "last": end, "stage": stage,
                 "query_year": query, "complete": False,
+                "checked_at": dt.datetime.now(dt.timezone.utc).isoformat(),
                 "error": type(exc).__name__ + ": " + str(exc)[:150]}
             return False
         finally:
@@ -482,10 +489,16 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
     prior_failures = [entry for entry in list(state["coverage"].values())
                       if isinstance(entry, dict) and entry.get("complete") is not True
                       and all(entry.get(k) for k in ("source", "edition", "first", "last"))]
-    for win in prior_failures[:2]:
-        collect_window(win["source"], win["edition"], win.get("kind", ""),
-                       win["first"], win["last"], win.get("stage", "retry"),
-                       win.get("query_year", ""))
+    # Rotate retry windows so older failures cannot permanently block every
+    # other missing range. Never silently mark failed windows as complete.
+    if prior_failures:
+        retry_offset = int(state.get("failed_retry_offset", 0)) % len(prior_failures)
+        retry_queue = prior_failures[retry_offset:] + prior_failures[:retry_offset]
+        for win in retry_queue[:2]:
+            collect_window(win["source"], win["edition"], win.get("kind", ""),
+                           win["first"], win["last"], win.get("stage", "retry"),
+                           win.get("query_year", ""))
+        state["failed_retry_offset"] = (retry_offset + 2) % len(prior_failures)
 
     # One uniform index for all official source/date/kind streams.
     for source, edition, kind in schedule:
@@ -521,7 +534,8 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
                                 _priority(r, today)), reverse=True)
     attempted, complete, compared = 0, 0, 0
     for rec in records:
-        if attempted >= detail_budget or time.monotonic() >= deadline:
+        if (attempted >= detail_budget or time.monotonic() >= deadline
+                or getattr(api, "network_unavailable", False)):
             break
         stored = load(root / relative_path(rec))
         comparison_path = root / "comparisons" / (hash256(ident(rec))[:24] + ".json.gz")
