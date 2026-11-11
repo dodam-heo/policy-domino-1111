@@ -218,8 +218,15 @@
     const section=heading("이번 개정에서 달라진 내용");
     section.className="detail-section core";
     const summary=create("div","core-summary");
-    append(summary,create("strong","",compact(event.headline,170)),
-      create("p","","원문에서 확인한 변경과 실제 업무 영향 검토 근거를 구분해 보여줍니다."));
+    append(summary,create("strong","",compact(event.headline,220)));
+    if (event.priority_reasons?.length) {
+      const reasons=create("div","priority-reasons");
+      append(reasons,create("span","priority-caption","우선 검토 선정 이유"));
+      for(const reason of event.priority_reasons)append(reasons,pill(reason,"priority"));
+      append(summary,reasons);
+    }
+    if(event.comparison_status!=="changed")
+      append(summary,create("p","core-caution","신구 비교의 일부 근거가 아직 확인 중입니다. 미확인 항목은 확정된 변경으로 취급하지 않습니다."));
     if(event.headline.length>170){const more=create("details","highlight-detail");append(more,create("summary","","정책 요약 전체 보기"),create("p","",event.headline));append(summary,more);}
     append(section,summary);
     if (event.changes?.length) {
@@ -252,7 +259,11 @@
             append(row,more);
           }
         } else {
-          const description=meaning.description||change.brief||"원문 내용 확인 필요";
+          const focus=meaning.focus?.[0]||{};
+          const oldText=compact(focus.before?.changed||"",70);
+          const newText=compact(focus.after?.changed||"",70);
+          const factual=oldText||newText?"변경 전 ‘"+(oldText||"없음")+"’ → 변경 후 ‘"+(newText||"없음")+"’":"";
+          const description=change.brief||factual||meaning.description||"원문 내용 확인 필요";
           append(row,create("strong","highlight-description",compact(description,160)));
           if(description.length>160){
             const more=create("details","highlight-detail");
@@ -265,13 +276,15 @@
               "수집된 종전·현행 본문만으로는 실제 개정 내용을 단정할 수 없어 이 조문은 재확인 대상입니다."));
           }
         }
-        if(meaning.before || meaning.after || meaning.focus?.length) {
-          const toggle=create("details","highlight-detail");
-          append(toggle,create("summary","","실제 달라진 부분 보기"));
-          append(toggle,sourceDiffPreview(change,
-            meaning.change_kind==="citation"?"종전 인용 조문":"변경 전",
-            meaning.change_kind==="citation"?"현행 인용 조문":"변경 후"));
-          append(row,toggle);
+        if(change.before || change.after || meaning.focus?.length) {
+          const first=shown.indexOf(change)===0;
+          if(first)append(row,sourceDiffPreview(change,"변경 전","변경 후"));
+          else {
+            const toggle=create("details","highlight-detail");
+            append(toggle,create("summary","","변경 전·후 내용 펼치기"));
+            append(toggle,sourceDiffPreview(change,"변경 전","변경 후"));
+            append(row,toggle);
+          }
         }
         append(highlights,row);
       }
@@ -283,8 +296,8 @@
       append(section,highlights);
     }
     const stats=create("div","impact-numbers");
-    append(stats,create("span","","검토 기관 "+num(event.institution_count)+"곳"),
-      create("span","","업무 검토사항 "+num(event.review_count)+"건"));
+    append(stats,create("span","","연결된 기관 "+num(event.institution_count)+"곳"),
+      create("span","","업무 검토항목 "+num(event.review_count)+"건"));
     if (event.public_service_lead_count)
       append(stats,create("span","","공공서비스 검토 후보 "+
         num(event.public_service_lead_count)+"건"));
@@ -303,10 +316,13 @@
       verified_official_rule_citation:"관련 공식 규정 인용",
       historical_citation_review_candidate:"이전 수집 자료 인용 · 원문 대조 전",
       verified_program_citation:"공식 사업 인용",
+      partial_source_review:"추가 대조 필요 · 변경 원문 일부 미확인",
        explicit_official_standard_criterion:"공식 사업에 명시된 기준 · 연계 검토"
     }[review.basis_tier]||"공식 근거";
     append(card,create("div","review-meta",
       type+" · "+(review.program||review.document_title)+" · "+review.article));
+    append(card,pill(review.evidence_status==="review_of_verified_citation" && review.basis_tier!=="partial_source_review" ?
+      "근거 확인" : "추가 확인할 연결","review-status"));
     append(card,create("p","review-task",review.task));
     if(review.effective_date)append(card,create("p","review-effective","적용 시점 "+review.effective_date));
     const short=(review.linked_changes||[]).filter(model.isShort);
@@ -320,11 +336,15 @@
       append(card,create("div","review-change",compact(review.change,150)));
     if (review.ai?.work_impact || review.ai?.question) {
       const suggestion=create("details","ai-inline");
-      append(suggestion,create("summary","","AI 업무 영향 추가 검토"));
+      append(suggestion,create("summary","","AI가 분석한 업무 변경 설명과 인용 근거"));
       if (review.ai.work_impact)
         append(suggestion,create("p","",review.ai.work_impact));
       if (review.ai.question)
         append(suggestion,create("p","",review.ai.question));
+      if (review.ai.old_quote && review.ai.new_quote)
+        append(suggestion,create("p","ai-evidence","종전 원문: "+review.ai.old_quote+" / 변경 원문: "+review.ai.new_quote));
+      if (review.ai.program_quote)
+        append(suggestion,create("p","ai-evidence","공식 사업자료 인용: "+review.ai.program_quote));
       append(card,suggestion);
     }
     const proof=create("details","proof");
@@ -340,8 +360,8 @@
     return card;
   }
   function renderInstitutions(event) {
-    const section=heading("기관별 변경·사업 검토사항",
-      "공식 사업의 운영기준과 변경 조문을 대조해 검토할 업무를 정리했습니다.");
+    const section=heading("기관·사업별 후속조치",
+      "기관별 사업과 변경 규정의 연결 근거를 확인하세요. 직접 근거가 확인된 항목과 재확인 후보는 구분됩니다.");
     let relatedRules=null;
     if(event.dependent_rules?.length){
       const rules=create("details","proof");
@@ -356,7 +376,7 @@
     const groups=view.impactGroups(event);
     if (!groups.length) {
       append(section,create("p","no-impacts",
-        "이 변경 조문과 연결되는 기관·공공사업의 공식 근거가 아직 확인되지 않았습니다. 원천자료 수집·인용 대조가 더 필요합니다."));
+        "이 정책의 변경 조문과 특정 기관의 사업을 연결하는 공식 근거가 아직 확보되지 않았습니다. 정책 내용과 원문 신구대비는 아래에서 확인할 수 있습니다."));
       if(relatedRules)append(section,relatedRules);
       return section;
     }
@@ -407,7 +427,9 @@
         groups.filter(g=>g.agency===state.institutionFilter);
       const reviewCount=shown.reduce((total,g)=>total+g.reviews.length,0);
       const serviceCount=shown.reduce((total,g)=>total+g.services.length,0);
-      counter.textContent=num(shown.length)+"개 기관 · 업무 검토사항 "+num(reviewCount)+"건";
+      const verified=shown.reduce((n,g)=>n+g.reviews.filter(r=>
+        r.evidence_status==="review_of_verified_citation" && event.comparison_status==="changed").length,0);
+      counter.textContent=num(shown.length)+"개 기관 · 근거 확인 "+num(verified)+"건 · 추가 확인 "+num(reviewCount-verified)+"건";
       compactSelect.value=state.institutionFilter;
       results.replaceChildren();
       for(let i=0;i<shown.length;i++){
@@ -472,10 +494,11 @@
     return section;
   }
   function renderEvidence(event) {
-    const section=heading("공식 변경 전·후와 출처");
+    const section=heading("공식 신구대비와 근거 원문");
     const wrapper=create("details","evidence-panel");
     append(wrapper,create("summary","",
-      "조문 대조 "+num(event.changes?.length||0)+"건 · 원문 펼쳐 보기"));
+      "변경 전·후 조문 "+num(event.changes?.length||0)+"건 · 상세 보기"));
+    if(event.changes?.length)wrapper.open=true;
     for (const [i,ch] of (event.changes||[]).entries()) {
       if (i===5) {
         const more=create("details","more-clauses");
@@ -521,14 +544,15 @@
   }
   function renderAI(event) {
     if (!event.ai_summaries?.length) return null;
-    const section=heading("AI 보조검토");
+    const section=heading("AI 정책 변경 분석",
+      "공식 원문에서 검증된 인용 문구를 바탕으로 작성한 보조 설명입니다.");
     const drawer=create("details","evidence-panel");
     append(drawer,create("summary","",
-      "원문 근거를 확인한 AI 추가 검토 "+num(event.ai_summaries.length)+"건"));
+      "AI 분석 근거 "+num(event.ai_summaries.length)+"건 펼치기"));
     for (const item of event.ai_summaries.slice(0,12)) {
       const card=create("div","ai-review");
       append(card,create("strong","",item.summary),
-        create("p","",item.question),
+        item.question?create("p","",item.question):null,
         create("small","",item.article+" · 공식 원문 인용: "+
           item.before_quote+" → "+item.after_quote));
       append(drawer,card);
@@ -550,21 +574,26 @@
     append(meta,pill(view.category(event),"type "+event.kind),
       create("span","",event.published_at||""),
       event.verification==="partial" ?
-        pill("일부 조문 대조","partial"):null);
+        pill(model.stageLabel(event.comparison_status),"partial"):pill("신구 변경 확인","verified"));
     append(head,meta,create("h2","",event.title),
       event.effective_date ?
         create("p","effective","시행일 "+event.effective_date):null);
     append(root,head);
     if(!event.loaded){append(root,create("p","loading-detail","정책 상세와 기관별 근거를 불러오는 중입니다."));return;}
+    if(event.priority_reasons?.length)
+      append(head,create("p","priority-explanation",
+        "‘영향도 큼’ 선정 근거: "+event.priority_reasons.join(" · ")+
+        " · 이는 우선 검토 분류로 실제 파급 규모를 확정한 점수가 아닙니다."));
     const nav=create("nav","detail-nav");
-    for(const [text,id]of [["변경 핵심","policy-core"],["기관·사업 영향","policy-institutions"],["신구 비교·근거","policy-evidence"]]){
+    for(const [text,id]of [["변경 핵심","policy-core"],["기관별 후속조치","policy-institutions"],["신구대비·근거","policy-evidence"]]){
       const b=create("button","",text);b.type="button";b.onclick=()=>$(id)?.scrollIntoView({behavior:"smooth",block:"start"});append(nav,b);
     }
     append(head,link(event.url,"공식 정책 원문"),nav);
     const core=renderCore(event),institutions=renderInstitutions(event),evidence=renderEvidence(event);
     core.id="policy-core";institutions.id="policy-institutions";evidence.id="policy-evidence";
     const short=(event.changes||[]).filter(model.isShort);
-    if(short.length)core.insertBefore(deltaTable(short,3),core.children[2]);
+    // Keep detailed comparisons in the evidence section, rather than
+    // duplicating wide before/after tables above the main policy impact.
     append(root,core,institutions,evidence,renderAI(event));
   }
   function show(data) {
