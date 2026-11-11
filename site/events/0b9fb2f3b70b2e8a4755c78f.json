@@ -1,0 +1,81 @@
+{
+  "id": "admrul|36723|2100000287578",
+  "title": "건강보험 행위 급여·비급여 목록표 및 급여 상대가치점수",
+  "source": "admrul",
+  "kind": "행정규칙",
+  "ministry": "보건복지부",
+  "published_at": "2026-10-29",
+  "effective_date": "2026-11-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%20%ED%96%89%EC%9C%84%20%EA%B8%89%EC%97%AC%C2%B7%EB%B9%84%EA%B8%89%EC%97%AC%20%EB%AA%A9%EB%A1%9D%ED%91%9C%20%EB%B0%8F%20%EA%B8%89%EC%97%AC%20%EC%83%81%EB%8C%80%EA%B0%80%EC%B9%98%EC%A0%90%EC%88%98",
+  "category": "급여·지원기준",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 90,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "종전·현행 원문 비교 대기",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "건강보험 행위 급여·비급여 목록표 및 급여 상대가치점수",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%20%ED%96%89%EC%9C%84%20%EA%B8%89%EC%97%AC%C2%B7%EB%B9%84%EA%B8%89%EC%97%AC%20%EB%AA%A9%EB%A1%9D%ED%91%9C%20%EB%B0%8F%20%EA%B8%89%EC%97%AC%20%EC%83%81%EB%8C%80%EA%B0%80%EC%B9%98%EC%A0%90%EC%88%98"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "건강보험 행위 급여·비급여 목록표 및 급여 상대가치점수",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%20%ED%96%89%EC%9C%84%20%EA%B8%89%EC%97%AC%C2%B7%EB%B9%84%EA%B8%89%EC%97%AC%20%EB%AA%A9%EB%A1%9D%ED%91%9C%20%EB%B0%8F%20%EA%B8%89%EC%97%AC%20%EC%83%81%EB%8C%80%EA%B0%80%EC%B9%98%EC%A0%90%EC%88%98"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "건강보험 행위 급여·비급여 목록표 및 급여 상대가치점수",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%20%ED%96%89%EC%9C%84%20%EA%B8%89%EC%97%AC%C2%B7%EB%B9%84%EA%B8%89%EC%97%AC%20%EB%AA%A9%EB%A1%9D%ED%91%9C%20%EB%B0%8F%20%EA%B8%89%EC%97%AC%20%EC%83%81%EB%8C%80%EA%B0%80%EC%B9%98%EC%A0%90%EC%88%98"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "original_saved_comparison_pending",
+  "relationship": "",
+  "changes": [],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": ""
+}

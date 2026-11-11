@@ -8,7 +8,7 @@
   "effective_date": "2026-10-29",
   "revision": "일부개정",
   "url": "https://www.law.go.kr/법령/%EA%B5%90%EA%B3%BC%EC%9A%A9%20%EB%8F%84%EC%84%9C%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%A0%95",
-  "category": "기타 제·개정",
+  "category": "행정절차·인허가",
   "primary_change_summary": "",
   "priority_reasons": [
     "국가 법률에 따른 전국 단위 규율 범위"
@@ -28,7 +28,7 @@
         "status": "pending",
         "evidence": [
           {
-            "reason": "종전·현행 원문 비교 대기",
+            "reason": "부분 대조의 근거 추가 확인 필요",
             "article": "",
             "before": "",
             "after": "",
@@ -69,13 +69,95 @@
     "featured_change_indices": [],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
-  "unresolved": [],
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "제1조",
+      "before": "제1조(목적) 이 영은 「초ㆍ중등교육법」 제29조제4항에 따라 각 학교의 교과용 도서의 저작ㆍ검정ㆍ인정ㆍ발행ㆍ공급ㆍ선정 및 가격결정에 관하여 필요한 사항을 규정함을 목적으로 한다.",
+      "after": "제1조(목적) 이 영은 「초ㆍ중등교육법」 제29조에 따라 각 학교의 교과용 도서의 저작ㆍ검정ㆍ인정ㆍ발행ㆍ공급ㆍ선정ㆍ가격결정 및 디지털 파일의 제출 형식ㆍ절차 등에 필요한 사항을 규정함을 목적으로 한다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제1조(목적) 이 영은 「초ㆍ중등교육법」 제29",
+            "changed": "조제4항에",
+            "suffix": " 따라 각 학교의 교과용 도서의 저작ㆍ검정ㆍ인정ㆍ발행ㆍ공급ㆍ선정 및 가격결정에 관…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제1조(목적) 이 영은 「초ㆍ중등교육법」 제29",
+            "changed": "조에",
+            "suffix": " 따라 각 학교의 교과용 도서의 저작ㆍ검정ㆍ인정ㆍ발행ㆍ공급ㆍ선정ㆍ가격결정 및 디지…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 제29조제4항에 따라 각 학교의 교과용 도서의 저작ㆍ검정ㆍ인정ㆍ발행ㆍ공급ㆍ선정 ",
+            "changed": "",
+            "suffix": "및 가격결정에 관하여 필요한 사항을 규정함을 목적으로 한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…교육법」 제29조에 따라 각 학교의 교과용 도서의 저작ㆍ검정ㆍ인정ㆍ발행ㆍ공급ㆍ선정",
+            "changed": "ㆍ가격결정",
+            "suffix": " 및 디지털 파일의 제출 형식ㆍ절차 등에 필요한 사항을 규정함을 목적으로 한다.",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…29조제4항에 따라 각 학교의 교과용 도서의 저작ㆍ검정ㆍ인정ㆍ발행ㆍ공급ㆍ선정 및 ",
+            "changed": "가격결정에 관하여",
+            "suffix": " 필요한 사항을 규정함을 목적으로 한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…조에 따라 각 학교의 교과용 도서의 저작ㆍ검정ㆍ인정ㆍ발행ㆍ공급ㆍ선정ㆍ가격결정 및 ",
+            "changed": "디지털 파일의 제출 형식ㆍ절차 등에",
+            "suffix": " 필요한 사항을 규정함을 목적으로 한다.",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 3,
+      "substance_score": 10
+    },
+    {
+      "article": "제30조",
+      "before": "제30조(주문) 학교의 장은 매 학기에 사용할 교과용 도서를 해당 학기 시작 4개월 전까지 「초ㆍ중등교육법」 제30조의4에 따른 교육정보시스템을 이용하여 해당 교과용 도서의 발행자 또는 그 대리인에게 주문해야 한다. 다만, 제26조에 따른 교과용 도서의 내용 수정 등 특별한 사정이 있는 경우에는 교육부장관이 별도로 정한 기한까지 주문할 수 있다.",
+      "after": "제30조(주문) 학교의 장은 매 학기에 사용할 교과용 도서를 해당 학기 시작 4개월 전까지 「초ㆍ중등교육법」(이하 \"법\"이라 한다) 제30조의4에 따른 교육정보시스템을 이용하여 해당 교과용 도서의 발행자 또는 그 대리인에게 주문해야 한다. 다만, 제26조에 따른 교과용 도서의 내용 수정 등 특별한 사정이 있는 경우에는 교육부장관이 별도로 정한 기한까지 주문할 수 있다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…매 학기에 사용할 교과용 도서를 해당 학기 시작 4개월 전까지 「초ㆍ중등교육법」 ",
+            "changed": "",
+            "suffix": "제30조의4에 따른 교육정보시스템을 이용하여 해당 교과용 도서의 발행자 또는 그 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 매 학기에 사용할 교과용 도서를 해당 학기 시작 4개월 전까지 「초ㆍ중등교육법」",
+            "changed": "(이하 \"법\"이라 한다)",
+            "suffix": " 제30조의4에 따른 교육정보시스템을 이용하여 해당 교과용 도서의 발행자 또는 그…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
   "impact_level": "pending",
-  "prior_url": ""
+  "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%90%EA%B3%BC%EC%9A%A9%20%EB%8F%84%EC%84%9C%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%A0%95"
 }

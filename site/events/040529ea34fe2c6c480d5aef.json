@@ -1,0 +1,112 @@
+{
+  "id": "admrul|49059|2100000282902",
+  "title": "통계작성의 변경승인(협의) 고시(전국지가변동률조사)",
+  "source": "admrul",
+  "kind": "고시",
+  "ministry": "국가데이터처",
+  "published_at": "2026-07-23",
+  "effective_date": "2026-08-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%A0%84%EA%B5%AD%EC%A7%80%EA%B0%80%EB%B3%80%EB%8F%99%EB%A5%A0%EC%A1%B0%EC%82%AC%29",
+  "category": "행정절차·인허가",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "전국 공통 법정 급여·보장·보험 기준"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 100,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(전국지가변동률조사)",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%A0%84%EA%B5%AD%EC%A7%80%EA%B0%80%EB%B3%80%EB%8F%99%EB%A5%A0%EC%A1%B0%EC%82%AC%29"
+          }
+        ]
+      },
+      "scope": {
+        "score": 35,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "전국 공통 법정 급여·보장·보험 기준",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(전국지가변동률조사)",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%A0%84%EA%B5%AD%EC%A7%80%EA%B0%80%EB%B3%80%EB%8F%99%EB%A5%A0%EC%A1%B0%EC%82%AC%29"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(전국지가변동률조사)",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%A0%84%EA%B5%AD%EC%A7%80%EA%B0%80%EB%B3%80%EB%8F%99%EB%A5%A0%EC%A1%B0%EC%82%AC%29"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "본문",
+      "before": "1. 통계의 명칭 : 전국지가변동률조사 2. 통계작성기관의 명칭 : 한국부동산원 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제315001호 [1984.05.21.] 4. 통계작성의 변경 연월일 : 2026.03.01. 5. 통계작성의 변경 내용과 사유 :",
+      "after": "1. 통계의 명칭 : 전국지가변동률조사 2. 통계작성기관의 명칭 : 한국부동산원 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제315001호 [1984.05.21.] 4. 통계작성의 변경 연월일 : 2026.08.01. 5. 통계작성의 변경 내용과 사유 :",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…] : 제315001호 [1984.05.21.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2026.03.01.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 :",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…] : 제315001호 [1984.05.21.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2026.08.01.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 :",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 0
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%A0%84%EA%B5%AD%EC%A7%80%EA%B0%80%EB%B3%80%EB%8F%99%EB%A5%A0%EC%A1%B0%EC%82%AC%29"
+}

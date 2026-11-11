@@ -1,16 +1,16 @@
 {
-  "indexed_unique_versions": 15267,
-  "saved_versions": 1471,
-  "indexed_without_saved_original": 14370,
+  "indexed_unique_versions": 22859,
+  "saved_versions": 2046,
+  "indexed_without_saved_original": 21031,
   "official_complete_originals": 346,
-  "legacy_extracted_versions_requiring_source_revalidation": 716,
-  "comparisons": 476,
+  "legacy_extracted_versions_requiring_source_revalidation": 1291,
+  "comparisons": 659,
   "comparisons_by_status": {
     "changed": 146,
-    "partial_unverified": 330
+    "partial_unverified": 513
   },
   "comparisons_without_impact_assessment": 0,
   "verified_institutional_review_tasks": 6,
-  "review_leads_not_fully_verified": 89,
+  "review_leads_not_fully_verified": 684,
   "source": "incremental_cumulative_official_evidence"
 }

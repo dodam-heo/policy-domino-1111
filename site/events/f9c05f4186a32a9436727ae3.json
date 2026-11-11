@@ -1,0 +1,135 @@
+{
+  "id": "ordin|2020368|2146153",
+  "title": "강릉시 상수도원인자부담금 산정ㆍ징수 등에 관한 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "강원특별자치도 강릉시",
+  "published_at": "2026-07-08",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B0%95%EB%A6%89%EC%8B%9C%20%EC%83%81%EC%88%98%EB%8F%84%EC%9B%90%EC%9D%B8%EC%9E%90%EB%B6%80%EB%8B%B4%EA%B8%88%20%EC%82%B0%EC%A0%95%E3%86%8D%EC%A7%95%EC%88%98%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+  "category": "급여·지원기준",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 15,
+    "score_min": 15,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "강릉시 상수도원인자부담금 산정ㆍ징수 등에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B0%95%EB%A6%89%EC%8B%9C%20%EC%83%81%EC%88%98%EB%8F%84%EC%9B%90%EC%9D%B8%EC%9E%90%EB%B6%80%EB%8B%B4%EA%B8%88%20%EC%82%B0%EC%A0%95%E3%86%8D%EC%A7%95%EC%88%98%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "강릉시 상수도원인자부담금 산정ㆍ징수 등에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B0%95%EB%A6%89%EC%8B%9C%20%EC%83%81%EC%88%98%EB%8F%84%EC%9B%90%EC%9D%B8%EC%9E%90%EB%B6%80%EB%8B%B4%EA%B8%88%20%EC%82%B0%EC%A0%95%E3%86%8D%EC%A7%95%EC%88%98%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "강릉시 상수도원인자부담금 산정ㆍ징수 등에 관한 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B0%95%EB%A6%89%EC%8B%9C%20%EC%83%81%EC%88%98%EB%8F%84%EC%9B%90%EC%9D%B8%EC%9E%90%EB%B6%80%EB%8B%B4%EA%B8%88%20%EC%82%B0%EC%A0%95%E3%86%8D%EC%A7%95%EC%88%98%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "제11조",
+      "before": "제11조(준용) 이 조례에 따른 원인자부담금의 징수에 있어 이 조례에서 정한 사항 이외의 사항은 「지방세법」에 따른 지방세 징수의 예에 따른다. ",
+      "after": "제11조(준용) 이 조례에 따른 원인자부담금의 징수에 있어 이 조례에서 정한 사항 이외의 사항은 「지방세법」에 따른 지방세 징수의 예에 따른다. 제12조 삭제",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…례에서 정한 사항 이외의 사항은 「지방세법」에 따른 지방세 징수의 예에 따른다. ",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…례에서 정한 사항 이외의 사항은 「지방세법」에 따른 지방세 징수의 예에 따른다. ",
+            "changed": "제12조 삭제",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 10
+    },
+    {
+      "article": "제4조의2",
+      "before": "제4조의2(감면 및 제외) ① 시장은 다음 각 호의 어느 하나에 해당되는 경우에는 원인자부담금 및 시설분담금의 전부 또는 일부를 감면할 수 있다. 1. 「교육환경 보호에 관한 법률」 제2조제1호의 교육환경을 보호하는 시설 2. 「사회복지사업법」 제2조제4호의 사회복지시설 3. 그 밖에 시장이 필요하다고 인정하는 공공시설물 ② 시장은 제1항에도 불구하고 「수도법」제71조제1항 중 수도시설을 손괴하는 사업이나 행위를 한 때에는 해당 감면대상자에서 제외한다. [본조 신설 2020.9.29.] ",
+      "after": "제4조의2(감면 및 제외) ① 시장은 다음 각 호의 어느 하나에 해당되는 경우에는 원인자부담금의 전부 또는 일부를 감면할 수 있다. 1. 「교육환경 보호에 관한 법률」 제2조제1호의 교육환경을 보호하는 시설 2. 「사회복지사업법」 제2조제4호의 사회복지시설 3. 그 밖에 시장이 필요하다고 인정하는 공공시설물 ② 시장은 제1항에도 불구하고 「수도법」제71조제1항 중 수도시설을 손괴하는 사업이나 행위를 한 때에는 해당 감면대상자에서 제외한다. [본조 신설 2020.9.29.] ",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…4조의2(감면 및 제외) ① 시장은 다음 각 호의 어느 하나에 해당되는 경우에는 ",
+            "changed": "원인자부담금 및 시설분담금의",
+            "suffix": " 전부 또는 일부를 감면할 수 있다. 1. 「교육환경 보호에 관한 법률」 제2조제…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…4조의2(감면 및 제외) ① 시장은 다음 각 호의 어느 하나에 해당되는 경우에는 ",
+            "changed": "원인자부담금의",
+            "suffix": " 전부 또는 일부를 감면할 수 있다. 1. 「교육환경 보호에 관한 법률」 제2조제…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B0%95%EB%A6%89%EC%8B%9C%20%EC%83%81%EC%88%98%EB%8F%84%EC%9B%90%EC%9D%B8%EC%9E%90%EB%B6%80%EB%8B%B4%EA%B8%88%20%EC%82%B0%EC%A0%95%E3%86%8D%EC%A7%95%EC%88%98%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80"
+}

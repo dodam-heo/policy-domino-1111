@@ -1,0 +1,142 @@
+{
+  "id": "admrul|30157|2100000282876",
+  "title": "산림청 위임전결사항 규정",
+  "source": "admrul",
+  "kind": "행정규칙",
+  "ministry": "산림청",
+  "published_at": "2026-07-22",
+  "effective_date": "2026-07-22",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%82%B0%EB%A6%BC%EC%B2%AD%20%EC%9C%84%EC%9E%84%EC%A0%84%EA%B2%B0%EC%82%AC%ED%95%AD%20%EA%B7%9C%EC%A0%95",
+  "category": "기타 제·개정",
+  "primary_change_summary": "별표 0000의00 (위임전결사항) · 위임전결사항의 → 위임전결사항 ※",
+  "priority_reasons": [
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 90,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "산림청 위임전결사항 규정",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%82%B0%EB%A6%BC%EC%B2%AD%20%EC%9C%84%EC%9E%84%EC%A0%84%EA%B2%B0%EC%82%AC%ED%95%AD%20%EA%B7%9C%EC%A0%95"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "산림청 위임전결사항 규정",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%82%B0%EB%A6%BC%EC%B2%AD%20%EC%9C%84%EC%9E%84%EC%A0%84%EA%B2%B0%EC%82%AC%ED%95%AD%20%EA%B7%9C%EC%A0%95"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "산림청 위임전결사항 규정",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%82%B0%EB%A6%BC%EC%B2%AD%20%EC%9C%84%EC%9E%84%EC%A0%84%EA%B2%B0%EC%82%AC%ED%95%AD%20%EA%B7%9C%EC%A0%95"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "별표 0000의00 (위임전결사항)",
+      "before": "[별표] 위임전결사항의 자세한 내용은 상단 메뉴 버튼을 이용하십시오.",
+      "after": "[별표] 위임전결사항 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 위임전결사항 일부개정 별표.xlsx",
+      "focus": [
+        {
+          "before": {
+            "prefix": "[별표] ",
+            "changed": "위임전결사항의",
+            "suffix": " 자세한 내용은 상단 메뉴 버튼을 이용하십시오.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "[별표] ",
+            "changed": "위임전결사항 ※",
+            "suffix": " 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별표] 위임전결사항의 자세한 내용은 상단 메뉴 ",
+            "changed": "",
+            "suffix": "버튼을 이용하십시오.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "[별표] 위임전결사항 ※ 자세한 내용은 상단 메뉴 ",
+            "changed": "\"\"",
+            "suffix": " 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별표] 위임전결사항의 자세한 내용은 상단 메뉴 버튼을 이용하십시오.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "[별표] 위임전결사항 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. ",
+            "changed": "\"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 위임전결사항 일부개정 별표.xlsx",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 3,
+      "substance_score": 20
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%82%B0%EB%A6%BC%EC%B2%AD%20%EC%9C%84%EC%9E%84%EC%A0%84%EA%B2%B0%EC%82%AC%ED%95%AD%20%EA%B7%9C%EC%A0%95"
+}

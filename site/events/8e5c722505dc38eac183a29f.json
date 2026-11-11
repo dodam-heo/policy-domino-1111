@@ -1,0 +1,81 @@
+{
+  "id": "admrul|61768|2100000272816",
+  "title": "(원주지방환경청) 공공폐수처리시설 기본계획 통합고시",
+  "source": "admrul",
+  "kind": "고시",
+  "ministry": "원주지방환경청",
+  "published_at": "2026-01-14",
+  "effective_date": "2026-01-14",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%28%EC%9B%90%EC%A3%BC%EC%A7%80%EB%B0%A9%ED%99%98%EA%B2%BD%EC%B2%AD%29%20%EA%B3%B5%EA%B3%B5%ED%8F%90%EC%88%98%EC%B2%98%EB%A6%AC%EC%8B%9C%EC%84%A4%20%EA%B8%B0%EB%B3%B8%EA%B3%84%ED%9A%8D%20%ED%86%B5%ED%95%A9%EA%B3%A0%EC%8B%9C",
+  "category": "기타 제·개정",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 90,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "종전·현행 원문 비교 대기",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "(원주지방환경청) 공공폐수처리시설 기본계획 통합고시",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%28%EC%9B%90%EC%A3%BC%EC%A7%80%EB%B0%A9%ED%99%98%EA%B2%BD%EC%B2%AD%29%20%EA%B3%B5%EA%B3%B5%ED%8F%90%EC%88%98%EC%B2%98%EB%A6%AC%EC%8B%9C%EC%84%A4%20%EA%B8%B0%EB%B3%B8%EA%B3%84%ED%9A%8D%20%ED%86%B5%ED%95%A9%EA%B3%A0%EC%8B%9C"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "(원주지방환경청) 공공폐수처리시설 기본계획 통합고시",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%28%EC%9B%90%EC%A3%BC%EC%A7%80%EB%B0%A9%ED%99%98%EA%B2%BD%EC%B2%AD%29%20%EA%B3%B5%EA%B3%B5%ED%8F%90%EC%88%98%EC%B2%98%EB%A6%AC%EC%8B%9C%EC%84%A4%20%EA%B8%B0%EB%B3%B8%EA%B3%84%ED%9A%8D%20%ED%86%B5%ED%95%A9%EA%B3%A0%EC%8B%9C"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "(원주지방환경청) 공공폐수처리시설 기본계획 통합고시",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%28%EC%9B%90%EC%A3%BC%EC%A7%80%EB%B0%A9%ED%99%98%EA%B2%BD%EC%B2%AD%29%20%EA%B3%B5%EA%B3%B5%ED%8F%90%EC%88%98%EC%B2%98%EB%A6%AC%EC%8B%9C%EC%84%A4%20%EA%B8%B0%EB%B3%B8%EA%B3%84%ED%9A%8D%20%ED%86%B5%ED%95%A9%EA%B3%A0%EC%8B%9C"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "original_saved_comparison_pending",
+  "relationship": "",
+  "changes": [],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": ""
+}

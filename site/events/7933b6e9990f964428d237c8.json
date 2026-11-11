@@ -1,0 +1,81 @@
+{
+  "id": "admrul|31211|2100000263784",
+  "title": "육상 항공기 수색·구조 계획",
+  "source": "admrul",
+  "kind": "훈령",
+  "ministry": "소방청",
+  "published_at": "2025-09-10",
+  "effective_date": "2025-09-10",
+  "revision": "전부개정",
+  "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%9C%A1%EC%83%81%20%ED%95%AD%EA%B3%B5%EA%B8%B0%20%EC%88%98%EC%83%89%C2%B7%EA%B5%AC%EC%A1%B0%20%EA%B3%84%ED%9A%8D",
+  "category": "기타 제·개정",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 90,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "종전·현행 원문 비교 대기",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "육상 항공기 수색·구조 계획",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%9C%A1%EC%83%81%20%ED%95%AD%EA%B3%B5%EA%B8%B0%20%EC%88%98%EC%83%89%C2%B7%EA%B5%AC%EC%A1%B0%20%EA%B3%84%ED%9A%8D"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "육상 항공기 수색·구조 계획",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%9C%A1%EC%83%81%20%ED%95%AD%EA%B3%B5%EA%B8%B0%20%EC%88%98%EC%83%89%C2%B7%EA%B5%AC%EC%A1%B0%20%EA%B3%84%ED%9A%8D"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "육상 항공기 수색·구조 계획",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%9C%A1%EC%83%81%20%ED%95%AD%EA%B3%B5%EA%B8%B0%20%EC%88%98%EC%83%89%C2%B7%EA%B5%AC%EC%A1%B0%20%EA%B3%84%ED%9A%8D"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "original_saved_comparison_pending",
+  "relationship": "",
+  "changes": [],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": ""
+}

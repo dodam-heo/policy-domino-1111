@@ -1,0 +1,20 @@
+{
+  "next_read_only_snapshot_sha": "d0f380147a9524f11c1a997fb69e503b22850ef4",
+  "source_schema": "policy-domino-next-v1",
+  "integrated_at": "2026-11-11T13:58:26.933501+00:00",
+  "origin_claim": "extracted_clauses_paired_from_NEXT_not_official_XML",
+  "original_unified_sources_overwritten": 0,
+  "next_source_repo_modified": false,
+  "counts": {
+    "indexed_shards_written": 3,
+    "indexed_eligible_records": 21518,
+    "versions_considered": 1248,
+    "versions_imported": 575,
+    "versions_preexisting": 663,
+    "versions_skipped_without_verified_text": 10,
+    "comparison_cases_considered": 333,
+    "findings_skipped_mismatched_clauses": 73,
+    "comparisons_imported": 183,
+    "comparisons_preexisting": 77
+  }
+}

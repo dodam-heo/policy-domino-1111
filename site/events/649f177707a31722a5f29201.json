@@ -1,0 +1,168 @@
+{
+  "id": "admrul|34242|2100000282562",
+  "title": "공동주택 분양가격의 산정 등에 관한 시행지침",
+  "source": "admrul",
+  "kind": "고시",
+  "ministry": "국토교통부",
+  "published_at": "2026-07-15",
+  "effective_date": "2026-07-15",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EA%B3%B5%EB%8F%99%EC%A3%BC%ED%83%9D%20%EB%B6%84%EC%96%91%EA%B0%80%EA%B2%A9%EC%9D%98%20%EC%82%B0%EC%A0%95%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%8B%9C%ED%96%89%EC%A7%80%EC%B9%A8",
+  "category": "기타 제·개정",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 90,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "공동주택 분양가격의 산정 등에 관한 시행지침",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EA%B3%B5%EB%8F%99%EC%A3%BC%ED%83%9D%20%EB%B6%84%EC%96%91%EA%B0%80%EA%B2%A9%EC%9D%98%20%EC%82%B0%EC%A0%95%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%8B%9C%ED%96%89%EC%A7%80%EC%B9%A8"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "공동주택 분양가격의 산정 등에 관한 시행지침",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EA%B3%B5%EB%8F%99%EC%A3%BC%ED%83%9D%20%EB%B6%84%EC%96%91%EA%B0%80%EA%B2%A9%EC%9D%98%20%EC%82%B0%EC%A0%95%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%8B%9C%ED%96%89%EC%A7%80%EC%B9%A8"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "공동주택 분양가격의 산정 등에 관한 시행지침",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EA%B3%B5%EB%8F%99%EC%A3%BC%ED%83%9D%20%EB%B6%84%EC%96%91%EA%B0%80%EA%B2%A9%EC%9D%98%20%EC%82%B0%EC%A0%95%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%8B%9C%ED%96%89%EC%A7%80%EC%B9%A8"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "별표 0001의00 (기본형건축비 세부 공시내역)",
+      "before": "[별표 1] 기본형건축비 세부 공시내역 (단위 : 천원/㎡) ┌─────┬─────────┬────────┐ │항 목 │지상층건축비 │지하층건축비 │ │ │(주택공급면적기준)│(지하층면적기준)│ ├─────┼─────────┼────────┤ │직접공사비│1,447 │804 │ ├─────┼─────────┼────────┤ │간접공사비│601 │326 │ ├─────┼─────────┼────────┤ │설계비 │28 │15 │ ├─────┼─────────┼────────┤ │감리비 │19 │11 │ ├─────┼─────────┼────────┤ │부대비 │125 │- │ └─────┴─────────┴────────┘ 주1) 지상층건축비는 16∼25층 이하, 주거전용면적 60㎡초과∼85㎡이하를 기준으로 함 주2) 층수 및 세대면적에 따라 지상층건축비 중 직접공사비 및간접공사비는 다음과 같이 산출함 - 지상층 직접공사비 =[해당 지상층건축비 - (설계ㆍ감리비 및 부대비)]× 70.7% - 지상층 간접공사비 =[해당 지상층건축비 - (설계ㆍ감리비 및 부대비)]× 29.3%",
+      "after": "[별표 1] 기본형건축비 세부 공시내역 (단위 : 천원/㎡) ┌─────┬─────────┬────────┐ │항 목 │지상층건축비 │지하층건축비 │ │ │(주택공급면적기준)│(지하층면적기준)│ ├─────┼─────────┼────────┤ │직접공사비│1,459 │825 │ ├─────┼─────────┼────────┤ │간접공사비│604 │331 │ ├─────┼─────────┼────────┤ │설계비 │28 │16 │ ├─────┼─────────┼────────┤ │감리비 │20 │11 │ ├─────┼─────────┼────────┤ │부대비 │126 │- │ └─────┴─────────┴────────┘ 주1) 지상층건축비는 16∼25층 이하, 주거전용면적 60㎡초과∼85㎡이하를 기준으로 함 주2) 층수 및 세대면적에 따라 지상층건축비 중 직접공사비 및간접공사비는 다음과 같이 산출함 - 지상층 직접공사비 =[해당 지상층건축비 - (설계ㆍ감리비 및 부대비)]× 70.7% - 지상층 간접공사비 =[해당 지상층건축비 - (설계ㆍ감리비 및 부대비)]× 29.3%",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…(지하층면적기준)│ ├─────┼─────────┼────────┤ │직접공사비│",
+            "changed": "1,447 │804",
+            "suffix": " │ ├─────┼─────────┼────────┤ │간접공사비│601 │326…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…(지하층면적기준)│ ├─────┼─────────┼────────┤ │직접공사비│",
+            "changed": "1,459 │825",
+            "suffix": " │ ├─────┼─────────┼────────┤ │간접공사비│604 │331…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…447 │804 │ ├─────┼─────────┼────────┤ │간접공사비│",
+            "changed": "601 │326",
+            "suffix": " │ ├─────┼─────────┼────────┤ │설계비 │28 │15 │ …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…459 │825 │ ├─────┼─────────┼────────┤ │간접공사비│",
+            "changed": "604 │331",
+            "suffix": " │ ├─────┼─────────┼────────┤ │설계비 │28 │16 │ …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… │326 │ ├─────┼─────────┼────────┤ │설계비 │28 │",
+            "changed": "15",
+            "suffix": " │ ├─────┼─────────┼────────┤ │감리비 │19 │11 │ …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… │331 │ ├─────┼─────────┼────────┤ │설계비 │28 │",
+            "changed": "16",
+            "suffix": " │ ├─────┼─────────┼────────┤ │감리비 │20 │11 │ …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…비 │28 │15 │ ├─────┼─────────┼────────┤ │감리비 │",
+            "changed": "19",
+            "suffix": " │11 │ ├─────┼─────────┼────────┤ │부대비 │125 │…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…비 │28 │16 │ ├─────┼─────────┼────────┤ │감리비 │",
+            "changed": "20",
+            "suffix": " │11 │ ├─────┼─────────┼────────┤ │부대비 │126 │…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…비 │19 │11 │ ├─────┼─────────┼────────┤ │부대비 │",
+            "changed": "125",
+            "suffix": " │- │ └─────┴─────────┴────────┘ 주1) 지상층건축비는 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…비 │20 │11 │ ├─────┼─────────┼────────┤ │부대비 │",
+            "changed": "126",
+            "suffix": " │- │ └─────┴─────────┴────────┘ 주1) 지상층건축비는 …",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 5,
+      "substance_score": 0
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EA%B3%B5%EB%8F%99%EC%A3%BC%ED%83%9D%20%EB%B6%84%EC%96%91%EA%B0%80%EA%B2%A9%EC%9D%98%20%EC%82%B0%EC%A0%95%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%8B%9C%ED%96%89%EC%A7%80%EC%B9%A8"
+}

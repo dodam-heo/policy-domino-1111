@@ -1,0 +1,137 @@
+{
+  "id": "ordin|2064041|2146737",
+  "title": "부산광역시 사회복지시설 설치 및 운영 조례",
+  "source": "ordin",
+  "kind": "자치법규",
+  "ministry": "부산광역시",
+  "published_at": "2026-07-08",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%20%EC%A1%B0%EB%A1%80",
+  "category": "급여·지원기준",
+  "primary_change_summary": "제4조 · 자는 시설사용허가를 받은 자의 → 자(이하 “시설사용자”라 한다)가 납부하여야 하는 이용료의 기준은 별표 2와 같다. ③ 제2항의 규정에도 불구하고 시장은 다음 각 호의 ",
+  "priority_reasons": [
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 15,
+    "score_min": 15,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 사회복지시설 설치 및 운영 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 사회복지시설 설치 및 운영 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 사회복지시설 설치 및 운영 조례",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%20%EC%A1%B0%EB%A1%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      1
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "제3조",
+      "before": "제3조(명칭 및 소재지 등) 「사회복지사업법」(이하 “법”이라 한다) 제34조제1항에 따라 부산광역시가 설치하는 사회복지시설(이하 “시설”이라 한다)의 명칭ㆍ소재지 및 주요기능은 별표와 같다. ",
+      "after": "제3조(명칭 및 소재지 등) 「사회복지사업법」(이하 “법”이라 한다) 제34조제1항에 따라 부산광역시가 설치하는 사회복지시설(이하 “시설”이라 한다)의 명칭ㆍ소재지 및 주요기능은 별표 1과 같다. ",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…시가 설치하는 사회복지시설(이하 “시설”이라 한다)의 명칭ㆍ소재지 및 주요기능은 ",
+            "changed": "별표와",
+            "suffix": " 같다. ",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…시가 설치하는 사회복지시설(이하 “시설”이라 한다)의 명칭ㆍ소재지 및 주요기능은 ",
+            "changed": "별표 1과",
+            "suffix": " 같다. ",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 10
+    },
+    {
+      "article": "제4조",
+      "before": "제4조(시설사용허가 등) ① 시설의 일부를 사용하려는 자는 부산광역시장(이하 “시장”이라 한다)의 허가를 받아야 하며, 그 허가사항을 변경하려는 때에도 또한 같다. ② 제1항에 따라 시설사용허가를 받은 자는 시설사용허가를 받은 자의 부담으로 시장의 승인을 받아 사용에 적합한 설비를 설치할 수 있다. 이 경우 시설의 사용을 완료하거나 중단하면 설치한 설비를 지체없이 철거하여야 한다. ",
+      "after": "제4조(시설사용허가 등) ① 시설의 일부를 사용하려는 자는 부산광역시장(이하 “시장”이라 한다)의 허가를 받아야 하며, 그 허가사항을 변경하려는 때에도 또한 같다. ② 제1항에 따라 시설사용허가를 받은 자(이하 “시설사용자”라 한다)가 납부하여야 하는 이용료의 기준은 별표 2와 같다. ③ 제2항의 규정에도 불구하고 시장은 다음 각 호의 어느 하나에 해당할 경우에는 이용료를 면제하거나 경감할 수 있다. 1. 부산광역시가 직접 실시하는 행사 : 이용료 면제 2. 법 제2조의 사회복지사업 수행을 위한 행사 : 이용료의 50% 경감 ④ 제1항에 따라 시설사용자는 시설사용자의 부담으로 시장의 승인을 받아 사용에 적합한 설비를 설치할 수 있다. 이 경우 시설의 사용을 완료하거나 중단하면 설치한 설비를 지체없이 철거하여야 한다. ",
+      "focus": [
+        {
+          "before": {
+            "prefix": "… 허가사항을 변경하려는 때에도 또한 같다. ② 제1항에 따라 시설사용허가를 받은 ",
+            "changed": "자는 시설사용허가를 받은 자의",
+            "suffix": " 부담으로 시장의 승인을 받아 사용에 적합한 설비를 설치할 수 있다. 이 경우 시…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 허가사항을 변경하려는 때에도 또한 같다. ② 제1항에 따라 시설사용허가를 받은 ",
+            "changed": "자(이하 “시설사용자”라 한다)가 납부하여야 하는 이용료의 기준은 별표 2와 같다. ③ 제2항의 규정에도 불구하고 시장은 다음 각 호의 어느 하나에 해당할 경우에는 이용료를 면제하거나 경감할 수 있다. 1. 부산광역시가 직접 실시하는 행사 : 이용료 면제 2. 법 제2조의 사회복지사업 수행을 위한 행사 : 이용료의 50% 경감 ④ 제1항에 따라 시설사용자는 시설사용자의",
+            "suffix": " 부담으로 시장의 승인을 받아 사용에 적합한 설비를 설치할 수 있다. 이 경우 시…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 30
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%20%EC%A1%B0%EB%A1%80"
+}

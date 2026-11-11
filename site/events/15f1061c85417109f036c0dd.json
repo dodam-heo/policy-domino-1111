@@ -1,0 +1,81 @@
+{
+  "id": "admrul|59461|2100000274170",
+  "title": "방위력개선사업 협상에 의한 계약체결기준",
+  "source": "admrul",
+  "kind": "예규",
+  "ministry": "방위사업청",
+  "published_at": "2026-02-02",
+  "effective_date": "2026-02-02",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EB%B0%A9%EC%9C%84%EB%A0%A5%EA%B0%9C%EC%84%A0%EC%82%AC%EC%97%85%20%ED%98%91%EC%83%81%EC%97%90%20%EC%9D%98%ED%95%9C%20%EA%B3%84%EC%95%BD%EC%B2%B4%EA%B2%B0%EA%B8%B0%EC%A4%80",
+  "category": "기타 제·개정",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 90,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "종전·현행 원문 비교 대기",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "방위력개선사업 협상에 의한 계약체결기준",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EB%B0%A9%EC%9C%84%EB%A0%A5%EA%B0%9C%EC%84%A0%EC%82%AC%EC%97%85%20%ED%98%91%EC%83%81%EC%97%90%20%EC%9D%98%ED%95%9C%20%EA%B3%84%EC%95%BD%EC%B2%B4%EA%B2%B0%EA%B8%B0%EC%A4%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "방위력개선사업 협상에 의한 계약체결기준",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EB%B0%A9%EC%9C%84%EB%A0%A5%EA%B0%9C%EC%84%A0%EC%82%AC%EC%97%85%20%ED%98%91%EC%83%81%EC%97%90%20%EC%9D%98%ED%95%9C%20%EA%B3%84%EC%95%BD%EC%B2%B4%EA%B2%B0%EA%B8%B0%EC%A4%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "방위력개선사업 협상에 의한 계약체결기준",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EB%B0%A9%EC%9C%84%EB%A0%A5%EA%B0%9C%EC%84%A0%EC%82%AC%EC%97%85%20%ED%98%91%EC%83%81%EC%97%90%20%EC%9D%98%ED%95%9C%20%EA%B3%84%EC%95%BD%EC%B2%B4%EA%B2%B0%EA%B8%B0%EC%A4%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "original_saved_comparison_pending",
+  "relationship": "",
+  "changes": [],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": ""
+}

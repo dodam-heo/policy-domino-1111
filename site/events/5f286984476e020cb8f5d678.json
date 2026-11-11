@@ -1,0 +1,142 @@
+{
+  "id": "law|004648|288159",
+  "title": "재외공관주재관 임용령",
+  "source": "law",
+  "kind": "대통령령",
+  "ministry": "외교부",
+  "published_at": "2026-07-21",
+  "effective_date": "2026-07-21",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%9E%AC%EC%99%B8%EA%B3%B5%EA%B4%80%EC%A3%BC%EC%9E%AC%EA%B4%80%20%EC%9E%84%EC%9A%A9%EB%A0%B9",
+  "category": "기타 제·개정",
+  "primary_change_summary": "제16조 · 징계의결을 → 징계 의결(징계부가금 부과 의결을 포함한다. 이하 같다)을",
+  "priority_reasons": [
+    "국가 법률에 따른 전국 단위 규율 범위"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 100,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "재외공관주재관 임용령",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%9E%AC%EC%99%B8%EA%B3%B5%EA%B4%80%EC%A3%BC%EC%9E%AC%EA%B4%80%20%EC%9E%84%EC%9A%A9%EB%A0%B9"
+          }
+        ]
+      },
+      "scope": {
+        "score": 35,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "국가 법률에 따른 전국 단위 규율 범위",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "재외공관주재관 임용령",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%9E%AC%EC%99%B8%EA%B3%B5%EA%B4%80%EC%A3%BC%EC%9E%AC%EA%B4%80%20%EC%9E%84%EC%9A%A9%EB%A0%B9"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "재외공관주재관 임용령",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%9E%AC%EC%99%B8%EA%B3%B5%EA%B4%80%EC%A3%BC%EC%9E%AC%EA%B4%80%20%EC%9E%84%EC%9A%A9%EB%A0%B9"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "제16조",
+      "before": "제16조(징계) ① 외교부장관은 「재외공무원 복무규정」 제13조에 따라 주재관에게 징계 사유가 발생한 경우에는 원소속부처의 장과 협의하여 해당 주재관을 관할하는 징계위원회에 징계의결을 요구하거나 원소속부처로의 복귀를 요청할 수 있다. ② 주재관으로 임용되기 전에 발생한 징계사유에 대해서도 제1항을 준용한다.",
+      "after": "제16조(징계) ① 외교부장관은 「재외공무원 복무규정」 제13조에 따라 주재관에게 징계 사유가 발생한 경우에는 원소속부처의 장과 협의하여 해당 주재관을 관할하는 징계위원회에 징계 의결(징계부가금 부과 의결을 포함한다. 이하 같다)을 요구하거나 원소속부처로의 복귀를 요청할 수 있다. ② 주재관으로 임용되기 전에 발생한 징계 사유에 대해서도 제1항을 준용한다. ③ 외교부장관은 제1항에 따른 복귀 요청에 따라 주재관이 원소속부처로 복귀한 경우에는 「공무원 징계령」 제7조제2항에 따라 해당 공무원에 대한 징계 의결 요구권을 갖는 행정기관의 장에게 징계 또는 징계부가금 사유를 증명할 수 있는 관계 자료를 통보하면서 징계의 정도에 대한 의견을 첨부할 수 있다. 이 경우 징계 의결 요구권을 갖는 행정기관의 장과 원소속부처의 장이 다를 때에는 원소속부처의 장에게도 관계 자료 및 의견을 통보할 수 있다. ④ 제3항에 따른 의견을 받은 행정기관의 장은 징계 의결을 요구할 때 그 의견을 충분히 고려해야 한다. ⑤ 제3항에 따른 의견을 받은 행정기관의 장은 징계위원회로부터 징계 의결 결과를 통보받으면 지체 없이 이를 외교부장관에게 통보해야 한다. ⑥ 외교부장관은 제5항에 따른 결과가 현저히 가볍다고 인정하는 경우에는 징계 의결을 요구한 행정기관의 장에게 「국가공무원법」 제82조제2항에 따른 심사 또는 재심사 청구에 관한 의견을 제시할 수 있다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "… 발생한 경우에는 원소속부처의 장과 협의하여 해당 주재관을 관할하는 징계위원회에 ",
+            "changed": "징계의결을",
+            "suffix": " 요구하거나 원소속부처로의 복귀를 요청할 수 있다. ② 주재관으로 임용되기 전에 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 발생한 경우에는 원소속부처의 장과 협의하여 해당 주재관을 관할하는 징계위원회에 ",
+            "changed": "징계 의결(징계부가금 부과 의결을 포함한다. 이하 같다)을",
+            "suffix": " 요구하거나 원소속부처로의 복귀를 요청할 수 있다. ② 주재관으로 임용되기 전에 …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…거나 원소속부처로의 복귀를 요청할 수 있다. ② 주재관으로 임용되기 전에 발생한 ",
+            "changed": "징계사유에",
+            "suffix": " 대해서도 제1항을 준용한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…거나 원소속부처로의 복귀를 요청할 수 있다. ② 주재관으로 임용되기 전에 발생한 ",
+            "changed": "징계 사유에",
+            "suffix": " 대해서도 제1항을 준용한다. ③ 외교부장관은 제1항에 따른 복귀 요청에 따라 주…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…있다. ② 주재관으로 임용되기 전에 발생한 징계사유에 대해서도 제1항을 준용한다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…. ② 주재관으로 임용되기 전에 발생한 징계 사유에 대해서도 제1항을 준용한다. ",
+            "changed": "③ 외교부장관은 제1항에 따른 복귀 요청에 따라 주재관이 원소속부처로 복귀한 경우에는 「공무원 징계령」 제7조제2항에 따라 해당 공무원에 대한 징계 의결 요구권을 갖는 행정기관의 장에게 징계 또는 징계부가금 사유를 증명할 수 있는 관계 자료를 통보하면서 징계의 정도에 대한 의견을 첨부할 수 있다. 이 경우 징계 의결 요구권을 갖는 행정기관의 장과 원소속부처의 장이 다를 때에는 원소속부처의 장에게도 관계 자료 및 의견을 통보할 수 있다. ④ 제3항에 따른 의견을 받은 행정기관의 장은 징계 의결을 요구할 때 그 의견을 충분히 고려해야 한다. ⑤ 제3항에 따른 의견을 받은 행정기관의 장은 징계위원회로부터 징계 의결 결과를 통보받으면 지체 없이 이를 외교부장관에게 통보해야 한다. ⑥ 외교부장관은 제5항에 따른 결과…",
+            "suffix": "",
+            "truncated": true
+          }
+        }
+      ],
+      "diff_window_count": 3,
+      "substance_score": 40
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%9E%AC%EC%99%B8%EA%B3%B5%EA%B4%80%EC%A3%BC%EC%9E%AC%EA%B4%80%20%EC%9E%84%EC%9A%A9%EB%A0%B9"
+}

@@ -1,0 +1,154 @@
+{
+  "id": "law|011578|288147",
+  "title": "제약산업 육성 및 지원에 관한 특별법 시행령",
+  "source": "law",
+  "kind": "대통령령",
+  "ministry": "보건복지부",
+  "published_at": "2026-07-21",
+  "effective_date": "2026-07-21",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A0%9C%EC%95%BD%EC%82%B0%EC%97%85%20%EC%9C%A1%EC%84%B1%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
+  "category": "기타 제·개정",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "국가 법률에 따른 전국 단위 규율 범위"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 100,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "제약산업 육성 및 지원에 관한 특별법 시행령",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A0%9C%EC%95%BD%EC%82%B0%EC%97%85%20%EC%9C%A1%EC%84%B1%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9"
+          }
+        ]
+      },
+      "scope": {
+        "score": 35,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "국가 법률에 따른 전국 단위 규율 범위",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "제약산업 육성 및 지원에 관한 특별법 시행령",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A0%9C%EC%95%BD%EC%82%B0%EC%97%85%20%EC%9C%A1%EC%84%B1%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "제약산업 육성 및 지원에 관한 특별법 시행령",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A0%9C%EC%95%BD%EC%82%B0%EC%97%85%20%EC%9C%A1%EC%84%B1%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "제2조의2",
+      "before": "제2조의2(연간 연구개발비의 규모 등) ① 법 제2조제3호가목 및 나목에서 \"대통령령으로 정하는 규모\"란 다음 각 호의 구분에 따른 연간 의약품 연구개발비의 금액을 말한다. 1. 연간 의약품 매출액이 1천억원 미만인 제약기업: 연간 50억원 또는 연간 의약품 매출액의 100분의 7 2. 연간 의약품 매출액이 1천억원 이상인 제약기업: 연간 의약품 매출액의 100분의 5 3. 미합중국 또는 유럽연합의 정부나 공공기관으로부터 적합판정을 받은 의약품 제조 및 품질관리기준을 보유한 제약기업: 연간 의약품 매출액의 100분의 3 ② 제1항의 연간 의약품 연구개발비 및 연간 의약품 매출액은 다음 각 호의 기준에 따라 산출한다. 1. 「약사법」 제2조제4호에 따른 의약품에 대한 연구개발비 및 매출액일 것 2. 법 제7조제1항에 따라 제약기업이 혁신형 제약기업 인증을 신청하는 날이 속하는 사업연도의 직전 3사업연도의 평균 의약품 연구개발비 및 평균 의약품 매출액(직전 사업연도가 3년 미만인 경우에는 사업 시작 후 인증 신청 직전 사업연도까지의 의약품 연구개발비 및 의약품 매출액을 연평균으로 환산한 금액을 말한다)으로 할 것 ③ 제1항과 제2항에 따른 의약품 연구개발비와 의약품 매출액은 「주식회사 등의 외부감사에 관한 법률」 제5조에 따른 회계처리기준에 따라 산정하되, 의약품 연구개발비에 포함되는 비용의 세부 내용은 보건복지부장관이 정하여 고시한다.",
+      "after": "제2조의2(연간 연구개발비의 규모 등) ① 법 제2조제3호가목 및 나목에서 \"대통령령으로 정하는 규모\"란 다음 각 호의 구분에 따른 연간 의약품 연구개발비의 금액을 말한다. 1. 연간 의약품 매출액이 1천억원 미만인 제약기업: 연간 70억원 또는 연간 의약품 매출액의 100분의 9 2. 연간 의약품 매출액이 1천억원 이상인 제약기업: 연간 의약품 매출액의 100분의 7 3. 미합중국 또는 유럽연합의 정부나 공공기관으로부터 적합판정을 받은 의약품 제조 및 품질관리기준을 보유한 제약기업: 연간 의약품 매출액의 100분의 5 ② 제1항의 연간 의약품 연구개발비 및 연간 의약품 매출액은 다음 각 호의 기준에 따라 산출한다. 1. 「약사법」 제2조제4호에 따른 의약품에 대한 연구개발비 및 매출액일 것 2. 법 제7조제1항에 따라 제약기업이 혁신형 제약기업 인증을 신청하는 날이 속하는 사업연도의 직전 3사업연도의 평균 의약품 연구개발비 및 평균 의약품 매출액(직전 사업연도가 3년 미만인 경우에는 사업 시작 후 인증 신청 직전 사업연도까지의 의약품 연구개발비 및 의약품 매출액을 연평균으로 환산한 금액을 말한다)으로 할 것 ③ 제1항과 제2항에 따른 의약품 연구개발비와 의약품 매출액은 「주식회사 등의 외부감사에 관한 법률」 제5조에 따른 회계처리기준에 따라 산정하되, 의약품 연구개발비에 포함되는 비용의 세부 내용은 보건복지부장관이 정하여 고시한다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…비의 금액을 말한다. 1. 연간 의약품 매출액이 1천억원 미만인 제약기업: 연간 ",
+            "changed": "50",
+            "suffix": "억원 또는 연간 의약품 매출액의 100분의 7 2. 연간 의약품 매출액이 1천억원…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…비의 금액을 말한다. 1. 연간 의약품 매출액이 1천억원 미만인 제약기업: 연간 ",
+            "changed": "70",
+            "suffix": "억원 또는 연간 의약품 매출액의 100분의 9 2. 연간 의약품 매출액이 1천억원…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 1천억원 미만인 제약기업: 연간 50억원 또는 연간 의약품 매출액의 100분의 ",
+            "changed": "7",
+            "suffix": " 2. 연간 의약품 매출액이 1천억원 이상인 제약기업: 연간 의약품 매출액의 10…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 1천억원 미만인 제약기업: 연간 70억원 또는 연간 의약품 매출액의 100분의 ",
+            "changed": "9",
+            "suffix": " 2. 연간 의약품 매출액이 1천억원 이상인 제약기업: 연간 의약품 매출액의 10…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…연간 의약품 매출액이 1천억원 이상인 제약기업: 연간 의약품 매출액의 100분의 ",
+            "changed": "5",
+            "suffix": " 3. 미합중국 또는 유럽연합의 정부나 공공기관으로부터 적합판정을 받은 의약품 제…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…연간 의약품 매출액이 1천억원 이상인 제약기업: 연간 의약품 매출액의 100분의 ",
+            "changed": "7",
+            "suffix": " 3. 미합중국 또는 유럽연합의 정부나 공공기관으로부터 적합판정을 받은 의약품 제…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…의약품 제조 및 품질관리기준을 보유한 제약기업: 연간 의약품 매출액의 100분의 ",
+            "changed": "3",
+            "suffix": " ② 제1항의 연간 의약품 연구개발비 및 연간 의약품 매출액은 다음 각 호의 기준…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…의약품 제조 및 품질관리기준을 보유한 제약기업: 연간 의약품 매출액의 100분의 ",
+            "changed": "5",
+            "suffix": " ② 제1항의 연간 의약품 연구개발비 및 연간 의약품 매출액은 다음 각 호의 기준…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 4,
+      "substance_score": 0
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A0%9C%EC%95%BD%EC%82%B0%EC%97%85%20%EC%9C%A1%EC%84%B1%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9"
+}

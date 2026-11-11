@@ -28,7 +28,7 @@
         "status": "pending",
         "evidence": [
           {
-            "reason": "종전·현행 원문 비교 대기",
+            "reason": "부분 대조의 근거 추가 확인 필요",
             "article": "",
             "before": "",
             "after": "",
@@ -69,13 +69,151 @@
     "featured_change_indices": [],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
-  "unresolved": [],
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "제14조",
+      "before": "제14조(우수 농산물 직거래사업장 인증 기준) 법 제21조제1항에 따른 우수 농산물 직거래사업장의 인증(이하 \"인증\"이라 한다)의 기준은 별표 2와 같다.",
+      "after": "제14조(농산물 직거래 우수 사업장 지정 기준) 법 제21조제1항에 따른 농산물 직거래 우수 사업장의 지정(이하 \"지정\"이라 한다)의 기준은 별표 2와 같다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제14조(",
+            "changed": "",
+            "suffix": "우수 농산물 직거래사업장 인증 기준) 법 제21조제1항에 따른 우수 농산물 직거래…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제14조(",
+            "changed": "농산물 직거래",
+            "suffix": " 우수 사업장 지정 기준) 법 제21조제1항에 따른 농산물 직거래 우수 사업장의 …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제14조(우수 ",
+            "changed": "농산물 직거래사업장 인증",
+            "suffix": " 기준) 법 제21조제1항에 따른 우수 농산물 직거래사업장의 인증(이하 \"인증\"이…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제14조(농산물 직거래 우수 ",
+            "changed": "사업장 지정",
+            "suffix": " 기준) 법 제21조제1항에 따른 농산물 직거래 우수 사업장의 지정(이하 \"지정\"…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제14조(우수 농산물 직거래사업장 인증 기준) 법 제21조제1항에 따른 ",
+            "changed": "",
+            "suffix": "우수 농산물 직거래사업장의 인증(이하 \"인증\"이라 한다)의 기준은 별표 2와 같다…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제14조(농산물 직거래 우수 사업장 지정 기준) 법 제21조제1항에 따른 ",
+            "changed": "농산물 직거래",
+            "suffix": " 우수 사업장의 지정(이하 \"지정\"이라 한다)의 기준은 별표 2와 같다.",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제14조(우수 농산물 직거래사업장 인증 기준) 법 제21조제1항에 따른 우수 ",
+            "changed": "농산물 직거래사업장의 인증",
+            "suffix": "(이하 \"인증\"이라 한다)의 기준은 별표 2와 같다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…물 직거래 우수 사업장 지정 기준) 법 제21조제1항에 따른 농산물 직거래 우수 ",
+            "changed": "사업장의 지정",
+            "suffix": "(이하 \"지정\"이라 한다)의 기준은 별표 2와 같다.",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…장 인증 기준) 법 제21조제1항에 따른 우수 농산물 직거래사업장의 인증(이하 \"",
+            "changed": "인증",
+            "suffix": "\"이라 한다)의 기준은 별표 2와 같다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 지정 기준) 법 제21조제1항에 따른 농산물 직거래 우수 사업장의 지정(이하 \"",
+            "changed": "지정",
+            "suffix": "\"이라 한다)의 기준은 별표 2와 같다.",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 5,
+      "substance_score": 10
+    },
+    {
+      "article": "제19조",
+      "before": "제19조(인증의 표시) 법 제24조제1항에 따른 인증사업장임을 증명하는 도형 또는 문자 등의 표시(이하 \"인증표시\"라 한다)의 기준은 별표 3과 같다.",
+      "after": "제19조(지정의 표시) 법 제24조제1항에 따른 지정사업장임을 증명하는 도형 또는 문자 등의 표시(이하 \"지정표시\"라 한다)의 기준은 별표 3과 같다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제19조(",
+            "changed": "인증의",
+            "suffix": " 표시) 법 제24조제1항에 따른 인증사업장임을 증명하는 도형 또는 문자 등의 표…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제19조(",
+            "changed": "지정의",
+            "suffix": " 표시) 법 제24조제1항에 따른 지정사업장임을 증명하는 도형 또는 문자 등의 표…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제19조(인증의 표시) 법 제24조제1항에 따른 ",
+            "changed": "인증사업장임을",
+            "suffix": " 증명하는 도형 또는 문자 등의 표시(이하 \"인증표시\"라 한다)의 기준은 별표 3…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제19조(지정의 표시) 법 제24조제1항에 따른 ",
+            "changed": "지정사업장임을",
+            "suffix": " 증명하는 도형 또는 문자 등의 표시(이하 \"지정표시\"라 한다)의 기준은 별표 3…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 제24조제1항에 따른 인증사업장임을 증명하는 도형 또는 문자 등의 표시(이하 \"",
+            "changed": "인증표시",
+            "suffix": "\"라 한다)의 기준은 별표 3과 같다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 제24조제1항에 따른 지정사업장임을 증명하는 도형 또는 문자 등의 표시(이하 \"",
+            "changed": "지정표시",
+            "suffix": "\"라 한다)의 기준은 별표 3과 같다.",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 3,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
   "impact_level": "pending",
-  "prior_url": ""
+  "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A7%80%EC%97%AD%EB%86%8D%EC%82%B0%EB%AC%BC%20%EC%9D%B4%EC%9A%A9%EC%B4%89%EC%A7%84%20%EB%93%B1%20%EB%86%8D%EC%82%B0%EB%AC%BC%20%EC%A7%81%EA%B1%B0%EB%9E%98%20%ED%99%9C%EC%84%B1%ED%99%94%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
 }

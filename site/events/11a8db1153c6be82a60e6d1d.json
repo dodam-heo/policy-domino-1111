@@ -8,8 +8,8 @@
   "effective_date": "2026-10-29",
   "revision": "전부개정",
   "url": "https://www.law.go.kr/법령/%EA%B5%AD%EA%B0%80%EA%B4%80%EA%B4%91%EC%A0%84%EB%9E%B5%ED%9A%8C%EC%9D%98%EC%9D%98%20%EA%B5%AC%EC%84%B1%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%A0%95",
-  "category": "기타 제·개정",
-  "primary_change_summary": "",
+  "category": "급여·지원기준",
+  "primary_change_summary": "제7조 · 간사 → 안건 제출",
   "priority_reasons": [
     "국가 법률에 따른 전국 단위 규율 범위"
   ],
@@ -28,7 +28,7 @@
         "status": "pending",
         "evidence": [
           {
-            "reason": "종전·현행 원문 비교 대기",
+            "reason": "부분 대조의 근거 추가 확인 필요",
             "article": "",
             "before": "",
             "after": "",
@@ -66,16 +66,253 @@
         ]
       }
     },
-    "featured_change_indices": [],
+    "featured_change_indices": [
+      4
+    ],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
-  "unresolved": [],
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "제1조",
+      "before": "제1조(목적) 이 영은 「관광기본법」 제16조에 따른 국가관광전략회의의 구성 및 운영에 필요한 사항을 규정함을 목적으로 한다.",
+      "after": "제1조(목적) 이 영은 「관광기본법」 제16조에 따른 국가관광전략회의의 구성 및 운영 등에 필요한 사항을 규정함을 목적으로 한다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제1조(목적) 이 영은 「관광기본법」 제16조에 따른 국가관광전략회의의 구성 및 ",
+            "changed": "운영에",
+            "suffix": " 필요한 사항을 규정함을 목적으로 한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제1조(목적) 이 영은 「관광기본법」 제16조에 따른 국가관광전략회의의 구성 및 ",
+            "changed": "운영 등에",
+            "suffix": " 필요한 사항을 규정함을 목적으로 한다.",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 10
+    },
+    {
+      "article": "제3조",
+      "before": "제3조(의장) ① 전략회의의 의장(이하 \"의장\"이라 한다)은 국무총리가 된다. ② 의장은 전략회의에 상정할 안건을 선정하여 회의를 소집하고, 이를 주재한다. ③ 의장이 전략회의에 출석할 수 없을 때에는 전략회의의 구성원 중에서 의장이 미리 지정한 사람이 그 직무를 대행한다.",
+      "after": "제3조(구성) 전략회의는 의장을 포함하여 재정경제부장관, 교육부장관, 외교부장관, 법무부장관, 행정안전부장관, 문화체육관광부장관, 농림축산식품부장관, 산업통상부장관, 보건복지부장관, 기후에너지환경부장관, 고용노동부장관, 국토교통부장관, 해양수산부장관, 중소벤처기업부장관, 기획예산처장관 및 대통령비서실의 관광정책을 보좌하는 수석비서관으로 구성한다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제3조(",
+            "changed": "의장",
+            "suffix": ") ① 전략회의의 의장(이하 \"의장\"이라 한다)은 국무총리가 된다. ② 의장은 전…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제3조(",
+            "changed": "구성",
+            "suffix": ") 전략회의는 의장을 포함하여 재정경제부장관, 교육부장관, 외교부장관, 법무부장관…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제3조(의장) ",
+            "changed": "① 전략회의의 의장(이하 \"의장\"이라 한다)은 국무총리가 된다",
+            "suffix": ". ② 의장은 전략회의에 상정할 안건을 선정하여 회의를 소집하고, 이를 주재한다.…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제3조(구성) ",
+            "changed": "전략회의는 의장을 포함하여 재정경제부장관, 교육부장관, 외교부장관, 법무부장관, 행정안전부장관, 문화체육관광부장관, 농림축산식품부장관, 산업통상부장관, 보건복지부장관, 기후에너지환경부장관, 고용노동부장관, 국토교통부장관, 해양수산부장관, 중소벤처기업부장관, 기획예산처장관 및 대통령비서실의 관광정책을 보좌하는 수석비서관으로 구성한다",
+            "suffix": ".",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제3조(의장) ① 전략회의의 의장(이하 \"의장\"이라 한다)은 국무총리가 된다. ",
+            "changed": "② 의장은 전략회의에 상정할 안건을 선정하여 회의를 소집하고, 이를 주재한다. ③ 의장이 전략회의에 출석할 수 없을 때에는 전략회의의 구성원 중에서 의장이 미리 지정한 사람이 그 직무를 대행한다.",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…관, 기획예산처장관 및 대통령비서실의 관광정책을 보좌하는 수석비서관으로 구성한다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 3,
+      "substance_score": 10
+    },
+    {
+      "article": "제4조",
+      "before": "제4조(구성원) ① 전략회의는 의장 이외에 재정경제부장관, 교육부장관, 외교부장관, 법무부장관, 행정안전부장관, 문화체육관광부장관, 농림축산식품부장관, 보건복지부장관, 기후에너지환경부장관, 국토교통부장관, 해양수산부장관, 중소벤처기업부장관, 기획예산처장관 및 국무조정실장으로 구성한다. ② 의장은 전략회의에 상정되는 안건과 관련하여 필요하다고 인정할 때에는 전략회의의 구성원이 아닌 관련 부처의 장을 회의에 출석시켜 발언하게 할 수 있다. ③ 의장은 필요하다고 인정할 때에는 안건과 관련된 부처의 장과 협의하여 전략회의의 구성원이 아닌 사람을 회의에 출석시켜 발언하게 할 수 있다.",
+      "after": "제4조(간사) 전략회의의 사무를 처리하기 위해 간사 1명을 두며, 간사는 문화체육관광부장관이 된다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제4조(",
+            "changed": "구성원",
+            "suffix": ") ① 전략회의는 의장 이외에 재정경제부장관, 교육부장관, 외교부장관, 법무부장관…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제4조(",
+            "changed": "간사",
+            "suffix": ") 전략회의의 사무를 처리하기 위해 간사 1명을 두며, 간사는 문화체육관광부장관이…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제4조(구성원) ",
+            "changed": "① 전략회의는 의장 이외에 재정경제부장관",
+            "suffix": ", 교육부장관, 외교부장관, 법무부장관, 행정안전부장관, 문화체육관광부장관, 농림…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제4조(간사) ",
+            "changed": "전략회의의 사무를 처리하기 위해 간사 1명을 두며",
+            "suffix": ", 간사는 문화체육관광부장관이 된다.",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제4조(구성원) ① 전략회의는 의장 이외에 재정경제부장관, ",
+            "changed": "교육부장관, 외교부장관, 법무부장관, 행정안전부장관, 문화체육관광부장관, 농림축산식품부장관, 보건복지부장관, 기후에너지환경부장관, 국토교통부장관, 해양수산부장관, 중소벤처기업부장관, 기획예산처장관 및 국무조정실장으로 구성한다",
+            "suffix": ". ② 의장은 전략회의에 상정되는 안건과 관련하여 필요하다고 인정할 때에는 전략회…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제4조(간사) 전략회의의 사무를 처리하기 위해 간사 1명을 두며, ",
+            "changed": "간사는 문화체육관광부장관이 된다",
+            "suffix": ".",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…해양수산부장관, 중소벤처기업부장관, 기획예산처장관 및 국무조정실장으로 구성한다. ",
+            "changed": "② 의장은 전략회의에 상정되는 안건과 관련하여 필요하다고 인정할 때에는 전략회의의 구성원이 아닌 관련 부처의 장을 회의에 출석시켜 발언하게 할 수 있다. ③ 의장은 필요하다고 인정할 때에는 안건과 관련된 부처의 장과 협의하여 전략회의의 구성원이 아닌 사람을 회의에 출석시켜 발언하게 할 수 있다.",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…회의의 사무를 처리하기 위해 간사 1명을 두며, 간사는 문화체육관광부장관이 된다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 4,
+      "substance_score": 10
+    },
+    {
+      "article": "제6조",
+      "before": "제6조(회의의 개최) 전략회의는 연 2회, 반기에 1회씩 개최하는 것을 원칙으로 하되, 의장은 필요에 따라 그 개최 시기를 조정할 수 있다.",
+      "after": "제6조(전략회의의 개최) 전략회의는 연 2회, 반기에 1회씩 개최하는 것을 원칙으로 하되, 의장은 필요에 따라 그 개최 시기를 조정할 수 있다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제6조(",
+            "changed": "회의의",
+            "suffix": " 개최) 전략회의는 연 2회, 반기에 1회씩 개최하는 것을 원칙으로 하되, 의장은…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제6조(",
+            "changed": "전략회의의",
+            "suffix": " 개최) 전략회의는 연 2회, 반기에 1회씩 개최하는 것을 원칙으로 하되, 의장은…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 10
+    },
+    {
+      "article": "제7조",
+      "before": "제7조(간사) ① 전략회의의 사무를 처리하기 위하여 간사 1명을 두며, 간사는 문화체육관광부 제2차관이 된다. ② 간사는 회의록을 작성한다.",
+      "after": "제7조(안건 제출) 전략회의에 안건을 상정하려는 구성원은 회의 개최 3일 전까지 간사에게 해당 안건을 제출해야 한다. 다만, 긴급한 경우에는 회의 개최 전날까지 제출할 수 있다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제7조(",
+            "changed": "간사",
+            "suffix": ") ① 전략회의의 사무를 처리하기 위하여 간사 1명을 두며, 간사는 문화체육관광부…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제7조(",
+            "changed": "안건 제출",
+            "suffix": ") 전략회의에 안건을 상정하려는 구성원은 회의 개최 3일 전까지 간사에게 해당 안…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제7조(간사) ",
+            "changed": "① 전략회의의 사무를 처리하기 위하여 간사 1명을 두며",
+            "suffix": ", 간사는 문화체육관광부 제2차관이 된다. ② 간사는 회의록을 작성한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제7조(안건 제출) ",
+            "changed": "전략회의에 안건을 상정하려는 구성원은 회의 개최 3일 전까지 간사에게 해당 안건을 제출해야 한다. 다만",
+            "suffix": ", 긴급한 경우에는 회의 개최 전날까지 제출할 수 있다.",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제7조(간사) ① 전략회의의 사무를 처리하기 위하여 간사 1명을 두며, ",
+            "changed": "간사는 문화체육관광부 제2차관이 된다",
+            "suffix": ". ② 간사는 회의록을 작성한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…는 구성원은 회의 개최 3일 전까지 간사에게 해당 안건을 제출해야 한다. 다만, ",
+            "changed": "긴급한 경우에는 회의 개최 전날까지 제출할 수 있다",
+            "suffix": ".",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…무를 처리하기 위하여 간사 1명을 두며, 간사는 문화체육관광부 제2차관이 된다. ",
+            "changed": "② 간사는 회의록을 작성한다.",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…건을 제출해야 한다. 다만, 긴급한 경우에는 회의 개최 전날까지 제출할 수 있다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 4,
+      "substance_score": 40
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
   "impact_level": "pending",
-  "prior_url": ""
+  "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EA%B0%80%EA%B4%80%EA%B4%91%EC%A0%84%EB%9E%B5%ED%9A%8C%EC%9D%98%EC%9D%98%20%EA%B5%AC%EC%84%B1%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%A0%95"
 }

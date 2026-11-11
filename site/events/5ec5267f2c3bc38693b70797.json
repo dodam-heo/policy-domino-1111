@@ -1,0 +1,177 @@
+{
+  "id": "admrul|50500|2100000280904",
+  "title": "유기식품 및 무농약농산물 등의 인증기관 지정·운영 요령",
+  "source": "admrul",
+  "kind": "고시",
+  "ministry": "국립농산물품질관리원",
+  "published_at": "2026-06-18",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%9C%A0%EA%B8%B0%EC%8B%9D%ED%92%88%20%EB%B0%8F%20%EB%AC%B4%EB%86%8D%EC%95%BD%EB%86%8D%EC%82%B0%EB%AC%BC%20%EB%93%B1%EC%9D%98%20%EC%9D%B8%EC%A6%9D%EA%B8%B0%EA%B4%80%20%EC%A7%80%EC%A0%95%C2%B7%EC%9A%B4%EC%98%81%20%EC%9A%94%EB%A0%B9",
+  "category": "행정절차·인허가",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 90,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "유기식품 및 무농약농산물 등의 인증기관 지정·운영 요령",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%9C%A0%EA%B8%B0%EC%8B%9D%ED%92%88%20%EB%B0%8F%20%EB%AC%B4%EB%86%8D%EC%95%BD%EB%86%8D%EC%82%B0%EB%AC%BC%20%EB%93%B1%EC%9D%98%20%EC%9D%B8%EC%A6%9D%EA%B8%B0%EA%B4%80%20%EC%A7%80%EC%A0%95%C2%B7%EC%9A%B4%EC%98%81%20%EC%9A%94%EB%A0%B9"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "유기식품 및 무농약농산물 등의 인증기관 지정·운영 요령",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%9C%A0%EA%B8%B0%EC%8B%9D%ED%92%88%20%EB%B0%8F%20%EB%AC%B4%EB%86%8D%EC%95%BD%EB%86%8D%EC%82%B0%EB%AC%BC%20%EB%93%B1%EC%9D%98%20%EC%9D%B8%EC%A6%9D%EA%B8%B0%EA%B4%80%20%EC%A7%80%EC%A0%95%C2%B7%EC%9A%B4%EC%98%81%20%EC%9A%94%EB%A0%B9"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "유기식품 및 무농약농산물 등의 인증기관 지정·운영 요령",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%9C%A0%EA%B8%B0%EC%8B%9D%ED%92%88%20%EB%B0%8F%20%EB%AC%B4%EB%86%8D%EC%95%BD%EB%86%8D%EC%82%B0%EB%AC%BC%20%EB%93%B1%EC%9D%98%20%EC%9D%B8%EC%A6%9D%EA%B8%B0%EA%B4%80%20%EC%A7%80%EC%A0%95%C2%B7%EC%9A%B4%EC%98%81%20%EC%9A%94%EB%A0%B9"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "제11조",
+      "before": "제11조(인증기관의 사후관리 등) ① 지원장은 법 제32조에 따라 인증기관의 인증실태 등을 확인하기 위해 다음 각 호의 사항을 이행하여야 한다. 이 경우 제1호와 제2호를 병행하여 확인할 수 있으며 국외에 소재한 인증기관에 대한 사후관리는 원장이 따로 정할 수 있다. 1. 인증기관의 지정기준 준수 여부 및 인증관리(신청ㆍ심사ㆍ승인ㆍ사후관리 등) 적정성 확인을 위한 인증기관별 연 1회 이상 방문조사 2. 인증심사의 절차ㆍ방법의 적정성 확인을 위한 인증기관별 연 2회 이상 인증 심사과정 입회 확인 3. 그 밖에 원장이 조사가 필요하다고 인정하는 경우 ② 지원장 또는 사무소장은 인증기관에서 인증한 사업장 또는 인증품 등을 대상으로 검사 또는 생산ㆍ유통과정 조사를 할 수 있다. ③ 지원장 또는 사무소장은 제1항부터 제2항까지의 조사과정에서 인증기준 위반 등의 사실을 적발한 경우에는 별지 제2호서식의 확인서와 증거서류를 받아 검토한 후 원장에게 보고하여야 한다. 다만, 위반자가 확인서의 날인을 거부하거나 기피하는 때에는 조사원 2명 이상이 연명으로 서명 또는 날인하여 그 사실을 확인할 수 있다. ④ 지원장 또는 사무소장은 조사과정에서 관할지역 이외 인증기관에 대한 조사가 필요한 경우 해당지역 지원장에게 조사를 의뢰하거나 직접 조사할 수 있다. ",
+      "after": "제11조(인증기관의 사후관리 등) ① 지원장은 법 제32조에 따라 인증기관의 인증실태 등을 확인하기 위해 다음 각 호의 사항을 이행하여야 한다. 이 경우 제1호와 제2호를 병행하여 확인할 수 있으며 국외에 소재한 인증기관에 대한 사후관리는 원장이 따로 정할 수 있다. 1. 인증기관의 지정기준 준수 여부 및 인증관리(신청ㆍ심사ㆍ승인ㆍ사후관리 등) 적정성 확인을 위한 인증기관별 연 1회 이상 방문조사 2. 인증심사의 절차ㆍ방법의 적정성 확인을 위한 인증기관별 연 1회 이상 인증 심사과정 입회 확인 3. 그 밖에 원장이 조사가 필요하다고 인정하는 경우 ② 지원장 또는 사무소장은 인증기관에서 인증한 사업장 또는 인증품 등을 대상으로 검사 또는 생산ㆍ유통과정 조사를 할 수 있다. ③ 지원장 또는 사무소장은 제1항부터 제2항까지의 조사과정에서 인증기준 위반 등의 사실을 적발한 경우에는 별지 제2호서식의 확인서와 증거서류를 받아 검토한 후 원장에게 보고하여야 한다. 다만, 위반자가 확인서의 날인을 거부하거나 기피하는 때에는 조사원 2명 이상이 연명으로 서명 또는 날인하여 그 사실을 확인할 수 있다. ④ 지원장 또는 사무소장은 조사과정에서 관할지역 이외 인증기관에 대한 조사가 필요한 경우 해당지역 지원장에게 조사를 의뢰하거나 직접 조사할 수 있다. ",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…회 이상 방문조사 2. 인증심사의 절차ㆍ방법의 적정성 확인을 위한 인증기관별 연 ",
+            "changed": "2",
+            "suffix": "회 이상 인증 심사과정 입회 확인 3. 그 밖에 원장이 조사가 필요하다고 인정하는…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…회 이상 방문조사 2. 인증심사의 절차ㆍ방법의 적정성 확인을 위한 인증기관별 연 ",
+            "changed": "1",
+            "suffix": "회 이상 인증 심사과정 입회 확인 3. 그 밖에 원장이 조사가 필요하다고 인정하는…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 0
+    },
+    {
+      "article": "제21조",
+      "before": "제21조(재검토 기한) 국립농산물품질관리원장은 이 고시에 대하여 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 2024년 7월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+      "after": "제21조(재검토 기한) 국립농산물품질관리원장은 이 고시에 대하여 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 2026년 1월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…리원장은 이 고시에 대하여 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 ",
+            "changed": "2024",
+            "suffix": "년 7월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…리원장은 이 고시에 대하여 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 ",
+            "changed": "2026",
+            "suffix": "년 1월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 고시에 대하여 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 2024년 ",
+            "changed": "7",
+            "suffix": "월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 고시에 대하여 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 2026년 ",
+            "changed": "1",
+            "suffix": "월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…규정」에 따라 2024년 7월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 ",
+            "changed": "6",
+            "suffix": "월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…규정」에 따라 2026년 1월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 ",
+            "changed": "12",
+            "suffix": "월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…에 따라 2024년 7월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 6월 ",
+            "changed": "30",
+            "suffix": "일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 따라 2026년 1월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 12월 ",
+            "changed": "31",
+            "suffix": "일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 4,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%9C%A0%EA%B8%B0%EC%8B%9D%ED%92%88%20%EB%B0%8F%20%EB%AC%B4%EB%86%8D%EC%95%BD%EB%86%8D%EC%82%B0%EB%AC%BC%20%EB%93%B1%EC%9D%98%20%EC%9D%B8%EC%A6%9D%EA%B8%B0%EA%B4%80%20%EC%A7%80%EC%A0%95%C2%B7%EC%9A%B4%EC%98%81%20%EC%9A%94%EB%A0%B9"
+}

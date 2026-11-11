@@ -1,0 +1,140 @@
+{
+  "id": "law|003773|288247",
+  "title": "산림청과 그 소속기관 직제",
+  "source": "law",
+  "kind": "대통령령",
+  "ministry": "산림청,행정안전부",
+  "published_at": "2026-07-21",
+  "effective_date": "2026-07-21",
+  "revision": "타법개정",
+  "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%82%B0%EB%A6%BC%EC%B2%AD%EA%B3%BC%20%EA%B7%B8%20%EC%86%8C%EC%86%8D%EA%B8%B0%EA%B4%80%20%EC%A7%81%EC%A0%9C",
+  "category": "조직·인력",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "소관 기관 내부 조직·인사·사무 범위"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 5,
+    "score_min": 5,
+    "score_max": 70,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "산림청과 그 소속기관 직제",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%82%B0%EB%A6%BC%EC%B2%AD%EA%B3%BC%20%EA%B7%B8%20%EC%86%8C%EC%86%8D%EA%B8%B0%EA%B4%80%20%EC%A7%81%EC%A0%9C"
+          }
+        ]
+      },
+      "scope": {
+        "score": 5,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "소관 기관 내부 조직·인사·사무 범위",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "산림청과 그 소속기관 직제",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%82%B0%EB%A6%BC%EC%B2%AD%EA%B3%BC%20%EA%B7%B8%20%EC%86%8C%EC%86%8D%EA%B8%B0%EA%B4%80%20%EC%A7%81%EC%A0%9C"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "산림청과 그 소속기관 직제",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%82%B0%EB%A6%BC%EC%B2%AD%EA%B3%BC%20%EA%B7%B8%20%EC%86%8C%EC%86%8D%EA%B8%B0%EA%B4%80%20%EC%A7%81%EC%A0%9C"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "별표 0002의00 (산림청 공무원 정원표(제32조제1항 관련))",
+      "before": "■ 산림청과 그 소속기관 직제 [별표 2] 산림청 공무원 정원표(제32조제1항 관련) 총계 327 정무직 계 1 청장(차관급) 1 별정직 계 1 5급 상당 이하 1 일반직 계 321 고위공무원단 7 3급 또는 4급 이하 310 전문경력관 4 소방공무원 계 4 소방경 이하 4",
+      "after": "■ 산림청과 그 소속기관 직제 [별표 2] 산림청 공무원 정원표(제32조제1항 관련) 총계 331 정무직 계 1 청장(차관급) 1 별정직 계 1 5급 상당 이하 1 일반직 계 325 고위공무원단 7 3급 또는 4급 이하 314 전문경력관 4 소방공무원 계 4 소방경 이하 4",
+      "focus": [
+        {
+          "before": {
+            "prefix": "… 그 소속기관 직제 [별표 2] 산림청 공무원 정원표(제32조제1항 관련) 총계 ",
+            "changed": "327",
+            "suffix": " 정무직 계 1 청장(차관급) 1 별정직 계 1 5급 상당 이하 1 일반직 계 3…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 그 소속기관 직제 [별표 2] 산림청 공무원 정원표(제32조제1항 관련) 총계 ",
+            "changed": "331",
+            "suffix": " 정무직 계 1 청장(차관급) 1 별정직 계 1 5급 상당 이하 1 일반직 계 3…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…7 정무직 계 1 청장(차관급) 1 별정직 계 1 5급 상당 이하 1 일반직 계 ",
+            "changed": "321",
+            "suffix": " 고위공무원단 7 3급 또는 4급 이하 310 전문경력관 4 소방공무원 계 4 소…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…1 정무직 계 1 청장(차관급) 1 별정직 계 1 5급 상당 이하 1 일반직 계 ",
+            "changed": "325",
+            "suffix": " 고위공무원단 7 3급 또는 4급 이하 314 전문경력관 4 소방공무원 계 4 소…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 1 5급 상당 이하 1 일반직 계 321 고위공무원단 7 3급 또는 4급 이하 ",
+            "changed": "310",
+            "suffix": " 전문경력관 4 소방공무원 계 4 소방경 이하 4",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 1 5급 상당 이하 1 일반직 계 325 고위공무원단 7 3급 또는 4급 이하 ",
+            "changed": "314",
+            "suffix": " 전문경력관 4 소방공무원 계 4 소방경 이하 4",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 3,
+      "substance_score": 0
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%82%B0%EB%A6%BC%EC%B2%AD%EA%B3%BC%20%EA%B7%B8%20%EC%86%8C%EC%86%8D%EA%B8%B0%EA%B4%80%20%EC%A7%81%EC%A0%9C"
+}

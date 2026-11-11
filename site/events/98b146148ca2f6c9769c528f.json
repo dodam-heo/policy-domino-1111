@@ -1,0 +1,170 @@
+{
+  "id": "law|010646|291783",
+  "title": "재해위험 개선사업 및 이주대책에 관한 특별법 시행령",
+  "source": "law",
+  "kind": "대통령령",
+  "ministry": "행정안전부",
+  "published_at": "2026-11-10",
+  "effective_date": "2026-11-10",
+  "revision": "타법개정",
+  "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%9E%AC%ED%95%B4%EC%9C%84%ED%97%98%20%EA%B0%9C%EC%84%A0%EC%82%AC%EC%97%85%20%EB%B0%8F%20%EC%9D%B4%EC%A3%BC%EB%8C%80%EC%B1%85%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
+  "category": "기타 제·개정",
+  "primary_change_summary": "제33조 · 전국을 주된 보급지역으로 하는 → 사업시행자의 인터넷 홈페이지에 공고하고,",
+  "priority_reasons": [
+    "국가 법률에 따른 전국 단위 규율 범위"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 100,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "재해위험 개선사업 및 이주대책에 관한 특별법 시행령",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%9E%AC%ED%95%B4%EC%9C%84%ED%97%98%20%EA%B0%9C%EC%84%A0%EC%82%AC%EC%97%85%20%EB%B0%8F%20%EC%9D%B4%EC%A3%BC%EB%8C%80%EC%B1%85%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9"
+          }
+        ]
+      },
+      "scope": {
+        "score": 35,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "국가 법률에 따른 전국 단위 규율 범위",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "재해위험 개선사업 및 이주대책에 관한 특별법 시행령",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%9E%AC%ED%95%B4%EC%9C%84%ED%97%98%20%EA%B0%9C%EC%84%A0%EC%82%AC%EC%97%85%20%EB%B0%8F%20%EC%9D%B4%EC%A3%BC%EB%8C%80%EC%B1%85%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "재해위험 개선사업 및 이주대책에 관한 특별법 시행령",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%9E%AC%ED%95%B4%EC%9C%84%ED%97%98%20%EA%B0%9C%EC%84%A0%EC%82%AC%EC%97%85%20%EB%B0%8F%20%EC%9D%B4%EC%A3%BC%EB%8C%80%EC%B1%85%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "제33조",
+      "before": "제33조(서류의 공시송달) ① 사업시행자가 법 제27조제2항에 따라 공시송달을 할 경우에는 송달할 서류의 내용을 전국을 주된 보급지역으로 하는 일간신문 및 해당 개선사업지구를 주된 보급지역으로 하는 일간신문(이하 \"일간신문\"이라 한다. 이 조에서 같다)에 1회 이상 공고하여야 한다. ② 제1항에 따라 공시송달을 하는 경우 그 서류는 일간신문에 공고된 날부터 14일이 지난 때에 상대방에게 도달된 것으로 본다.",
+      "after": "제33조(서류의 공시송달) ① 사업시행자가 법 제27조제2항에 따라 공시송달을 할 경우에는 송달할 서류의 내용을 사업시행자의 인터넷 홈페이지에 공고하고, 일간신문, 관보, 공보, 게시판(법 제8조제1호ㆍ제2호에 따른 사업시행자인 경우만 해당한다) 중 하나 이상에 병행하여 공고해야 한다. ② 제1항에 따라 공시송달을 하는 경우 공고일부터 14일이 지난 때에 상대방에게 도달된 것으로 본다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…업시행자가 법 제27조제2항에 따라 공시송달을 할 경우에는 송달할 서류의 내용을 ",
+            "changed": "전국을 주된 보급지역으로 하는",
+            "suffix": " 일간신문 및 해당 개선사업지구를 주된 보급지역으로 하는 일간신문(이하 \"일간신문…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…업시행자가 법 제27조제2항에 따라 공시송달을 할 경우에는 송달할 서류의 내용을 ",
+            "changed": "사업시행자의 인터넷 홈페이지에 공고하고,",
+            "suffix": " 일간신문, 관보, 공보, 게시판(법 제8조제1호ㆍ제2호에 따른 사업시행자인 경우…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…송달을 할 경우에는 송달할 서류의 내용을 전국을 주된 보급지역으로 하는 일간신문 ",
+            "changed": "및 해당 개선사업지구를 주된 보급지역으로 하는 일간신문",
+            "suffix": "(이하 \"일간신문\"이라 한다. 이 조에서 같다)에 1회 이상 공고하여야 한다. ②…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 경우에는 송달할 서류의 내용을 사업시행자의 인터넷 홈페이지에 공고하고, 일간신문",
+            "changed": ", 관보, 공보, 게시판",
+            "suffix": "(법 제8조제1호ㆍ제2호에 따른 사업시행자인 경우만 해당한다) 중 하나 이상에 병…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…급지역으로 하는 일간신문 및 해당 개선사업지구를 주된 보급지역으로 하는 일간신문(",
+            "changed": "이하 \"일간신문\"이라 한다. 이 조에서 같다",
+            "suffix": ")에 1회 이상 공고하여야 한다. ② 제1항에 따라 공시송달을 하는 경우 그 서류…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…내용을 사업시행자의 인터넷 홈페이지에 공고하고, 일간신문, 관보, 공보, 게시판(",
+            "changed": "법 제8조제1호ㆍ제2호에 따른 사업시행자인 경우만 해당한다",
+            "suffix": ") 중 하나 이상에 병행하여 공고해야 한다. ② 제1항에 따라 공시송달을 하는 경…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…를 주된 보급지역으로 하는 일간신문(이하 \"일간신문\"이라 한다. 이 조에서 같다)",
+            "changed": "에 1회 이상 공고하여야",
+            "suffix": " 한다. ② 제1항에 따라 공시송달을 하는 경우 그 서류는 일간신문에 공고된 날부…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…보, 공보, 게시판(법 제8조제1호ㆍ제2호에 따른 사업시행자인 경우만 해당한다) ",
+            "changed": "중 하나 이상에 병행하여 공고해야",
+            "suffix": " 한다. ② 제1항에 따라 공시송달을 하는 경우 공고일부터 14일이 지난 때에 상…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…서 같다)에 1회 이상 공고하여야 한다. ② 제1항에 따라 공시송달을 하는 경우 ",
+            "changed": "그 서류는 일간신문에 공고된 날부터",
+            "suffix": " 14일이 지난 때에 상대방에게 도달된 것으로 본다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…중 하나 이상에 병행하여 공고해야 한다. ② 제1항에 따라 공시송달을 하는 경우 ",
+            "changed": "공고일부터",
+            "suffix": " 14일이 지난 때에 상대방에게 도달된 것으로 본다.",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 5,
+      "substance_score": 40
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%9E%AC%ED%95%B4%EC%9C%84%ED%97%98%20%EA%B0%9C%EC%84%A0%EC%82%AC%EC%97%85%20%EB%B0%8F%20%EC%9D%B4%EC%A3%BC%EB%8C%80%EC%B1%85%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9"
+}

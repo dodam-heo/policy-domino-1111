@@ -1,0 +1,548 @@
+{
+  "id": "admrul|28122|2100000282874",
+  "title": "산림청 하부조직별 정원에 관한 규정",
+  "source": "admrul",
+  "kind": "행정규칙",
+  "ministry": "산림청",
+  "published_at": "2026-07-22",
+  "effective_date": "2026-07-22",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%82%B0%EB%A6%BC%EC%B2%AD%20%ED%95%98%EB%B6%80%EC%A1%B0%EC%A7%81%EB%B3%84%20%EC%A0%95%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%A0%95",
+  "category": "조직·인력",
+  "primary_change_summary": "별표 0001의00 (산림청(본청) 기준 정원표) · [ → (",
+  "priority_reasons": [
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 90,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "산림청 하부조직별 정원에 관한 규정",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%82%B0%EB%A6%BC%EC%B2%AD%20%ED%95%98%EB%B6%80%EC%A1%B0%EC%A7%81%EB%B3%84%20%EC%A0%95%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%A0%95"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "산림청 하부조직별 정원에 관한 규정",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%82%B0%EB%A6%BC%EC%B2%AD%20%ED%95%98%EB%B6%80%EC%A1%B0%EC%A7%81%EB%B3%84%20%EC%A0%95%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%A0%95"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "산림청 하부조직별 정원에 관한 규정",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%82%B0%EB%A6%BC%EC%B2%AD%20%ED%95%98%EB%B6%80%EC%A1%B0%EC%A7%81%EB%B3%84%20%EC%A0%95%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%A0%95"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0,
+      1,
+      2
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "별표 0001의00 (산림청(본청) 기준 정원표)",
+      "before": "[별표 1] 산림청(본청) 기준 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+      "after": "(별표 1) 산림청(본청) 기준 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 하부조직별 정원에 관한 규정 일부개정령 별표.xlsx",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "[",
+            "suffix": "별표 1] 산림청(본청) 기준 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "(",
+            "suffix": "별표 1) 산림청(본청) 기준 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별표 1",
+            "changed": "]",
+            "suffix": " 산림청(본청) 기준 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "(별표 1",
+            "changed": ")",
+            "suffix": " 산림청(본청) 기준 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별표 1] 산림청(본청) 기준 ",
+            "changed": "정원표의",
+            "suffix": " 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "(별표 1) 산림청(본청) 기준 ",
+            "changed": "정원표 ※",
+            "suffix": " 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…] 산림청(본청) 기준 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…림청(본청) 기준 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. ",
+            "changed": "\"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 하부조직별 정원에 관한 규정 일부개정령 별표.xlsx",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 4,
+      "substance_score": 20
+    },
+    {
+      "article": "별표 0001의02 (산림청(본청) 운영 정원표)",
+      "before": "[별표 1의2] 산림청(본청) 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+      "after": "(별표 1의2) 산림청(본청) 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 하부조직별 정원에 관한 규정 일부개정령 별표.xlsx",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "[",
+            "suffix": "별표 1의2] 산림청(본청) 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "(",
+            "suffix": "별표 1의2) 산림청(본청) 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별표 1의2",
+            "changed": "]",
+            "suffix": " 산림청(본청) 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "(별표 1의2",
+            "changed": ")",
+            "suffix": " 산림청(본청) 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별표 1의2] 산림청(본청) 운영 ",
+            "changed": "정원표의",
+            "suffix": " 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "(별표 1의2) 산림청(본청) 운영 ",
+            "changed": "정원표 ※",
+            "suffix": " 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…] 산림청(본청) 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…림청(본청) 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. ",
+            "changed": "\"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 하부조직별 정원에 관한 규정 일부개정령 별표.xlsx",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 4,
+      "substance_score": 20
+    },
+    {
+      "article": "별표 0002의00 (소속기관 기준 정원표)",
+      "before": "[별표 2] 소속기관 기준 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+      "after": "(별표 2) 소속기관 기준 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 하부조직별 정원에 관한 규정 일부개정령 별표.xlsx",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "[",
+            "suffix": "별표 2] 소속기관 기준 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "(",
+            "suffix": "별표 2) 소속기관 기준 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별표 2",
+            "changed": "]",
+            "suffix": " 소속기관 기준 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "(별표 2",
+            "changed": ")",
+            "suffix": " 소속기관 기준 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별표 2] 소속기관 기준 ",
+            "changed": "정원표의",
+            "suffix": " 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "(별표 2) 소속기관 기준 ",
+            "changed": "정원표 ※",
+            "suffix": " 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…표 2] 소속기관 기준 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…) 소속기관 기준 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. ",
+            "changed": "\"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 하부조직별 정원에 관한 규정 일부개정령 별표.xlsx",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 4,
+      "substance_score": 20
+    },
+    {
+      "article": "별표 0002의02 (소속기관 운영 정원표)",
+      "before": "[별표 2의2] 소속기관 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+      "after": "(별표 2의2) 소속기관 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 하부조직별 정원에 관한 규정 일부개정령 별표.xlsx",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "[",
+            "suffix": "별표 2의2] 소속기관 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "(",
+            "suffix": "별표 2의2) 소속기관 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별표 2의2",
+            "changed": "]",
+            "suffix": " 소속기관 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "(별표 2의2",
+            "changed": ")",
+            "suffix": " 소속기관 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별표 2의2] 소속기관 운영 ",
+            "changed": "정원표의",
+            "suffix": " 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "(별표 2의2) 소속기관 운영 ",
+            "changed": "정원표 ※",
+            "suffix": " 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…2의2] 소속기관 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…) 소속기관 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. ",
+            "changed": "\"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 하부조직별 정원에 관한 규정 일부개정령 별표.xlsx",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 4,
+      "substance_score": 20
+    },
+    {
+      "article": "별표 0002의03 (소속기관 운영 정원표)",
+      "before": "[별표 2의3] 소속기관 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+      "after": "(별표 2의3) 소속기관 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 하부조직별 정원에 관한 규정 일부개정령 별표.xlsx",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "[",
+            "suffix": "별표 2의3] 소속기관 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "(",
+            "suffix": "별표 2의3) 소속기관 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별표 2의3",
+            "changed": "]",
+            "suffix": " 소속기관 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "(별표 2의3",
+            "changed": ")",
+            "suffix": " 소속기관 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별표 2의3] 소속기관 운영 ",
+            "changed": "정원표의",
+            "suffix": " 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "(별표 2의3) 소속기관 운영 ",
+            "changed": "정원표 ※",
+            "suffix": " 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…2의3] 소속기관 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…) 소속기관 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. ",
+            "changed": "\"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 하부조직별 정원에 관한 규정 일부개정령 별표.xlsx",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 4,
+      "substance_score": 20
+    },
+    {
+      "article": "별표 0002의04 (소속기관 운영 정원표)",
+      "before": "[별표 2의4] 소속기관 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+      "after": "(별표 2의4) 소속기관 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 하부조직별 정원에 관한 규정 일부개정령 별표.xlsx",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "[",
+            "suffix": "별표 2의4] 소속기관 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "(",
+            "suffix": "별표 2의4) 소속기관 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별표 2의4",
+            "changed": "]",
+            "suffix": " 소속기관 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "(별표 2의4",
+            "changed": ")",
+            "suffix": " 소속기관 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별표 2의4] 소속기관 운영 ",
+            "changed": "정원표의",
+            "suffix": " 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "(별표 2의4) 소속기관 운영 ",
+            "changed": "정원표 ※",
+            "suffix": " 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…2의4] 소속기관 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…) 소속기관 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. ",
+            "changed": "\"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 하부조직별 정원에 관한 규정 일부개정령 별표.xlsx",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 4,
+      "substance_score": 20
+    },
+    {
+      "article": "별표 0002의05 (소속기관 운영 정원표)",
+      "before": "[별표 2의5] 소속기관 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+      "after": "(별표 2의5) 소속기관 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 하부조직별 정원에 관한 규정 일부개정령 별표.xlsx",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "[",
+            "suffix": "별표 2의5] 소속기관 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "(",
+            "suffix": "별표 2의5) 소속기관 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별표 2의5",
+            "changed": "]",
+            "suffix": " 소속기관 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "(별표 2의5",
+            "changed": ")",
+            "suffix": " 소속기관 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별표 2의5] 소속기관 운영 ",
+            "changed": "정원표의",
+            "suffix": " 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "(별표 2의5) 소속기관 운영 ",
+            "changed": "정원표 ※",
+            "suffix": " 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. \"\" 버튼 클릭 후 하단 파…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…2의5] 소속기관 운영 정원표의 자세한 내용은 상단 메뉴 \"\"버튼을 이용하십시오.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…) 소속기관 운영 정원표 ※ 자세한 내용은 상단 메뉴 \"\" 버튼을 이용하십시오. ",
+            "changed": "\"\" 버튼 클릭 후 하단 파일명 참조 260722_산림청 하부조직별 정원에 관한 규정 일부개정령 별표.xlsx",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 4,
+      "substance_score": 20
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%82%B0%EB%A6%BC%EC%B2%AD%20%ED%95%98%EB%B6%80%EC%A1%B0%EC%A7%81%EB%B3%84%20%EC%A0%95%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%A0%95"
+}

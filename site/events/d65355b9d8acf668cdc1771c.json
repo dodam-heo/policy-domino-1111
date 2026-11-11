@@ -1,0 +1,81 @@
+{
+  "id": "admrul|78406|2100000282698",
+  "title": "지역문화진흥 업무 전담기관 지정 고시",
+  "source": "admrul",
+  "kind": "행정규칙",
+  "ministry": "문화체육관광부",
+  "published_at": "2026-07-22",
+  "effective_date": "2026-07-22",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%A7%80%EC%97%AD%EB%AC%B8%ED%99%94%EC%A7%84%ED%9D%A5%20%EC%97%85%EB%AC%B4%20%EC%A0%84%EB%8B%B4%EA%B8%B0%EA%B4%80%20%EC%A7%80%EC%A0%95%20%EA%B3%A0%EC%8B%9C",
+  "category": "기타 제·개정",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 90,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "종전·현행 원문 비교 대기",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "지역문화진흥 업무 전담기관 지정 고시",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%A7%80%EC%97%AD%EB%AC%B8%ED%99%94%EC%A7%84%ED%9D%A5%20%EC%97%85%EB%AC%B4%20%EC%A0%84%EB%8B%B4%EA%B8%B0%EA%B4%80%20%EC%A7%80%EC%A0%95%20%EA%B3%A0%EC%8B%9C"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "지역문화진흥 업무 전담기관 지정 고시",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%A7%80%EC%97%AD%EB%AC%B8%ED%99%94%EC%A7%84%ED%9D%A5%20%EC%97%85%EB%AC%B4%20%EC%A0%84%EB%8B%B4%EA%B8%B0%EA%B4%80%20%EC%A7%80%EC%A0%95%20%EA%B3%A0%EC%8B%9C"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "지역문화진흥 업무 전담기관 지정 고시",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%A7%80%EC%97%AD%EB%AC%B8%ED%99%94%EC%A7%84%ED%9D%A5%20%EC%97%85%EB%AC%B4%20%EC%A0%84%EB%8B%B4%EA%B8%B0%EA%B4%80%20%EC%A7%80%EC%A0%95%20%EA%B3%A0%EC%8B%9C"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "original_saved_comparison_pending",
+  "relationship": "",
+  "changes": [],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": ""
+}

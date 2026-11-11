@@ -1,0 +1,112 @@
+{
+  "id": "law|007778|291619",
+  "title": "외국인투자 촉진법 시행규칙",
+  "source": "law",
+  "kind": "법령",
+  "ministry": "산업통상부",
+  "published_at": "2026-11-03",
+  "effective_date": "2026-11-03",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%99%B8%EA%B5%AD%EC%9D%B8%ED%88%AC%EC%9E%90%20%EC%B4%89%EC%A7%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
+  "category": "기타 제·개정",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "국가 법률에 따른 전국 단위 규율 범위"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 100,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "외국인투자 촉진법 시행규칙",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%99%B8%EA%B5%AD%EC%9D%B8%ED%88%AC%EC%9E%90%20%EC%B4%89%EC%A7%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+          }
+        ]
+      },
+      "scope": {
+        "score": 35,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "국가 법률에 따른 전국 단위 규율 범위",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "외국인투자 촉진법 시행규칙",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%99%B8%EA%B5%AD%EC%9D%B8%ED%88%AC%EC%9E%90%20%EC%B4%89%EC%A7%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "외국인투자 촉진법 시행규칙",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%99%B8%EA%B5%AD%EC%9D%B8%ED%88%AC%EC%9E%90%20%EC%B4%89%EC%A7%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "제16조",
+      "before": "제16조(연구개발시설의 기준) ① 영 제25조제1항제4호에 따른 연구개발시설이란 연구개발활동을 수행하기 위하여 다음 각 호의 요건을 모두 갖춘 시설을 말한다. 1. 학사학위 소지자로서 3년 이상의 연구경력 또는 석사학위 이상 소지한 연구전담인력이 5명 이상일 것 2. 연구개발을 위한 시설투자금액이 1억원 이상일 것 3. 외국인이 해당 연구개발시설 또는 연구개발시설을 설치한 외국인투자기업이 발행한 의결권 있는 주식총수나 출자총액의 100분의 30 이상을 소유할 것 ② 제1항에 따른 연구개발시설의 지정을 받으려는 외국투자가 또는 외국인투자기업은 별지 제16호의7 서식에 다음 각 호의 서류를 첨부하여 산업통상부장관에게 제출하여야 한다. 1. 연구개발시설의 연구전담인력 수 근거자료, 연구전담인력의 학위 증명서 및 경력 증명서 1부 2. 송금인이 확인되는 외화매입증명서 등 연구개발시설 투자금액을 증명하는 서류 1부 3. 주주명부 등 연구개발시설 또는 연구개발시설을 설치한 외국인투자기업에 대한 외국투자가의 지분비율을 증명할 수 있는 서류 1부 ③ 산업통상부장관은 제2항에 따른 연구개발시설의 지정 신청을 받은 경우에는 외국인투자위원회의 심의를 거쳐 연구개발시설로 지정할 수 있다. ④ 산업통상부장관은 제3항에 따라 연구개발시설로 지정받은 시설이 제1항 각 호에 따른 요건을 유지하지 못한 경우에는 외국인투자위원회의 심의를 거쳐 연구개발시설의 지정을 취소할 수 있다. ⑤ 제1항부터 제4항까지의 규정 외에 연구개발시설의 지정에 필요한 사항은 산업통상부장관이 정하여 고시한다.",
+      "after": "제16조(연구개발시설의 기준) ① 영 제25조제1항제4호에 따른 연구개발시설이란 연구개발활동을 수행하기 위하여 다음 각 호의 요건을 모두 갖춘 시설을 말한다. 1. 학사학위 소지자로서 3년 이상의 연구경력(학사학위 취득 전의 연구경력을 포함한다) 또는 석사학위 이상 소지한 연구전담인력이 5명 이상일 것 2. 연구개발을 위한 시설투자금액이 1억원 이상일 것 3. 외국인이 해당 연구개발시설 또는 연구개발시설을 설치한 외국인투자기업이 발행한 의결권 있는 주식총수나 출자총액의 100분의 30 이상을 소유할 것 ② 제1항에 따른 연구개발시설의 지정을 받으려는 외국투자가 또는 외국인투자기업은 별지 제16호의7 서식에 다음 각 호의 서류를 첨부하여 산업통상부장관에게 제출하여야 한다. 1. 연구개발시설의 연구전담인력 수 근거자료, 연구전담인력의 학위 증명서 및 경력 증명서 1부 2. 송금인이 확인되는 외화매입증명서 등 연구개발시설 투자금액을 증명하는 서류 1부 3. 주주명부 등 연구개발시설 또는 연구개발시설을 설치한 외국인투자기업에 대한 외국투자가의 지분비율을 증명할 수 있는 서류 1부 ③ 산업통상부장관은 제2항에 따른 연구개발시설의 지정 신청을 받은 경우에는 외국인투자위원회의 심의를 거쳐 연구개발시설로 지정할 수 있다. ④ 산업통상부장관은 제3항에 따라 연구개발시설로 지정받은 시설이 제1항 각 호에 따른 요건을 유지하지 못한 경우에는 외국인투자위원회의 심의를 거쳐 연구개발시설의 지정을 취소할 수 있다. ⑤ 제1항부터 제4항까지의 규정 외에 연구개발시설의 지정에 필요한 사항은 산업통상부장관이 정하여 고시한다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…요건을 모두 갖춘 시설을 말한다. 1. 학사학위 소지자로서 3년 이상의 연구경력 ",
+            "changed": "",
+            "suffix": "또는 석사학위 이상 소지한 연구전담인력이 5명 이상일 것 2. 연구개발을 위한 시…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 요건을 모두 갖춘 시설을 말한다. 1. 학사학위 소지자로서 3년 이상의 연구경력",
+            "changed": "(학사학위 취득 전의 연구경력을 포함한다)",
+            "suffix": " 또는 석사학위 이상 소지한 연구전담인력이 5명 이상일 것 2. 연구개발을 위한 …",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%99%B8%EA%B5%AD%EC%9D%B8%ED%88%AC%EC%9E%90%20%EC%B4%89%EC%A7%84%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+}

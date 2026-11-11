@@ -1,0 +1,112 @@
+{
+  "id": "law|007364|288431",
+  "title": "산업안전보건법 시행규칙",
+  "source": "law",
+  "kind": "고용노동부령",
+  "ministry": "고용노동부",
+  "published_at": "2026-07-28",
+  "effective_date": "2026-08-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
+  "category": "기타 제·개정",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "국가 법률에 따른 전국 단위 규율 범위"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 100,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "산업안전보건법 시행규칙",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+          }
+        ]
+      },
+      "scope": {
+        "score": 35,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "국가 법률에 따른 전국 단위 규율 범위",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "산업안전보건법 시행규칙",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "산업안전보건법 시행규칙",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "제205조",
+      "before": "제205조(수시건강진단 대상 근로자 등) ① 법 제130조제3항에서 \"고용노동부령으로 정하는 근로자\"란 특수건강진단대상업무로 인하여 해당 유해인자로 인한 것이라고 의심되는 직업성 천식, 직업성 피부염, 그 밖에 건강장해 증상을 보이거나 의학적 소견이 있는 근로자로서 다음 각 호의 어느 하나에 해당하는 근로자를 말한다. 다만, 사업주가 직전 특수건강진단을 실시한 특수건강진단기관의 의사로부터 수시건강진단이 필요하지 않다는 소견을 받은 경우는 제외한다. 1. 산업보건의, 보건관리자, 보건관리 업무를 위탁받은 기관이 필요하다고 판단하여 사업주에게 수시건강진단을 건의한 근로자 2. 해당 근로자나 근로자대표 또는 법 제23조에 따라 위촉된 명예산업안전감독관이 사업주에게 수시건강진단을 요청한 근로자 ② 사업주는 제1항에 해당하는 근로자에 대해서는 지체 없이 수시건강진단을 실시해야 한다. ③ 제1항 및 제2항에서 정한 사항 외에 수시건강진단의 실시방법, 그 밖에 필요한 사항은 고용노동부장관이 정한다.",
+      "after": "제205조(수시건강진단 대상 근로자 등) ① 법 제130조제3항에서 \"고용노동부령으로 정하는 근로자\"란 특수건강진단대상업무로 인하여 해당 유해인자로 인한 것이라고 의심되는 직업성 천식, 직업성 피부염, 그 밖에 건강장해 증상을 보이거나 의학적 소견이 있는 근로자로서 다음 각 호의 어느 하나에 해당하는 근로자를 말한다. 다만, 사업주가 직전 특수건강진단을 실시한 특수건강진단기관의 의사로부터 수시건강진단이 필요하지 않다는 소견을 받은 경우는 제외한다. 1. 산업보건의, 보건관리자, 보건관리 업무를 위탁받은 기관이 필요하다고 판단하여 사업주에게 수시건강진단을 건의한 근로자 2. 해당 근로자나 근로자대표 또는 명예산업안전감독관이 사업주에게 수시건강진단을 요청한 근로자 ② 사업주는 제1항에 해당하는 근로자에 대해서는 지체 없이 수시건강진단을 실시해야 한다. ③ 제1항 및 제2항에서 정한 사항 외에 수시건강진단의 실시방법, 그 밖에 필요한 사항은 고용노동부장관이 정한다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…하여 사업주에게 수시건강진단을 건의한 근로자 2. 해당 근로자나 근로자대표 또는 ",
+            "changed": "법 제23조에 따라 위촉된",
+            "suffix": " 명예산업안전감독관이 사업주에게 수시건강진단을 요청한 근로자 ② 사업주는 제1항에…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…하여 사업주에게 수시건강진단을 건의한 근로자 2. 해당 근로자나 근로자대표 또는 ",
+            "changed": "",
+            "suffix": "명예산업안전감독관이 사업주에게 수시건강진단을 요청한 근로자 ② 사업주는 제1항에 …",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+}

@@ -1,0 +1,212 @@
+{
+  "id": "admrul|82027|2100000283944",
+  "title": "통계작성의 변경승인(협의) 고시(항공산업실태조사)",
+  "source": "admrul",
+  "kind": "고시",
+  "ministry": "국가데이터처",
+  "published_at": "2026-08-13",
+  "effective_date": "2026-12-31",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%ED%95%AD%EA%B3%B5%EC%82%B0%EC%97%85%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29",
+  "category": "행정절차·인허가",
+  "primary_change_summary": "첨부 전문 · 신설 → ◎ 국가데이터처 고시 제 2026 - 572호",
+  "priority_reasons": [
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 90,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(항공산업실태조사)",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%ED%95%AD%EA%B3%B5%EC%82%B0%EC%97%85%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(항공산업실태조사)",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%ED%95%AD%EA%B3%B5%EC%82%B0%EC%97%85%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(항공산업실태조사)",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%ED%95%AD%EA%B3%B5%EC%82%B0%EC%97%85%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "reused_official_version_comparison",
+  "changes": [
+    {
+      "article": "첨부 전문",
+      "before": "통계법 18조제4항 및 같은 법 시행령 제26조제4항의 규정에 의하여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. 2025 년 10 월 23일 국가데이터처장 1. 통계의 명칭 : 항공산업실태조사 2. 통계작성기관의 명칭 : 한국교통연구원 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제444002호 [2022.05.23.] 4. 통계작성의 변경 연월일 : 2025.09.25. 5. 통계작성의 변경 내용과 사유 : 구분 변경 전 변경 후 변경사유 모집단 (추출틀) • ‘21년 전국사업체조사 • ‘22년 지방항공청, 국민연금공단 DB 등 병합자료 • ‘23년 전국사업체조사 • ‘24년 지방항공청, 국민연금공단 DB 등 병합자료 최신 추출틀 활용 조사항목 (결과표) • 전체 33개 항목 사업체개요(9) 종사자현황(7) 재무 및 투자 현황(5) 항공산업 현황 분석(6) 신사업 부문(6) • 전체 39개 항목(추가6, 수정9) 사업체개요(9) 종사자현황(8) _추가1, 수정6 재무 및 투자 현황(6) _추가1, 수정3 항공산업 현황 분석(6) 신사업 부문(8) _추가2 - 개선사항(2) _추가2 항공산업 변화에 따른 조사항목 개선 성인지 항목 반영 ◎ 국가데이터처 고시 제 2025 - 14호",
+      "after": "◎ 국가데이터처 고시 제 2026 - 572호 통계법 제18조제4항 및 같은 법 시행령 제26조제6항의 규정에 의하여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. 2026 년 08 월 13일 국 가 데 이 터 처 장 1. 통계의 명칭 : 항공산업실태조사 2. 통계작성기관의 명칭 : 한국교통연구원 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제444002호 [2022.05.23.] 4. 통계작성의 변경 연월일 : 2026.12.31. 5. 통계작성의 변경 내용과 사유 : 구분 변경 전 변경 후 변경사유 조사규모 • 약 2,000개 • 약 2,500개 통계 신뢰도 제고 표본설계 • 추출틀 : ‘23년 전국사업체조사 + ‘24년 지방항공청, 국민연금공단 DB 등 병합자료 • 표본배분 : 멱비례배분 • 추출틀 : ‘24년 전국사업체조사 + ‘25년 지방항공청, 국민연금공단 DB 등 병합자료 • 표본배분 : 제곱근비례배분 최신 추출틀 활용 추정 안정성 제고 조사항목 (결과표) • 전체 39개 항목 사업체 개요(9) 종사자 현황(8) 재무 및 투자 현황(6) 항공산업 현황 분석(6) 신사업 부문(8)_추가2 - 개선사항(2)_추가2 • 전체 35개 항목(삭제4, 수정14) 사업체 개요(9) 종사자 현황(7)_ 삭제1, 수정2 재무 및 투자 현황(5)_ 삭제1, 수정1 항공산업 현황 분석(5)_ 삭제1, 수정4 신사업 부문(7)_ 삭제1, 수정6 - 개선사항(2)_ 수정1 유사·중복문항 통합 조사대상자 응답 편의 제고",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "",
+            "suffix": "통계법 18조제4항 및 같은 법 시행령 제26조제4항의 규정에 의하여 다음과 같이…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "◎ 국가데이터처 고시 제 2026 - 572호",
+            "suffix": " 통계법 제18조제4항 및 같은 법 시행령 제26조제6항의 규정에 의하여 다음과 …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "통계법 ",
+            "changed": "",
+            "suffix": "18조제4항 및 같은 법 시행령 제26조제4항의 규정에 의하여 다음과 같이 통계작…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "◎ 국가데이터처 고시 제 2026 - 572호 통계법 ",
+            "changed": "제",
+            "suffix": "18조제4항 및 같은 법 시행령 제26조제6항의 규정에 의하여 다음과 같이 통계작…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "통계법 18조제4항 및 같은 법 시행령 제26조제",
+            "changed": "4",
+            "suffix": "항의 규정에 의하여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. 202…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…고시 제 2026 - 572호 통계법 제18조제4항 및 같은 법 시행령 제26조제",
+            "changed": "6",
+            "suffix": "항의 규정에 의하여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. 202…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…조제4항의 규정에 의하여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. ",
+            "changed": "2025",
+            "suffix": " 년 10 월 23일 국가데이터처장 1. 통계의 명칭 : 항공산업실태조사 2. 통…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…조제6항의 규정에 의하여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. ",
+            "changed": "2026",
+            "suffix": " 년 08 월 13일 국 가 데 이 터 처 장 1. 통계의 명칭 : 항공산업실태조…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…정에 의하여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. 2025 년 ",
+            "changed": "10",
+            "suffix": " 월 23일 국가데이터처장 1. 통계의 명칭 : 항공산업실태조사 2. 통계작성기관…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…정에 의하여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. 2026 년 ",
+            "changed": "08",
+            "suffix": " 월 13일 국 가 데 이 터 처 장 1. 통계의 명칭 : 항공산업실태조사 2. …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. 2025 년 10 월 ",
+            "changed": "23",
+            "suffix": "일 국가데이터처장 1. 통계의 명칭 : 항공산업실태조사 2. 통계작성기관의 명칭 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. 2026 년 08 월 ",
+            "changed": "13",
+            "suffix": "일 국 가 데 이 터 처 장 1. 통계의 명칭 : 항공산업실태조사 2. 통계작성기…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…과 같이 통계작성의 변경 승인(협의)를 고시합니다. 2025 년 10 월 23일 ",
+            "changed": "국가데이터처장",
+            "suffix": " 1. 통계의 명칭 : 항공산업실태조사 2. 통계작성기관의 명칭 : 한국교통연구원…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…과 같이 통계작성의 변경 승인(협의)를 고시합니다. 2026 년 08 월 13일 ",
+            "changed": "국 가 데 이 터 처 장",
+            "suffix": " 1. 통계의 명칭 : 항공산업실태조사 2. 통계작성기관의 명칭 : 한국교통연구원…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…] : 제444002호 [2022.05.23.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2025.09.25.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : 구분 변경 전 변경 후 변경사유 모집단 (…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…] : 제444002호 [2022.05.23.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2026.12.31.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : 구분 변경 전 변경 후 변경사유 조사규모 …",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 22,
+      "substance_score": 30
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "imported_exact_clauses_pending_official_xml_confirmation"
+    },
+    {
+      "reason": "original_source_not_reverified"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%ED%95%AD%EA%B3%B5%EC%82%B0%EC%97%85%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
+}
