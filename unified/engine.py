@@ -188,6 +188,7 @@ def parse_body(xml: bytes) -> dict:
         "clauses": clauses,
         "attachment_links": links,
         "incomplete_keys": incomplete,
+        "parser_version": 2,
         "raw_xml_sha256": hash256(xml),
         "body_sha256": hash256(json.dumps(clauses, sort_keys=True, ensure_ascii=False)),
     }
@@ -195,6 +196,18 @@ def parse_body(xml: bytes) -> dict:
 
 def compare_bodies(before: dict, after: dict, *, annual=False) -> dict:
     a, b = before.get("clauses", {}), after.get("clauses", {})
+    # Prefer matching structured HWPX cells over attachment-order comparison.
+    # A PDF and HWPX may be offered in a different order in each edition.
+    def table_cells(body):
+        return {k: v for item in body.get("attachments", [])
+                if item.get("verified_text") and item.get("format") == "hwpx"
+                for k, v in item.get("table_cells", {}).items()}
+    ta, tb = table_cells(before), table_cells(after)
+    if ta and tb:
+        a = {k: v for k, v in a.items() if not k.startswith("첨부 ")}
+        b = {k: v for k, v in b.items() if not k.startswith("첨부 ")}
+        a = {**a, **ta}
+        b = {**b, **tb}
     changes = []
     unresolved = []
     for clause in sorted(set(a) | set(b)):
@@ -519,6 +532,47 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
     }
     save_json(state_file, state)
     return state["last_run_stats"]
+
+
+def refresh_cached(root: Path) -> dict:
+    """Reparse archived official XML/annex bytes without collecting or seeding."""
+    import gzip
+    from .attachments import resolve_attachments, normalized_url
+    repaired = 0
+    for path in (root / "documents").glob("*/*/*.json.gz"):
+        obj = load(path, {})
+        if not obj.get("official_xml_base64"):
+            continue
+        old_body = obj.get("body", {})
+        if old_body.get("parser_version") == 2:
+            continue
+        body = parse_body(base64.b64decode(obj["official_xml_base64"]))
+        archive = {normalized_url(a.get("source_url", "")): a.get("sha256")
+                   for a in old_body.get("attachments", []) if a.get("sha256")}
+        def cached_attachment(url):
+            sha = archive.get(normalized_url(url))
+            if not sha:
+                raise ValueError("attachment_not_yet_archived")
+            return gzip.decompress((root / "attachments" / sha[:2] / (sha+".gz")).read_bytes())
+        if body.get("attachment_links"):
+            body = resolve_attachments(root, body, transport=cached_attachment)
+        body["parser_version"] = 2
+        obj["body"] = body
+        repaired += int(store(path, obj))
+    rebuilt = 0
+    for path in (root / "comparisons").glob("*.json.gz"):
+        old = load(path, {})
+        current, prior = old.get("changed_record") or {}, old.get("prior_record") or {}
+        if not all(all(r.get(k) for k in ("source", "stable_id", "serial")) for r in (current, prior)):
+            continue
+        before, after = load(root / relative_path(prior), {}), load(root / relative_path(current), {})
+        if not (before.get("official_xml_base64") and after.get("official_xml_base64")):
+            continue
+        result = compare_bodies(before["body"], after["body"],
+                                annual=old.get("relationship") == "annual_successor")
+        result.update({"changed_record": current, "prior_record": prior})
+        rebuilt += int(store(path, result))
+    return {"official_originals_reparsed": repaired, "comparisons_rebuilt": rebuilt}
 
 
 def main():

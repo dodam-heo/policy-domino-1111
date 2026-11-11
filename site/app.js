@@ -27,7 +27,8 @@ function renderSummary(raw){
   $('summary').replaceChildren(
     stat('확보된 공식 판본',raw.total_source_versions_saved.toLocaleString()+'건'),
     stat('확인된 신구 변경',raw.summary.with_verified_changes.toLocaleString()+'건'),
-    stat('기관·사업 연결',raw.summary.agency_action_count.toLocaleString()+'건')
+    stat('기관·사업 연결',raw.summary.agency_action_count.toLocaleString()+'건'),
+    stat('AI 변경 요약',(raw.analysis?.policy_ai_summaries||0).toLocaleString()+'건')
   );
 }
 function filtered(){
@@ -91,6 +92,30 @@ function changeCard(c){
   add(grid,before,after);add(wrapper,heading,grid);
   return wrapper;
 }
+function deltaTable(changes, limit=12){
+  const wrap=node('div','delta-wrap'),table=node('table','delta-table');
+  const head=node('tr');['변경 항목','이전','변경'].forEach(t=>head.appendChild(node('th','',t)));
+  const thead=node('thead');thead.appendChild(head);table.appendChild(thead);
+  const body=node('tbody');
+  changes.slice(0,limit).forEach(c=>{const row=node('tr');
+    add(row,node('td','',c.article||c.clause||'본문'),node('td','',c.before),node('td','',c.after));body.appendChild(row);});
+  table.appendChild(body);wrap.appendChild(table);return wrap;
+}
+function shortChanges(changes){return changes.filter(c=>String(c.before).length<100&&String(c.after).length<100);}
+function workItems(action){
+  const rows=action.linked_changes||[],text=rows.map(c=>c.article+' '+c.after).join(' ');
+  const field=action.evidence.service_field;
+  if(/가구|소득|선정|지원대상/.test(text+' '+field))return [
+    '신청 안내의 가구 규모별 선정기준과 소득기준표 갱신',
+    '대상자 심사에 사용하는 기준값·계산식과 적용연도 확인',
+    '시행일 이후 신청·재심사 건에 적용할 기준 구분'];
+  if(/금액|원|지원내용|비용/.test(text+' '+field))return [
+    '사업 안내와 지급기준표의 해당 금액 갱신',
+    '지급액 산식·상한액 및 업무 시스템 기준값 대조',
+    '시행일 기준 지급 대상과 적용 시점 확인'];
+  return ['공식 운영기준의 해당 조문·항목 대조','업무 안내·심사 절차·관련 서식의 수정 항목 확인'];
+}
+
 async function renderDetail(){
   const ticket=++requestId;
   if(active?.detail_url && !detailCache.has(active.id)){
@@ -113,8 +138,10 @@ async function renderDetail(){
     : e.comparison_status==='no_text_change'
       ? '확보한 판본의 조문 텍스트에서는 변경을 확인하지 못했습니다.'
       : '공식 문서 판본은 확보됐지만 종전·개정 원문 대조가 완료되지 않았습니다.';
-  add(overview,node('p','lead',note));
-  (e.changes||[]).filter(c=>!/[─━┼│┬┴┌┐└┘]/.test(c.before+c.after)).slice(0,3).forEach(c=>{
+  add(overview,node('p','lead',e.policy_analysis?.verified?e.policy_analysis.explanation:note));
+  const tableChanges=shortChanges(e.changes||[]);
+  if(tableChanges.length)overview.appendChild(deltaTable(tableChanges,7));
+  (e.changes||[]).filter(c=>!shortChanges([c]).length&&!/[─━┼│┬┴┌┐└┘]/.test(c.before+c.after)).slice(0,1).forEach(c=>{
     const card=node('div','key-change');add(card,node('b','',c.article||'본문 변경'));
     const [before,after]=compactDiff(c.before,c.after);
     add(card,node('p','','이전 · '+before),node('p','','변경 · '+after));overview.appendChild(card);
@@ -141,15 +168,20 @@ async function renderDetail(){
       add(item,node('strong','',x.agency),node('div','secondary','공공서비스 · '+x.service));
       add(item,node('p','action-text',x.required_change));
       if(e.effective_date)add(item,chip('적용 시점 '+e.effective_date,'blue'));
-      const delta=node('details');add(delta,node('summary','','업무 변경 전·후'),changeCard({article:x.changed_clause,before:x.before,after:x.after}));item.appendChild(delta);
+      const todos=node('ul','work-items');workItems(x).forEach(t=>todos.appendChild(node('li','',t)));item.appendChild(todos);
+      const linked=x.linked_changes||[{article:x.changed_clause,before:x.before,after:x.after}];
+      const compact=shortChanges(linked);
+      if(compact.length)item.appendChild(deltaTable(compact,6));
+      const delta=node('details');add(delta,node('summary','','연결된 변경 근거 '+linked.length+'개 펼치기'));
+      linked.forEach(c=>delta.appendChild(changeCard(c)));item.appendChild(delta);
       if(x.ai_analysis?.verified){
         const ai=node('details','');
         add(ai,node('summary','','검증된 AI 설명'),node('p','proof',x.ai_analysis.explanation));
         item.appendChild(ai);
       }
-      add(item,node('div','proof','공식 근거: '+x.evidence.reference_quote+(x.evidence.delegation_quote?'\n고시의 상위법 인용: '+x.evidence.delegation_quote:'')+'\n사업 적용 항목: '+x.evidence.service_field));
+      add(item,node('div','proof','적용 항목 · '+x.evidence.service_field));
       const more=node('details','');
-      add(more,node('summary','','운영기준 원문 확인'),node('p','proof',x.evidence.service_quote));
+      add(more,node('summary','','공식 운영기준·연결 근거'),node('p','proof',x.evidence.service_quote),node('p','proof',x.evidence.reference_quote+(x.evidence.delegation_quote?'\n상위법 위임 근거 · '+x.evidence.delegation_quote:'')));
       add(item,more,external('사업 근거 자료',x.service_url));
       agency.appendChild(item);
     });

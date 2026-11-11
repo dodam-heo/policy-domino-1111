@@ -53,7 +53,7 @@ jobs:
         if: github.event_name != 'pull_request'
         env:
           PD_LLM_API_KEY: ${{ secrets.PD_LLM_API_KEY || secrets.OPENAI_API_KEY }}
-          PD_LLM_MODEL: ${{ vars.PD_LLM_MODEL }}
+          PD_LLM_MODEL: ${{ vars.PD_LLM_MODEL || 'gpt-4.1-mini' }}
           PD_LLM_URL: ${{ vars.PD_LLM_URL || 'https://api.openai.com/v1/chat/completions' }}
           PD_LLM_MAX_REQUESTS: ${{ vars.PD_LLM_MAX_REQUESTS || '12' }}
         run: python -m unified.impact --root data
@@ -74,7 +74,7 @@ jobs:
               detail=json.loads((Path('site')/item['detail_url']).read_text('utf8'))
               assert detail['id']==item['id']
               for action in detail.get('institutions',[]):
-                  assert action['evidence']['proof_type'] in ('exact_changed_article_cited_by_official_program', 'delegated_rule_and_operating_criterion')
+                  assert action['evidence']['proof_type'] in ('exact_changed_article_cited_by_official_program', 'delegated_rule_and_operating_criterion', 'official_parent_subject_and_operating_value')
                   assert action['evidence']['reference_quote']
                   assert action['evidence']['service_quote']
           print('PUBLISH_CONTRACT_PASS',catalog['summary'])

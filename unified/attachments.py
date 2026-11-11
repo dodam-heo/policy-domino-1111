@@ -66,6 +66,43 @@ def docx_text(raw: bytes) -> str:
         return "\n".join(paragraphs)
 
 
+def hwpx_extract(raw: bytes) -> tuple[str, dict]:
+    """Preserve table coordinates; a flattened string cannot align amounts."""
+    paragraphs, cells = [], {}
+    with zipfile.ZipFile(io.BytesIO(raw)) as archive:
+        sections = sorted(f for f in archive.namelist()
+                          if re.match(r"Contents/section\d+\.xml$", f))
+        table_number = 0
+        for section in sections:
+            root = ET.fromstring(archive.read(section))
+            paragraphs.extend(" ".join(t.text or "" for t in p.iter()
+                              if t.tag.endswith("}t")) for p in root.iter()
+                              if p.tag.endswith("}p"))
+            for table in root.iter():
+                if not table.tag.endswith("}tbl"):
+                    continue
+                table_number += 1
+                rows = [[re.sub(r"\s+", " ", " ".join(t.text or "" for t in c.iter()
+                         if t.tag.endswith("}t"))).strip()
+                         for c in row if c.tag.endswith("}tc")]
+                        for row in table if row.tag.endswith("}tr")]
+                header_index = next((i for i, row in enumerate(rows)
+                                     if len(row) > 1 and not any(re.fullmatch(
+                                         r"[\d,]+", v) for v in row)), None)
+                if header_index is None:
+                    continue
+                headers = rows[header_index]
+                for row in rows[header_index+1:]:
+                    if len(row) != len(headers) or not row[0]:
+                        continue
+                    for col, value in enumerate(row[1:], 1):
+                        if not re.search(r"\d", value):
+                            continue
+                        label = f"표 {table_number} · {row[0]} · {headers[col]}"
+                        cells[label] = value
+    return "\n".join(p for p in paragraphs if p.strip()), cells
+
+
 def _format(raw: bytes) -> str:
     if raw[:5] == b"%PDF-":
         return "pdf"
@@ -119,12 +156,8 @@ def resolve_attachments(root: Path, original: dict,
             elif fmt == "docx":
                 text = docx_text(data)
             elif fmt == "hwpx":
-                with zipfile.ZipFile(io.BytesIO(data)) as archive:
-                    sections = sorted(f for f in archive.namelist()
-                                      if re.match(r"Contents/section\d+\.xml$", f))
-                    text = "\n".join(" ".join(el.text or "" for el in
-                        ET.fromstring(archive.read(f)).iter() if el.tag.endswith("}t"))
-                        for f in sections)
+                text, table_cells = hwpx_extract(data)
+                row["table_cells"] = table_cells
             else:
                 text = ""
             text = re.sub(r"[ \t]+", " ", text)
@@ -134,6 +167,8 @@ def resolve_attachments(root: Path, original: dict,
                 unresolved.append(row)
                 continue
             clauses["첨부 "+str(n+1)] = text[:15000]
+            if len(text) > 15000:
+                unresolved.append({"index": n+1, "reason": "attachment_text_truncated"})
             row.update({"verified_text": True, "text_sha256":
                 hashlib.sha256(text.encode("utf8")).hexdigest()})
         except Exception as exc:

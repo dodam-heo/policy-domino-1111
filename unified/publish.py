@@ -46,11 +46,13 @@ def assemble(root: Path, limit: int | None = None) -> dict:
         if all(row.get(k) for k in ("source", "stable_id", "serial")):
             comparisons[ident(row)] = c
     impacts = {}
+    analyses = {}
     for path in (root / "impacts").glob("*.json.gz"):
         payload = load(path, {})
         row = payload.get("doc") or {}
         if all(row.get(k) for k in ("source", "stable_id", "serial")):
             impacts[ident(row)] = payload.get("institutional_actions", [])
+            analyses[ident(row)] = payload.get("policy_analysis")
     events = []
     for doc in sources[:limit]:
         key = ident(doc)
@@ -73,6 +75,7 @@ def assemble(root: Path, limit: int | None = None) -> dict:
             "changes": before_after,
             "unresolved": comp.get("unresolved", [])[:20],
             "institutions": candidates,
+            "policy_analysis": analyses.get(key),
             "impact_level": "high" if candidates or any(
                 re.search(r"급여|소득|선정|자격|지원대상|요율|수수료|신청|의무|기한", c.get("before", "") + c.get("after", ""))
                 and re.search(r"\d", c.get("before", "") + c.get("after", ""))

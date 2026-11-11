@@ -13,7 +13,7 @@ import os
 from pathlib import Path
 import re
 
-from .engine import hash256, clean, load, store, save_json
+from .engine import hash256, clean, load, store, save_json, relative_path
 
 REFERENCES = re.compile(r"[「｢]([^」｣]{2,180})[」｣]\s*(제\s*\d+\s*조(?:의\s*\d+)?)?")
 ARTICLE = re.compile(r"제\s*\d+\s*조(?:의\s*\d+)?")
@@ -91,6 +91,39 @@ def plain(text):
     return clean(text).replace(" ", "")
 
 
+def cited_articles(text: str) -> list[tuple[str, str, str]]:
+    citations = []
+    for match in re.finditer(r"[「｢]([^」｣]{2,180})[」｣]", text):
+        tail = text[match.end():match.end()+220]
+        block = re.match(r"[\s\d제조의항호목및과,·ㆍ]+", tail)
+        if block:
+            for article in ARTICLE.finditer(block.group()):
+                citations.append((match.group(1), article.group(),
+                                  match.group()+block.group()))
+    return citations
+
+
+def citation_quotes(basis: str, title: str, article: str) -> list[str]:
+    """Read every article in each exact-title citation, including comma lists."""
+    found = []
+    for entry in re.split(r"[|;\n]", basis):
+        normalized = plain(entry)
+        wanted = plain(title).strip("「」｢｣")
+        starts = normalized.startswith(wanted+"(") or normalized.startswith(wanted+"（")
+        bracket = re.search(r"[「｢]"+re.escape(wanted)+r"[」｣]", normalized)
+        if not (starts or bracket):
+            continue
+        # Bound the citation to this named law, never a later law's article.
+        tail = normalized[len(wanted):] if starts else normalized[bracket.end():]
+        if starts:
+            tail = re.split(r"[)）]", tail, maxsplit=1)[0]
+        else:
+            tail = re.split(r"[「｢]", tail, maxsplit=1)[0]
+        if plain(article) in [plain(m.group()) for m in ARTICLE.finditer(tail)]:
+            found.append(entry)
+    return found
+
+
 def proof(program: dict, doc: dict, change: dict) -> dict | None:
     """Exact law+changed article in official program legal basis is required."""
     title, clause = doc.get("title", ""), change.get("clause", "")
@@ -107,6 +140,7 @@ def proof(program: dict, doc: dict, change: dict) -> dict | None:
     old, new = change.get("before", ""), change.get("after", "")
     # Gov24 supplies both 「법명」 제N조 and 법명(제N조, 제M항).
     # Match a complete title at a citation boundary, never substring similarity.
+    exact.extend(citation_quotes(basis, title, clause))
     if not exact:
         for value in program["basis"].values():
             for entry in re.split(r"[\n;|]", value):
@@ -155,35 +189,73 @@ def delegated_proof(program: dict, doc: dict, change: dict) -> dict | None:
     old, new = change.get("before", ""), change.get("after", "")
     if not old or not new or old == new:
         return None
-    if not (set(NUMBERS.findall(old)) ^ set(NUMBERS.findall(new))):
+    if not (set(re.findall(r"\d[\d,]*(?:\.\d+)?", old)) ^ set(re.findall(r"\d[\d,]*(?:\.\d+)?", new))):
         return None
-    previous = {(plain(m.group(1)), plain(m.group(2)))
-                for m in REFERENCES.finditer(old) if m.group(2)}
-    current = [m for m in REFERENCES.finditer(new)
-               if m.group(2) and (plain(m.group(1)), plain(m.group(2))) in previous]
+    previous = {(plain(t), plain(a)) for t, a, _ in
+                cited_articles(doc.get("before_context", old))}
+    current = [(t, a, q) for t, a, q in
+               cited_articles(doc.get("after_context", new))
+               if (plain(t), plain(a)) in previous]
     stop = {"선정기준", "최저보장수준", "적용", "시행", "기준", "고시", "운영규정",
             "지급기준", "지원기준", "운영", "관한", "규정", "계획", "관리", "사업"}
     terms = [word.removesuffix("의") for word in re.findall(r"[가-힣]{4,}", doc.get("title", ""))]
-    terms = [t for t in terms if t not in stop and t in old and t in new]
+    terms = [t for t in terms if t not in stop and
+             t in doc.get("before_context", old) and t in doc.get("after_context", new)]
     if not terms:
         return None
-    for ref in current:
+    for ref_title, ref_article, ref_quote in current:
         for basis in program["basis"].values():
-            title, article = plain(ref.group(1)), plain(ref.group(2))
+            title, article = plain(ref_title), plain(ref_article)
             bracket = any(plain(m.group(1)) == title and plain(m.group(2)) == article
                           for m in REFERENCES.finditer(basis))
             pattern = r"(?:^|[|;,])" + re.escape(title) + r"[（(]" + re.escape(article) + r"(?=[,，)）]|$)"
-            if not bracket and not re.search(pattern, plain(basis)):
+            if not bracket and not re.search(pattern, plain(basis)) and not citation_quotes(basis, ref_title, ref_article):
                 continue
             for field, value in program["criteria"].items():
                 shared = next((t for t in terms if t in value), None)
                 if shared:
                     return {"proof_type": "delegated_rule_and_operating_criterion",
-                            "reference_quote": basis, "delegation_quote": ref.group(0),
+                            "reference_quote": basis, "delegation_quote": ref_quote,
                             "criterion_term": shared, "service_field": field,
                             "service_quote": value, "old_value": "", "new_value": "",
                             "numeric_value_in_operating_criteria": False}
     return None
+
+
+def operating_value_proof(program: dict, doc: dict, change: dict) -> dict | None:
+    """Exact old table value + policy subject + shared official parent law.
+
+    This is a second evidence path when Gov24 cites the law's purpose article
+    rather than the delegated article. Numbers alone cannot link a program.
+    """
+    if doc.get("source") != "admrul" or not change.get("clause", "").startswith("표 "):
+        return None
+    old, new = change.get("before", ""), change.get("after", "")
+    if not re.fullmatch(r"[\d,]+(?:\.\d+)?(?:원|만원|%)?", old) or old == new:
+        return None
+    parents = cited_articles(doc.get("after_context", ""))
+    prior_parents = {plain(t) for t, _, _ in cited_articles(doc.get("before_context", ""))}
+    basis = " ".join(program["basis"].values())
+    parent = next(((t, q) for t, _, q in parents if plain(t) in prior_parents and
+                   any(plain(entry).startswith(plain(t)+"(") or
+                       ("「"+plain(t)+"」") in plain(entry)
+                       for entry in re.split(r"[|;\n]", basis))), None)
+    if not parent:
+        return None
+    terms = [t.removesuffix("의") for t in re.findall(r"[가-힣]{4,}", doc.get("title", ""))]
+    subject = next((t for t in terms if t not in {"선정기준", "최저보장수준", "운영규정", "지급기준"}
+                    and t in program["service_name"]), None)
+    if not subject:
+        return None
+    match = next(((k, v) for k, v in program["criteria"].items()
+                  if re.search(r"(?<![\d,])"+re.escape(old)+r"(?![\d,])", v)), None)
+    if not match:
+        return None
+    return {"proof_type": "official_parent_subject_and_operating_value",
+            "reference_quote": basis, "delegation_quote": parent[1],
+            "criterion_term": subject, "service_field": match[0],
+            "service_quote": match[1], "old_value": old, "new_value": new,
+            "numeric_value_in_operating_criteria": True}
 
 
 def impact_for(doc: dict, comparison: dict, programs: list[dict]) -> list[dict]:
@@ -193,6 +265,7 @@ def impact_for(doc: dict, comparison: dict, programs: list[dict]) -> list[dict]:
         return []
     results = []
     reference_titles = {plain(doc.get("title", ""))}
+    reference_titles.update(plain(m.group(1)) for m in REFERENCES.finditer(doc.get("after_context", "")))
     for change in comparison["changes"]:
         reference_titles.update(plain(m.group(1)) for m in REFERENCES.finditer(change.get("after", "")))
     # Retrieval narrows candidates; proof() still validates exact evidence.
@@ -200,7 +273,8 @@ def impact_for(doc: dict, comparison: dict, programs: list[dict]) -> list[dict]:
                                           for title in reference_titles)]
     for change in comparison["changes"]:
         for p in programs:
-            evidence = proof(p, doc, change) or delegated_proof(p, doc, change)
+            evidence = (proof(p, doc, change) or operating_value_proof(p, doc, change)
+                        or delegated_proof(p, doc, change))
             if evidence is None:
                 continue
             field = evidence["service_field"]
@@ -228,18 +302,25 @@ def impact_for(doc: dict, comparison: dict, programs: list[dict]) -> list[dict]:
     # Multiple file formats of the same official notice are one program task.
     unique = {}
     for result in results:
-        key = (result["service_id"], result["evidence"]["reference_quote"])
-        unique.setdefault(key, result)
+        key = (result["service_id"], result["evidence"]["reference_quote"], result["evidence"]["service_field"])
+        if key not in unique:
+            result["linked_changes"] = []
+            unique[key] = result
+        unique[key]["linked_changes"].append({"article": result["changed_clause"],
+            "before": result["before"], "after": result["after"]})
     return list(unique.values())
 
 
 def run(root: Path, limit_events: int = 300) -> dict:
+    from .engine import refresh_cached
+    refresh_cached(root)
     programs = list(read_programs(root))
     generated = []
+    policy_ai_count = 0
     statuses = Counter()
     ai_attempts, ai_verified, ai_errors = 0, 0, 0
     key_available = bool(os.getenv("PD_LLM_API_KEY") or os.getenv("OPENAI_API_KEY"))
-    model_available = bool(os.getenv("PD_LLM_MODEL"))
+    model_available = True
     ai_budget = max(0, int(os.getenv("PD_LLM_MAX_REQUESTS", "12")))
     files = sorted((root / "comparisons").glob("*.json.gz"),
                    key=lambda p: p.stat().st_mtime, reverse=True)
@@ -248,7 +329,16 @@ def run(root: Path, limit_events: int = 300) -> dict:
         doc = comparison.get("changed_record") or {}
         if not doc:
             continue
-        impacted = impact_for(doc, comparison, programs)
+        # Delegation citations often live in the introduction, while changed
+        # amounts live in the annex. Both editions must contain the citation.
+        context_doc = dict(doc)
+        for field, record in (("before_context", comparison.get("prior_record") or {}),
+                              ("after_context", doc)):
+            if all(record.get(k) for k in ("source", "stable_id", "serial")):
+                original = load(root / relative_path(record), {})
+                if original.get("official_xml_base64"):
+                    context_doc[field] = " ".join(original.get("body", {}).get("clauses", {}).values())
+        impacted = impact_for(context_doc, comparison, programs)
         # AI is an optional explanatory layer AFTER deterministic official
         # linkage; model text cannot create a new agency or evidence edge.
         if key_available and model_available:
@@ -268,9 +358,31 @@ def run(root: Path, limit_events: int = 300) -> dict:
                 if verified and verified.get("verified"):
                     action["ai_analysis"] = verified
                     ai_verified += 1
+        policy_analysis = None
+        if comparison.get("changes"):
+            changes = comparison["changes"]
+            policy_context = {"analysis_scope": "policy", "policy": doc["title"],
+                              "changed_clause": "; ".join(c["clause"] for c in changes[:20]),
+                              "before": "\n".join(c["clause"]+": "+c["before"] for c in changes[:20]),
+                              "after": "\n".join(c["clause"]+": "+c["after"] for c in changes[:20])}
+            policy_context["evidence"] = {"service_quote": policy_context["after"]}
+            fingerprint = hash256(json.dumps(policy_context, ensure_ascii=False, sort_keys=True))
+            output = root / "ai" / ("policy-" + fingerprint[:24]+".json.gz")
+            policy_analysis = load(output)
+            if not policy_analysis and key_available and ai_attempts < ai_budget:
+                from .ai import analyze
+                ai_attempts += 1
+                try:
+                    policy_analysis = analyze(policy_context)
+                    if policy_analysis:
+                        store(output, policy_analysis)
+                except Exception:
+                    ai_errors += 1
+            if policy_analysis and policy_analysis.get("verified"):
+                policy_ai_count += 1
         payload = {"doc": doc, "comparison_status": comparison.get("status"),
                    "changes_count": len(comparison.get("changes", [])),
-                   "institutional_actions": impacted}
+                   "institutional_actions": impacted, "policy_analysis": policy_analysis}
         target = root / "impacts" / (hash256("|".join((
             doc.get("source", ""), doc.get("stable_id", ""),
             doc.get("serial", ""))))[:24] + ".json.gz")
@@ -282,7 +394,9 @@ def run(root: Path, limit_events: int = 300) -> dict:
              "comparison_statuses": dict(statuses),
              "ai_explanation_attempts": ai_attempts,
              "ai_verified_explanations": ai_verified,
-             "ai_failures": ai_errors}
+             "ai_failures": ai_errors, "policy_ai_summaries": policy_ai_count,
+             "ai_configured": key_available,
+             "policy_summaries_pending": max(0, sum(1 for p in files if load(p, {}).get("changes")) - policy_ai_count)}
     save_json(root / "impact-status.json", stats)
     return stats
 
