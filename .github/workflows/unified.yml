@@ -79,8 +79,8 @@ jobs:
       - name: Incrementally refresh official Gov24 program criteria if configured
         if: github.event_name != 'pull_request' && !contains(github.event.head_commit.message, '[deploy-existing]')
         env:
-          GOV24_SERVICE_KEY: ${{ secrets.GOV24_SERVICE_KEY }}
-        run: python -m unified.gov24 --root data --list-pages 3 --detail-pages 3
+          GOV24_SERVICE_KEY: ${{ secrets.GOV24_SERVICE_KEY || secrets.ODCLOUD_API_KEY || vars.GOV24_SERVICE_KEY || vars.ODCLOUD_API_KEY }}
+        run: python -m unified.gov24 --root data --list-pages 12 --detail-pages 60
       - name: Identify verified public-agency program impacts
         if: github.event_name != 'pull_request'
         env:
