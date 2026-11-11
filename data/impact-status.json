@@ -8,11 +8,13 @@
   },
   "ai_explanation_attempts": 59,
   "ai_verified_explanations": 0,
-  "ai_failures": 59,
+  "ai_failures": 56,
   "ai_failure_reasons": {
-    "AI_HTTP_404:provider_rejected_request": 59
+    "AI_HTTP_503:provider_rejected_request": 3,
+    "UnverifiedAnalysis": 36,
+    "AI_HTTP_429:provider_rejected_request": 17
   },
-  "policy_ai_summaries": 0,
+  "policy_ai_summaries": 3,
   "ai_configured": true,
-  "policy_summaries_pending": 53
+  "policy_summaries_pending": 50
 }
