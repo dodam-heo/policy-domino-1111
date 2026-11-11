@@ -127,3 +127,41 @@ jobs:
                       "legacy_citation_candidates","legacy_program_review_candidates"):
               print("IMPACT_DRY_RUN",key,report.get(key))
           PY
+
+  catalog-acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate deployed index, priorities, evidence and detail routes
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path("site")
+          index=json.loads((root/"data.json").read_text("utf8"))
+          events=index["events"]
+          assert events, "Site must have policy items"
+          ids={e["id"] for e in events}
+          assert len(ids)==len(events), "Duplicate policy identities"
+          high=[e for e in events if e.get("impact_level")=="high"]
+          linked=[e for e in events if e.get("action_count",0)>0]
+          confirmed=[e for e in events if e.get("comparison_status")=="changed"]
+          assert high, "Default priority filter would show an empty homepage"
+          for item in high:
+              assert item.get("priority_reasons"), "High priority must explain itself"
+              assert item["comparison_status"]=="changed", "Never promote unverified changes"
+          assert all(e.get("comparison_status")=="changed" for e in confirmed)
+          for item in (high[:3]+linked[:3]+events[:2]):
+              path=root/item["detail_url"]
+              assert path.exists(), f"Missing detail route: {path}"
+              detail=json.loads(path.read_text("utf8"))
+              assert item["id"]==detail["id"], "Detail identity mismatch"
+              assert item.get("priority_reasons")==detail.get("priority_reasons")
+          print("UI_ACCEPTANCE",json.dumps({
+              "total":len(events),"high_priority":len(high),
+              "with_agency_actions":len(linked),"confirmed_changes":len(confirmed),
+              "priority_examples":[{"title":e["title"],
+                "reasons":e["priority_reasons"][:2]} for e in high[:5]]},
+              ensure_ascii=False))
+          PY
