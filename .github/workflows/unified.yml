@@ -47,7 +47,9 @@ jobs:
     if: github.event_name != 'push' || !contains(github.event.head_commit.message, '[ui-only]')
     concurrency:
       group: policy-domino-unified-single-writer
-      cancel-in-progress: false
+      # Only a deliberately tagged emergency rebuild supersedes a stuck run.
+      # Normal pushes and scheduled runs preserve the current writer.
+      cancel-in-progress: ${{ github.event_name == 'push' && contains(github.event.head_commit.message, '[emergency-rebuild]') }}
     runs-on: ubuntu-latest
     timeout-minutes: 55
     steps:
@@ -88,6 +90,7 @@ jobs:
           PD_LLM_MODEL: ${{ vars.PD_LLM_MODEL || 'gemini-3.5-flash-lite' }}
           PD_LLM_URL: ${{ vars.PD_LLM_URL || 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions' }}
           PD_LLM_MAX_REQUESTS: ${{ vars.PD_LLM_MAX_REQUESTS || '60' }}
+          PD_LLM_TOTAL_SECONDS: '180'
         run: python -m unified.impact --root data
       - name: Build compact source-backed policy workbench
         run: python -m unified.publish --root data --output site/data.json
