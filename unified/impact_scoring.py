@@ -15,12 +15,17 @@ ANNOTATION = re.compile(r"<(?:개정|신설|삭제|본조신설|전문개정)[^>
 PAYMENT = re.compile(r"급여|지원금|지원액|지급액|소득기준|소득인정액|중위소득|최저보장|보조금|장학금|보험료|부담금|수수료|요율|수가|단가|지급기준|금액")
 ELIGIBILITY = re.compile(r"선정기준|지원대상|수급자격|자격기준|입주자격|지원요건|대상자|연령기준|소득구간|자격요건")
 RIGHTS = re.compile(r"권리|의무|의무화|금지|제재|벌칙|과태료|처분기준")
+STRONG_RIGHTS = re.compile(r"하여야\s*한다|해야\s*한다|할\s*수\s*없다|금지한다|의무화|과태료|벌칙|징수한다|부과한다|면제한다|수급권")
 PROCEDURE = re.compile(r"신청|접수|심사|인허가|인가|허가|승인|처리기한|제출기한|처리절차|행정서비스|집행절차")
 ORGANIZATION = re.compile(r"직제|기구|정원|업무분장|사무분장|담당부서|소관업무|권한|조직|부서|전결|사무배분")
-NATIONAL_STANDARD = re.compile(r"기준\s*중위소득|(?:생계|의료|주거|교육)급여.*(?:선정기준|최저보장수준)|(?:선정기준|최저보장수준).*(?:생계|의료|주거|교육)급여|전국|국민건강보험|요양급여비용")
+NATIONAL_STANDARD = re.compile(r"기준\s*중위소득|(?:생계|의료|주거|교육)급여.*(?:선정기준|최저보장수준)|(?:선정기준|최저보장수준).*(?:생계|의료|주거|교육)급여|전국|국민건강보험|요양급여비용|최저임금")
 LOCAL_INTERNAL = re.compile(r"행정기구|공무원\s*정원|직제|사무분장|업무분장|행정조직|지방공무원\s*인사|조직관리")
 ONLY_DATE = re.compile(r"^[\s\.,;:/<>\[\]()\-년월일\d]+$")
 ONLY_ARTICLE = re.compile(r"^(?:제\s*)?\d+\s*(?:조|항|호|목)(?:의\s*\d+)?$")
+DRAFT = re.compile(r"최저임금안|(?:제정|개정|고시|시행)안|입법예고|행정예고|규정안")
+MONEY_UNITS = {"원", "만원", "%"}
+ELIGIBILITY_UNITS = MONEY_UNITS | {"명", "세", "가구", "개월"}
+DEADLINE_UNITS = {"일", "주", "개월", "시간"}
 
 
 def _clean(value: Any) -> str:
@@ -67,40 +72,51 @@ def change_substance(doc, change):
     title = str(doc.get("title") or "")
     best = None
     for before_frag, after_frag, before_local, after_local in _local_edits(change):
-        context = str(change.get("clause") or "") + " " + before_local + " " + after_local
-        if is_table:
-            context += " " + title
+        # Only a verified local edit may prove a changed criterion. A legal
+        # title containing 'duty', 'benefit' or 'fee' is NOT sufficient.
+        local = str(change.get("clause") or "") + " " + before_local + " " + after_local
+        numeric_context = local + (" " + title if is_table else "")
         amounts_left = {(v.replace(",", ""), u.replace(" ", "")) for v, u in UNIT.findall(before_local)}
         amounts_right = {(v.replace(",", ""), u.replace(" ", "")) for v, u in UNIT.findall(after_local)}
-        units_left = {u for _, u in amounts_left}
-        units_right = {u for _, u in amounts_right}
-        numeric_delta = any(
-            {v for v, unit in amounts_left if unit == u} !=
-            {v for v, unit in amounts_right if unit == u}
-            for u in units_left & units_right
-        )
+        changed_units = {
+            u for u in {unit for _, unit in amounts_left} & {unit for _, unit in amounts_right}
+            if {v for v, unit in amounts_left if unit == u} !=
+               {v for v, unit in amounts_right if unit == u}
+        }
+        # Matched, small official table cells may carry units in their label.
         if is_table and len(old) + len(new) < 350 and NUM.search(old) and NUM.search(new):
-            # Official matched table cell; label states the relevant unit.
-            numeric_delta = numeric_delta or (
-                set(NUM.findall(old)) != set(NUM.findall(new))
-                and bool(PAYMENT.search(context) or ELIGIBILITY.search(context))
-            )
+            if set(NUM.findall(old)) != set(NUM.findall(new)):
+                if PAYMENT.search(numeric_context) and ("원" in numeric_context or "단가" in numeric_context or "율" in numeric_context):
+                    changed_units.add("원")
+                elif ELIGIBILITY.search(numeric_context):
+                    changed_units.add("명")
+        financial = bool(changed_units & MONEY_UNITS)
+        eligibility = bool(changed_units & ELIGIBILITY_UNITS)
+        deadline = bool(changed_units & DEADLINE_UNITS)
         nontrivial = bool(re.search(r"[가-힣]{2,}", before_frag + after_frag))
-        if numeric_delta and (PAYMENT.search(context) or ELIGIBILITY.search(context) or RIGHTS.search(context)):
-            score, reason = 40, "급여·금액·자격·권리 등 실질 기준의 변경"
-        elif nontrivial and not ONLY_ARTICLE.fullmatch(before_frag) and (
-            ELIGIBILITY.search(context) or RIGHTS.search(context)
-        ):
-            # An actual changed entitlement/qualifying clause, not merely a title.
-            score, reason = 40, "자격·권리·의무의 실질 문구 변경"
-        elif numeric_delta and PROCEDURE.search(context):
-            score, reason = 30, "신청·심사·처리 기한 또는 절차 변경"
-        elif nontrivial and PROCEDURE.search(context):
+        # Merely replacing a cited law's name, organization's proper name,
+        # business address or technical label does not establish a new duty.
+        citation_only = bool(re.fullmatch(r"[\w가-힣\sㆍ·]+(?:법|시행령|시행규칙|고시)", before_frag)
+                             and re.fullmatch(r"[\w가-힣\sㆍ·]+(?:법|시행령|시행규칙|고시)", after_frag))
+        registry_cell = bool(is_table and re.search(r"사업장명|업체명|사업자명|주소|법인명|소재지", str(change.get("clause") or "")))
+        substantial_qualification = (
+            nontrivial and not citation_only and not registry_cell and
+            (bool(ELIGIBILITY.search(local)) or bool(STRONG_RIGHTS.search(local)))
+        )
+        if financial and PAYMENT.search(numeric_context) and not registry_cell:
+            score, reason = 40, "급여·금액·요율 등 실질 지급 기준 변경"
+        elif eligibility and ELIGIBILITY.search(local) and not registry_cell:
+            score, reason = 40, "지원대상·자격 기준 수치 변경"
+        elif substantial_qualification:
+            score, reason = 40, "지원 자격·법정 권리·의무의 실질 문구 변경"
+        elif deadline and PROCEDURE.search(local):
+            score, reason = 30, "신청·심사·처리 기한 변경"
+        elif nontrivial and PROCEDURE.search(local) and not citation_only:
             score, reason = 30, "신청·심사·집행 절차의 실질 문구 변경"
-        elif nontrivial and ORGANIZATION.search(context):
+        elif nontrivial and ORGANIZATION.search(local):
             score, reason = 20, "기관 기능·권한·업무분장 변경"
-        elif nontrivial or numeric_delta:
-            score, reason = 10, "경미하거나 적용 범위가 제한적인 본문 정비"
+        elif nontrivial or changed_units:
+            score, reason = 10, "제한적인 본문·명칭·인용 정비"
         else:
             continue
         if best is None or score > best[0]:
@@ -166,7 +182,13 @@ def evaluate(doc, comparison, actions=None, rules=None):
     status = comparison.get("status", "")
     changes = comparison.get("changes") or []
     axes = {}
-    if status == "no_text_change":
+    if DRAFT.search(str(doc.get("title") or "")):
+        axes["substance"] = {"score": None, "status": "pending",
+                             "evidence": [_evidence(doc, "확정 전 정책안 · 효력 있는 최종 기준 확인 필요")]}
+    elif DRAFT.search(str((comparison.get("prior_record") or {}).get("title") or "")):
+        axes["substance"] = {"score": None, "status": "pending",
+                             "evidence": [_evidence(doc, "종전 대조본이 정책안이므로 전년도 확정 기준과 추가 대조 필요")]}
+    elif status == "no_text_change":
         axes["substance"] = {"score": 0, "status": "confirmed",
                              "evidence": [_evidence(doc, "조문 문구 변경 없음")]}
     elif status in ("changed", "partial_unverified") and changes:
@@ -174,7 +196,7 @@ def evaluate(doc, comparison, actions=None, rules=None):
                   if (item := change_substance(doc, c)) is not None
                   for score, ev in [item]]
         if ranked:
-            ranked.sort(key=lambda p: (-p[0], p[2]))
+            ranked.sort(key=lambda p: (-p[0], not str(changes[p[2]].get("clause") or "").startswith("표 "), p[2]))
             score, ev, _ = ranked[0]
             # A partial or incomplete original can establish a positive lower
             # bound only for a real paired numeric standard, not for vague text.
@@ -229,7 +251,9 @@ def evaluate(doc, comparison, actions=None, rules=None):
         classification = "pending"
     ranked_changes = sorted(
         ((i, change_substance(doc, c)) for i, c in enumerate(changes)),
-        key=lambda pair: -(pair[1][0] if pair[1] else 0))
+        key=lambda pair: (-(pair[1][0] if pair[1] else 0),
+                          not str(changes[pair[0]].get("clause") or "").startswith("표 "),
+                          pair[0]))
     return {
         "classification": classification, "score": lower,
         "score_min": lower, "score_max": maxscore, "score_complete": completed,
