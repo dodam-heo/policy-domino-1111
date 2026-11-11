@@ -1,0 +1,33 @@
+{
+  "id": "admrul|43263|2100000287974",
+  "title": "해외진출기업의 국내복귀 지원에 관한 고시",
+  "source": "admrul",
+  "kind": "고시",
+  "ministry": "산업통상부",
+  "published_at": "2026-11-10",
+  "effective_date": "2026-11-26",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000287974",
+  "category": "기타 제·개정",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [],
+  "unresolved": [
+    {
+      "clause": "별표 0000 (유휴면적의 인정범위(제9조제2항제1호 관련))",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "표 1 · 예시 · 유휴면적",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000280066"
+}

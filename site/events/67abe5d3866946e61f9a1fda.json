@@ -1,0 +1,64 @@
+{
+  "id": "admrul|65374|2100000288032",
+  "title": "통계작성의 변경승인(협의) 고시(아산시여성통계)",
+  "source": "admrul",
+  "kind": "고시",
+  "ministry": "국가데이터처",
+  "published_at": "2026-11-05",
+  "effective_date": "2026-11-30",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000288032",
+  "category": "행정절차·인허가",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "본문",
+      "before": "1. 통계의 명칭 : 아산시여성통계 2. 통계작성기관의 명칭 : 충청남도 아산시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제694007호 [2018.11.27.] 4. 통계작성의 변경 연월일 : 2024.10.17. 5. 통계작성의 변경 내용과 사유: [표: 공식 첨부 참조]",
+      "after": "1. 통계의 명칭 : 아산시여성통계 2. 통계작성기관의 명칭 : 충청남도 아산시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제694007호 [2018.11.27.] 4. 통계작성의 변경 연월일 : 2026.11.30. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…] : 제694007호 [2018.11.27.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2024.10.17.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유: [표: 공식 첨부 참조]",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…] : 제694007호 [2018.11.27.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2026.11.30.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    }
+  ],
+  "unresolved": [
+    {
+      "clause": "표 1 · 작성항목 (통계표) · 변경 전",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "표 1 · 작성항목 (통계표) · 변경 후",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "표 4 · 작성항목 (통계표) · 변경 전",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "표 4 · 작성항목 (통계표) · 변경 후",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000248486"
+}
