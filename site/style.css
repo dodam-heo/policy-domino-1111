@@ -249,7 +249,7 @@ a{color:var(--blue);text-underline-offset:3px}
   .detail-panel{display:none}
   .layout.detail-open .list-panel{display:none}
   .layout.detail-open .detail-panel{display:block}
-  body.detail-active .topbar,body.detail-active .intro{display:none}
+  body.detail-active .intro{display:none}
   .mobile-back{display:block;position:sticky;top:0;z-index:8;background:#fff;
     padding:9px 14px;border-bottom:1px solid var(--line)}
   .mobile-back button{border:0;background:none;color:var(--blue);
@@ -312,7 +312,34 @@ a{color:var(--blue);text-underline-offset:3px}
 
 .core-agencies{font-size:12px;color:#176381;margin:10px 0 0;font-weight:650}.core-summary .highlight-detail{margin:6px 0 12px}.core .highlight-detail>summary{font-size:12px;color:#37647b;cursor:pointer}.core-summary .highlight-detail p{font-size:13px;line-height:1.7}.list-panel{position:sticky;top:16px}.items{max-height:calc(100vh - 390px);min-height:200px}.list-subtitle{margin-bottom:9px}@media(max-width:850px){.list-panel{position:static}.items{max-height:none;min-height:0}}
 
-/* Home banners are native links with keyboard access and a full state reset. */
-+.brand{color:inherit;text-decoration:none}.home-banner{display:block;color:inherit;text-decoration:none}.home-banner:hover h1{color:#176381}.intro-copy>p:last-child{max-width:900px}.top-inner{padding:12px 16px}.summary{border-radius:14px}.coverage-expanded{gap:5px}.registry-open{width:100%;padding:9px 12px}.coverage-status-inner{padding:12px 16px}.intro h1{margin-bottom:6px}.home-banner:focus-visible{border-radius:8px}@media(max-width:850px){.intro{padding:12px 15px 16px}.intro-copy>p:last-child{line-height:1.7}.brand-sub{font-size:10px}}
+/* Site identity and the entire hero link return to the initial policy list. */
+.topbar{background:linear-gradient(110deg,#0b2c43,#164d69)}
+.home-link{color:#fff;text-decoration:none;cursor:pointer;min-height:60px}
+.home-link:hover,.home-link:focus-visible{background:#ffffff0c;color:#fff}
+.brand{color:inherit;text-decoration:none;white-space:nowrap}
+.brand strong{color:#9ad9e9}
+.home-affordance{font-size:12px;font-weight:750;color:#e0eff7;padding:5px 10px;border:1px solid #ffffff3b;border-radius:999px;white-space:nowrap}
+.intro{width:calc(100% - 48px);margin:16px auto 14px;padding:24px 26px;gap:28px;
+  background:linear-gradient(115deg,#fff 48%,#edf6fb);border:1px solid #dce8ef;
+  border-radius:16px;box-shadow:0 4px 20px #173e5408}
+.home-banner{display:flex;color:inherit;text-decoration:none;cursor:pointer}
+.home-banner:hover,.home-banner:focus-visible{border-color:#adcbd9;box-shadow:0 6px 22px #17638114;color:inherit}
+.home-banner:hover h1{color:#176381}
+.intro-copy{flex:1;min-width:0}
+.intro-copy>p:last-child{max-width:800px;line-height:1.7}
+.summary{border-radius:12px}
+.coverage-expanded{gap:5px}
+.registry-open{width:100%;padding:9px 12px}
+.coverage-status-inner{padding:12px 16px}
+.intro h1{margin-bottom:8px}
+.home-link:focus-visible,.home-banner:focus-visible{outline:3px solid #5faccb;outline-offset:2px}
+@media(max-width:850px){
+  .top-inner{padding:12px 15px}
+  .home-affordance{font-size:11px;padding:4px 8px}
+  .intro{width:calc(100% - 24px);padding:18px 16px;margin:12px auto;display:block}
+  .intro-copy>p:last-child{line-height:1.7}
+  .brand-sub{display:none}
+  .summary{margin-top:16px}
+}
 
 .diff-preview-text{max-height:250px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere}.full-clause-text{max-height:360px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere}.highlight-comparison{align-items:start}.diff-context{color:#69808b}.source-diff-preview .diff-changed{padding:1px 2px}
