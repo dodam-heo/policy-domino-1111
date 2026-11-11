@@ -294,3 +294,38 @@ dialog button{border:1px solid #cfe0e8;border-radius:7px;background:#fff;padding
   .quick-filter{font-size:11px;padding:7px 9px}
   .advanced-filters{gap:7px}
 }
+
+
+/* Evidence-grounded 100-point impact model. Keep the calculation visible
+   without overwhelming the actual policy changes and institutional work. */
+.impact-score-section{border:1px solid #cadee9;background:#f8fbfd;border-radius:12px;
+  margin:0 0 24px;overflow:hidden}
+.impact-score-title{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;
+  padding:14px 18px;background:#eaf4fa;border-bottom:1px solid #d5e6ef}
+.impact-score-title strong{font-size:17px;letter-spacing:-.035em;color:#135e80;font-weight:840}
+.impact-score-title span{font-size:11px;color:#5b7788}
+.impact-score-breakdown{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0}
+.impact-score-axis{padding:16px;min-width:0;border-right:1px solid #dae8ed}
+.impact-score-axis:last-child{border-right:0}
+.impact-axis-label{font-size:11px;color:#6b7f8a;font-weight:750}
+.impact-axis-value{display:block;font-size:19px;font-weight:850;color:#203e55;margin:3px 0 6px}
+.impact-axis-why{font-size:12px;line-height:1.65;color:#446575;margin:3px 0 7px}
+.impact-axis-article{font-size:11px;color:#627f8b}
+.impact-axis-detail{margin-top:8px;font-size:11px;color:#33758d;line-height:1.55}
+.impact-axis-detail summary{cursor:pointer;font-weight:730}
+.impact-axis-detail p{color:#496c7d;white-space:pre-wrap;overflow-wrap:anywhere}
+.impact-score-axis .official-link{font-size:11px;display:block;margin-top:8px}
+.impact-score-note{font-size:11px;line-height:1.7;color:#586f7d;
+  margin:0;border-top:1px solid #e2edf1;padding:10px 16px;background:#fff}
+.item-tags .impact-score{background:#f5f7fa;color:#617789}
+@media(max-width:990px){
+  .impact-score-breakdown{grid-template-columns:1fr}
+  .impact-score-axis{border-right:0;border-bottom:1px solid #e2ebef;padding:12px 15px}
+  .impact-score-axis:last-child{border-bottom:0}
+  .impact-axis-value{font-size:18px}
+}
+@media(min-width:991px) and (max-width:1220px){
+  .impact-score-breakdown{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .impact-score-axis{padding:12px 9px}
+  .impact-axis-value{font-size:16px}
+}
