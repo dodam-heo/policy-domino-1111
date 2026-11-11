@@ -1,7 +1,7 @@
 /* One policy list, five evidence-based navigation choices. */
 (function (global) {
   "use strict";
-  const MODES=Object.freeze(["all","new","amended","repealed","impact"]);
+  const MODES=Object.freeze(["impact","all","linked","new","amended","repealed"]);
   function category(event) {
     if(event.kind==="new")return "신규 제정";
     if(event.kind==="repealed")return "폐지";
@@ -14,16 +14,22 @@
   function highImpactScope(event) {
     return event.impact_level==="high";
   }
-  function filterEvents(events,{mode="all",query="",category:topic="",source="",sort="published"}={}) {
+  function filterEvents(events,{mode="all",query="",category:topic="",source="",sort="published",verification=""}={}) {
     if(!MODES.includes(mode))throw Error("Unsupported event filter");
     const term=String(query).trim().toLocaleLowerCase("ko-KR");
     return [...events].filter(event=>{
       if(topic&&event.topic!==topic)return false;
       if(source&&event.source!==source)return false;
       if(mode==="impact"&&!highImpactScope(event))return false;
-      if(mode!=="all"&&mode!=="impact"&&event.kind!==mode)return false;
+      if(mode==="linked"&&!(event.review_count>0))return false;
+      if(verification==="changed"&&event.comparison_status!=="changed")return false;
+      if(verification==="partial"&&event.comparison_status!=="partial_unverified")return false;
+      if(verification==="pending"&&
+         !["original_saved_comparison_pending","no_text_change"].includes(event.comparison_status))return false;
+      if(!["all","impact","linked"].includes(mode)&&event.kind!==mode)return false;
       const searchable=[
-        event.title,event.headline,event.ministry,event.topic,...(event.agency_names||[]),
+        event.title,event.headline,event.ministry,event.topic,
+        ...(event.priority_reasons||[]),...(event.agency_names||[]),
         ...(event.members||[]).flatMap(x=>[x.title,x.kind]),
         ...(event.changes||[]).flatMap(x=>[
           x.document_title,x.article,x.meaning?.label||x.category||"",

@@ -15,6 +15,23 @@ const scopedAgencyCounts=actions=>new Map(actions.map(a=>[a.agency,1]));
   assert.equal(view.filterEvents([education,housing],{mode:'impact'}).length,1);
   assert.equal(view.filterEvents([education,housing],{category:'급여·지원기준',source:'admrul',query:'수원시'}).length,1);
   assert.equal(view.filterEvents([education,housing],{mode:'all'}).length,2);
+  assert.equal(view.filterEvents([education,housing],{mode:'linked'}).length,2);
+  assert.equal(view.filterEvents([education,housing],{mode:'all',verification:'changed'}).length,0);
+  assert.equal(view.filterEvents([education,housing],{mode:'all',verification:'partial'}).length,0);
+  const change=eventView({id:'annual',title:'지원기준 고시',category:'급여·지원기준',
+    comparison_status:'changed',impact_level:'high',
+    priority_reasons:['급여·지원금·소득 기준 변경'],
+    primary_change_summary:'표 1 · 100원 → 120원',
+    institutions:[{agency:'공식 기관',service:'지원사업',required_change:'심사금액 정비',
+      status:'review_of_verified_citation',evidence:{reference_quote:'법 제1조'},
+      ai_analysis:{verified:true,explanation:'심사금액 100원에서 120원으로 변경 검토',old_quote:'100원',
+        new_quote:'120원',program_quote:'100원'}}]});
+  assert.ok(change.headline.includes('100원 → 120원'));
+  assert.equal(change.institutional_reviews[0].task,'심사금액 정비');
+  assert.ok(change.institutional_reviews[0].ai.work_impact.includes('120원'));
+  assert.equal(view.filterEvents([education,housing,change],{mode:'impact'}).length,2);
+  assert.equal(view.filterEvents([education,housing,change],{mode:'all',verification:'changed'}).length,1);
+  assert.equal(view.filterEvents([education,housing,change],{mode:'linked',verification:'changed'}).length,1);
   assert.deepEqual(Array.from(scopedAgencyCounts([{agency:'교육부'},{agency:'경기도 수원시'}]).keys()),['교육부','경기도 수원시']);
   const pending={};
   const fetcher=url=>new Promise(resolve=>pending[url]=resolve);
