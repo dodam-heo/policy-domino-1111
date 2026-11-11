@@ -68,7 +68,7 @@ def analyze(impact: dict, api_key: str | None = None, transport=None) -> dict | 
         raise ValueError("HTTPS model API required")
     context = {field: impact.get(field) for field in (
         "agency", "service", "policy", "changed_clause", "before", "after",
-        "required_change", "evidence")}
+        "required_change", "evidence", "change_windows")}
     # Supply exact source excerpts so the model need not reconstruct quotes.
     context["quote_contract"] = {
         "old_quote": impact.get("before", "")[:350],
@@ -81,6 +81,7 @@ def analyze(impact: dict, api_key: str | None = None, transport=None) -> dict | 
     policy_scope = impact.get("analysis_scope") == "policy"
     instruction = ("Summarize the actual policy change in concise Korean. Explain changed "
                    "eligibility, amounts, duties or procedures supported by the quotes. "
+                   "When change_windows is provided, summarize representative changes across those disjoint edits, not only the document opening. If total_locations exceeds provided samples, explicitly describe the summary as representative (주요 변경). Do not imply the examples are exhaustive. "
                    "Do not invent affected agencies or programs. " if policy_scope else
                    "Explain exactly what the named public agency must review in its named "
                    "program: criteria, guidance, eligibility checks or payment calculations. ")

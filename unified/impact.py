@@ -367,6 +367,13 @@ def run(root: Path, limit_events: int = 300) -> dict:
                               "changed_clause": "; ".join(c["clause"] for c in changes[:20]),
                               "before": "\n".join(c["clause"]+": "+c["before"] for c in changes[:20]),
                               "after": "\n".join(c["clause"]+": "+c["after"] for c in changes[:20])}
+            if max(len(policy_context["before"]), len(policy_context["after"])) > 10000:
+                # Long annexes must not be explained from their opening lines
+                # alone. Supply disjoint edits from every compared clause.
+                policy_context["change_windows"] = [
+                    {"clause": c["clause"], "total_locations": c.get("diff_window_count", 0),
+                     "samples": c.get("focus", [])}
+                    for c in changes if c.get("focus")]
             policy_context["evidence"] = {"service_quote": policy_context["after"]}
             fingerprint = hash256(json.dumps(policy_context, ensure_ascii=False, sort_keys=True))
             output = root / "ai" / ("policy-" + fingerprint[:24]+".json.gz")
