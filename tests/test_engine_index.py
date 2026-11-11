@@ -8,8 +8,8 @@ from unified.engine import run, _pending_index_records, relative_path, load
 class OfficialStub:
     def __init__(self):
         self.queries = []
-    def search(self, source, start, end, edition, kind, query=""):
-        self.queries.append((source, edition, kind, query))
+    def search(self, source, start, end, edition, kind, query="", search_scope=1):
+        self.queries.append((source, edition, kind, query, search_scope))
         # A notice discovered outside the small detail budget cannot disappear.
         doc = {"source": "admrul", "stable_id": "402", "serial": "999",
                "title": "2027년도 시험 정책기준", "published_at": "2026-09-01",
@@ -31,7 +31,9 @@ class IncrementalLedgerTest(unittest.TestCase):
                 today=dt.date(2026, 11, 11))
             pending = _pending_index_records(root)
             self.assertEqual(len(pending), 1)
-            self.assertTrue(any(item[-1] == "2027" for item in api.queries))
+            self.assertTrue(any(item[3] == "2027" for item in api.queries))
+            self.assertTrue(any(item[3] == "2027" and item[4] == 2
+                                and item[2] == "" for item in api.queries))
             self.assertFalse((root / relative_path(pending[0])).exists())
             run(root, api, limit_streams=1, detail_budget=1,
                 today=dt.date(2026, 11, 11))
