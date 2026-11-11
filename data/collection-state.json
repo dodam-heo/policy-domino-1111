@@ -1030,10 +1030,6 @@
       "checked_at": "2026-11-11T08:16:53.955221+00:00"
     },
     "admrul|1||2025-05-20|2026-11-11|annual_body_forward": {
-      "reported": 853,
-      "collected": 853,
-      "pages": 9,
-      "complete": true,
       "source": "admrul",
       "edition": "1",
       "kind": "",
@@ -1042,7 +1038,9 @@
       "stage": "annual_body_forward",
       "query_year": "2027",
       "search_scope": 2,
-      "checked_at": "2026-11-11T08:54:17.098393+00:00"
+      "complete": false,
+      "checked_at": "2026-11-11T09:07:17.671486+00:00",
+      "error": "TimeoutError: collection_budget_reached"
     },
     "admrul|2||2025-05-20|2026-11-11|annual_body_forward": {
       "source": "admrul",
@@ -1119,6 +1117,11 @@
       "checked_at": "2026-11-11T08:52:22.274631+00:00"
     },
     "ordin|1||2026-09-23|2026-10-07|split_historical": {
+      "reported": 2911,
+      "collected": 2000,
+      "pages": 20,
+      "complete": false,
+      "error": "pagination_limit",
       "source": "ordin",
       "edition": "1",
       "kind": "",
@@ -1127,11 +1130,13 @@
       "stage": "split_historical",
       "query_year": "",
       "search_scope": 1,
-      "complete": false,
-      "checked_at": "2026-11-11T08:53:49.208352+00:00",
-      "error": "RuntimeError: official_api_network_error: URLError"
+      "checked_at": "2026-11-11T09:04:00.968563+00:00"
     },
     "ordin|1||2026-09-23|2026-09-30|split_split_historical": {
+      "reported": 1576,
+      "collected": 1576,
+      "pages": 16,
+      "complete": true,
       "source": "ordin",
       "edition": "1",
       "kind": "",
@@ -1140,9 +1145,20 @@
       "stage": "split_split_historical",
       "query_year": "",
       "search_scope": 1,
+      "checked_at": "2026-11-11T09:04:45.788802+00:00"
+    },
+    "ordin|1||2026-10-01|2026-10-07|split_split_historical": {
+      "source": "ordin",
+      "edition": "1",
+      "kind": "",
+      "first": "2026-10-01",
+      "last": "2026-10-07",
+      "stage": "split_split_historical",
+      "query_year": "",
+      "search_scope": 1,
       "complete": false,
-      "checked_at": "2026-11-11T08:42:18.681597+00:00",
-      "error": "TimeoutError: collection_budget_reached"
+      "checked_at": "2026-11-11T09:06:25.170407+00:00",
+      "error": "RuntimeError: official_api_network_error: URLError"
     }
   },
   "attempts": {
@@ -1327,7 +1343,16 @@
     "admrul|59276|2100000287920": 2,
     "law|014805|291907": 1,
     "law|006241|291905": 1,
-    "law|012948|291903": 1
+    "law|012948|291903": 1,
+    "admrul|2087949|2100000287916": 1,
+    "admrul|2088035|2100000287914": 1,
+    "admrul|59862|2100000287864": 1,
+    "admrul|70277|2100000288000": 1,
+    "admrul|50970|2100000287870": 1,
+    "admrul|91237|2100000287840": 1,
+    "admrul|98673|2100000287936": 2,
+    "admrul|36044|2100000287734": 2,
+    "law|007528|291901": 2
   },
   "errors": {
     "admrul|40796|2100000287994": "RuntimeError: official_api_network_error: URLError",
@@ -1350,19 +1375,22 @@
     "ordin|2268730|2182917": "predecessor_not_found",
     "ordin|2268727|2182915": "predecessor_not_found",
     "admrul|2075865|2100000216917": "RuntimeError: official_api_network_error: URLError",
-    "admrul|59276|2100000287920": "RuntimeError: official_api_network_error: URLError"
+    "admrul|59276|2100000287920": "RuntimeError: official_api_network_error: URLError",
+    "admrul|98673|2100000287936": "predecessor_not_found",
+    "admrul|36044|2100000287734": "RuntimeError: official_api_network_error: URLError",
+    "law|007528|291901": "RuntimeError: official_api_network_error: URLError"
   },
-  "stream_offset": 14,
+  "stream_offset": 5,
   "last_run": "2026-11-11",
   "last_run_stats": {
-    "detail_attempted": 6,
-    "complete_originals_added": 0,
-    "compared_pairs_processed": 5,
+    "detail_attempted": 9,
+    "complete_originals_added": 7,
+    "compared_pairs_processed": 6,
     "failed_windows": 3,
     "streams_checked": 6,
-    "pending_index_versions": 8487,
+    "pending_index_versions": 9401,
     "year_search_year": 2027
   },
-  "annual_kind_offset": 0,
-  "failed_retry_offset": 2
+  "annual_kind_offset": 2,
+  "failed_retry_offset": 0
 }
