@@ -6,15 +6,16 @@
     "partial_unverified": 205,
     "changed": 3
   },
-  "ai_explanation_attempts": 59,
+  "ai_explanation_attempts": 56,
   "ai_verified_explanations": 0,
-  "ai_failures": 56,
+  "ai_failures": 26,
   "ai_failure_reasons": {
-    "AI_HTTP_503:provider_rejected_request": 3,
-    "UnverifiedAnalysis": 36,
-    "AI_HTTP_429:provider_rejected_request": 17
+    "AI_HTTP_503:provider_rejected_request": 2,
+    "UnverifiedAnalysis:Unsupported exact source quotation": 3,
+    "UnverifiedAnalysis:Model did not return an object": 19,
+    "UnverifiedAnalysis:All evidence quotes and explanation required": 2
   },
-  "policy_ai_summaries": 3,
+  "policy_ai_summaries": 33,
   "ai_configured": true,
-  "policy_summaries_pending": 50
+  "policy_summaries_pending": 20
 }

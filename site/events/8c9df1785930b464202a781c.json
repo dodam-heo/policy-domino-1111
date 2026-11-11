@@ -84,7 +84,14 @@
     }
   ],
   "institutions": [],
-  "policy_analysis": null,
+  "policy_analysis": {
+    "explanation": "항공종사자 등 전문교육기관 이수증명서 서식(별지 제1호서식)이 개정되어, 증명서 문구 중 특정 과정명을 직접 기재하던 방식에서 일반화된 문구로 변경되고 서식 세부 양식이 정비되었습니다.",
+    "old_quote": "별표 0001 (이수증명서): [별지 제1호서식] (고시 별표 4 제2호자목 관련) ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ ┃ ┃ ┃ 번호(No.) : ┃ ┃ ┃ ┃이수증명서 ┃ ┃(Certificate of Course Completion) ┃ ┃ ┃ ┃ ┃ ┃ 성명(Name) : ┃ ┃ 생년월일(Date of Birth) : ┃ ┃ 주소(Address) : ┃ ┃ ┃ ┃위 사람은 전문교육기관(지정서 번호 : )의 00 과정을 다음┃ ┃과 같이 정상 수료하였음을 증명합니다. ┃ ┃This is to certify that the above person has successfully ┃ ┃compl",
+    "new_quote": "별표 0001 (이수증명서): ■ 항공종사자 등 전문교육기관 지정 및 감독요령 [별지 제1호서식] <개정 2026. 00. 00.> 이수증명서 ┌───────────────────────────────────────────┐ │ │ │ 번호(No.) : │ │ │ │이수증명서 │ │(Certificate of Course Completion) │ │ │ │ │ │ 성명(Name) : │ │ 생년월일(Date of Birth) : │ │ 주소(Address) : │ │ │ │위 사람은 전문교육기관(지정서 번호 : )의 과정을 다음 │ │과 같이 정상 수료하였음을 증명합니다. │ │This is to certify that",
+    "program_quote": "별표 0001 (이수증명서): ■ 항공종사자 등 전문교육기관 지정 및 감독요령 [별지 제1호서식] <개정 2026. 00. 00.> 이수증명서 ┌───────────────────────────────────────────┐ │ │ │ 번호(No.) : │ │ │ │이수증명서 │ │(Certificate of Course Completion) │ │ │ │ │ │ 성명(Name) : │ │ 생년월일(Date of Birth) : │ │ 주소(Address) : │ │ │ │위 사람은 전문교육기관(지정서 번호 : )의 과정을 다음 │ │과 같이 정상 수료하였음을 증명합니다. │ │This is to certify that",
+    "verified": true,
+    "model": "gemini-3.5-flash-lite"
+  },
   "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%95%AD%EA%B3%B5%EC%A2%85%EC%82%AC%EC%9E%90%20%EC%A0%84%EB%AC%B8%EA%B5%90%EC%9C%A1%EA%B8%B0%EA%B4%80%20%EC%A7%80%EC%A0%95%EA%B8%B0%EC%A4%80"
 }
