@@ -1,6 +1,6 @@
 {
   "schema": "policy-domino-unified-ui-v1",
-  "generated_at": "2026-11-11T11:31:29.143282+00:00",
+  "generated_at": "2026-11-11T11:39:21.473012+00:00",
   "scope": "source-backed version catalog; institutional actions only for exact citation evidence",
   "total_source_versions_saved": 1372,
   "events": [
@@ -7086,10 +7086,7 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183147",
       "category": "조직·인력",
       "primary_change_summary": "제1조 · 대한민국재향경우회법 → 대한민국재향경찰회법",
-      "priority_reasons": [
-        "지원대상·자격·선정 기준 변경",
-        "급여·지원금·소득 기준 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": {
@@ -7100,7 +7097,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1762351",
       "detail_url": "events/1e1460256867397fd99a199f.json",
       "change_count": 6,
@@ -7308,11 +7305,7 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183029",
       "category": "기타 제·개정",
       "primary_change_summary": "제1조 · <개정 2022.10.18., 2025.12.19> → 삭제",
-      "priority_reasons": [
-        "지원대상·자격·선정 기준 변경",
-        "요율·수수료·부담금 변경",
-        "급여·지원금·소득 기준 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": {
@@ -7323,7 +7316,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2094745",
       "detail_url": "events/bd9bd82d4a8669e35662557a.json",
       "change_count": 12,
@@ -9382,9 +9375,7 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182671",
       "category": "급여·지원기준",
       "primary_change_summary": "제4조 · 26. → 26., 2026. 11 .6.",
-      "priority_reasons": [
-        "지원대상·자격·선정 기준 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": {
@@ -9395,7 +9386,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2096937",
       "detail_url": "events/a3db0771b732b33bd100d861.json",
       "change_count": 2,
@@ -10514,10 +10505,7 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182323",
       "category": "행정절차·인허가",
       "primary_change_summary": "제10조 · 주민안전과 → 민원여권과",
-      "priority_reasons": [
-        "요율·수수료·부담금 변경",
-        "급여·지원금·소득 기준 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": {
@@ -10528,7 +10516,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2089547",
       "detail_url": "events/92328bcc7b6b69986a0a13cb.json",
       "change_count": 50,
@@ -12615,15 +12603,11 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181785",
       "category": "급여·지원기준",
       "primary_change_summary": "제1조 · 고령과 → 고령ㆍ",
-      "priority_reasons": [
-        "급여·지원금·소득 기준 변경",
-        "요율·수수료·부담금 변경",
-        "지원대상·자격·선정 기준 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": null,
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1861259",
       "detail_url": "events/8307b1bc1863d0698432d515.json",
       "change_count": 12,
@@ -13168,7 +13152,14 @@
       "priority_reasons": [],
       "comparison_status": "partial_unverified",
       "relationship": "same_official_id_revision",
-      "policy_analysis": null,
+      "policy_analysis": {
+        "explanation": "시간강사 해촉 사유가 보다 명확하고 구체적으로 개정되었습니다. 기존의 모호한 표현들이 회관의 운영 요구 불응, 교육 운영 지장 초래, 특별한 사유 없는 강의 거부, 정상적인 강의 수행 곤란 등의 기준으로 정비되었습니다.",
+        "old_quote": "제9조: 제9조(시간강사 위ㆍ해촉) ① 관장은 각종 교육ㆍ교양강좌 등을 위하여 사회 저명인사 또는 외래전문인을 시간강사로 위촉할 수 있다. ② 관장은 제1항에 따른 시간강사가 다음 각 호의 어느 하나에 해당하는 경우에는 해촉할 수 있다. 1. 정당한 사유없이 업무상의 지시를 따르지 아니한 때 2. 강사로서의 품위를 손상한 때 3. 강의를 거부하거나 고의로 회피한 때 4. 기타 강의를 수행하기 곤란하다고 인정될 때 ③ 제1항에 따른 시간강사에게는 예산의 범위안에서 수당을 지급할 수 있다. [전문개정 2010. 11. 1 조례 제4195호]",
+        "new_quote": "제9조: 제9조(시간강사 위ㆍ해촉) ① 관장은 각종 교육ㆍ교양강좌 등을 위하여 사회 저명인사 또는 외래전문인을 시간강사로 위촉할 수 있다. ② 관장은 제1항에 따라 위촉된 시간강사가 다음 각 호의 어느 하나에 해당하는 경우에는 해촉할 수 있다. <개정 2026.10.30.> 1. 회관의 정당한 운영 요구에 따르지 않은 경우 <개정 2026.10.30.> 2. 강사로서의 품위를 손상하여 교육 운영에 지장을 초래한 경우 <개정 2026.10.30.> 3. 특별한 사유 없이 강의를 거부하거나 고의로 회피한 경우 <개정 2026.10.30.> 4. 그 밖의 사유로 정상적인 강의 수행이 곤란하다고 인정되는 경우 <개정 2026.",
+        "program_quote": "제9조: 제9조(시간강사 위ㆍ해촉) ① 관장은 각종 교육ㆍ교양강좌 등을 위하여 사회 저명인사 또는 외래전문인을 시간강사로 위촉할 수 있다. ② 관장은 제1항에 따라 위촉된 시간강사가 다음 각 호의 어느 하나에 해당하는 경우에는 해촉할 수 있다. <개정 2026.10.30.> 1. 회관의 정당한 운영 요구에 따르지 않은 경우 <개정 2026.10.30.> 2. 강사로서의 품위를 손상하여 교육 운영에 지장을 초래한 경우 <개정 2026.10.30.> 3. 특별한 사유 없이 강의를 거부하거나 고의로 회피한 경우 <개정 2026.10.30.> 4. 그 밖의 사유로 정상적인 강의 수행이 곤란하다고 인정되는 경우 <개정 2026.",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      },
       "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1931903",
       "detail_url": "events/95eda4e143c1ed4a88aee4ae.json",
@@ -13390,9 +13381,7 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181095",
       "category": "행정절차·인허가",
       "primary_change_summary": "제000000조 · [본장신설 2025. 6. 27.] → 삭제",
-      "priority_reasons": [
-        "신청·처리 기한 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": {
@@ -13403,7 +13392,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2046007",
       "detail_url": "events/d185a1faacd30fa24fc9e6d6.json",
       "change_count": 96,
@@ -13574,13 +13563,11 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180699",
       "category": "기타 제·개정",
       "primary_change_summary": "제001500조 · 대구학생문화센터 → 대구광역시교육청문화예술원 [제목개정 2026.10.30.]",
-      "priority_reasons": [
-        "급여·지원금·소득 기준 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": null,
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2136257",
       "detail_url": "events/4a0c9986ea7973becb91799d.json",
       "change_count": 23,
@@ -13672,13 +13659,11 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180599",
       "category": "기타 제·개정",
       "primary_change_summary": "제10조 · 이용자로부터 징수한 → 이용자가 납부한",
-      "priority_reasons": [
-        "요율·수수료·부담금 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": null,
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1929299",
       "detail_url": "events/2a08c0d6c1b507652bd2e9b8.json",
       "change_count": 18,
@@ -13983,9 +13968,7 @@
       "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9D%98%EB%A3%8C%EA%B8%B0%EA%B4%80%EB%B3%84%EA%B8%89%EC%97%AC%EC%A0%81%EC%A0%95%EC%84%B1%ED%8F%89%EA%B0%80%ED%98%84%ED%99%A9%29",
       "category": "급여·지원기준",
       "primary_change_summary": "본문 · 2026.06.15. → 2026.12.01.",
-      "priority_reasons": [
-        "급여·지원금·소득 기준 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": {
@@ -13996,7 +13979,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000280596",
       "detail_url": "events/da8ce051a44dcd2d5f3d33ee.json",
       "change_count": 19,
@@ -15031,7 +15014,14 @@
       "priority_reasons": [],
       "comparison_status": "partial_unverified",
       "relationship": "same_official_id_revision",
-      "policy_analysis": null,
+      "policy_analysis": {
+        "explanation": "부산광역시 금정구 행정기구 설치 조례 개정에 따라 금정도서관 소관 사무에 작은도서관 운영이 신설되고, 복지교육국 및 안전도시국의 소관 업무와 과 편성이 일부 조정되었습니다.",
+        "old_quote": "제15조: 제15조(소관사무) 사업소별 사업소장이 관장하는 사무는 다음 각 호와 같다. 1. 금정도서관 가. 도서관자료 수집ㆍ정리ㆍ보존 및 공중에 이용 제공 나. 지역문화 발전을 위한 강연, 전시, 독서회, 평생교육 등에 관한 사항 다. 다른 도서관과의 협력 및 자료교류 라. 금샘도서관 운영에 관한 사항 2. 금정문화회관 가. 지역문화예술 진흥을 위한 문화시설로서의 기능 수행 나. 구민의 문화생활과 정서 함양에 관한 사항 다. 문화예술 공연ㆍ전시 및 대관에 관한 사항 라. 회관 및 부속시설물의 유지관리에 관한 사항\n제7조: 제7조(경제교통국) ① 경제교통국에 일자리정책과, 경제산업과, 교통행정과, 토지정보과를 둔다. <",
+        "new_quote": "제15조: 제15조(소관사무) 사업소별 사업소장이 관장하는 사무는 다음 각 호와 같다. 1. 금정도서관 가. 도서관자료 수집ㆍ정리ㆍ보존 및 공중에 이용 제공 나. 지역문화 발전을 위한 강연, 전시, 독서회, 평생교육 등에 관한 사항 다. 다른 도서관과의 협력 및 자료교류 라. 금샘도서관 운영에 관한 사항 마. 작은도서관 운영에 관한 사항 2. 금정문화회관 가. 지역문화예술 진흥을 위한 문화시설로서의 기능 수행 나. 구민의 문화생활과 정서 함양에 관한 사항 다. 문화예술 공연ㆍ전시 및 대관에 관한 사항 라. 회관 및 부속시설물의 유지관리에 관한 사항\n제7조: 제7조(경제교통국) ① 경제교통국에 일자리정책과, 경제산업과, ",
+        "program_quote": "제15조: 제15조(소관사무) 사업소별 사업소장이 관장하는 사무는 다음 각 호와 같다. 1. 금정도서관 가. 도서관자료 수집ㆍ정리ㆍ보존 및 공중에 이용 제공 나. 지역문화 발전을 위한 강연, 전시, 독서회, 평생교육 등에 관한 사항 다. 다른 도서관과의 협력 및 자료교류 라. 금샘도서관 운영에 관한 사항 마. 작은도서관 운영에 관한 사항 2. 금정문화회관 가. 지역문화예술 진흥을 위한 문화시설로서의 기능 수행 나. 구민의 문화생활과 정서 함양에 관한 사항 다. 문화예술 공연ㆍ전시 및 대관에 관한 사항 라. 회관 및 부속시설물의 유지관리에 관한 사항\n제7조: 제7조(경제교통국) ① 경제교통국에 일자리정책과, 경제산업과, ",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      },
       "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2051539",
       "detail_url": "events/976ff2eb7cfc8c68bb1ddbb4.json",
@@ -15079,7 +15069,14 @@
       "priority_reasons": [],
       "comparison_status": "partial_unverified",
       "relationship": "same_official_id_revision",
-      "policy_analysis": null,
+      "policy_analysis": {
+        "explanation": "초고층건축물등 총괄재난관리자 보수교육과정의 교육내용 관련 권한 주체에 중앙소방학교장 외에 교육기관의 장이 추가되었습니다.",
+        "old_quote": "별표 0001 (교육과정별 시간 및 교육내용(제3조관련)): 별표 1 교육과정별 시간 및 교육내용(제3조관련) 과정구분 교육시간 교육내용 기본교육과정 21시간 이상 &#8228;규칙 제4조제1항 각호에서 정한 사항 보수교육과정 5시간 이상 &#8228;규칙 제4조제1항 각호의 내용과 관련된 재난관리 환경변화 및 기술개발 동향 &#8228;재난관리와 관련하여 소방청장 또는 중앙소방학교장이 정하는 사항",
+        "new_quote": "별표 0001 (교육과정별 시간 및 교육내용(제3조관련)): 별표 1 교육과정별 시간 및 교육내용(제3조관련) ┏━━━━━━┯━━━━┯━━━━━━━━━━━━━━━━━━━━━┓ ┃과정구분 │교육시간│교육내용 ┃ ┣━━━━━━┿━━━━┿━━━━━━━━━━━━━━━━━━━━━┫ ┃기본교육과정│21시간 │ ㆍ규칙 제4조제1항 각호에서 정한 사항 ┃ ┃ │ 이상 │ ┃ ┠──────┼────┼─────────────────────┨ ┃보수교육과정│ 5시간 │ ㆍ규칙 제4조제1항 각호의 내용과 관련된 ┃ ┃ │ 이상 │재난관리 환경변화 및 기술개발 동향 ┃ ┃ │ │ ㆍ재난관리와 관련하여 소방청장 또는 교육 ┃ ┃ │ │기관의 장",
+        "program_quote": "별표 0001 (교육과정별 시간 및 교육내용(제3조관련)): 별표 1 교육과정별 시간 및 교육내용(제3조관련) ┏━━━━━━┯━━━━┯━━━━━━━━━━━━━━━━━━━━━┓ ┃과정구분 │교육시간│교육내용 ┃ ┣━━━━━━┿━━━━┿━━━━━━━━━━━━━━━━━━━━━┫ ┃기본교육과정│21시간 │ ㆍ규칙 제4조제1항 각호에서 정한 사항 ┃ ┃ │ 이상 │ ┃ ┠──────┼────┼─────────────────────┨ ┃보수교육과정│ 5시간 │ ㆍ규칙 제4조제1항 각호의 내용과 관련된 ┃ ┃ │ 이상 │재난관리 환경변화 및 기술개발 동향 ┃ ┃ │ │ ㆍ재난관리와 관련하여 소방청장 또는 교육 ┃ ┃ │ │기관의 장",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      },
       "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000192163",
       "detail_url": "events/9099a360fe314209811774b3.json",
@@ -15244,9 +15241,7 @@
       "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2179383",
       "category": "급여·지원기준",
       "primary_change_summary": "제1조 · 학생의 입학준비금 → 구민의 교육",
-      "priority_reasons": [
-        "지원대상·자격·선정 기준 변경"
-      ],
+      "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
       "policy_analysis": {
@@ -15257,7 +15252,7 @@
         "verified": true,
         "model": "gemini-3.5-flash-lite"
       },
-      "impact_level": "high",
+      "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1992893",
       "detail_url": "events/9dcbd93b7221fa97a15d57b6.json",
       "change_count": 8,
@@ -34607,21 +34602,22 @@
       "partial_unverified": 303,
       "changed": 128
     },
-    "ai_explanation_attempts": 2,
-    "ai_verified_explanations": 0,
-    "ai_failures": 1,
+    "ai_explanation_attempts": 10,
+    "ai_verified_explanations": 5,
+    "ai_failures": 2,
     "ai_failure_reasons": {
+      "UnverifiedAnalysis:Explanation contains unsupported numerical claim": 1,
       "AI_HTTP_503:provider_rejected_request": 1
     },
-    "policy_ai_summaries": 227,
+    "policy_ai_summaries": 230,
     "ai_configured": true,
-    "policy_summaries_pending": 68
+    "policy_summaries_pending": 65
   },
   "coverage": {
     "alio_public_institutions": 355,
     "alio_reported": 355,
     "alio_source_url": "https://www.alioplus.go.kr/organization/organByTypeList.do?schApbaGb=APBA&pageNo=1",
-    "alio_updated_at": "2026-11-11T11:29:51.697460+00:00",
+    "alio_updated_at": "2026-11-11T11:36:53.620512+00:00",
     "gov24_programs": 10942,
     "gov24_agencies": 686,
     "gov24_agency_types": {

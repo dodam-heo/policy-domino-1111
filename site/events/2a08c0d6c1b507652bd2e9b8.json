@@ -10,9 +10,7 @@
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180599",
   "category": "기타 제·개정",
   "primary_change_summary": "제10조 · 이용자로부터 징수한 → 이용자가 납부한",
-  "priority_reasons": [
-    "요율·수수료·부담금 변경"
-  ],
+  "priority_reasons": [],
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -973,6 +971,6 @@
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1929299"
 }

@@ -10,9 +10,7 @@
   "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%9D%98%EB%A3%8C%EA%B8%B0%EA%B4%80%EB%B3%84%EA%B8%89%EC%97%AC%EC%A0%81%EC%A0%95%EC%84%B1%ED%8F%89%EA%B0%80%ED%98%84%ED%99%A9%29",
   "category": "급여·지원기준",
   "primary_change_summary": "본문 · 2026.06.15. → 2026.12.01.",
-  "priority_reasons": [
-    "급여·지원금·소득 기준 변경"
-  ],
+  "priority_reasons": [],
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -176,6 +174,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000280596"
 }

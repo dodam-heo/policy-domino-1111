@@ -10,10 +10,7 @@
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182323",
   "category": "행정절차·인허가",
   "primary_change_summary": "제10조 · 주민안전과 → 민원여권과",
-  "priority_reasons": [
-    "요율·수수료·부담금 변경",
-    "급여·지원금·소득 기준 변경"
-  ],
+  "priority_reasons": [],
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -4908,6 +4905,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "high",
+  "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2089547"
 }
