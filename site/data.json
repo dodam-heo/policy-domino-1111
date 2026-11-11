@@ -1,6 +1,6 @@
 {
   "schema": "policy-domino-unified-ui-v1",
-  "generated_at": "2026-11-11T05:57:33.824855+00:00",
+  "generated_at": "2026-11-11T06:08:14.588495+00:00",
   "scope": "source-backed version catalog; institutional actions only for exact citation evidence",
   "total_source_versions_saved": 943,
   "events": [
@@ -19841,14 +19841,17 @@
     "comparisons_considered": 208,
     "verified_institutional_tasks": 6,
     "comparison_statuses": {
-      "changed": 3,
-      "partial_unverified": 205
+      "partial_unverified": 205,
+      "changed": 3
     },
-    "ai_explanation_attempts": 0,
+    "ai_explanation_attempts": 59,
     "ai_verified_explanations": 0,
-    "ai_failures": 0,
+    "ai_failures": 59,
+    "ai_failure_reasons": {
+      "AI_HTTP_401:invalid_api_key": 59
+    },
     "policy_ai_summaries": 0,
-    "ai_configured": false,
+    "ai_configured": true,
     "policy_summaries_pending": 53
   }
 }
