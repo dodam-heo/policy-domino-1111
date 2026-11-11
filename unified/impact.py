@@ -297,18 +297,16 @@ def named_standard_proof(program: dict, doc: dict, change: dict) -> dict | None:
         for field, value in program.get("criteria", {}).items():
             if not value or plain(phrase) not in plain(value):
                 continue
-            removed, added = sorted(old_values-new_values), sorted(new_values-old_values)
-            numeric = (len(removed) == len(added) == 1 and
-                       bool(re.search(r"(?<![\d,])" + re.escape(removed[0]) +
-                                      r"(?![\d,])", value)))
+            # Even if an amount happens to match, the named-standard
+            # relationship alone cannot prove that the same household,
+            # unit or effective period applies. Never suggest a new amount.
             return {
                 "proof_type": "explicit_named_standard_in_official_criteria",
                 "reference_quote": doc["title"] + " · " + change.get("clause", ""),
                 "standard_quote": phrase, "service_field": field,
                 "service_quote": value[:1200],
-                "old_value": removed[0] if numeric else "",
-                "new_value": added[0] if numeric else "",
-                "numeric_value_in_operating_criteria": numeric,
+                "old_value": "", "new_value": "",
+                "numeric_value_in_operating_criteria": False,
             }
     return None
 
