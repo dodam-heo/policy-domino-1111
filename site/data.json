@@ -1,6 +1,6 @@
 {
   "schema": "policy-domino-unified-ui-v1",
-  "generated_at": "2026-11-11T07:37:17.894265+00:00",
+  "generated_at": "2026-11-11T07:37:56.752234+00:00",
   "scope": "source-backed version catalog; institutional actions only for exact citation evidence",
   "total_source_versions_saved": 975,
   "events": [
@@ -878,7 +878,14 @@
       "category": "조직·인력",
       "comparison_status": "partial_unverified",
       "relationship": "same_official_id_revision",
-      "policy_analysis": null,
+      "policy_analysis": {
+        "explanation": "대구광역시 북구에 두는 지방공무원 정원의 총수가 1,191명에서 1,207명으로 변경되었습니다.",
+        "old_quote": "제000200조: 제2조(정원의 총수) 대구광역시 북구에 두는 지방공무원 정원(이하 “정원”이라 한다)의 총수는 1,191명으로 하고 다음 각 호와 같이 구분한다.(일부개정 2012.3.16, 일부개정 2012.11.9, 일부개정 2013.7.22, 일부개정 2013.10.30, 일부개정 2013.12.10, 일부개정 2014.4.30, 일부개정 2014.6.30, 2015.6.1, 2015.9.30, 2016.6.30, 2016.12.27, 2017.5.30, 2017.9.29, 2017.10.30, 2018.5.30, 2018.10.30, 2019.06.27, 2019.12.30,2020.12.30,2021.05.3",
+        "new_quote": "제000200조: 제2조(정원의 총수) 대구광역시 북구에 두는 지방공무원 정원(이하 “정원”이라 한다)의 총수는 1,207명으로 하고 다음 각 호와 같이 구분한다.(일부개정 2012.3.16, 일부개정 2012.11.9, 일부개정 2013.7.22, 일부개정 2013.10.30, 일부개정 2013.12.10, 일부개정 2014.4.30, 일부개정 2014.6.30, 2015.6.1, 2015.9.30, 2016.6.30, 2016.12.27, 2017.5.30, 2017.9.29, 2017.10.30, 2018.5.30, 2018.10.30, 2019.06.27, 2019.12.30,2020.12.30,2021.05.3",
+        "program_quote": "제000200조: 제2조(정원의 총수) 대구광역시 북구에 두는 지방공무원 정원(이하 “정원”이라 한다)의 총수는 1,207명으로 하고 다음 각 호와 같이 구분한다.(일부개정 2012.3.16, 일부개정 2012.11.9, 일부개정 2013.7.22, 일부개정 2013.10.30, 일부개정 2013.12.10, 일부개정 2014.4.30, 일부개정 2014.6.30, 2015.6.1, 2015.9.30, 2016.6.30, 2016.12.27, 2017.5.30, 2017.9.29, 2017.10.30, 2018.5.30, 2018.10.30, 2019.06.27, 2019.12.30,2020.12.30,2021.05.3",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      },
       "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2136331",
       "detail_url": "events/5a11e12f734395e1288b21e1.json",
@@ -7437,18 +7444,11 @@
       "category": "기타 제·개정",
       "comparison_status": "partial_unverified",
       "relationship": "same_official_id_revision",
-      "policy_analysis": {
-        "explanation": "한국정책방송원 방송운행규정의 별지 서식(방송 사고 보고서 및 경위서) 양식이 일부 정비되었습니다.",
-        "old_quote": "별표 0001 (방송 사고 보고서): [별지1] [별지1] 방송 사고 보고서 ┌──────────────────────────────────────┐ │방송사고 : 일일운행표에 기재된 사실과 다르게 운행되거나 방송중단 및 영상, │ │음향 등이 고르지 못한 경우 │ └──────────────────────────────────────┘ [방송사고 내용] ┌───────┬──────────────────┐ │프로그램명 │ │ ├───────┼──────────────────┤ │방송사고 일시 │ │ ├───────┼──────────────────┤ │관련 부서 │ │ ├───────┼──────────────────┤",
-        "new_quote": "별표 0001 (방송 사고 보고서): [별지 1] [별지1] 방송 사고 보고서 ┌──────────────────────────────────────┐ │방송사고 : 일일운행표에 기재된 사실과 다르게 운행되거나 방송중단 및 영상, │ │음향 등이 고르지 못한 경우 │ └──────────────────────────────────────┘ [방송사고 내용] ┌───────┬──────────────────┐ │프로그램명 │ │ ├───────┼──────────────────┤ │방송사고 일시 │ │ ├───────┼──────────────────┤ │관련 부서 │ │ ├───────┼──────────────────",
-        "program_quote": "별표 0001 (방송 사고 보고서): [별지 1] [별지1] 방송 사고 보고서 ┌──────────────────────────────────────┐ │방송사고 : 일일운행표에 기재된 사실과 다르게 운행되거나 방송중단 및 영상, │ │음향 등이 고르지 못한 경우 │ └──────────────────────────────────────┘ [방송사고 내용] ┌───────┬──────────────────┐ │프로그램명 │ │ ├───────┼──────────────────┤ │방송사고 일시 │ │ ├───────┼──────────────────┤ │관련 부서 │ │ ├───────┼──────────────────",
-        "verified": true,
-        "model": "gemini-3.5-flash-lite"
-      },
+      "policy_analysis": null,
       "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%95%9C%EA%B5%AD%EC%A0%95%EC%B1%85%EB%B0%A9%EC%86%A1%EC%9B%90%20%EB%B0%A9%EC%86%A1%EC%9A%B4%ED%96%89%20%EA%B7%9C%EC%A0%95",
       "detail_url": "events/d2d6359650d396a5e92df302.json",
-      "change_count": 2,
+      "change_count": 0,
       "agency_names": [],
       "action_count": 0
     },
@@ -21063,7 +21063,7 @@
   "summary": {
     "displayed_events": 975,
     "with_verified_changes": 20,
-    "with_text_differences": 83,
+    "with_text_differences": 82,
     "with_institutional_actions": 2,
     "agency_action_count": 6,
     "by_category": {
@@ -21091,21 +21091,19 @@
       "partial_unverified": 220,
       "changed": 20
     },
-    "ai_explanation_attempts": 7,
+    "ai_explanation_attempts": 1,
     "ai_verified_explanations": 6,
-    "ai_failures": 1,
-    "ai_failure_reasons": {
-      "AI_HTTP_503:provider_rejected_request": 1
-    },
+    "ai_failures": 0,
+    "ai_failure_reasons": {},
     "policy_ai_summaries": 82,
     "ai_configured": true,
-    "policy_summaries_pending": 1
+    "policy_summaries_pending": 0
   },
   "coverage": {
     "alio_public_institutions": 355,
     "alio_reported": 355,
     "alio_source_url": "https://www.alioplus.go.kr/organization/organByTypeList.do?schApbaGb=APBA&pageNo=1",
-    "alio_updated_at": "2026-11-11T07:36:29.014223+00:00",
+    "alio_updated_at": "2026-11-11T07:37:42.778605+00:00",
     "gov24_programs": 9683,
     "gov24_agencies": 532,
     "gov24_agency_types": {

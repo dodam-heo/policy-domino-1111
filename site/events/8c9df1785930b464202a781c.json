@@ -16,8 +16,121 @@
       "article": "별표 0001 (이수증명서)",
       "before": "[별지 제1호서식] (고시 별표 4 제2호자목 관련) ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ ┃ ┃ ┃ 번호(No.) : ┃ ┃ ┃ ┃이수증명서 ┃ ┃(Certificate of Course Completion) ┃ ┃ ┃ ┃ ┃ ┃ 성명(Name) : ┃ ┃ 생년월일(Date of Birth) : ┃ ┃ 주소(Address) : ┃ ┃ ┃ ┃위 사람은 전문교육기관(지정서 번호 : )의 00 과정을 다음┃ ┃과 같이 정상 수료하였음을 증명합니다. ┃ ┃This is to certify that the above person has successfully ┃ ┃completed the 00 training course of Approved Training ┃ ┃Organization(ATO No : ) ┃ ┃ ┃ ┃ ? 교육기간(Training Period) ┃ ┃ ? 학과교육(Theoretical Training): ~ ┃ ┃ - 실기교육(Practical Training): ~ ┃ ┃ ┃ ┃년 월 일 ┃ ┃(Date Of issue) ┃ ┃ ┃ ┠───────────────────────────────┨ ┃ ┃ ┃ ┏━━┓ ┃ ┃OO 전문교육기관장 OOO ┃직인┃ ┃ ┃ (Head of 00 ATO)┃ ┃ ┃ ┃ ┗━━┛ ┃ ┃ ┃ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ 210mm x 297mm 인쇄용지(특급)120g/㎡",
       "after": "■ 항공종사자 등 전문교육기관 지정 및 감독요령 [별지 제1호서식] <개정 2026. 00. 00.> 이수증명서 ┌───────────────────────────────────────────┐ │ │ │ 번호(No.) : │ │ │ │이수증명서 │ │(Certificate of Course Completion) │ │ │ │ │ │ 성명(Name) : │ │ 생년월일(Date of Birth) : │ │ 주소(Address) : │ │ │ │위 사람은 전문교육기관(지정서 번호 : )의 과정을 다음 │ │과 같이 정상 수료하였음을 증명합니다. │ │This is to certify that the above person has successfully completed │ │the training course of Approved Training Organization(ATO No : │ │). │ │ │ │ ? 교육기간(Training Period) │ │ - 학과교육(Theoretical Training): ~ │ │ - 실기교육(Practical Training): ~ │ │ │ │년 월 일 │ │(Date Of issue) │ ├───────────────────────────────────────────┤ │ │ │ ┏━━┓ │ │전문교육기관장 ┃직인┃ │ │(Head of 00 ATO)┃ ┃ │ │ ┗━━┛ │ │ │ └───────────────────────────────────────────┘ 210mm x 297mm 인쇄용지(특급)120g/㎡",
-      "focus": [],
-      "diff_window_count": 0
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "",
+            "suffix": "[별지 제1호서식] (고시 별표 4 제2호자목 관련) ┏━━━━━━━━━━━━━━…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "■ 항공종사자 등 전문교육기관 지정 및 감독요령",
+            "suffix": " [별지 제1호서식] <개정 2026. 00. 00.> 이수증명서 ┌───────…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "[별지 제1호서식] ",
+            "changed": "(고시 별표 4 제2호자목 관련)",
+            "suffix": " ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ ┃ ┃ ┃ 번호(N…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "■ 항공종사자 등 전문교육기관 지정 및 감독요령 [별지 제1호서식] ",
+            "changed": "<개정 2026. 00. 00.> 이수증명서",
+            "suffix": " ┌───────────────────────────────────────────…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…소(Address) : ┃ ┃ ┃ ┃위 사람은 전문교육기관(지정서 번호 : )의 ",
+            "changed": "00",
+            "suffix": " 과정을 다음┃ ┃과 같이 정상 수료하였음을 증명합니다. ┃ ┃This is to…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…소(Address) : │ │ │ │위 사람은 전문교육기관(지정서 번호 : )의 ",
+            "changed": "",
+            "suffix": "과정을 다음 │ │과 같이 정상 수료하였음을 증명합니다. │ │This is to…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…ove person has successfully ┃ ┃completed the ",
+            "changed": "00",
+            "suffix": " training course of Approved Training ┃ ┃Orga…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…ove person has successfully completed │ │the ",
+            "changed": "",
+            "suffix": "training course of Approved Training Organiza…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… Training ┃ ┃Organization(ATO No : ) ┃ ┃ ┃ ┃ ",
+            "changed": "",
+            "suffix": "? 교육기간(Training Period) ┃ ┃ ? 학과교육(Theoretica…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… Approved Training Organization(ATO No : │ │)",
+            "changed": ".",
+            "suffix": " │ │ │ │ ? 교육기간(Training Period) │ │ - 학과교육(T…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…O No : ) ┃ ┃ ┃ ┃ ? 교육기간(Training Period) ┃ ┃ ",
+            "changed": "?",
+            "suffix": " 학과교육(Theoretical Training): ~ ┃ ┃ - 실기교육(Pra…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… : │ │). │ │ │ │ ? 교육기간(Training Period) │ │ ",
+            "changed": "-",
+            "suffix": " 학과교육(Theoretical Training): ~ │ │ - 실기교육(Pra…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…─────────────────────────────┨ ┃ ┃ ┃ ┏━━┓ ┃ ┃",
+            "changed": "OO",
+            "suffix": " 전문교육기관장 OOO ┃직인┃ ┃ ┃ (Head of 00 ATO)┃ ┃ ┃ ┃…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…─────────────────────────────┤ │ │ │ ┏━━┓ │ │",
+            "changed": "",
+            "suffix": "전문교육기관장 ┃직인┃ │ │(Head of 00 ATO)┃ ┃ │ │ ┗━━┛ …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…──────────────────┨ ┃ ┃ ┃ ┏━━┓ ┃ ┃OO 전문교육기관장 ",
+            "changed": "OOO",
+            "suffix": " ┃직인┃ ┃ ┃ (Head of 00 ATO)┃ ┃ ┃ ┃ ┗━━┛ ┃ ┃ ┃ …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…────────────────────┤ │ │ │ ┏━━┓ │ │전문교육기관장 ┃",
+            "changed": "",
+            "suffix": "직인┃ │ │(Head of 00 ATO)┃ ┃ │ │ ┗━━┛ │ │ │ └──…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 8
     }
   ],
   "unresolved": [
@@ -83,6 +196,9 @@
     },
     {
       "reason": "incomplete_original_or_attachment"
+    },
+    {
+      "reason": "original_source_not_reverified"
     }
   ],
   "institutions": [],
