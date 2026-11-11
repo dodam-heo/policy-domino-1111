@@ -117,6 +117,18 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "감사위원회",
+      "article": "제2조",
+      "before": "…한다)를 행할 수 있다. <개정 2021.12.31.> ②제1항의 감사는 매년 제2차 정례회 기간 중 9일 이내로 실시하되, 본회의ㆍ상임위원회 또는 감사위원회가 작…",
+      "after": "…다)를 행할 수 있다. <개정 2021.12.31.> ② 제1항의 감사는 매년 제1차 정례회 기간 중 9일 이내로 실시하되, 본회의ㆍ상임위원회 또는 감사위원회가 작…",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2178193",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": null,
   "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1719417"

@@ -117,6 +117,18 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "부위원장",
+      "article": "제6조",
+      "before": "…과 부위원장 각 1명을 포함하여 15명 이내의 위원으로 구성한다. ③ 위원장은 제1부시장이 되고, 부위원장은 위촉직 위원 중에서 호선한다. ④ 당연직 위원은 상징건…",
+      "after": "…과 부위원장 각 1명을 포함하여 15명 이내의 위원으로 구성한다. ③ 위원장은 제2부시장이 되고, 부위원장은 위촉직 위원 중에서 호선한다. <개정 2026.11.6…",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182825",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": {
     "explanation": "고양시 상징건축물 등 심의위원회의 위원장을 기존 제1부시장에서 제2부시장으로 변경하였습니다.",
     "old_quote": "제6조: 제6조(위원회 설치 및 구성) ① 시장은 상징건축물 등의 보호 및 활용에 관한 사항을 심의하기 위하여 고양시 상징건축물 등 심의위원회(이하 “위원회”라 한다)를 둔다. ② 위원회는 위원장과 부위원장 각 1명을 포함하여 15명 이내의 위원으로 구성한다. ③ 위원장은 제1부시장이 되고, 부위원장은 위촉직 위원 중에서 호선한다. ④ 당연직 위원은 상징건축물 등의 보호 및 활용 업무 국장이 되고, 위촉직 위원은 다음 각 호의 사람 중에서 시장이 위촉한다. 이 경우 위촉직 위원은 특정 성별이 위촉직 위원 수의 10분의 6을 넘지 아니하여야 한다. 1. 고양시의회에서 추천하는 시의원 2명 이내 2. 역사학자, 건축가, 예",

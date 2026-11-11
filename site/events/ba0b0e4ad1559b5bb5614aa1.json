@@ -929,6 +929,38 @@
       "changed_article": "제2조"
     }
   ],
+  "direct_actor_leads": [
+    {
+      "actor": "인사위원회",
+      "article": "제10조",
+      "before": "…조의2제2항 각 호 외의 부분 단서에 따라 인사위원회가 같은 항 제2호 또는 이 영 제1항제2호의 사항을 심의ㆍ의결하는 경우에는 관련 전문가의 의견을 들어야 한다.",
+      "after": "…조의2제2항 각 호 외의 부분 단서에 따라 인사위원회가 같은 항 제2호 또는 이 조 제1항제1호의 사항을 심의ㆍ의결하는 경우에는 관련 전문가의 의견을 들어야 한다.",
+      "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A7%80%EB%B0%A9%EA%B3%B5%EB%AC%B4%EC%9B%90%20%EC%A0%81%EA%B7%B9%ED%96%89%EC%A0%95%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%A0%95",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    },
+    {
+      "actor": "행정안전부장관",
+      "article": "제13조",
+      "before": "…및 절차 등에 관한 사항을 정하려는 경우 위원회의 심의ㆍ의결을 거쳐야 한다. ③ 교육부장관 또는 행정안전부장관은 적극행정으로 모범적인 성과를 창출한 공로가 있는 …",
+      "after": "…및 절차 등에 관한 사항을 정하려는 경우 위원회의 심의ㆍ의결을 거쳐야 한다. ③ 지방자치단체의 장은 소속 공무원의 적극행정 노력도에 따라 마일리지(지방자치단체의 장이 정하는 일정한 요건에 따라 적극행정 노력도를 점수화하여 적립한 점수를 말한다)를 지급할 수 있으며, 적립된 마일리지에 따라 소속 공무원에게 보상(報償)할 수 있다. ④ 교육부장관 또는 행정안전부장관은 적극행정으로 모범적인 성과를 창출한 공로가 있는…",
+      "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A7%80%EB%B0%A9%EA%B3%B5%EB%AC%B4%EC%9B%90%20%EC%A0%81%EA%B7%B9%ED%96%89%EC%A0%95%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%A0%95",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    },
+    {
+      "actor": "국민권익위원회",
+      "article": "제17조의3",
+      "before": "…단체의 장은 제1항에 따른 신고의 내용에 상당한 이유가 있다고 인정되는 경우에는 사실관계 확인을 위한 조사를 하여 신속한 업무처리를 하는 등 적절한 조치를 하고, 그 처리결과를 신고인에게 알려야 한다. ③ 국민권익위원회는 공무원의 소극행정 …",
+      "after": "…에 따라 접수된 적극행정국민신청의 내용에 상당한 이유가 있다고 인정되는 경우에는 의견을 첨부하여 소관 지방자치단체의 장에게 보내야 한다. ④ 지방자치단체의 장은 소속 공무원으로 하여금 적극행정국민신청의 내용을 검토한 후 제5조 또는 제12조제1항 ㆍ제2항에 따른 의견 제시 요청 등을 활용하여 적극적으로 업무를 처리하도록 해야 한다. ⑤ 지방자치단체의 장은 제4항에 따라 소속 공무원이 업무를 처리한 경우 그 결과를 국민권익위원회에 통보해야 한다. ⑥ 제1항부터 ",
+      "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A7%80%EB%B0%A9%EA%B3%B5%EB%AC%B4%EC%9B%90%20%EC%A0%81%EA%B7%B9%ED%96%89%EC%A0%95%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%A0%95",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": {
     "explanation": "지방공무원 적극행정 운영규정 개정에 따라 적극행정위원회의 심의 사항 중 공무원 지원 관련 대상·범위 검토 및 지원 취소 사항이 구체화되었습니다.",
     "old_quote": "제10조: 제10조(적극행정위원회의 기능 등) ① 「지방공무원법」 제75조의2제2항제3호에서 \"대통령령으로 정하는 사항\"이란 다음 각 호의 사항을 말한다. 1. 사전컨설팅 요청 내용이 주민생활에 미치는 영향이 크거나 여러 이해관계자와 관련되는 등 신중한 검토가 필요하여 해당 지방자치단체의 감사기구의 장이 자문한 사항 2. 제12조제2항에 따른 사후 추인에 관한 사항 3. 제13조에 따른 적극행정 우수공무원 선발기준 및 절차 등에 관한 사항 4. 제15조제7항에 따른 면책 건의에 관한 사항 5. 제17조제2항 또는 제3항에 따른 지원에 관한 사항 6. 제17조제4항에 따른 의견 제출에 관한 사항 7. 그 밖에 적극행정 과",

@@ -114,6 +114,18 @@
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "부위원장",
+      "article": "제11조",
+      "before": "…명을 포함하여 15명 이내의 위원으로 구성한다. ② 위원회의 위원장은 업무 담당 사업소장으로 하고, 부위원장은 위원 중에서 호선한다. ③ 보행안전 및 편의증진 업무 담당 부…",
+      "after": "…명을 포함하여 15명 이내의 위원으로 구성한다. ② 위원회의 위원장은 업무 담당 실장ㆍ국장으로 하고, 부위원장은 위원 중에서 호선한다. <개정 2026.11.6.> ③ 보행안…",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182781",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": {
     "explanation": "고양시 보행안전 및 편의증진에 관한 조례 제11조에 따라 위원회의 위원장을 기존 업무 담당 사업소장에서 업무 담당 실장ㆍ국장으로 변경하였습니다.",
     "old_quote": "제11조: 제11조(위원회의 구성 등) ① 위원회는 위원장, 부위원장 각 1명을 포함하여 15명 이내의 위원으로 구성한다. ② 위원회의 위원장은 업무 담당 사업소장으로 하고, 부위원장은 위원 중에서 호선한다. ③ 보행안전 및 편의증진 업무 담당 부서장은 당연직 위원으로 하고, 위원은 다음 각 호의 어느 하나에 해당하는 사람 중에서 시장이 임명 또는 위촉한다. 이 경우 위촉직 위원은 특정 성별이 위촉직 위원 수의 10분의 6을 초과하지 않아야 한다. 1. 보행안전 및 편의증진 업무 관련 고양시 관계공무원 2. 고양시의회에서 추천하는 시의원 2명 3. 보행ㆍ교통ㆍ도시계획 및 환경 등 관련 분야에 학식과 경험이 풍부한 민간 ",

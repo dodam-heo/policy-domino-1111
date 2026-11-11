@@ -156,6 +156,18 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "부위원장",
+      "article": "제8조",
+      "before": "…분의 2는 외부전문가로 위촉하여야 한다. <개정 2021.12.17> ③위원장은 행정문화국장이 되고, 부위원장은 민원여권과장이 된다. ④위촉직 위원은 정보공개에 관하여 전문지…",
+      "after": "…의 2는 외부전문가로 위촉하여야 한다. <개정 2021.12.17> ③ 위원장은 행정자치국장이 되고, 부위원장은 민원여권과장이 된다. <개정 2026.11.5., 2026.1…",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182325",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": null,
   "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1974463"

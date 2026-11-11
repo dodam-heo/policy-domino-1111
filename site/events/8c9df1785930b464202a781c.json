@@ -264,6 +264,7 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [],
   "policy_analysis": {
     "explanation": "항공종사자 등 전문교육기관 이수증명서 서식(별지 제1호서식)이 개정되어, 증명서 문구 중 특정 과정명을 직접 기재하던 방식에서 일반화된 문구로 변경되고 서식 세부 양식이 정비되었습니다.",
     "old_quote": "별표 0001 (이수증명서): [별지 제1호서식] (고시 별표 4 제2호자목 관련) ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ ┃ ┃ ┃ 번호(No.) : ┃ ┃ ┃ ┃이수증명서 ┃ ┃(Certificate of Course Completion) ┃ ┃ ┃ ┃ ┃ ┃ 성명(Name) : ┃ ┃ 생년월일(Date of Birth) : ┃ ┃ 주소(Address) : ┃ ┃ ┃ ┃위 사람은 전문교육기관(지정서 번호 : )의 00 과정을 다음┃ ┃과 같이 정상 수료하였음을 증명합니다. ┃ ┃This is to certify that the above person has successfully ┃ ┃compl",

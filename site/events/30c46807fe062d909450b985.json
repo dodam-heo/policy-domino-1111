@@ -117,6 +117,18 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "부위원장",
+      "article": "제23조",
+      "before": "…상 20명 이하의 위원으로 구성하며, 위원회의 위원장은 부군수가 되고 부위원장은 기획예산실장이 된다. <개정 2022.9.2.> ③ 위원회의 위원은 다음 각 호의 어느 하나에…",
+      "after": "…상 20명 이하의 위원으로 구성하며, 위원회의 위원장은 부군수가 되고 부위원장은 기획조정실장이 된다. <개정 2022.9.2., 2026.11.9.> ③ 위원회의 위원은 다음…",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183453",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": {
     "explanation": "영덕군 경관위원회 부위원장의 직위가 기존 기획예산실장에서 기획조정실장으로 변경되었습니다.",
     "old_quote": "제23조: 제23조(경관위원회의 구성 및 운영) ① 법 제31조 및 영 제25조, 제26조에 따라 경관과 관련된 사항에 대한 심의를 위하여 영덕군 경관위원회(이하 \"위원회\" 라 한다)를 둔다. ② 위원회는 위원장과 부위원장 각 1명을 포함한 10명 이상 20명 이하의 위원으로 구성하며, 위원회의 위원장은 부군수가 되고 부위원장은 기획예산실장이 된다. <개정 2022.9.2.> ③ 위원회의 위원은 다음 각 호의 어느 하나에 해당하는 사람 중에서 군수가 임명하거나 위촉한다. 이 경우 제3호에 해당하는 위원의 수는 전체 위원의 2분의 1 이상이어야 한다. 1. 영덕군의회 의원 2. 경관계획과 관련이 있는 행정기관의 공무원 3",

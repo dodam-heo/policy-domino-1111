@@ -2307,6 +2307,28 @@
       "changed_article": "제35조"
     }
   ],
+  "direct_actor_leads": [
+    {
+      "actor": "농림축산식품부장관",
+      "article": "제35조",
+      "before": "…학대행위 근절을 위한 동물보호 홍보 9. 그 밖에 동물의 구조ㆍ보호 등을 위하여 농림축산식품부령으로 정하는 업무 ④ 농림축산식품부장관은 제1항에 따라 시ㆍ도지사 또는 시장ㆍ군수ㆍ구…",
+      "after": "…학대행위 근절을 위한 동물보호 홍보 9. 그 밖에 동물의 구조ㆍ보호 등을 위하여 농림축산식품부령 또는 조례로 정하는 업무 ④ 농림축산식품부장관은 제1항에 따라 시ㆍ도지사 또는 시장ㆍ군수ㆍ구…",
+      "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%8F%99%EB%AC%BC%EB%B3%B4%ED%98%B8%EB%B2%95",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    },
+    {
+      "actor": "농림축산식품부장관",
+      "article": "제6조",
+      "before": "…관련 대국민 교육 및 홍보에 관한 사항 7. 종합계획 추진 재원의 조달방안 8. 그 밖에 동물의 보호ㆍ복지를 위하여 필요한 사항 ② 농림축산식품부장관은 종합계획을…",
+      "after": "…관련 대국민 교육 및 홍보에 관한 사항 7. 종합계획 추진 재원의 조달방안 8. 봉사동물 운영 및 지원에 관한 사항 9. 그 밖에 동물의 보호ㆍ복지를 위하여 필요한 사항 ② 농림축산식품부장관은 종합계획…",
+      "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%8F%99%EB%AC%BC%EB%B3%B4%ED%98%B8%EB%B2%95",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": null,
   "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%8F%99%EB%AC%BC%EB%B3%B4%ED%98%B8%EB%B2%95"

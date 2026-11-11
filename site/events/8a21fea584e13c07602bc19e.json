@@ -278,6 +278,28 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "부구청장",
+      "article": "제4조",
+      "before": "… 7인이내의 위원으로 구성한다. ②위원회의 위원장은 부구청장이 되고, 부위원장은 소통담당관이 되며, 위원은 홍보물디자인에 관한 학식과 경험이 풍부한 자중에서 구청장이 위촉한…",
+      "after": "…7인이내의 위원으로 구성한다. ② 위원회의 위원장은 부구청장이 되고, 부위원장은 홍보담당관이 되며, 위원은 홍보물디자인에 관한 학식과 경험이 풍부한 자중에서 구청장이 위촉한…",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182317",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    },
+    {
+      "actor": "부위원장",
+      "article": "제4조",
+      "before": "… 7인이내의 위원으로 구성한다. ②위원회의 위원장은 부구청장이 되고, 부위원장은 소통담당관이 되며, 위원은 홍보물디자인에 관한 학식과 경험이 풍부한 자중에서 구청장이 위촉한…",
+      "after": "…7인이내의 위원으로 구성한다. ② 위원회의 위원장은 부구청장이 되고, 부위원장은 홍보담당관이 되며, 위원은 홍보물디자인에 관한 학식과 경험이 풍부한 자중에서 구청장이 위촉한…",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182317",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": null,
   "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1725063"

@@ -409,6 +409,18 @@
       "changed_article": "제13조"
     }
   ],
+  "direct_actor_leads": [
+    {
+      "actor": "외교부장관",
+      "article": "제13조",
+      "before": "…재외공무원이 다음 각 호의 어느 하나에 해당하는 때에는 지체 없이 외교부장관에게 보고하여야 하며, 그 보고를 받은 외교부장관은 해당 재외공무원의 소환, 그 밖의 적절한 조…",
+      "after": "…재외공무원이 다음 각 호의 어느 하나에 해당하는 때에는 지체 없이 외교부장관에게 보고해야 하며, 그 보고를 받은 외교부장관은 해당 재외공무원의 소환, 그 밖의 적절한 조…",
+      "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%9E%AC%EC%99%B8%EA%B3%B5%EB%AC%B4%EC%9B%90%20%EB%B3%B5%EB%AC%B4%EA%B7%9C%EC%A0%95",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": null,
   "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%9E%AC%EC%99%B8%EA%B3%B5%EB%AC%B4%EC%9B%90%20%EB%B3%B5%EB%AC%B4%EA%B7%9C%EC%A0%95"

@@ -369,6 +369,18 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "고등법원장",
+      "article": "제55조",
+      "before": "…호의 경우에는 제외한다(이하 이 조에서 같다). 1. 법원사무직렬, 등기사무직렬 및 사서직렬 2. 일반임기제공무원 ② 고등법원장은 필요하다고 인정하는 경우에는 관…",
+      "after": "… 호의 경우에는 제외한다(이하 이 조에서 같다). 1. 법원사무직렬, 등기사무직렬, 사서직렬, 전산직렬 및 보안관리직렬 2. 일반임기제공무원 ② 고등법원장은 필요하다고 인정하는 경우에…",
+      "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%B2%95%EC%9B%90%EA%B3%B5%EB%AC%B4%EC%9B%90%EA%B7%9C%EC%B9%99",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": null,
   "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%B2%95%EC%9B%90%EA%B3%B5%EB%AC%B4%EC%9B%90%EA%B7%9C%EC%B9%99"

@@ -113,6 +113,18 @@
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "부위원장",
+      "article": "제9조",
+      "before": "…정 성이 위촉직 위원수의 10분의 6을 초과하지 아니하여야 한다. ③ 위원장은 제1부시장이 되고 부위원장은 위원 중에서 호선한다. ④ 위원은 당연직 위원과 위촉직 …",
+      "after": "…정 성이 위촉직 위원수의 10분의 6을 초과하지 아니하여야 한다. ③ 위원장은 제2부시장이 되고 부위원장은 위원 중에서 호선한다. <개정 2026.11.6.> ④ …",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182715",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": null,
   "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1614143"

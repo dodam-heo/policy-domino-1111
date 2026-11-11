@@ -114,6 +114,18 @@
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "부위원장",
+      "article": "제11조",
+      "before": "…부위원장은 부군수가 되며 위원은 다음의 각 호와 같다. <개정 2023. 12. 29.> 1. 군수가 위촉한 군의원 2. 자치행정과장 3. 건설과장 4. 교육청 교육지…",
+      "after": "…부위원장은 부군수가 되며 위원은 다음의 각 호와 같다. <개정 2023. 12. 29., 2026.11.9.> 1. 군수가 위촉한 군의원 2. 자치행정과장 3. 건설과장 4. 교육청 교육지…",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183509",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": {
     "explanation": "위원회 구성 조항에서 위원 당연직 구성원의 소속 부서 명칭이 '도시디자인과장'에서 '도시건축과장'으로 변경되었습니다.",
     "old_quote": "제11조: 제11조(위원회 구성) ① 위원회는 위원장과 부위원장 각 1명을 포함하여 20명 이내의 위원으로 구성하며, 위촉직 위원의 경우 특정성별이 10분의 6을 초과하지 아니하도록 구성한다. 다만, 해당 분야 특정성별의 전문 인력 부족 등 부득이한 경우에는 그러하지 아니하다. ② 위원회의 위원장은 군수가 되고 부위원장은 부군수가 되며 위원은 다음의 각 호와 같다. <개정 2023. 12. 29.> 1. 군수가 위촉한 군의원 2. 자치행정과장 3. 건설과장 4. 교육청 교육지원과장 5. 도시디자인과장 6. 경찰서 생활안전교통과장 7. 교통 관련 분야에 관한 전문지식과 경험이 풍부한 사람 중에서 군수가 위촉한 사람",

@@ -117,6 +117,18 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "부위원장",
+      "article": "제24조",
+      "before": "… 부위원장 각 1명을 포함하여 30명 이내의 위원으로 구성하며, 위원장은 고양시 도서관센터소장이 되고, 부위원장은 위원 중에서 호선한다. ③ 당연직 위원은 덕양구도서관과장, 일…",
+      "after": "… 부위원장 각 1명을 포함하여 30명 이내의 위원으로 구성하며, 위원장은 고양시 도서관사업소장이 되고, 부위원장은 위원 중에서 호선한다. <개정 2026.11.6.> ③ 당연직…",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182747",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": null,
   "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1971791"

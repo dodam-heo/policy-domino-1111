@@ -1547,6 +1547,28 @@
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "대구교육해양수련원장",
+      "article": "제19조",
+      "before": "제19조(원장) 대구교육해양수련원장은 교육연구관ㆍ지방부이사관 또는 지방서기관ㆍ지방기술서기관으로 보한다.",
+      "after": "제19조(원장) 대구교육해양수련원장은 교육연구관ㆍ지방부이사관 또는 지방서기관ㆍ지방과학기술서기관으로 보한다. <개정 2026.10.30.>",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180699",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    },
+    {
+      "actor": "대구교육낙동강수련원장",
+      "article": "제23조",
+      "before": "제23조(원장) 대구교육낙동강수련원장은 교육연구관ㆍ지방부이사관 또는 지방서기관ㆍ지방기술서기관으로 보한다. <개정 2024.12.30>",
+      "after": "제23조(원장) 대구교육낙동강수련원장은 교육연구관ㆍ지방부이사관 또는 지방서기관ㆍ지방과학기술서기관으로 보한다. <개정 2024.12.30., 2026.10.30.>",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180699",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": null,
   "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2136257"

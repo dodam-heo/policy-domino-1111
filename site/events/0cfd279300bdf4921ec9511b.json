@@ -119,6 +119,18 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "부위원장",
+      "article": "제17조",
+      "before": "… 위원회의 위원장은 제2부시장이 되고, 부위원장은 빗물관리시설의 관련 업무 담당 부서의 장으로 하며, 위원은 다음 각 호에 해당하는 사람 중에서 시장이 임명 또는 위촉한다. …",
+      "after": "… 위원회의 위원장은 제2부시장이 되고, 부위원장은 빗물관리시설의 관련 업무 담당 실장ㆍ국장으로 하며, 위원은 다음 각 호에 해당하는 사람 중에서 시장이 임명 또는 위촉한다. …",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182741",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": null,
   "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1811941"

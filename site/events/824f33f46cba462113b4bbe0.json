@@ -160,6 +160,18 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "고용노동부장관",
+      "article": "제13조",
+      "before": "…고용노동부장관은 법 제9조제2항에 따라 부담금비율을 결정하였을 때에는 그 내용을 관보 및 「신문 등의 진흥에 관한 법률」 제9조제1항에 따라 그 보급지역을 전국으로 하여…",
+      "after": "…고용노동부장관은 법 제9조제2항에 따라 부담금비율을 결정하였을 때에는 그 내용을 관보에 고시하고, 「신문 등의 진흥에 관한 법률」 제9조제1항에 따라 그 보급지역을 전국으로 하여…",
+      "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%9E%84%EA%B8%88%EC%B1%84%EA%B6%8C%EB%B3%B4%EC%9E%A5%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": null,
   "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%9E%84%EA%B8%88%EC%B1%84%EA%B6%8C%EB%B3%B4%EC%9E%A5%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9"

@@ -744,6 +744,38 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "심의위원회",
+      "article": "제10조",
+      "before": "제10조(심의위원회 설치) ① 의장은 의원연구단체의 정책연구용역에 대한 사항을 심의하기 위하여 충청북도의회 정책연구용역 심의위원회(이하 “심의위원회”라 한다)를 둘 수 있다. ② 심의위원회는 다음 각 호의 사항을 심의한다. 1. 정책연구용역 과제 선정 및 심…",
+      "after": "제10조(정책연구용역의 심의) ① 심의위원회는 다음 각 호의 사항을 고려하여 정책연구용역 과제를 심의하여야 한다. …",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183215",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    },
+    {
+      "actor": "심의위원회",
+      "article": "제14조",
+      "before": "…할 수 있다. ④ 심의위원회는 심의결과를 의장에게 보고하고 의장은 이를 별지 제5호 또는 별지 제6호 서식에 따라 연구단체 대표자에게 통지한다.",
+      "after": "…할 수 있다. ④ 심의위원회는 심의결과를 의장에게 보고하고 의장은 이를 별지 제5호서식 또는 별지 제6호서식에 따라 연구단체 대표자에게 통지한다. <개정 2026.11…",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183215",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    },
+    {
+      "actor": "심의위원회",
+      "article": "제9조",
+      "before": "제9조(정책연구용역의 심의) 심의위원회는 다음 각 호의 사항을 고려하여 정책연구용역 과제를 심의하여야 한다. …",
+      "after": "제9조(심의위원회 설치) ① 의장은 의원연구단체의 정책연구용역에 대한 사항을 심의하기 위하여 충청북도의회 정책연구용역 심의위원회(이하 “심의위원회”라 한다)를 둘 수 있다. ② 심의위원회는 다음 각 호의 사항을 심의한다. 1. 정책연구용역 과제 선정 및 심…",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183215",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": {
     "explanation": "충청북도의회 의원 연구단체 구성 및 운영 조례 개정을 통해, 정책연구용역 심의위원회가 과제 심의 시 고려해야 할 구체적인 기준(필요성, 타당성, 적정성, 유사성·중복성, 활용 가능성 등)이 정비되었고 최근 3년간 유사·중복 연구 등으로 차별성이나 실효성이 낮은 용역을 제한할 수 있는 근거가 신설되었습니다.",
     "old_quote": "제10조: 제10조(심의위원회 설치) ① 의장은 의원연구단체의 정책연구용역에 대한 사항을 심의하기 위하여 충청북도의회 정책연구용역 심의위원회(이하 “심의위원회”라 한다)를 둘 수 있다. ② 심의위원회는 다음 각 호의 사항을 심의한다. 1. 정책연구용역 과제 선정 및 심의에 관한 사항 2. 정책연구용역비의 조정에 관한 사항 3. 그 밖에 의장이 필요하다고 인정하는 사항\n제14조: 제14조(회의) ① 위원장은 심의위원회의 회의를 소집한다. ② 심의위원회는 재적위원 과반수 출석으로 개의하고, 출석위원 과반수 찬성으로 의결한다. 다만 긴급한 사유 등 위원장이 필요하다고 인정하는 경우에는 서면으로 심의할 수 있다. ③ 심의위원회",

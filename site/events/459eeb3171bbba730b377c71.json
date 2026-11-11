@@ -119,6 +119,18 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "서구청장",
+      "article": "제8조",
+      "before": "…부산광역시 서구에 주소를 둔 장기ㆍ인체조직기증자 및 장기ㆍ인체조직기증등록자 8. 그 밖에 부산광역시 서구청장이 필요하다고 인정하는 보건의료사업 [제목개정 2022…",
+      "after": "… 부산광역시 서구에 주소를 둔 장기ㆍ인체조직기증자 및 장기ㆍ인체조직기증등록자 8.「식품위생법」에 따라 건강진단결과서를 발급받아야 하는 사람으로서 다음 각 목의 어느 하나에 해당하는 경우 가. 부산광역시 서구에 주민등록이 되어 있는 경우 나. 부산광역시 서구 소재 집단급식소에서 식품의 조리ㆍ운반ㆍ배식 등 급식에 직접 종사하는 자 다. 부산광역시 서구 소재 「사회복지사업법」에 따른 사회복지시설, 「영유아보육법」에 따른 어린이집에서 식품의 조리ㆍ운반ㆍ배식 등 급식에",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2176371",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": null,
   "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1991349"

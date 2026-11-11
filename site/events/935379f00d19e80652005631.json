@@ -117,6 +117,18 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "부위원장",
+      "article": "제6조",
+      "before": "제6조(위원회 구성) ① 위원장은 부군수가 되고, 부위원장은 산림과장, 간사는 가로수 업무 담당팀장이 된다. <개정 2021.12.30., 2022.…",
+      "after": "제6조(위원회 구성) ① 위원장은 부군수가 되고, 부위원장은 산림녹지과장, 간사는 가로수 업무 담당팀장이 된다. <개정 2021.12.30., 2022.…",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183507",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": {
     "explanation": "도시숲 및 가로수 조성·관리 위원회의 부위원장 직위가 기존 산림과장에서 산림녹지과장으로 변경되었습니다.",
     "old_quote": "제6조: 제6조(위원회 구성) ① 위원장은 부군수가 되고, 부위원장은 산림과장, 간사는 가로수 업무 담당팀장이 된다. <개정 2021.12.30., 2022.9.2.> ② 위원의 임기는 2년으로 하되 한번만 연임할 수 있으며, 공무원은 그 직위에 재직하는 기간으로 한다. ③ 위원회 구성 시 위촉직 위원은「양성평등기본법」제21조제2항에 따라 구성한다. <개정 2021.12.30.>",

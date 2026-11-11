@@ -142,6 +142,18 @@
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "부위원장",
+      "article": "제3조",
+      "before": "… 포함한 15명 이내의 위원으로 구성한다. ②위원장은 부군수가 되고, 부위원장은 기획예산실장이 된다. <개정 1996. 8. 16, 2022. 9. 2.> ③위원은 군의 각 …",
+      "after": "…포함한 15명 이내의 위원으로 구성한다. ② 위원장은 부군수가 되고, 부위원장은 기획조정실장이 된다. <개정 1996. 8. 16, 2022. 9. 2., 2026.11.9.…",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183457",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": {
     "explanation": "재정계획 심의위원회 부위원장의 직위를 '기획예산실장'에서 '기획조정실장'으로 변경함.",
     "old_quote": "제3조: 제3조(구성) ①위원회는 위원장을 포함한 15명 이내의 위원으로 구성한다. ②위원장은 부군수가 되고, 부위원장은 기획예산실장이 된다. <개정 1996. 8. 16, 2022. 9. 2.> ③위원은 군의 각 실ㆍ과ㆍ단ㆍ소장 및 지방재정분야에 관한 학식과 경험이 풍부한 사람 중에서 군수가 위촉하는 자로 한다. <개정 2021. 12. 30., 2022. 9. 2., 2023. 12. 29.> ④위원중 위촉위원의 임기는 2년으로 하되, 연임할 수 있다.",

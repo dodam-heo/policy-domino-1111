@@ -727,6 +727,18 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "국가유산청장",
+      "article": "제14조",
+      "before": "…산의 훼손, 멸실 또는 분실 등에 대비한 보험증서 사본 2. 소유자 동의서 3. 전시계획서(전시 기간, 전시 장소 및 전시 환경을 포함한다) ② 국가유산청장은 법 제27조…",
+      "after": "…산의 훼손, 멸실 또는 분실 등에 대비한 보험증서 사본 2. 소유자 동의서 3. 전시ㆍ조사ㆍ연구계획서(전시ㆍ조사ㆍ연구의 기간, 장소 및 환경을 포함한다) ② 국가유산청장은 법 제27…",
+      "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B7%BC%ED%98%84%EB%8C%80%EB%AC%B8%ED%99%94%EC%9C%A0%EC%82%B0%EC%9D%98%20%EB%B3%B4%EC%A1%B4%20%EB%B0%8F%20%ED%99%9C%EC%9A%A9%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": null,
   "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B7%BC%ED%98%84%EB%8C%80%EB%AC%B8%ED%99%94%EC%9C%A0%EC%82%B0%EC%9D%98%20%EB%B3%B4%EC%A1%B4%20%EB%B0%8F%20%ED%99%9C%EC%9A%A9%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"

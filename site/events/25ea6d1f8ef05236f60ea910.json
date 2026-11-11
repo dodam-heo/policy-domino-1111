@@ -273,6 +273,7 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [],
   "policy_analysis": null,
   "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1440033"

@@ -117,6 +117,18 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "부위원장",
+      "article": "제4조",
+      "before": "…부위원장 1명을 포함하여 9명 이내의 위원으로 구성한다. ② 위원회의 위원장은 제1부시장이 되고, 부위원장은 위원 중에서 호선(互選)한다. ③ 위원회의 위원 중 당…",
+      "after": "…부위원장 1명을 포함하여 9명 이내의 위원으로 구성한다. ② 위원회의 위원장은 제2부시장이 되고, 부위원장은 위원 중에서 호선(互選)한다. <개정 2026.11.6…",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182787",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": {
     "explanation": "향토유산보호위원회 위원장을 기존 제1부시장에서 제2부시장으로 변경함.",
     "old_quote": "제4조: 제4조(위원회의 구성과 임기) ① 위원회는 위원장 1명과 부위원장 1명을 포함하여 9명 이내의 위원으로 구성한다. ② 위원회의 위원장은 제1부시장이 되고, 부위원장은 위원 중에서 호선(互選)한다. ③ 위원회의 위원 중 당연직 위원은 향토유산 업무 담당 국장으로 하고, 위촉직 위원은 다음 각 호에 해당하는 사람 중에서 시장이 위촉한다. 1. 역사ㆍ고고학ㆍ문화유산 등 관련 전문분야에 학식과 경험이 풍부한 사람 2. 향토유산의 보존 또는 활용에 관련된 분야에 식견과 경험이 풍부한 사람 3. 그 밖에 향토유산과 관련하여 시장이 필요하다고 인정하는 사람 ④ 위촉직 위원의 임기는 3년으로 하고, 한 차례만 연임할 수 있다",

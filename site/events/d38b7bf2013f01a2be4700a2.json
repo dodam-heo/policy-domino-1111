@@ -1133,6 +1133,18 @@
   ],
   "institutions": [],
   "dependent_rules": [],
+  "direct_actor_leads": [
+    {
+      "actor": "부구청장",
+      "article": "제26조",
+      "before": "…다. <개정 2019.12.31> ③ 위원회의 위원장은 부구청장이 되며, 위원은 민원감사담당관 및 관련 분야 (과장급)으로 하되, 위원회 개최시마다 위원장이 임명한다. <개정…",
+      "after": "…다. <개정 2019.12.31> ③ 위원회의 위원장은 부구청장이 되며, 위원은 감사담당관 및 관련 분야 (과장급)으로 하되, 위원회 개최시마다 위원장이 임명한다. <개정…",
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182329",
+      "verification": "explicit_actor_near_changed_words_in_both_versions",
+      "operational_program_verified": false,
+      "required_action_verified": false
+    }
+  ],
   "policy_analysis": {
     "explanation": "주요 변경: 민원감사담당관 명칭이 감사담당관으로 변경되었습니다.",
     "old_quote": "제10조: 제10조(사전준비) ① 민원감사담당관은 제5조에 따라 세부 감사계획을 수립하거나 감사를 실시하기 전에 다음 각 호의 감사자료를 수집ㆍ분석하는 등 사전 준비를 철저히 하여야 한다. <개정 2018.12.31.> 1. 관계법령 및 훈령 지침 예규 등 내부 규정 2. 감사대상기관 또는 부서의 기능ㆍ조직ㆍ인력ㆍ예산 등 일반현황 3. 주요업무계획 및 심사분석 결과 4. 성과계획서와 성과보고서 5. 언론보도사항, 지방의회의 논의사항 6. 기존 감사결과 및 처분요구 집행상황 7. 그 밖에 민원, 감사정보, 감사대상 일부에 대한 표본조사 등 각종 감사자료 <개정 2019.12.31> ② 민원감사담당관은 제1항 각 호의 감사",
