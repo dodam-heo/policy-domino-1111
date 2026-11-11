@@ -1,6 +1,6 @@
 {
   "schema": "policy-domino-unified-ui-v1",
-  "generated_at": "2026-11-11T11:39:21.473012+00:00",
+  "generated_at": "2026-11-11T11:45:00.970846+00:00",
   "scope": "source-backed version catalog; institutional actions only for exact citation evidence",
   "total_source_versions_saved": 1372,
   "events": [
@@ -9127,7 +9127,14 @@
       "priority_reasons": [],
       "comparison_status": "partial_unverified",
       "relationship": "same_official_id_revision",
-      "policy_analysis": null,
+      "policy_analysis": {
+        "explanation": "공공조형물 건립 심의 위원회의 당연직위원 구성 중 기존 교육문화국장이 문화관광국장으로 변경되었습니다.",
+        "old_quote": "제9조: 제9조(위원회의 구성) ① 위원회는 위원장 1명을 포함한 12명으로 구성한다. <개정 2025.1.10.> ② 시장은 다음 각 호의 사람 중 4명을 당연직위원으로 임명한다. 1. 교육문화국장 2. 문화예술 관련 부서의 장 3. 공공조형물 건립 장소의 재산관리관 <개정 2025.1.10.> 4. 도시디자인 관련 부서의 장 ③ 시장은 다음 각 호의 사람 중 8명을 위촉직위원으로 위촉한다. 1. 고양시의회에서 추천하는 의원 2명 <개정 2021.7.13.> 2. 공공조형물에 관하여 학식과 경험이 있는 해당분야의 전문가 3. 공공조형물이 설치되는 지역주민 대표 (이해관계인 또는 건립 주체일 경우에는 제외) <신설 20",
+        "new_quote": "제9조: 제9조(위원회의 구성) ① 위원회는 위원장 1명을 포함한 12명으로 구성한다. <개정 2025.1.10.> ② 시장은 다음 각 호의 사람 중 4명을 당연직위원으로 임명한다. 1. 문화관광국장 <개정 2026.11.6.> 2. 문화예술 관련 부서의 장 3. 공공조형물 건립 장소의 재산관리관 <개정 2025.1.10.> 4. 도시디자인 관련 부서의 장 ③ 시장은 다음 각 호의 사람 중 8명을 위촉직위원으로 위촉한다. 1. 고양시의회에서 추천하는 의원 2명 <개정 2021.7.13.> 2. 공공조형물에 관하여 학식과 경험이 있는 해당분야의 전문가 3. 공공조형물이 설치되는 지역주민 대표 (이해관계인 또는 건립 주체일",
+        "program_quote": "제9조: 제9조(위원회의 구성) ① 위원회는 위원장 1명을 포함한 12명으로 구성한다. <개정 2025.1.10.> ② 시장은 다음 각 호의 사람 중 4명을 당연직위원으로 임명한다. 1. 문화관광국장 <개정 2026.11.6.> 2. 문화예술 관련 부서의 장 3. 공공조형물 건립 장소의 재산관리관 <개정 2025.1.10.> 4. 도시디자인 관련 부서의 장 ③ 시장은 다음 각 호의 사람 중 8명을 위촉직위원으로 위촉한다. 1. 고양시의회에서 추천하는 의원 2명 <개정 2021.7.13.> 2. 공공조형물에 관하여 학식과 경험이 있는 해당분야의 전문가 3. 공공조형물이 설치되는 지역주민 대표 (이해관계인 또는 건립 주체일",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      },
       "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2011357",
       "detail_url": "events/83b36851c2a109dc9912df58.json",
@@ -10735,7 +10742,14 @@
       "priority_reasons": [],
       "comparison_status": "changed",
       "relationship": "same_official_id_revision",
-      "policy_analysis": null,
+      "policy_analysis": {
+        "explanation": "서울특별시 금천구 교통안전 기본 조례 개정에 따라 교통안전정책심의위원회의 기능 및 회의 조항의 조문 번호와 체계가 변경되었습니다.",
+        "old_quote": "제10조: 제10조(회의) ① 회의는 정기회의와 임시회의로 구분한다. ② 정기회의는 매년 1회 개최하고, 임시회의는 위원장이 필요하다고 인정할 때에는 소집할 수 있다. ③ 위원회는 재적위원 과반수의 출석으로 개의하고 출석위원 과반수의 찬성으로 의결한다. ④ 삭제 <2025.7.24.> ⑤ 심의 사항이 경미하거나 위원장이 필요하다고 인정할 때에는 서면심의로 회의에 갈음 할 수 있다. ⑥ 회의에 참석하는 금천구 공무원이 아닌 위원에 대해서는 예산의 범위에서 수당ㆍ여비 등의 실비를 지급할 수 있다.\n제11조: 제11조(자료의 제출 등) 위원장은 관내 교통안전 관련 기관 및 단체, 기타 관계되는 사람 등에게 교통안전 업무수행상",
+        "new_quote": "제10조: 제10조(기능) 위원회는 다음 각 호에 따른 사항을 심의한다. <개정 2023.12.29.> 1. 지역교통안전기본계획의 수립ㆍ변경 2. 교통안전시행계획의 목표설정 및 사후 평가 3. 교통안전개선대책의 수립 및 평가에 관한 사항 4. 교통안전진단 사업 대상 선정 및 평가 5. 이밖에 구청장이 지역교통안전 증진을 위해 필요하다고 인정하는 사항 [제9조에서 이동, 종전 제10조는 제11조로 이동 <2026.11.5.>]\n제11조: 제11조(회의) ① 회의는 정기회의와 임시회의로 구분한다. ② 정기회의는 매년 1회 개최하고, 임시회의는 위원장이 필요하다고 인정할 때에는 소집할 수 있다. ③ 위원회는 재적위원 과반수의",
+        "program_quote": "제10조: 제10조(기능) 위원회는 다음 각 호에 따른 사항을 심의한다. <개정 2023.12.29.> 1. 지역교통안전기본계획의 수립ㆍ변경 2. 교통안전시행계획의 목표설정 및 사후 평가 3. 교통안전개선대책의 수립 및 평가에 관한 사항 4. 교통안전진단 사업 대상 선정 및 평가 5. 이밖에 구청장이 지역교통안전 증진을 위해 필요하다고 인정하는 사항 [제9조에서 이동, 종전 제10조는 제11조로 이동 <2026.11.5.>]\n제11조: 제11조(회의) ① 회의는 정기회의와 임시회의로 구분한다. ② 정기회의는 매년 1회 개최하고, 임시회의는 위원장이 필요하다고 인정할 때에는 소집할 수 있다. ③ 위원회는 재적위원 과반수의",
+        "verified": true,
+        "model": "gemini-3.5-flash-lite"
+      },
       "impact_level": "normal",
       "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2173469",
       "detail_url": "events/814048545046ee8c5768c524.json",
@@ -34602,22 +34616,22 @@
       "partial_unverified": 303,
       "changed": 128
     },
-    "ai_explanation_attempts": 10,
-    "ai_verified_explanations": 5,
+    "ai_explanation_attempts": 5,
+    "ai_verified_explanations": 6,
     "ai_failures": 2,
     "ai_failure_reasons": {
       "UnverifiedAnalysis:Explanation contains unsupported numerical claim": 1,
       "AI_HTTP_503:provider_rejected_request": 1
     },
-    "policy_ai_summaries": 230,
+    "policy_ai_summaries": 232,
     "ai_configured": true,
-    "policy_summaries_pending": 65
+    "policy_summaries_pending": 63
   },
   "coverage": {
     "alio_public_institutions": 355,
     "alio_reported": 355,
     "alio_source_url": "https://www.alioplus.go.kr/organization/organByTypeList.do?schApbaGb=APBA&pageNo=1",
-    "alio_updated_at": "2026-11-11T11:36:53.620512+00:00",
+    "alio_updated_at": "2026-11-11T11:43:41.247980+00:00",
     "gov24_programs": 10942,
     "gov24_agencies": 686,
     "gov24_agency_types": {
