@@ -35,7 +35,7 @@ class CoverageCompletionTests(unittest.TestCase):
             self.assertTrue(parent[0]["complete"])
             self.assertTrue(parent[0]["split_verified"])
             self.assertEqual(parent[0]["reported"], parent[0]["collected"])
-            self.assertEqual(ledger["backfill"]["admrul|1|3"], "2026-07-09")
+            self.assertEqual(ledger["backfill"]["admrul|1|3"], "2026-08-06")
 
     def test_annual_named_standard_is_candidate_not_verified_citation(self):
         doc = {"source": "admrul",
