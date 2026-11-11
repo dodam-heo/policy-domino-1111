@@ -1983,7 +1983,7 @@
       "stage": "split_split_split_split_split_historical",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T20:07:39.543593+00:00"
+      "checked_at": "2026-11-11T21:46:15.273590+00:00"
     },
     "ordin|2||2026-09-22|2026-10-21|historical": {
       "reported": 4242,
@@ -2657,7 +2657,14 @@
     "ordin|2262999|2136273": 2,
     "ordin|2262963|2134005": 2,
     "admrul|54944|2100000280992": 1,
-    "admrul|75731|2100000280906": 1
+    "admrul|75731|2100000280906": 1,
+    "admrul|50500|2100000280904": 1,
+    "admrul|82157|2100000280846": 1,
+    "ordin|2262907|2131559": 2,
+    "admrul|52812|2100000280398": 1,
+    "admrul|2087933|2100000280364": 1,
+    "admrul|78562|2100000278994": 1,
+    "admrul|2040288|2100000278948": 2
   },
   "errors": {
     "admrul|40796|2100000287994": "RuntimeError: official_api_network_error: URLError",
@@ -2754,23 +2761,25 @@
     "ordin|2265498|2145827": "predecessor_not_found",
     "ordin|2263834|2139187": "predecessor_not_found",
     "ordin|2262999|2136273": "predecessor_not_found",
-    "ordin|2262963|2134005": "predecessor_not_found"
+    "ordin|2262963|2134005": "predecessor_not_found",
+    "ordin|2262907|2131559": "predecessor_not_found",
+    "admrul|2040288|2100000278948": "TimeoutError: collection_budget_reached"
   },
-  "stream_offset": 2,
+  "stream_offset": 8,
   "last_run": "2026-11-11",
   "last_run_stats": {
-    "detail_attempted": 31,
-    "complete_originals_added": 15,
-    "compared_pairs_processed": 25,
-    "failed_windows": 15,
+    "detail_attempted": 7,
+    "complete_originals_added": 1,
+    "compared_pairs_processed": 5,
+    "failed_windows": 3,
     "streams_checked": 6,
-    "indexed_unique_versions": 28929,
-    "saved_indexed_originals": 2243,
-    "verified_complete_originals": 520,
-    "pending_index_versions": 26686,
-    "indexed_versions_without_comparison": 28161,
+    "indexed_unique_versions": 28935,
+    "saved_indexed_originals": 2255,
+    "verified_complete_originals": 521,
+    "pending_index_versions": 26680,
+    "indexed_versions_without_comparison": 28163,
     "year_search_year": 2027
   },
-  "annual_kind_offset": 2,
-  "failed_retry_offset": 4
+  "annual_kind_offset": 4,
+  "failed_retry_offset": 6
 }

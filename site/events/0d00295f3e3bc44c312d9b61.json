@@ -1,0 +1,117 @@
+{
+  "id": "admrul|52812|2100000280398",
+  "title": "통계작성의 변경승인(협의) 고시(기업체장애인고용실태조사)",
+  "source": "admrul",
+  "kind": "고시",
+  "ministry": "국가데이터처",
+  "published_at": "2026-06-04",
+  "effective_date": "2027-01-31",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000280398",
+  "category": "행정절차·인허가",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 90,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(기업체장애인고용실태조사)",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000280398"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(기업체장애인고용실태조사)",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000280398"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(기업체장애인고용실태조사)",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000280398"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "본문",
+      "before": "1. 통계의 명칭 : 기업체장애인고용실태조사 2. 통계작성기관의 명칭 : 한국장애인고용공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제383002호 [2005.07.25.] 4. 통계작성의 변경 연월일 : 2025.06.13. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "after": "1. 통계의 명칭 : 기업체장애인고용실태조사 2. 통계작성기관의 명칭 : 한국장애인고용공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제383002호 [2005.07.25.] 4. 통계작성의 변경 연월일 : 2027.01.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…] : 제383002호 [2005.07.25.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2025.06.13.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…] : 제383002호 [2005.07.25.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2027.01.31.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 0
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": {
+    "explanation": "기업체장애인고용실태조사 통계작성의 변경 연월일이 2025년 6월 13일에서 2027년 1월 31일로 변경되었습니다.",
+    "old_quote": "본문: 1. 통계의 명칭 : 기업체장애인고용실태조사 2. 통계작성기관의 명칭 : 한국장애인고용공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제383002호 [2005.07.25.] 4. 통계작성의 변경 연월일 : 2025.06.13. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+    "new_quote": "본문: 1. 통계의 명칭 : 기업체장애인고용실태조사 2. 통계작성기관의 명칭 : 한국장애인고용공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제383002호 [2005.07.25.] 4. 통계작성의 변경 연월일 : 2027.01.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+    "program_quote": "본문: 1. 통계의 명칭 : 기업체장애인고용실태조사 2. 통계작성기관의 명칭 : 한국장애인고용공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제383002호 [2005.07.25.] 4. 통계작성의 변경 연월일 : 2027.01.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+    "verified": true,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000259974"
+}

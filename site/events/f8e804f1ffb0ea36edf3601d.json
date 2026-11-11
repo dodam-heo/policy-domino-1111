@@ -114,7 +114,14 @@
   "institutions": [],
   "dependent_rules": [],
   "direct_actor_leads": [],
-  "policy_analysis": null,
+  "policy_analysis": {
+    "explanation": "모범공무원에게 지급되는 월 수당 금액이 기존 5만 원에서 7만 원으로 인상되었습니다.",
+    "old_quote": "제4조: 제4조(모범공무원 수당) ① 모범공무원에게 예산의 범위에서 매월 5만원의 수당을 지급하며, 지급기간은 모범공무원으로 선발된 날이 속하는 달의 다음 달부터 1년간으로 한다. ② 모범공무원 수당은 매월 보수지급일에 지급한다.",
+    "new_quote": "제4조: 제4조(모범공무원 수당) ① 모범공무원에게 예산의 범위에서 매월 7만원의 수당을 지급하며, 지급기간은 모범공무원으로 선발된 날이 속하는 달의 다음 달부터 1년간으로 한다. <개정 2026. 9. 23.> ② 모범공무원 수당은 매월 보수지급일에 지급한다.",
+    "program_quote": "제4조: 제4조(모범공무원 수당) ① 모범공무원에게 예산의 범위에서 매월 7만원의 수당을 지급하며, 지급기간은 모범공무원으로 선발된 날이 속하는 달의 다음 달부터 1년간으로 한다. <개정 2026. 9. 23.> ② 모범공무원 수당은 매월 보수지급일에 지급한다.",
+    "verified": true,
+    "model": "gemini-3.5-flash-lite"
+  },
   "impact_level": "normal",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1804039"
 }

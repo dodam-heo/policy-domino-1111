@@ -1,0 +1,117 @@
+{
+  "id": "admrul|82157|2100000280846",
+  "title": "통계작성의 변경승인(협의) 고시(발달장애인일과삶실태조사)",
+  "source": "admrul",
+  "kind": "고시",
+  "ministry": "국가데이터처",
+  "published_at": "2026-06-18",
+  "effective_date": "2027-05-31",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EB%B0%9C%EB%8B%AC%EC%9E%A5%EC%95%A0%EC%9D%B8%EC%9D%BC%EA%B3%BC%EC%82%B6%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29",
+  "category": "행정절차·인허가",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 90,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(발달장애인일과삶실태조사)",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EB%B0%9C%EB%8B%AC%EC%9E%A5%EC%95%A0%EC%9D%B8%EC%9D%BC%EA%B3%BC%EC%82%B6%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(발달장애인일과삶실태조사)",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EB%B0%9C%EB%8B%AC%EC%9E%A5%EC%95%A0%EC%9D%B8%EC%9D%BC%EA%B3%BC%EC%82%B6%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(발달장애인일과삶실태조사)",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EB%B0%9C%EB%8B%AC%EC%9E%A5%EC%95%A0%EC%9D%B8%EC%9D%BC%EA%B3%BC%EC%82%B6%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC%29"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "본문",
+      "before": "1. 통계의 명칭 : 발달장애인일과삶실태조사 2. 통계작성기관의 명칭 : 한국장애인고용공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제383005호 [2022.06.10.] 4. 통계작성의 변경 연월일 : 2025.06.15. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "after": "1. 통계의 명칭 : 발달장애인일과삶실태조사 2. 통계작성기관의 명칭 : 한국장애인고용공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제383005호 [2022.06.10.] 4. 통계작성의 변경 연월일 : 2027.05.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…] : 제383005호 [2022.06.10.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2025.06.15.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…] : 제383005호 [2022.06.10.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2027.05.31.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 0
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "direct_actor_leads": [],
+  "policy_analysis": {
+    "explanation": "발달장애인일과삶실태조사의 통계작성 변경 연월일이 2025년 6월 15일에서 2027년 5월 31일로 연기 및 변경되었습니다.",
+    "old_quote": "본문: 1. 통계의 명칭 : 발달장애인일과삶실태조사 2. 통계작성기관의 명칭 : 한국장애인고용공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제383005호 [2022.06.10.] 4. 통계작성의 변경 연월일 : 2025.06.15. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+    "new_quote": "본문: 1. 통계의 명칭 : 발달장애인일과삶실태조사 2. 통계작성기관의 명칭 : 한국장애인고용공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제383005호 [2022.06.10.] 4. 통계작성의 변경 연월일 : 2027.05.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+    "program_quote": "본문: 1. 통계의 명칭 : 발달장애인일과삶실태조사 2. 통계작성기관의 명칭 : 한국장애인고용공단 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제383005호 [2022.06.10.] 4. 통계작성의 변경 연월일 : 2027.05.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+    "verified": true,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000259978"
+}
