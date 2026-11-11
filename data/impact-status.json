@@ -1,11 +1,15 @@
 {
   "official_programs": 9683,
   "comparisons_considered": 207,
-  "verified_institutional_tasks": 1,
+  "verified_institutional_tasks": 6,
   "comparison_statuses": {
-    "partial_unverified": 207
+    "changed": 2,
+    "partial_unverified": 205
   },
   "ai_explanation_attempts": 0,
   "ai_verified_explanations": 0,
-  "ai_failures": 0
+  "ai_failures": 0,
+  "policy_ai_summaries": 0,
+  "ai_configured": false,
+  "policy_summaries_pending": 52
 }
