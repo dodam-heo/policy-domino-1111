@@ -198,6 +198,16 @@ jobs:
               "priority_examples":[{"title":e["title"],
                 "reasons":e["priority_reasons"][:2]} for e in high[:5]]},
               ensure_ascii=False))
+          for e in high:
+              details=e.get("impact_assessment",{})
+              print("SCORE_EVIDENCE",json.dumps({
+                  "title":e["title"],"classification":details.get("classification"),
+                  "score_min":details.get("score_min"),
+                  "components":{name:{"score":axis["score"],
+                                   "basis":axis["evidence"][:1]}
+                                 for name,axis in details.get("axes",{}).items()},
+                  "featured_indices":details.get("featured_change_indices",[])},
+                  ensure_ascii=False))
           for e in high[:7]:
               detail=json.loads((root/e["detail_url"]).read_text("utf8"))
               samples=[]
