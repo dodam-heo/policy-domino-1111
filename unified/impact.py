@@ -13,7 +13,7 @@ import os
 from pathlib import Path
 import re
 
-from .engine import hash256, clean, load, store, save_json, relative_path
+from .engine import hash256, clean, load, store, save_json, relative_path, YEAR
 
 REFERENCES = re.compile(r"[「｢]([^」｣]{2,180})[」｣]\s*(제\s*\d+\s*조(?:의\s*\d+)?)?")
 ARTICLE = re.compile(r"제\s*\d+\s*조(?:의\s*\d+)?")
@@ -258,6 +258,60 @@ def operating_value_proof(program: dict, doc: dict, change: dict) -> dict | None
             "numeric_value_in_operating_criteria": True}
 
 
+
+def named_standards(title: str) -> list[str]:
+    """Find distinctive standards explicitly named in an official notice.
+
+    Annual year changes are ignored; similar policy subjects alone are
+    never sufficient evidence for a program linkage.
+    """
+    title = YEAR.sub("", clean(title))
+    parts = re.split(r"\s+및\s+|[,·]|(?<=[가-힣])과\s+(?=[가-힣])|(?<=[가-힣])와\s+(?=[가-힣])", title)
+    excluded = {"선정기준", "지원기준", "운영기준", "고시내용",
+                "업무처리", "세부기준", "일부개정", "행정규칙"}
+    terms = []
+    for part in parts:
+        part = re.sub(r"(?:에\s*관한|에\s*따른|의\s*개정).*?$", "", part).strip(" ()[]")
+        if len(re.findall(r"[가-힣]", part)) < 6 or plain(part) in excluded:
+            continue
+        if part not in terms:
+            terms.append(part)
+    return terms
+
+
+def named_standard_proof(program: dict, doc: dict, change: dict) -> dict | None:
+    """An official program explicitly using a changed named standard is
+    a review candidate, NOT a verified direct legal citation or update.
+    """
+    if doc.get("source") != "admrul":
+        return None
+    old, new = change.get("before", ""), change.get("after", "")
+    if not old or not new or old == new:
+        return None
+    old_values = set(re.findall(r"\d[\d,]*(?:\.\d+)?", old))
+    new_values = set(re.findall(r"\d[\d,]*(?:\.\d+)?", new))
+    if not old_values.symmetric_difference(new_values):
+        return None
+    for phrase in named_standards(doc.get("title", "")):
+        for field, value in program.get("criteria", {}).items():
+            if not value or plain(phrase) not in plain(value):
+                continue
+            removed, added = sorted(old_values-new_values), sorted(new_values-old_values)
+            numeric = (len(removed) == len(added) == 1 and
+                       bool(re.search(r"(?<![\d,])" + re.escape(removed[0]) +
+                                      r"(?![\d,])", value)))
+            return {
+                "proof_type": "explicit_named_standard_in_official_criteria",
+                "reference_quote": doc["title"] + " · " + change.get("clause", ""),
+                "standard_quote": phrase, "service_field": field,
+                "service_quote": value[:1200],
+                "old_value": removed[0] if numeric else "",
+                "new_value": added[0] if numeric else "",
+                "numeric_value_in_operating_criteria": numeric,
+            }
+    return None
+
+
 def impact_for(doc: dict, comparison: dict, programs: list[dict]) -> list[dict]:
     if comparison.get("status") not in ("changed", "partial_unverified"):
         return []
@@ -268,13 +322,20 @@ def impact_for(doc: dict, comparison: dict, programs: list[dict]) -> list[dict]:
     reference_titles.update(plain(m.group(1)) for m in REFERENCES.finditer(doc.get("after_context", "")))
     for change in comparison["changes"]:
         reference_titles.update(plain(m.group(1)) for m in REFERENCES.finditer(change.get("after", "")))
-    # Retrieval narrows candidates; proof() still validates exact evidence.
-    programs = [p for p in programs if any(title and title in plain(" ".join(p["basis"].values()))
-                                          for title in reference_titles)]
+    # Exact legal citations and explicitly named operating standards are
+    # separate paths. Do not treat a standard-name match as legal proof.
+    standards = [plain(x) for x in named_standards(doc.get("title", ""))]
+    programs = [p for p in programs if (
+        any(title and title in plain(" ".join(p["basis"].values()))
+            for title in reference_titles)
+        or (doc.get("source") == "admrul" and standards and
+            any(term in plain(" ".join(p["criteria"].values()))
+                for term in standards)))]
     for change in comparison["changes"]:
         for p in programs:
             evidence = (proof(p, doc, change) or operating_value_proof(p, doc, change)
-                        or delegated_proof(p, doc, change))
+                        or delegated_proof(p, doc, change)
+                        or named_standard_proof(p, doc, change))
             if evidence is None:
                 continue
             field = evidence["service_field"]
@@ -285,6 +346,10 @@ def impact_for(doc: dict, comparison: dict, programs: list[dict]) -> list[dict]:
             elif evidence["proof_type"] == "delegated_rule_and_operating_criterion":
                 action = (field + "의 '" + evidence["criterion_term"] + "' 적용 기준을 " +
                           doc["title"] + "의 개정 기준과 대조하고, 지원 안내·대상 심사·지급 산식의 수정 항목 확인")
+            elif evidence["proof_type"] == "explicit_named_standard_in_official_criteria":
+                action = (field + "에서 명시적으로 사용 중인 '" +
+                          evidence["standard_quote"] + "'을 " + doc["title"] +
+                          "의 변경 전후 기준과 대조하고, 적용 대상·안내·심사 기준의 수정 필요 여부 검토")
             else:
                 action = (field + "에서 인용한 " + change["clause"] +
                           "의 개정 문구를 확인하고 사업의 해당 처리기준·안내·심사 절차에 반영할 항목 검토")
@@ -296,7 +361,9 @@ def impact_for(doc: dict, comparison: dict, programs: list[dict]) -> list[dict]:
                 "required_change": action,
                 "before": change["before"], "after": change["after"],
                 "evidence": evidence,
-                "status": "review_of_verified_citation",
+                "status": ("review_of_named_standard"
+                           if evidence["proof_type"] == "explicit_named_standard_in_official_criteria"
+                           else "review_of_verified_citation"),
                 # This IS NOT a claim that the institution has/has not acted.
             })
     # Multiple file formats of the same official notice are one program task.
@@ -407,8 +474,13 @@ def run(root: Path, limit_events: int = 300) -> dict:
         store(target, payload)
         statuses[comparison.get("status", "")] += 1
         generated.extend(impacted)
+    verified_tasks = sum(a.get("status") == "review_of_verified_citation"
+                         for a in generated)
+    named_standard_leads = sum(a.get("status") == "review_of_named_standard"
+                               for a in generated)
     stats = {"official_programs": len(programs), "comparisons_considered": sum(statuses.values()),
-             "verified_institutional_tasks": len(generated),
+             "verified_institutional_tasks": verified_tasks,
+             "named_standard_review_candidates": named_standard_leads,
              "official_rule_dependencies": dependency_count,
              "comparison_statuses": dict(statuses),
              "ai_explanation_attempts": ai_attempts,
