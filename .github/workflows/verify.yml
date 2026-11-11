@@ -166,4 +166,17 @@ jobs:
               "priority_examples":[{"title":e["title"],
                 "reasons":e["priority_reasons"][:2]} for e in high[:5]]},
               ensure_ascii=False))
+          for e in high[:7]:
+              detail=json.loads((root/e["detail_url"]).read_text("utf8"))
+              samples=[]
+              for change in detail.get("changes",[])[:3]:
+                  windows=change.get("focus") or []
+                  if windows:
+                      w=windows[0]
+                      samples.append({"article":change.get("article"),
+                          "old":str((w.get("before") or {}).get("changed",""))[:140],
+                          "new":str((w.get("after") or {}).get("changed",""))[:140],
+                          "near":str((w.get("after") or {}).get("prefix",""))[-100:]})
+              print("PRIORITY_TRACE",json.dumps({"title":e["title"],
+                  "reasons":e["priority_reasons"],"samples":samples},ensure_ascii=False))
           PY
