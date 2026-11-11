@@ -9,8 +9,69 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182853",
   "category": "공공재정·요율",
-  "primary_change_summary": "제1조 · 그 산하기관장을 → 하부행정기관을",
-  "priority_reasons": [],
+  "primary_change_summary": "제5조 · 신설 → 〈개정 2026ㆍ11ㆍ6〉",
+  "priority_reasons": [
+    "신청·심사·처리 기한 또는 절차 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 45,
+    "score_min": 45,
+    "score_max": 70,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 30,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "신청·심사·처리 기한 또는 절차 변경",
+            "article": "제5조",
+            "before": "… 범위에서 다음 각 호에 따라 지급할 수 있다. 1. 본안소송(행정ㆍ민사소송): 1인당 300,000 원 이내 2. 신청사건(행정ㆍ민사소송) 및 「소액사건 심판법」에 따른 소액사건: …",
+            "after": "…따라 지급할 수 있다. 1. 본안소송(행정ㆍ민사소송): 사건당 500,000 원 이내 2. 신청사건(행정ㆍ민사소송) 및 「소액사건 심판법」에 따른 소액사건: …",
+            "source_title": "이천시 소송수행자포상금 지급 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182853"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "이천시 소송수행자포상금 지급 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182853"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "이천시 소송수행자포상금 지급 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182853"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      1
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -48,7 +109,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제5조",
@@ -98,7 +160,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 30
     }
   ],
   "unresolved": [],
@@ -112,6 +175,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1583337"
 }

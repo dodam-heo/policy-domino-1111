@@ -9,8 +9,66 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180883",
   "category": "행정절차·인허가",
-  "primary_change_summary": "제2조 · 2007.6.29., 2009.10.22., 2021.12.22. → 2007.6.29, 2009.10.22, 2021.12.22",
-  "priority_reasons": [],
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "priority_reasons": [
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 15,
+    "score_min": 15,
+    "score_max": 40,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 0,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "실질 기준 변경 근거 미확인 · 문구 정비",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "서울특별시교육청 법률고문 운영 규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180883"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "서울특별시교육청 법률고문 운영 규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180883"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "서울특별시교육청 법률고문 운영 규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180883"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -48,7 +106,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 0
     },
     {
       "article": "제2조의2",
@@ -70,7 +129,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 0
     },
     {
       "article": "제3조",
@@ -120,7 +180,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 0
     },
     {
       "article": "제4조",
@@ -170,7 +231,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 0
     },
     {
       "article": "제4조의2",
@@ -206,7 +268,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 0
     },
     {
       "article": "제4조의3",
@@ -256,7 +319,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 0
     },
     {
       "article": "제5조",
@@ -320,7 +384,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 0
     },
     {
       "article": "제6조",
@@ -342,7 +407,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 0
     },
     {
       "article": "제7조",
@@ -406,7 +472,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 0
     },
     {
       "article": "제8조",
@@ -428,7 +495,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 0
     }
   ],
   "unresolved": [],

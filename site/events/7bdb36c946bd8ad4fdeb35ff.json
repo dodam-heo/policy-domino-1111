@@ -11,10 +11,70 @@
   "category": "급여·지원기준",
   "primary_change_summary": "본문 · * → ※",
   "priority_reasons": [
-    "공식 사업·기관 업무의 변경 조문 인용 확인",
-    "급여·지원금·소득 기준 변경",
-    "지원대상·자격·선정 기준 변경"
+    "자격·권리·의무의 실질 문구 변경",
+    "전국 공통 법정 급여·보장·보험 기준",
+    "별개로 확인된 복수 하위 규정·공공사업 연결 경로"
   ],
+  "impact_assessment": {
+    "classification": "high",
+    "score": 100,
+    "score_min": 100,
+    "score_max": 100,
+    "score_complete": true,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 40,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "자격·권리·의무의 실질 문구 변경",
+            "article": "본문",
+            "before": "… 정한다. 1) 선정기준 [표: 공식 첨부 참조] * 8인 이상 가구의 교육급여 선정기준: 1인 증가시마다 479,599원씩 증가(8인가구: 5,237,174원)…",
+            "after": "… 정한다. 1) 선정기준 [표: 공식 첨부 참조] ※ 8인 이상 가구의 교육급여 선정기준은 7인 가구 선정기준 + (7인 가구 선정기준 － 6인 가구의 선정기준) × {(해당 가구원…",
+            "source_title": "2027년 교육급여의 선정기준 및 최저보장수준",
+            "source_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EA%B5%90%EC%9C%A1%EA%B8%89%EC%97%AC%EC%9D%98%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 35,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "전국 공통 법정 급여·보장·보험 기준",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "2027년 교육급여의 선정기준 및 최저보장수준",
+            "source_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EA%B5%90%EC%9C%A1%EA%B8%89%EC%97%AC%EC%9D%98%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "별개로 확인된 복수 하위 규정·공공사업 연결 경로",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "2027년 교육급여의 선정기준 및 최저보장수준",
+            "source_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EA%B5%90%EC%9C%A1%EA%B8%89%EC%97%AC%EC%9D%98%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0,
+      1,
+      2
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -108,7 +168,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 40
     },
     {
       "article": "표 1 · 금액 (원/월) · 1인가구",
@@ -130,7 +191,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 1 · 금액 (원/월) · 2인가구",
@@ -152,7 +214,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 1 · 금액 (원/월) · 3인가구",
@@ -174,7 +237,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 1 · 금액 (원/월) · 4인가구",
@@ -196,7 +260,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 1 · 금액 (원/월) · 5인가구",
@@ -218,7 +283,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 1 · 금액 (원/월) · 6인가구",
@@ -240,7 +306,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 1 · 금액 (원/월) · 7인가구",
@@ -262,7 +329,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 고등학생 · 교육활동지원비",
@@ -284,7 +352,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 중학생 · 교육활동지원비",
@@ -306,7 +375,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 초등학생 · 교육활동지원비",
@@ -328,7 +398,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     }
   ],
   "unresolved": [],

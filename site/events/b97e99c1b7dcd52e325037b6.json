@@ -9,8 +9,67 @@
   "revision": "폐지제정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000280948",
   "category": "기타 제·개정",
-  "primary_change_summary": "첨부 1 · 환경부고시 → 기후에너지환경부고시",
-  "priority_reasons": [],
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "priority_reasons": [
+    "경미하거나 적용 범위가 제한적인 본문 정비",
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 10,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+            "article": "첨부 1",
+            "before": "◉ 환경부고시 제 2024-34호 수도법 제 조 및 같은 법 시행령 제 조제 항에 따라 년…",
+            "after": "◉ 기후에너지환경부고시 제 2026-49호 수도법 제 조 및 같은 법 시행령 제 조제 항에 따라 년…",
+            "source_title": "2027년도 상수원보호구역 주민지원사업의 재원 조성을 위한 수도사업자의 출연비율",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000280948"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "2027년도 상수원보호구역 주민지원사업의 재원 조성을 위한 수도사업자의 출연비율",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000280948"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "2027년도 상수원보호구역 주민지원사업의 재원 조성을 위한 수도사업자의 출연비율",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000280948"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -132,21 +191,24 @@
           }
         }
       ],
-      "diff_window_count": 17
+      "diff_window_count": 17,
+      "substance_score": 10
     },
     {
       "article": "첨부 2",
       "before": "조문별 제개정이유서 \n조문별 제개정이유서\n ◇ 행정규칙명\n ○ 2025년도 상수원보호구역 주민지원사업의 재원 조성을 위한 수도사업자의 출연비율\n ◇ 제․개정 이유\n ○ 「수도법」 제10조 및 같은 법 시행령 제19조제2항에 따라 「2025년도 상수원보호구역 주민지원사업의 재원 조성을 위한 수도사업자의 출연비율」을 매년 고시\n ◇ 주요내용\n ○ 「수도법」 제10조 및 같은 법 시행령 제19조제2항에 따라 2025년도 상수원 보호구역 주민지원사업의 재원 조성을 위하여 수도사업자가 부담하는 출연금은 2023년도 수도사업 판매수입금의 100분의 5로 하고, 2023년도 한국수자원공사가 공급한 정수의 전국 평균가격은 1세제곱미터당 432.8원으로 함",
       "after": "[삭제]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "첨부 3",
       "before": "조문별 제ž개정이유서\n◇행정규칙명\n ○ 2025년도 상수원보호구역 주민지원사업의 재원 조성을 위한\n수도사업자의 출연비율\n◇ 제ㆍ개정 이유\n ○「수도법」 제10조 및 같은 법 시행령 제19조제2항에 따라 「2025년도 \n상수원보호구역 주민지원사업의 재원 조성을 위한 수도사업자의 출연비율」을 \n매년 고시\n◇ 주요내용\n ○「수도법」 제10조 및 같은 법 시행령 제19조제2항에 따라 2025년도 상수원\n보호구역 주민지원사업의 재원 조성을 위하여 수도사업자가 부담하는 \n출연금은 2023년도 수도사업 판매수입금의 100분의 5로 하고, 2023년도 \n한국수자원공사가 공급한 정수의 전국 평균가격은 1세제곱미터당 432.8원\n으로 함",
       "after": "[삭제]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     }
   ],
   "unresolved": [],

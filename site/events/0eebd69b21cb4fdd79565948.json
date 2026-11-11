@@ -10,7 +10,68 @@
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183495",
   "category": "공공재정·요율",
   "primary_change_summary": "제2조 · 기획예산실장이 → 기획조정실장이",
-  "priority_reasons": [],
+  "priority_reasons": [
+    "기관 기능·권한·업무분장 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 20,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "기관 기능·권한·업무분장 변경",
+            "article": "제2조",
+            "before": "… 구성한다. ②위원장은 부군수가 되고 부위원장은 기획예산실장이 되며 위원장이 부득이한 사유로 직무를 수행할 수 없을 때에는 부위원장이 그 권한…",
+            "after": "…구성한다. ② 위원장은 부군수가 되고 부위원장은 기획조정실장이 되며 위원장이 부득이한 사유로 직무를 수행할 수 없을 때에는 부위원장이 그 권한…",
+            "source_title": "영덕군 군정조정위원회 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183495"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "영덕군 군정조정위원회 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183495"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "영덕군 군정조정위원회 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183495"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -76,7 +137,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 20
     },
     {
       "article": "제6조",
@@ -112,7 +174,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     }
   ],
   "unresolved": [],

@@ -10,7 +10,65 @@
   "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%86%8D%EC%96%B4%EC%97%85%EC%9D%B8%20%EC%82%B6%EC%9D%98%20%EC%A7%88%20%ED%96%A5%EC%83%81%20%EB%B0%8F%20%EB%86%8D%EC%96%B4%EC%B4%8C%EC%A7%80%EC%97%AD%20%EA%B0%9C%EB%B0%9C%EC%B4%89%EC%A7%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95",
   "category": "기타 제·개정",
   "primary_change_summary": "",
-  "priority_reasons": [],
+  "priority_reasons": [
+    "국가 법률에 따른 전국 단위 규율 범위"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 100,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "종전·현행 원문 비교 대기",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "농어업인 삶의 질 향상 및 농어촌지역 개발촉진에 관한 특별법",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%86%8D%EC%96%B4%EC%97%85%EC%9D%B8%20%EC%82%B6%EC%9D%98%20%EC%A7%88%20%ED%96%A5%EC%83%81%20%EB%B0%8F%20%EB%86%8D%EC%96%B4%EC%B4%8C%EC%A7%80%EC%97%AD%20%EA%B0%9C%EB%B0%9C%EC%B4%89%EC%A7%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95"
+          }
+        ]
+      },
+      "scope": {
+        "score": 35,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "국가 법률에 따른 전국 단위 규율 범위",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "농어업인 삶의 질 향상 및 농어촌지역 개발촉진에 관한 특별법",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%86%8D%EC%96%B4%EC%97%85%EC%9D%B8%20%EC%82%B6%EC%9D%98%20%EC%A7%88%20%ED%96%A5%EC%83%81%20%EB%B0%8F%20%EB%86%8D%EC%96%B4%EC%B4%8C%EC%A7%80%EC%97%AD%20%EA%B0%9C%EB%B0%9C%EC%B4%89%EC%A7%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "농어업인 삶의 질 향상 및 농어촌지역 개발촉진에 관한 특별법",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%86%8D%EC%96%B4%EC%97%85%EC%9D%B8%20%EC%82%B6%EC%9D%98%20%EC%A7%88%20%ED%96%A5%EC%83%81%20%EB%B0%8F%20%EB%86%8D%EC%96%B4%EC%B4%8C%EC%A7%80%EC%97%AD%20%EA%B0%9C%EB%B0%9C%EC%B4%89%EC%A7%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "original_saved_comparison_pending",
   "relationship": "",
   "changes": [],
@@ -18,6 +76,6 @@
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": ""
 }

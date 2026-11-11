@@ -11,10 +11,70 @@
   "category": "급여·지원기준",
   "primary_change_summary": "표 1 · 금액 (원/월) · 1인 가구 · 1,230,834 → 1,313,300",
   "priority_reasons": [
-    "공식 사업·기관 업무의 변경 조문 인용 확인",
-    "급여·지원금·소득 기준 변경",
-    "지원대상·자격·선정 기준 변경"
+    "급여·금액·자격·권리 등 실질 기준의 변경",
+    "전국 공통 법정 급여·보장·보험 기준",
+    "별개로 확인된 복수 하위 규정·공공사업 연결 경로"
   ],
+  "impact_assessment": {
+    "classification": "high",
+    "score": 100,
+    "score_min": 100,
+    "score_max": 100,
+    "score_complete": true,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 40,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "급여·금액·자격·권리 등 실질 기준의 변경",
+            "article": "표 1 · 금액 (원/월) · 1인 가구",
+            "before": "1,230,834",
+            "after": "1,313,300",
+            "source_title": "2027년 주거급여 선정기준 및 최저보장수준",
+            "source_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80"
+          }
+        ]
+      },
+      "scope": {
+        "score": 35,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "전국 공통 법정 급여·보장·보험 기준",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "2027년 주거급여 선정기준 및 최저보장수준",
+            "source_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80"
+          }
+        ]
+      },
+      "ripple": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "별개로 확인된 복수 하위 규정·공공사업 연결 경로",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "2027년 주거급여 선정기준 및 최저보장수준",
+            "source_url": "https://www.law.go.kr/행정규칙/2027%EB%85%84%20%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC%20%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EC%B5%9C%EC%A0%80%EB%B3%B4%EC%9E%A5%EC%88%98%EC%A4%80"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0,
+      1,
+      2
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -38,7 +98,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 1 · 금액 (원/월) · 2인 가구",
@@ -60,7 +121,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 1 · 금액 (원/월) · 3인 가구",
@@ -82,7 +144,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 1 · 금액 (원/월) · 4인 가구",
@@ -104,7 +167,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 1 · 금액 (원/월) · 5인 가구",
@@ -126,7 +190,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 1 · 금액 (원/월) · 6인 가구",
@@ -148,7 +213,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 1 · 금액 (원/월) · 7인 가구",
@@ -170,7 +236,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 1인 · 1급지 (서울)",
@@ -192,7 +259,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 1인 · 2급지 (경기·인천)",
@@ -214,7 +282,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 1인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
@@ -236,7 +305,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 1인 · 4급지 (그외 지역)",
@@ -258,7 +328,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 2인 · 1급지 (서울)",
@@ -280,7 +351,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 2인 · 2급지 (경기·인천)",
@@ -302,7 +374,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 2인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
@@ -324,7 +397,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 2인 · 4급지 (그외 지역)",
@@ -346,7 +420,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 3인 · 1급지 (서울)",
@@ -368,7 +443,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 3인 · 2급지 (경기·인천)",
@@ -390,7 +466,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 3인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
@@ -412,7 +489,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 3인 · 4급지 (그외 지역)",
@@ -434,7 +512,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 4인 · 1급지 (서울)",
@@ -456,7 +535,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 4인 · 2급지 (경기·인천)",
@@ -478,7 +558,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 4인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
@@ -500,7 +581,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 4인 · 4급지 (그외 지역)",
@@ -522,7 +604,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 5인 · 1급지 (서울)",
@@ -544,7 +627,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 5인 · 2급지 (경기·인천)",
@@ -566,7 +650,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 5인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
@@ -588,7 +673,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 5인 · 4급지 (그외 지역)",
@@ -610,7 +696,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 6인 · 1급지 (서울)",
@@ -632,7 +719,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 6인 · 2급지 (경기·인천)",
@@ -654,7 +742,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 6인 · 3급지 (광역·세종 시 ·수도권 외 특례시)",
@@ -676,7 +765,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "표 2 · 6인 · 4급지 (그외 지역)",
@@ -698,7 +788,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     }
   ],
   "unresolved": [],

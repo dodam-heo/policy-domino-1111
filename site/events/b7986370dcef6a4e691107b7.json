@@ -9,8 +9,69 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%97%B0%EC%B2%9C%EA%B5%B0%EC%82%AC%ED%9A%8C%EC%A1%B0%EC%82%AC%29",
   "category": "행정절차·인허가",
-  "primary_change_summary": "본문 · 2026.08.27. → 2026.12.31.",
-  "priority_reasons": [],
+  "primary_change_summary": "첨부 2 · 412 → 734",
+  "priority_reasons": [
+    "신청·심사·처리 기한 또는 절차 변경",
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 30,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "신청·심사·처리 기한 또는 절차 변경",
+            "article": "첨부 2",
+            "before": "…정에 의하여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. 2026 년 07 월 09일 국 가 데 이 터 처 장 1. 통계의 명칭 : 연천군사회조사 2. 통계…",
+            "after": "…정에 의하여 다음과 같이 통계작성의 변경 승인(협의)를 고시합니다. 2026 년 10 월 29일 국 가 데 이 터 처 장 1. 통계의 명칭 : 연천군사회조사 2. 통계…",
+            "source_title": "통계작성의 변경 승인(협의) 고시(연천군사회조사)",
+            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%97%B0%EC%B2%9C%EA%B5%B0%EC%82%AC%ED%9A%8C%EC%A1%B0%EC%82%AC%29"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경 승인(협의) 고시(연천군사회조사)",
+            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%97%B0%EC%B2%9C%EA%B5%B0%EC%82%AC%ED%9A%8C%EC%A1%B0%EC%82%AC%29"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경 승인(협의) 고시(연천군사회조사)",
+            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%20%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%97%B0%EC%B2%9C%EA%B5%B0%EC%82%AC%ED%9A%8C%EC%A1%B0%EC%82%AC%29"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      2
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -34,7 +95,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 0
     },
     {
       "article": "첨부 1",
@@ -154,7 +216,8 @@
           }
         }
       ],
-      "diff_window_count": 32
+      "diff_window_count": 32,
+      "substance_score": 10
     },
     {
       "article": "첨부 2",
@@ -274,7 +337,8 @@
           }
         }
       ],
-      "diff_window_count": 14
+      "diff_window_count": 14,
+      "substance_score": 30
     }
   ],
   "unresolved": [],
@@ -288,6 +352,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000282088"
 }

@@ -9,8 +9,67 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181583",
   "category": "기타 제·개정",
-  "primary_change_summary": "별표 0000 (특수지근무수당 지급대상 지역 및 기관과 그 등급별 구분표) · 2015.2.23., 2015.4.13., 2015.12.31., 2016.12.29., 2017.2.27., 2017.10.16., 2 → 2026. 11. 2.",
-  "priority_reasons": [],
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "priority_reasons": [
+    "경미하거나 적용 범위가 제한적인 본문 정비",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 50,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 10,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+            "article": "별표 0000 (특수지근무수당 지급대상 지역 및 기관과 그 등급별 구분표)",
+            "before": "… 경상북도교육청 포항산누리오토캠핑장 <나지역> 기관소재지 기관명 시ㆍ군ㆍ구 위치 상주시 화북면 문장로 2645 화북초등학교입석분교장 영덕군 창수면 오서로 1370 창수초등학교인천분교장 <다지역> 기관소재지 기관명…",
+            "after": "… 경상북도교육청 포항산누리오토캠핑장 <나지역> 기관소재지 기관명 시ㆍ군ㆍ구 위치 영덕군 창수면 오서로 1370 창수초등학교인천분교장 <다지역> 기관소재지 기관명 …",
+            "source_title": "경상북도교육감 소속 공무원 특수지 근무수당 지급대상 지역 및 기관과 그 등급에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181583"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "경상북도교육감 소속 공무원 특수지 근무수당 지급대상 지역 및 기관과 그 등급에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181583"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "경상북도교육감 소속 공무원 특수지 근무수당 지급대상 지역 및 기관과 그 등급에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181583"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -132,7 +191,8 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 10
     }
   ],
   "unresolved": [],

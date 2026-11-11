@@ -10,7 +10,68 @@
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183819",
   "category": "급여·지원기준",
   "primary_change_summary": "제7조 · 정책기획국장 → 기획국장",
-  "priority_reasons": [],
+  "priority_reasons": [
+    "기관 기능·권한·업무분장 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 20,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "기관 기능·권한·업무분장 변경",
+            "article": "제7조",
+            "before": "…부위원장, 감사, 총무, 는 위원 중에서 호선하며, 제1항에 따른 당연직 위원은 정책기획국장 , 행정국장, 복지환경국장, 도시국장, 행정지원과장, 축제담당부서의 장으로 하며,…",
+            "after": "…부위원장, 감사, 총무, 는 위원 중에서 호선하며, 제1항에 따른 당연직 위원은 기획국장 , 행정국장, 복지국장, 도시국장, 총무과장, 축제담당부서의 장으로 하며, 위촉직…",
+            "source_title": "대구광역시 북구 축제 운영에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183819"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구광역시 북구 축제 운영에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183819"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구광역시 북구 축제 운영에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183819"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -76,7 +137,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 20
     }
   ],
   "unresolved": [],

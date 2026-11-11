@@ -10,7 +10,65 @@
   "url": "https://www.law.go.kr/행정규칙/%ED%99%98%EA%B2%BD%EC%9C%84%EC%84%B1%20%EA%B4%80%EC%B8%A1%EC%9E%90%EB%A3%8C%EC%9D%98%20%EA%B2%80%EC%A6%9D%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EC%A7%80%EC%83%81%EC%9B%90%EA%B2%A9%EC%9E%A5%EB%B9%84%20%EC%84%A4%EC%B9%98%C2%B7%EC%9A%B4%EC%98%81%20%EC%A7%80%EC%B9%A8",
   "category": "기타 제·개정",
   "primary_change_summary": "",
-  "priority_reasons": [],
+  "priority_reasons": [
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 90,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "종전·현행 원문 비교 대기",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "환경위성 관측자료의 검증을 위한 지상원격장비 설치·운영 지침",
+            "source_url": "https://www.law.go.kr/행정규칙/%ED%99%98%EA%B2%BD%EC%9C%84%EC%84%B1%20%EA%B4%80%EC%B8%A1%EC%9E%90%EB%A3%8C%EC%9D%98%20%EA%B2%80%EC%A6%9D%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EC%A7%80%EC%83%81%EC%9B%90%EA%B2%A9%EC%9E%A5%EB%B9%84%20%EC%84%A4%EC%B9%98%C2%B7%EC%9A%B4%EC%98%81%20%EC%A7%80%EC%B9%A8"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "환경위성 관측자료의 검증을 위한 지상원격장비 설치·운영 지침",
+            "source_url": "https://www.law.go.kr/행정규칙/%ED%99%98%EA%B2%BD%EC%9C%84%EC%84%B1%20%EA%B4%80%EC%B8%A1%EC%9E%90%EB%A3%8C%EC%9D%98%20%EA%B2%80%EC%A6%9D%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EC%A7%80%EC%83%81%EC%9B%90%EA%B2%A9%EC%9E%A5%EB%B9%84%20%EC%84%A4%EC%B9%98%C2%B7%EC%9A%B4%EC%98%81%20%EC%A7%80%EC%B9%A8"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "환경위성 관측자료의 검증을 위한 지상원격장비 설치·운영 지침",
+            "source_url": "https://www.law.go.kr/행정규칙/%ED%99%98%EA%B2%BD%EC%9C%84%EC%84%B1%20%EA%B4%80%EC%B8%A1%EC%9E%90%EB%A3%8C%EC%9D%98%20%EA%B2%80%EC%A6%9D%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EC%A7%80%EC%83%81%EC%9B%90%EA%B2%A9%EC%9E%A5%EB%B9%84%20%EC%84%A4%EC%B9%98%C2%B7%EC%9A%B4%EC%98%81%20%EC%A7%80%EC%B9%A8"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "original_saved_comparison_pending",
   "relationship": "",
   "changes": [],
@@ -18,6 +76,6 @@
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": ""
 }

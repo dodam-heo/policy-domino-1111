@@ -9,8 +9,67 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182777",
   "category": "공공재정·요율",
-  "primary_change_summary": "제3조 · 일자리재정국장, 도시주택정책실장 → 도시정책실장",
-  "priority_reasons": [],
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "priority_reasons": [
+    "경미하거나 적용 범위가 제한적인 본문 정비",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 50,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 10,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+            "article": "제3조",
+            "before": "…다. ② 당연직 위원으로는 제1부시장, 기획조정실장, 일자리재정국장, 도시주택정책실장 , 교통국장, 도로건설사업소장, 기획정책관으로 한다. <개정 2014.9.23.,…",
+            "after": "…다. ② 당연직 위원으로는 제1부시장, 기획조정실장, 도시정책실장 , 교통국장, 경제산업국장, 주택건축국장, 기획정책관으로 한다. <개정 2014.…",
+            "source_title": "고양시 규제개혁위원회 설치 및 운영 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182777"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "고양시 규제개혁위원회 설치 및 운영 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182777"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "고양시 규제개혁위원회 설치 및 운영 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182777"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -62,7 +121,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     }
   ],
   "unresolved": [],

@@ -9,8 +9,71 @@
   "revision": "전부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181095",
   "category": "행정절차·인허가",
-  "primary_change_summary": "제000000조 · [본장신설 2025. 6. 27.] → 삭제",
-  "priority_reasons": [],
+  "primary_change_summary": "제30조 · 의제외 → 의제 외",
+  "priority_reasons": [
+    "자격·권리·의무의 실질 문구 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 40,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "자격·권리·의무의 실질 문구 변경",
+            "article": "제30조",
+            "before": "제30조( 의제외 발언의 금지) ① 모든 발언은 의제외에 미치거나 허가받은 발언의 성질에 반하여서…",
+            "after": "제30조( 의제 외 발언의 금지) ① 모든 발언은 의제 외에 미치거나 허가받은 발언의 성질에 반해서…",
+            "source_title": "인천광역시 계양구의회 회의규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181095"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "인천광역시 계양구의회 회의규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181095"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "인천광역시 계양구의회 회의규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181095"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      21,
+      57,
+      60
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -34,7 +97,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 10
     },
     {
       "article": "제10조",
@@ -154,7 +218,8 @@
           }
         }
       ],
-      "diff_window_count": 12
+      "diff_window_count": 12,
+      "substance_score": 30
     },
     {
       "article": "제11조",
@@ -274,7 +339,8 @@
           }
         }
       ],
-      "diff_window_count": 13
+      "diff_window_count": 13,
+      "substance_score": 10
     },
     {
       "article": "제12조",
@@ -296,7 +362,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 10
     },
     {
       "article": "제13조",
@@ -402,7 +469,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 30
     },
     {
       "article": "제14조",
@@ -466,7 +534,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제15조",
@@ -586,7 +655,8 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 30
     },
     {
       "article": "제16조",
@@ -622,7 +692,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제17조",
@@ -672,7 +743,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 30
     },
     {
       "article": "제18조",
@@ -708,7 +780,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제19조",
@@ -744,7 +817,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제1조",
@@ -766,7 +840,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 0
     },
     {
       "article": "제20조",
@@ -886,7 +961,8 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 30
     },
     {
       "article": "제21조",
@@ -992,7 +1068,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 10
     },
     {
       "article": "제22조",
@@ -1070,7 +1147,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "제23조",
@@ -1134,7 +1212,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 30
     },
     {
       "article": "제24조",
@@ -1170,7 +1249,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 30
     },
     {
       "article": "제25조",
@@ -1206,7 +1286,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제27조",
@@ -1242,7 +1323,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 30
     },
     {
       "article": "제28조",
@@ -1278,7 +1360,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 30
     },
     {
       "article": "제29조",
@@ -1342,7 +1425,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제30조",
@@ -1406,7 +1490,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 40
     },
     {
       "article": "제31조",
@@ -1428,7 +1513,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 30
     },
     {
       "article": "제32조",
@@ -1492,7 +1578,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제33조",
@@ -1584,7 +1671,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 30
     },
     {
       "article": "제34조",
@@ -1606,7 +1694,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 10
     },
     {
       "article": "제35조",
@@ -1628,7 +1717,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 10
     },
     {
       "article": "제37조",
@@ -1650,7 +1740,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 10
     },
     {
       "article": "제38조",
@@ -1672,7 +1763,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 10
     },
     {
       "article": "제39조",
@@ -1708,7 +1800,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제3조",
@@ -1800,7 +1893,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "제41조",
@@ -1920,7 +2014,8 @@
           }
         }
       ],
-      "diff_window_count": 13
+      "diff_window_count": 13,
+      "substance_score": 10
     },
     {
       "article": "제42조",
@@ -2012,7 +2107,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "제43조",
@@ -2132,7 +2228,8 @@
           }
         }
       ],
-      "diff_window_count": 9
+      "diff_window_count": 9,
+      "substance_score": 10
     },
     {
       "article": "제44조",
@@ -2182,7 +2279,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "제46조",
@@ -2302,7 +2400,8 @@
           }
         }
       ],
-      "diff_window_count": 9
+      "diff_window_count": 9,
+      "substance_score": 10
     },
     {
       "article": "제47조",
@@ -2352,7 +2451,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "제48조",
@@ -2430,7 +2530,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 30
     },
     {
       "article": "제49조",
@@ -2550,7 +2651,8 @@
           }
         }
       ],
-      "diff_window_count": 17
+      "diff_window_count": 17,
+      "substance_score": 30
     },
     {
       "article": "제4조",
@@ -2572,7 +2674,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 10
     },
     {
       "article": "제50조",
@@ -2622,7 +2725,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "제51조",
@@ -2672,7 +2776,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "제52조",
@@ -2708,7 +2813,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제53조",
@@ -2744,7 +2850,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제54조",
@@ -2780,7 +2887,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 30
     },
     {
       "article": "제55조",
@@ -2816,14 +2924,16 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제56조의2",
       "before": "제56조의2(의장의 위원회 출석과 발언) 의장은 위원회에 출석하여 발언할 수 있다. [본조신설, 2021.12.20.] <개정 2024.9.13.>",
       "after": "[삭제]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "제57조",
@@ -2873,7 +2983,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "제58조",
@@ -2937,7 +3048,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제59조",
@@ -3043,7 +3155,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 30
     },
     {
       "article": "제5조",
@@ -3121,7 +3234,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "제60조",
@@ -3241,21 +3355,24 @@
           }
         }
       ],
-      "diff_window_count": 12
+      "diff_window_count": 12,
+      "substance_score": 30
     },
     {
       "article": "제60조의2",
       "before": "제60조의2(주민조례청구 청구인명부 이의신청) ① 「주민조례발안에 관한 법률」제11조제2항에 따른 이의신청이 있는 경우에는 위원회의 심사를 거쳐 결정한다. ② 회기가 아닌 기간에 이의신청 심사를 위한 위원회 소집은 의장이 위원회의 위원장과 협의하여 정한다. ③ 이의신청에 대한 결정은 제15조제1항에도 불구하고 본회의에 회부하지 아니하며, 그 외의 사항은 본 규칙을 따른다. [본조신설, 2021.12.20.]",
       "after": "[삭제]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 30
     },
     {
       "article": "제60조의3",
       "before": "제60조의3(주민조례청구의 수리 및 각하) ① 「주민조례발안에 관한 법률」제12조 에 따른 주민조례청구의 수리 또는 각하를 하려는 경우에는 의장은 위원회의 심의를 거쳐야 한다. ② 의장은 주민조례청구를 각하할 경우에는 대표자에게 의견제출의 기회를 주어야 한다. ③ 주민조례청구 수리 및 각하 심의를 위한 위원회의 소집 및 결정절차는 제60조의2제2항 및 제3항의 규정을 준용한다. [본조신설, 2021.12.20.]",
       "after": "[삭제]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "제61조",
@@ -3375,7 +3492,8 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 30
     },
     {
       "article": "제62조",
@@ -3481,7 +3599,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 30
     },
     {
       "article": "제63조",
@@ -3559,7 +3678,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 30
     },
     {
       "article": "제64조",
@@ -3665,7 +3785,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 40
     },
     {
       "article": "제65조",
@@ -3771,7 +3892,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 30
     },
     {
       "article": "제66조",
@@ -3821,7 +3943,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 30
     },
     {
       "article": "제67조",
@@ -3899,7 +4022,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 40
     },
     {
       "article": "제68조",
@@ -3991,7 +4115,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 30
     },
     {
       "article": "제69조",
@@ -4041,7 +4166,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 30
     },
     {
       "article": "제6조",
@@ -4091,7 +4217,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "제70조",
@@ -4141,7 +4268,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 30
     },
     {
       "article": "제71조",
@@ -4205,7 +4333,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 30
     },
     {
       "article": "제72조",
@@ -4311,7 +4440,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 30
     },
     {
       "article": "제73조",
@@ -4375,14 +4505,16 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 30
     },
     {
       "article": "제73조의2",
       "before": "제73조의2(서류제출 요구 등) ① 의회는 법 제48조에 따라 서류의 제출을 구청장에게 요구할 수 있다. ② 폐회 중에 의원으로부터 서류제출 요구가 있을 때에는 의장은 이를 요구할 수 있다. ③ 서류제출 요구 시 적절한 자료를 제출받기 위하여 요구사항을 최대한 구체적으로 명시해야 하며, 따로 서식을 제공할 수 있다. ④ 서류제출은 서면, 전자문서 또는 컴퓨터의 자기테이프ㆍ자기디스크, 그 밖에 이와 유사한 매체에 기록된 상태나 전산망에 입력된 상태로 제출할 것을 요구할 수 있다. ⑤ 구청장은 서류제출을 요구받은 경우 요구사항에 부합되는 자료를 제출해야 하며, 요구받은 날부터 「관공서의 공휴일에 관한 규정」에 따른 공휴일을 포함하여 7일 이내에 제출해야 한다. 다만, 그 기한 내에 제출하지 못할 때에는 그 이유와 제출할 수 있는 기한을 의회에 통지해야 한다. [본조신설, 2023.3.27.]",
       "after": "[삭제]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 0
     },
     {
       "article": "제74조",
@@ -4460,7 +4592,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 30
     },
     {
       "article": "제75조",
@@ -4538,7 +4671,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 30
     },
     {
       "article": "제76조",
@@ -4644,7 +4778,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 30
     },
     {
       "article": "제77조",
@@ -4722,7 +4857,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 30
     },
     {
       "article": "제78조",
@@ -4786,7 +4922,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 40
     },
     {
       "article": "제79조",
@@ -4836,7 +4973,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 40
     },
     {
       "article": "제7조",
@@ -4928,7 +5066,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "제80조",
@@ -4964,7 +5103,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제81조",
@@ -5028,7 +5168,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 40
     },
     {
       "article": "제82조",
@@ -5120,7 +5261,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 30
     },
     {
       "article": "제83조",
@@ -5226,7 +5368,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 30
     },
     {
       "article": "제84조",
@@ -5304,7 +5447,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 40
     },
     {
       "article": "제85조",
@@ -5368,7 +5512,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 40
     },
     {
       "article": "제86조",
@@ -5418,7 +5563,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 30
     },
     {
       "article": "제87조",
@@ -5496,7 +5642,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 40
     },
     {
       "article": "제88조",
@@ -5602,7 +5749,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 40
     },
     {
       "article": "제89조",
@@ -5694,7 +5842,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 30
     },
     {
       "article": "제8조",
@@ -5758,7 +5907,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제90조",
@@ -5878,7 +6028,8 @@
           }
         }
       ],
-      "diff_window_count": 12
+      "diff_window_count": 12,
+      "substance_score": 30
     },
     {
       "article": "제91조",
@@ -5984,49 +6135,56 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 30
     },
     {
       "article": "제92조",
       "before": "[신설]",
       "after": "제92조(방청의 허가) ① 본회의장의 방청은 의장이, 위원회 회의장의 방청은 소관 위원회의 위원장이 방청권을 발행하여 방청을 허가한다. ② 회의를 방청하려는 사람, 단체는 방청신청서를 작성하여 의장 또는 위원장에게 제출해야 한다.",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 30
     },
     {
       "article": "제93조",
       "before": "[신설]",
       "after": "제93조(방청석의 구분 및 방청권의 종별) ① 방청석은 일반석과 기자석으로 구분한다. ② 방청권의 종별은 일반방청권, 단체방청권, 장기방청권으로 한다.",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "제94조",
       "before": "[신설]",
       "after": "제94조(방청권의 발급 및 기재) ① 방청권은 의장의 지휘를 받아 사무국장이 방청권의 수를 정하여 발급한다. ② 단체방청권은 교육기관, 그 밖의 단체의 신청에 의해 단체로 방청이 필요하다고 인정할 때에 그 대표 또는 책임자에게 발급한다. ③ 장기방청권은 보도기관 종사자나 업무상 방청이 특히 필요한 관서의 직원에게 발급하며 장기방청권을 발급 받은 사람은 그 회기를 통하여 방청할 수 있다. ④ 방청인은 방청권에 성명, 연락처, 직업 등 소정의 사항을 기재해야 한다.",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 30
     },
     {
       "article": "제95조",
       "before": "[신설]",
       "after": "제95조(방청의 제한) ① 다음 각 호의 어느 하나에 해당하는 사람에게는 방청을 허가하지 않는다. 1. 흉기 또는 위험한 물품을 휴대한 사람 2. 음주 상태로 질서유지에 방해가 될 우려가 있는 사람 3. 그 밖에 행동이 수상하거나 질서유지에 방해가 될 우려가 있는 사람 또는 그러한 사람으로서 의장이 방청을 허가하지 않을 필요가 있다고 인정하는 사람 ② 의장이 필요한 때에는 경찰관 또는 관계직원으로 하여금 방청인의 휴대품을 검사하게 할 수 있다. ③ 의장은 질서를 유지하기 위하여 방청인 수를 제한할 필요가 있거나 방청석의 여유가 없는 경우에는 방청권을 소지한 사람에게 방청을 제한할 수 있다.",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 30
     },
     {
       "article": "제96조",
       "before": "[신설]",
       "after": "제96조(방청인의 준수사항) ① 방청인은 다음과 같은 행위를 할 수 없다. 1. 회의장 안으로 진입하는 행위 2. 회의와 관련 없는 물품을 휴대하거나 반입하는 행위 3. 음식물의 섭취와 흡연 행위 4. 신문ㆍ잡지ㆍ간행물 등 문서, 전자기기의 내용을 낭독하는 행위 5. 의장의 허가 없는 녹음, 녹화, 촬영행위 6. 회의장 내 발언에 대하여 공공연하게 가부를 표명하거나 박수를 치는 행위 7. 그 밖에 소란 등 회의의 진행을 방해하는 행위 ② 의장 또는 위원장은 방청인이 제1항 각 호의 어느 하나에 해당하는 행위를 할 경우 관계직원으로 하여금 제지하게 할 수 있다.",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 30
     },
     {
       "article": "제97조",
       "before": "[신설]",
       "after": "제97조(녹음ㆍ녹화ㆍ촬영 및 중계방송 등) ① 회의를 공개하지 않기로 한 경우를 제외하고는 의장 또는 위원장은 의회에 등록된 기자에 한해 회의장 안(본회의장은 방청석에 한한다)에서의 녹음, 녹화, 촬영 및 중계방송을 허용할 수 있다. ② 제1항의 녹음 등을 하고자 하는 사람은 매 회기 초에 허가신청서를 의장에게 제출해 허가를 얻어야 한다. 다만, 위원회에 있어서는 허가를 얻고자 할 때마다 위원장에게 구두로 신청할 수 있다. ③ 제1항에 따라 녹음 등을 하는 자는 회의장 질서를 문란하게 해서는 안 된다. ④ 중계방송은 생중계 또는 녹화중계로 하며, 영상자료를 인위적으로 편집해서는 안 된다. 다만, 정회 등 의사진행과 직접적 관련이 없는 시간에 대해서는 그렇지 않다. ⑤ 중계방송은 의회 누리집 등 정보통신망을 통하여 할 수 있으며, 본회의 및 위원회의 회의(중계방송시스템이 설치된 회의장소에서의 회의에 한정한다)를 그 대상으로 한다. ⑥ 중계된 방송은 회의가 끝난 날부터 30일 이내에 의회 누리집 등을 통하여 상시 공개해야 한다. ⑦ 의장은 본회의나 상임위원회의 회의를 대상으로 중계방송을 하는 경우 장애인의 시청을 도울 수 있도록 지원할 수 있으며, 지원의 실시범위ㆍ방법ㆍ절차 등 구체적인 사항은 의장이 따로 정한다. ⑧ 의장은 녹음, 녹화, 촬영 및 중계방송 자료를 필요로 하는 자에게 제공할 수 있다. 이 경우, 의장은 영상자료의 제작ㆍ편집 및 제공에 있어 공정성과 객관성이 유지되도록 해야 한다. ⑨ 제8항에 따라 자료를 제공받은 자는 해당 자료를 상업적 목적으로 사용할 수 없다. ⑩ 사무직원의 기록보존 등의 업무와 관련된 회의장 내에서의 녹음ㆍ녹화ㆍ촬영은 절차상 제한 없이 할 수 있다.",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 0
     },
     {
       "article": "제9조",
@@ -6062,7 +6220,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     }
   ],
   "unresolved": [],
@@ -6076,6 +6235,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2046007"
 }

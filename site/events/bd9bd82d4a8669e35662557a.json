@@ -9,8 +9,71 @@
   "revision": "전부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183029",
   "category": "기타 제·개정",
-  "primary_change_summary": "제1조 · <개정 2022.10.18., 2025.12.19> → 삭제",
-  "priority_reasons": [],
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "자격·권리·의무의 실질 문구 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 40,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "자격·권리·의무의 실질 문구 변경",
+            "article": "제10조",
+            "before": "[신설]",
+            "after": "제10조(환수조치) 시장은 지원 대상자가 거짓 또는 그 밖의 부정한 방법으로 예방접종 비용을 지원 받은 경우 지원비용을 환수하여야 한다. 다만, 행방불명 등의 사유로 환수가 불가능할 경우에는 그 사유와 일자 등을 기록ㆍ관리하여야 한다.",
+            "source_title": "정읍시 선택예방접종 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183029"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "정읍시 선택예방접종 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183029"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "정읍시 선택예방접종 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183029"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0,
+      5,
+      6
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -19,21 +82,24 @@
       "before": "[신설]",
       "after": "제10조(환수조치) 시장은 지원 대상자가 거짓 또는 그 밖의 부정한 방법으로 예방접종 비용을 지원 받은 경우 지원비용을 환수하여야 한다. 다만, 행방불명 등의 사유로 환수가 불가능할 경우에는 그 사유와 일자 등을 기록ㆍ관리하여야 한다.",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 40
     },
     {
       "article": "제11조",
       "before": "[신설]",
       "after": "제11조(예방접종에 따른 피해보상) 시장은 제4조에 따른 예방접종으로 인한 피해가 발생하였을 때는 「의약품 부작용 피해구제에 관한 규정 시행규칙」 제7조 및 제8조의 규정을 따른다.",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "제12조",
       "before": "[신설]",
       "after": "제12조(준용) 이 조례에서 정하지 아니한 예방접종 등에 필요한 사항은 「감염병의 예방 및 관리에 관한 법률」과 「국가예방접종 지침」 및 「예방접종 후 이상반응 관리지침」을 따른다.",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "제1조",
@@ -55,7 +121,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 0
     },
     {
       "article": "제2조",
@@ -147,7 +214,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "제3조",
@@ -253,7 +321,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 40
     },
     {
       "article": "제4조",
@@ -345,7 +414,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 40
     },
     {
       "article": "제5조",
@@ -423,7 +493,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "제6조",
@@ -529,7 +600,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 40
     },
     {
       "article": "제7조",
@@ -579,7 +651,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 30
     },
     {
       "article": "제8조",
@@ -685,14 +758,16 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 10
     },
     {
       "article": "제9조",
       "before": "[신설]",
       "after": "제9조(예방접종 비용 및 상환신청 등) ① 제8조에 따른 위탁의료기관의 예방접종 비용은 백신비용과 예방접종 시행비용 범위에서 시장이 정한다. ② 위탁의료기관은 예방접종 후 예방접종통합관리시스템을 통하여 비용 상환을 신청해야 한다. ③ 시장은 예방접종 비용 상환 신청을 받은 때에는 그 청구내역이 적합한지 심사하여야 한다. ④ 예방접종 상환 신청, 심사 및 지급 절차와 관련하여 이 조례에서 정하지 않은 사항은 「예방접종업무의 위탁에 관한 규정」을 준용한다.",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 30
     }
   ],
   "unresolved": [],
@@ -706,6 +781,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2094745"
 }

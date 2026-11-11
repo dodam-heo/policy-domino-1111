@@ -9,8 +9,70 @@
   "revision": "전부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182719",
   "category": "급여·지원기준",
-  "primary_change_summary": "제10조 · 기후환경국에 → 교육가족국에",
-  "priority_reasons": [],
+  "primary_change_summary": "제12조 · 도시주택정책실에 → 도시정책실에",
+  "priority_reasons": [
+    "단일 지방기관 내부 운영 범위"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 5,
+    "score_min": 5,
+    "score_max": 70,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "고양시 행정기구 및 정원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182719"
+          }
+        ]
+      },
+      "scope": {
+        "score": 5,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "단일 지방기관 내부 운영 범위",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "고양시 행정기구 및 정원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182719"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "고양시 행정기구 및 정원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182719"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      2,
+      31,
+      33
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -132,7 +194,8 @@
           }
         }
       ],
-      "diff_window_count": 16
+      "diff_window_count": 16,
+      "substance_score": 10
     },
     {
       "article": "제11조",
@@ -252,7 +315,8 @@
           }
         }
       ],
-      "diff_window_count": 16
+      "diff_window_count": 16,
+      "substance_score": 10
     },
     {
       "article": "제12조",
@@ -372,7 +436,8 @@
           }
         }
       ],
-      "diff_window_count": 11
+      "diff_window_count": 11,
+      "substance_score": 30
     },
     {
       "article": "제13조",
@@ -492,7 +557,8 @@
           }
         }
       ],
-      "diff_window_count": 15
+      "diff_window_count": 15,
+      "substance_score": 10
     },
     {
       "article": "제14조",
@@ -556,7 +622,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제15조",
@@ -676,7 +743,8 @@
           }
         }
       ],
-      "diff_window_count": 13
+      "diff_window_count": 13,
+      "substance_score": 10
     },
     {
       "article": "제16조",
@@ -796,7 +864,8 @@
           }
         }
       ],
-      "diff_window_count": 9
+      "diff_window_count": 9,
+      "substance_score": 10
     },
     {
       "article": "제17조",
@@ -874,7 +943,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "제18조",
@@ -952,7 +1022,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "제19조",
@@ -1016,7 +1087,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제1조",
@@ -1066,7 +1138,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 20
     },
     {
       "article": "제20조",
@@ -1116,7 +1189,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 20
     },
     {
       "article": "제21조",
@@ -1194,7 +1268,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "제22조",
@@ -1244,7 +1319,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 20
     },
     {
       "article": "제23조",
@@ -1308,7 +1384,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제24조",
@@ -1358,7 +1435,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "제25조",
@@ -1422,7 +1500,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제26조",
@@ -1472,7 +1551,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "제27조",
@@ -1522,7 +1602,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "제28조",
@@ -1572,7 +1653,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "제29조",
@@ -1664,7 +1746,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "제2조",
@@ -1686,7 +1769,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 0
     },
     {
       "article": "제30조",
@@ -1778,7 +1862,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "제31조",
@@ -1898,7 +1983,8 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 10
     },
     {
       "article": "제32조",
@@ -2004,7 +2090,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 20
     },
     {
       "article": "제33조",
@@ -2082,7 +2169,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "제34조",
@@ -2132,7 +2220,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 20
     },
     {
       "article": "제35조",
@@ -2182,7 +2271,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 20
     },
     {
       "article": "제36조",
@@ -2232,7 +2322,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 20
     },
     {
       "article": "제37조",
@@ -2282,7 +2373,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 20
     },
     {
       "article": "제38조",
@@ -2304,7 +2396,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 20
     },
     {
       "article": "제3조",
@@ -2424,7 +2517,8 @@
           }
         }
       ],
-      "diff_window_count": 10
+      "diff_window_count": 10,
+      "substance_score": 30
     },
     {
       "article": "제4조",
@@ -2544,7 +2638,8 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 10
     },
     {
       "article": "제5조",
@@ -2664,7 +2759,8 @@
           }
         }
       ],
-      "diff_window_count": 21
+      "diff_window_count": 21,
+      "substance_score": 30
     },
     {
       "article": "제6조",
@@ -2784,7 +2880,8 @@
           }
         }
       ],
-      "diff_window_count": 10
+      "diff_window_count": 10,
+      "substance_score": 20
     },
     {
       "article": "제7조",
@@ -2904,7 +3001,8 @@
           }
         }
       ],
-      "diff_window_count": 12
+      "diff_window_count": 12,
+      "substance_score": 10
     },
     {
       "article": "제8조",
@@ -3024,7 +3122,8 @@
           }
         }
       ],
-      "diff_window_count": 12
+      "diff_window_count": 12,
+      "substance_score": 10
     },
     {
       "article": "제9조",
@@ -3130,7 +3229,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 10
     }
   ],
   "unresolved": [
@@ -3152,6 +3252,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2119577"
 }

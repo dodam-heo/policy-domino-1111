@@ -9,8 +9,66 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182381",
   "category": "조직·인력",
-  "primary_change_summary": "제2조 · 1,555 → 1,563",
-  "priority_reasons": [],
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "단일 지방기관 내부 운영 범위"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 5,
+    "score_min": 5,
+    "score_max": 70,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "서울특별시 영등포구 지방공무원 정원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182381"
+          }
+        ]
+      },
+      "scope": {
+        "score": 5,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "단일 지방기관 내부 운영 범위",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "서울특별시 영등포구 지방공무원 정원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182381"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "서울특별시 영등포구 지방공무원 정원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182381"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -76,7 +134,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 0
     }
   ],
   "unresolved": [
@@ -87,6 +146,6 @@
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2120657"
 }

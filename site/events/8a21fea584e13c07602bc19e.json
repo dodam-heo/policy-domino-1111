@@ -9,8 +9,69 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182317",
   "category": "행정절차·인허가",
-  "primary_change_summary": "제4조 · 소통담당관이 → 홍보담당관이",
-  "priority_reasons": [],
+  "primary_change_summary": "제8조 · 소통담당관에게 → 홍보담당관에게",
+  "priority_reasons": [
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 15,
+    "score_min": 15,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "서울특별시 금천구 홍보물 디자인 자문위원회 운영 규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182317"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "서울특별시 금천구 홍보물 디자인 자문위원회 운영 규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182317"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "서울특별시 금천구 홍보물 디자인 자문위원회 운영 규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182317"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      1,
+      2
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -48,7 +109,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제8조",
@@ -168,7 +230,8 @@
           }
         }
       ],
-      "diff_window_count": 9
+      "diff_window_count": 9,
+      "substance_score": 30
     },
     {
       "article": "제9조",
@@ -204,7 +267,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 20
     }
   ],
   "unresolved": [
@@ -215,6 +279,6 @@
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1725063"
 }

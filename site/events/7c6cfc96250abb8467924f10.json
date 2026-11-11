@@ -10,7 +10,68 @@
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000282670",
   "category": "행정절차·인허가",
   "primary_change_summary": "첨부 1 · 2025 → 2026",
-  "priority_reasons": [],
+  "priority_reasons": [
+    "급여·금액·자격·권리 등 실질 기준의 변경",
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "high",
+    "score": 65,
+    "score_min": 65,
+    "score_max": 90,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 40,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "급여·금액·자격·권리 등 실질 기준의 변경",
+            "article": "첨부 1",
+            "before": "…동부고시제2025–47호 2026년 적용 최저임금 고시 「최저임금법」제10조제1 항에 따라 2026년 1월 1일부터 2026년 12월 31일까지 적용되는 최저임금액을…",
+            "after": "…시제2026 – 55호 2027년 적용 최저임금안 고시 「최저임금법 」제9조제1 항 및 같은 법 시행령 제8조에 따라 2027년 적용 최저임금안을 다음과 같이 고시하니, 이 안에 대하여 이의가…",
+            "source_title": "2027년 적용 최저임금안 고시",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000282670"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "2027년 적용 최저임금안 고시",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000282670"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "2027년 적용 최저임금안 고시",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000282670"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -132,14 +193,16 @@
           }
         }
       ],
-      "diff_window_count": 26
+      "diff_window_count": 26,
+      "substance_score": 40
     },
     {
       "article": "첨부 2",
       "before": "2026년 적용 최저임금 고시 제·개정 이유서\n□ 현행 규정\n ○ 2025년 최저임금은 시간급 10,030원이며, 사업의 종류별\n구분없이 모든 사업장에동일하게적용\n□ 제정 이유\n ○ 최저임금법 제10조제1항에 따라 2026년 1월 1일부터\n2026년 12월 31일까지적용되는 최저임금을 고시함\n * 최저임금위원회에서 2026년 적용 최저임금안에 대해 심의․의결 후\n고용노동부장관에게 제출→ 고용노동부장관은 최저임금안에대한\n이의제기절차진행후결정고시\n□ 제정 주요 내용\n ○ 2026년 적용 최저임금은 시간급 10,320원이며, 사업의\n종류별 구분 없이 모든 사업장에 동일하게 적용\n * 최저임금 월 환산액 2,156,880원:주소정근로40시간을근무할경우,\n월환산기준시간수209시간(주당유급주휴8시간포함)기준",
       "after": "[삭제]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     }
   ],
   "unresolved": [],
@@ -153,6 +216,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "high",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000262710"
 }

@@ -9,8 +9,66 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183773",
   "category": "급여·지원기준",
-  "primary_change_summary": "제10조 · 신설 → ㆍ건설과",
-  "priority_reasons": [],
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "단일 지방기관 내부 운영 범위"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 5,
+    "score_min": 5,
+    "score_max": 70,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구광역시 북구 행정기구 설치 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183773"
+          }
+        ]
+      },
+      "scope": {
+        "score": 5,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "단일 지방기관 내부 운영 범위",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구광역시 북구 행정기구 설치 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183773"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구광역시 북구 행정기구 설치 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183773"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -132,7 +190,8 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 10
     },
     {
       "article": "제3조",
@@ -196,7 +255,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제5조",
@@ -316,7 +376,8 @@
           }
         }
       ],
-      "diff_window_count": 18
+      "diff_window_count": 18,
+      "substance_score": 10
     },
     {
       "article": "제6조",
@@ -436,7 +497,8 @@
           }
         }
       ],
-      "diff_window_count": 12
+      "diff_window_count": 12,
+      "substance_score": 10
     },
     {
       "article": "제7조",
@@ -528,7 +590,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "제8조",
@@ -648,7 +711,8 @@
           }
         }
       ],
-      "diff_window_count": 14
+      "diff_window_count": 14,
+      "substance_score": 10
     },
     {
       "article": "제9조",
@@ -768,7 +832,8 @@
           }
         }
       ],
-      "diff_window_count": 17
+      "diff_window_count": 17,
+      "substance_score": 10
     }
   ],
   "unresolved": [
@@ -786,6 +851,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2086919"
 }

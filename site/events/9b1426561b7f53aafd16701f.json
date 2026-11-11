@@ -9,8 +9,67 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183535",
   "category": "행정절차·인허가",
-  "primary_change_summary": "제10조 · 안전재난과장으로 → 안전총괄과장으로",
-  "priority_reasons": [],
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "priority_reasons": [
+    "경미하거나 적용 범위가 제한적인 본문 정비",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 50,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 10,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+            "article": "제10조",
+            "before": "…. ③위원회의 위원장은 부군수가 되고, 부위원장은 안전재난과장으로 한다. <개정 2012. 1. 10 2020.1.1., 2023. 12. 29.…",
+            "after": "… ③ 위원회의 위원장은 부군수가 되고, 부위원장은 안전총괄과장으로 한다. <개정 2012. 1. 10 2020.1.1., 2023. 12. 29.…",
+            "source_title": "영덕군 재난관리기금 운용 및 관리 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183535"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "영덕군 재난관리기금 운용 및 관리 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183535"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "영덕군 재난관리기금 운용 및 관리 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183535"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -48,7 +107,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제9조",
@@ -98,7 +158,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     }
   ],
   "unresolved": [],

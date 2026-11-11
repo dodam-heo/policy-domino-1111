@@ -10,7 +10,68 @@
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183065",
   "category": "공공재정·요율",
   "primary_change_summary": "제4조 · 신설 → 2010.04.12, 2011.08.05,",
-  "priority_reasons": [],
+  "priority_reasons": [
+    "급여·금액·자격·권리 등 실질 기준의 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 40,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "급여·금액·자격·권리 등 실질 기준의 변경",
+            "article": "제4조",
+            "before": "…유공자 예우 및 지원에 관한 조례」에 따라 교부결정 된 금액은 포함하지 아니한다. ) 가. 6ㆍ25참전유공자 : 월 15만원 나. 월남전참전유공자 : 월 13만원 다…",
+            "after": "…공자 예우 및 지원에 관한 조례」에 따라 교부결정 된 금액은 포함하지 아니한다. 가. 6ㆍ25참전유공자 : 월 20만원 나. 월남전참전유공자 : 월 18만원 다.…",
+            "source_title": "안동시 참전유공자 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183065"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "안동시 참전유공자 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183065"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "안동시 참전유공자 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183065"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -132,7 +193,8 @@
           }
         }
       ],
-      "diff_window_count": 12
+      "diff_window_count": 12,
+      "substance_score": 40
     }
   ],
   "unresolved": [
@@ -150,6 +212,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2000657"
 }

@@ -9,8 +9,67 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182775",
   "category": "조직·인력",
-  "primary_change_summary": "제6조 · 시민안전담당관이 → 안전건설국장이",
-  "priority_reasons": [],
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "priority_reasons": [
+    "경미하거나 적용 범위가 제한적인 본문 정비",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 50,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 10,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+            "article": "제6조",
+            "before": "…책임하에 운영한다. ③ 상황실은 실장과 20명 이내의 반원으로 구성하되, 실장은 시민안전담당관이 되며, 각 분야별 지원반 활동을 조정ㆍ통제하고 분야별 지원반은 총괄, 인력ㆍ재정…",
+            "after": "…책임하에 운영한다. ③ 상황실은 실장과 20명 이내의 반원으로 구성하되, 실장은 안전건설국장이 되며, 각 분야별 지원반 활동을 조정ㆍ통제하고 분야별 지원반은 총괄, 인력ㆍ재정…",
+            "source_title": "고양시 통합방위협의회 구성 및 운영 등에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182775"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "고양시 통합방위협의회 구성 및 운영 등에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182775"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "고양시 통합방위협의회 구성 및 운영 등에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182775"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -48,7 +107,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     }
   ],
   "unresolved": [],

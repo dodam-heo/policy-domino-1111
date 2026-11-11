@@ -9,8 +9,71 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180623",
   "category": "기타 제·개정",
-  "primary_change_summary": "제002100조 · 대구학생문화센터 → 대구광역시교육청문화예술원",
-  "priority_reasons": [],
+  "primary_change_summary": "제3조 · 직속기관의의 → 직속기관의",
+  "priority_reasons": [
+    "기관 기능·권한·업무분장 변경",
+    "단일 지방기관 내부 운영 범위"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 50,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 20,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "기관 기능·권한·업무분장 변경",
+            "article": "제3조",
+            "before": "제3조(과ㆍ담당관의 설치 등) 본청의 과ㆍ담당관 및 직속기관의의 하부조직 설치와 그 사무분장 등에 관한 사항은 교육규칙으로 정한다. <개정 20…",
+            "after": "제3조(과ㆍ담당관의 설치 등) 본청의 과ㆍ담당관 및 직속기관의 하부조직 설치와 그 사무분장 등에 관한 사항은 교육규칙으로 정한다. <개정 20…",
+            "source_title": "대구광역시교육청 행정기구 설치 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180623"
+          }
+        ]
+      },
+      "scope": {
+        "score": 5,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "단일 지방기관 내부 운영 범위",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구광역시교육청 행정기구 설치 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180623"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구광역시교육청 행정기구 설치 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180623"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      12,
+      13,
+      14
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -19,21 +82,24 @@
       "before": "[별표 1] 도서관의 명칭 및 위치(제17조제2항 관련) 도 서 관 명 위 치 국채보상운동기념도서관 대구광역시 중구 공평로10길 25 대구2ㆍ28기념학생도서관 대구광역시 동구 아양로41길 56 대구광역시립동부도서관 대구광역시 동구 신암북로11길 54 대구광역시립서부도서관 대구광역시 서구 국채보상로49길 12 대구광역시립남부도서관 대구광역시 남구 앞산순환로 512 대구광역시립북부도서관 대구광역시 북구 옥산로 75 대구광역시립두류도서관 대구광역시 달서구 공원순환로 8 대구광역시립수성도서관 대구광역시 수성구 만촌로 151 대구광역시립달성도서관 대구광역시 달성군 현풍면 현풍동로19길 26 대구광역시교육청삼국유사군위도서관 대구광역시 군위군 군위읍 군청로 175",
       "after": "[삭제]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "별표 0001 (도서관의 명칭 및 위치(제17조제2항 관련))",
       "before": "[신설]",
       "after": "[별표 1] 도서관의 명칭 및 위치(제17조제2항 관련) 도 서 관 명 위 치 국채보상운동기념도서관 대구광역시 중구 공평로10길 25 대구2ㆍ28기념학생도서관 대구광역시 동구 아양로41길 56 대구광역시립동부도서관 대구광역시 동구 신암북로11길 54 대구광역시립서부도서관 대구광역시 서구 국채보상로49길 12 대구광역시립남부도서관 대구광역시 남구 앞산순환로 512 대구광역시립북부도서관 대구광역시 북구 옥산로 75 대구광역시립두류도서관 대구광역시 달서구 공원순환로 8 대구광역시립수성도서관 대구광역시 수성구 만촌로 151 대구광역시립달성도서관 대구광역시 달성군 현풍면 현풍동로19길 26 대구광역시교육청삼국유사군위도서관 대구광역시 군위군 군위읍 군청로 175",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "별표 0002 (교육지원청의 명칭· 위치 및 관할구역(제4조 관련))",
       "before": "[신설]",
       "after": "[별표 2] 교육지원청의 명칭ㆍ 위치 및 관할구역(제4조 관련) 시ㆍ도 명칭 위치 관할구역 대구 광역시 대구광역시동부교육지원청 대구광역시서부교육지원청 대구광역시남부교육지원청 대구광역시달성교육지원청 대구광역시군위교육지원청 중구 서구 달서구 달성군 군위군 중구, 동구, 수성구 서구, 북구 남구, 달서구 달성군 군위군",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "제002100조",
@@ -69,7 +135,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제005000조",
@@ -105,7 +172,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제005500조",
@@ -141,7 +209,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제10조",
@@ -177,7 +246,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제21조",
@@ -297,7 +367,8 @@
           }
         }
       ],
-      "diff_window_count": 9
+      "diff_window_count": 9,
+      "substance_score": 10
     },
     {
       "article": "제22조",
@@ -361,7 +432,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제23조",
@@ -481,7 +553,8 @@
           }
         }
       ],
-      "diff_window_count": 9
+      "diff_window_count": 9,
+      "substance_score": 10
     },
     {
       "article": "제24조",
@@ -517,7 +590,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제25조",
@@ -553,7 +627,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제3조",
@@ -589,7 +664,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 20
     },
     {
       "article": "제3조의2",
@@ -653,7 +729,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 20
     },
     {
       "article": "제4조",
@@ -717,14 +794,16 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 20
     },
     {
       "article": "제4조의2",
       "before": "[신설]",
       "after": "제4조의2(교육지원청 하부조직의 설치 등) 교육지원청 하부조직의 설치와 그 사무분장 등에 관한 사항은 교육규칙으로 정한다. [제4조에서 이동 <2026.10.30.>]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 20
     },
     {
       "article": "제55조",
@@ -816,7 +895,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "제56조",
@@ -880,7 +960,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제57조",
@@ -958,7 +1039,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "제58조",
@@ -980,7 +1062,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 10
     },
     {
       "article": "제9조",
@@ -1044,7 +1127,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     }
   ],
   "unresolved": [],

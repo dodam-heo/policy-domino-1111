@@ -10,7 +10,68 @@
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180625",
   "category": "급여·지원기준",
   "primary_change_summary": "제6조 · 사립의 초등학교ㆍ중학교에 대한 다음 각 목에 관한 사항 가. 「학교시설사업 촉진법」 제5조의2제1항에 따른 해당 학교시설사업의 건축등(제 → 삭제 <2026.12.30.>",
-  "priority_reasons": [],
+  "priority_reasons": [
+    "신청·심사·집행 절차의 실질 문구 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 45,
+    "score_min": 45,
+    "score_max": 70,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 30,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "신청·심사·집행 절차의 실질 문구 변경",
+            "article": "제6조",
+            "before": "…ㆍ중학교ㆍ고등공민학교 및 이에 준하는 각종학교의 시설공사(시설기획 제외) 12. 사립의 초등학교ㆍ중학교에 대한 다음 각 목에 관한 사항 가. 「학교시설사업 촉진법」 제5조의2제1항에 따른 해당 학교시설사업의 건축등(제4조제1항 단서에 따른 사항)의 승인 나. 시설관리지원 13. 공립의 유치원, 초등학교",
+            "after": "…ㆍ중학교ㆍ고등공민학교 및 이에 준하는 각종학교의 시설공사(시설기획 제외) 12. 삭제 <2026.12.30.> 13. 공립의 유치원, 초등학교, 중학교 교육공무직원에 대한 채용ㆍ근무성적평정ㆍ…",
+            "source_title": "대구광역시교육감 행정권한의 위임에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180625"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구광역시교육감 행정권한의 위임에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180625"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구광역시교육감 행정권한의 위임에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180625"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -34,13 +95,14 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 30
     }
   ],
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1810907"
 }

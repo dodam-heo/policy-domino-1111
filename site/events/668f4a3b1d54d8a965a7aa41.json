@@ -9,8 +9,70 @@
   "revision": "전부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182475",
   "category": "기타 제·개정",
-  "primary_change_summary": "제1조 · 시흥시의회 청소년 의회체험활동에 관한 → 시흥시의회에서 실시하는 의회체험활동의 운영에 필요한",
-  "priority_reasons": [],
+  "primary_change_summary": "제5조 · 운영시간 → 참가 신청 및 승인",
+  "priority_reasons": [
+    "신청·심사·집행 절차의 실질 문구 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 45,
+    "score_min": 45,
+    "score_max": 70,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 30,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "신청·심사·집행 절차의 실질 문구 변경",
+            "article": "제5조",
+            "before": "제5조( 운영시간 ) ① 운영시간은 10시부터 17시까지로 한다. ② 견학일이 토요일,「관공서의 공…",
+            "after": "제5조( 참가 신청 및 승인 ) ① 제4조에 따른 사람이 의회체험활동에 참가하려는 경우에는 본인, 법정대리인 …",
+            "source_title": "시흥시의회 의회체험활동 운영 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182475"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "시흥시의회 의회체험활동 운영 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182475"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "시흥시의회 의회체험활동 운영 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182475"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      7,
+      10
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -19,21 +81,24 @@
       "before": "제10조(전문인력의 육성 등) 의장은 사업을 활성화하기 위하여 의회체험활동을 위한 강사 등 전문인력을 육성할 수 있다. [제7조에서 이동<2023.10.11.>]",
       "after": "[삭제]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "제11조",
       "before": "제11조(민간위탁) ① 의장은 의회체험활동 운영에 관한 사무의 전부 또는 일부를 법인ㆍ단체 또는 개인에게 위탁할 수 있다. ② 제1항에 따른 위탁에 필요한 절차 및 방법 등은 「시흥시 사무의 민간위탁촉진 및 관리 조례」를 준용한다. [제8조에서 이동<2023.10.11.>]",
       "after": "[삭제]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "제12조",
       "before": "제12조(표창) 의장은 의회체험활동 추진 결과에 따라 우수학교 또는 학생에게 표창할 수 있다. [제9조에서 이동<2023.10.11.>]",
       "after": "[삭제]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "제1조",
@@ -83,7 +148,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "제2조",
@@ -119,7 +185,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제3조",
@@ -169,7 +236,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "제4조",
@@ -275,7 +343,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 10
     },
     {
       "article": "제5조",
@@ -367,7 +436,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 30
     },
     {
       "article": "제6조",
@@ -459,7 +529,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "제7조",
@@ -551,7 +622,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "제8조",
@@ -657,7 +729,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 30
     },
     {
       "article": "제9조",
@@ -735,7 +808,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     }
   ],
   "unresolved": [],
@@ -749,6 +823,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1863181"
 }

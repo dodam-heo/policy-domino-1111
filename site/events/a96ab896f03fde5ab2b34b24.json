@@ -9,8 +9,70 @@
   "revision": "전부개정",
   "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EB%B0%A9%EB%B6%80%EC%A1%B0%EC%82%AC%EB%B3%B8%EB%B6%80%EB%A0%B9",
   "category": "행정절차·인허가",
-  "primary_change_summary": "제1조 · 설치와 임무 → 설치",
-  "priority_reasons": [],
+  "primary_change_summary": "제2조 · 본부장 등 → 기본원칙",
+  "priority_reasons": [
+    "국가 법률에 따른 전국 단위 규율 범위"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 100,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "국방부조사본부령",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EB%B0%A9%EB%B6%80%EC%A1%B0%EC%82%AC%EB%B3%B8%EB%B6%80%EB%A0%B9"
+          }
+        ]
+      },
+      "scope": {
+        "score": 35,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "국가 법률에 따른 전국 단위 규율 범위",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "국방부조사본부령",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EB%B0%A9%EB%B6%80%EC%A1%B0%EC%82%AC%EB%B3%B8%EB%B6%80%EB%A0%B9"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "국방부조사본부령",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EB%B0%A9%EB%B6%80%EC%A1%B0%EC%82%AC%EB%B3%B8%EB%B6%80%EB%A0%B9"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      1,
+      0,
+      2
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -90,7 +152,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 30
     },
     {
       "article": "제2조",
@@ -210,7 +273,8 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 40
     },
     {
       "article": "제3조",
@@ -302,7 +366,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 30
     },
     {
       "article": "제4조",
@@ -352,7 +417,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 30
     }
   ],
   "unresolved": [
@@ -440,6 +506,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EB%B0%A9%EB%B6%80%EC%A1%B0%EC%82%AC%EB%B3%B8%EB%B6%80%EB%A0%B9"
 }

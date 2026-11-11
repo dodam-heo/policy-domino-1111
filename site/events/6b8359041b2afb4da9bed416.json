@@ -9,8 +9,69 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%8B%AC%EB%A6%AC%EC%B9%98%EB%A3%8C%20%EC%97%85%EB%AC%B4%EC%A7%80%EC%B9%A8",
   "category": "행정절차·인허가",
-  "primary_change_summary": "별표 0001 (심리치료 일일 업무일지) · 수정 → 삭제",
-  "priority_reasons": [],
+  "primary_change_summary": "별표 0003 (심리상담 대상자 명부) · 수정 → 삭제",
+  "priority_reasons": [
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 90,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "심리치료 업무지침",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%8B%AC%EB%A6%AC%EC%B9%98%EB%A3%8C%20%EC%97%85%EB%AC%B4%EC%A7%80%EC%B9%A8"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "심리치료 업무지침",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%8B%AC%EB%A6%AC%EC%B9%98%EB%A3%8C%20%EC%97%85%EB%AC%B4%EC%A7%80%EC%B9%A8"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "심리치료 업무지침",
+            "source_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%8B%AC%EB%A6%AC%EC%B9%98%EB%A3%8C%20%EC%97%85%EB%AC%B4%EC%A7%80%EC%B9%A8"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      1,
+      7
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -76,7 +137,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "별표 0003 (심리상담 대상자 명부)",
@@ -98,7 +160,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "별표 0004 (수용자 상담 결과 보고서)",
@@ -120,7 +183,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 10
     },
     {
       "article": "별표 0005 (사례발표 동의서)",
@@ -198,7 +262,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "별표 0007 (사례회의 일지)",
@@ -220,7 +285,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 10
     },
     {
       "article": "별표 0013 (심리치료 프로그램 참여(환소) 이송자 명부)",
@@ -242,7 +308,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 10
     },
     {
       "article": "별표 0015 (심리치료 프로그램 만족도 조사)",
@@ -264,7 +331,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 10
     },
     {
       "article": "별표 0016 (이수명령 집행 대상자 명부)",
@@ -286,7 +354,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "별표 0017 (이수명령 집행서)",
@@ -350,7 +419,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "별표 0020 (이수명령 미집행 통보서)",
@@ -372,7 +442,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 10
     },
     {
       "article": "별표 0023 (심리치료업무 실적)",
@@ -478,7 +549,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 10
     }
   ],
   "unresolved": [
@@ -499,6 +571,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%8B%AC%EB%A6%AC%EC%B9%98%EB%A3%8C%20%EC%97%85%EB%AC%B4%EC%A7%80%EC%B9%A8"
 }

@@ -10,7 +10,68 @@
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182729",
   "category": "기타 제·개정",
   "primary_change_summary": "제11조 · 버스정책과장 → 버스정책 업무 담당 부서의 장",
-  "priority_reasons": [],
+  "priority_reasons": [
+    "기관 기능·권한·업무분장 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 20,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "기관 기능·권한·업무분장 변경",
+            "article": "제11조",
+            "before": "제11조(간사 등) 위원회 사무를 처리하기 위하여 간사와 서기를 두고 간사는 버스정책과장 , 서기는 대중교통업무 팀장이 되며, 간사는 회의록을 작성하여 위원장에게 보고한다…",
+            "after": "제11조(간사 등) 위원회 사무를 처리하기 위하여 간사와 서기를 두고 간사는 버스정책 업무 담당 부서의 장 , 서기는 대중교통업무 팀장이 되며, 간사는 회의록을 작성하여 위원장에게 보고한다…",
+            "source_title": "고양시 대중교통심의위원회 설치 및 운영 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182729"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "고양시 대중교통심의위원회 설치 및 운영 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182729"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "고양시 대중교통심의위원회 설치 및 운영 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182729"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -48,7 +109,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 20
     }
   ],
   "unresolved": [],

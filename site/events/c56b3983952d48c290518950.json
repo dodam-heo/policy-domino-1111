@@ -9,8 +9,70 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2179667",
   "category": "급여·지원기준",
-  "primary_change_summary": "제1조 · 임산부운전자에 대한 배려와 → 임산부 및 영유아 동반 가족에",
-  "priority_reasons": [],
+  "primary_change_summary": "제6조 · 신설 → <개정 2026.10.26.>",
+  "priority_reasons": [
+    "자격·권리·의무의 실질 문구 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 40,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "자격·권리·의무의 실질 문구 변경",
+            "article": "제6조",
+            "before": "…자동차임을 알아 볼 수 있는“임산부자동차표지”를 발급하여야 한다. ② 누구든지 제 1항에 따른 임산부자동차표지가 부착되지 아니한 자동차를 전용주차구역에 주차하여서는 아니…",
+            "after": "…산부자동차표지”를 발급하여야 한다. ② 누구든지 제 4조의2에 따른 이용대상자가 탑승하지 아니한 자동차를 가족배려주차구획에 주차하여서는 아니 …",
+            "source_title": "성남시 임산부ㆍ영유아 가족배려주차구획 설치 및 운영에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2179667"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "성남시 임산부ㆍ영유아 가족배려주차구획 설치 및 운영에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2179667"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "성남시 임산부ㆍ영유아 가족배려주차구획 설치 및 운영에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2179667"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      6,
+      9
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -62,7 +124,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "제2조",
@@ -98,7 +161,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제3조",
@@ -190,7 +254,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "제4조",
@@ -226,14 +291,16 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제4조의2",
       "before": "[신설]",
       "after": "제4조의2(이용 대상) 가족배려주차구획의 이용대상은 다음 각 호와 같다. [본조신설 2026.10.26.] 1. 임산부 또는 임산부를 동반한 사람 2. 영유아를 동반한 사람",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "제5조",
@@ -353,7 +420,8 @@
           }
         }
       ],
-      "diff_window_count": 10
+      "diff_window_count": 10,
+      "substance_score": 10
     },
     {
       "article": "제6조",
@@ -431,7 +499,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 40
     },
     {
       "article": "제7조",
@@ -495,7 +564,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제8조",
@@ -531,7 +601,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제9조",
@@ -637,7 +708,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 40
     }
   ],
   "unresolved": [],
@@ -651,6 +723,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=736252"
 }

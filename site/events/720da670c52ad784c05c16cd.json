@@ -9,8 +9,66 @@
   "revision": "타법개정",
   "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%B0%A9%EC%B2%A9%EC%97%85%EB%AC%B4%20%EA%B7%9C%EC%A0%95",
   "category": "공공재정·요율",
-  "primary_change_summary": "제10조 · 국방정보본부의 본부장 → 국방정보본부장",
-  "priority_reasons": [],
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "국가 법률에 따른 전국 단위 규율 범위"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 100,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "방첩업무 규정",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%B0%A9%EC%B2%A9%EC%97%85%EB%AC%B4%20%EA%B7%9C%EC%A0%95"
+          }
+        ]
+      },
+      "scope": {
+        "score": 35,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "국가 법률에 따른 전국 단위 규율 범위",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "방첩업무 규정",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%B0%A9%EC%B2%A9%EC%97%85%EB%AC%B4%20%EA%B7%9C%EC%A0%95"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "방첩업무 규정",
+            "source_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%B0%A9%EC%B2%A9%EC%97%85%EB%AC%B4%20%EA%B7%9C%EC%A0%95"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -48,7 +106,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제2조",
@@ -70,7 +129,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 10
     }
   ],
   "unresolved": [
@@ -95,6 +155,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%B0%A9%EC%B2%A9%EC%97%85%EB%AC%B4%20%EA%B7%9C%EC%A0%95"
 }

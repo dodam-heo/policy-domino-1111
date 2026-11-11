@@ -9,8 +9,71 @@
   "revision": "전부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183799",
   "category": "급여·지원기준",
-  "primary_change_summary": "제10조 · 등 → 삭제",
-  "priority_reasons": [],
+  "primary_change_summary": "제13조 · 비밀 준수의 의무 → 지도ㆍ감독",
+  "priority_reasons": [
+    "자격·권리·의무의 실질 문구 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 40,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "자격·권리·의무의 실질 문구 변경",
+            "article": "제13조",
+            "before": "제13조( 비밀 준수의 의무 ) 이 조례에 따른 아동학대예방 등과 관련된 업무에 종사하였거가 종사하는 사람은 …",
+            "after": "제13조( 지도ㆍ감독 ) 구청장은 아동학대예방과 방지 및 피해아동 보호를 위하여 어린이집, 아동복지시설…",
+            "source_title": "대구광역시 북구 아동학대 예방과 방지 및 피해아동 보호에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183799"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구광역시 북구 아동학대 예방과 방지 및 피해아동 보호에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183799"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구광역시 북구 아동학대 예방과 방지 및 피해아동 보호에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183799"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      3,
+      6,
+      9
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -76,7 +139,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제11조",
@@ -154,7 +218,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "제12조",
@@ -232,7 +297,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "제13조",
@@ -268,7 +334,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 40
     },
     {
       "article": "제14조",
@@ -304,21 +371,24 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제15조",
       "before": "[신설]",
       "after": "제15조(관련정보의 제공) 구청장은 아동학대 예방과 방지 및 피해아동 보호에 관련된 정보를 지속적으로 관리하여 구민에게 필요한 정보가 제공되도록 노력하여야 한다.",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "제16조",
       "before": "[신설]",
       "after": "제16조(비밀 준수의 의무) 이 조례에 따른 아동학대 예방과 방지 및 피해아동 보호와 관련된 업무에 종사하였거나 종사하는 사람은 그 직무상 알게 된 비밀을 누설하여서는 아니 된다.",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 40
     },
     {
       "article": "제1조",
@@ -354,7 +424,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제2조",
@@ -376,7 +447,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 10
     },
     {
       "article": "제3조",
@@ -398,7 +470,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 40
     },
     {
       "article": "제4조",
@@ -490,7 +563,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 30
     },
     {
       "article": "제5조",
@@ -610,7 +684,8 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 40
     },
     {
       "article": "제6조",
@@ -730,7 +805,8 @@
           }
         }
       ],
-      "diff_window_count": 14
+      "diff_window_count": 14,
+      "substance_score": 10
     },
     {
       "article": "제7조",
@@ -794,7 +870,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제8조",
@@ -872,7 +949,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 40
     },
     {
       "article": "제9조",
@@ -964,7 +1042,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 40
     }
   ],
   "unresolved": [],
@@ -978,6 +1057,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1578325"
 }

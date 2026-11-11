@@ -10,7 +10,68 @@
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182831",
   "category": "기타 제·개정",
   "primary_change_summary": "제7조 · 도시주택정책실장 → 도시정책실장",
-  "priority_reasons": [],
+  "priority_reasons": [
+    "신청·심사·집행 절차의 실질 문구 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 45,
+    "score_min": 45,
+    "score_max": 70,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 30,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "신청·심사·집행 절차의 실질 문구 변경",
+            "article": "제7조",
+            "before": "…중에서 호선한다. ③ 당연직 위원은 기획조정실장, 도시주택정책실장 , 자치행정국장, 신청사건립단장으로 하고, 위촉직 위원은 다음 각 호의 사람 중에…",
+            "after": "…중에서 호선한다. ③ 당연직 위원은 기획조정실장, 도시정책실장 , 재정국장, 신청사건립단장으로 하고, 위촉직 위원은 다음 각 호의 사람 중에서 …",
+            "source_title": "고양시 신청사 건립 기금 설치 및 운용에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182831"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "고양시 신청사 건립 기금 설치 및 운용에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182831"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "고양시 신청사 건립 기금 설치 및 운용에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182831"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -62,7 +123,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 30
     }
   ],
   "unresolved": [],
@@ -76,6 +138,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1875283"
 }

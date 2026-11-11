@@ -10,7 +10,70 @@
   "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%A7%80%EC%97%AD%EB%B3%84%EA%B3%A0%EC%9A%A9%EC%A1%B0%EC%82%AC%29",
   "category": "행정절차·인허가",
   "primary_change_summary": "본문 · 통계청 → 국가데이터처",
-  "priority_reasons": [],
+  "priority_reasons": [
+    "신청·심사·집행 절차의 실질 문구 변경",
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 30,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "신청·심사·집행 절차의 실질 문구 변경",
+            "article": "본문",
+            "before": "1. 통계의 명칭 : 지역별고용조사 2. 통계작성기관의 명칭 : 통계청 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제101067호 [2006…",
+            "after": "1. 통계의 명칭 : 지역별고용조사 2. 통계작성기관의 명칭 : 국가데이터처 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제101067호 [2006…",
+            "source_title": "통계작성의 변경승인(협의) 고시(지역별고용조사)",
+            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%A7%80%EC%97%AD%EB%B3%84%EA%B3%A0%EC%9A%A9%EC%A1%B0%EC%82%AC%29"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(지역별고용조사)",
+            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%A7%80%EC%97%AD%EB%B3%84%EA%B3%A0%EC%9A%A9%EC%A1%B0%EC%82%AC%29"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(지역별고용조사)",
+            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%A7%80%EC%97%AD%EB%B3%84%EA%B3%A0%EC%9A%A9%EC%A1%B0%EC%82%AC%29"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0,
+      1,
+      2
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -48,35 +111,40 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 30
     },
     {
       "article": "표 1 · 통계표 · 변경 전",
       "before": "[신설]",
       "after": "- (KOSIS) 지역별고용조사>기혼여성> 경 력단절여성 관련 KOSIS 6개 통 계표 내: 경력단절여성",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 30
     },
     {
       "article": "표 1 · 통계표 · 변경 후",
       "before": "[신설]",
       "after": "- (KOSIS) 지역별고용조사>기혼여성> 경 력보유여성 관련 KOSIS 6개 통 계표 내: 경력 보유 여성",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 30
     },
     {
       "article": "표 1 · 통계표 · 변경사유",
       "before": "[신설]",
       "after": "- “여성의 경제활동 촉진과 경력단절 예방법” 시행(2026.7.1.)에 따라 “ 경력 단절여성”을 “경력보유여성” 으로 용어 변경",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 30
     },
     {
       "article": "표 4 · 통계표 · 변경사유",
       "before": "○ 기존 KOSIS에서 성별만 제공되던 근무지기준 지역 활동인구를 연령별로 세분화하여 제공 - 연령대별 지역활동인구의 고용특성 파악 용이 ○ 전체, 성별, 연령별 15세 이상 인구대비 지역활동인구 비중 제공 - 성/연령별로 시군구 지역의 지역활동인구 비중 제공으로 정책 활용성 증대",
       "after": "[삭제]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 30
     }
   ],
   "unresolved": [],
@@ -90,6 +158,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000263412"
 }

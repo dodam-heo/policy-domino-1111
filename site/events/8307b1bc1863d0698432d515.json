@@ -9,8 +9,71 @@
   "revision": "전부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181785",
   "category": "급여·지원기준",
-  "primary_change_summary": "제1조 · 고령과 → 고령ㆍ",
-  "priority_reasons": [],
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "자격·권리·의무의 실질 문구 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 40,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "자격·권리·의무의 실질 문구 변경",
+            "article": "제11조",
+            "before": "[신설]",
+            "after": "제11조(자료 제공 및 협력) 도지사는 대상자 선정 및 보험료 지원을 위하여 공단에 보험료 부과자료 등 필요한 자료의 제공과 협력을 요청할 수 있다.",
+            "source_title": "경상북도 저소득주민 국민건강보험료 및 노인장기요양보험료 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181785"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "경상북도 저소득주민 국민건강보험료 및 노인장기요양보험료 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181785"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "경상북도 저소득주민 국민건강보험료 및 노인장기요양보험료 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181785"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      1,
+      4,
+      5
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -19,21 +82,24 @@
       "before": "[신설]",
       "after": "제10조(예산확보) ① 도지사는 이 조례에 따른 보험료 지원에 필요한 예산을 매년 확보하기 위하여 노력하여야 한다. ② 제1항에 따른 도비보조 비율과 시ㆍ군비 부담비율은 「경상북도 지방보조금 관리 조례」 제3조에 따른 기준보조율에 따라 정한다.",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "제11조",
       "before": "[신설]",
       "after": "제11조(자료 제공 및 협력) 도지사는 대상자 선정 및 보험료 지원을 위하여 공단에 보험료 부과자료 등 필요한 자료의 제공과 협력을 요청할 수 있다.",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 40
     },
     {
       "article": "제12조",
       "before": "[신설]",
       "after": "제12조(권한의 위임) 도지사는 제4조부터 제9조까지의 규정에 관한 사무를 시장ㆍ군수에게 위임할 수 있다.",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 20
     },
     {
       "article": "제1조",
@@ -111,7 +177,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "제2조",
@@ -231,7 +298,8 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 40
     },
     {
       "article": "제3조",
@@ -351,7 +419,8 @@
           }
         }
       ],
-      "diff_window_count": 9
+      "diff_window_count": 9,
+      "substance_score": 40
     },
     {
       "article": "제4조",
@@ -429,7 +498,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 40
     },
     {
       "article": "제5조",
@@ -507,7 +577,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 40
     },
     {
       "article": "제6조",
@@ -585,7 +656,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 40
     },
     {
       "article": "제7조",
@@ -621,7 +693,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 40
     },
     {
       "article": "제8조",
@@ -671,7 +744,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 40
     },
     {
       "article": "제9조",
@@ -707,13 +781,14 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 40
     }
   ],
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1861259"
 }

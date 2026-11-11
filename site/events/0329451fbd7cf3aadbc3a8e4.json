@@ -9,8 +9,69 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2179981",
   "category": "기타 제·개정",
-  "primary_change_summary": "제000000조 · 신설 → <신설 2026.10.27.>",
-  "priority_reasons": [],
+  "primary_change_summary": "제17조 · 2024.07.01. → 2024.07.01.,개정 2026.10.27.",
+  "priority_reasons": [
+    "단일 지방기관 내부 운영 범위"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 5,
+    "score_min": 5,
+    "score_max": 70,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "청송군 행정기구 설치 조례 시행규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2179981"
+          }
+        ]
+      },
+      "scope": {
+        "score": 5,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "단일 지방기관 내부 운영 범위",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "청송군 행정기구 설치 조례 시행규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2179981"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "청송군 행정기구 설치 조례 시행규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2179981"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      3,
+      9
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -34,7 +95,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 0
     },
     {
       "article": "제10조",
@@ -98,7 +160,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제14조",
@@ -218,7 +281,8 @@
           }
         }
       ],
-      "diff_window_count": 10
+      "diff_window_count": 10,
+      "substance_score": 10
     },
     {
       "article": "제17조",
@@ -338,7 +402,8 @@
           }
         }
       ],
-      "diff_window_count": 11
+      "diff_window_count": 11,
+      "substance_score": 30
     },
     {
       "article": "제27조",
@@ -402,7 +467,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제28조",
@@ -452,7 +518,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "제4조",
@@ -572,7 +639,8 @@
           }
         }
       ],
-      "diff_window_count": 10
+      "diff_window_count": 10,
+      "substance_score": 10
     },
     {
       "article": "제5조",
@@ -608,7 +676,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제6조",
@@ -728,7 +797,8 @@
           }
         }
       ],
-      "diff_window_count": 12
+      "diff_window_count": 12,
+      "substance_score": 10
     },
     {
       "article": "제7조",
@@ -848,7 +918,8 @@
           }
         }
       ],
-      "diff_window_count": 14
+      "diff_window_count": 14,
+      "substance_score": 30
     }
   ],
   "unresolved": [
@@ -870,6 +941,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2136607"
 }

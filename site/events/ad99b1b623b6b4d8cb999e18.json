@@ -9,8 +9,67 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181497",
   "category": "기타 제·개정",
-  "primary_change_summary": "별표 0001 (유치원) · 7. 16. → 11. 2.",
-  "priority_reasons": [],
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "priority_reasons": [
+    "경미하거나 적용 범위가 제한적인 본문 정비",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 50,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 10,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "경미하거나 적용 범위가 제한적인 본문 정비",
+            "article": "별표 0001 (유치원)",
+            "before": "… 안동시 길안면 충효로 2230 임동초등학교병설유치원 안동시 임동면 편항길 42 월곡초등학교병설유치원 안동시 예안면 정산길 23 녹전초등학교…",
+            "after": "… 안동시 길안면 충효로 2230 임동초등학교병설유치원 안동시 임동면 편항길 42 <…",
+            "source_title": "경상북도립학교 설치 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181497"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "경상북도립학교 설치 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181497"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "경상북도립학교 설치 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2181497"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -132,7 +191,8 @@
           }
         }
       ],
-      "diff_window_count": 15
+      "diff_window_count": 15,
+      "substance_score": 10
     },
     {
       "article": "별표 0002 (초등학교)",
@@ -252,7 +312,8 @@
           }
         }
       ],
-      "diff_window_count": 17
+      "diff_window_count": 17,
+      "substance_score": 10
     },
     {
       "article": "별표 0003 (중학교)",
@@ -330,7 +391,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "별표 0004 (고등학교)",
@@ -366,7 +428,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "별표 0006 (방송통신중학교 및 방송통신고등학교)",
@@ -402,7 +465,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     }
   ],
   "unresolved": [],

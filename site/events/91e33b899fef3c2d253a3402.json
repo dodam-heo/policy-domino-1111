@@ -9,8 +9,70 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EB%B9%84%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84%20%EC%9E%AC%EB%AC%B4%ED%9A%8C%EA%B3%84%20%EA%B7%9C%EC%B9%99",
   "category": "급여·지원기준",
-  "primary_change_summary": "별표 0001의00 (회계관계공무원의 관직지정) · 신설 → [시행일: 2027. 3. 1.] 본청의 지정관직 중 기획운영부장을 신설하는 부분",
-  "priority_reasons": [],
+  "primary_change_summary": "별표 0083의00 (수입지출원장(공금지급대행점용)) · 비 고 → 삭제",
+  "priority_reasons": [
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 15,
+    "score_min": 15,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "부분 대조의 근거 추가 확인 필요",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "경상북도교육비특별회계 재무회계 규칙",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EB%B9%84%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84%20%EC%9E%AC%EB%AC%B4%ED%9A%8C%EA%B3%84%20%EA%B7%9C%EC%B9%99"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "경상북도교육비특별회계 재무회계 규칙",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EB%B9%84%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84%20%EC%9E%AC%EB%AC%B4%ED%9A%8C%EA%B3%84%20%EA%B7%9C%EC%B9%99"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "경상북도교육비특별회계 재무회계 규칙",
+            "source_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EB%B9%84%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84%20%EC%9E%AC%EB%AC%B4%ED%9A%8C%EA%B3%84%20%EA%B7%9C%EC%B9%99"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      55,
+      21,
+      35
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -132,7 +194,8 @@
           }
         }
       ],
-      "diff_window_count": 37
+      "diff_window_count": 37,
+      "substance_score": 10
     },
     {
       "article": "별표 0002의00 (지출원인행위 정리구분표)",
@@ -252,7 +315,8 @@
           }
         }
       ],
-      "diff_window_count": 31
+      "diff_window_count": 31,
+      "substance_score": 10
     },
     {
       "article": "별표 0003의00 (지출원인행위부 정리구분표)",
@@ -358,7 +422,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 10
     },
     {
       "article": "별표 0016의00 (세출예산 배정요구서)",
@@ -436,7 +501,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "별표 0017의00 (세출예산 월별 자금배정계획서)",
@@ -486,7 +552,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 0
     },
     {
       "article": "별표 0018의00 (세출예산 월별(분기별) 배정/진행/지출계획서)",
@@ -536,7 +603,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 0
     },
     {
       "article": "별표 0019의00 (세출예산 월별(분기별) 배정계획 변경요구서)",
@@ -572,7 +640,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 0
     },
     {
       "article": "별표 0020의00 (세출예산 월별 자금배정계획 변경서)",
@@ -608,7 +677,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 0
     },
     {
       "article": "별표 0021의00 (계속비이월 명세서)",
@@ -728,7 +798,8 @@
           }
         }
       ],
-      "diff_window_count": 19
+      "diff_window_count": 19,
+      "substance_score": 10
     },
     {
       "article": "별표 0022의00 (이월비 집행상황 조서)",
@@ -848,7 +919,8 @@
           }
         }
       ],
-      "diff_window_count": 10
+      "diff_window_count": 10,
+      "substance_score": 10
     },
     {
       "article": "별표 0023의00 (사고이월 명세서)",
@@ -968,7 +1040,8 @@
           }
         }
       ],
-      "diff_window_count": 14
+      "diff_window_count": 14,
+      "substance_score": 10
     },
     {
       "article": "별표 0024의00 (세출예산 배정(재배정)서)",
@@ -1074,7 +1147,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 10
     },
     {
       "article": "별표 0025의00 (세출예산 전용요구서)",
@@ -1124,7 +1198,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "별표 0026의00 (세출예산 이용요구서)",
@@ -1202,7 +1277,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "별표 0027의00 (세출예산 이체요구서)",
@@ -1224,7 +1300,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 0
     },
     {
       "article": "별표 0028의00 (예비비 지출요구서)",
@@ -1344,7 +1421,8 @@
           }
         }
       ],
-      "diff_window_count": 9
+      "diff_window_count": 9,
+      "substance_score": 10
     },
     {
       "article": "별표 0029의00 (예비비 사용명세서)",
@@ -1436,7 +1514,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "별표 0030의00 (예산원부)",
@@ -1556,7 +1635,8 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 10
     },
     {
       "article": "별표 0031의00 (세출예산 정리부)",
@@ -1648,7 +1728,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "별표 0032의00 (징수결의서(징수결의))",
@@ -1684,7 +1765,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 0
     },
     {
       "article": "별표 0034의00 (납입고지서)",
@@ -1804,7 +1886,8 @@
           }
         }
       ],
-      "diff_window_count": 18
+      "diff_window_count": 18,
+      "substance_score": 10
     },
     {
       "article": "별표 0035의00 (납부서)",
@@ -1924,7 +2007,8 @@
           }
         }
       ],
-      "diff_window_count": 12
+      "diff_window_count": 12,
+      "substance_score": 20
     },
     {
       "article": "별표 0037의00 (과오납금반환 청구서)",
@@ -2044,7 +2128,8 @@
           }
         }
       ],
-      "diff_window_count": 9
+      "diff_window_count": 9,
+      "substance_score": 10
     },
     {
       "article": "별표 0038의00 (징수결의서(과오납금반환결의))",
@@ -2080,7 +2165,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 0
     },
     {
       "article": "별표 0039의00 (과오납금반환 명령(통상))",
@@ -2200,7 +2286,8 @@
           }
         }
       ],
-      "diff_window_count": 26
+      "diff_window_count": 26,
+      "substance_score": 10
     },
     {
       "article": "별표 0040의00 (과오납금반환 명령(송금))",
@@ -2320,7 +2407,8 @@
           }
         }
       ],
-      "diff_window_count": 26
+      "diff_window_count": 26,
+      "substance_score": 10
     },
     {
       "article": "별표 0041의00 (과오납반환 정리부)",
@@ -2398,7 +2486,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "별표 0042의00 (현금영수부)",
@@ -2518,7 +2607,8 @@
           }
         }
       ],
-      "diff_window_count": 11
+      "diff_window_count": 11,
+      "substance_score": 10
     },
     {
       "article": "별표 0043의00 (수입일계표)",
@@ -2554,7 +2644,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 0
     },
     {
       "article": "별표 0045의00 (세입이월액 계산서)",
@@ -2646,7 +2737,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "별표 0046의00 (징수보고서)",
@@ -2710,7 +2802,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "별표 0047의00 (징수총괄부)",
@@ -2802,7 +2895,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "별표 0048의00 (차액명세서)",
@@ -2852,7 +2946,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "별표 0049의00 (세입예산 월별 징수계획서)",
@@ -2888,7 +2983,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 0
     },
     {
       "article": "별표 0051의00 (지출한도액 배정통지서)",
@@ -2952,7 +3048,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "별표 0052의00 (지출한도액 배정원부)",
@@ -2988,7 +3085,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 20
     },
     {
       "article": "별표 0053의00 (지출원인행위부)",
@@ -3080,7 +3178,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "별표 0054의00 (지출결의서)",
@@ -3116,7 +3215,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "별표 0057의00 (지급명령 발행부)",
@@ -3222,7 +3322,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 20
     },
     {
       "article": "별표 0065의00 (일상경비 정리부)",
@@ -3314,7 +3415,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "별표 0066의00 (임시일상경비 정산서)",
@@ -3350,7 +3452,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 0
     },
     {
       "article": "별표 0067의00 (반납결의서)",
@@ -3386,7 +3489,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "별표 0068의00 (반납고지서)",
@@ -3506,7 +3610,8 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 10
     },
     {
       "article": "별표 0068의02 (반납고지서)",
@@ -3626,7 +3731,8 @@
           }
         }
       ],
-      "diff_window_count": 14
+      "diff_window_count": 14,
+      "substance_score": 10
     },
     {
       "article": "별표 0069의00 (자금운용 기록부)",
@@ -3676,7 +3782,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "별표 0070의00 (세입세출외현금 납부서(일시보관유가증권 납부서 겸용))",
@@ -3796,7 +3903,8 @@
           }
         }
       ],
-      "diff_window_count": 21
+      "diff_window_count": 21,
+      "substance_score": 20
     },
     {
       "article": "별표 0070의02 (세입세출외현금납부서(가상계좌용))",
@@ -3916,7 +4024,8 @@
           }
         }
       ],
-      "diff_window_count": 20
+      "diff_window_count": 20,
+      "substance_score": 20
     },
     {
       "article": "별표 0071의00 (세입세출외현금 출납부)",
@@ -3980,7 +4089,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "별표 0072의00 (세입세출외현금 내역부)",
@@ -4072,7 +4182,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "별표 0074의00 (세입세출외현금 유가증권수급부)",
@@ -4192,7 +4303,8 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 10
     },
     {
       "article": "별표 0075의00 (현금출납부)",
@@ -4256,7 +4368,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "별표 0076의00 (검사서)",
@@ -4278,7 +4391,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 0
     },
     {
       "article": "별표 0078의00 (세입세출원장(금고용))",
@@ -4398,7 +4512,8 @@
           }
         }
       ],
-      "diff_window_count": 15
+      "diff_window_count": 15,
+      "substance_score": 10
     },
     {
       "article": "별표 0081의00 (자금운용내역장(금고용))",
@@ -4518,7 +4633,8 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 10
     },
     {
       "article": "별표 0082의00 (세입세출외현금 출납장(금고용))",
@@ -4568,7 +4684,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 0
     },
     {
       "article": "별표 0083의00 (수입지출원장(공금지급대행점용))",
@@ -4632,7 +4749,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 40
     },
     {
       "article": "별표 0084의00 (세입세출일계표)",
@@ -4668,7 +4786,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 0
     },
     {
       "article": "별표 0085의00 (세입월계표)",
@@ -4732,7 +4851,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 0
     },
     {
       "article": "별표 0086의00 (세출월계표)",
@@ -4824,7 +4944,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "별표 0088의00 (예정가격 조서)",
@@ -4846,7 +4967,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 0
     },
     {
       "article": "별표 0089의00 (공사대장(앞면))",
@@ -4966,7 +5088,8 @@
           }
         }
       ],
-      "diff_window_count": 40
+      "diff_window_count": 40,
+      "substance_score": 10
     },
     {
       "article": "별표 0089의02 (공사대장(이면))",
@@ -5072,7 +5195,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 10
     },
     {
       "article": "별표 0090의00 (계약실적(총)보고서)",
@@ -5192,7 +5316,8 @@
           }
         }
       ],
-      "diff_window_count": 37
+      "diff_window_count": 37,
+      "substance_score": 10
     },
     {
       "article": "별표 0091의00 (물품 검수·검사 조서)",
@@ -5270,7 +5395,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "별표 0094의00 (지출증빙서(표지))",
@@ -5292,7 +5418,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 0
     },
     {
       "article": "별표 0095의00 (세입금경정 요구서)",
@@ -5370,7 +5497,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "별표 0096의00 (지출계산서(표지))",
@@ -5490,7 +5618,8 @@
           }
         }
       ],
-      "diff_window_count": 12
+      "diff_window_count": 12,
+      "substance_score": 10
     },
     {
       "article": "별표 0096의02 (지출계산서(내용))",
@@ -5610,7 +5739,8 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 10
     },
     {
       "article": "별표 0097의02 (일상경비 출납계산서(내용))",
@@ -5730,7 +5860,8 @@
           }
         }
       ],
-      "diff_window_count": 9
+      "diff_window_count": 9,
+      "substance_score": 10
     },
     {
       "article": "별표 0098의02 (세입세출외현금 출납계산서)",
@@ -5808,7 +5939,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 20
     },
     {
       "article": "별표 0099의00 (일상경비 지급실적 보고서)",
@@ -5900,7 +6032,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "별표 0100의00 (총괄채권 관리부)",
@@ -6020,7 +6153,8 @@
           }
         }
       ],
-      "diff_window_count": 13
+      "diff_window_count": 13,
+      "substance_score": 10
     },
     {
       "article": "별표 0101의00 (채권 관리부)",
@@ -6084,7 +6218,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "별표 0102의00 (지출부)",
@@ -6148,7 +6283,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 20
     },
     {
       "article": "별표 0103의00 (지출원인행위 및 지출부(재무관, 지출원 겸용))",
@@ -6268,7 +6404,8 @@
           }
         }
       ],
-      "diff_window_count": 9
+      "diff_window_count": 9,
+      "substance_score": 10
     },
     {
       "article": "별표 0104의00 (일상경비 현금출납부)",
@@ -6360,7 +6497,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 20
     },
     {
       "article": "별표 0105의00 (일상경비 지급내역부)",
@@ -6452,7 +6590,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "별표 0107의00 (채권발생(소멸) 보고서)",
@@ -6544,7 +6683,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "별표 0108의00 (채권현재액 보고서)",
@@ -6622,7 +6762,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "부칙 00573 20100830",
@@ -6742,7 +6883,8 @@
           }
         }
       ],
-      "diff_window_count": 9
+      "diff_window_count": 9,
+      "substance_score": 0
     }
   ],
   "unresolved": [
@@ -6763,6 +6905,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EB%B9%84%ED%8A%B9%EB%B3%84%ED%9A%8C%EA%B3%84%20%EC%9E%AC%EB%AC%B4%ED%9A%8C%EA%B3%84%20%EA%B7%9C%EC%B9%99"
 }

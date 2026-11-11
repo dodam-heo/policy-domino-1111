@@ -9,8 +9,71 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180699",
   "category": "기타 제·개정",
-  "primary_change_summary": "제001500조 · 대구학생문화센터 → 대구광역시교육청문화예술원 [제목개정 2026.10.30.]",
-  "priority_reasons": [],
+  "primary_change_summary": "제36조 · 신설 → <개정 2026.10.30.>",
+  "priority_reasons": [
+    "신청·심사·집행 절차의 실질 문구 변경",
+    "단일 지방기관 내부 운영 범위"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 30,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "신청·심사·집행 절차의 실질 문구 변경",
+            "article": "제36조",
+            "before": "…대한 기술자문 10. 제1호에 해당하는 학교의 학교시설통합정보시스템 관리 11. 사립 초등학교ㆍ중학교 학교시설의 건축등(건축ㆍ축조ㆍ대수선 또는 용도변경)의 승인(단, 신축 제외) 11의2. 제11호에 해당하는 학교의 시설관리지원<신…",
+            "after": "…대한 기술자문 10. 제1호에 해당하는 학교의 학교시설통합정보시스템 관리 11. 삭제 <2026.10.30.> 11의2. 삭제 <2026.10.30.> 12. 삭제 …",
+            "source_title": "대구광역시교육청 행정기구 설치 조례 시행규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180699"
+          }
+        ]
+      },
+      "scope": {
+        "score": 5,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "단일 지방기관 내부 운영 범위",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구광역시교육청 행정기구 설치 조례 시행규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180699"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구광역시교육청 행정기구 설치 조례 시행규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180699"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      16,
+      17,
+      18
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -34,7 +97,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 10
     },
     {
       "article": "제002800조",
@@ -70,7 +134,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 0
     },
     {
       "article": "제003000조",
@@ -106,7 +171,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제10조",
@@ -142,7 +208,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제13조",
@@ -178,7 +245,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제15조",
@@ -270,7 +338,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "제16조",
@@ -390,7 +459,8 @@
           }
         }
       ],
-      "diff_window_count": 16
+      "diff_window_count": 16,
+      "substance_score": 20
     },
     {
       "article": "제18조",
@@ -510,7 +580,8 @@
           }
         }
       ],
-      "diff_window_count": 39
+      "diff_window_count": 39,
+      "substance_score": 20
     },
     {
       "article": "제19조",
@@ -546,7 +617,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제1조",
@@ -582,14 +654,16 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 20
     },
     {
       "article": "제22조의2",
       "before": "[신설]",
       "after": "제22조의2(부속시설의 설치) 조례 제39조에 따라 유아교육진흥원의 부속시설로 유아교육진흥원 북부캠퍼스를 설치하고, 그 위치는 대구광역시 북구 관음중앙로32길 15에 둔다. [본조신설 2026.10.30.]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "제23조",
@@ -625,7 +699,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제30조",
@@ -689,7 +764,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제31조",
@@ -809,7 +885,8 @@
           }
         }
       ],
-      "diff_window_count": 39
+      "diff_window_count": 39,
+      "substance_score": 20
     },
     {
       "article": "제32조",
@@ -845,7 +922,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제33조",
@@ -881,7 +959,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제36조",
@@ -959,7 +1038,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 30
     },
     {
       "article": "제37조",
@@ -1037,7 +1117,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 30
     },
     {
       "article": "제38조",
@@ -1115,7 +1196,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 30
     },
     {
       "article": "제5조",
@@ -1137,7 +1219,8 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 0
     },
     {
       "article": "제6조",
@@ -1215,7 +1298,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "제7조",
@@ -1335,7 +1419,8 @@
           }
         }
       ],
-      "diff_window_count": 25
+      "diff_window_count": 25,
+      "substance_score": 20
     },
     {
       "article": "제8조",
@@ -1455,7 +1540,8 @@
           }
         }
       ],
-      "diff_window_count": 16
+      "diff_window_count": 16,
+      "substance_score": 10
     }
   ],
   "unresolved": [],

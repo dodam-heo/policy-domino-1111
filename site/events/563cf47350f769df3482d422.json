@@ -9,8 +9,66 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182161",
   "category": "조직·인력",
-  "primary_change_summary": "별표 0001 (전북특별자치도교육감 소속 지방공무원 직급별, 직렬별 정원) · 2026.9.1. → 2026.12.1.",
-  "priority_reasons": [],
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "priority_reasons": [
+    "단일 지방기관 내부 운영 범위"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 5,
+    "score_min": 5,
+    "score_max": 30,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 0,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "실질 기준 변경 근거 미확인 · 문구 정비",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "전북특별자치도교육감 소속 지방공무원 정원 규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182161"
+          }
+        ]
+      },
+      "scope": {
+        "score": 5,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "단일 지방기관 내부 운영 범위",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "전북특별자치도교육감 소속 지방공무원 정원 규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182161"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "전북특별자치도교육감 소속 지방공무원 정원 규칙",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182161"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -132,7 +190,8 @@
           }
         }
       ],
-      "diff_window_count": 21
+      "diff_window_count": 21,
+      "substance_score": 0
     }
   ],
   "unresolved": [],

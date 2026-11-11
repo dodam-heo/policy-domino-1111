@@ -10,7 +10,68 @@
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182463",
   "category": "기타 제·개정",
   "primary_change_summary": "제3조 · 2023 → 2027",
-  "priority_reasons": [],
+  "priority_reasons": [
+    "급여·금액·자격·권리 등 실질 기준의 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 40,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "급여·금액·자격·권리 등 실질 기준의 변경",
+            "article": "제3조",
+            "before": "…090원, 2024년 ~ 2026년도 월정수당은 전년도 월정수당에 전년도 공무원 보수인상률만큼을 합산한 금액을 금정구의회 소속 공무원 보수 지급일에 지급한다. 단, 1개월 미만…",
+            "after": "…580원, 2028년 ~ 2030년도 월정수당은 전년도 월정수당에 전년도 공무원 보수인상률의 50%만큼을 합산한 금액을 금정구의회 소속 공무원 보수 지급일에 지급한다. 단, 1개월 미만…",
+            "source_title": "부산광역시 금정구의회 의원 의정활동비 등 지급에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182463"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 금정구의회 의원 의정활동비 등 지급에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182463"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "부산광역시 금정구의회 의원 의정활동비 등 지급에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182463"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -90,7 +151,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 40
     }
   ],
   "unresolved": [
@@ -108,6 +170,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2063211"
 }

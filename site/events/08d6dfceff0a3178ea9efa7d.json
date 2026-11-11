@@ -9,8 +9,70 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180409",
   "category": "급여·지원기준",
-  "primary_change_summary": "제3조 · 신설 → <개정 2026. 10. 28.>",
-  "priority_reasons": [],
+  "primary_change_summary": "제7조 · 신설 → <개정 2026. 10. 28.>",
+  "priority_reasons": [
+    "급여·금액·자격·권리 등 실질 기준의 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 40,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "급여·금액·자격·권리 등 실질 기준의 변경",
+            "article": "제7조",
+            "before": "… 다음 각 호의 기준에 따라 예산의 범위에서 피해지원금을 지원할 수 있다. 1. 주택 전소 : 300만원 이하 2. 주택 반소 : 200만원 이하 3. 주택 부분소 …",
+            "after": "…의 범위에서 피해지원금을 지원할 수 있다. 1. 전소 : 300만원 이하 2. 반소 : 200만원 이하 3. 부분소 : 100만원…",
+            "source_title": "진도군 화재피해주민 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180409"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "진도군 화재피해주민 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180409"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "진도군 화재피해주민 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180409"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      3,
+      4
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "partial_unverified",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -76,7 +138,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제5조",
@@ -112,7 +175,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제6조",
@@ -148,7 +212,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제7조",
@@ -240,7 +305,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 40
     },
     {
       "article": "제9조",
@@ -276,7 +342,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 30
     }
   ],
   "unresolved": [
@@ -287,6 +354,6 @@
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1852705"
 }

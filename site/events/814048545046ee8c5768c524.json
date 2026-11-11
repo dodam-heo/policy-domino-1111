@@ -9,8 +9,71 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182265",
   "category": "행정절차·인허가",
-  "primary_change_summary": "제10조 · 회의 → 기능",
-  "priority_reasons": [],
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "신청·심사·집행 절차의 실질 문구 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 45,
+    "score_min": 45,
+    "score_max": 70,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 30,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "신청·심사·집행 절차의 실질 문구 변경",
+            "article": "제8조의2",
+            "before": "[신설]",
+            "after": "제8조의2(교통안전 취약구간의 우회) ① 구청장은 필요한 경우 금천구에서 시행되는 공사 중 구청장이 인ㆍ허가권자인 공사에 대하여 해당 공사에 사용되는 차량의 우회 운행경로 수립 등 교통안전 취약구간 회피에 관한 사항을 교통처리계획 등에 반영하도록 할 수 있다. ② 구청장은 필요한 경우 직접 발주하거나 금",
+            "source_title": "서울특별시 금천구 교통안전 기본 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182265"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "서울특별시 금천구 교통안전 기본 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182265"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "서울특별시 금천구 교통안전 기본 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182265"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      8,
+      2,
+      3
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -104,7 +167,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "제11조",
@@ -168,7 +232,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제12조",
@@ -260,7 +325,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 20
     },
     {
       "article": "제13조",
@@ -338,7 +404,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 20
     },
     {
       "article": "제14조",
@@ -444,7 +511,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 10
     },
     {
       "article": "제15조",
@@ -550,7 +618,8 @@
           }
         }
       ],
-      "diff_window_count": 7
+      "diff_window_count": 7,
+      "substance_score": 10
     },
     {
       "article": "제16조",
@@ -600,7 +669,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "제8조",
@@ -664,14 +734,16 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 10
     },
     {
       "article": "제8조의2",
       "before": "[신설]",
       "after": "제8조의2(교통안전 취약구간의 우회) ① 구청장은 필요한 경우 금천구에서 시행되는 공사 중 구청장이 인ㆍ허가권자인 공사에 대하여 해당 공사에 사용되는 차량의 우회 운행경로 수립 등 교통안전 취약구간 회피에 관한 사항을 교통처리계획 등에 반영하도록 할 수 있다. ② 구청장은 필요한 경우 직접 발주하거나 금천구청과 계약을 체결하여 시행하는 공사 또는 사업에 대하여 해당 공사 또는 사업에 사용되는 차량의 우회 운행경로 수립 등 교통안전 취약구간 회피에 관한 사항을 과업지시서, 설계서 또는 계약조건 등에 반영할 수 있다. ③ 제1항 및 제2항에 따른 우회 대상 차량의 종류 및 기준은 공사 또는 사업의 성격 및 교통안전 취약구간의 여건을 고려하여 구청장이 관할 경찰서장에게 요청할 수 있다. [본조신설 2026.11.5.]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 30
     },
     {
       "article": "제9조",
@@ -791,7 +863,8 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 10
     }
   ],
   "unresolved": [],
@@ -805,6 +878,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2173469"
 }

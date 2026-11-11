@@ -9,8 +9,71 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180599",
   "category": "기타 제·개정",
-  "primary_change_summary": "제10조 · 이용자로부터 징수한 → 이용자가 납부한",
-  "priority_reasons": [],
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "자격·권리·의무의 실질 문구 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 40,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "자격·권리·의무의 실질 문구 변경",
+            "article": "별표 0002 (대구학생문화센터 시설 이용료(제8조 관련))",
+            "before": "[신설]",
+            "after": "[별표 2] 대구학생문화센터 시설 이용료(제8조 관련) (단위: 원) 구 분 단 위 이용료 비 고 수영장 일일 회원 초등학생 이하 2,000 1. 초등학생 이하: 13세 미만 2. 청소년: 13세 이상 19세 미만 3. 월회원은 월 이용료를 선납하고 회원증을 소지한 자 4. 수영강습 수강자는 별도의 수강",
+            "source_title": "대구학생문화센터 관리ㆍ운영 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180599"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구학생문화센터 관리ㆍ운영 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180599"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구학생문화센터 관리ㆍ운영 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2180599"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      2,
+      5,
+      4
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -19,28 +82,32 @@
       "before": "[신설]",
       "after": "[별표 1] 대구학생문화센터 시설 사용료(제8조 관련) 1. 기본시설 사용료 (단위: 원, 부가가치세 별도) 구분 단위 사용료 비고 행사 공연 비상업성 상업성 대공연장 오전 270,000 1회당 330,000 1회당 550,000 1. 토요일 및 관공서의 공휴일은 사용료의 30% 가산 2. 준비대관은 오전, 오후, 야간으로 구분하며, 사용료의 50% 징수 3. 기본설비(전기ㆍ음향) 포함 4. 심야(22시 이후) 대관은 원칙적 불가, 부득이한 철거 등의 경우 대공연장은 시간당 500,000원, 중공연장은 시간당 170,000원 징수 5. 출연진 중 청소년(13세이상 19세미만)이 50% 이상 출연하는 공연은 사용료의 50% 징수 6. 구분 - 행사: 무대, 강연대, 마이크, 비디오프로젝트, 기본 조명 등을 사용하는 강연, 설명회, 연수 등 - 비상업성 공연: 관람료가 없는 공연 - 상업성 공연: 관람료가 있는 공연 오후 330,000 야간 400,000 중공연장 오전 90,000 1회당 110,000 1회당 180,000 오후 110,000 야간 130,000 전시실 1일 60,000 1. 토요일 및 관공서의 공휴일은 사용료의 30% 가산 2. 기본설비(전기ㆍ음향) 포함 ※ 기준시간 - 오전: 09:00 ∼ 12:00 오후: 14:00 ∼ 17:00 야간: 18:00 ∼ 21:00 1일: 10:00 ∼ 18:00(전시실) ※ 오전, 오후, 야간을 각 1회로 본다. 2. 부대시설 사용료 (단위: 원, 부가가치세별도) 구 분 단 위 사 용 료 비 고 피아노 그랜드(스타인웨이) 1 회 80,000 조율비용은 사용자가 부담 그랜드(가와이) 1 회 60,000 전자오르간 1 회 60,000 국산피아노 1 회 30,000 비디오 프로젝터 1 회 40,000 냉ㆍ난방 대공연장 1 회 300,000 중공연장 1 회 100,000 전 시 실 1 일 40,000 음향 CD녹음 1 회 30,000 무선마이크(핀당) 1 회 20,000 무대시설 음향반사판 1 회 40,000 오케스트라비트 1 회 30,000 덧마루 1 회 30,000 보면대 1 회 20,000 ※ 기준시간 - 오전: 09:00 ∼ 12:00 오후: 14:00 ∼ 17:00 야간: 18:00 ∼ 21:00 1일: 10:00 ∼ 18:00(전시실) ※ 오전, 오후, 야간을 각 1회로 본다.",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 0
     },
     {
       "article": "별표 0001 (대구학생문화센터 시설 사용료)",
       "before": "[별표 1] <개정 2017.8.10.> 대구학생문화센터 시설 사용료(제8조 관련) 1. 기본시설 사용료 (단위 : 원, 부가가치세 별도) 구분 단위 사용료 비고 행사 공연 비상업성 상업성 대공연장 오전 270,000 1회당 330,000 1회당 550,000 1. 토요일 및 관공서의 공휴일은 사용료의 30% 가산 2. 준비대관은 오전, 오후, 야간으로 구분하며, 사용료의 50% 징수 3. 기본설비(전기ㆍ음향) 포함 4. 심야(22시 이후) 대관은 원칙적 불가, 부득이한 철거 등의 경우 시간당 500,000원 5. 청소년이 출연하는 공연 또는 청소년을 관람대상으로 하는 공연은 사용료의 50% 징수 6. 구분 - 행사: 무대, 강연대, 마이크, 비디오프로젝트, 기본 조명 등을 사용하는 강연, 설명회, 연수 등 - 비상업성 공연: 관람료가 없는 공연 - 상업성 공연: 관람료가 있는 공연 오후 330,000 야간 400,000 전시실 1일 60,000 1. 토요일 및 관공서의 공휴일은 사용료의 30%가산 2. 기본설비(전기ㆍ음향) 포함 체육관 오전 50,000 오후 70,000 야간 100,000 1일 150,000 ※ 기준시간 - 오전: 09:00 ∼ 12:00 오후: 14:00 ∼ 17:00 야간: 18:00 ∼ 21:00 1일: 09:00 ∼ 21:00 2. 부대시설 사용료 (단위 : 원, 부가가치세별도) 구 분 단 위 사 용 료 비 고 피 아 노 그랜드(스타인웨이) 1 회 80,000 조율 제외 그랜드(가와이) 1 회 60,000 전자오르간(야마하) 1 회 60,000 국산피아노 1 회 30,000 비디오 프로젝터 1 회 40,000 특수조명 대공연장 시간당 30,000 1시간 미만은 1시간으로 적용 냉ㆍ난방 대공연장 1 회 120,000 체 육 관 1 회 40,000 전 시 실 1 회 15,000 전광판 체 육 관 1 회 20,000 음향 CD녹음 1 회 30,000 무선마이크(핀당) 1 회 20,000 무대시설 음향반사판 1 회 40,000 오케스트라비트 1 일 30,000 덧마루 1 일 30,000 보면대 1 일 20,000 ※ 오전, 오후, 야간을 각 1회로 본다. 3. <삭 제>",
       "after": "[삭제]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 0
     },
     {
       "article": "별표 0002 (대구학생문화센터 시설 이용료(제8조 관련))",
       "before": "[신설]",
       "after": "[별표 2] <개정 2026.10.30.> 대구학생문화센터 시설 이용료(제8조 관련) (단위: 원) 구 분 단 위 이용료 비 고 수영장 일일 회원 초등학생 이하 2,000 1. 초등학생 이하: 13세 미만 2. 청소년: 13세 이상 19세 미만 3. 월회원은 월 이용료를 선납하고 회원증을 소지한 자 4. 수영강습 수강자는 별도의 수강료 납부 5. 단체는 30인 이상 적용하고 30% 할인 6. ?장애인 등에 대한 특수교육법?에 따른 특수교육기관(대구광역시 내 소재 기관에 한함)에 재학 중인 특수교육대상자는 면제 청소년 2,500 성인 3,900 성인(65세 이상) 2,500 월회원 초등학생 이하 40,000 청소년 50,000 성인 78,000 성인(65세 이상) 50,000",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 40
     },
     {
       "article": "별표 0002 (대구학생문화센터 시설 이용료)",
       "before": "[별표 2] <개정 2017.8.10.> 대구학생문화센터 시설 이용료(제8조 관련) (단위 : 원) 구 분 단 위 이용료 비 고 수영장 일일 회원 초등학생이하 1,300 1. 초등학생이하: 13세미만 2. 중ㆍ고등학생: 13세이상 19세미만과 학생증을 소지한 중ㆍ고등학생 3. 월회원은 회비를 선납하고 회원증을 소지한 자 4. 수영강습 수강자에 대하여는 별도의 수강료 징수 5. 단체는 30인이상 적용 6. 특수교육진흥법에 의한 특수교육기관(대구광역시내 소재 기관에 한함)에 재학중인 학생은 면제 중ㆍ고등학생 2,100 일반인 2,500 일반인(65세이상) 1,300 월회원 초등학생이하 28,500 중ㆍ고등학생 45,000 일반인 51,000 일반인(65세이상) 28,500 단체 입장 초등학생이하 800 중ㆍ고등학생 1,300 일반인 1,800 일반인(65세이상) 1,000",
       "after": "[삭제]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 10
     },
     {
       "article": "제10조",
@@ -160,7 +227,8 @@
           }
         }
       ],
-      "diff_window_count": 11
+      "diff_window_count": 11,
+      "substance_score": 30
     },
     {
       "article": "제11조",
@@ -224,7 +292,8 @@
           }
         }
       ],
-      "diff_window_count": 4
+      "diff_window_count": 4,
+      "substance_score": 40
     },
     {
       "article": "제12조",
@@ -316,7 +385,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 10
     },
     {
       "article": "제14조",
@@ -366,7 +436,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 20
     },
     {
       "article": "제16조",
@@ -444,7 +515,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "제17조",
@@ -480,7 +552,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제18조",
@@ -516,7 +589,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제1조",
@@ -552,7 +626,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제2조",
@@ -630,7 +705,8 @@
           }
         }
       ],
-      "diff_window_count": 5
+      "diff_window_count": 5,
+      "substance_score": 10
     },
     {
       "article": "제3조",
@@ -680,7 +756,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 10
     },
     {
       "article": "제5조",
@@ -772,7 +849,8 @@
           }
         }
       ],
-      "diff_window_count": 6
+      "diff_window_count": 6,
+      "substance_score": 30
     },
     {
       "article": "제6조",
@@ -808,7 +886,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제8조",
@@ -844,7 +923,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 10
     },
     {
       "article": "제9조",
@@ -964,13 +1044,14 @@
           }
         }
       ],
-      "diff_window_count": 8
+      "diff_window_count": 8,
+      "substance_score": 30
     }
   ],
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1929299"
 }

@@ -9,8 +9,71 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000288000",
   "category": "급여·지원기준",
-  "primary_change_summary": "본문 · 2023.12.22. → 2027.12.31.",
-  "priority_reasons": [],
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "신청·심사·집행 절차의 실질 문구 변경",
+    "중앙행정규칙이 관할하는 전국 특정 분야"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 30,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "신청·심사·집행 절차의 실질 문구 변경",
+            "article": "표 1 · 작성 및 공표주기 · 변경 전",
+            "before": "[신설]",
+            "after": "· 2년",
+            "source_title": "통계작성의 변경승인(협의) 고시(부여군노인복지통계)",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000288000"
+          }
+        ]
+      },
+      "scope": {
+        "score": 25,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "중앙행정규칙이 관할하는 전국 특정 분야",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(부여군노인복지통계)",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000288000"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "통계작성의 변경승인(협의) 고시(부여군노인복지통계)",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000288000"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      1,
+      2,
+      3
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -34,35 +97,40 @@
           }
         }
       ],
-      "diff_window_count": 1
+      "diff_window_count": 1,
+      "substance_score": 0
     },
     {
       "article": "표 1 · 작성 및 공표주기 · 변경 전",
       "before": "[신설]",
       "after": "· 2년",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 30
     },
     {
       "article": "표 1 · 작성 및 공표주기 · 변경 후",
       "before": "[신설]",
       "after": "· 4년",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 30
     },
     {
       "article": "표 4 · 작성항목 및 공표내용 · 변경 전",
       "before": "○ 6개 부문 75개 항목 - 인구(17), 주택 및 건축물(12) , 복지(20), 고용(11), 건강(13), 연금(6)",
       "after": "[삭제]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 30
     },
     {
       "article": "표 4 · 작성항목 및 공표내용 · 변경 후",
       "before": "○ 6개 부문 75개 항목 - 인구(17), 주택 및 건축물(12) , 복지(20), 고용(11), 건강(13), 연금(6)",
       "after": "[삭제]",
       "focus": [],
-      "diff_window_count": 0
+      "diff_window_count": 0,
+      "substance_score": 30
     }
   ],
   "unresolved": [],
@@ -76,6 +144,6 @@
     "verified": true,
     "model": "gemini-3.5-flash-lite"
   },
-  "impact_level": "normal",
+  "impact_level": "pending",
   "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000233702"
 }

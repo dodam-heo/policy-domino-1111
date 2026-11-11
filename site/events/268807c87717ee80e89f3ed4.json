@@ -10,7 +10,70 @@
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183455",
   "category": "행정절차·인허가",
   "primary_change_summary": "제13조 · 기획예산실장에게 → 기획조정실장에게",
-  "priority_reasons": [],
+  "priority_reasons": [
+    "기관 기능·권한·업무분장 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 20,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "기관 기능·권한·업무분장 변경",
+            "article": "제13조",
+            "before": "…역결과 관리) 주관부서의 장은 용역결과를 효율적으로 활용하기 위하여 용역성과품을 기획예산실장에게 제출하고, 기획예산실장은 용역성과가 시책개발 및 사업추진에 적극적으로 활용될 수…",
+            "after": "…역결과 관리) 주관부서의 장은 용역결과를 효율적으로 활용하기 위하여 용역성과품을 기획조정실장에게 제출하고, 기획조정실장은 용역성과가 시책개발 및 사업추진에 적극적으로 활용될 수…",
+            "source_title": "영덕군 용역과제 심의위원회 설치 및 운영 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183455"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "영덕군 용역과제 심의위원회 설치 및 운영 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183455"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "영덕군 용역과제 심의위원회 설치 및 운영 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183455"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0,
+      2,
+      3
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
   "comparison_status": "changed",
   "relationship": "same_official_id_revision",
   "changes": [
@@ -62,7 +125,8 @@
           }
         }
       ],
-      "diff_window_count": 3
+      "diff_window_count": 3,
+      "substance_score": 20
     },
     {
       "article": "제2조",
@@ -98,7 +162,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 0
     },
     {
       "article": "제3조",
@@ -134,7 +199,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 20
     },
     {
       "article": "제9조",
@@ -170,7 +236,8 @@
           }
         }
       ],
-      "diff_window_count": 2
+      "diff_window_count": 2,
+      "substance_score": 20
     }
   ],
   "unresolved": [],
