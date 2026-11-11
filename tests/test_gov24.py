@@ -1,7 +1,7 @@
 import tempfile
 import unittest
 from pathlib import Path
-from unified.gov24 import Gov24Client, transform, merge_page, collect
+from unified.gov24 import Gov24Client, transform, merge_page, collect, gov24_service_key, DEFAULT_GOV24_SERVICE_KEY
 from unified.engine import load, hash256
 
 
@@ -20,6 +20,15 @@ class Gov24Test(unittest.TestCase):
             self.assertEqual(obj["agency"],"실제공공기관")
             self.assertIn("제3조",obj["basis"]["법령"])
             self.assertEqual(obj["criteria"]["선정기준"],"기준 100원")
+
+    def test_dori_is_embedded_as_default_credential(self):
+        from unittest.mock import patch
+        self.assertEqual(DEFAULT_GOV24_SERVICE_KEY, "dori")
+        with patch.dict("os.environ", {}, clear=True):
+            self.assertEqual(gov24_service_key(), "dori")
+            self.assertEqual(Gov24Client().key, "dori")
+        with patch.dict("os.environ", {"GOV24_SERVICE_KEY": "valid-override"}, clear=True):
+            self.assertEqual(gov24_service_key(), "valid-override")
 
     def test_resume_official_pagination(self):
         seen=[]
