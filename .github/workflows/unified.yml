@@ -74,9 +74,9 @@ jobs:
       - name: Identify verified public-agency program impacts
         if: github.event_name != 'pull_request'
         env:
-          PD_LLM_API_KEY: ${{ secrets.PD_LLM_API_KEY || secrets.OPENAI_API_KEY }}
-          PD_LLM_MODEL: ${{ vars.PD_LLM_MODEL || 'gpt-4.1-mini' }}
-          PD_LLM_URL: ${{ vars.PD_LLM_URL || 'https://api.openai.com/v1/chat/completions' }}
+          PD_LLM_API_KEY: ${{ secrets.GEMINI_API_KEY || secrets.PD_LLM_API_KEY || secrets.OPENAI_API_KEY }}
+          PD_LLM_MODEL: ${{ vars.PD_LLM_MODEL || 'gemini-2.5-flash-lite' }}
+          PD_LLM_URL: ${{ vars.PD_LLM_URL || 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions' }}
           PD_LLM_MAX_REQUESTS: ${{ vars.PD_LLM_MAX_REQUESTS || '60' }}
         run: python -m unified.impact --root data
       - name: Build compact source-backed policy workbench

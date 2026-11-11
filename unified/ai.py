@@ -49,7 +49,7 @@ def verify(reply: dict, impact: dict) -> dict:
 
 
 def analyze(impact: dict, api_key: str | None = None, transport=None) -> dict | None:
-    key = api_key or os.getenv("PD_LLM_API_KEY") or os.getenv("OPENAI_API_KEY")
+    key = api_key or os.getenv("PD_LLM_API_KEY") or os.getenv("OPENAI_API_KEY") or os.getenv("GEMINI_API_KEY")
     endpoint = os.getenv("PD_LLM_URL", "https://api.openai.com/v1/chat/completions")
     model = (os.getenv("PD_LLM_MODEL") or "gpt-4.1-mini")
     if not key or not model:

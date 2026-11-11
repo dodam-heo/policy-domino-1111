@@ -40,3 +40,13 @@ class EvidenceAlignmentTests(unittest.TestCase):
         self.assertEqual(compare_bodies(old,new)['changes'][0]['change_type'],'added')
         old['status']='partial'
         self.assertFalse(compare_bodies(old,new)['changes'])
+
+    def test_official_ordinance_jo_wrapper(self):
+        from unified.engine import parse_body
+        body=parse_body('<LawService><조문><조><조문번호>1</조문번호><조내용>제1조 목적</조내용></조></조문></LawService>'.encode())
+        self.assertEqual(body['clauses']['제1조'],'제1조 목적')
+
+    def test_annex_without_body_or_download_remains_partial(self):
+        from unified.engine import parse_body
+        body=parse_body('<LawService><조><조문번호>1</조문번호><조내용>본문</조내용></조><별표단위><별표번호>1</별표번호></별표단위></LawService>'.encode())
+        self.assertEqual(body['status'],'partial')

@@ -134,6 +134,7 @@ def parse_index(root, source, rule_kind=""):
 def parse_body(xml: bytes) -> dict:
     root = ET.fromstring(xml)
     clauses = {}
+    missing_annexes = []
     links = []
     for el in root.iter():
         k = tag(el)
@@ -167,7 +168,9 @@ def parse_body(xml: bytes) -> dict:
                 if title:
                     key += " (" + title + ")"
                 clauses[key] = value
-        elif k in ("조항", "자치법규조문"):
+            elif not any(tag(child) in LINK_TAGS for child in el.iter()):
+                missing_annexes.append("annex_text_unavailable:"+(number or title or "unknown"))
+        elif k in ("조항", "자치법규조문", "조"):
             number, value = field(el, "조문번호", True), field(el, "조내용", True)
             if number and value:
                 clauses["제"+number+"조"] = value
@@ -178,7 +181,7 @@ def parse_body(xml: bytes) -> dict:
         fallback = [x for x in fallback if x]
         if fallback:
             clauses["본문"] = " ".join(dict.fromkeys(fallback))
-    incomplete = [k for k, v in clauses.items() if not v or len(v) >= 15000]
+    incomplete = missing_annexes + [k for k, v in clauses.items() if not v or len(v) >= 15000]
     if any(re.search(r"<img\b", v, re.I) for v in clauses.values()):
         incomplete.append("embedded_image_requires_full_attachment")
     clauses = {key: re.sub(r"<img\b[^>]*>\s*(?:</img>)?", "[표: 공식 첨부 참조]", value,
@@ -188,7 +191,7 @@ def parse_body(xml: bytes) -> dict:
         "clauses": clauses,
         "attachment_links": links,
         "incomplete_keys": incomplete,
-        "parser_version": 2,
+        "parser_version": 3,
         "raw_xml_sha256": hash256(xml),
         "body_sha256": hash256(json.dumps(clauses, sort_keys=True, ensure_ascii=False)),
     }
@@ -511,11 +514,13 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
                 and stored.get("official_xml_base64") and comparison_path.exists()):
             continue
         attempted += 1
+        state["attempts"][ident(rec)] = int(state["attempts"].get(ident(rec), 0)) + 1
         try:
             after = process(api, root, state, rec)
             if after.get("body", {}).get("status") == "complete":
                 complete += 1
             if not after["body"]["clauses"]:
+                state["errors"][ident(rec)] = "official_body_not_parsed"
                 continue
             prev, annual = api.predecessor(rec)
             if not prev:
@@ -556,7 +561,7 @@ def refresh_cached(root: Path) -> dict:
         if not obj.get("official_xml_base64"):
             continue
         old_body = obj.get("body", {})
-        if old_body.get("parser_version") == 2:
+        if old_body.get("parser_version") == 3:
             continue
         body = parse_body(base64.b64decode(obj["official_xml_base64"]))
         archive = {normalized_url(a.get("source_url", "")): a.get("sha256")
@@ -568,7 +573,7 @@ def refresh_cached(root: Path) -> dict:
             return gzip.decompress((root / "attachments" / sha[:2] / (sha+".gz")).read_bytes())
         if body.get("attachment_links"):
             body = resolve_attachments(root, body, transport=cached_attachment)
-        body["parser_version"] = 2
+        body["parser_version"] = 3
         obj["body"] = body
         repaired += int(store(path, obj))
     rebuilt = 0
