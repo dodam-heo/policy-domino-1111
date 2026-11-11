@@ -1,0 +1,100 @@
+{
+  "id": "ordin|2024819|2178547",
+  "title": "경기도 주택조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "경기도",
+  "published_at": "2026-10-12",
+  "effective_date": "2027-01-13",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2178547",
+  "category": "기타 제·개정",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "지원 자격·법정 권리·의무의 실질 문구 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 40,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+            "article": "제7조의2",
+            "before": "[신설]",
+            "after": "제7조의2(방수 및 방근기준) ① 공동주택의 지하주차장 천장, 바닥, 외벽 및 중간층 슬래브 등에는 구조체 누수 예방을 위한 방수계획을 설계에 반영하여야 한다. ② 주택단지 내 지하주차장 상부 인공지반 및 옥상 등에 조경을 설치하는 경우에는 누수를 예방하고 식물의 뿌리가 건축물이나 구조물에 침입하지 않도",
+            "source_title": "경기도 주택조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2178547"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "경기도 주택조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2178547"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "경기도 주택조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2178547"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제7조의2",
+      "before": "[신설]",
+      "after": "제7조의2(방수 및 방근기준) ① 공동주택의 지하주차장 천장, 바닥, 외벽 및 중간층 슬래브 등에는 구조체 누수 예방을 위한 방수계획을 설계에 반영하여야 한다. ② 주택단지 내 지하주차장 상부 인공지반 및 옥상 등에 조경을 설치하는 경우에는 누수를 예방하고 식물의 뿌리가 건축물이나 구조물에 침입하지 않도록 방수ㆍ방근계획을 설계에 반영하여야 한다. [본조신설 2026.10.12.]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 40
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": {
+    "explanation": "공동주택 지하주차장 구조체 누수 예방과 인공지반 및 옥상 조경 설치 시 식물 뿌리 침입 방지를 위한 방수 및 방근계획을 설계에 의무적으로 반영하도록 신설되었습니다.",
+    "old_quote": "제7조의2: [신설]",
+    "new_quote": "제7조의2: 제7조의2(방수 및 방근기준) ① 공동주택의 지하주차장 천장, 바닥, 외벽 및 중간층 슬래브 등에는 구조체 누수 예방을 위한 방수계획을 설계에 반영하여야 한다. ② 주택단지 내 지하주차장 상부 인공지반 및 옥상 등에 조경을 설치하는 경우에는 누수를 예방하고 식물의 뿌리가 건축물이나 구조물에 침입하지 않도록 방수ㆍ방근계획을 설계에 반영하여야 한다. [본조신설 2026.10.12.]",
+    "program_quote": "제7조의2: 제7조의2(방수 및 방근기준) ① 공동주택의 지하주차장 천장, 바닥, 외벽 및 중간층 슬래브 등에는 구조체 누수 예방을 위한 방수계획을 설계에 반영하여야 한다. ② 주택단지 내 지하주차장 상부 인공지반 및 옥상 등에 조경을 설치하는 경우에는 누수를 예방하고 식물의 뿌리가 건축물이나 구조물에 침입하지 않도록 방수ㆍ방근계획을 설계에 반영하여야 한다. [본조신설 2026.10.12.]",
+    "verified": true,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1799931"
+}

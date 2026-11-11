@@ -1,0 +1,215 @@
+{
+  "id": "ordin|2240998|2176325",
+  "title": "서울특별시 서대문구 카페 폭포 장학금 지원 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "서울특별시 서대문구",
+  "published_at": "2026-10-07",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2176325",
+  "category": "급여·지원기준",
+  "primary_change_summary": "제7조 · 신설 → 금지",
+  "priority_reasons": [
+    "지원 자격·법정 권리·의무의 실질 문구 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 55,
+    "score_min": 55,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 40,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "지원 자격·법정 권리·의무의 실질 문구 변경",
+            "article": "제7조",
+            "before": "…국가, 다른 지방자치단체, 기업 및 단체 등으로부터 장학금을 받았거나 받고 있는 경우에도 이 조례에 따라 중복하여 지급할 수 있다.",
+            "after": "…국가, 다른 지방자치단체, 기업 및 단체 등으로부터 장학금을 받았거나 받고 있는 경우 이 조례에 따라 중복 지급할 수 없다.",
+            "source_title": "서울특별시 서대문구 카페 폭포 장학금 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2176325"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "서울특별시 서대문구 카페 폭포 장학금 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2176325"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "서울특별시 서대문구 카페 폭포 장학금 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2176325"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      1
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제2조",
+      "before": "제2조(정의) 이 조례에서 “장학금”이란 다음 각 호의 어느 하나에 해당하는 사람에게 지급하는 일정한 금액을 말한다. <개정 2024. 10. 16.> 1. 서울특별시 서대문구 관내(이하 “관내”라 한다)에 있는 중ㆍ고등학교 및 대학교에 다니는 사람(입학예정자를 포함한다) 2. 장학생 모집일을 기준으로 관내에 1년 이상 주민등록을 두고 서울특별시 서대문구 관외에 있는 중ㆍ고등학교 및 대학교에 다니는 사람(입학예정자를 포함한다) 3. 관내에서 출생했거나 관내 「초ㆍ중등교육법」제2조에 따른 학교 출신으로서 문화ㆍ예술ㆍ체육 등의 분야에서 서대문구의 명예와 위상을 드높인 중ㆍ고등학생 및 대학생(입학예정자를 포함한다)",
+      "after": "제2조(정의) 이 조례에서 “장학금”이란 장학생 모집일을 기준으로 서대문구 관내에 1년 이상 주민등록을 두고 중ㆍ고등학교 및 대학교에 다니는 사람에게 지급하는 일정한 금액을 말한다. <개정 2024. 10. 16., 2026. 10. 7.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제2조(정의) 이 조례에서 “장학금”이란 ",
+            "changed": "다음 각 호의 어느 하나에 해당하는",
+            "suffix": " 사람에게 지급하는 일정한 금액을 말한다. <개정 2024. 10. 16.> 1.…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제2조(정의) 이 조례에서 “장학금”이란 ",
+            "changed": "장학생 모집일을 기준으로 서대문구 관내에 1년 이상 주민등록을 두고 중ㆍ고등학교 및 대학교에 다니는",
+            "suffix": " 사람에게 지급하는 일정한 금액을 말한다. <개정 2024. 10. 16., 20…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…나에 해당하는 사람에게 지급하는 일정한 금액을 말한다. <개정 2024. 10. ",
+            "changed": "16.",
+            "suffix": "> 1. 서울특별시 서대문구 관내(이하 “관내”라 한다)에 있는 중ㆍ고등학교 및 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…학교에 다니는 사람에게 지급하는 일정한 금액을 말한다. <개정 2024. 10. ",
+            "changed": "16., 2026. 10. 7.",
+            "suffix": ">",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…하는 사람에게 지급하는 일정한 금액을 말한다. <개정 2024. 10. 16.> ",
+            "changed": "1. 서울특별시 서대문구 관내(이하 “관내”라 한다)에 있는 중ㆍ고등학교 및 대학교에 다니는 사람(입학예정자를 포함한다) 2. 장학생 모집일을 기준으로 관내에 1년 이상 주민등록을 두고 서울특별시 서대문구 관외에 있는 중ㆍ고등학교 및 대학교에 다니는 사람(입학예정자를 포함한다) 3. 관내에서 출생했거나 관내 「초ㆍ중등교육법」제2조에 따른 학교 출신으로서 문화ㆍ예술ㆍ체육 등의 분야에서 서대문구의 명예와 위상을 드높인 중ㆍ고등학생 및 대학생(입학예정자를 포함한다)",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…일정한 금액을 말한다. <개정 2024. 10. 16., 2026. 10. 7.>",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 3,
+      "substance_score": 10
+    },
+    {
+      "article": "제7조",
+      "before": "제7조(장학금 중복지급) 장학금은 국가, 다른 지방자치단체, 기업 및 단체 등으로부터 장학금을 받았거나 받고 있는 경우에도 이 조례에 따라 중복하여 지급할 수 있다.",
+      "after": "제7조(장학금 중복지급 금지) 장학금은 국가, 다른 지방자치단체, 기업 및 단체 등으로부터 장학금을 받았거나 받고 있는 경우 이 조례에 따라 중복 지급할 수 없다. <개정 2026. 10. 7.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제7조(장학금 중복지급",
+            "changed": "",
+            "suffix": ") 장학금은 국가, 다른 지방자치단체, 기업 및 단체 등으로부터 장학금을 받았거나…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제7조(장학금 중복지급 ",
+            "changed": "금지",
+            "suffix": ") 장학금은 국가, 다른 지방자치단체, 기업 및 단체 등으로부터 장학금을 받았거나…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…국가, 다른 지방자치단체, 기업 및 단체 등으로부터 장학금을 받았거나 받고 있는 ",
+            "changed": "경우에도",
+            "suffix": " 이 조례에 따라 중복하여 지급할 수 있다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…국가, 다른 지방자치단체, 기업 및 단체 등으로부터 장학금을 받았거나 받고 있는 ",
+            "changed": "경우",
+            "suffix": " 이 조례에 따라 중복 지급할 수 없다. <개정 2026. 10. 7.>",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 기업 및 단체 등으로부터 장학금을 받았거나 받고 있는 경우에도 이 조례에 따라 ",
+            "changed": "중복하여",
+            "suffix": " 지급할 수 있다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…체, 기업 및 단체 등으로부터 장학금을 받았거나 받고 있는 경우 이 조례에 따라 ",
+            "changed": "중복",
+            "suffix": " 지급할 수 없다. <개정 2026. 10. 7.>",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…로부터 장학금을 받았거나 받고 있는 경우에도 이 조례에 따라 중복하여 지급할 수 ",
+            "changed": "있다",
+            "suffix": ".",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…체 등으로부터 장학금을 받았거나 받고 있는 경우 이 조례에 따라 중복 지급할 수 ",
+            "changed": "없다",
+            "suffix": ". <개정 2026. 10. 7.>",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 장학금을 받았거나 받고 있는 경우에도 이 조례에 따라 중복하여 지급할 수 있다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…로부터 장학금을 받았거나 받고 있는 경우 이 조례에 따라 중복 지급할 수 없다. ",
+            "changed": "<개정 2026. 10. 7.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 5,
+      "substance_score": 40
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2052789"
+}

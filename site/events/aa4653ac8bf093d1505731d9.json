@@ -1,0 +1,157 @@
+{
+  "id": "ordin|2100149|2176625",
+  "title": "울릉군의회 회기운영 등에 관한 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "경상북도 울릉군",
+  "published_at": "2026-10-06",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2176625",
+  "category": "기타 제·개정",
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
+  "priority_reasons": [
+    "제한적인 본문·명칭·인용 정비",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 25,
+    "score_min": 25,
+    "score_max": 50,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 10,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "제한적인 본문·명칭·인용 정비",
+            "article": "제3조",
+            "before": "…년 2회 정례회를 개회하되, 회기는 40일 이내로 한다. ② 정례회의 집회일은 다음 각 호와 같다. 다만, 그 날이 공휴일인 때에는 그…",
+            "after": "…년 2회 정례회를 개회하되, 회기는 45일 이내로 한다. ② 정례회의 집회일은 다음 각 호와 같다. 다만, 그 날이 공휴일인 때에는 그…",
+            "source_title": "울릉군의회 회기운영 등에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2176625"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "울릉군의회 회기운영 등에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2176625"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "울릉군의회 회기운영 등에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2176625"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제2조",
+      "before": "제2조 (연간 총 회의 일수) 법 제47조제2항에 따라 의회의 연간 총 회의일수는 정례회 및 임시회의 회기를 합하여 80일 이내로 한다. 다만, 부득이 한 사유로 연간 회의일수를 초과하여 집회 할 필요가 있을 때에는 본회의의 의결로 10일 이내 연장할 수 있다.",
+      "after": "제2조 (연간 총 회의 일수) 법 제47조제2항에 따라 의회의 연간 총 회의일수는 정례회 및 임시회의 회기를 합하여 100일 이내로 한다. 다만, 부득이 한 사유로 연간 회의일수를 초과하여 집회 할 필요가 있을 때에는 본회의의 의결로 10일 이내 연장할 수 있다. <개정 2026.10.6.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…47조제2항에 따라 의회의 연간 총 회의일수는 정례회 및 임시회의 회기를 합하여 ",
+            "changed": "80",
+            "suffix": "일 이내로 한다. 다만, 부득이 한 사유로 연간 회의일수를 초과하여 집회 할 필요…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…47조제2항에 따라 의회의 연간 총 회의일수는 정례회 및 임시회의 회기를 합하여 ",
+            "changed": "100",
+            "suffix": "일 이내로 한다. 다만, 부득이 한 사유로 연간 회의일수를 초과하여 집회 할 필요…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…과하여 집회 할 필요가 있을 때에는 본회의의 의결로 10일 이내 연장할 수 있다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…하여 집회 할 필요가 있을 때에는 본회의의 의결로 10일 이내 연장할 수 있다. ",
+            "changed": "<개정 2026.10.6.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 0
+    },
+    {
+      "article": "제3조",
+      "before": "제3조 (정례회의 회기운영) ① 의회는 법 제53조에 따라 매년 2회 정례회를 개회하되, 회기는 40일 이내로 한다. <개정 2022.2.25> ② 정례회의 집회일은 다음 각 호와 같다. 다만, 그 날이 공휴일인 때에는 그 다음 관공서의 정상 근무일에 집회할 수 있다. <개정 2022.2.25> 1. 제1차 정례회는 매년 5월ㆍ6월 중에 집회한다. 다만, 지방의회의원 총 선거가 실시되는 연도에는 의회 의결로 9월, 10월중에 따로 정할 수 있다. <개정 2011. 1. 6><개정 2013. 8. 12><개정 2016.11.18.> 2. 제2차 정례회는 매년 11월ㆍ12월 중에 집회한다. <개정 2011. 1. 6><개정 2013. 8. 12>",
+      "after": "제3조 (정례회의 회기운영) ① 의회는 법 제53조에 따라 매년 2회 정례회를 개회하되, 회기는 45일 이내로 한다. <개정 2022.2.25> <개정 2026.10.6.> ② 정례회의 집회일은 다음 각 호와 같다. 다만, 그 날이 공휴일인 때에는 그 다음 관공서의 정상 근무일에 집회할 수 있다. <개정 2022.2.25> 1. 제1차 정례회는 매년 5월ㆍ6월 중에 집회한다. 다만, 지방의회의원 총 선거가 실시되는 연도에는 의회 의결로 9월, 10월중에 따로 정할 수 있다. <개정 2011. 1. 6><개정 2013. 8. 12><개정 2016.11.18.> 2. 제2차 정례회는 매년 11월ㆍ12월 중에 집회한다. <개정 2011. 1. 6><개정 2013. 8. 12>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "… 회기운영) ① 의회는 법 제53조에 따라 매년 2회 정례회를 개회하되, 회기는 ",
+            "changed": "40",
+            "suffix": "일 이내로 한다. <개정 2022.2.25> ② 정례회의 집회일은 다음 각 호와 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 회기운영) ① 의회는 법 제53조에 따라 매년 2회 정례회를 개회하되, 회기는 ",
+            "changed": "45",
+            "suffix": "일 이내로 한다. <개정 2022.2.25> <개정 2026.10.6.> ② 정례…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…년 2회 정례회를 개회하되, 회기는 40일 이내로 한다. <개정 2022.2.25",
+            "changed": "",
+            "suffix": "> ② 정례회의 집회일은 다음 각 호와 같다. 다만, 그 날이 공휴일인 때에는 그…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…년 2회 정례회를 개회하되, 회기는 45일 이내로 한다. <개정 2022.2.25",
+            "changed": "> <개정 2026.10.6.",
+            "suffix": "> ② 정례회의 집회일은 다음 각 호와 같다. 다만, 그 날이 공휴일인 때에는 그…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1799855"
+}

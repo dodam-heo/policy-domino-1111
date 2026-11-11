@@ -1,0 +1,341 @@
+{
+  "id": "ordin|2247507|2177617",
+  "title": "충청북도 재향경찰회 지원 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "충청북도",
+  "published_at": "2026-10-08",
+  "effective_date": "2026-11-20",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2177617",
+  "category": "급여·지원기준",
+  "primary_change_summary": "제1조 · 대한민국재향경우회법 → 대한민국재향경찰회법",
+  "priority_reasons": [
+    "기관 기능·권한·업무분장 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": false,
+    "axes": {
+      "substance": {
+        "score": 20,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "기관 기능·권한·업무분장 변경",
+            "article": "제1조",
+            "before": "제1조(목적) 이 조례는 「 대한민국재향경우회법 」에 따라 조직된 충청북도 재향경우회 지원에 관한 사항을 규정함으로써 지역사회 질…",
+            "after": "제1조(목적) 이 조례는 「 대한민국재향경찰회법 」에 따라 조직된 충청북도 재향경찰회 지원에 관한 사항을 규정함으로써 지역사회 질…",
+            "source_title": "충청북도 재향경찰회 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2177617"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "충청북도 재향경찰회 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2177617"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "충청북도 재향경찰회 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2177617"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      0,
+      1
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제1조",
+      "before": "제1조(목적) 이 조례는 「대한민국재향경우회법」에 따라 조직된 충청북도 재향경우회 지원에 관한 사항을 규정함으로써 지역사회 질서 의식 함양과 범죄예방 협력 활동을 통해 도민안전 증진 및 도정발전에 기여하는 것을 목적으로 한다.",
+      "after": "제1조(목적) 이 조례는 「대한민국재향경찰회법」에 따라 조직된 충청북도 재향경찰회 지원에 관한 사항을 규정함으로써 지역사회 질서 의식 함양과 범죄예방 협력 활동을 통해 도민안전 증진 및 도정발전에 기여하는 것을 목적으로 한다. <개정 2026.10.8.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제1조(목적) 이 조례는 「",
+            "changed": "대한민국재향경우회법",
+            "suffix": "」에 따라 조직된 충청북도 재향경우회 지원에 관한 사항을 규정함으로써 지역사회 질…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제1조(목적) 이 조례는 「",
+            "changed": "대한민국재향경찰회법",
+            "suffix": "」에 따라 조직된 충청북도 재향경찰회 지원에 관한 사항을 규정함으로써 지역사회 질…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제1조(목적) 이 조례는 「대한민국재향경우회법」에 따라 조직된 충청북도 ",
+            "changed": "재향경우회",
+            "suffix": " 지원에 관한 사항을 규정함으로써 지역사회 질서 의식 함양과 범죄예방 협력 활동을…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제1조(목적) 이 조례는 「대한민국재향경찰회법」에 따라 조직된 충청북도 ",
+            "changed": "재향경찰회",
+            "suffix": " 지원에 관한 사항을 규정함으로써 지역사회 질서 의식 함양과 범죄예방 협력 활동을…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…예방 협력 활동을 통해 도민안전 증진 및 도정발전에 기여하는 것을 목적으로 한다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…방 협력 활동을 통해 도민안전 증진 및 도정발전에 기여하는 것을 목적으로 한다. ",
+            "changed": "<개정 2026.10.8.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 3,
+      "substance_score": 20
+    },
+    {
+      "article": "제2조",
+      "before": "제2조(정의) 이 조례에서 “경우회”라 함은 「대한민국재향경우회법」(이하 “법”이라 한다)제5조제2항에 따라 조직된 충청북도 재향경우회(이하 “경우회”라 한다)를 말한다.",
+      "after": "제2조(정의) 이 조례에서 “재향경찰회”란 「대한민국재향경찰회법」 제5조제2항에 따라 조직된 충청북도 재향경찰회를 말한다. <개정 2026.10.8.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제2조(정의) 이 조례에서 “",
+            "changed": "경우회",
+            "suffix": "”라 함은 「대한민국재향경우회법」(이하 “법”이라 한다)제5조제2항에 따라 조직된…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제2조(정의) 이 조례에서 “",
+            "changed": "재향경찰회",
+            "suffix": "”란 「대한민국재향경찰회법」 제5조제2항에 따라 조직된 충청북도 재향경찰회를 말한…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제2조(정의) 이 조례에서 “경우회”",
+            "changed": "라 함은",
+            "suffix": " 「대한민국재향경우회법」(이하 “법”이라 한다)제5조제2항에 따라 조직된 충청북도…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제2조(정의) 이 조례에서 “재향경찰회”",
+            "changed": "란",
+            "suffix": " 「대한민국재향경찰회법」 제5조제2항에 따라 조직된 충청북도 재향경찰회를 말한다.…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제2조(정의) 이 조례에서 “경우회”라 함은 「",
+            "changed": "대한민국재향경우회법",
+            "suffix": "」(이하 “법”이라 한다)제5조제2항에 따라 조직된 충청북도 재향경우회(이하 “경…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제2조(정의) 이 조례에서 “재향경찰회”란 「",
+            "changed": "대한민국재향경찰회법",
+            "suffix": "」 제5조제2항에 따라 조직된 충청북도 재향경찰회를 말한다. <개정 2026.10…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제2조(정의) 이 조례에서 “경우회”라 함은 「대한민국재향경우회법」",
+            "changed": "(이하 “법”이라 한다)",
+            "suffix": "제5조제2항에 따라 조직된 충청북도 재향경우회(이하 “경우회”라 한다)를 말한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제2조(정의) 이 조례에서 “재향경찰회”란 「대한민국재향경찰회법」 ",
+            "changed": "",
+            "suffix": "제5조제2항에 따라 조직된 충청북도 재향경찰회를 말한다. <개정 2026.10.8…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…「대한민국재향경우회법」(이하 “법”이라 한다)제5조제2항에 따라 조직된 충청북도 ",
+            "changed": "재향경우회(이하 “경우회”라 한다)를",
+            "suffix": " 말한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…에서 “재향경찰회”란 「대한민국재향경찰회법」 제5조제2항에 따라 조직된 충청북도 ",
+            "changed": "재향경찰회를",
+            "suffix": " 말한다. <개정 2026.10.8.>",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…제5조제2항에 따라 조직된 충청북도 재향경우회(이하 “경우회”라 한다)를 말한다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…「대한민국재향경찰회법」 제5조제2항에 따라 조직된 충청북도 재향경찰회를 말한다. ",
+            "changed": "<개정 2026.10.8.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 6,
+      "substance_score": 20
+    },
+    {
+      "article": "제4조",
+      "before": "제4조(감독) ① 도지사가 제3조에 따라 보조금을 지급하는 경우에는 그 사용에 관한 서류의 제출을 요구하거나 그 밖에 필요한 조치를 할 수 있다. ② 경우회는 제1항에 따른 보조금 사용에 관한 서류 제출 및 그 밖의 요청 사항에 반드시 응해야 한다.",
+      "after": "제4조(감독) ① 도지사가 제3조에 따라 보조금을 지급하는 경우에는 그 사용에 관한 서류의 제출을 요구하거나 그 밖에 필요한 조치를 할 수 있다. ② 재향경찰회는 제1항에 따른 보조금 사용에 관한 서류 제출 및 그 밖의 요청 사항에 반드시 응해야 한다. <개정 2026.10.8.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "… 사용에 관한 서류의 제출을 요구하거나 그 밖에 필요한 조치를 할 수 있다. ② ",
+            "changed": "경우회는",
+            "suffix": " 제1항에 따른 보조금 사용에 관한 서류 제출 및 그 밖의 요청 사항에 반드시 응…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 사용에 관한 서류의 제출을 요구하거나 그 밖에 필요한 조치를 할 수 있다. ② ",
+            "changed": "재향경찰회는",
+            "suffix": " 제1항에 따른 보조금 사용에 관한 서류 제출 및 그 밖의 요청 사항에 반드시 응…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…따른 보조금 사용에 관한 서류 제출 및 그 밖의 요청 사항에 반드시 응해야 한다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…른 보조금 사용에 관한 서류 제출 및 그 밖의 요청 사항에 반드시 응해야 한다. ",
+            "changed": "<개정 2026.10.8.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 10
+    },
+    {
+      "article": "제6조",
+      "before": "제6조(중복지원 금지) 경우회가 다른 법령이나 조례 등에 따라 지원을 받는 경우에는 이 조례에 따른 지원을 하지 않는다.",
+      "after": "제6조(중복지원 금지) 재향경찰회가 다른 법령이나 조례 등에 따라 지원을 받는 경우에는 이 조례에 따른 지원을 하지 않는다. <개정 2026.10.8.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제6조(중복지원 금지) ",
+            "changed": "경우회가",
+            "suffix": " 다른 법령이나 조례 등에 따라 지원을 받는 경우에는 이 조례에 따른 지원을 하지…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제6조(중복지원 금지) ",
+            "changed": "재향경찰회가",
+            "suffix": " 다른 법령이나 조례 등에 따라 지원을 받는 경우에는 이 조례에 따른 지원을 하지…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…령이나 조례 등에 따라 지원을 받는 경우에는 이 조례에 따른 지원을 하지 않는다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…이나 조례 등에 따라 지원을 받는 경우에는 이 조례에 따른 지원을 하지 않는다. ",
+            "changed": "<개정 2026.10.8.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 10
+    },
+    {
+      "article": "제7조",
+      "before": "제7조(포상) 도지사는 경우회 활동을 통하여 지역발전에 현저히 기여한 자에 대하여 「충청북도 포상 조례」로 정하는 바에 따라 포상할 수 있다. <개정 2025.7.11.>",
+      "after": "제7조(포상) 도지사는 재향경찰회 활동을 통하여 지역발전에 현저히 기여한 자에 대하여 「충청북도 포상 조례」로 정하는 바에 따라 포상할 수 있다. <개정 2025.7.11., 2026.10.8.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제7조(포상) 도지사는 ",
+            "changed": "경우회",
+            "suffix": " 활동을 통하여 지역발전에 현저히 기여한 자에 대하여 「충청북도 포상 조례」로 정…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제7조(포상) 도지사는 ",
+            "changed": "재향경찰회",
+            "suffix": " 활동을 통하여 지역발전에 현저히 기여한 자에 대하여 「충청북도 포상 조례」로 정…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…자에 대하여 「충청북도 포상 조례」로 정하는 바에 따라 포상할 수 있다. <개정 ",
+            "changed": "2025.7.11.",
+            "suffix": ">",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…자에 대하여 「충청북도 포상 조례」로 정하는 바에 따라 포상할 수 있다. <개정 ",
+            "changed": "2025.7.11., 2026.10.8.",
+            "suffix": ">",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 10
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2056259"
+}

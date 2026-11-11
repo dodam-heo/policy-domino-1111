@@ -1,0 +1,123 @@
+{
+  "id": "ordin|2143329|2178193",
+  "title": "천안시의회 행정사무감사 및 조사에 관한 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "충청남도 천안시",
+  "published_at": "2026-10-12",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2178193",
+  "category": "행정절차·인허가",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 15,
+    "score_min": 15,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "천안시의회 행정사무감사 및 조사에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2178193"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "천안시의회 행정사무감사 및 조사에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2178193"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "천안시의회 행정사무감사 및 조사에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2178193"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제2조",
+      "before": "제2조 (감사) ①천안시의회(이하 “의회”라 한다)는 천안시(이하 \"시\"라 한다)의 행정사무에 관하여 본회의 의결로 본회의에서 이를 행하거나 소관 상임위원회별로 또는 감사특별위원회(이하 \"감사위원회\"라 한다)를 구성하여 행정사무감사(이하 “감사”라 한다)를 행할 수 있다. <개정 2021.12.31.> ②제1항의 감사는 매년 제2차 정례회 기간 중 9일 이내로 실시하되, 본회의ㆍ상임위원회 또는 감사위원회가 작성하고 본회의의 승인을 얻어 확정된 감사계획서에 의하여 행한다.<개정 2000.05.31, 2002.09.23, 2008.1.10, 2011.11.1, 2016.4.1, 2018.9.21> ③감사계획서에는 감사 일정, 감사위원회의 편성, 감사요령, 감사 장소 등 감사에 필요한 사항을 기재하여야 한다. <개정 2021.12.31.> ④본회의는 제3항의 감사계획서를 검토한 다음 의결로써 이를 승인하거나 반려한다. ⑤의회 의장(이하 \"의장\"이라 한다)은 감사계획서가 본회의에서 승인된 때에는 지체없이 시장에게 이를 통지하여야 한다. <개정 2021.12.31.>",
+      "after": "제2조 (감사) ① 천안시의회(이하 “의회”라 한다)는 천안시(이하 \"시\"라 한다)의 행정사무에 관하여 본회의 의결로 본회의에서 이를 행하거나 소관 상임위원회별로 또는 감사특별위원회(이하 \"감사위원회\"라 한다)를 구성하여 행정사무감사(이하 “감사”라 한다)를 행할 수 있다. <개정 2021.12.31.> ② 제1항의 감사는 매년 제1차 정례회 기간 중 9일 이내로 실시하되, 본회의ㆍ상임위원회 또는 감사위원회가 작성하고 본회의의 승인을 얻어 확정된 감사계획서에 의하여 행한다.<개정 2000.05.31, 2002.09.23, 2008.1.10, 2011.11.1, 2016.4.1, 2018.9.21, 2026.10.12.> ③ 감사계획서에는 감사 일정, 감사위원회의 편성, 감사요령, 감사 장소 등 감사에 필요한 사항을 기재하여야 한다. <개정 2021.12.31.> ④ 본회의는 제3항의 감사계획서를 검토한 다음 의결로써 이를 승인하거나 반려한다. ⑤ 의회 의장(이하 \"의장\"이라 한다)은 감사계획서가 본회의에서 승인된 때에는 지체없이 시장에게 이를 통지하여야 한다. <개정 2021.12.31.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…한다)를 행할 수 있다. <개정 2021.12.31.> ②제1항의 감사는 매년 제",
+            "changed": "2",
+            "suffix": "차 정례회 기간 중 9일 이내로 실시하되, 본회의ㆍ상임위원회 또는 감사위원회가 작…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…다)를 행할 수 있다. <개정 2021.12.31.> ② 제1항의 감사는 매년 제",
+            "changed": "1",
+            "suffix": "차 정례회 기간 중 9일 이내로 실시하되, 본회의ㆍ상임위원회 또는 감사위원회가 작…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 2002.09.23, 2008.1.10, 2011.11.1, 2016.4.1, ",
+            "changed": "2018.9.21",
+            "suffix": "> ③감사계획서에는 감사 일정, 감사위원회의 편성, 감사요령, 감사 장소 등 감사…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 2002.09.23, 2008.1.10, 2011.11.1, 2016.4.1, ",
+            "changed": "2018.9.21, 2026.10.12.",
+            "suffix": "> ③ 감사계획서에는 감사 일정, 감사위원회의 편성, 감사요령, 감사 장소 등 감…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 0
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1719417"
+}

@@ -1,23 +1,22 @@
 {
   "official_programs": 10942,
-  "comparisons_considered": 431,
-  "verified_institutional_tasks": 7,
-  "named_standard_review_candidates": 84,
-  "official_rule_dependencies": 2,
+  "comparisons_considered": 476,
+  "verified_institutional_tasks": 8,
+  "named_standard_review_candidates": 87,
+  "official_rule_dependencies": 5,
   "legacy_citation_candidates": 7,
   "legacy_program_review_candidates": 0,
   "comparison_statuses": {
-    "partial_unverified": 303,
-    "changed": 128
+    "changed": 146,
+    "partial_unverified": 330
   },
-  "ai_explanation_attempts": 7,
-  "ai_verified_explanations": 11,
-  "ai_failures": 2,
+  "ai_explanation_attempts": 8,
+  "ai_verified_explanations": 0,
+  "ai_failures": 1,
   "ai_failure_reasons": {
-    "UnverifiedAnalysis:Explanation contains unsupported numerical claim": 1,
     "AI_HTTP_503:provider_rejected_request": 1
   },
-  "policy_ai_summaries": 232,
+  "policy_ai_summaries": 239,
   "ai_configured": true,
-  "policy_summaries_pending": 63
+  "policy_summaries_pending": 99
 }

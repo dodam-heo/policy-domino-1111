@@ -1,0 +1,291 @@
+{
+  "id": "ordin|2210505|2176407",
+  "title": "서울특별시 강동구 재향경찰회 예우 및 지원 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "서울특별시 강동구",
+  "published_at": "2026-10-07",
+  "effective_date": "2026-11-20",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2176407",
+  "category": "조직·인력",
+  "primary_change_summary": "제4조 · 재향경우회가 → 재향경찰회가",
+  "priority_reasons": [
+    "신청·심사·집행 절차의 실질 문구 변경",
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 45,
+    "score_min": 45,
+    "score_max": 70,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": 30,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "신청·심사·집행 절차의 실질 문구 변경",
+            "article": "제4조",
+            "before": "제4조(보조금 지원) ① 구청장은 재향경우회가 제3조에 따른 지원사업에 대하여 보조금을 신청할 경우 예산의 범위에서 지원할 수…",
+            "after": "제4조(보조금 지원) ① 구청장은 재향경찰회가 제3조에 따른 지원사업에 대하여 보조금을 신청할 경우 예산의 범위에서 지원할 수…",
+            "source_title": "서울특별시 강동구 재향경찰회 예우 및 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2176407"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "서울특별시 강동구 재향경찰회 예우 및 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2176407"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "서울특별시 강동구 재향경찰회 예우 및 지원 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2176407"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [
+      3,
+      0,
+      1
+    ],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제1조",
+      "before": "제1조(목적) 이 조례는 「대한민국재향경우회법」에 따라 조직되어 있는 서울특별시 강동구 재향경우회의 활동과 사업을 지원하여 구민과 지역사회의 안전을 도모하는 것을 목적으로 한다.",
+      "after": "제1조(목적) 이 조례는 「대한민국재향경찰회법」에 따라 조직되어 있는 서울특별시 강동구 재향경찰회의 활동과 사업을 지원하여 구민과 지역사회의 안전을 도모하는 것을 목적으로 한다. <개정 2026. 10. 7.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제1조(목적) 이 조례는 「",
+            "changed": "대한민국재향경우회법",
+            "suffix": "」에 따라 조직되어 있는 서울특별시 강동구 재향경우회의 활동과 사업을 지원하여 구…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제1조(목적) 이 조례는 「",
+            "changed": "대한민국재향경찰회법",
+            "suffix": "」에 따라 조직되어 있는 서울특별시 강동구 재향경찰회의 활동과 사업을 지원하여 구…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…목적) 이 조례는 「대한민국재향경우회법」에 따라 조직되어 있는 서울특별시 강동구 ",
+            "changed": "재향경우회의",
+            "suffix": " 활동과 사업을 지원하여 구민과 지역사회의 안전을 도모하는 것을 목적으로 한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…목적) 이 조례는 「대한민국재향경찰회법」에 따라 조직되어 있는 서울특별시 강동구 ",
+            "changed": "재향경찰회의",
+            "suffix": " 활동과 사업을 지원하여 구민과 지역사회의 안전을 도모하는 것을 목적으로 한다. …",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…의 활동과 사업을 지원하여 구민과 지역사회의 안전을 도모하는 것을 목적으로 한다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 활동과 사업을 지원하여 구민과 지역사회의 안전을 도모하는 것을 목적으로 한다. ",
+            "changed": "<개정 2026. 10. 7.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 3,
+      "substance_score": 20
+    },
+    {
+      "article": "제2조",
+      "before": "제2조(정의) 이 조례에서 “재향경우회”란 「대한민국재향경우회법」 제5조제2항에 따라 조직되어 서울특별시 강동구에서 활동하는 단체를 말한다.",
+      "after": "제2조(정의) 이 조례에서 “재향경찰회”란 「대한민국재향경찰회법」 제5조제2항에 따라 조직되어 서울특별시 강동구에서 활동하는 단체를 말한다. <개정 2026. 10. 7.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제2조(정의) 이 조례에서 “",
+            "changed": "재향경우회",
+            "suffix": "”란 「대한민국재향경우회법」 제5조제2항에 따라 조직되어 서울특별시 강동구에서 활…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제2조(정의) 이 조례에서 “",
+            "changed": "재향경찰회",
+            "suffix": "”란 「대한민국재향경찰회법」 제5조제2항에 따라 조직되어 서울특별시 강동구에서 활…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "제2조(정의) 이 조례에서 “재향경우회”란 「",
+            "changed": "대한민국재향경우회법",
+            "suffix": "」 제5조제2항에 따라 조직되어 서울특별시 강동구에서 활동하는 단체를 말한다.",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제2조(정의) 이 조례에서 “재향경찰회”란 「",
+            "changed": "대한민국재향경찰회법",
+            "suffix": "」 제5조제2항에 따라 조직되어 서울특별시 강동구에서 활동하는 단체를 말한다. <…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…회법」 제5조제2항에 따라 조직되어 서울특별시 강동구에서 활동하는 단체를 말한다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…법」 제5조제2항에 따라 조직되어 서울특별시 강동구에서 활동하는 단체를 말한다. ",
+            "changed": "<개정 2026. 10. 7.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 3,
+      "substance_score": 20
+    },
+    {
+      "article": "제3조",
+      "before": "제3조(지원사업) 서울특별시 강동구청장(이하 “구청장”이라 한다)은 재향경우회가 추진하는 다음 각 호의 사업을 지원할 수 있다. 1. 법질서 확립 및 홍보사업 2. 치안협력 및 지원사업 3. 학대ㆍ폭력 예방 등 구민 안전 관련 공익활동 4. 그 밖에 구청장이 필요하다고 인정하는 사업",
+      "after": "제3조(지원사업) 서울특별시 강동구청장(이하 “구청장”이라 한다)은 재향경찰회가 추진하는 다음 각 호의 사업을 지원할 수 있다. <개정 2026. 10. 7.> 1. 법질서 확립 및 홍보사업 2. 치안협력 및 지원사업 3. 학대ㆍ폭력 예방 등 구민 안전 관련 공익활동 4. 그 밖에 구청장이 필요하다고 인정하는 사업",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제3조(지원사업) 서울특별시 강동구청장(이하 “구청장”이라 한다)은 ",
+            "changed": "재향경우회가",
+            "suffix": " 추진하는 다음 각 호의 사업을 지원할 수 있다. 1. 법질서 확립 및 홍보사업 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제3조(지원사업) 서울특별시 강동구청장(이하 “구청장”이라 한다)은 ",
+            "changed": "재향경찰회가",
+            "suffix": " 추진하는 다음 각 호의 사업을 지원할 수 있다. <개정 2026. 10. 7.>…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…청장”이라 한다)은 재향경우회가 추진하는 다음 각 호의 사업을 지원할 수 있다. ",
+            "changed": "",
+            "suffix": "1. 법질서 확립 및 홍보사업 2. 치안협력 및 지원사업 3. 학대ㆍ폭력 예방 등…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…청장”이라 한다)은 재향경찰회가 추진하는 다음 각 호의 사업을 지원할 수 있다. ",
+            "changed": "<개정 2026. 10. 7.>",
+            "suffix": " 1. 법질서 확립 및 홍보사업 2. 치안협력 및 지원사업 3. 학대ㆍ폭력 예방 …",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 10
+    },
+    {
+      "article": "제4조",
+      "before": "제4조(보조금 지원) ① 구청장은 재향경우회가 제3조에 따른 지원사업에 대하여 보조금을 신청할 경우 예산의 범위에서 지원할 수 있다. ② 구청장은 재향경우회가 다른 법령 또는 조례에 의하여 같은 종류의 사업에 대한 보조금을 지원받는 경우에는 중복하여 지원을 할 수 없다.",
+      "after": "제4조(보조금 지원) ① 구청장은 재향경찰회가 제3조에 따른 지원사업에 대하여 보조금을 신청할 경우 예산의 범위에서 지원할 수 있다. <개정 2026. 10. 7.> ② 구청장은 재향경찰회가 다른 법령 또는 조례에 의하여 같은 종류의 사업에 대한 보조금을 지원받는 경우에는 중복하여 지원을 할 수 없다. <개정 2026. 10. 7.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제4조(보조금 지원) ① 구청장은 ",
+            "changed": "재향경우회가",
+            "suffix": " 제3조에 따른 지원사업에 대하여 보조금을 신청할 경우 예산의 범위에서 지원할 수…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제4조(보조금 지원) ① 구청장은 ",
+            "changed": "재향경찰회가",
+            "suffix": " 제3조에 따른 지원사업에 대하여 보조금을 신청할 경우 예산의 범위에서 지원할 수…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 따른 지원사업에 대하여 보조금을 신청할 경우 예산의 범위에서 지원할 수 있다. ",
+            "changed": "",
+            "suffix": "② 구청장은 재향경우회가 다른 법령 또는 조례에 의하여 같은 종류의 사업에 대한 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 따른 지원사업에 대하여 보조금을 신청할 경우 예산의 범위에서 지원할 수 있다. ",
+            "changed": "<개정 2026. 10. 7.>",
+            "suffix": " ② 구청장은 재향경찰회가 다른 법령 또는 조례에 의하여 같은 종류의 사업에 대한…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…업에 대하여 보조금을 신청할 경우 예산의 범위에서 지원할 수 있다. ② 구청장은 ",
+            "changed": "재향경우회가",
+            "suffix": " 다른 법령 또는 조례에 의하여 같은 종류의 사업에 대한 보조금을 지원받는 경우에…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 예산의 범위에서 지원할 수 있다. <개정 2026. 10. 7.> ② 구청장은 ",
+            "changed": "재향경찰회가",
+            "suffix": " 다른 법령 또는 조례에 의하여 같은 종류의 사업에 대한 보조금을 지원받는 경우에…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…같은 종류의 사업에 대한 보조금을 지원받는 경우에는 중복하여 지원을 할 수 없다.",
+            "changed": "",
+            "suffix": "",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…은 종류의 사업에 대한 보조금을 지원받는 경우에는 중복하여 지원을 할 수 없다. ",
+            "changed": "<개정 2026. 10. 7.>",
+            "suffix": "",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 4,
+      "substance_score": 30
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1619803"
+}

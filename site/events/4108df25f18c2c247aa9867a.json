@@ -7,33 +7,34 @@
   "published_at": "2026-10-08",
   "effective_date": "2026-11-30",
   "revision": "일부개정",
-  "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EC%A0%9C%EC%B2%9C%EC%8B%9C%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%29",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000286734",
   "category": "행정절차·인허가",
-  "primary_change_summary": "",
+  "primary_change_summary": "표현·인용·경미한 규정 정비 — 세부 변경은 신구대비에서 확인",
   "priority_reasons": [
+    "제한적인 본문·명칭·인용 정비",
     "중앙행정규칙이 관할하는 전국 특정 분야"
   ],
   "impact_assessment": {
-    "classification": "pending",
-    "score": 25,
-    "score_min": 25,
-    "score_max": 90,
+    "classification": "normal",
+    "score": 35,
+    "score_min": 35,
+    "score_max": 60,
     "score_complete": false,
     "threshold": 65,
     "minimum_substance": 30,
-    "possible_high": true,
+    "possible_high": false,
     "axes": {
       "substance": {
-        "score": null,
-        "status": "pending",
+        "score": 10,
+        "status": "confirmed",
         "evidence": [
           {
-            "reason": "종전·현행 원문 비교 대기",
-            "article": "",
-            "before": "",
-            "after": "",
+            "reason": "제한적인 본문·명칭·인용 정비",
+            "article": "표 1 · 작성항목 (통계표) · 변경 전",
+            "before": "[신설]",
+            "after": "○ 16개 부문 172개 항목 Ⅰ. 연혁(1) Ⅱ. 토지 및 기후(5) Ⅲ. 인구(13) Ⅳ. 노동(4) Ⅴ. 사업체(3) Ⅵ. 농림·수산업(23) Ⅶ. 광업․제조업 및 에너지(6) Ⅷ. 전기․가스․수도(11) Ⅸ. 유통·금융·보험 및 기타서비스(3) Ⅹ. 주택․건설(14) ⅩⅠ. 교통․관광(6) ⅩⅡ.",
             "source_title": "통계작성의 변경승인(협의) 고시(충청북도제천시기본통계)",
-            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EC%A0%9C%EC%B2%9C%EC%8B%9C%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%29"
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000286734"
           }
         ]
       },
@@ -47,7 +48,7 @@
             "before": "",
             "after": "",
             "source_title": "통계작성의 변경승인(협의) 고시(충청북도제천시기본통계)",
-            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EC%A0%9C%EC%B2%9C%EC%8B%9C%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%29"
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000286734"
           }
         ]
       },
@@ -61,7 +62,7 @@
             "before": "",
             "after": "",
             "source_title": "통계작성의 변경승인(협의) 고시(충청북도제천시기본통계)",
-            "source_url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EC%A0%9C%EC%B2%9C%EC%8B%9C%EA%B8%B0%EB%B3%B8%ED%86%B5%EA%B3%84%29"
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000286734"
           }
         ]
       }
@@ -69,13 +70,76 @@
     "featured_change_indices": [],
     "scoring_version": "substance40-scope35-ripple25-v1"
   },
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "본문",
+      "before": "1. 통계의 명칭 : 충청북도제천시기본통계 2. 통계작성기관의 명칭 : 충청북도 제천시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제673001호 [2007.05.04.] 4. 통계작성의 변경 연월일 : 2025.09.30. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "after": "1. 통계의 명칭 : 충청북도제천시기본통계 2. 통계작성기관의 명칭 : 충청북도 제천시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제673001호 [2007.05.04.] 4. 통계작성의 변경 연월일 : 2026.11.30. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…] : 제673001호 [2007.05.04.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2025.09.30.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…] : 제673001호 [2007.05.04.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2026.11.30.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1,
+      "substance_score": 0
+    },
+    {
+      "article": "표 1 · 작성항목 (통계표) · 변경 전",
+      "before": "[신설]",
+      "after": "○ 16개 부문 172개 항목 Ⅰ. 연혁(1) Ⅱ. 토지 및 기후(5) Ⅲ. 인구(13) Ⅳ. 노동(4) Ⅴ. 사업체(3) Ⅵ. 농림·수산업(23) Ⅶ. 광업․제조업 및 에너지(6) Ⅷ. 전기․가스․수도(11) Ⅸ. 유통·금융·보험 및 기타서비스(3) Ⅹ. 주택․건설(14) ⅩⅠ. 교통․관광(6) ⅩⅡ. 보건사회보장(29) ⅩⅢ. 환경(9) ⅩⅣ. 교육 및 문화(20) ⅩⅤ. 재정(4) ⅩⅥ. 공공행정 및 사법(21)",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 1 · 작성항목 (통계표) · 변경 후",
+      "before": "[신설]",
+      "after": "○ 16개 부문 173개 항목 - 신규추가 1개, 변경 46개 Ⅰ. 연혁(1) Ⅱ. 토지 및 기후(5) Ⅲ. 인구(13) - 변경 8 Ⅳ. 노동(4) - 변경 4 Ⅴ. 사업체(3) - 변경 3 Ⅵ. 농림·수산업(22) - 변경 4 Ⅶ. 광업․제조업 및 에너지(6) - 변경 3 Ⅷ. 전기․가스․수도(11) Ⅸ. 유통·금융·보험 및 기타서비스(3) - 변경 3 Ⅹ. 주택․건설(14) - 변경 4 ⅩⅠ. 교통․관광(6) ⅩⅡ. 보건사회보장(29) - 변경 1 ⅩⅢ. 환경(9) - 변경 1 ⅩⅣ. 교육 및 문화(21) - 신규 1, 변경 14 ⅩⅤ. 재정(4) ⅩⅥ. 공공행정 및 사법(21) - 변경 1",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 4 · 작성항목 · 변경 전",
+      "before": "○ 16개 부문 172항목 Ⅰ. 연혁(1) Ⅱ. 토지 및 기후(5) Ⅲ. 인구(13) Ⅳ. 노동(4) Ⅴ. 사업체(3) Ⅵ. 농림·수산업(23) Ⅶ. 광업․제조업 및 에너지(6) Ⅷ. 전기․가스․수도(11) Ⅸ. 유통·금융·보험 및 기타서비스(3) Ⅹ. 주택․건설(14) ⅩⅠ. 교통․관광(6) ⅩⅡ. 보건사회보장(29) ⅩⅢ. 환경(9) ⅩⅣ. 교육 및 문화(20) ⅩⅤ. 재정(4) ⅩⅥ. 공공행정 및 사법(21)",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    },
+    {
+      "article": "표 4 · 작성항목 · 변경 후",
+      "before": "○ 16개 부문 172항목 - 변경 57 Ⅰ. 연혁(1) Ⅱ. 토지 및 기후(5) - 변경 2 Ⅲ. 인구(13) - 변경 1 Ⅳ. 노동(4) Ⅴ. 사업체(3) Ⅵ. 농림·수산업(23) - 변경 5 Ⅶ. 광업․제조업 및 에너지(6) - 변경 5 Ⅷ. 전기․가스․수도(11) - 변경 4 Ⅸ. 유통·금융·보험 및 기타서비스(3) Ⅹ. 주택․건설(14) - 변경 8 ⅩⅠ. 교통․관광(6) - 변경 2 ⅩⅡ. 보건사회보장(29) - 변경 11 ⅩⅢ. 환경(9) - 변경 3 ⅩⅣ. 교육 및 문화(20) - 변경 10 ⅩⅤ. 재정(4) - 변경 1 ⅩⅥ. 공공행정 및 사법(21) - 변경 5",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0,
+      "substance_score": 10
+    }
+  ],
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
-  "policy_analysis": null,
-  "impact_level": "pending",
-  "prior_url": ""
+  "policy_analysis": {
+    "explanation": "충청북도제천시기본통계의 작성 변경에 따라, 2026년 11월 30일 자로 통계 작성 항목 및 부문별 세부 내용이 갱신되었습니다.",
+    "old_quote": "본문: 1. 통계의 명칭 : 충청북도제천시기본통계 2. 통계작성기관의 명칭 : 충청북도 제천시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제673001호 [2007.05.04.] 4. 통계작성의 변경 연월일 : 2025.09.30. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]\n표 1 · 작성항목 (통계표) · 변경 전: [신설]\n표 1 · 작성항목 (통계표) · 변경 후: [신설]\n표 4 · 작성항목 · 변경 전: ○ 16개 부문 172항목 Ⅰ. 연혁(1) Ⅱ. 토지 및 기후(5) Ⅲ. 인구(13) Ⅳ. 노동(4) Ⅴ. 사업체(3) Ⅵ. 농림·수산업(23) Ⅶ. 광업․제조업 및 에너지(6) ",
+    "new_quote": "본문: 1. 통계의 명칭 : 충청북도제천시기본통계 2. 통계작성기관의 명칭 : 충청북도 제천시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제673001호 [2007.05.04.] 4. 통계작성의 변경 연월일 : 2026.11.30. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]\n표 1 · 작성항목 (통계표) · 변경 전: ○ 16개 부문 172개 항목 Ⅰ. 연혁(1) Ⅱ. 토지 및 기후(5) Ⅲ. 인구(13) Ⅳ. 노동(4) Ⅴ. 사업체(3) Ⅵ. 농림·수산업(23) Ⅶ. 광업․제조업 및 에너지(6) Ⅷ. 전기․가스․수도(11) Ⅸ. 유통·금융·보험 및 기타서비스(3) Ⅹ. 주택․건설(14) ",
+    "program_quote": "본문: 1. 통계의 명칭 : 충청북도제천시기본통계 2. 통계작성기관의 명칭 : 충청북도 제천시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제673001호 [2007.05.04.] 4. 통계작성의 변경 연월일 : 2026.11.30. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]\n표 1 · 작성항목 (통계표) · 변경 전: ○ 16개 부문 172개 항목 Ⅰ. 연혁(1) Ⅱ. 토지 및 기후(5) Ⅲ. 인구(13) Ⅳ. 노동(4) Ⅴ. 사업체(3) Ⅵ. 농림·수산업(23) Ⅶ. 광업․제조업 및 에너지(6) Ⅷ. 전기․가스․수도(11) Ⅸ. 유통·금융·보험 및 기타서비스(3) Ⅹ. 주택․건설(14) ",
+    "verified": true,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000263436"
 }

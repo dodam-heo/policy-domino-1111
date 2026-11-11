@@ -1,0 +1,123 @@
+{
+  "id": "ordin|2049002|2174941",
+  "title": "대구광역시 북구 국가보훈대상자 예우 및 지원에 관한 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "대구광역시 북구",
+  "published_at": "2026-10-02",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2174941",
+  "category": "기타 제·개정",
+  "primary_change_summary": "",
+  "priority_reasons": [
+    "특정 지방자치단체·지역·사업에 적용"
+  ],
+  "impact_assessment": {
+    "classification": "pending",
+    "score": 15,
+    "score_min": 15,
+    "score_max": 80,
+    "score_complete": false,
+    "threshold": 65,
+    "minimum_substance": 30,
+    "possible_high": true,
+    "axes": {
+      "substance": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "원문 일부만 확보되어 변경 실질성 판정 보류",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구광역시 북구 국가보훈대상자 예우 및 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2174941"
+          }
+        ]
+      },
+      "scope": {
+        "score": 15,
+        "status": "confirmed",
+        "evidence": [
+          {
+            "reason": "특정 지방자치단체·지역·사업에 적용",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구광역시 북구 국가보훈대상자 예우 및 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2174941"
+          }
+        ]
+      },
+      "ripple": {
+        "score": null,
+        "status": "pending",
+        "evidence": [
+          {
+            "reason": "하위 규정·사업 파급 경로 조사 중",
+            "article": "",
+            "before": "",
+            "after": "",
+            "source_title": "대구광역시 북구 국가보훈대상자 예우 및 지원에 관한 조례",
+            "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2174941"
+          }
+        ]
+      }
+    },
+    "featured_change_indices": [],
+    "scoring_version": "substance40-scope35-ripple25-v1"
+  },
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제10조",
+      "before": "제10조(사망위로금 지급) 제2조제4호에 따른 참전유공자로서 사망일 현재 북구에 주소를 둔 사람에 대하여 그 유족에게 사망위로금 10만원을 지급할 수 있다.(신설 2015.12.23, 개정 2017.12.29) [9조에서 이동 및 일부개정 2023.11.10.]",
+      "after": "제10조(사망위로금 지급) 제2조제4호에 따른 참전유공자로서 사망일 현재 북구에 주소를 둔 사람에 대하여 그 유족에게 사망위로금 20만원을 지급할 수 있다.(신설 2015.12.23, 개정 2017.12.29.,2026.10.2.) [9조에서 이동 및 일부개정 2023.11.10.]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…전유공자로서 사망일 현재 북구에 주소를 둔 사람에 대하여 그 유족에게 사망위로금 ",
+            "changed": "10",
+            "suffix": "만원을 지급할 수 있다.(신설 2015.12.23, 개정 2017.12.29) […",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…전유공자로서 사망일 현재 북구에 주소를 둔 사람에 대하여 그 유족에게 사망위로금 ",
+            "changed": "20",
+            "suffix": "만원을 지급할 수 있다.(신설 2015.12.23, 개정 2017.12.29.,2…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…유족에게 사망위로금 10만원을 지급할 수 있다.(신설 2015.12.23, 개정 ",
+            "changed": "2017.12.29",
+            "suffix": ") [9조에서 이동 및 일부개정 2023.11.10.]",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…유족에게 사망위로금 20만원을 지급할 수 있다.(신설 2015.12.23, 개정 ",
+            "changed": "2017.12.29.,2026.10.2.",
+            "suffix": ") [9조에서 이동 및 일부개정 2023.11.10.]",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2,
+      "substance_score": 0
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "pending",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1872075"
+}
