@@ -92,6 +92,28 @@
     {
       "clause": "별표 0008 (과태료처분통지서)",
       "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "별표 0009",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "별표 0009 (과태료 처분에 따른 이의신청서)",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "별표 0010",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "별표 0010 (의견제출서)",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    },
+    {
+      "reason": "original_source_not_reverified"
     }
   ],
   "institutions": [],

@@ -92,6 +92,28 @@
     {
       "clause": "제5조",
       "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "제6조",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "제7조",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "제8조",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "제9조",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    },
+    {
+      "reason": "original_source_not_reverified"
     }
   ],
   "institutions": [],

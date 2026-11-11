@@ -92,6 +92,24 @@
     {
       "clause": "별표 0009",
       "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "별표 0009 (가석방 관련 안내문)",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "별표 0010",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "별표 0010 (보안서약서)",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    },
+    {
+      "reason": "original_source_not_reverified"
     }
   ],
   "institutions": [],

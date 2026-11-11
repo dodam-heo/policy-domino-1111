@@ -92,6 +92,40 @@
     {
       "clause": "별표 0008",
       "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "별표 0008 (회의록 및 심의결정서)",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "별표 0009",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "별표 0009 (경제적 지원 결정사항 통보)",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "별표 0010",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "별표 0010 (경제적지원 구상결정 및 처리내역)",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "별표 0011",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "별표 0011 (범죄피해자 심리상담 의뢰서)",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    },
+    {
+      "reason": "original_source_not_reverified"
     }
   ],
   "institutions": [],
