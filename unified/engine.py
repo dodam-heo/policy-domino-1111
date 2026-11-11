@@ -261,6 +261,9 @@ class OfficialAPI:
         # through many repeated 3-attempt windows. Retry on the next run.
         if getattr(self, "network_unavailable", False):
             raise RuntimeError("official_api_network_circuit_open")
+        family = "law" if source == "eflaw" else source
+        if family in getattr(self, "unavailable_sources", set()):
+            raise RuntimeError("official_api_source_circuit_open:" + family)
         url = API + endpoint + "?" + urlencode(
             {"OC": self.oc, "target": source, "type": "XML", **params})
         if self.transport:
@@ -278,8 +281,16 @@ class OfficialAPI:
                     if n < 2:
                         time.sleep(n + 1)
             else:
-                self.network_unavailable = True
+                blocked = getattr(self, "unavailable_sources", set())
+                blocked.add(family)
+                self.unavailable_sources = blocked
+                # One unstable type/endpoint must not prevent independent
+                # legal, administrative-rule and ordinance collection.
+                self.network_unavailable = set(FIELDS) <= blocked
                 raise RuntimeError("official_api_network_error: " + type(last).__name__)
+            blocked = getattr(self, "unavailable_sources", set())
+            blocked.discard(family)
+            self.unavailable_sources = blocked
             self.network_unavailable = False
         if len(raw) > MAX_RESPONSE:
             raise ValueError("official_api_payload_too_large")
@@ -471,7 +482,9 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
 
     def collect_window(source, edition, kind, start, end, stage, query="", search_scope=1):
         nonlocal failed
-        if time.monotonic() >= index_deadline or getattr(api, "network_unavailable", False):
+        if (time.monotonic() >= index_deadline
+                or getattr(api, "network_unavailable", False)
+                or source in getattr(api, "unavailable_sources", set())):
             return False
         key = "|".join((source, edition, kind, start, end, stage))
         try:
@@ -616,6 +629,8 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
         if (attempted >= detail_budget or time.monotonic() >= deadline
                 or getattr(api, "network_unavailable", False)):
             break
+        if rec["source"] in getattr(api, "unavailable_sources", set()):
+            continue
         stored = load(root / relative_path(rec))
         comparison_path = root / "comparisons" / (hash256(ident(rec))[:24] + ".json.gz")
         if (stored and stored.get("body", {}).get("status") == "complete"
