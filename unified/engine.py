@@ -371,7 +371,9 @@ def _windows(root, state, source, edition, kind, today):
     start_recent = today - dt.timedelta(days=6)
     old_end = dt.date.fromisoformat(state.get("backfill", {}).get(
         name, (today - dt.timedelta(days=7)).isoformat()))
-    first = old_end - dt.timedelta(days=13)
+    # A broader historical sweep accelerates coverage; split oversized
+    # windows by date when official pagination cannot return every row.
+    first = old_end - dt.timedelta(days=29 if source == "ordin" else 89)
     return [
         (start_recent.isoformat(), today.isoformat(), "recent"),
         (first.isoformat(), old_end.isoformat(), "historical"),
@@ -474,12 +476,39 @@ def run(root: Path, api: OfficialAPI, limit_streams=3, detail_budget=20,
             state["coverage"][key] = saved
             store(_index_path(root, source, edition, kind, start, end, stage),
                   {"coverage": saved, "records": records})
-            if not info.get("complete"):
+            complete = bool(info.get("complete"))
+            # Never advance a historical cursor past an incomplete official
+            # list. Date-shard pagination overflows and preserve every shard.
+            if (not complete and info.get("error") == "pagination_limit"
+                    and start < end and time.monotonic() < index_deadline):
+                first_day = dt.date.fromisoformat(start)
+                last_day = dt.date.fromisoformat(end)
+                midpoint = first_day + (last_day - first_day) // 2
+                shards = ((start, midpoint.isoformat()),
+                          ((midpoint + dt.timedelta(days=1)).isoformat(), end))
+                child_status = []
+                for child_start, child_end in shards:
+                    child_stage = "split_" + stage
+                    ok = collect_window(source, edition, kind, child_start,
+                                        child_end, child_stage, query, search_scope)
+                    child_key = "|".join((source, edition, kind, child_start,
+                                          child_end, child_stage))
+                    child_status.append((ok, state["coverage"].get(child_key, {})))
+                    if not ok:
+                        break
+                if (len(child_status) == 2 and all(ok for ok, _ in child_status)
+                        and sum(info_part.get("reported", 0)
+                                for _, info_part in child_status) == info.get("reported")):
+                    complete = True
+                    state["coverage"][key].update({
+                        "complete": True, "split_verified": True,
+                        "collected": info["reported"]})
+            if not complete:
                 failed += 1
             elif stage == "historical":
                 state["backfill"]["|".join((source, edition, kind))] = (
                     dt.date.fromisoformat(start) - dt.timedelta(days=1)).isoformat()
-            return info.get("complete", False)
+            return complete
         except Exception as exc:
             failed += 1
             state["coverage"][key] = {
