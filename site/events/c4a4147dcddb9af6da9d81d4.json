@@ -7,15 +7,664 @@
   "published_at": "2026-10-19",
   "effective_date": "2027-01-01",
   "revision": "전부개정",
-  "url": "https://www.law.go.kr/행정규칙/%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EC%9A%94%EC%96%91%EA%B8%89%EC%97%AC%EB%B9%84%EC%9A%A9%EC%9D%98%20%EB%82%B4%EC%97%AD",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000287058",
   "category": "급여·지원기준",
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "본문",
+      "before": "「국민건강보험법」 제45조제4항에 의한 요양급여비용의 명세는 같은 법 시행령 제21조제2항에 따른 요양급여의 각 항목에 대한 상대가치점수에 다음 표에서 정한 유형별 분류에 따른 점수당 단가를 곱한 것으로 한다. [표: 공식 첨부 참조]",
+      "after": "제1조(목적) 이 고시는 「국민건강보험법」 제45조제4항에 따라 요양급여비용의 명세에 관한 사항을 정함을 목적으로 한다. 제2조(요양급여비용의 명세) 「국민건강보험법」 제45조제4항에 따른 요양급여비용의 명세는 「국민건강보험법 시행령」 제21조제2항에 따른 요양급여 각 항목에 대한 상대가치점수에 다음의 표에서 정한 유형별 분류에 따른 점수당 단가를 곱한 것으로 한다. [표: 공식 첨부 참조]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "",
+            "suffix": "「국민건강보험법」 제45조제4항에 의한 요양급여비용의 명세는 같은 법 시행령 제2…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "제1조(목적) 이 고시는",
+            "suffix": " 「국민건강보험법」 제45조제4항에 따라 요양급여비용의 명세에 관한 사항을 정함을…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "「국민건강보험법」 제45조제4항에 ",
+            "changed": "의한",
+            "suffix": " 요양급여비용의 명세는 같은 법 시행령 제21조제2항에 따른 요양급여의 각 항목에…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제1조(목적) 이 고시는 「국민건강보험법」 제45조제4항에 ",
+            "changed": "따라 요양급여비용의 명세에 관한 사항을 정함을 목적으로 한다. 제2조(요양급여비용의 명세) 「국민건강보험법」 제45조제4항에 따른",
+            "suffix": " 요양급여비용의 명세는 「국민건강보험법 시행령」 제21조제2항에 따른 요양급여 각…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "「국민건강보험법」 제45조제4항에 의한 요양급여비용의 명세는 ",
+            "changed": "같은 법",
+            "suffix": " 시행령 제21조제2항에 따른 요양급여의 각 항목에 대한 상대가치점수에 다음 표에…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…양급여비용의 명세) 「국민건강보험법」 제45조제4항에 따른 요양급여비용의 명세는 ",
+            "changed": "「국민건강보험법",
+            "suffix": " 시행령」 제21조제2항에 따른 요양급여 각 항목에 대한 상대가치점수에 다음의 표…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "「국민건강보험법」 제45조제4항에 의한 요양급여비용의 명세는 같은 법 시행령 ",
+            "changed": "",
+            "suffix": "제21조제2항에 따른 요양급여의 각 항목에 대한 상대가치점수에 다음 표에서 정한 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…국민건강보험법」 제45조제4항에 따른 요양급여비용의 명세는 「국민건강보험법 시행령",
+            "changed": "」",
+            "suffix": " 제21조제2항에 따른 요양급여 각 항목에 대한 상대가치점수에 다음의 표에서 정한…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…제45조제4항에 의한 요양급여비용의 명세는 같은 법 시행령 제21조제2항에 따른 ",
+            "changed": "요양급여의",
+            "suffix": " 각 항목에 대한 상대가치점수에 다음 표에서 정한 유형별 분류에 따른 점수당 단가…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…4항에 따른 요양급여비용의 명세는 「국민건강보험법 시행령」 제21조제2항에 따른 ",
+            "changed": "요양급여",
+            "suffix": " 각 항목에 대한 상대가치점수에 다음의 표에서 정한 유형별 분류에 따른 점수당 단…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 같은 법 시행령 제21조제2항에 따른 요양급여의 각 항목에 대한 상대가치점수에 ",
+            "changed": "다음",
+            "suffix": " 표에서 정한 유형별 분류에 따른 점수당 단가를 곱한 것으로 한다. [표: 공식 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…건강보험법 시행령」 제21조제2항에 따른 요양급여 각 항목에 대한 상대가치점수에 ",
+            "changed": "다음의",
+            "suffix": " 표에서 정한 유형별 분류에 따른 점수당 단가를 곱한 것으로 한다. [표: 공식 …",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 6
+    },
+    {
+      "article": "표 1 · 「 약사법」 제2조제3호에 따른 약국 및 같은 법 제 91조에 따른 한국 희귀·필수의약품센터 · 점수당 단가",
+      "before": "105.5원",
+      "after": "109.4원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "105.5",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "109.4",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 1 · 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료기관 중 치과의원 및 치과병원 · 점수당 단가",
+      "before": "101.1원",
+      "after": "103.5원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "101.1",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "103.5",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 1 · 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료기관 중 한의원 및 한방병원 · 점수당 단가",
+      "before": "104.3원",
+      "after": "107.3원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "104.3",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "107.3",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 1 · 「 의료법」 제3조제2항제3호에 따른 의료기관 중 병원 및 종합병원 · 점수당 단가",
+      "before": "83.8원",
+      "after": "84.7원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "83.8",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "84.7",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 1 · 「 의료법」 제3조제2항제3호에 따른 의료기관 중 요양병원(단, 「장애인 복지법」 제58조제1항제4호에 따른 의료재활시설은 제외) 및 정신병원 · 점수당 단가",
+      "before": "84.2원",
+      "after": "85.3원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "84.2",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "85.3",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 1 · 「 지역보건법」에 따른 보건소․보건의료원 및 보건지소와 「농어촌 등 보건의료를 위한 특별조치법」에 따라 설치된 보건진료소 · 점수당 단가",
+      "before": "98.6원",
+      "after": "101.3원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "98.6",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "101.3",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 1 · 「의료법」 제3조제2항제1호에 따른 의료기관 중 의원 · 점수당 단가",
+      "before": "95.6원",
+      "after": "96.5원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "95.6",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "96.5",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 1 · 「의료법」 제3조제2항제2호에 따른 조산원 · 점수당 단가",
+      "before": "185.1원",
+      "after": "196.2원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "185.1",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "196.2",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 2 · <신 설> · 개 정 안",
+      "before": "[신설]",
+      "after": "제2조(요양급여비용의 명세) 「국민건강보험법」 제45조제4항에 따른 요양급여비용의 명세는 「국민건강보험법 시행령」 제21조제2항에 따른 요양급여 각 항목에 대한 상대가치점수에 다음의 표에서 정한 유형별 분류에 따른 점수당 단가를 곱한 것으로 한다.",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 2 · 국민건강보험법 제45조제4항에 의한 요양급여비용의 내역은 같은 법 시행령 제21조제2항에 따라 보건 복지부장관이 정 하여 고시하는 “요양급여의 상대가치점수”의 아래 유형별 분류에 따른 점수당 단가로 한다. 유형별 분류 점수당 단가 「 의료법」 제3조제2항제3호에 따른 의료기관 중 병원 및 종합병원 82.2원 「의료법」 제3조제2항제3호에 따른 의료기관 중 요양병원(단, 「장애인복지법」 제58조제1항제4호에 따른 의료재활시설은 제외) 및 정신병원 82.5원 「의료법」 제3조제2항제1호에 따른 의료기관 중 의원 94.1원 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료 기관 중 치과의원 및 치과병원 99.1원 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료기관 중 한의원 및 한방병원 102.4원 「의료법」 제3조제2항제2호에 따른 조산원 174.6원 「 약사법」 제2조제3호에 따른 약국 및 같은 법 제 91조에 따른 한국 희귀·필수의약품센터 102.1원 「 지역보건법」에 따른 보건소․보건의료원 및 보건지소와 「농어촌 등 보건의료를 위한 특별조치법」에 따라 설치된 보건진료소 96.0원 · 개 정 안",
+      "before": "「국민건강보험법」 제45조제4항에 의한 요양급여비용의 명세는 같은 법 시행령 제 21조제2항에 따른 요양급여의 각 항목에 대한 상대가치점수에 다음 표에서 정한 유형별 분류에 따른 점수당 단가를 곱한 것으로 한다. 유형별 분류 점수당 단가 「 의료법」 제3조제2항제3호에 따른 의료기관 중 병원 및 종합병원 83.8원 「의료법」 제3조제2항제3호에 따른 의료기관 중 요양병원(단, 「장애인복지법」 제58조제1항제4호에 따른 의료재활시설은 제외) 및 정신병원 84.2원 「의료법」 제3조제2항제1호에 따른 의료기관 중 의원 95.6원 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료 기관 중 치과의원 및 치과병원 101.1원 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료기관 중 한의원 및 한방병원 104.3원 「의료법」 제3조제2항제2호에 따른 조산원 185.1원 「 약사법」 제2조제3호에 따른 약국 및 같은 법 제 91조에 따른 한국 희귀·필수의약품센터 105.5원 「 지역보건법」에 따른 보건소․보건의료원 및 보건지소와 「농어촌 등 보건의료를 위한 특별조치법」에 따라 설치된 보건진료소 98.6원",
+      "after": "[삭제]",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 2 · 유형별 분류 점수당 단가 「 의료법」 제3조제2항제3호에 따른 의료기관 중 병원 및 종합병원 83.8원 「의료법」 제3조제2항제3호에 따른 의료기관 중 요양병원(단, 「장애인복지법」 제58조제1항제4호에 따른 의료재활시설은 제외) 및 정신병원 84.2원 「의료법」 제3조제2항제1호에 따른 의료기관 중 의원 95.6원 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료 기관 중 치과의원 및 치과병원 101.1원 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료기관 중 한의원 및 한방병원 104.3원 「의료법」 제3조제2항제2호에 따른 조산원 185.1원 「 약사법」 제2조제3호에 따른 약국 및 같은 법 제 91조에 따른 한국 희귀·필수의약품센터 105.5원 「 지역보건법」에 따른 보건소․보건의료원 및 보건지소와 「농어촌 등 보건의료를 위한 특별조치법」에 따라 설치된 보건진료소 98.6원 · 개 정 안",
+      "before": "[신설]",
+      "after": "유형별 분류 점수당 단가 「 의료법」 제3조제2항제3호에 따른 의료기관 중 병원 및 종합병원 84.7원 「의료법」 제3조제2항제3호에 따른 의료기관 중 요양병원(단, 「장애인복지법」 제58조제1항제4호에 따른 의료재활시설은 제외) 및 정신병원 85.3원 「의료법」 제3조제2항제1호에 따른 의료기관 중 의원 96.5원 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료 기관 중 치과의원 및 치과병원 103.5원 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료기관 중 한의원 및 한방병원 107.3원 「의료법」 제3조제2항제2호에 따른 조산원 196.2원 「 약사법」 제2조제3호에 따른 약국 및 같은 법 제 91조에 따른 한국 희귀·필수의약품센터 109.4원 「 지역보건법」에 따른 보건소․보건의료원 및 보건지소와 「농어촌 등 보건의료를 위한 특별조치법」에 따라 설치된 보건진료소 101.3원",
+      "focus": [],
+      "diff_window_count": 0
+    },
+    {
+      "article": "표 3 · 「 약사법」 제2조제3호에 따른 약국 및 같은 법 제 91조에 따른 한국 희귀·필수의약품센터 · 점수당 단가",
+      "before": "102.1원",
+      "after": "105.5원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "102.1",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "105.5",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 3 · 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료 기관 중 치과의원 및 치과병원 · 점수당 단가",
+      "before": "99.1원",
+      "after": "101.1원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "99.1",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "101.1",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 3 · 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료기관 중 한의원 및 한방병원 · 점수당 단가",
+      "before": "102.4원",
+      "after": "104.3원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "102.4",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "104.3",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 3 · 「 의료법」 제3조제2항제3호에 따른 의료기관 중 병원 및 종합병원 · 점수당 단가",
+      "before": "82.2원",
+      "after": "83.8원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "82.2",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "83.8",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 3 · 「 지역보건법」에 따른 보건소․보건의료원 및 보건지소와 「농어촌 등 보건의료를 위한 특별조치법」에 따라 설치된 보건진료소 · 점수당 단가",
+      "before": "96.0원",
+      "after": "98.6원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "96.0",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "98.6",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 3 · 「의료법」 제3조제2항제1호에 따른 의료기관 중 의원 · 점수당 단가",
+      "before": "94.1원",
+      "after": "95.6원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "94.1",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "95.6",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 3 · 「의료법」 제3조제2항제2호에 따른 조산원 · 점수당 단가",
+      "before": "174.6원",
+      "after": "185.1원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "174.6",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "185.1",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 3 · 「의료법」 제3조제2항제3호에 따른 의료기관 중 요양병원(단, 「장애인복지법」 제58조제1항제4호에 따른 의료재활시설은 제외) 및 정신병원 · 점수당 단가",
+      "before": "82.5원",
+      "after": "84.2원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "82.5",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "84.2",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 4 · 「 약사법」 제2조제3호에 따른 약국 및 같은 법 제 91조에 따른 한국 희귀·필수의약품센터 · 점수당 단가",
+      "before": "105.5원",
+      "after": "109.4원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "105.5",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "109.4",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 4 · 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료 기관 중 치과의원 및 치과병원 · 점수당 단가",
+      "before": "101.1원",
+      "after": "103.5원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "101.1",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "103.5",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 4 · 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료기관 중 한의원 및 한방병원 · 점수당 단가",
+      "before": "104.3원",
+      "after": "107.3원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "104.3",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "107.3",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 4 · 「 의료법」 제3조제2항제3호에 따른 의료기관 중 병원 및 종합병원 · 점수당 단가",
+      "before": "83.8원",
+      "after": "84.7원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "83.8",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "84.7",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 4 · 「 지역보건법」에 따른 보건소․보건의료원 및 보건지소와 「농어촌 등 보건의료를 위한 특별조치법」에 따라 설치된 보건진료소 · 점수당 단가",
+      "before": "98.6원",
+      "after": "101.3원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "98.6",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "101.3",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 4 · 「의료법」 제3조제2항제1호에 따른 의료기관 중 의원 · 점수당 단가",
+      "before": "95.6원",
+      "after": "96.5원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "95.6",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "96.5",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 4 · 「의료법」 제3조제2항제2호에 따른 조산원 · 점수당 단가",
+      "before": "185.1원",
+      "after": "196.2원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "185.1",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "196.2",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    },
+    {
+      "article": "표 4 · 「의료법」 제3조제2항제3호에 따른 의료기관 중 요양병원(단, 「장애인복지법」 제58조제1항제4호에 따른 의료재활시설은 제외) 및 정신병원 · 점수당 단가",
+      "before": "84.2원",
+      "after": "85.3원",
+      "focus": [
+        {
+          "before": {
+            "prefix": "",
+            "changed": "84.2",
+            "suffix": "원",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "",
+            "changed": "85.3",
+            "suffix": "원",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    }
+  ],
   "unresolved": [],
   "institutions": [],
   "dependent_rules": [],
-  "policy_analysis": null,
-  "impact_level": "normal",
-  "prior_url": ""
+  "policy_analysis": {
+    "explanation": "주요 변경 내용으로 국민건강보험법에 따른 요양급여비용 명세 산정 시 적용하는 약국, 한국 희귀·필수의약품센터 및 의료기관 등의 점수당 단가가 인상되었습니다.",
+    "old_quote": "본문: 「국민건강보험법」 제45조제4항에 의한 요양급여비용의 명세는 같은 법 시행령 제21조제2항에 따른 요양급여의 각 항목에 대한 상대가치점수에 다음 표에서 정한 유형별 분류에 따른 점수당 단가를 곱한 것으로 한다. [표: 공식 첨부 참조]\n표 1 · 「 약사법」 제2조제3호에 따른 약국 및 같은 법 제 91조에 따른 한국 희귀·필수의약품센터 · 점수당 단가: 105.5원\n표 1 · 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료기관 중 치과의원 및 치과병원 · 점수당 단가: 101.1원\n표 1 · 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료기관 중 한의원 및 한방병원 · 점수당 단가:",
+    "new_quote": "본문: 제1조(목적) 이 고시는 「국민건강보험법」 제45조제4항에 따라 요양급여비용의 명세에 관한 사항을 정함을 목적으로 한다. 제2조(요양급여비용의 명세) 「국민건강보험법」 제45조제4항에 따른 요양급여비용의 명세는 「국민건강보험법 시행령」 제21조제2항에 따른 요양급여 각 항목에 대한 상대가치점수에 다음의 표에서 정한 유형별 분류에 따른 점수당 단가를 곱한 것으로 한다. [표: 공식 첨부 참조]\n표 1 · 「 약사법」 제2조제3호에 따른 약국 및 같은 법 제 91조에 따른 한국 희귀·필수의약품센터 · 점수당 단가: 109.4원\n표 1 · 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료기관 중 치과의원 ",
+    "program_quote": "본문: 제1조(목적) 이 고시는 「국민건강보험법」 제45조제4항에 따라 요양급여비용의 명세에 관한 사항을 정함을 목적으로 한다. 제2조(요양급여비용의 명세) 「국민건강보험법」 제45조제4항에 따른 요양급여비용의 명세는 「국민건강보험법 시행령」 제21조제2항에 따른 요양급여 각 항목에 대한 상대가치점수에 다음의 표에서 정한 유형별 분류에 따른 점수당 단가를 곱한 것으로 한다. [표: 공식 첨부 참조]\n표 1 · 「 약사법」 제2조제3호에 따른 약국 및 같은 법 제 91조에 따른 한국 희귀·필수의약품센터 · 점수당 단가: 109.4원\n표 1 · 「 의료법」 제3조제2항제1호 및 같은 항 제3호에 따른 의료기관 중 치과의원 ",
+    "verified": true,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "impact_level": "high",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000268180"
 }

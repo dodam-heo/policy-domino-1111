@@ -1,0 +1,134 @@
+{
+  "id": "admrul|41748|2100000287142",
+  "title": "초고층건축물등 총괄재난관리자 교육운영기준",
+  "source": "admrul",
+  "kind": "고시",
+  "ministry": "소방청",
+  "published_at": "2026-10-23",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000287142",
+  "category": "기타 제·개정",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "별표 0001 (교육과정별 시간 및 교육내용(제3조관련))",
+      "before": "별표 1 교육과정별 시간 및 교육내용(제3조관련) 과정구분 교육시간 교육내용 기본교육과정 21시간 이상 &#8228;규칙 제4조제1항 각호에서 정한 사항 보수교육과정 5시간 이상 &#8228;규칙 제4조제1항 각호의 내용과 관련된 재난관리 환경변화 및 기술개발 동향 &#8228;재난관리와 관련하여 소방청장 또는 중앙소방학교장이 정하는 사항",
+      "after": "별표 1 교육과정별 시간 및 교육내용(제3조관련) ┏━━━━━━┯━━━━┯━━━━━━━━━━━━━━━━━━━━━┓ ┃과정구분 │교육시간│교육내용 ┃ ┣━━━━━━┿━━━━┿━━━━━━━━━━━━━━━━━━━━━┫ ┃기본교육과정│21시간 │ ㆍ규칙 제4조제1항 각호에서 정한 사항 ┃ ┃ │ 이상 │ ┃ ┠──────┼────┼─────────────────────┨ ┃보수교육과정│ 5시간 │ ㆍ규칙 제4조제1항 각호의 내용과 관련된 ┃ ┃ │ 이상 │재난관리 환경변화 및 기술개발 동향 ┃ ┃ │ │ ㆍ재난관리와 관련하여 소방청장 또는 교육 ┃ ┃ │ │기관의 장 정하는 사항 ┃ ┗━━━━━━┷━━━━┷━━━━━━━━━━━━━━━━━━━━━┛",
+      "focus": [
+        {
+          "before": {
+            "prefix": "… 시간 및 교육내용(제3조관련) 과정구분 교육시간 교육내용 기본교육과정 21시간 ",
+            "changed": "이상 &#8228;",
+            "suffix": "규칙 제4조제1항 각호에서 정한 사항 보수교육과정 5시간 이상 &#8228;규칙 …",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…━┿━━━━┿━━━━━━━━━━━━━━━━━━━━━┫ ┃기본교육과정│21시간 │ ",
+            "changed": "ㆍ",
+            "suffix": "규칙 제4조제1항 각호에서 정한 사항 ┃ ┃ │ 이상 │ ┃ ┠──────┼───…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…용 기본교육과정 21시간 이상 &#8228;규칙 제4조제1항 각호에서 정한 사항 ",
+            "changed": "",
+            "suffix": "보수교육과정 5시간 이상 &#8228;규칙 제4조제1항 각호의 내용과 관련된 재난…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…┫ ┃기본교육과정│21시간 │ ㆍ규칙 제4조제1항 각호에서 정한 사항 ┃ ┃ │ ",
+            "changed": "이상",
+            "suffix": " │ ┃ ┠──────┼────┼─────────────────────┨ ┃보수교…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…시간 이상 &#8228;규칙 제4조제1항 각호에서 정한 사항 보수교육과정 5시간 ",
+            "changed": "이상 &#8228;",
+            "suffix": "규칙 제4조제1항 각호의 내용과 관련된 재난관리 환경변화 및 기술개발 동향 &#8…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…─┼────┼─────────────────────┨ ┃보수교육과정│ 5시간 │ ",
+            "changed": "ㆍ",
+            "suffix": "규칙 제4조제1항 각호의 내용과 관련된 ┃ ┃ │ 이상 │재난관리 환경변화 및 기…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…항 보수교육과정 5시간 이상 &#8228;규칙 제4조제1항 각호의 내용과 관련된 ",
+            "changed": "",
+            "suffix": "재난관리 환경변화 및 기술개발 동향 &#8228;재난관리와 관련하여 소방청장 또는…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… ┃보수교육과정│ 5시간 │ ㆍ규칙 제4조제1항 각호의 내용과 관련된 ┃ ┃ │ ",
+            "changed": "이상",
+            "suffix": " │재난관리 환경변화 및 기술개발 동향 ┃ ┃ │ │ ㆍ재난관리와 관련하여 소방청…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…28;규칙 제4조제1항 각호의 내용과 관련된 재난관리 환경변화 및 기술개발 동향 ",
+            "changed": "&#8228;",
+            "suffix": "재난관리와 관련하여 소방청장 또는 중앙소방학교장이 정하는 사항",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…용과 관련된 ┃ ┃ │ 이상 │재난관리 환경변화 및 기술개발 동향 ┃ ┃ │ │ ",
+            "changed": "ㆍ",
+            "suffix": "재난관리와 관련하여 소방청장 또는 교육 ┃ ┃ │ │기관의 장 정하는 사항 ┃ ┗…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…난관리 환경변화 및 기술개발 동향 &#8228;재난관리와 관련하여 소방청장 또는 ",
+            "changed": "중앙소방학교장이",
+            "suffix": " 정하는 사항",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…리 환경변화 및 기술개발 동향 ┃ ┃ │ │ ㆍ재난관리와 관련하여 소방청장 또는 ",
+            "changed": "교육 ┃ ┃ │ │기관의 장",
+            "suffix": " 정하는 사항 ┃ ┗━━━━━━┷━━━━┷━━━━━━━━━━━━━━━━━━━━━┛",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 6
+    }
+  ],
+  "unresolved": [
+    {
+      "clause": "첨부 1",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "첨부 2",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "첨부 3",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "첨부 4",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000192163"
+}
