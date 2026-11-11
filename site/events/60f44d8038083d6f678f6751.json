@@ -1,0 +1,58 @@
+{
+  "id": "ordin|2074621|2182251",
+  "title": "서울특별시 금천구 공직자윤리위원회 구성과 운영에 관한 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "서울특별시 금천구",
+  "published_at": "2026-11-05",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182251",
+  "category": "기타 제·개정",
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제7조",
+      "before": "제7조(위원회의 간사 등) ①위원회의 사무를 처리하고 사실조사 등을 하기 위하여 위원회에 간사와 사무직원을 둔다.<개정 2021.7.9> ②간사는 민원감사담당관으로 하며, 사무직원은 위원회 업무담당 공무원으로 한다.<개정 2021.7.9>",
+      "after": "제7조(위원회의 간사 등) ① 위원회의 사무를 처리하고 사실조사 등을 하기 위하여 위원회에 간사와 사무직원을 둔다.<개정 2021.7.9> ② 간사는 감사담당관으로 하며, 사무직원은 위원회 업무담당 공무원으로 한다.<개정 2021.7.9., 2026.11.5.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "… 하기 위하여 위원회에 간사와 사무직원을 둔다.<개정 2021.7.9> ②간사는 ",
+            "changed": "민원감사담당관으로",
+            "suffix": " 하며, 사무직원은 위원회 업무담당 공무원으로 한다.<개정 2021.7.9>",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…하기 위하여 위원회에 간사와 사무직원을 둔다.<개정 2021.7.9> ② 간사는 ",
+            "changed": "감사담당관으로",
+            "suffix": " 하며, 사무직원은 위원회 업무담당 공무원으로 한다.<개정 2021.7.9., 2…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…사는 민원감사담당관으로 하며, 사무직원은 위원회 업무담당 공무원으로 한다.<개정 ",
+            "changed": "2021.7.9",
+            "suffix": ">",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… 간사는 감사담당관으로 하며, 사무직원은 위원회 업무담당 공무원으로 한다.<개정 ",
+            "changed": "2021.7.9., 2026.11.5.",
+            "suffix": ">",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1616229"
+}

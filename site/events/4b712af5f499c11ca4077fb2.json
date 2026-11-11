@@ -1,0 +1,62 @@
+{
+  "id": "ordin|2074939|2182321",
+  "title": "서울특별시 금천구 회계관계공무원 직인 규칙",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "서울특별시 금천구",
+  "published_at": "2026-11-05",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182321",
+  "category": "기타 제·개정",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제6조",
+      "before": "제6조(직인대장의 비치) 직인대장은 다음 각호의1의 구분에 의하여 비치하여야 한다. 1.수납관계 직인대장-세무1과장 <개정 1998.09.26> 2.지출 및 물품관계 직인 대장-재무과장",
+      "after": "제6조(직인대장의 비치) 직인대장은 다음 각호의1의 구분에 의하여 비치하여야 한다. <개정 1998.09.26., 2026.11.5.> 1.수납관계 직인대장-세무관리과장 2.지출 및 물품관계 직인 대장-재무과장",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…조(직인대장의 비치) 직인대장은 다음 각호의1의 구분에 의하여 비치하여야 한다. ",
+            "changed": "",
+            "suffix": "1.수납관계 직인대장-세무1과장 <개정 1998.09.26> 2.지출 및 물품관계…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…조(직인대장의 비치) 직인대장은 다음 각호의1의 구분에 의하여 비치하여야 한다. ",
+            "changed": "<개정 1998.09.26., 2026.11.5.>",
+            "suffix": " 1.수납관계 직인대장-세무관리과장 2.지출 및 물품관계 직인 대장-재무과장",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…직인대장은 다음 각호의1의 구분에 의하여 비치하여야 한다. 1.수납관계 직인대장-",
+            "changed": "세무1과장 <개정 1998.09.26>",
+            "suffix": " 2.지출 및 물품관계 직인 대장-재무과장",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…한다. <개정 1998.09.26., 2026.11.5.> 1.수납관계 직인대장-",
+            "changed": "세무관리과장",
+            "suffix": " 2.지출 및 물품관계 직인 대장-재무과장",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1750187"
+}

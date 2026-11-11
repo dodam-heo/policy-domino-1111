@@ -1,0 +1,62 @@
+{
+  "id": "ordin|2074616|2182245",
+  "title": "서울특별시 금천구 공유재산 및 물품 관리조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "서울특별시 금천구",
+  "published_at": "2026-11-05",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182245",
+  "category": "기타 제·개정",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제2조",
+      "before": "제2조(관리책임) ① 서울특별시 금천구청장(이하 “구청장”이라 한다)은 모든 서울특별시 금천구 공유재산(이하 “공유재산”이라 한다) 및 물품을 효율적으로 운영ㆍ관리하여야 한다. <개정 2013.12.31.> ② 구청장은 기획경제국장을 재산 및 물품관리총괄관, 재무과장을 보조총괄관으로 하고 소관별 분임총괄관, 관리관 등을 지정할 수 있으며 그 담당직위 및 직무범위는 규칙으로 정한다. <개정 2006.12.29., 2011.03.18., 2014.11.14., 2019.12.31., 2022.8.15.>",
+      "after": "제2조(관리책임) ① 서울특별시 금천구청장(이하 “구청장”이라 한다)은 모든 서울특별시 금천구 공유재산(이하 “공유재산”이라 한다) 및 물품을 효율적으로 운영ㆍ관리하여야 한다. <개정 2013.12.31.> ② 구청장은 행정자치국장을 재산 및 물품관리총괄관, 재무과장을 보조총괄관으로 하고 소관별 분임총괄관, 관리관 등을 지정할 수 있으며 그 담당직위 및 직무범위는 규칙으로 정한다. <개정 2006.12.29., 2011.03.18., 2014.11.14., 2019.12.31., 2022.8.15., 2026.11.5.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…을 효율적으로 운영ㆍ관리하여야 한다. <개정 2013.12.31.> ② 구청장은 ",
+            "changed": "기획경제국장을",
+            "suffix": " 재산 및 물품관리총괄관, 재무과장을 보조총괄관으로 하고 소관별 분임총괄관, 관리…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…을 효율적으로 운영ㆍ관리하여야 한다. <개정 2013.12.31.> ② 구청장은 ",
+            "changed": "행정자치국장을",
+            "suffix": " 재산 및 물품관리총괄관, 재무과장을 보조총괄관으로 하고 소관별 분임총괄관, 관리…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "….29., 2011.03.18., 2014.11.14., 2019.12.31., ",
+            "changed": "2022.8.15.",
+            "suffix": ">",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "….29., 2011.03.18., 2014.11.14., 2019.12.31., ",
+            "changed": "2022.8.15., 2026.11.5.",
+            "suffix": ">",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2101447"
+}

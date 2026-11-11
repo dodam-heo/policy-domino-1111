@@ -1,0 +1,58 @@
+{
+  "id": "ordin|2189278|2182261",
+  "title": "서울특별시 금천구 시민고충처리위원회 설치 및 운영에 관한 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "서울특별시 금천구",
+  "published_at": "2026-11-05",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182261",
+  "category": "기타 제·개정",
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제10조",
+      "before": "제10조(사무기구) 구청장은 위원회의 사무를 지원하기 위하여 사무기구를 둔다. 다만, 사무기구가 설치되기 전까지는 민원감사담당관에서 업무를 수행한다. [제9조에서 이동, 종전 제10조는 제11조로 이동 <2024.3.8.>]",
+      "after": "제10조(사무기구) 구청장은 위원회의 사무를 지원하기 위하여 사무기구를 둔다. 다만, 사무기구가 설치되기 전까지는 감사담당관에서 업무를 수행한다. <개정 2026.11.5.> [제9조에서 이동, 종전 제10조는 제11조로 이동 <2024.3.8.>]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…의 사무를 지원하기 위하여 사무기구를 둔다. 다만, 사무기구가 설치되기 전까지는 ",
+            "changed": "민원감사담당관에서",
+            "suffix": " 업무를 수행한다. [제9조에서 이동, 종전 제10조는 제11조로 이동 <2024…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…의 사무를 지원하기 위하여 사무기구를 둔다. 다만, 사무기구가 설치되기 전까지는 ",
+            "changed": "감사담당관에서",
+            "suffix": " 업무를 수행한다. <개정 2026.11.5.> [제9조에서 이동, 종전 제10조…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 둔다. 다만, 사무기구가 설치되기 전까지는 민원감사담당관에서 업무를 수행한다. ",
+            "changed": "",
+            "suffix": "[제9조에서 이동, 종전 제10조는 제11조로 이동 <2024.3.8.>]",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…구를 둔다. 다만, 사무기구가 설치되기 전까지는 감사담당관에서 업무를 수행한다. ",
+            "changed": "<개정 2026.11.5.>",
+            "suffix": " [제9조에서 이동, 종전 제10조는 제11조로 이동 <2024.3.8.>]",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    }
+  ],
+  "unresolved": [],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1910967"
+}

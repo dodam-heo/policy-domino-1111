@@ -1,0 +1,62 @@
+{
+  "id": "ordin|2074720|2182253",
+  "title": "서울특별시 금천구 체육진흥 지원 조례",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "서울특별시 금천구",
+  "published_at": "2026-11-05",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2182253",
+  "category": "기타 제·개정",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제4조",
+      "before": "제4조(구성) ① 협의회는 구청장과 금천구체육회장을 포함하여 7명 이상 15명 이하의 위원으로 구성한다. 다만, 위촉직 위원의 구성에 대해서는 「양성평등기본법」제21조제2항에 따른다. <개정 2021.9.29.> ② 위원장은 구청장이 되고 부위원장은 위원 중에서 호선한다. ③ 당연직 위원은 문화환경국장이 되며, 간사는 문화체육과장이 된다. <개정 2018.11.9, 2022.8.15.> ④ 위원은 체육행정에 관한 학식과 경험이 있고 지역사회 체육진흥을 위하여 헌신적으로 활동할 수 있는 사람 중에서 성별을 고려하여 구청장이 위촉한다.",
+      "after": "제4조(구성) ① 협의회는 구청장과 금천구체육회장을 포함하여 7명 이상 15명 이하의 위원으로 구성한다. 다만, 위촉직 위원의 구성에 대해서는 「양성평등기본법」제21조제2항에 따른다. <개정 2021.9.29.> ② 위원장은 구청장이 되고 부위원장은 위원 중에서 호선한다. ③ 당연직 위원은 미래성장국장이 되며, 간사는 문화체육과장이 된다. <개정 2018.11.9, 2022.8.15., 2026.11.5.> ④ 위원은 체육행정에 관한 학식과 경험이 있고 지역사회 체육진흥을 위하여 헌신적으로 활동할 수 있는 사람 중에서 성별을 고려하여 구청장이 위촉한다.",
+      "focus": [
+        {
+          "before": {
+            "prefix": "… ② 위원장은 구청장이 되고 부위원장은 위원 중에서 호선한다. ③ 당연직 위원은 ",
+            "changed": "문화환경국장이",
+            "suffix": " 되며, 간사는 문화체육과장이 된다. <개정 2018.11.9, 2022.8.15…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "… ② 위원장은 구청장이 되고 부위원장은 위원 중에서 호선한다. ③ 당연직 위원은 ",
+            "changed": "미래성장국장이",
+            "suffix": " 되며, 간사는 문화체육과장이 된다. <개정 2018.11.9, 2022.8.15…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…은 문화환경국장이 되며, 간사는 문화체육과장이 된다. <개정 2018.11.9, ",
+            "changed": "2022.8.15.",
+            "suffix": "> ④ 위원은 체육행정에 관한 학식과 경험이 있고 지역사회 체육진흥을 위하여 헌신…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…은 미래성장국장이 되며, 간사는 문화체육과장이 된다. <개정 2018.11.9, ",
+            "changed": "2022.8.15., 2026.11.5.",
+            "suffix": "> ④ 위원은 체육행정에 관한 학식과 경험이 있고 지역사회 체육진흥을 위하여 헌신…",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2018101"
+}

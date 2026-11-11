@@ -5,9 +5,9 @@
     "law|1|": "2026-10-07",
     "admrul|1|1": "2026-10-07",
     "admrul|1|2": "2026-10-07",
-    "admrul|1|4": "2026-09-23",
-    "admrul|1|5": "2026-09-23",
-    "admrul|1|6": "2026-09-23",
+    "admrul|1|4": "2026-06-25",
+    "admrul|1|5": "2026-06-25",
+    "admrul|1|6": "2026-06-25",
     "admrul|2|1": "2026-09-23",
     "admrul|2|5": "2026-06-25",
     "admrul|2|6": "2026-06-25",
@@ -238,7 +238,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T08:16:27.079017+00:00"
+      "checked_at": "2026-11-11T09:36:20.779437+00:00"
     },
     "admrul|2|1|2026-10-22|2026-11-04|historical": {
       "reported": 69,
@@ -721,7 +721,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T08:16:06.765525+00:00"
+      "checked_at": "2026-11-11T09:35:32.103971+00:00"
     },
     "admrul|1|4|2026-10-08|2026-10-21|historical": {
       "reported": 3,
@@ -750,7 +750,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T08:16:14.969832+00:00"
+      "checked_at": "2026-11-11T09:35:38.327868+00:00"
     },
     "admrul|1|5|2026-10-08|2026-10-21|historical": {
       "reported": 1,
@@ -779,7 +779,7 @@
       "stage": "recent",
       "query_year": "",
       "search_scope": 1,
-      "checked_at": "2026-11-11T08:16:25.321662+00:00"
+      "checked_at": "2026-11-11T09:35:39.533229+00:00"
     },
     "admrul|1|6|2026-10-08|2026-10-21|historical": {
       "reported": 0,
@@ -1030,6 +1030,10 @@
       "checked_at": "2026-11-11T08:16:53.955221+00:00"
     },
     "admrul|1||2025-05-20|2026-11-11|annual_body_forward": {
+      "reported": 853,
+      "collected": 853,
+      "pages": 9,
+      "complete": true,
       "source": "admrul",
       "edition": "1",
       "kind": "",
@@ -1038,11 +1042,13 @@
       "stage": "annual_body_forward",
       "query_year": "2027",
       "search_scope": 2,
-      "complete": false,
-      "checked_at": "2026-11-11T09:07:17.671486+00:00",
-      "error": "TimeoutError: collection_budget_reached"
+      "checked_at": "2026-11-11T09:34:33.745745+00:00"
     },
     "admrul|2||2025-05-20|2026-11-11|annual_body_forward": {
+      "reported": 1161,
+      "collected": 1161,
+      "pages": 12,
+      "complete": true,
       "source": "admrul",
       "edition": "2",
       "kind": "",
@@ -1051,9 +1057,7 @@
       "stage": "annual_body_forward",
       "query_year": "2027",
       "search_scope": 2,
-      "complete": false,
-      "checked_at": "2026-11-11T08:54:21.299525+00:00",
-      "error": "TimeoutError: collection_budget_reached"
+      "checked_at": "2026-11-11T09:35:31.435783+00:00"
     },
     "admrul|2|5|2026-06-26|2026-09-23|historical": {
       "reported": 14,
@@ -1159,6 +1163,51 @@
       "complete": false,
       "checked_at": "2026-11-11T09:06:25.170407+00:00",
       "error": "RuntimeError: official_api_network_error: URLError"
+    },
+    "admrul|1|4|2026-06-26|2026-09-23|historical": {
+      "reported": 18,
+      "collected": 18,
+      "pages": 1,
+      "complete": true,
+      "source": "admrul",
+      "edition": "1",
+      "kind": "4",
+      "first": "2026-06-26",
+      "last": "2026-09-23",
+      "stage": "historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T09:35:32.778889+00:00"
+    },
+    "admrul|1|5|2026-06-26|2026-09-23|historical": {
+      "reported": 14,
+      "collected": 14,
+      "pages": 1,
+      "complete": true,
+      "source": "admrul",
+      "edition": "1",
+      "kind": "5",
+      "first": "2026-06-26",
+      "last": "2026-09-23",
+      "stage": "historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T09:35:38.873924+00:00"
+    },
+    "admrul|1|6|2026-06-26|2026-09-23|historical": {
+      "reported": 0,
+      "collected": 0,
+      "pages": 1,
+      "complete": true,
+      "source": "admrul",
+      "edition": "1",
+      "kind": "6",
+      "first": "2026-06-26",
+      "last": "2026-09-23",
+      "stage": "historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T09:35:59.872724+00:00"
     }
   },
   "attempts": {
@@ -1352,7 +1401,50 @@
     "admrul|91237|2100000287840": 1,
     "admrul|98673|2100000287936": 2,
     "admrul|36044|2100000287734": 2,
-    "law|007528|291901": 2
+    "law|007528|291901": 2,
+    "ordin|2268710|2182613": 2,
+    "ordin|2241974|2182585": 1,
+    "ordin|2007644|2182483": 1,
+    "ordin|2171392|2182475": 1,
+    "ordin|2152193|2182473": 1,
+    "ordin|2078875|2182383": 1,
+    "ordin|2078807|2182381": 1,
+    "ordin|2150426|2182369": 1,
+    "ordin|2146468|2182365": 1,
+    "ordin|2268673|2182351": 2,
+    "ordin|2268672|2182349": 2,
+    "ordin|2074809|2182331": 1,
+    "ordin|2074921|2182329": 1,
+    "ordin|2074612|2182327": 1,
+    "ordin|2074927|2182325": 1,
+    "ordin|2074923|2182323": 1,
+    "ordin|2074939|2182321": 1,
+    "ordin|2074617|2182319": 1,
+    "ordin|2074930|2182317": 1,
+    "ordin|2221498|2182291": 1,
+    "ordin|2236923|2182289": 1,
+    "ordin|2074807|2182287": 1,
+    "ordin|2074806|2182267": 1,
+    "ordin|2164444|2182265": 1,
+    "ordin|2074922|2182263": 1,
+    "ordin|2189278|2182261": 1,
+    "ordin|2074716|2182259": 1,
+    "ordin|2074720|2182253": 1,
+    "ordin|2074621|2182251": 1,
+    "ordin|2074623|2182247": 1,
+    "ordin|2074616|2182245": 1,
+    "ordin|2074700|2182243": 1,
+    "ordin|2074625|2182241": 1,
+    "ordin|2074678|2182239": 1,
+    "ordin|2074937|2182177": 1,
+    "ordin|2074706|2182175": 1,
+    "ordin|2074736|2182173": 1,
+    "ordin|215350|2180885": 1,
+    "ordin|215349|2180883": 1,
+    "ordin|2060446|2182463": 1,
+    "ordin|2268650|2182115": 2,
+    "ordin|2268649|2182085": 2,
+    "ordin|2063038|2182079": 2
   },
   "errors": {
     "admrul|40796|2100000287994": "RuntimeError: official_api_network_error: URLError",
@@ -1378,19 +1470,27 @@
     "admrul|59276|2100000287920": "RuntimeError: official_api_network_error: URLError",
     "admrul|98673|2100000287936": "predecessor_not_found",
     "admrul|36044|2100000287734": "RuntimeError: official_api_network_error: URLError",
-    "law|007528|291901": "RuntimeError: official_api_network_error: URLError"
+    "law|007528|291901": "RuntimeError: official_api_network_error: URLError",
+    "ordin|2268710|2182613": "predecessor_not_found",
+    "ordin|2150426|2182369": "official_body_not_parsed",
+    "ordin|2146468|2182365": "official_body_not_parsed",
+    "ordin|2268673|2182351": "predecessor_not_found",
+    "ordin|2268672|2182349": "predecessor_not_found",
+    "ordin|2268650|2182115": "predecessor_not_found",
+    "ordin|2268649|2182085": "predecessor_not_found",
+    "ordin|2063038|2182079": "TimeoutError: collection_budget_reached"
   },
-  "stream_offset": 5,
+  "stream_offset": 11,
   "last_run": "2026-11-11",
   "last_run_stats": {
-    "detail_attempted": 9,
-    "complete_originals_added": 7,
-    "compared_pairs_processed": 6,
-    "failed_windows": 3,
+    "detail_attempted": 43,
+    "complete_originals_added": 16,
+    "compared_pairs_processed": 35,
+    "failed_windows": 0,
     "streams_checked": 6,
-    "pending_index_versions": 9401,
+    "pending_index_versions": 9422,
     "year_search_year": 2027
   },
-  "annual_kind_offset": 2,
-  "failed_retry_offset": 0
+  "annual_kind_offset": 4,
+  "failed_retry_offset": 2
 }
