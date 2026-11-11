@@ -9,12 +9,16 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183869",
   "category": "기타 제·개정",
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
   "changes": [],
-  "unresolved": [],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
   "institutions": [],
   "policy_analysis": null,
   "impact_level": "normal",
-  "prior_url": ""
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2000031"
 }

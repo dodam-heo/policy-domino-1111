@@ -9,12 +9,29 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183899",
   "category": "기타 제·개정",
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
-  "unresolved": [],
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제000400조",
+      "before": "제4조(여비 지급) ①의원이 의회 본회의 또는 위원회의 의결이나, 의장의 명에 의하여 공무로 여행할 때에는 여비를 지급한다. ② 제1항에 따른 여비는 국내여비와 국외여비로 구분한다.<개정 2019.4.15> ③ 국내여비는 별표 3의 지급기준표에 따라 지급하며, 국외여비는 별표 4의 지급기준표에 따라 지급한다.<개정 2019.4.15>",
+      "after": "제4조(여비 지급) ① 의원이 의회 본회의 또는 위원회의 의결이나, 의장의 명에 의하여 공무로 여행할 때에는 여비를 지급한다. ② 제1항에 따른 여비는 국내여비와 국외여비로 구분한다.<개정 2019.4.15> ③ 국내여비는 별표 3의 지급기준표에 따라 지급하며, 국외여비는 별표 4의 지급기준표에 따라 지급한다.<개정 2019.4.15>"
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
   "institutions": [],
-  "policy_analysis": null,
+  "policy_analysis": {
+    "explanation": "제4조제1항 본문 중 '①의원이'의 띄어쓰기가 '① 의원이'로 형식적으로 수정되었습니다.",
+    "old_quote": "제000400조: 제4조(여비 지급) ①의원이 의회 본회의 또는 위원회의 의결이나, 의장의 명에 의하여 공무로 여행할 때에는 여비를 지급한다. ② 제1항에 따른 여비는 국내여비와 국외여비로 구분한다.<개정 2019.4.15> ③ 국내여비는 별표 3의 지급기준표에 따라 지급하며, 국외여비는 별표 4의 지급기준표에 따라 지급한다.<개정 2019.4.15>",
+    "new_quote": "제000400조: 제4조(여비 지급) ① 의원이 의회 본회의 또는 위원회의 의결이나, 의장의 명에 의하여 공무로 여행할 때에는 여비를 지급한다. ② 제1항에 따른 여비는 국내여비와 국외여비로 구분한다.<개정 2019.4.15> ③ 국내여비는 별표 3의 지급기준표에 따라 지급하며, 국외여비는 별표 4의 지급기준표에 따라 지급한다.<개정 2019.4.15>",
+    "program_quote": "제000400조: 제4조(여비 지급) ① 의원이 의회 본회의 또는 위원회의 의결이나, 의장의 명에 의하여 공무로 여행할 때에는 여비를 지급한다. ② 제1항에 따른 여비는 국내여비와 국외여비로 구분한다.<개정 2019.4.15> ③ 국내여비는 별표 3의 지급기준표에 따라 지급하며, 국외여비는 별표 4의 지급기준표에 따라 지급한다.<개정 2019.4.15>",
+    "verified": true,
+    "model": "gemini-3.5-flash-lite"
+  },
   "impact_level": "normal",
-  "prior_url": ""
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1920549"
 }

@@ -8,13 +8,23 @@
   "effective_date": "2027-01-01",
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183723",
-  "category": "기타 제·개정",
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
-  "unresolved": [],
+  "category": "급여·지원기준",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제001000조",
+      "before": "제10조(아이디어실무심사위원회) ① 구청장은 심사위원회의 효율적인 운영을 위하여 아이디어총괄부서에 아이디어실무심사위원회(이하 “실무심사위원회”라 한다)를 둔다. ② 실무심사위원회 위원장은 아이디어총괄부서의 장으로 하고, 위원은 정책소통과 정책평가담당 6급, 행정지원과 서무담당 6급, 복지정책과 복지정책담당 6급, 도시행정과 도시행정담당 6급, 보건소 보건과 보건행정담당 6급으로 한다.(개정 2011.12.23, 2014.12.30, 2016.6.30, 2019.06.27,2021.05.31, 2024.6.5.) ③ 실무심사위원회는 아이디어 내용이 제3조제1호에 따른 아이디어에 해당되는 지 등 기초적인 사항을 심사하여 심사위원회의 추천여부를 결정한다. ④ 실무심사위원회 회의는 필요 시 수시로 개최할 수 있다.",
+      "after": "제10조(아이디어실무심사위원회) ① 구청장은 심사위원회의 효율적인 운영을 위하여 아이디어총괄부서에 아이디어실무심사위원회(이하 “실무심사위원회”라 한다)를 둔다. ② 실무심사위원회 위원장은 아이디어총괄부서의 장으로 하고, 위원은 공공정책과 공공혁신담당 6급, 총무과 서무담당 6급, 복지정책과 복지정책담당 6급, 도시행정과 도시행정담당 6급, 보건소 보건과 보건행정담당 6급으로 한다.(개정 2011.12.23, 2014.12.30, 2016.6.30, 2019.06.27,2021.05.31, 2024.6.5.,2026.11.10.) ③ 실무심사위원회는 아이디어 내용이 제3조제1호에 따른 아이디어에 해당되는 지 등 기초적인 사항을 심사하여 심사위원회의 추천여부를 결정한다. ④ 실무심사위원회 회의는 필요 시 수시로 개최할 수 있다."
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
   "institutions": [],
   "policy_analysis": null,
   "impact_level": "normal",
-  "prior_url": ""
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1935853"
 }

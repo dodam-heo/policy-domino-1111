@@ -9,12 +9,18 @@
   "revision": "일부개정",
   "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183767",
   "category": "기타 제·개정",
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
+  "comparison_status": "changed",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제000400조",
+      "before": "제4조(편집위원회) ① 소식지 발행 업무를 효율적으로 운영하기 위하여 대구광역시 북구 소식지 편집위원회(이하 “위원회”라 한다.)를 둔다. ② 위원회는 위원장과 부위원장 각 1명을 포함한 15명 이내의 위원으로 구성한다. ③ 위원장은 부구청장이 되고 부위원장은 위원 중에서 선출하며 정책소통과장은 당연직 위원이 된다.(일부개정 2024.6.5.) ④ 위원은 북구 소속 공무원과 북구의회 의원 및 소식지 발행에 관한 학식과 경험이 있는 사람 중에서 구청장이 임명하거나 위촉한다. ⑤ 위원 중 공무원이 아닌 위원의 임기는 2년으로 하되, 연임할 수 있다.",
+      "after": "제4조(편집위원회) ① 소식지 발행 업무를 효율적으로 운영하기 위하여 대구광역시 북구 소식지 편집위원회(이하 “위원회”라 한다.)를 둔다. ② 위원회는 위원장과 부위원장 각 1명을 포함한 15명 이내의 위원으로 구성한다. ③ 위원장은 부구청장이 되고 부위원장은 위원 중에서 선출하며 홍보과장은 당연직 위원이 된다.(일부개정 2024.6.5.,2026.11.10.) ④ 위원은 북구 소속 공무원과 북구의회 의원 및 소식지 발행에 관한 학식과 경험이 있는 사람 중에서 구청장이 임명하거나 위촉한다. ⑤ 위원 중 공무원이 아닌 위원의 임기는 2년으로 하되, 연임할 수 있다."
+    }
+  ],
   "unresolved": [],
   "institutions": [],
   "policy_analysis": null,
   "impact_level": "normal",
-  "prior_url": ""
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=1935851"
 }
