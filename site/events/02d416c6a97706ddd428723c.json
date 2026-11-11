@@ -1,0 +1,98 @@
+{
+  "id": "ordin|2060603|2179937",
+  "title": "부산광역시 금정구 행정기구 설치 조례 시행규칙",
+  "source": "ordin",
+  "kind": "",
+  "ministry": "부산광역시 금정구",
+  "published_at": "2026-10-23",
+  "effective_date": "2027-01-01",
+  "revision": "일부개정",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2179937",
+  "category": "급여·지원기준",
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "제7조",
+      "before": "제7조(복지교육국) 국장은 지방서기관으로 보하고, 복지정책과장ㆍ생활보장과장은 지방행정사무관 또는 지방사회복지사무관으로, 평생교육과장ㆍ가족정책과장은 지방행정사무관으로 보한다. <개정 2025.7.1.>",
+      "after": "제7조(복지교육국) 국장은 지방서기관으로 보하고, 복지정책과장ㆍ가족정책과장ㆍ생활보장과장은 지방행정사무관 또는 지방사회복지사무관으로, 평생교육과장은 지방행정사무관으로 보한다. <개정 2025.7.1.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제7조(복지교육국) 국장은 지방서기관으로 보하고, 복지정책과장ㆍ",
+            "changed": "",
+            "suffix": "생활보장과장은 지방행정사무관 또는 지방사회복지사무관으로, 평생교육과장ㆍ가족정책과장…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제7조(복지교육국) 국장은 지방서기관으로 보하고, 복지정책과장ㆍ",
+            "changed": "가족정책과장ㆍ",
+            "suffix": "생활보장과장은 지방행정사무관 또는 지방사회복지사무관으로, 평생교육과장은 지방행정사…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "… 보하고, 복지정책과장ㆍ생활보장과장은 지방행정사무관 또는 지방사회복지사무관으로, ",
+            "changed": "평생교육과장ㆍ가족정책과장은",
+            "suffix": " 지방행정사무관으로 보한다. <개정 2025.7.1.>",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…지정책과장ㆍ가족정책과장ㆍ생활보장과장은 지방행정사무관 또는 지방사회복지사무관으로, ",
+            "changed": "평생교육과장은",
+            "suffix": " 지방행정사무관으로 보한다. <개정 2025.7.1.>",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    },
+    {
+      "article": "제8조",
+      "before": "제8조(안전도시국) 국장은 지방과학기술서기관으로 보하고, 안전관리과장ㆍ도시관리과장은 지방행정사무관으로, 건설과장ㆍ건축과장은 지방시설사무관으로 보한다. <개정 2026.3.5.>",
+      "after": "제8조(안전도시국) 국장은 지방과학기술서기관으로 보하고, 안전관리과장은 지방행정사무관으로, 도시정책과장은 지방행정사무관 또는 지방시설사무관으로, 건설과장ㆍ건축과장은 지방시설사무관으로 보한다. <개정 2026.3.5.>",
+      "focus": [
+        {
+          "before": {
+            "prefix": "제8조(안전도시국) 국장은 지방과학기술서기관으로 보하고, ",
+            "changed": "안전관리과장ㆍ도시관리과장은",
+            "suffix": " 지방행정사무관으로, 건설과장ㆍ건축과장은 지방시설사무관으로 보한다. <개정 202…",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "제8조(안전도시국) 국장은 지방과학기술서기관으로 보하고, ",
+            "changed": "안전관리과장은",
+            "suffix": " 지방행정사무관으로, 도시정책과장은 지방행정사무관 또는 지방시설사무관으로, 건설과…",
+            "truncated": false
+          }
+        },
+        {
+          "before": {
+            "prefix": "…국장은 지방과학기술서기관으로 보하고, 안전관리과장ㆍ도시관리과장은 지방행정사무관으로",
+            "changed": "",
+            "suffix": ", 건설과장ㆍ건축과장은 지방시설사무관으로 보한다. <개정 2026.3.5.>",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…안전도시국) 국장은 지방과학기술서기관으로 보하고, 안전관리과장은 지방행정사무관으로",
+            "changed": ", 도시정책과장은 지방행정사무관 또는 지방시설사무관으로",
+            "suffix": ", 건설과장ㆍ건축과장은 지방시설사무관으로 보한다. <개정 2026.3.5.>",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 2
+    }
+  ],
+  "unresolved": [
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
+  "institutions": [],
+  "dependent_rules": [],
+  "policy_analysis": null,
+  "impact_level": "normal",
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2114555"
+}

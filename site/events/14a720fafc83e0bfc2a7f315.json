@@ -330,7 +330,7 @@
       "agency_type": "시군구",
       "service": "국가보훈대상자 사망위로금 지원",
       "service_id": "507000000768",
-      "service_url": "https://www.data.go.kr/data/15113968/openapi.do",
+      "service_url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1006081&bnefType=all&svcId=507000000768",
       "policy_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=ordin&type=HTML&MST=2183067",
       "policy": "안동시 국가보훈대상자 예우 및 지원에 관한 조례",
       "changed_clause": "제14조",

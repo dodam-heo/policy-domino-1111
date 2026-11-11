@@ -1433,6 +1433,11 @@
       "checked_at": "2026-11-11T10:09:02.623962+00:00"
     },
     "ordin|1||2026-08-09|2026-09-07|historical": {
+      "reported": 3453,
+      "collected": 2000,
+      "pages": 20,
+      "complete": false,
+      "error": "pagination_limit",
       "source": "ordin",
       "edition": "1",
       "kind": "",
@@ -1441,9 +1446,36 @@
       "stage": "historical",
       "query_year": "",
       "search_scope": 1,
+      "checked_at": "2026-11-11T10:21:28.658568+00:00"
+    },
+    "ordin|1||2026-08-09|2026-08-23|split_historical": {
+      "reported": 2664,
+      "collected": 2000,
+      "pages": 20,
       "complete": false,
-      "checked_at": "2026-11-11T10:11:12.731771+00:00",
-      "error": "RuntimeError: official_api_network_error: URLError"
+      "error": "pagination_limit",
+      "source": "ordin",
+      "edition": "1",
+      "kind": "",
+      "first": "2026-08-09",
+      "last": "2026-08-23",
+      "stage": "split_historical",
+      "query_year": "",
+      "search_scope": 1,
+      "checked_at": "2026-11-11T10:23:00.974097+00:00"
+    },
+    "ordin|1||2026-08-09|2026-08-16|split_split_historical": {
+      "source": "ordin",
+      "edition": "1",
+      "kind": "",
+      "first": "2026-08-09",
+      "last": "2026-08-16",
+      "stage": "split_split_historical",
+      "query_year": "",
+      "search_scope": 1,
+      "complete": false,
+      "checked_at": "2026-11-11T10:23:32.765607+00:00",
+      "error": "TimeoutError: collection_budget_reached"
     }
   },
   "attempts": {
@@ -1746,7 +1778,23 @@
     "admrul|30235|2100000287716": 1,
     "admrul|38049|2100000287058": 1,
     "admrul|94247|2100000287072": 2,
-    "law|014669|291865": 1
+    "law|014669|291865": 1,
+    "ordin|2062517|2181027": 1,
+    "ordin|2125987|2179983": 1,
+    "ordin|2126046|2179981": 1,
+    "ordin|2081694|2179667": 1,
+    "ordin|2141747|2179659": 1,
+    "ordin|2142451|2179655": 1,
+    "ordin|2145122|2179939": 1,
+    "ordin|2060603|2179937": 1,
+    "ordin|2060602|2179581": 1,
+    "ordin|2243572|2179383": 1,
+    "ordin|2268405|2179315": 2,
+    "ordin|2062580|2180675": 1,
+    "admrul|2087954|2100000286974": 1,
+    "admrul|75250|2100000286976": 1,
+    "admrul|73876|2100000286940": 1,
+    "admrul|93578|2100000286916": 2
   },
   "errors": {
     "admrul|40796|2100000287994": "RuntimeError: official_api_network_error: URLError",
@@ -1793,19 +1841,23 @@
     "ordin|2268551|2181039": "predecessor_not_found",
     "ordin|2268446|2180177": "predecessor_not_found",
     "ordin|2213535|2181033": "TimeoutError: collection_budget_reached",
-    "admrul|94247|2100000287072": "RuntimeError: official_api_network_error: URLError"
+    "admrul|94247|2100000287072": "RuntimeError: official_api_network_error: URLError",
+    "ordin|2141747|2179659": "official_body_not_parsed",
+    "ordin|2142451|2179655": "official_body_not_parsed",
+    "ordin|2268405|2179315": "predecessor_not_found",
+    "admrul|93578|2100000286916": "TimeoutError: collection_budget_reached"
   },
-  "stream_offset": 14,
+  "stream_offset": 5,
   "last_run": "2026-11-11",
   "last_run_stats": {
-    "detail_attempted": 7,
-    "complete_originals_added": 1,
-    "compared_pairs_processed": 6,
-    "failed_windows": 1,
+    "detail_attempted": 16,
+    "complete_originals_added": 6,
+    "compared_pairs_processed": 12,
+    "failed_windows": 3,
     "streams_checked": 6,
-    "pending_index_versions": 11414,
+    "pending_index_versions": 14207,
     "year_search_year": 2027
   },
-  "annual_kind_offset": 4,
-  "failed_retry_offset": 1
+  "annual_kind_offset": 0,
+  "failed_retry_offset": 0
 }

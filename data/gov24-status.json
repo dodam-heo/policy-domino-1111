@@ -1,16 +1,13 @@
 {
-  "complete_serviceList": false,
+  "complete_serviceList": true,
   "cursor_serviceList": 1,
-  "complete_serviceDetail": false,
+  "complete_serviceDetail": true,
   "cursor_serviceDetail": 1,
   "last_run": {
-    "listed_pages": 0,
-    "detail_pages": 0,
-    "changed_shards": 0,
-    "errors": [
-      "serviceList:HTTPError:HTTP Error 401: Unauthorized",
-      "serviceDetail:HTTPError:HTTP Error 401: Unauthorized"
-    ],
+    "listed_pages": 11,
+    "detail_pages": 55,
+    "changed_shards": 10365,
+    "errors": [],
     "provider": "https://www.data.go.kr/data/15113968/openapi.do"
   }
 }

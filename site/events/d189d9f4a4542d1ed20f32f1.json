@@ -7,15 +7,58 @@
   "published_at": "2026-10-15",
   "effective_date": "2028-12-31",
   "revision": "일부개정",
-  "url": "https://www.law.go.kr/행정규칙/%ED%86%B5%EA%B3%84%EC%9E%91%EC%84%B1%EC%9D%98%20%EB%B3%80%EA%B2%BD%EC%8A%B9%EC%9D%B8%28%ED%98%91%EC%9D%98%29%20%EA%B3%A0%EC%8B%9C%28%EB%B3%B4%EB%A0%B9%EC%8B%9C%EB%85%B8%EC%9D%B8%ED%86%B5%EA%B3%84%29",
+  "url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000286976",
   "category": "행정절차·인허가",
-  "comparison_status": "original_saved_comparison_pending",
-  "relationship": "",
-  "changes": [],
-  "unresolved": [],
+  "comparison_status": "partial_unverified",
+  "relationship": "same_official_id_revision",
+  "changes": [
+    {
+      "article": "본문",
+      "before": "1. 통계의 명칭 : 보령시노인통계 2. 통계작성기관의 명칭 : 충청남도 보령시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제693003호 [2020.12.18.] 4. 통계작성의 변경 연월일 : 2024.12.31. 5. 통계작성의 변경 내용과 사유: [표: 공식 첨부 참조]",
+      "after": "1. 통계의 명칭 : 보령시노인통계 2. 통계작성기관의 명칭 : 충청남도 보령시 3. 통계작성승인(협의)번호 [작성승인(협의)일] : 제693003호 [2020.12.18.] 4. 통계작성의 변경 연월일 : 2028.12.31. 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+      "focus": [
+        {
+          "before": {
+            "prefix": "…] : 제693003호 [2020.12.18.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2024.12.31.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유: [표: 공식 첨부 참조]",
+            "truncated": false
+          },
+          "after": {
+            "prefix": "…] : 제693003호 [2020.12.18.] 4. 통계작성의 변경 연월일 : ",
+            "changed": "2028.12.31.",
+            "suffix": " 5. 통계작성의 변경 내용과 사유 : [표: 공식 첨부 참조]",
+            "truncated": false
+          }
+        }
+      ],
+      "diff_window_count": 1
+    }
+  ],
+  "unresolved": [
+    {
+      "clause": "첨부 1",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "첨부 2",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "첨부 3",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "clause": "첨부 4",
+      "reason": "counterpart_not_verified"
+    },
+    {
+      "reason": "incomplete_original_or_attachment"
+    }
+  ],
   "institutions": [],
   "dependent_rules": [],
   "policy_analysis": null,
   "impact_level": "normal",
-  "prior_url": ""
+  "prior_url": "https://www.law.go.kr/DRF/lawService.do?OC=dori&target=admrul&type=HTML&ID=2100000251036"
 }
